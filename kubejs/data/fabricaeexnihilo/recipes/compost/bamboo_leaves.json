@@ -1,0 +1,7 @@
+{
+  "type": "fabricaeexnihilo:compost",
+  "result": "minecraft:dirt",
+  "input": "twigs:bamboo_leaves",
+  "increment": 0.0625,
+  "color": "00AA00"
+}

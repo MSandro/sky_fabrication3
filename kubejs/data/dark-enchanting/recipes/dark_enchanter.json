@@ -1,0 +1,40 @@
+{
+  "type": "artis:bigger_bench_shaped",
+  "pattern": [
+    "XXXXXXX",
+    "XDEDEDX",
+    "XEWSWEX",
+    "XDWQWDX",
+    "XEWNWEX",
+    "XDEDEDX",
+    "XXXXXXX"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "D": {
+      "item": "botania:dragonstone"
+    },
+    "N": {
+      "item": "kubejs:infinity_catalyst"
+    },
+    "Q": {
+      "item": "minecraft:enchanting_table"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "X": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "dark-enchanting:dark_enchanter"
+  }
+}
+
+{"type":"minecraft:crafting_shaped","pattern":["EGE","GDG","CCC"],"key":{"E":{"item":""},"G":{"item":""},"D":{"item":""},"C":{"item":"compress:compressed_diamond_block_1"}},"result":{"item":""}}

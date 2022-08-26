@@ -1,0 +1,16 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "pattern":[
+    " L ",
+    "XRX",
+    " N "
+  ],
+  "key":{
+    "L":{"item": "create:polished_rose_quartz"},
+    "R":{"item": "minecraft:redstone_torch"},
+    "N":{"tag": "c:nuggets/iron"},
+    "X":{"tag": "c:glowstone_small_dusts"}
+  },
+  "result":{
+    "item":"create:electron_tube"}
+  }

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iGi",
+    "RJB",
+    "IPI"
+  ],
+  "key": {
+    "i": {
+      "tag": "c:iron_ingots"
+    },
+    "G": {
+      "tag": "c:dye_green"
+    },
+    "R": {
+      "tag": "c:dye_red"
+    },
+    "J": {
+      "item": "techreborn:basic_machine_casing"
+    },
+    "B": {
+      "tag": "c:dye_blue"
+    },
+    "I": {
+      "tag": "c:iron_blocks"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "extragenerators:colorful_generator",
+    "count": 1
+  }
+}

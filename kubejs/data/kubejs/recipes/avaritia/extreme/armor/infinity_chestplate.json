@@ -1,0 +1,34 @@
+{
+	"type": "artis:biggest_bench_shaped",
+	"result": {
+		"item": "modern_industrialization:quantum_chestplate"
+	},
+	"pattern": [
+		" NN   NN ",
+		"NNN   NNN",
+		"NNN   NNN",
+		" NIIIIIN ",
+		" NIIXIIN ",
+		" NIIYIIN ",
+		" NIIZIIN ",
+		" NIIIIIN ",
+		"  NNNNN  "
+	],
+	"key": {
+		"I": {
+			"item": "kubejs:infinity_ingot"
+		},
+		"X": {
+			"item": "kubejs:crystal_matrix"
+		},
+		"Y": {
+			"item": "modern_industrialization:gravichestplate"
+		},
+		"Z": {
+			"item": "modern_industrialization:quantum_upgrade"
+		},
+		"N": {
+			"item": "kubejs:neutronium_ingot"
+		}
+	}
+}

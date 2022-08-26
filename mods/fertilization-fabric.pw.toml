@@ -1,0 +1,13 @@
+name = "Fertilization (Fabric Edition)"
+filename = "fertilization-fabric-1.18.2-8.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "23b60864be1ba83f4828cb77d44679f7ffe6bca6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3684753
+project-id = 506759

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "   ",
+      "NXN",
+      "   "
+    ],
+    "key": {
+      "X": {
+          "item": "minecraft:copper_ingot"
+      },
+      "N": {
+          "tag": "c:copper_nuggets"
+      }
+    },
+    "result": {
+      "item": "agape_space:wire"
+    }
+  }

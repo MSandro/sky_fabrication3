@@ -1,0 +1,13 @@
+name = "CreatePlus"
+filename = "createplus-1.0.0-beta4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "199a839806d471ff5b44e65b084998e10ec176ef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3793504
+project-id = 623941

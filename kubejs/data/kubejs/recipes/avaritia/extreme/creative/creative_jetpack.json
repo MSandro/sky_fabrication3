@@ -1,0 +1,67 @@
+{
+  "type": "artis:biggest_bench_shaped",
+  "pattern": [
+		"GGGLDLGGG",
+		" NBMAMBN ",
+		" NBMIMBN ",
+		" NBMEMBN ",
+		"HWH A HWH",
+		"HCH B HCH",
+		"FCF X FCF",
+		"FCF J FCF",
+		" Y     Y "
+  ],
+  "key": {
+    "A": {
+  		"item": "kibe:angel_ring"
+  	},
+    "B": {
+  		"item": "kubejs:infinity_catalyst"
+  	},
+    "C": {
+  		"item": "iron-jetpacks:creative_capacitor"
+  	},
+    "D": {
+  		"item": "modern_industrialization:diesel_jetpack"
+  	},
+    "E": {
+  		"item": "fabric-furnaces:ethereal_furnace"
+  	},
+    "F": {
+  		"item": "spectrum:moonstone_cluster"
+  	},
+    "G": {
+  		"item": "botania:flight_tiara"
+  	},
+    "H": {
+  		"item": "indrev:module_feather_falling"
+  	},
+    "I": {
+  		"item": "kubejs:infinity_ingot"
+  	},
+    "J": {
+  		"item": "iron-jetpacks:neutronium_jetpack"
+  	},
+    "L": {
+  		"item": "betterend:filalux_wings"
+  	},
+    "M": {
+  		"item": "botania:gaia_ingot"
+  	},
+    "N": {
+  		"item": "dml-refabricated:glitch_ingot"
+  	},
+  	"W": {
+  		"item": "betterend:elytra_armored"
+  	},
+  	"X": {
+  		"item": "agape_space:part_engine_liquid"
+  	},
+    "Y": {
+  		"item": "iron-jetpacks:creative_thruster"
+  	}
+  },
+  "result": {
+    "item": "iron-jetpacks:creative_jetpack"
+  }
+}

@@ -1,0 +1,13 @@
+name = "Light Emitting Diode"
+filename = "led-1.2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f864a4b84509a84adcf66accb8218bef0304b5e5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3836040
+project-id = 461885

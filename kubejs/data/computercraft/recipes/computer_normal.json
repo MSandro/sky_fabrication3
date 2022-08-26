@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#R#",
+    "#G#"
+  ],
+  "key": {
+    "#": {
+      "item": "techreborn:refined_iron_ingot"
+    },
+    "R": {
+      "item": "techreborn:electronic_circuit"
+    },
+    "G": {
+      "tag": "c:glass_panes"
+    }
+  },
+  "result": {
+    "item": "computercraft:computer_normal"
+  }
+}

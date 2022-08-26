@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:infinity_ingot"
+    },
+    {
+      "item": "kubejs:infinity_ingot"
+    },
+    {
+      "item": "kubejs:infinity_ingot"
+    },
+    {
+      "item": "kubejs:infinity_ingot"
+    },
+    {
+      "item": "kubejs:infinity_ingot"
+    },
+    {
+      "item": "kubejs:infinity_ingot"
+    },
+    {
+      "item": "kubejs:infinity_ingot"
+    },
+    {
+      "item": "kubejs:infinity_ingot"
+    },
+    {
+      "item": "kubejs:infinity_ingot"
+    }
+  ],
+  "result": {
+    "item": "kubejs:infinity_block",
+    "count": 1
+  }
+}

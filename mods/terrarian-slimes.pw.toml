@@ -1,0 +1,13 @@
+name = "Terrarian Slimes"
+filename = "terrarian-slimes-1.2.1-BETA+1.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9b5a8976135abb42b9fc5e2c6326a1f5f8d84542"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3852543
+project-id = 465336

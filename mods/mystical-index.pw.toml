@@ -1,0 +1,13 @@
+name = "Mystical Index"
+filename = "mystical_index-1.18.2-0.0.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b4ab534b157b462b77ab7919fee5fb5c7ae41fce"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3748527
+project-id = 567009

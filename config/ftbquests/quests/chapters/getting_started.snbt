@@ -1,0 +1,233 @@
+{
+	id: "77498621DD383E8B"
+	group: ""
+	order_index: 0
+	filename: "getting_started"
+	title: "Getting Started"
+	icon: "onastick:crafting_table_on_a_stick"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to Sky FABRICation 3"
+			icon: "kubejs:skyfabrication_logo"
+			x: 7.5357142857142705d
+			y: 2.017857142857146d
+			shape: "octagon"
+			subtitle: "A Whole New Void!"
+			description: [
+				"Thanks for playing Sky FABRICation 3."
+				""
+				""
+				"In this version you have the choice how to start the modpack. Check and Claim one of the following 3 Quests to start."
+			]
+			size: 1.5d
+			id: "175F5611FB7716A4"
+			tasks: [{
+				id: "25B2DFAFD351900E"
+				type: "checkmark"
+				title: "Welcome to Sky FABRICation 3"
+				icon: "kubejs:aof5_logo"
+			}]
+			rewards: [
+				{
+					id: "71DCA33AC06D25FB"
+					type: "custom"
+					title: "Unlock Inventory"
+					icon: "xps:key"
+					auto: "enabled"
+				}
+				{
+					id: "6F0ADFD33AA82B12"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:apple"
+					count: 8
+				}
+				{
+					id: "603A41D43C735B53"
+					type: "item"
+					auto: "enabled"
+					item: "minecraft:cooked_porkchop"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			subtitle: "Ores Be Gone!"
+			description: [
+				"Excavate is by default bound to keybind \"Grave\""
+				""
+				"You can change this keybind by going into options and change the FTB Ultimine keybinds."
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "7050DE96E151D1D1"
+			tasks: [{
+				id: "520CE3437306804D"
+				type: "checkmark"
+				title: "Excavate"
+				icon: {
+					id: "minecraft:diamond_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Where to start?"
+			icon: "techreborn:wrench"
+			x: 7.5d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Follow the Progression Guide to continue!"
+			description: [
+				"Mods are split into 4 categories:"
+				""
+				"- Technology"
+				"- Magic"
+				"- Utilities"
+				"- Logistics"
+				""
+				"Respectively, each chapter will guide you through progression."
+				""
+				"Certain chapters will have tips and tricks on how to ease your adventures with useful trinkets and gadgets."
+			]
+			dependencies: ["175F5611FB7716A4"]
+			size: 1.25d
+			id: "257EAB9268907E1D"
+			tasks: [{
+				id: "60A1EB763CF25699"
+				type: "checkmark"
+				title: "Learning Mods"
+			}]
+		}
+		{
+			title: "Crafting on the Go"
+			x: 6.0d
+			y: 3.5d
+			subtitle: "Only 0.0001 BTC"
+			description: [
+				"Tired of having to put that crafting table of yours down any time your tool breaks when mining? Look no more!"
+				""
+				"Make the Crafting Table On A Stick! "
+				""
+				"There's also one for the following:"
+				"- Anvil"
+				"- Cartography"
+				"- Grindstone"
+				"- Loom"
+				"- Smithing"
+				"- Stonecutter"
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "77EA450F77679791"
+			tasks: [{
+				id: "2EC6B9D7A8E9438D"
+				type: "checkmark"
+				title: "Crafting on the Go"
+				icon: "onastick:crafting_table_on_a_stick"
+			}]
+		}
+		{
+			title: "Recipe Wizardry"
+			icon: "botania:placeholder"
+			x: 9.0d
+			y: 3.5d
+			subtitle: "A recipe is a story that ends with a good meal."
+			description: [
+				"How to use an item? Hover over the item in REI and press \"U\" this will show you the uses, pay attention to the tabs."
+				""
+				"Dont know how to craft an item? Hover over the item and press \"R\"."
+				""
+				"Sometimes you have to start out processing a nugget, instead of an ingot or a block."
+				""
+				"You may need to look at the recipes for the material's respective nugget or sometimes even powders."
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "2AB91711E9E7B298"
+			tasks: [{
+				id: "0657F4EC97E5ACAC"
+				type: "checkmark"
+				title: "I know how to use U and R"
+			}]
+		}
+		{
+			title: "Fall into the void"
+			x: 5.5d
+			y: 2.0d
+			subtitle: "If you fall into the void you will be teleported to the top of the world."
+			dependencies: ["175F5611FB7716A4"]
+			id: "2A0B08D06A77891A"
+			tasks: [{
+				id: "5880F2C9D23E6209"
+				type: "custom"
+				title: "Fall in the Void"
+				icon: "yigd:grave"
+			}]
+			rewards: [{
+				id: "114D500D32EBB31E"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:slow_falling"
+					}
+				}
+			}]
+		}
+		{
+			title: "Where are my Trinkets Slots?"
+			x: 7.5d
+			y: 4.0d
+			subtitle: "use the switch in the upper right of your inventory!"
+			description: [
+				"Inventorio was installed to improve the inventory."
+				""
+				"By default you have a tool-belt and 4 off-hand slots."
+				"You can switch back to the default inventory by using the switch in the upper right."
+				""
+				"Please give feedback in the Discord Server."
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "47F9185D2FD40CB1"
+			tasks: [{
+				id: "167928F2A7F92222"
+				type: "checkmark"
+				title: "Inventory Upgrade"
+				icon: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "improved-stations:crafting_station"
+								Count: 1b
+							}
+							{
+								id: "improved-stations:crafting_station_slab"
+								Count: 1b
+							}
+							{
+								id: "toms_storage:ts.wireless_terminal"
+								Count: 1b
+							}
+							{
+								id: "toms_storage:ts.adv_wireless_terminal"
+								Count: 1b
+							}
+							{
+								id: "toms_storage:ts.crafting_terminal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,13 @@
+name = "Trap Expansion  (Fabric)"
+filename = "trapexpansion-1.3.3+fabric-mc1.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fcd91ad62e510ab05d2055e3b4a1e1b52b7248e0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3540177
+project-id = 334018

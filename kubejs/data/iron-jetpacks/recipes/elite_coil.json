@@ -1,0 +1,26 @@
+{
+  "type": "artis:upgrade_bench_shaped",
+  "pattern": [
+    "CRC",
+    "RDR",
+    "CRC"
+  ],
+  "key": {
+    "R": {
+      "item": "modern_industrialization:sodium_battery"
+    },
+    "D": {
+      "item": "modern_industrialization:electronic_circuit"
+    },
+    "C": {
+      "item": "modern_industrialization:kanthal_cable"
+    }
+  },
+  "catalyst": {
+     "item": "iron-jetpacks:advanced_coil"
+  },
+  "cost": 1,
+  "result": {
+    "item": "iron-jetpacks:elite_coil"
+  }
+}

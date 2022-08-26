@@ -1,0 +1,13 @@
+name = "Void Crafting"
+filename = "voidcrafting-1.6.4+fabric-1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "079108f9a36f0ef1c16533017dd22f52eab96e65"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3832321
+project-id = 615882

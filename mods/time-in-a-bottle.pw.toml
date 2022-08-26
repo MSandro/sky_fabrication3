@@ -1,0 +1,13 @@
+name = "Time in a Bottle (Fabric)"
+filename = "time-in-a-bottle-1.6.1-mc1.18.2-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ba8390c02c3a90455490f319b4c591920a29a976"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3668585
+project-id = 440243

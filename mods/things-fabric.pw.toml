@@ -1,0 +1,13 @@
+name = "Things [Fabric]"
+filename = "things-0.2.18+1.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1fd55d5cec9ce6cec1635efafd33621e8d9d45a7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3809741
+project-id = 456151

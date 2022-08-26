@@ -1,0 +1,13 @@
+name = "Wither Skeleton Totem"
+filename = "Wither-Totems-Mod-0.3.5-1.18.2-pre2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a4c484e3aa0ce251c29ff348c9734e66e2b2b266"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3668089
+project-id = 349850

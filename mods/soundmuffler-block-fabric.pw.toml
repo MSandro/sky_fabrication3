@@ -1,0 +1,13 @@
+name = "Soundmuffler Block [FABRIC]"
+filename = "sound-muffler-1.0.0-1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8a572e0110603a4f11abeb8d0f1028645a655fc7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3802806
+project-id = 627060

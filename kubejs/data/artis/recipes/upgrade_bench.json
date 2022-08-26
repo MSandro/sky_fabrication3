@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#I#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:workbench"
+    },
+    "I": {
+      "item": "techreborn:superconductor_upgrade"
+    }
+  },
+  "result": {
+    "item": "artis:upgrade_bench"
+  }
+}

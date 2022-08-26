@@ -1,0 +1,17 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "spectrum:resonant_lily"
+  },
+  "ingredients": [
+    {
+      "item": "spectrum:onyx_shard"
+    },
+    {
+      "item": "betternether:soul_lily_sapling"
+    },
+    {
+      "item": "botania:jiyuulia"
+    }
+  ]
+}

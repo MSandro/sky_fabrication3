@@ -1,0 +1,21 @@
+{
+	"type": "betterend:infusion",
+	"input": {
+		"item": "spectrum:moonstone_shard"
+	},
+	"result": {
+		"item": "croparia:elematilius",
+    "count": 4
+	},
+	"time": 300,
+	"catalysts": {
+		"north": "botania:terrasteel_ingot",
+		"north_east": "modern_industrialization:superconductor_ingot",
+		"east": "botania:terrasteel_ingot",
+		"south_east": "modern_industrialization:superconductor_ingot",
+		"south": "botania:terrasteel_ingot",
+		"south_west": "modern_industrialization:superconductor_ingot",
+		"west": "botania:terrasteel_ingot",
+		"north_west": "modern_industrialization:superconductor_ingot"
+	}
+}

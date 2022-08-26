@@ -1,0 +1,13 @@
+name = "Dimension Fix (Some Forge Patches Ported)"
+filename = "someforgepatchesported-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "89f4ae4076629e599365eda0bf0b7e71cdbcb2e8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3734912
+project-id = 437779

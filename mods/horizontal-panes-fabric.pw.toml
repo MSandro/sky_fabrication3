@@ -1,0 +1,13 @@
+name = "Horizontal Panes [FABRIC]"
+filename = "horizontalpanes-1.1.7+1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fa480f555ba218208b3ef9407f477fbd104a250a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3728411
+project-id = 428560

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "www",
+    "wbw",
+    "www"
+  ],
+  "key": {
+    "w": {
+      "tag": "minecraft:wool"
+    },
+    "b": {
+      "item": "chiselsandbits:bit_storage"
+    }
+  },
+  "result": {
+    "item": "chiselsandbits:bit_bag"
+  }
+}

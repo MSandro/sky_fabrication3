@@ -1,0 +1,13 @@
+{
+  "type": "voidcrafting:void_crafting",
+  "input": {
+    "item": "twigs:bamboo_thatch"
+  },
+  "world": "minecraft:overworld",
+  "radius": 0.001,
+  "absolute": true,
+  "result": {
+    "item": "minecraft:oak_leaves",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+name = "NoDrip [Fabric/Quilt]"
+filename = "NoDrip_Fabric-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c8bc6dea3734f2bf2bae24427dc67805bb64444a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3810512
+project-id = 629137

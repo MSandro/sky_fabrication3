@@ -1,0 +1,13 @@
+name = "Coxinha Utilities"
+filename = "coxinhautilities-1.4.2+1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8af070668c1d8e5924c2b31bfad24667a4c5fe00"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3925452
+project-id = 576449

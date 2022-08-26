@@ -1,0 +1,37 @@
+{
+  "type": "artis:biggest_bench_shaped",
+  "pattern": [
+		"NNNNNNNNN",
+		"NQQQQQQQN",
+		"NQTTTTTQN",
+		"NQTXIXTQN",
+		"NQTIRITQN",
+		"NQTXIXTQN",
+		"NQTTTTTQN",
+		"NQQQQQQQN",
+		"NNNNNNNNN"
+  ],
+  "key": {
+  	"N": {
+  		"item": "kubejs:neutronium_ingot"
+  	},
+  	"T": {
+  		"item": "botania:gaia_ingot"
+  	},
+  	"I": {
+  		"item": "kubejs:infinity_ingot"
+  	},
+  	"X": {
+  		"item": "kubejs:infinity_catalyst"
+  	},
+  	"R": {
+  		"item": "modern_industrialization:replicator"
+  	},
+  	"Q": {
+  		"item": "botania:terrasteel_block"
+  	}
+  },
+  "result": {
+    "item": "botania:creative_pool"
+  }
+}

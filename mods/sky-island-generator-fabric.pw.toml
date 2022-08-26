@@ -1,0 +1,13 @@
+name = "Sky-Island Generator [Fabric]"
+filename = "sky-builder-1.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c67d75e0a9dfc050e920b7dbcaabdee7b5868925"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3949870
+project-id = 640063

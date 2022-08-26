@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CRC",
+    "RDR",
+    "CRC"
+  ],
+  "key": {
+    "R": {
+      "item": "modern_industrialization:redstone_battery"
+    },
+    "D": {
+      "item": "indrev:circuit_mk1"
+    },
+    "C": {
+      "item": "modern_industrialization:silver_cable"
+    }
+  },
+  "result": {
+    "item": "iron-jetpacks:basic_coil"
+  }
+}

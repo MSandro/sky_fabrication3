@@ -1,0 +1,31 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "fabric:load_conditions": [
+        {
+          "condition": "compactmachines:config_enable_vanilla_recipes"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "WWW",
+          "WCW",
+          "WWW"
+        ],
+        "key": {
+          "W": {
+            "item": "compactmachines:wall"
+          },
+          "C": {
+            "item": "ae2:singularity"
+          }
+        },
+        "result": {
+          "item": "compactmachines:machine_tiny"
+        }
+      }
+    }
+  ]
+}

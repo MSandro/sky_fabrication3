@@ -1,0 +1,25 @@
+{
+  "result": {
+    "item": "buildinggadgets:template_manager"
+  },
+  "pattern": [
+    "iri",
+    "ere",
+    "ili"
+  ],
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "i": {
+      "item": "minecraft:gold_ingot"
+    },
+    "r": {
+      "item": "modern_industrialization:cadmium_battery"
+    },
+    "l": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "e": {
+      "item": "minecraft:emerald"
+    }
+  }
+}

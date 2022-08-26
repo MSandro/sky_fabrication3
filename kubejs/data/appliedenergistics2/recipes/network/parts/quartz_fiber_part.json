@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:glass"
+    },
+    "b": {
+      "tag": "c:quartz_dusts"
+    }
+  },
+  "result": {
+    "item": "ae2:quartz_fiber",
+    "count": 3
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "artis:bigger_bench_shaped",
+  "pattern": [
+		"BCCCCCB",
+		"BCCCCCB",
+		"BCCICCB",
+		"BCCCCCB",
+		"BCCCCCB"
+  ],
+  "key": {
+  	"B": {
+  		"item": "kubejs:infinity_catalyst"
+  	},
+  	"C": {
+  		"item": "iron-jetpacks:creative_cell"
+  	},
+  	"I": {
+  		"item": "kubejs:infinity_ingot"
+  	}
+  },
+  "result": {
+    "item": "iron-jetpacks:creative_capacitor"
+  }
+}

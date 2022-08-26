@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:pileof_neutrons"
+    },
+    {
+      "item": "kubejs:pileof_neutrons"
+    },
+    {
+      "item": "kubejs:pileof_neutrons"
+    },
+    {
+      "item": "kubejs:pileof_neutrons"
+    },
+    {
+      "item": "kubejs:pileof_neutrons"
+    },
+    {
+      "item": "kubejs:pileof_neutrons"
+    },
+    {
+      "item": "kubejs:pileof_neutrons"
+    },
+    {
+      "item": "kubejs:pileof_neutrons"
+    },
+    {
+      "item": "kubejs:pileof_neutrons"
+    }
+  ],
+  "result": {
+    "item": "kubejs:neutronium_nugget",
+    "count": 1
+  }
+}

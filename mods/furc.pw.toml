@@ -1,0 +1,13 @@
+name = "FURC (Fabric Universal Remote Control)"
+filename = "remote-controlled-0.0.6-1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1749dbe1e35521e498a9a9bf8725ffb8024f4e20"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3887846
+project-id = 631603

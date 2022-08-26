@@ -1,0 +1,13 @@
+name = "Health Overlay (Fabric)"
+filename = "HealthOverlay-1.18.2-6.3.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "44a334c95a00cf23766b8300de15fb04acb0b6f5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3932277
+project-id = 313219

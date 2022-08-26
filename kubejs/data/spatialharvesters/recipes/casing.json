@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "dad",
+    "cxc",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:redstone_blocks"
+    },
+    "b": {
+      "item": "spatialharvesters:base_powder"
+    },
+    "c": {
+      "tag": "c:coal_blocks"
+    },
+    "d": {
+      "tag": "c:iron_ingots"
+    },
+	"x": {
+		"item": "modern_industrialization:quantum_circuit"
+	}
+  },
+  "result": {
+    "item": "spatialharvesters:casing"
+  }
+}

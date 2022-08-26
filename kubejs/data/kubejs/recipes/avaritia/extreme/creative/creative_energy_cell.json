@@ -1,0 +1,31 @@
+{
+  "type": "artis:biggest_bench_shaped",
+  "pattern": [
+		"ABCBA",
+		"ABCBA",
+		"ABCBA",
+		"ABCBA",
+		"ABIBA",
+		"ABCBA",
+		"ABCBA",
+		"ABCBA",
+		"ABCBA"
+  ],
+  "key": {
+  	"A": {
+  		"item": "ae2:dense_energy_cell"
+  	},
+  	"B": {
+  		"item": "techreborn:interdimensional_su"
+  	},
+  	"C": {
+  		"item": "modern_industrialization:superconductor_storage_unit"
+  	},
+  	"I": {
+  		"item": "kubejs:infinity_ingot"
+  	}
+  },
+  "result": {
+    "item": "iron-jetpacks:creative_cell"
+  }
+}

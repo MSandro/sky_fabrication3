@@ -1,0 +1,28 @@
+{
+	"type": "artis:biggest_bench_shaped",
+	"result": {
+		"item": "modern_industrialization:quantum_helmet"
+	},
+	"pattern": [
+		"  NNNNN  ",
+		" NIIIIIN ",
+		" N XIX N ",
+		" NIIZIIN ",
+		" NIIIIIN ",
+		" NI I IN "
+	],
+	"key": {
+		"I": {
+			"item": "kubejs:infinity_ingot"
+		},
+		"X": {
+			"item": "kubejs:infinity_catalyst"
+		},
+		"N": {
+			"item": "kubejs:neutronium_ingot"
+		},
+		"Z": {
+			"item": "modern_industrialization:quantum_upgrade"
+		}
+	}
+}

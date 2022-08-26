@@ -1,0 +1,34 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "fabric:load_conditions": [
+        {
+          "condition": "compactmachines:config_enable_vanilla_recipes"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "WWW",
+          "SCS",
+          "WWW"
+        ],
+        "key": {
+          "W": {
+            "item": "compactmachines:wall"
+          },
+          "C": {
+            "item": "spectrum:spectral_shard_storage_block"
+          },
+          "S": {
+            "item": "compactmachines:machine_normal"
+          }
+        },
+        "result": {
+          "item": "compactmachines:machine_large"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name = "LAN Operators"
+filename = "lan-operators-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7bec5a159d45cc558217f67284f2bdc8aceca299"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3756459
+project-id = 614516

@@ -1,0 +1,40 @@
+{
+  "type": "artis:biggest_bench_shaped",
+  "pattern": [
+		"NNNNNNNNN",
+		"NQQQQQQQN",
+		"NQCCTCCQN",
+		"NQCXIXCQN",
+		"NQTIRITQN",
+		"NQCXIXCQN",
+		"NQCCTCCQN",
+		"NQQQQQQQN",
+		"NNNNNNNNN"
+  ],
+  "key": {
+  	"C": {
+  		"item": "kubejs:crystal_matrix_ingot"
+  	},
+  	"N": {
+  		"item": "kubejs:neutronium_ingot"
+  	},
+  	"T": {
+  		"item": "modern_industrialization:quantum_tank"
+  	},
+  	"I": {
+  		"item": "kubejs:infinity_ingot"
+  	},
+  	"X": {
+  		"item": "kubejs:infinity_catalyst"
+  	},
+  	"R": {
+  		"item": "modern_industrialization:replicator"
+  	},
+  	"Q": {
+  		"item": "techreborn:quantum_tank_unit"
+  	}
+  },
+  "result": {
+    "item": "techreborn:creative_tank_unit"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:music_disc_13"
+    }
+  ],
+  "result": {
+    "item": "kubejs:record_fragment",
+    "count": 8
+  }
+}

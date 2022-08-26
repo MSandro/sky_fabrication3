@@ -1,0 +1,1020 @@
+{
+	id: "5C764279146E5E66"
+	group: "76C22988F9A7C9CE"
+	order_index: 4
+	filename: "resourceful_ways"
+	title: "Resourceful Ways"
+	icon: "croparia:elematilius"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Mystical Path"
+			x: -3.5d
+			y: -1.5d
+			shape: "circle"
+			id: "6D750A38944E9B68"
+			tasks: [
+				{
+					id: "49A0E9D22020400E"
+					type: "item"
+					item: "betterend:infusion_pedestal"
+				}
+				{
+					id: "46517C1CEB2EFD8D"
+					type: "item"
+					title: "8x Pedestal"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "betterend:diorite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:granite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:quartz_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:purpur_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:smaragdant_crystal_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:eternal_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:andesite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:umbralith_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:sandy_jadestone_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:azure_jadestone_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:virid_jadestone_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:sulphuric_rock_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:violecite_pedestal"
+									Count: 1b
+								}
+								{
+									id: "betterend:flavolite_pedestal"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "67621D3B3F77D14A"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Seed for Though"
+			x: -13.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["5BC4250E4C9F803C"]
+			id: "0A731CA172FB9188"
+			tasks: [{
+				id: "53A2218A89F26A4E"
+				type: "item"
+				item: "croparia:seed_crop_elemental"
+			}]
+		}
+		{
+			title: "Plant Seeds"
+			x: -5.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["7DFF18CFEB0B8DBE"]
+			id: "54D72C234EA76054"
+			tasks: [
+				{
+					id: "4442C5D3356C04AF"
+					type: "item"
+					item: "croparia:seed_crop_grass"
+				}
+				{
+					id: "59B8B02C1902E628"
+					type: "item"
+					item: "croparia:seed_crop_tallgrass"
+				}
+				{
+					id: "2C90C78F36642A7B"
+					type: "item"
+					item: "croparia:seed_crop_lilypad"
+				}
+				{
+					id: "4A352D5EDF7844FB"
+					type: "item"
+					item: "croparia:seed_crop_vine"
+				}
+				{
+					id: "4934179801F95013"
+					type: "item"
+					item: "croparia:seed_crop_largefern"
+				}
+				{
+					id: "1B5C37AAC035FF2C"
+					type: "item"
+					item: "croparia:seed_crop_fern"
+				}
+			]
+			rewards: [{
+				id: "1D1EC42A100FDBC9"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Croparia"
+			x: -5.0d
+			y: -1.5d
+			shape: "circle"
+			dependencies: ["6D750A38944E9B68"]
+			id: "7DFF18CFEB0B8DBE"
+			tasks: [{
+				id: "3BE2200A7B852974"
+				type: "item"
+				item: "croparia:croparia"
+			}]
+			rewards: [{
+				id: "4A61D638DF4F258A"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Fish Seed"
+			x: -4.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["7DFF18CFEB0B8DBE"]
+			id: "1E7DC8E0493BE99E"
+			tasks: [
+				{
+					id: "139404EF97A2DB76"
+					type: "item"
+					item: "croparia:seed_crop_clownfish"
+				}
+				{
+					id: "3FE943A2DD18D7E8"
+					type: "item"
+					item: "croparia:seed_crop_pufferfish"
+				}
+				{
+					id: "170F5A51F4AEF52B"
+					type: "item"
+					item: "croparia:seed_crop_fish"
+				}
+				{
+					id: "311004C635B16266"
+					type: "item"
+					item: "croparia:seed_crop_salmon"
+				}
+			]
+			rewards: [{
+				id: "4F701076BE0CD0BE"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Other T1 Seeds"
+			x: -5.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["7DFF18CFEB0B8DBE"]
+			id: "712EB19B26D405DD"
+			tasks: [
+				{
+					id: "3502B94CAA19179E"
+					type: "item"
+					item: "croparia:seed_crop_sugar"
+				}
+				{
+					id: "7EB9157669462FB1"
+					type: "item"
+					item: "croparia:seed_crop_paper"
+				}
+				{
+					id: "4D7B9953DCC597BD"
+					type: "item"
+					item: "croparia:seed_crop_snowball"
+				}
+				{
+					id: "780510BFAD9B0695"
+					type: "item"
+					item: "croparia:seed_crop_nametag"
+				}
+				{
+					id: "79B932FE9704968D"
+					type: "item"
+					item: "croparia:seed_crop_lead2"
+				}
+			]
+			rewards: [{
+				id: "33228F5C4BA961C2"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Wood Seeds"
+			x: -5.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["7DFF18CFEB0B8DBE"]
+			id: "409A92D40F539485"
+			tasks: [
+				{
+					id: "7DEB271808127E13"
+					type: "item"
+					item: "croparia:seed_crop_oak"
+				}
+				{
+					id: "538AAA6551CAEDE4"
+					type: "item"
+					item: "croparia:seed_crop_birch"
+				}
+				{
+					id: "719CD7FC08097081"
+					type: "item"
+					item: "croparia:seed_crop_acacia"
+				}
+				{
+					id: "012609DB10E20CE2"
+					type: "item"
+					item: "croparia:seed_crop_darkoak"
+				}
+				{
+					id: "203D74AF76DEEC36"
+					type: "item"
+					item: "croparia:seed_crop_jungle"
+				}
+				{
+					id: "464E88B4587E9D4E"
+					type: "item"
+					item: "croparia:seed_crop_spruce"
+				}
+			]
+			rewards: [{
+				id: "4B79C23ABB4EB514"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Dye Seeds"
+			x: -4.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["7DFF18CFEB0B8DBE"]
+			id: "1609BF52108238B0"
+			tasks: [
+				{
+					id: "21A4EF8FFF886125"
+					type: "item"
+					item: "croparia:seed_crop_orange"
+				}
+				{
+					id: "5157D590D006DC78"
+					type: "item"
+					item: "croparia:seed_crop_magenta"
+				}
+				{
+					id: "15758E809BC7FE09"
+					type: "item"
+					item: "croparia:seed_crop_lightblue"
+				}
+				{
+					id: "065B5220508AD768"
+					type: "item"
+					item: "croparia:seed_crop_yellow"
+				}
+				{
+					id: "4BF8654FE6875AFD"
+					type: "item"
+					item: "croparia:seed_crop_lime"
+				}
+				{
+					id: "472D99D121B0F2A4"
+					type: "item"
+					item: "croparia:seed_crop_pink"
+				}
+				{
+					id: "6327222A59CC91D9"
+					type: "item"
+					item: "croparia:seed_crop_gray"
+				}
+				{
+					id: "06CD1401249DCBD6"
+					type: "item"
+					item: "croparia:seed_crop_silver"
+				}
+				{
+					id: "5BCE5788B726A2D8"
+					type: "item"
+					item: "croparia:seed_crop_cyan"
+				}
+				{
+					id: "5B12FD59EDBE7945"
+					type: "item"
+					item: "croparia:seed_crop_purple"
+				}
+				{
+					id: "75F9585921A51BC9"
+					type: "item"
+					item: "croparia:seed_crop_brown"
+				}
+				{
+					id: "155D8943D41BAA59"
+					type: "item"
+					item: "croparia:seed_crop_green"
+				}
+				{
+					id: "77AD7A868E801D1B"
+					type: "item"
+					item: "croparia:seed_crop_red"
+				}
+				{
+					id: "30355106AC8BEDD2"
+					type: "item"
+					item: "croparia:seed_crop_black"
+				}
+				{
+					id: "1DA174DD3991F412"
+					type: "item"
+					item: "croparia:seed_crop_blue"
+				}
+				{
+					id: "66DCDA006B4A6EA0"
+					type: "item"
+					item: "croparia:seed_crop_white"
+				}
+			]
+			rewards: [{
+				id: "59F032DB9A686245"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Meat Seeds"
+			x: -5.0d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["7DFF18CFEB0B8DBE"]
+			id: "4526E151BAE88310"
+			tasks: [
+				{
+					id: "055F9E6A348CE3EB"
+					type: "item"
+					item: "croparia:seed_crop_rawbeef"
+				}
+				{
+					id: "22FDE2B0044E5867"
+					type: "item"
+					item: "croparia:seed_crop_rawchicken"
+				}
+				{
+					id: "2DD5B97C111C117B"
+					type: "item"
+					item: "croparia:seed_crop_foot"
+				}
+				{
+					id: "6DD68D352F22D644"
+					type: "item"
+					item: "croparia:seed_crop_rawrabbit"
+				}
+				{
+					id: "580F6989B432BE8B"
+					type: "item"
+					item: "croparia:seed_crop_rawporc"
+				}
+				{
+					id: "739C481CEFA21431"
+					type: "item"
+					item: "croparia:seed_crop_rawmutton"
+				}
+			]
+			rewards: [{
+				id: "5D49CB44B75FE95C"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			shape: "circle"
+			dependencies: ["7DFF18CFEB0B8DBE"]
+			id: "576ABF43FCF886B7"
+			tasks: [{
+				id: "5093432E189F5F6F"
+				type: "item"
+				item: "croparia:croparia2"
+			}]
+		}
+		{
+			title: "Mob-Seeds"
+			x: -7.0d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["576ABF43FCF886B7"]
+			id: "31BAC57972148E1F"
+			tasks: [
+				{
+					id: "24D831A2D79414B9"
+					type: "item"
+					item: "croparia:seed_crop_zombie"
+				}
+				{
+					id: "58BE94EDFBA61706"
+					type: "item"
+					item: "croparia:seed_crop_powder"
+				}
+				{
+					id: "00E22CB2BDCD2F93"
+					type: "item"
+					item: "croparia:seed_crop_string"
+				}
+				{
+					id: "1B46135AAF5DEBE0"
+					type: "item"
+					item: "croparia:seed_crop_bone"
+				}
+				{
+					id: "4FCC5CBDB36A09FC"
+					type: "item"
+					item: "croparia:seed_crop_phantom"
+				}
+				{
+					id: "1087D0789C6C6D3A"
+					type: "item"
+					item: "croparia:seed_crop_slime"
+				}
+				{
+					id: "10CA0840401DA70C"
+					type: "item"
+					item: "croparia:seed_crop_eye"
+				}
+			]
+			rewards: [{
+				id: "66F31AB427BBED53"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Iron Seed"
+			x: -8.0d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["576ABF43FCF886B7"]
+			id: "4A6AC3D1ACBC3BFC"
+			tasks: [{
+				id: "3AC9CA74D6E96E6F"
+				type: "item"
+				item: "croparia:seed_crop_iron"
+			}]
+			rewards: [{
+				id: "57AADAE21DF66F68"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["576ABF43FCF886B7"]
+			id: "573885D6EF32B7BC"
+			tasks: [{
+				id: "45CE21EA926EDA57"
+				type: "item"
+				item: "croparia:seed_crop_scute"
+			}]
+			rewards: [{
+				id: "057C5596DD8218DC"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["576ABF43FCF886B7"]
+			id: "2777FEB022346947"
+			tasks: [{
+				id: "67F1723AA62338F1"
+				type: "item"
+				item: "croparia:seed_crop_gold"
+			}]
+			rewards: [{
+				id: "6DF0F61F24B54927"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["576ABF43FCF886B7"]
+			id: "40B13424FA523E11"
+			tasks: [
+				{
+					id: "133C69134938A678"
+					type: "item"
+					item: "croparia:seed_crop_shard"
+				}
+				{
+					id: "45FF3C7378DDE499"
+					type: "item"
+					item: "croparia:seed_crop_crystal"
+				}
+			]
+			rewards: [{
+				id: "14CEE6584B7AFFAB"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["576ABF43FCF886B7"]
+			id: "13EDB9956517B349"
+			tasks: [{
+				id: "291B67AB95D93F72"
+				type: "item"
+				item: "croparia:seed_crop_copper"
+			}]
+			rewards: [{
+				id: "5D4F734E3B332845"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -10.0d
+			y: -1.5d
+			shape: "circle"
+			dependencies: ["576ABF43FCF886B7"]
+			id: "76071C22A73A2026"
+			tasks: [{
+				id: "65F226B04C4E0440"
+				type: "item"
+				item: "croparia:croparia3"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["76071C22A73A2026"]
+			id: "7A89560F303A8BE6"
+			tasks: [{
+				id: "195459EDA666625B"
+				type: "item"
+				item: "croparia:seed_crop_quartz"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["76071C22A73A2026"]
+			id: "6950FC974624C6AA"
+			tasks: [{
+				id: "22752792321F5533"
+				type: "item"
+				item: "croparia:seed_crop_nether"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["76071C22A73A2026"]
+			id: "7361BD20A6B95D14"
+			tasks: [{
+				id: "688CF4D959B2C166"
+				type: "item"
+				item: "croparia:seed_crop_nautilus"
+			}]
+			rewards: [{
+				id: "67943886E1BEEE97"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.5d
+			shape: "diamond"
+			dependencies: ["76071C22A73A2026"]
+			id: "0A8F44B9B3C8FC0F"
+			tasks: [{
+				id: "0C4C662FE28C30A5"
+				type: "item"
+				item: "croparia:seed_crop_lapis"
+			}]
+			rewards: [{
+				id: "384F19EA7943556F"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Ender Pearl + Magma Cream Seeds"
+			x: -9.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["76071C22A73A2026"]
+			id: "02D45E3FB37ED0AD"
+			tasks: [
+				{
+					id: "2D62D0EC3AC2BA8D"
+					type: "item"
+					item: "croparia:seed_crop_ender"
+				}
+				{
+					id: "2FF9095937F0D4BA"
+					type: "item"
+					item: "croparia:seed_crop_magma"
+				}
+			]
+			rewards: [{
+				id: "7EA19682476195DF"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["76071C22A73A2026"]
+			id: "62020721A69D40F2"
+			tasks: [{
+				id: "702FF74EA6FCA251"
+				type: "item"
+				item: "croparia:seed_crop_goldenapple"
+			}]
+			rewards: [{
+				id: "44EDC95D72204BE8"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["76071C22A73A2026"]
+			id: "30DF8297FEEC9F22"
+			tasks: [{
+				id: "073DB8EBFC3BC948"
+				type: "item"
+				item: "croparia:seed_crop_glowstone"
+			}]
+			rewards: [{
+				id: "0EABDECC3F8D36C9"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["76071C22A73A2026"]
+			id: "47045A0E8E3457C2"
+			tasks: [{
+				id: "26E5425CC40CE5EE"
+				type: "item"
+				item: "croparia:seed_crop_chorus"
+			}]
+			rewards: [{
+				id: "5A509E45A9220898"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["76071C22A73A2026"]
+			id: "2581B7D8E6C6E510"
+			tasks: [{
+				id: "756BEE3608FFA0A4"
+				type: "item"
+				item: "croparia:seed_crop_blaze"
+			}]
+			rewards: [{
+				id: "28968D2F4CEB1B99"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -10.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["76071C22A73A2026"]
+			id: "3BCE1CC36B46047C"
+			tasks: [{
+				id: "4DA7A4F6BEA7948A"
+				type: "item"
+				item: "croparia:seed_crop_redstone"
+			}]
+		}
+		{
+			x: -13.0d
+			y: -1.5d
+			shape: "circle"
+			dependencies: ["76071C22A73A2026"]
+			id: "5BC4250E4C9F803C"
+			tasks: [{
+				id: "19D0A5FD97D7E3E8"
+				type: "item"
+				item: "croparia:croparia4"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["5BC4250E4C9F803C"]
+			id: "0AF5FB1B5AA5AA11"
+			tasks: [{
+				id: "737A74FAB46C9E54"
+				type: "item"
+				item: "croparia:seed_crop_sea"
+			}]
+		}
+		{
+			title: "Shulker + Ghast Seed"
+			x: -12.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["5BC4250E4C9F803C"]
+			id: "64B04D1CBC923789"
+			tasks: [
+				{
+					id: "09233415005F6331"
+					type: "item"
+					item: "croparia:seed_crop_shell"
+				}
+				{
+					id: "7D29BF39F383F6E5"
+					type: "item"
+					item: "croparia:seed_crop_ghast"
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: -3.0d
+			shape: "diamond"
+			dependencies: ["5BC4250E4C9F803C"]
+			id: "222739E77C745519"
+			tasks: [{
+				id: "1DC4FE7A037EC52E"
+				type: "item"
+				item: "croparia:seed_crop_diamond"
+			}]
+		}
+		{
+			x: -13.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["5BC4250E4C9F803C"]
+			id: "0AE23BAFE82168E6"
+			tasks: [{
+				id: "58F4B063BC12F9B9"
+				type: "item"
+				item: "croparia:seed_crop_xp"
+			}]
+		}
+		{
+			x: -13.0d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["5BC4250E4C9F803C"]
+			id: "47D8A9BBAD2DE451"
+			tasks: [{
+				id: "5C50870611266B89"
+				type: "item"
+				item: "croparia:seed_crop_emerald"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -1.5d
+			shape: "circle"
+			dependencies: ["5BC4250E4C9F803C"]
+			id: "48BF71269DEA1AB1"
+			tasks: [{
+				id: "7F969AA823C4157B"
+				type: "item"
+				item: "croparia:croparia5"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["48BF71269DEA1AB1"]
+			id: "7CFA92CC48D1E7E3"
+			tasks: [{
+				id: "3E93D20A19EEAD09"
+				type: "item"
+				item: "croparia:seed_crop_wither"
+			}]
+		}
+		{
+			x: -16.0d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["48BF71269DEA1AB1"]
+			id: "7D6C1EFD0AA0AEFE"
+			tasks: [{
+				id: "027DA0F6532BB646"
+				type: "item"
+				item: "croparia:seed_crop_netherite"
+			}]
+		}
+		{
+			x: -18.5d
+			y: -1.5d
+			shape: "circle"
+			dependencies: ["48BF71269DEA1AB1"]
+			id: "2FA6B8A1C8713DE0"
+			tasks: [{
+				id: "5A17FCC895F52C8B"
+				type: "item"
+				item: "croparia:croparia6"
+			}]
+		}
+		{
+			x: -18.5d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["2FA6B8A1C8713DE0"]
+			id: "4A96A0456680837C"
+			tasks: [{
+				id: "7E1EA6614D3AD212"
+				type: "item"
+				item: "croparia:seed_crop_star"
+			}]
+		}
+		{
+			x: -22.0d
+			y: -1.5d
+			shape: "diamond"
+			dependencies: ["3CC32A1B2662B6B9"]
+			id: "6AB1C7B6251FE9F5"
+			tasks: [{
+				id: "2DB99A45CE808456"
+				type: "item"
+				item: "croparia:seed_crop_dragon"
+			}]
+			rewards: [{
+				id: "46115479604171EF"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -18.5d
+			y: -2.5d
+			shape: "diamond"
+			dependencies: ["2FA6B8A1C8713DE0"]
+			id: "11948ECF241B2923"
+			tasks: [{
+				id: "7E372EC07A6238D1"
+				type: "item"
+				item: "croparia:seed_crop_totem"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			shape: "pentagon"
+			dependencies: ["748485FEC1097A71"]
+			id: "573AAC30B09B0BAE"
+			tasks: [{
+				id: "40B061A5347127EB"
+				type: "item"
+				item: "croparia:greenhouse"
+			}]
+			rewards: [{
+				id: "2593738FE907BFBD"
+				type: "item"
+				item: "botania:overgrowth_seed"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			shape: "pentagon"
+			dependencies: ["748485FEC1097A71"]
+			id: "17549F4A0B59DEA4"
+			tasks: [{
+				id: "551B10C952DD6686"
+				type: "item"
+				item: {
+					id: "croparia:diamond_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "73E3A399DF6BCA64"
+				type: "item"
+				item: "botania:overgrowth_seed"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			shape: "pentagon"
+			dependencies: ["573AAC30B09B0BAE"]
+			id: "6FFC449DE313A1BD"
+			tasks: [{
+				id: "3A91C6FD4E68A1DD"
+				type: "item"
+				item: "plantinajar:plant_jar"
+			}]
+			rewards: [{
+				id: "4384FB4F5DDD70EB"
+				type: "item"
+				item: "botania:overgrowth_seed"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.0d
+			description: [
+				"These are 3 quests given to receive a 100% chance of an Overgrowth Seed Each to craft magical soil."
+				""
+				"So don't go accidently spend them if you didn't get any from the random rewards."
+			]
+			id: "748485FEC1097A71"
+			tasks: [{
+				id: "6B6CD08FAF249745"
+				type: "checkmark"
+				title: "Tools of Farming"
+			}]
+		}
+		{
+			x: -21.0d
+			y: -1.5d
+			shape: "circle"
+			dependencies: ["2FA6B8A1C8713DE0"]
+			id: "3CC32A1B2662B6B9"
+			tasks: [{
+				id: "12836F421C015E97"
+				type: "item"
+				item: "croparia:croparia7"
+			}]
+		}
+	]
+}

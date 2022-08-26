@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "#Y#"
+  ],
+  "key": {
+    "X": {
+      "item": "create:precision_mechanism"
+    },
+    "#": {
+      "item": "modern_industrialization:iron_plate"
+    },
+    "Y": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "clickmachine:auto_clicker"
+  }
+}

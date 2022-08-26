@@ -1,0 +1,24 @@
+{
+  "type": "artis:biggest_bench_shaped",
+  "pattern": [
+		"NNNNNNNNN",
+		"NCXXCXXCN",
+		"NXCCXCCXN",
+		"NCXXCXXCN",
+		"NNNNNNNNN"
+  ],
+  "key": {
+	"C": {
+		"item": "kubejs:crystal_matrix_ingot"
+	},
+	"N": {
+		"item": "kubejs:neutronium_ingot"
+	},
+	"X": {
+		"item": "kubejs:infinity_catalyst"
+	}
+  },
+  "result": {
+    "item": "kubejs:infinity_ingot"
+  }
+}

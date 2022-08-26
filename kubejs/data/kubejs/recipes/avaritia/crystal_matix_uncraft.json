@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:crystal_matrix"
+    }
+  ],
+  "result": {
+    "item": "kubejs:crystal_matrix_ingot",
+    "count": 9
+  }
+}

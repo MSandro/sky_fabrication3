@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "INI",
+    "IXI",
+    "INI"
+  ],
+  "key": {
+    "N": {
+      "item": "indrev:nikolite_dust"
+    },
+    "I": {
+      "tag": "c:iron_plates"
+    },
+    "X": {
+	  "item": "techreborn:basic_machine_casing"
+    }
+  },
+  "result": {
+    "item": "indrev:machine_block"
+  }
+}

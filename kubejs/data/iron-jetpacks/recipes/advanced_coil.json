@@ -1,0 +1,26 @@
+{
+  "type": "artis:upgrade_bench_shaped",
+  "pattern": [
+    "CRC",
+    "RDR",
+    "CRC"
+  ],
+  "key": {
+    "R": {
+      "item": "modern_industrialization:silicon_battery"
+    },
+    "D": {
+      "item": "modern_industrialization:analog_circuit"
+    },
+    "C": {
+      "item": "modern_industrialization:cupronickel_cable"
+    }
+  },
+  "catalyst": {
+     "item": "iron-jetpacks:basic_coil"
+  },
+  "cost": 1,
+  "result": {
+    "item": "iron-jetpacks:advanced_coil"
+  }
+}

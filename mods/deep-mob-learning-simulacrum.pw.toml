@@ -1,0 +1,13 @@
+name = "Deep Mob Learning: Simulacrum"
+filename = "simulacrum-0.5.4-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "398222ce6877f36b249306350ee7c95c858e0572"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3785658
+project-id = 508931

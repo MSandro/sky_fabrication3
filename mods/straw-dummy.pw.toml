@@ -1,0 +1,13 @@
+name = "Straw Dummy"
+filename = "strawdummy-1.7.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "eed3270ea33914c5a1154727d1a289d11b0c4b9d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3671243
+project-id = 393392

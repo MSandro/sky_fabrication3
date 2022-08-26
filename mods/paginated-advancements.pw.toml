@@ -1,0 +1,13 @@
+name = "Paginated Advancements"
+filename = "paginatedadvancements-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "14da2a13568cc006219b7d04df986305954fdca5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3875496
+project-id = 618770

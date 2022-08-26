@@ -1,0 +1,35 @@
+{
+  "type": "artis:bigger_bench_shaped",
+  "pattern": [
+    "XXXXXXX",
+    "XDEDEDX",
+    "XEWSWEX",
+    "XDW WDX",
+    "XEWNWEX",
+    "XDEDEDX",
+    "XXXXXXX"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "D": {
+      "item": "botania:dragonstone"
+    },
+    "N": {
+      "item": "kubejs:infinity_catalyst"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "X": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "dark-enchanting:table_upgrade"
+  }
+}

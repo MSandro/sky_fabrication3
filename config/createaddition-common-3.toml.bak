@@ -1,0 +1,11 @@
+electric_motor = {}
+
+#General Settings
+[general]
+	#Forge Energy conversion rate (in FE/t at 256 RPM).
+	#Range: > 0
+	fe_conversion = 240
+	#Max stress for the Alternator and Electric Motor (in SU at 256 RPM).
+	#Range: > 0
+	baseline_stress = 8192
+

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "modern_industrialization:quartz_dust"
+    },
+    "b": {
+      "tag": "c:glass"
+    }
+  },
+  "result": {
+    "item": "ae2:quartz_glass",
+    "count": 4
+  }
+}

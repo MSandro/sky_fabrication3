@@ -1,0 +1,13 @@
+name = "Better Animals Plus"
+filename = "betteranimalsplus-1.18.2-11.0.5-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c39fe0da22e35d2a81be2a7c894f5e3d0fc3afbd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3680863
+project-id = 303557

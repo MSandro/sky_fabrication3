@@ -1,0 +1,11 @@
+{
+    "type": "sf3:skygrid",
+    "generator": {
+      "type": "skygrid:skygrid",
+      "config": "minecraft:overworld",
+      "biome_source": {
+        "type": "fixed",
+        "biome": "minecraft:the_void"
+      }
+    }
+  }

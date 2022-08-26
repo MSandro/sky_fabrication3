@@ -1,0 +1,13 @@
+name = "RSWires"
+filename = "rswires-4.13.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "876e58d1728e35c642f9b35319642a5887b15afd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3667421
+project-id = 286328

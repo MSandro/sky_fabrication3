@@ -1,0 +1,8 @@
+{
+  "type": "fabricaeexnihilo:sieve",
+  "result": "powah:uraninite",
+  "input": "fabricaeexnihilo:crushed_diorite",
+  "rolls": {
+    "fabricaeexnihilo:netherite_mesh": [0.1, 0.1]
+  }
+}

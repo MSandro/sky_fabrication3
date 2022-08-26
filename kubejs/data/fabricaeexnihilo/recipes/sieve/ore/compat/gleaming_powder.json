@@ -1,0 +1,8 @@
+{
+  "type": "fabricaeexnihilo:sieve",
+  "result": "things:gleaming_powder",
+  "input": "minecraft:red_sand",
+  "rolls": {
+    "fabricaeexnihilo:carbon_mesh": [0.01]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "fabricaeexnihilo:sieve",
+  "result": "betterend:thallasium_raw",
+  "input": "fabricaeexnihilo:crushed_endstone",
+  "rolls": {
+    "fabricaeexnihilo:netherite_mesh": [0.1]
+  }
+}

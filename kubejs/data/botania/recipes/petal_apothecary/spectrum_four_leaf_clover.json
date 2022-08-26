@@ -1,0 +1,17 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "spectrum:four_leaf_clover"
+  },
+  "ingredients": [
+    {
+      "item": "spectrum:onyx_shard"
+    },
+    {
+      "item": "betterend:raw_amber"
+    },
+    {
+      "item": "botania:cosmetic_four_leaf_clover"
+    }
+  ]
+}

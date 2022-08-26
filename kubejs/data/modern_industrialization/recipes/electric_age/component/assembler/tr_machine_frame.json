@@ -1,0 +1,21 @@
+{
+    "type": "modern_industrialization:assembler",
+    "eu": 8,
+    "duration": 200,
+    "item_inputs": [
+        {
+            "item": "techreborn:refined_iron_ingot",
+            "amount": 8
+        },
+        {
+            "item": "modern_industrialization:copper_wire",
+            "amount": 1
+        }
+    ],
+    "item_outputs": [
+        {
+            "item": "techreborn:basic_machine_frame",
+            "amount": 1
+        }
+    ]
+}

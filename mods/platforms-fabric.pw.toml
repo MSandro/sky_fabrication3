@@ -1,0 +1,13 @@
+name = "Platforms [Fabric]"
+filename = "platforms-fabric-1.18-1.2.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a9d9e04b385ca1d3c46fd0d08c1086bc73c62875"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3888511
+project-id = 536610

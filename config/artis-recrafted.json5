@@ -1,0 +1,65 @@
+{
+  "tables": {
+    "upgrade_bench": {
+      "display_name": "Upgrade Table",
+      "width": 3,
+      "height": 3,
+      "block_entity": true,
+      "generate_assets": true,
+      "settings": {
+        "material": "iron",
+        "non_opaque": true
+      },
+      "catalyst_slot": true,
+      "tags": [
+        "minecraft:blocks/needs_stone_tool",
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    },
+    "big_bench": {
+      "display_name": "Greater Table",
+      "width": 5,
+      "height": 5,
+      "block_entity": true,
+      "generate_assets": true,
+      "settings": {
+        "material": "iron",
+        "non_opaque": true
+      },
+      "tags": [
+        "minecraft:blocks/needs_stone_tool",
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    },
+    "bigger_bench": {
+      "display_name": "Massive Table",
+      "width": 7,
+      "height": 7,
+      "block_entity": true,
+      "generate_assets": true,
+      "settings": {
+        "material": "iron",
+        "non_opaque": true
+      },
+      "tags": [
+        "minecraft:blocks/needs_stone_tool",
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    },
+    "biggest_bench": {
+      "display_name": "Ultimate Table",
+      "width": 9,
+      "height": 9,
+      "block_entity": true,
+      "generate_assets": true,
+      "settings": {
+        "material": "iron",
+        "non_opaque": true
+      },
+      "tags": [
+        "minecraft:blocks/needs_stone_tool",
+        "minecraft:blocks/mineable/pickaxe",
+      ]
+    }
+  }
+}

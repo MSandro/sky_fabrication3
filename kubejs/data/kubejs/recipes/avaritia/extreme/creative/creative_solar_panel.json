@@ -1,0 +1,43 @@
+{
+  "type": "artis:biggest_bench_shaped",
+  "pattern": [
+		"NYYYYYYYN",
+		"NQQQQQQQN",
+		"NQCCTCCQN",
+		"NQCXIXCQN",
+		"NQTIRITQN",
+		"NQCXIXCQN",
+		"NQCCTCCQN",
+		"NQQQQQQQN",
+		"NNNNNNNNN"
+  ],
+  "key": {
+  	"C": {
+  		"item": "kubejs:crystal_matrix_ingot"
+  	},
+  	"N": {
+  		"item": "kubejs:neutronium_ingot"
+  	},
+  	"T": {
+  		"item": "indrev:solar_generator_mk3"
+  	},
+  	"I": {
+  		"item": "kubejs:infinity_ingot"
+  	},
+  	"X": {
+  		"item": "kubejs:infinity_catalyst"
+  	},
+  	"Y": {
+  		"item": "modern_industrialization:solid_titanium_machine_casing"
+  	},
+  	"R": {
+  		"item": "modern_industrialization:superconductor_coil"
+  	},
+  	"Q": {
+  		"item": "techreborn:quantum_solar_panel"
+  	}
+  },
+  "result": {
+    "item": "techreborn:creative_solar_panel"
+  }
+}

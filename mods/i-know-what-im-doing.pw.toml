@@ -1,0 +1,13 @@
+name = "I Know What I'm Doing (IKWID)"
+filename = "IKnowWhatImDoing-4.1.0-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "685b0123305a943b83449d279e8cfd4e7d80b877"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3846766
+project-id = 271492

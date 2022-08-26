@@ -1,0 +1,13 @@
+name = "Locki"
+filename = "locki-0.6.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "663caccfd2f68030d843d2beddb212564f5c4b70"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3738273
+project-id = 483059

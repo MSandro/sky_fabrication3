@@ -1,0 +1,32 @@
+{
+  "type": "artis:bigger_bench_shaped",
+  "pattern": [
+    "Z#####Z",
+    "#######",
+    "##YXY##",
+    "##XNX##",
+    "##YXY##",
+    "#######",
+    "Z#####Z"
+  ],
+  "key": {
+    "#": {
+      "item": "artis:bigger_bench"
+    },
+    "N": {
+      "item": "kubejs:infinity_catalyst"
+    },
+    "X": {
+      "item": "minecraft:netherite_block"
+    },
+    "Y": {
+      "item": "kubejs:crystal_matrix_ingot"
+    },
+    "Z": {
+      "item": "kubejs:neutronium_nugget"
+    }
+  },
+  "result": {
+    "item": "artis:biggest_bench"
+  }
+}

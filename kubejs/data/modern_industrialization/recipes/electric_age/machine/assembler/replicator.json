@@ -1,0 +1,40 @@
+{
+  "type": "artis:biggest_bench_shaped",
+  "pattern": [
+		"IIIIIIIII",
+		"INUUUUUNI",
+		"INCCCCCNI",
+		"INCXTXCNI",
+		"INCTRTCNI",
+		"INCXTXCNI",
+		"INCCCCCNI",
+		"INNNNNNNI",
+		"IIIIIIIII"
+  ],
+  "key": {
+  	"C": {
+  		"item": "iron-jetpacks:ultimate_capacitor"
+  	},
+  	"N": {
+  		"item": "kubejs:neutronium_ingot"
+  	},
+  	"T": {
+  		"item": "modern_industrialization:quantum_upgrade"
+  	},
+  	"I": {
+  		"item": "kubejs:infinity_catalyst"
+  	},
+  	"X": {
+  		"item": "modern_industrialization:quantum_circuit"
+  	},
+  	"R": {
+  		"item": "modern_industrialization:quantum_machine_hull"
+  	},
+    "U": {
+  		"item": "techreborn:quantum_solar_panel"
+  	}
+  },
+  "result": {
+    "item": "modern_industrialization:replicator"
+  }
+}

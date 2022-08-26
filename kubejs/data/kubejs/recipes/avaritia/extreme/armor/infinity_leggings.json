@@ -1,0 +1,34 @@
+{
+	"type": "artis:biggest_bench_shaped",
+	"result": {
+		"item": "modern_industrialization:quantum_leggings"
+	},
+	"pattern": [
+		"NNNNNNNNN",
+		"NIXIZIXIN",
+		"NINNXNNIN",
+		"NIN   NIN",
+		"NCN   NCN",
+		"NIN   NIN",
+		"NIN   NIN",
+		"NIN   NIN",
+		"NNN   NNN"
+	],
+	"key": {
+		"I": {
+			"item": "kubejs:infinity_ingot"
+		},
+		"X": {
+			"item": "kubejs:infinity_catalyst"
+		},
+		"C": {
+			"item": "kubejs:crystal_matrix"
+		},
+		"N": {
+			"item": "kubejs:neutronium_ingot"
+		},
+		"Z": {
+			"item": "modern_industrialization:quantum_upgrade"
+		}
+	}
+}

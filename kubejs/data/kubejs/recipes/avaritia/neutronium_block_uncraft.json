@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:neutronium_block"
+    }
+  ],
+  "result": {
+    "item": "kubejs:neutronium_ingot",
+    "count": 9
+  }
+}

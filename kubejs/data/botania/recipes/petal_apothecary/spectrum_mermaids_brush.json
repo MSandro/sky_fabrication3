@@ -1,0 +1,17 @@
+{
+  "type": "botania:petal_apothecary",
+  "output": {
+    "item": "spectrum:mermaids_brush"
+  },
+  "ingredients": [
+    {
+      "item": "spectrum:onyx_shard"
+    },
+    {
+      "item": "betterend:thallasium_raw"
+    },
+    {
+      "item": "botania:spectrolus"
+    }
+  ]
+}

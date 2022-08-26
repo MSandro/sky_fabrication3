@@ -1,0 +1,36 @@
+{
+	"type": "artis:biggest_bench_shaped",
+	"result": {
+		"item": "modern_industrialization:quantum_sword",
+
+		"count": 1
+	},
+	"pattern": [
+		"       II",
+		"      III",
+		"     III ",
+		"    III  ",
+		" C III   ",
+		"  CYI    ",
+		"  NC     ",
+		" N  C    ",
+		"X        "
+	],
+	"key": {
+		"I": {
+			"item": "kubejs:infinity_ingot"
+		},
+		"X": {
+			"item": "kubejs:infinity_catalyst"
+		},
+		"C": {
+			"item": "kubejs:crystal_matrix_ingot"
+		},
+		"N": {
+			"item": "kubejs:neutronium_ingot"
+		},
+		"Y": {
+			"item": "modern_industrialization:quantum_upgrade"
+		}
+	}
+}

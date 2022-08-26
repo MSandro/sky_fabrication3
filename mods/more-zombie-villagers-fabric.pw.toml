@@ -1,0 +1,13 @@
+name = "More Zombie Villagers (Fabric)"
+filename = "morezombievillagers-fabric_1.18.2-1.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d60e49c5bb8121b40bbce66ca9cdee557156696d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3907827
+project-id = 529921

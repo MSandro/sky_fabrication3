@@ -1,0 +1,13 @@
+name = "Gate of Babylon"
+filename = "gate-of-babylon-1.7.0-1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "478925dbe73e114d4de5c834966ea01db3fc03a2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3740903
+project-id = 407500

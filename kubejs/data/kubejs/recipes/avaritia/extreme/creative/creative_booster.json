@@ -1,0 +1,33 @@
+{
+  "type": "artis:bigger_bench_shaped",
+  "pattern": [
+		" BCCCB ",
+		" BCCCB ",
+		" BCICB ",
+		" BCECB ",
+		"YYXXXYY"
+  ],
+  "key": {
+    "B": {
+  		"item": "kubejs:infinity_catalyst"
+  	},
+    "C": {
+  		"item": "iron-jetpacks:creative_capacitor"
+  	},
+  	"E": {
+  		"item": "fabric-furnaces:ethereal_furnace"
+  	},
+  	"Y": {
+  		"item": "iron-jetpacks:neutronium_thruster"
+  	},
+  	"X": {
+  		"item": "agape_space:part_engine_liquid"
+  	},
+  	"I": {
+  		"item": "kubejs:infinity_ingot"
+  	}
+  },
+  "result": {
+    "item": "iron-jetpacks:creative_thruster"
+  }
+}

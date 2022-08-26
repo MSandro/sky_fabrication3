@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cbc",
+    "bab",
+    "cbc"
+  ],
+  "key": {
+    "a": {
+      "item": "kubejs:neutronium_nugget"
+    },
+    "b": {
+      "tag": "c:gold_ingots"
+    },
+    "c": {
+      "item": "spatialharvesters:base_powder"
+    }
+  },
+  "result": {
+    "item": "spatialharvesters:loot_core"
+  }
+}

@@ -1,0 +1,13 @@
+name = "Fabricae Ex Nihilo"
+filename = "wraith-fabricaeexnihilo-0.1.7+mc1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3393391fdb05a2fd208c9d2041fa37d4c2e12871"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3943185
+project-id = 596911

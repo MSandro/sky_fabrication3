@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "GOG",
+    "OEO"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ender_eye"
+    },
+    "G": {
+      "item": "compress:compressed_gold_block_1"
+    },
+    "X": {
+      "item": "compress:compressed_diamond_block_1"
+    },
+    "O": {
+      "item": "botania:metamorphic_mountain_stone"
+    },
+    "E": {
+      "item": "minecraft:enchanting_table"
+    }
+  },
+  "result": {
+    "item": "kibe:chunk_loader",
+    "count": 1
+  }
+}

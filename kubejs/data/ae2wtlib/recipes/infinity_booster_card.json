@@ -1,0 +1,35 @@
+{
+  "type": "artis:bigger_bench_shaped",
+  "pattern": [
+    " XXXXX ",
+    "XWWWDDX",
+    "X#S#DDX",
+    "X#S#XX ",
+    "X#Q#X  ",
+    "X###X  ",
+    " XXX   "
+  ],
+  "key": {
+    "W": {
+      "item": "ae2:wireless_receiver"
+    },
+    "D": {
+      "item": "ae2:dense_energy_cell"
+    },
+    "#": {
+      "item": "ae2:wireless_booster"
+    },
+    "Q": {
+      "item": "ae2:quantum_entangled_singularity"
+    },
+    "S": {
+      "item": "minecraft:nether_star"
+    },
+    "X": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "ae2wtlib:infinity_booster_card"
+  }
+}

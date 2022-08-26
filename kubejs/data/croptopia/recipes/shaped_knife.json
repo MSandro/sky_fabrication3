@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "farmersdelight:iron_knife"
+    }
+  ],
+  "result": {
+    "item": "croptopia:knife",
+    "count": 1
+  }
+}

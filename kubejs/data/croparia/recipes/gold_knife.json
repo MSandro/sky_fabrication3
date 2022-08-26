@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  " D",
+  "O "
+  ],
+  "key": {
+    "D": {
+      "item": "modern_industrialization:gold_rod"
+    },
+    "O":
+    {
+      "item": "modern_industrialization:copper_rod"
+    }
+  },
+  "result": {
+    "item": "croparia:gold_knife"
+  },
+    "group": "Knife"
+}

@@ -1,0 +1,25 @@
+{
+	"type": "artis:biggest_bench_shaped",
+	"result": {
+		"item": "modern_industrialization:quantum_boots"
+	},
+	"pattern": [
+		" NNN NNN ",
+		" NIN NIN ",
+		" NZN NZN ",
+		"NNIN NINN",
+		"NIIN NIIN",
+		"NNNN NNNN"
+	],
+	"key": {
+		"I": {
+			"item": "kubejs:infinity_ingot"
+		},
+		"N": {
+			"item": "kubejs:neutronium_ingot"
+		},
+		"Z": {
+			"item": "modern_industrialization:quantum_upgrade"
+		}
+	}
+}

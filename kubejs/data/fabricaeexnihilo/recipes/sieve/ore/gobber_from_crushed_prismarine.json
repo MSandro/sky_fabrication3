@@ -1,0 +1,9 @@
+{
+  "type": "fabricaeexnihilo:sieve",
+  "result": "gobber2:gobber2_globette",
+  "input": "fabricaeexnihilo:crushed_prismarine",
+  "rolls": {
+    "fabricaeexnihilo:diamond_mesh": [0.05, 0.05],
+    "fabricaeexnihilo:netherite_mesh": [0.1, 0.1]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "modern_industrialization:pressurizer",
+  "eu": 4096,
+  "duration": 6000,
+  "item_inputs": {
+    "item": "modern_industrialization:singularity",
+    "amount": 1,
+    "probability": 0.025
+  },
+  "fluid_inputs" : {
+    "fluid" : "modern_industrialization:helium_plasma",
+    "amount" : 50
+  },
+  "fluid_outputs": {
+    "fluid": "modern_industrialization:uu_matter",
+    "amount": 25
+  }
+}

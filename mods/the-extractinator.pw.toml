@@ -1,0 +1,13 @@
+name = "The Extractinator (Fabric)"
+filename = "TheExtractinator-1.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bb9e5dacd45c091458131f1cc78c6364b6fc0ee4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3778210
+project-id = 567114

@@ -1,0 +1,21 @@
+{
+  "type": "modern_industrialization:implosion_compressor",
+  "eu": 65000,
+  "duration": 6000,
+  "item_inputs": [
+    {
+      "item" : "compress:compressed_redstone_block_3",
+      "amount": 2
+    },
+    {
+      "item" : "modern_industrialization:singularity",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "kubejs:redstone_singularity",
+      "amount": 1
+    }
+  ]
+}

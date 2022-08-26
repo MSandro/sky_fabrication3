@@ -1,0 +1,13 @@
+name = "Simple Teleporters (Fabric)"
+filename = "simpleteleporters-2.3.0+fabric-mc1.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e330527856f5650088b4e9a0f7f173d645acbce1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3540346
+project-id = 334011

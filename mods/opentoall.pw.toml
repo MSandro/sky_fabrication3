@@ -1,0 +1,13 @@
+name = "OpenToALL"
+filename = "opentoall-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a6f9f26353c46b3b44e6ec227d0f9477811e67a1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3622249
+project-id = 518611

@@ -1,0 +1,13 @@
+name = "Smaller Nether Portals (Fabric)"
+filename = "smallernetherportals-fabric_1.18.2-2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "db9966ede25af4896f2249f780f9b44d97a011f4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3907738
+project-id = 528061

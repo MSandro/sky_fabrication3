@@ -1,0 +1,13 @@
+name = "Croparia v4 [FORGE/FABRIC]"
+filename = "[FABRIC]-Croparia-3.8.3-1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8865abecad3370979a97dd902662e72c04c9d9c5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3689026
+project-id = 250235

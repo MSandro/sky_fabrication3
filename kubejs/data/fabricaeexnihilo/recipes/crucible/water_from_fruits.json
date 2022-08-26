@@ -1,0 +1,7 @@
+{
+  "type": "fabricaeexnihilo:crucible",
+  "input": "#c:fruits",
+  "amount": 8100,
+  "fluid": "minecraft:water",
+  "requiresFireproofCrucible": false
+}

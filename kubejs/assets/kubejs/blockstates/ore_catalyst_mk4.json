@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "kubejs:block/ore_catalyst_mk4" }
+  }
+}

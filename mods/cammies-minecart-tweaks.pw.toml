@@ -1,0 +1,13 @@
+name = "Cammie's Minecart Tweaks"
+filename = "cammies-minecart-tweaks-1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3be224398510b8682cf0758d54071886ac85452b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3742119
+project-id = 579937

@@ -1,0 +1,10 @@
+{
+  "type": "fabricaeexnihilo:sieve",
+  "result": "create:crushed_zinc_ore",
+  "input": "fabricaeexnihilo:crushed_andesite",
+  "rolls": {
+    "fabricaeexnihilo:iron_mesh": [0.05, 0.05],
+    "fabricaeexnihilo:diamond_mesh": [0.1, 0.1],
+    "fabricaeexnihilo:netherite_mesh": [0.2, 0.2]
+  }
+}

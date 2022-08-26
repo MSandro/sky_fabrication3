@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iii",
+    "BRB",
+    "IPI"
+  ],
+  "key": {
+    "i": {
+      "tag": "c:iron_ingots"
+    },
+    "B": {
+      "item": "minecraft:blue_ice"
+    },
+    "R": {
+      "item": "techreborn:basic_machine_casing"
+    },
+    "I": {
+      "tag": "c:iron_blocks"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "item": "extragenerators:icy_generator",
+    "count": 1
+  }
+}

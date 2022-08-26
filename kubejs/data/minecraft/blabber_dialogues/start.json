@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ladysnake.github.io/wiki/blabber/dialogue.schema.json",
+  "start_at": "choseIsland",
+  "unskippable": true,
+  "states": {
+    "choseIsland": {
+      "text": "Welcome to Sky FABRICation 3. Claim the first quest to select your island!",
+      "choices": [
+        { "text": ">>> Start <<<", "next": "end_dialogue"}
+      ]
+    },
+    "end_dialogue": {
+      "type": "end_dialogue"
+    }
+  }
+}

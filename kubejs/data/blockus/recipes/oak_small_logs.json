@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "small_logs",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "blockus:oak_small_logs",
+    "count": 3
+  }
+}

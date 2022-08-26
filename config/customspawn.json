@@ -1,0 +1,75 @@
+{
+  "chunkConstant": 7,
+  "rareSpawnTicksToWait": 400,
+  "monsterGroup": {
+    "capacity": 70,
+    "peaceful": false,
+    "rare": false,
+    "immediateDespawnRange": 128,
+    "despawnStartRange": 64
+  },
+  "creatureGroup": {
+    "capacity": 10,
+    "peaceful": true,
+    "rare": true,
+    "immediateDespawnRange": 128,
+    "despawnStartRange": 32
+  },
+  "ambientGroup": {
+    "capacity": 15,
+    "peaceful": true,
+    "rare": false,
+    "immediateDespawnRange": 128,
+    "despawnStartRange": 32
+  },
+  "axolotlGroup": {
+    "capacity": 5,
+    "peaceful": true,
+    "rare": false,
+    "immediateDespawnRange": 128,
+    "despawnStartRange": 32
+  },
+  "waterCreatureGroup": {
+    "capacity": 5,
+    "peaceful": true,
+    "rare": false,
+    "immediateDespawnRange": 128,
+    "despawnStartRange": 32
+  },
+  "waterAmbientGroup": {
+    "capacity": 20,
+    "peaceful": true,
+    "rare": false,
+    "immediateDespawnRange": 64,
+    "despawnStartRange": 32
+  },
+  "undergroundWaterGroup": {
+    "capacity": 5,
+    "peaceful": true,
+    "rare": false,
+    "immediateDespawnRange": 128,
+    "despawnStartRange": 32
+  },
+  "passivePersistent": true,
+  "hostilePersistent": false,
+  "ambientPersistent": false,
+  "waterPersistent": false,
+  "mobSpawnAdditions": [
+    {
+      "biomeId": "minecraft:plains",
+      "mobId": "minecraft:spider",
+      "spawnGroup": "MONSTER",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ],
+  "mobSpawnRemovals": [],
+  "overrideSpawnerDefaultValues": false,
+  "minSpawnDelay": 200,
+  "maxSpawnDelay": 800,
+  "spawnCount": 4,
+  "maxNearbyEntities": 6,
+  "requiredPlayerRange": 16,
+  "spawnRange": 4
+}

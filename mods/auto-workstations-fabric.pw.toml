@@ -1,0 +1,13 @@
+name = "Auto Workstations (Fabric)"
+filename = "auto-workstations-1.0-SNAPSHOT-14.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4bd99c67ba0c1648d896d5544569198877970122"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3894545
+project-id = 623678

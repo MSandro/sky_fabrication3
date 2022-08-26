@@ -1,0 +1,13 @@
+name = "Accurate Block Placement"
+filename = "accurate-block-placement-1.0.12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ab08b5ef84c509ef66b941cf1d5be4a43baee5a8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3673256
+project-id = 323316

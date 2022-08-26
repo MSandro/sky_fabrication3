@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "kubejs:diamond_lattice"
+    },
+    "1": {
+      "item": "minecraft:nether_star"
+    },
+    "2": {
+      "item": "kubejs:diamond_lattice"
+    },
+    "3": {
+      "item": "kubejs:diamond_lattice"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "kubejs:diamond_lattice"
+    }
+  },
+  "result": {
+    "item": "kubejs:crystal_matrix_ingot",
+    "count": 1
+  }
+}

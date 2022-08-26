@@ -1,0 +1,13 @@
+name = "Bossbar Stack [Fabric/Forge]"
+filename = "bossbar-stack-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6b4f21bed93fd6ead646f8ef865a7b60b50640dd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3869226
+project-id = 643253

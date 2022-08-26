@@ -1,0 +1,13 @@
+name = "Desired Servers [Fabric]"
+filename = "desiredservers-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa6b4da3c4880fa4958402c6646cdf67d76a465b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3595210
+project-id = 564161

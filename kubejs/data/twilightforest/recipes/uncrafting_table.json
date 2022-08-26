@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "twilightforest:uncrafting_enabled"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "Y#Y",
+    "YYY"
+  ],
+  "key": {
+    "#": {
+      "item": "artis:biggest_bench"
+    },
+    "X": {
+      "item": "twilightforest:maze_map_focus"
+    },
+    "Y": {
+      "item": "twilightforest:fiery_block"
+    }
+  },
+  "result": {
+    "item": "twilightforest:uncrafting_table"
+  }
+}

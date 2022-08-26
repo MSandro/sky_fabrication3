@@ -1,0 +1,13 @@
+name = "⚒️ On A Stick"
+filename = "onastick-fabric-2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "66f8993e727683fd3e4da057e87da1d159e15e0d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3590716
+project-id = 550544

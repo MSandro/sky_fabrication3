@@ -1,0 +1,26 @@
+{
+  "type": "artis:upgrade_bench_shaped",
+  "pattern": [
+    "CRC",
+    "RDR",
+    "CRC"
+  ],
+  "key": {
+    "R": {
+      "item": "modern_industrialization:plutonium_battery"
+    },
+    "D": {
+      "item": "modern_industrialization:quantum_circuit"
+    },
+    "C": {
+      "item": "modern_industrialization:superconductor_cable"
+    }
+  },
+  "catalyst": {
+     "item": "iron-jetpacks:ultimate_coil"
+  },
+  "cost": 1,
+  "result": {
+    "item": "iron-jetpacks:expert_coil"
+  }
+}

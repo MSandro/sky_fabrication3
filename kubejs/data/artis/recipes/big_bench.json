@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#I#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "c:workbench"
+    },
+    "I": {
+      "item": "compress:compressed_iron_block_1"
+    }
+  },
+  "result": {
+    "item": "artis:big_bench"
+  }
+}

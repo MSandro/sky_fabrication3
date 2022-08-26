@@ -1,0 +1,13 @@
+name = "Redstone Bits"
+filename = "redstone-bits-1.8.2+fabric-mc1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aedf35672595e937ff1b580b6b70ef891d1e5ad0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3810366
+project-id = 321014

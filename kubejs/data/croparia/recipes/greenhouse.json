@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sgs",
+    "GXG",
+    "G G"
+  ],
+  "key": {
+    "s": {
+      "item": "modern_industrialization:copper_rod"
+    },
+    "g": {
+      "item": "architects_palette:algal_lamp"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "X": {
+      "item": "fertilization:extremely_compressed_bonemeal"
+    }
+  },
+  "result": {
+    "item": "croparia:greenhouse"
+  },
+    "group": "greenhouse"
+}

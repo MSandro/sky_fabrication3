@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SRS",
+    "RMR",
+    "SRS"
+  ],
+  "key": {
+    "R": {
+      "item": "techreborn:basic_machine_casing"
+    },
+    "S": {
+      "item": "botania:livingrock"
+    },
+    "M": {
+      "item": "botania:elementium_ingot"
+    }
+  },
+  "result": {
+    "item": "botania:mana_fluxfield"
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "IGI",
+      "ORO",
+      "XZX"
+    ],
+    "key": {
+      "I": {
+        "tag": "c:aluminum_ingots"
+      },
+      "R": {
+        "item": "modern_industrialization:turbo_machine_hull"
+      },
+      "O": {
+        "item": "agape_space:fluid_tank"
+      },
+      "X": {
+          "item": "minecraft:blaze_rod"
+      },
+      "Z": {
+        "item": "agape_space:part_engine_liquid"
+      },
+      "G": {
+        "item": "minecraft:glass"
+      }
+    },
+    "result": {
+      "item": "agape_space:rocket_ship_box_v3",
+      "count": 1
+    }
+  }

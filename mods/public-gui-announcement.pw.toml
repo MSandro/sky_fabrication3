@@ -1,0 +1,13 @@
+name = "Public Gui Announcement"
+filename = "Public GUI Announcement-fabric-1.18.2-3.2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d84f64d2a584667af8a2419a9e174e38f5b45e21"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3751441
+project-id = 341727

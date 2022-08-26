@@ -1,0 +1,13 @@
+name = "Extractinator Tweaks (Fabric)"
+filename = "extractinator-tweaks-1.0-SNAPSHOT-3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "30832ec3c3df7577ec35dcf3d0840928768987c7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3818645
+project-id = 626621

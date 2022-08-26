@@ -1,0 +1,13 @@
+name = "Staff of Traveling"
+filename = "Staff of Travelling-fabric-1.18.2-1.0.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "71c498d29e0d86a93d514a8fb629c4101f170e28"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3927959
+project-id = 603970

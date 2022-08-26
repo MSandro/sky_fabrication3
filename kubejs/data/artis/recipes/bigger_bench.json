@@ -1,0 +1,21 @@
+{
+  "type": "artis:big_bench_shaped",
+  "pattern": [
+    "#####",
+    "#####",
+    "##D##",
+    "#####",
+    "#####"
+  ],
+  "key": {
+    "#": {
+      "item": "artis:big_bench"
+    },
+    "D": {
+      "item": "kubejs:neutronium_nugget"
+    }
+  },
+  "result": {
+    "item": "artis:bigger_bench"
+  }
+}

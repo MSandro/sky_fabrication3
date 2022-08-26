@@ -1,0 +1,13 @@
+name = "Hearty Trinkets"
+filename = "heartytrinkets-1.18.2-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bacfee791130499e052039375d40e9b19329dd77"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3772957
+project-id = 567728

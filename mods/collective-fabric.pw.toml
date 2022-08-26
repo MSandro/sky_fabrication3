@@ -1,0 +1,13 @@
+name = "Collective (Fabric)"
+filename = "collective-fabric-1.18.2-4.49.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1872b2527f953b9e0efe2fab20e3f9e980de2eb0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3951501
+project-id = 526606

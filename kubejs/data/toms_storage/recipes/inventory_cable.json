@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","pattern":["SSS","IQI","SSS"],"key":{"I":{"tag":"c:iron_ingots"},"S":{"tag":"minecraft:wooden_slabs"},"Q":{"item":"minecraft:quartz"}},"result":{"item":"toms_storage:ts.inventory_cable","count":8}}

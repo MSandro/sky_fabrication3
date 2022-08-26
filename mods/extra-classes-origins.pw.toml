@@ -1,0 +1,13 @@
+name = "Extra Classes - Origins"
+filename = "extra_classes_origins.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "984e4506b1a52c756abcffad37da06070c23947c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3659789
+project-id = 565536

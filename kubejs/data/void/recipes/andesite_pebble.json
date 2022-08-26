@@ -1,0 +1,13 @@
+{
+  "type": "voidcrafting:void_crafting",
+  "input": {
+    "item": "fabricaeexnihilo:andesite_pebble"
+  },
+  "world": "minecraft:overworld",
+  "radius": 0.001,
+  "absolute": true,
+  "result": {
+    "item": "techreborn:andesite_small_dust",
+    "count": 1
+  }
+}

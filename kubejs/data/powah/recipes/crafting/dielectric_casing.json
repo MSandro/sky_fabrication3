@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+	"ihi",
+	"vXv",
+	"ihi"
+  ],
+  "key": {
+	"v": {
+	  "item": "powah:dielectric_rod"
+	},
+	"h": {
+	  "item": "powah:dielectric_rod_horizontal"
+	},
+	"i": {
+	  "item": "minecraft:iron_ingot"
+	},
+  "X": {
+    "item": "techreborn:basic_machine_frame"
+  }
+  },
+  "result": {
+	"item": "powah:dielectric_casing"
+  }
+}

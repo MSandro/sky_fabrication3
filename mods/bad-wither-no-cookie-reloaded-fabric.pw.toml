@@ -1,0 +1,13 @@
+name = "Bad Wither No Cookie - Reloaded [Fabric]"
+filename = "badwithernocookiereloaded-3.10.18+(Fabric+1.18.2).jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "285655f3434bc069039e5d08bd3a03cad5a248d8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3819445
+project-id = 557867

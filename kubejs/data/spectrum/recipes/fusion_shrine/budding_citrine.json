@@ -1,0 +1,30 @@
+{
+  "type": "spectrum:fusion_shrine",
+  "time": 480,
+  "experience": 2.0,
+  "fluid": "modern_industrialization:lubricant",
+  "ingredients": [
+    {
+      "item": "spectrum:onyx_shard"
+    },
+    {
+      "item": "spectrum:citrine_storage_block"
+    },
+    {
+      "item": "botania:life_essence"
+    }
+  ],
+  "result": {
+    "item": "spectrum:budding_citrine"
+  },
+  "world_conditions": [
+    "new_moon",
+    "midnight"
+  ],
+  "during_crafting_effects": [
+    "visual_explosions_on_shrine",
+    "nothing",
+    "visual_explosions_on_shrine"
+  ],
+  "finish_crafting_effect": "lightning_on_shrine"
+}

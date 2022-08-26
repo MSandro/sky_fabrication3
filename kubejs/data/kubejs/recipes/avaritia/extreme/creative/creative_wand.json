@@ -1,0 +1,31 @@
+{
+  "type": "artis:biggest_bench_shaped",
+  "pattern": [
+		"      XXX",
+		"      XWX",
+		"      XXX",
+		"     Y   ",
+		"    Y    ",
+		"   Y     ",
+		"  Y      ",
+		" Y       ",
+		"Z        "
+  ],
+  "key": {
+  	"Z": {
+  		"item": "kubejs:infinity_ingot"
+  	},
+  	"W": {
+  		"item": "modern_industrialization:quantum_circuit"
+  	},
+  	"X": {
+  		"item": "modern_industrialization:solid_titanium_machine_casing"
+  	},
+  	"Y": {
+  		"item": "modern_industrialization:cadmium_rod"
+  	}
+  },
+  "result": {
+    "item": "wands:creative_wand"
+  }
+}

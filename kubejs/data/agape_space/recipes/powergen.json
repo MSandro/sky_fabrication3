@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XFX",
+      "FRF",
+      "XFX"
+    ],
+    "key": {
+      "R": {
+        "item": "minecraft:furnace"
+      },
+      "X": {
+          "item": "minecraft:gold_ingot"
+      },
+      "F": {
+          "item": "techreborn:basic_machine_casing"
+      }
+    },
+    "result": {
+      "item": "agape_space:powergen",
+      "count": 1
+    }
+  }

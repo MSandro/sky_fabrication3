@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " SR",
+    " TS",
+    "X  "
+  ],
+  "key": {
+    "R": {
+      "item": "botania:rune_sloth"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "T": {
+      "item": "botania:livingwood_twig"
+    },
+    "X": {
+      "item": "modern_industrialization:aluminum_rod"
+    }
+  },
+  "result": {
+    "item": "botania:exchange_rod"
+  }
+}

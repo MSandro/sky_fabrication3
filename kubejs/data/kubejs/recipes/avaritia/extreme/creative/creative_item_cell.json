@@ -1,0 +1,40 @@
+{
+  "type": "artis:biggest_bench_shaped",
+  "pattern": [
+		"NNNNNNNNN",
+		"NQQQQQQQN",
+		"NQCCTCCQN",
+		"NQCXIXCQN",
+		"NQTIRITQN",
+		"NQCXIXCQN",
+		"NQCCTCCQN",
+		"NQQQQQQQN",
+		"NNNNNNNNN"
+  ],
+  "key": {
+  	"C": {
+  		"item": "ae2:fluix_block"
+  	},
+  	"N": {
+  		"item": "kubejs:neutronium_ingot"
+  	},
+  	"T": {
+  		"item": "ae2:cell_component_64k"
+  	},
+  	"I": {
+  		"item": "kubejs:infinity_ingot"
+  	},
+  	"X": {
+  		"item": "kubejs:infinity_catalyst"
+  	},
+  	"R": {
+  		"item": "ae2:singularity"
+  	},
+  	"Q": {
+  		"item": "techreborn:creative_storage_unit"
+  	}
+  },
+  "result": {
+    "item": "ae2:creative_item_cell"
+  }
+}

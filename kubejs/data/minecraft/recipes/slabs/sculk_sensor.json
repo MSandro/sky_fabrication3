@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "twt",
+        "cwc"
+    ],
+    "key": {
+        "t": {
+            "item": "minecraft:twisting_vines"
+        },
+        "w": {
+            "item": "minecraft:warped_wart_block"
+        },
+        "c": {
+            "item": "minecraft:crying_obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:sculk_sensor",
+        "count": 2
+    }
+}

@@ -1,0 +1,13 @@
+name = "NarrateBookForMe [FABRIC]"
+filename = "narratebookforme-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e36b17c1614c87220a7d8bb6fcb789be0c956d5a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3763456
+project-id = 547913

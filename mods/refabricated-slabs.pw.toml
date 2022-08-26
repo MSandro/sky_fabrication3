@@ -1,0 +1,13 @@
+name = "Refabricated Slabs (FABRIC)"
+filename = "refabslab-0.7.4+1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aabfa721c6306999d51d5af4b31f85ee86c7cfb2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3902031
+project-id = 429651

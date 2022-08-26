@@ -1,0 +1,26 @@
+{
+  "type": "artis:upgrade_bench_shaped",
+  "pattern": [
+    "CRC",
+    "RDR",
+    "CRC"
+  ],
+  "key": {
+    "R": {
+      "item": "modern_industrialization:cadmium_battery"
+    },
+    "D": {
+      "item": "modern_industrialization:digital_circuit"
+    },
+    "C": {
+      "item": "modern_industrialization:platinum_cable"
+    }
+  },
+  "catalyst": {
+     "item": "iron-jetpacks:elite_coil"
+  },
+  "cost": 1,
+  "result": {
+    "item": "iron-jetpacks:ultimate_coil"
+  }
+}

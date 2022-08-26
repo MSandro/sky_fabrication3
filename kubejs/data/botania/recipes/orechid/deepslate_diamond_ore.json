@@ -1,0 +1,9 @@
+{
+  "type": "botania:orechid",
+  "input": "minecraft:deepslate",
+  "output": {
+    "type": "block",
+    "block": "indrev:deepslate_nikolite_ore"
+  },
+  "weight": 883
+}

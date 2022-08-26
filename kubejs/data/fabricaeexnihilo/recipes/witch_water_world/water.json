@@ -1,0 +1,8 @@
+{
+  "type": "fabricaeexnihilo:witch_water_world",
+  "target": "#fabricaeexnihilo:true_water",
+  "result": {
+    "minecraft:podzol": 1,
+    "minecraft:air": 99
+  }
+}

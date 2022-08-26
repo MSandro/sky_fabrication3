@@ -1,0 +1,13 @@
+name = "cAn i MiNe thIS bLOCk?"
+filename = "can-i-mine-this-block-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7ff3f825d9f2aea41eb359bdc036d52818ff2bea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3680371
+project-id = 400929

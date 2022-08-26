@@ -1,0 +1,13 @@
+name = "Spectrum"
+filename = "spectrum-1.5.2-1.18.2-magic.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f6de93de0aba3679cd234e1c5bf968295422dd0c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3943229
+project-id = 556967

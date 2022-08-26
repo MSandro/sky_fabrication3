@@ -1,0 +1,13 @@
+name = "Besmirchment 2"
+filename = "besmirchment-1.18.2-12.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2e13fc39228d27181d542fbad9c26cb6f46b9e99"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3896027
+project-id = 542196

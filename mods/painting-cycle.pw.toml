@@ -1,0 +1,13 @@
+name = "Painting Cycle"
+filename = "paintingcycle-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "16a6e49ce8ed04b03f51786059fb1fdb1c3222cd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3802221
+project-id = 392584

@@ -1,0 +1,13 @@
+name = "Diagonal Panes"
+filename = "fabric-diagonal-panes-0.6.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ae38146f12b28d5fba76d675fcbc16fb7334d724"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3694035
+project-id = 339575

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "compressed_ruby_block_one",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "compress:ruby_block"
+        }
+    },
+    "result": {
+        "item": "compress:compressed_ruby_block_1",
+        "count": 1
+    }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "artis:biggest_bench_shaped",
+  "pattern": [
+		"NNNNNNNNN",
+		"NQQQQQQQN",
+		"NQCCTCCQN",
+		"NQCXIXCQN",
+		"NQTIRITQN",
+		"NQCXIXCQN",
+		"NQCCTCCQN",
+		"NQQQQQQQN",
+		"NNNNNNNNN"
+  ],
+  "key": {
+  	"C": {
+  		"item": "kubejs:crystal_matrix_ingot"
+  	},
+  	"N": {
+  		"item": "kubejs:neutronium_ingot"
+  	},
+  	"T": {
+  		"item": "modern_industrialization:superconductor_coil"
+  	},
+  	"I": {
+  		"item": "kubejs:infinity_ingot"
+  	},
+  	"X": {
+  		"item": "kubejs:infinity_catalyst"
+  	},
+  	"Q": {
+  		"item": "indrev:lazuli_flux_container_mk4"
+  	},
+    "R": {
+      "item": "techreborn:creative_solar_panel"
+    }
+  },
+  "result": {
+    "item": "indrev:lazuli_flux_container_creative"
+  }
+}

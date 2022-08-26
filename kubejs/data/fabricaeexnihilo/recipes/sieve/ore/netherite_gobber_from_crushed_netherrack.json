@@ -1,0 +1,8 @@
+{
+  "type": "fabricaeexnihilo:sieve",
+  "result": "gobber2:gobber2_globette_nether",
+  "input": "fabricaeexnihilo:crushed_netherrack",
+  "rolls": {
+    "fabricaeexnihilo:netherite_mesh": [0.1, 0.1]
+  }
+}

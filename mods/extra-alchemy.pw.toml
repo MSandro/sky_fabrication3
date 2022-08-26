@@ -1,0 +1,13 @@
+name = "Extra Alchemy"
+filename = "extraalchemy-fabric-1.18.2-1.8.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c7d184c8c39e603df8361fa5fa79652da1fa1386"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3767558
+project-id = 247357

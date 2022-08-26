@@ -1,0 +1,9 @@
+{
+  "block": "edenring:gravilite_block",
+  "dim": "sf3:void",
+  "ignitionType": "ITEM",
+  "ignitionSource": "twilightforest:maze_map_focus",
+  "r": 102,
+  "g": 179,
+  "b": 255
+}

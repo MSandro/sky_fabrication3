@@ -1,0 +1,13 @@
+name = "Skip Transitions"
+filename = "skiptransitions-1.3.2+1.18.x.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ba6c0af7fc1d9a93152c4a173d35e196de2480e8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3735539
+project-id = 592071

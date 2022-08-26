@@ -1,0 +1,17 @@
+{
+    "type": "modern_industrialization:packer",
+	"eu": 2,
+	"duration": 100,
+	"item_inputs": [
+    {
+      "item": "minecraft:paper",
+      "amount": 9
+    }
+	],
+	"item_outputs": [
+    {
+      "item": "blockus:paper_block",
+      "amount": 1
+    }
+	]
+}

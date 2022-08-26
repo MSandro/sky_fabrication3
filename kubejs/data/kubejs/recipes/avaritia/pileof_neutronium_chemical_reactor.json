@@ -1,0 +1,38 @@
+{
+  "type": "modern_industrialization:chemical_reactor",
+  "eu": 1024,
+  "duration": 800,
+  "item_inputs": [
+    {
+      "item" : "modern_industrialization:le_mox_tiny_dust",
+      "amount": 1
+    },
+    {
+      "item" : "modern_industrialization:iridium_tiny_dust",
+      "amount": 1
+    },
+    {
+      "item" : "modern_industrialization:superconductor_tiny_dust",
+      "amount": 1
+    }
+  ],
+
+  "fluid_inputs": [
+    {
+      "fluid" : "modern_industrialization:uu_matter",
+      "amount" : 1
+    },
+    {
+      "fluid" : "modern_industrialization:styrene_butadiene_rubber",
+      "amount" : 100
+    },
+    {
+      "fluid" : "modern_industrialization:helium_plasma",
+      "amount" : 100
+    }
+  ],
+  "item_outputs": {
+    "item" : "kubejs:pileof_neutrons",
+    "amount": 1
+  }
+}

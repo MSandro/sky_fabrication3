@@ -1,0 +1,13 @@
+name = "Enchanted Vertical Slabs - BetterEnd Edition"
+filename = "evs-betterend-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "87bc3c84d62ae71b429a8e4b8ba04a9dca07d355"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3740541
+project-id = 606906

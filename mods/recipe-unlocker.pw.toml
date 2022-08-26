@@ -1,0 +1,13 @@
+name = "Recipe Unlocker"
+filename = "Recipe-Unlocker.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0aba88006cac918493546bfaed4bf686bec9a619"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3666649
+project-id = 584787
