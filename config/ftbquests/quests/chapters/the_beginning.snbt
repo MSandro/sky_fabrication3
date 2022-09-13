@@ -824,7 +824,6 @@
 			x: -3.5d
 			y: -13.0d
 			shape: "octagon"
-			subtitle: "Fishing works AFK. You can just watch it."
 			dependencies: ["7849BD01ACBFAC3A"]
 			hide: true
 			size: 1.5d
@@ -1098,28 +1097,61 @@
 			tasks: [{
 				id: "6D6841B598803A76"
 				type: "item"
-				item: {
-					id: "fabricaeexnihilo:oak_barrel"
-					Count: 1b
-					tag: {
-						Enchantments: [
-							{
-								id: "minecraft:efficiency"
-								lvl: 3s
-							}
-							{
-								id: "minecraft:thorns"
-								lvl: 1s
-							}
-						]
-					}
-				}
+				item: "fabricaeexnihilo:blood_bucket"
 			}]
 			rewards: [{
 				id: "0CB77E96D48C5F00"
 				type: "item"
-				item: "fabricaeexnihilo:blood_bucket"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:thorns"
+							lvl: 1s
+						}]
+					}
+				}
 			}]
+		}
+		{
+			x: -2.0d
+			y: -13.0d
+			dependencies: ["6D7B9D15C87A8C57"]
+			id: "722E4F3BB0855CE8"
+			tasks: [
+				{
+					id: "3CDFFBC716C1697C"
+					type: "checkmark"
+					title: "need a new rod?"
+				}
+				{
+					id: "515A874CDEC88BBC"
+					type: "xp"
+					value: 5L
+					points: false
+				}
+			]
+			rewards: [
+				{
+					id: "5F15360BCD7E5FBB"
+					type: "item"
+					auto: "disabled"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5D19B052F5FD784F"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 722E4F3BB0855CE8"
+					player_command: false
+				}
+			]
 		}
 	]
 }

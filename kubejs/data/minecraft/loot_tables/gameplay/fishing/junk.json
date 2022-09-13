@@ -43,7 +43,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 100,
           "name": "minecraft:oak_sapling"
         },
         {
@@ -95,7 +95,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 100,
           "name": "minecraft:dirt"
         },
         {

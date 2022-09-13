@@ -25,6 +25,9 @@ onEvent('recipes', (event) => {
   event.remove({output: 'techreborn:sapphire_gem', type: 'fabricaeexnihilo:sieve'});
   event.remove({output: 'techreborn:red_garnet_gem', type: 'fabricaeexnihilo:sieve'});
   event.remove({output: 'techreborn:peridot_gem', type: 'fabricaeexnihilo:sieve'});
+  event.remove({output: 'fabricaeexnihilo:raw_iridium_piece', type: 'fabricaeexnihilo:sieve'});
+  event.remove({output: 'fabricaeexnihilo:raw_gold_piece', type: 'fabricaeexnihilo:sieve'});
+  event.remove({output: 'techreborn:platinum_small_dust', type: 'fabricaeexnihilo:sieve'});
 
   // COMPRESS
   const DelCompressem = [

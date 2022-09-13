@@ -110,7 +110,7 @@
 			}]
 		}
 		{
-			x: -14.5d
+			x: -15.0d
 			y: -4.0d
 			dependencies: ["1A4329CA0DB50D81"]
 			id: "0F181B7E5EDB31DB"
@@ -126,7 +126,7 @@
 			}]
 		}
 		{
-			x: -15.5d
+			x: -16.0d
 			y: -4.5d
 			dependencies: ["1A4329CA0DB50D81"]
 			id: "1C1EDE7DE60C08C4"
@@ -142,8 +142,8 @@
 			}]
 		}
 		{
-			x: -16.5d
-			y: -4.5d
+			x: -17.0d
+			y: -4.0d
 			dependencies: ["1A4329CA0DB50D81"]
 			id: "106E37EA03E3388C"
 			tasks: [{
@@ -159,7 +159,12 @@
 		}
 		{
 			x: -17.5d
-			y: -4.0d
+			y: -3.0d
+			description: [
+				"this Device can be used for generating a low amount of SU, but you will be able to use it for processing too."
+				""
+				"place it upside down on top of a heat source to produce energy."
+			]
 			dependencies: ["1A4329CA0DB50D81"]
 			id: "3ECCC092EB52FE86"
 			tasks: [{
@@ -325,22 +330,6 @@
 			}]
 			rewards: [{
 				id: "0E220986B802D5C9"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -10.5d
-			y: -6.0d
-			dependencies: ["62A78C1DEB1B231A"]
-			id: "34BB273446BFFBFA"
-			tasks: [{
-				id: "4CE36B9C893485AF"
-				type: "item"
-				item: "createaddition:crude_burner"
-			}]
-			rewards: [{
-				id: "42B527675DBBE56D"
 				type: "random"
 				table_id: 13756307348121783L
 			}]
@@ -1046,7 +1035,7 @@
 			}]
 		}
 		{
-			x: -14.5d
+			x: -15.0d
 			y: -2.0d
 			dependencies: ["160951F6A70A85ED"]
 			id: "1F19EC079788639D"
@@ -1069,7 +1058,7 @@
 			}]
 		}
 		{
-			x: -13.5d
+			x: -14.0d
 			y: -2.0d
 			dependencies: ["1F19EC079788639D"]
 			id: "5D45322B6DB77BBA"
@@ -1648,6 +1637,23 @@
 			}]
 			rewards: [{
 				id: "79BA7746C7D5E881"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -14.5d
+			y: -3.0d
+			description: ["Advanced Energy Source"]
+			dependencies: ["1A4329CA0DB50D81"]
+			id: "48B8C6A58BE6A0FA"
+			tasks: [{
+				id: "74633B09D62708DB"
+				type: "item"
+				item: "create:steam_engine"
+			}]
+			rewards: [{
+				id: "05A64841F2D8E688"
 				type: "random"
 				table_id: 13756307348121783L
 			}]

@@ -54,6 +54,7 @@ onEvent('server.custom_command', event => {
 function generalTasks(event, slab, slabY) {
     event.server.runCommandSilent(`origin gui ${event.player.name.text}`);
 		event.server.runCommandSilent(`execute at ${event.player.name.text} in ${event.level.dimension} run setblock ~1 70 ~1 minecraft:obsidian`);
+    event.server.runCommandSilent(`execute at ${event.player.name.text} in ${event.level.dimension} run setblock ~ 71 ~ minecraft:air`);
 		event.server.runCommandSilent(`execute at ${event.player.name.text} in ${event.level.dimension} run setblock ~1 ${slabY} ~2 ${slab}[type=bottom]`);
 		event.server.runCommandSilent(`execute at ${event.player.name.text} in ${event.level.dimension} run setblock ~1 ${slabY} ~ ${slab}[type=bottom]`);
 		event.server.runCommandSilent(`execute at ${event.player.name.text} in ${event.level.dimension} run setblock ~2 ${slabY} ~1 ${slab}[type=bottom]`);

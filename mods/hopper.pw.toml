@@ -1,0 +1,13 @@
+name = "Hopper+ (Better Hoppers)"
+filename = "hplus-1.18.2-3.3.0-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6a1215f30245321a45a18a35ae9bb4e2d12c232d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3787619
+project-id = 415164

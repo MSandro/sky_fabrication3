@@ -1,13 +1,13 @@
 name = "Realistic Sleep (Fabric)"
-filename = "RealisticSleep-1.4+1.18.2-fabric.jar"
+filename = "realisticsleep-1.5.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "2bd8104f82ef2dedee833f8a0aa6db0d3d68d8b6"
+hash = "6dd89e11d5bac995523cb05b9320d651500f7cce"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3855130
+file-id = 3983776
 project-id = 616330
