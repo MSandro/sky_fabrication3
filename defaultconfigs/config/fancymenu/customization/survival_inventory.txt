@@ -1,0 +1,21 @@
+type = menu
+
+customization-meta {
+  identifier = me.lizardofoz.inventorio.client.ui.InventorioScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=589422%
+  action = setbuttondescription
+  description = Trinkets
+}
+

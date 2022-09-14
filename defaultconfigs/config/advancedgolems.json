@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "Golem Health": {
+    "__comment": [
+      "Health of a golem",
+      "Range: > 0.0"
+    ],
+    "input": 40.0
+  },
+  "Golem Attack": {
+    "__comment": [
+      "Base attack of a golem",
+      "Range: > 0.0"
+    ],
+    "input": 2.5
+  },
+  "Golem Home": {
+    "__comment": [
+      "Home radius of golems",
+      "Range: > 0"
+    ],
+    "input": 9
+  },
+  "Equipment Damage": {
+    "__comment": [
+      "If equipment given to golems should take durability damage"
+    ],
+    "input": true
+  },
+  "Fly Item": {
+    "__comment": [
+      "Item to make golems able to fly"
+    ],
+    "input": "minecraft:nether_star"
+  },
+  "Speed Item": {
+    "__comment": [
+      "Item to increase golems movement speed"
+    ],
+    "input": "minecraft:sugar"
+  },
+  "Speed Max": {
+    "__comment": [
+      "Max amount of speed upgrades. Each upgrade increases speed by 0.02 and flyspeed by 0.04",
+      "Range: > 0"
+    ],
+    "input": 10
+  },
+  "Damage Item": {
+    "__comment": [
+      "Item to increase golems base damage"
+    ],
+    "input": "minecraft:diamond"
+  },
+  "Damage Max": {
+    "__comment": [
+      "Max amount of damage upgrades. Each upgrade increases damage by 0.5",
+      "Range: > 0"
+    ],
+    "input": 5
+  },
+  "Health Item": {
+    "__comment": [
+      "Item to increase golems health"
+    ],
+    "input": "minecraft:golden_melon"
+  },
+  "Health Max": {
+    "__comment": [
+      "Max amount of health upgrades. Each upgrade increases health by 1",
+      "Range: > 0"
+    ],
+    "input": 10
+  },
+  "Fire Resistant Item": {
+    "__comment": [
+      "Item to make a golem immune to fire damage"
+    ],
+    "input": "minecraft:air"
+  },
+  "Polymer": {
+    "__comment": [
+      "Enable polymer support"
+    ],
+    "input": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "neutronium",
+  "disable": false,
+  "tier": 6,
+  "color": "3A3A3A",
+  "armorPoints": 5,
+  "enchantability": 15,
+  "craftingMaterial": "kubejs:neutronium_ingot",
+  "rarity": 0,
+  "capacity": 6.4E7,
+  "usage": 880.0,
+  "speedVertical": 1.03,
+  "accelVertical": 0.17,
+  "speedSideways": 0.21,
+  "speedHoverDescend": 0.45,
+  "speedHover": 0.0,
+  "sprintSpeedMulti": 2.0,
+  "sprintFuelMulti": 4.0
+}

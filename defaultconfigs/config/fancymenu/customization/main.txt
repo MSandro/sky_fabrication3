@@ -1,0 +1,143 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 1664538b-e0a6-4c1b-9880-241dce859b891659428024685
+  y = 339
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 525
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = eb9b1af4-821f-4f69-9500-af49ec2c13051659428024694
+  y = 187
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 285
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 257ed990-a7d3-4ef0-9d3c-7ee659a4c7221659428024695
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 579bae35-31c1-44fd-969b-5096fced876c1659428024695
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Report a Issue
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 102
+  width = 98
+  actionid = 0eefa455-1bdd-4960-8ea2-4a2a009e6af81659428308422
+  action = addbutton
+  y = 24
+  value = https://github.com/MSandro/sky_fabrication3/issues
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  label = Rent A Server
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 0
+  width = 98
+  actionid = c44064f6-6bea-415f-b389-dffc9faa521e1659428406381
+  action = addbutton
+  y = 24
+  value = https://www.akliz.net/manage/aff.php?aff=250
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 1
+  actionid = c96ee122-e749-48d3-bd90-be7b9921835b1659428993637
+  action = addtext
+  y = -10
+  scale = 1.0
+  alignment = left
+  value = Sky FABRICation 3 v0.5.1
+}
+
+customization {
+  identifier = %id=376310%
+  action = hidebutton
+}

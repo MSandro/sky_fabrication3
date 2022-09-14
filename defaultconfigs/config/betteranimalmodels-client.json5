@@ -1,0 +1,27 @@
+// 
+{
+	"minecraft": {
+		"replace_zombie_horse": true,
+		"replace_dolphin": true,
+		"replace_chicken": true,
+		"replace_bee": true,
+		"replace_wolf": true,
+		"replace_skeleton_horse": true,
+		"replace_donkey": true,
+		"replace_cow": true,
+		"replace_ocelot": true,
+		"replace_fox": true,
+		"replace_pig": true,
+		"replace_polar_bear": true,
+		"replace_horse": true,
+		"replace_mule": true,
+		"replace_cat": true,
+		"replace_mooshroom": true,
+		"replace_silverfish": true,
+		"replace_glow_squid": true,
+		"replace_squid": true,
+		"replace_spider": true,
+		"replace_sheep": true,
+		"replace_cavespider": true
+	}
+}

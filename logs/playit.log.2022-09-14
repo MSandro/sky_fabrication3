@@ -1,0 +1,39 @@
+2022-09-14T04:59:01.203819Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 216, tunnel_server_id: 12977 }
+2022-09-14T04:59:00.620817Z ERROR agent::application: failed to setup udp channel error=SignatureError(SignatureExpired { now: 1663131540607, timestamp: 1663102941931, from_system: true })
+2022-09-14T04:59:04.588805Z ERROR ping task: agent::ping_task: ping task failed to update error=Os { code: 101, kind: NetworkUnreachable, message: "Network is unreachable" }
+2022-09-14T04:59:05.621913Z ERROR agent::tunnel_client: failed to send UDP packet to control error=Os { code: 101, kind: NetworkUnreachable, message: "Network is unreachable" }
+2022-09-14T04:59:07.635718Z  INFO agent::tunnel_client: resend request request_id=1
+2022-09-14T04:59:10.641822Z  INFO agent::tunnel_client: resend request request_id=0
+2022-09-14T04:59:10.795530Z  INFO agent::application: queue claim port lease claim=ClaimLease { ip: 147.185.221.211, from_port: 56392, to_port: 56393, proto: Tcp }
+2022-09-14T04:59:11.592362Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 220, tunnel_server_id: 13795 }
+2022-09-14T04:59:11.947623Z  INFO agent::tunnel_client: resend request request_id=1
+2022-09-14T04:59:11.970947Z ERROR agent::application: failed to setup udp channel error=SignatureError(SignatureExpired { now: 1663131551962, timestamp: 1663102941931, from_system: true })
+2022-09-14T04:59:15.593234Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 215, tunnel_server_id: 13795 }
+2022-09-14T04:59:16.993399Z  INFO agent::tunnel_client: setup udp channel v6 details=SetupUdpChannelDetailsV6 { tunnel_addr: [2602:fbaf:140::2]:5512, token: [0, 0, 0, 0, 0, 0, 174, 255, 0, 0, 0, 0, 0, 0, 0, 60, 99, 33, 95, 164, 180, 11, 24, 144, 195, 96, 243, 150, 177, 120, 108, 73, 203, 143, 94, 40, 210, 182, 70, 86, 95, 104, 91, 102, 217, 72, 117, 216, 135, 92, 198, 213, 208, 31, 230, 131, 13, 220, 231, 129] }
+2022-09-14T04:59:19.594048Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 214, tunnel_server_id: 13795 }
+2022-09-14T04:59:20.968641Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=12952
+2022-09-14T04:59:22.021506Z  INFO agent::application: got UDP establish response
+2022-09-14T04:59:23.595309Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 216, tunnel_server_id: 13795 }
+2022-09-14T04:59:27.021429Z  INFO agent::application: got UDP establish response
+2022-09-14T04:59:27.596068Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 217, tunnel_server_id: 13795 }
+2022-09-14T04:59:30.991029Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=12952
+2022-09-14T04:59:31.597222Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 215, tunnel_server_id: 13795 }
+2022-09-14T04:59:32.020649Z  INFO agent::application: got UDP establish response
+2022-09-14T04:59:35.598619Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 213, tunnel_server_id: 13795 }
+2022-09-14T04:59:37.024620Z  INFO agent::application: got UDP establish response
+2022-09-14T04:59:39.599586Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 214, tunnel_server_id: 13795 }
+2022-09-14T04:59:41.013579Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=12952
+2022-09-14T04:59:42.023517Z  INFO agent::application: got UDP establish response
+2022-09-14T04:59:43.600275Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 216, tunnel_server_id: 13795 }
+2022-09-14T04:59:47.022008Z  INFO agent::application: got UDP establish response
+2022-09-14T04:59:47.601222Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 215, tunnel_server_id: 13795 }
+2022-09-14T04:59:51.034882Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=12952
+2022-09-14T04:59:51.602591Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 214, tunnel_server_id: 13795 }
+2022-09-14T04:59:52.024632Z  INFO agent::application: got UDP establish response
+2022-09-14T04:59:55.603466Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 215, tunnel_server_id: 13795 }
+2022-09-14T04:59:57.025066Z  INFO agent::application: got UDP establish response
+2022-09-14T04:59:59.604477Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 215, tunnel_server_id: 13795 }
+2022-09-14T05:00:01.058205Z  INFO agent::tunnel_client: kept alive alive=true tunnel_server=12952
+2022-09-14T05:00:02.028112Z  INFO agent::application: got UDP establish response
+2022-09-14T05:00:03.605019Z  INFO ping task: agent::ping_task: got pong remote=23.133.216.1 status=PingStatus { ping: 214, tunnel_server_id: 13795 }
+2022-09-14T05:00:05.269004Z  INFO agent: program closed

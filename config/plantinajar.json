@@ -2,13 +2,15 @@
   "dropItems": true,
   "growthTime": 30,
   "perItemGrowthTimes": {
+    "kubejs:tin": -1,
+    "kubejs:creeper": -1,
+    "blockus:rainbow_rose": -1,
     "minecraft:carrots": -1,
     "kubejs:crop_tin": -1,
     "the_aether:lavender_wisteria_sapling": -1,
     "minecraft:kelp": -1,
     "the_aether:rose_wisteria_sapling": -1,
-    "kubejs:tin": -1,
-    "kubejs:creeper": -1,
+    "minecraft:cactus": -1,
     "the_aether:boreal_wisteria_sapling": -1,
     "minecraft:sugar_cane": -1,
     "the_aether:frost_wisteria_sapling": -1

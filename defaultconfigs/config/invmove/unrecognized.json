@@ -1,0 +1,19 @@
+{
+  "allowMovement": {
+    "net.minecraft.class_434": true,
+    "me.lizardofoz.inventorio.client.ui.InventorioScreen": true,
+    "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": false,
+    "hardcorequesting.common.fabric.client.interfaces.GuiQuestBook": true,
+    "appeng.client.gui.implementations.ChestScreen": true,
+    "appeng.client.gui.me.common.MEStorageScreen": true,
+    "appeng.client.gui.me.items.CraftingTermScreen": true,
+    "appeng.client.gui.me.items.PatternEncodingTermScreen": true
+  },
+  "hideBackground": {
+    "me.lizardofoz.inventorio.client.ui.InventorioScreen": true,
+    "appeng.client.gui.implementations.ChestScreen": true,
+    "appeng.client.gui.me.common.MEStorageScreen": true,
+    "appeng.client.gui.me.items.CraftingTermScreen": true,
+    "appeng.client.gui.me.items.PatternEncodingTermScreen": true
+  }
+}

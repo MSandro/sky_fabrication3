@@ -1,0 +1,4 @@
+{
+	// The overridden chance a new zombie spawn is of the villager variant.
+	"zombieIsVillagerChance": 0.25
+}

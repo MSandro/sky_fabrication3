@@ -1,0 +1,41 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_525
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=5051001%
+  orientation = element
+  orientation_element = vanillabtn:3451001
+  x = 160
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=5051001%
+  action = clickbutton
+  clicks = 7
+}
+
+customization {
+  identifier = %id=50510011%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=50510011%
+  action = clickbutton
+  clicks = 7
+}
+

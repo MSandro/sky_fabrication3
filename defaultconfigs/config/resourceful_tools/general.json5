@@ -1,0 +1,90 @@
+{
+	/* 
+	   
+	   ******************************
+	   SPRING BLOCKS
+	   ******************************
+	*/
+	"laveSpringPowerFurnace": true,
+	/* 
+	   
+	   ******************************
+	   CRACK HAMMERS
+	   ******************************
+	*/
+	"copperHammerDurability": 125,
+	"ironHammerDurability": 250,
+	"diamondHammerDurability": 516,
+	/* 
+	   
+	   ******************************
+	   HAND PICK
+	   - drop chance value between 0.0-1.0
+	   ******************************
+	*/
+	"sandstoneDropChance": 0.2,
+	"netherrackDropChance": 0.2,
+	"magmaDropChance": 0.1,
+	"quartzDropChance": 0.1,
+	"blackstoneDropChance": 0.1,
+	"endstoneDropChance": 0.1,
+	"deepslateDropChance": 0.15,
+	/* 
+	   
+	   ******************************
+	   HAND TILLER
+	   - drop chance value between 0.0-1.0
+	   ******************************
+	*/
+	"clayDropChance": 0.2,
+	"gravelDropChance": 0.2,
+	/* 
+	   
+	   ******************************
+	   CLAM DIGGER
+	   - drop chance value between 0.0-1.0
+	   ******************************
+	*/
+	"clamDropChance": 0.8,
+	/* 
+	   
+	   ******************************
+	   TREE TRIMMER
+	   - drop chance value between 0.0-1.0
+	   ******************************
+	*/
+	"spruceDropChance": 0.2,
+	"birchDropChance": 0.2,
+	"oakDropChance": 0.2,
+	"acaciaDropChance": 0.1,
+	"jungleDropChance": 0.1,
+	"darkOakDropChance": 0.05,
+	"seagrassDropChance": 0.05,
+	"kelpDropChance": 0.05,
+	"eggDropChance": 0.35,
+	"phantomMembraneDropChance": 0.15,
+	/* 
+	   
+	   ******************************
+	   IRON TOOL MATERIAL
+	   - Handpick, Hand Tiller, & Hand Trimmer
+	   ******************************
+	*/
+	"ironDurability": 250,
+	"ironMiningSpeed": 1.0,
+	"ironAttackDamage": 1.0,
+	"ironMiningLevel": 2,
+	"ironEnchantability": 8,
+	/* 
+	   
+	   ******************************
+	   COPPER TOOL MATERIAL
+	   - Handpick, Hand Tiller, & Hand Trimmer
+	   ******************************
+	*/
+	"copperDurability": 125,
+	"copperMiningSpeed": 1.0,
+	"copperAttackDamage": 1.0,
+	"copperMiningLevel": 2,
+	"copperEnchantability": 8
+}

@@ -1,0 +1,24 @@
+{
+	/*  Attempts to remove any nbt piece being place at the bottom of the world.
+	    Best for floating island terrain
+	*/
+	"removeWorldBottomPieces": true,
+	/*  Attempts to remove any structure being place at the bottom of the world.
+	    Best for floating island terrain
+	*/
+	"removeStructuresOffIslands": false,
+	/*  Attempts to remove the pillars from nether fortress and desert temples and the likes.
+	    Best for floating island terrain
+	*/
+	"removeStructurePillars": true,
+	/*  Attempts to move structure to a specific height. Only applies if removeWorldBottomStructures is false.
+	*/
+	"snapStructureToHeight": 80,
+	/*  Configured structures to ignore modifying the height of.
+	*/
+	"configuredStructures": "minecraft:stronghold,minecraft:mineshaft_mesa,minecraft:mineshaft,minecraft:buried_treasure,minecraft:monument, agape:mars_settlement, agape:mercury_ruin, agape:pirate_outpost_large, agape:venus_dungeon, twilightforest:aurora_palace, twilightforest:dark_tower, twilightforest:final_castle, twilightforest:hedge_maze, twilightforest:hydra_lair, twilightforest:knight_stronghold, twilightforest:labyrinth, twilightforest:large_hollow, twilightforest:lich_tower, twilightforest:medium_hollow_hill, twilightforest:mushroom_tower, twilightforest:naga_courtyard, twilightforest:quest_grove, twilightforest:small_hollow_hill, twilightforest:troll_cave, twilightforest:yeti_cave, betternether:nether_city",
+	/*  Raises up the pieces of the configured structure to the snapStructureToHeight without affecting the pieces already or above snapStructureToHeight.
+	    Think villages where each house is separate from each other and can be at different heights.
+	*/
+	"configuredStructuresToRaiseEachPieceSeparately": "minecraft:village_taiga,minecraft:village_savanna,minecraft:village_desert,minecraft:village_plains,minecraft:village_snowy,minecraft:pillager_outpost"
+}
