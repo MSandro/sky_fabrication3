@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".directory"
+hash = "0b1475f1722b6e97793ce59aa161a2b60605472343b3751450e37571259bb6d8"
+
+[[files]]
 file = "config/Adorn.json5"
 hash = "5ec726b93feca567bca50d79cd90b3ba159086970ff936dd4e0d00f4fdbb955e"
 
@@ -8309,14 +8313,6 @@ file = "kubejs/startup_scripts/seeds.js"
 hash = "7c8ad61a191b4a1b508c0337474aed0d86a16c9e2ed7418534f9a506dc1bd298"
 
 [[files]]
-file = "logs/playit.log.2022-09-13"
-hash = "f6abae14580329d879bb5aa301bb82994666c8cf1e01266dd27fdd9b7f10b0bf"
-
-[[files]]
-file = "logs/playit.log.2022-09-14"
-hash = "93fe39871137eddbf49a0ed900abe1499d879c6075b04fab1ef53aef1887c05c"
-
-[[files]]
 file = "mods/accurate-block-placement.pw.toml"
 hash = "9ba46690ca57a051174473b215349909e14945d715b4af3651012126be9895bd"
 metafile = true
@@ -9880,7 +9876,3 @@ metafile = true
 file = "mods/yungs-extras-fabric.pw.toml"
 hash = "43def9ff7e9948695c694d2395f21254fa857d50a4f8bd6f8c40ebd96655769e"
 metafile = true
-
-[[files]]
-file = "playit.toml"
-hash = "4eb44bda6c76f8f2bc4306fe1bfa96f5019c623236aa100b1dc8c6564b3cb930"
