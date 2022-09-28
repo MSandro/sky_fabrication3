@@ -6,7 +6,7 @@
 	# Hunger multiplied for each block mined with ultimine
 	# Default: 20.0
 	# Range: 0.0 ~ 10000.0
-	exhaustion_per_block: 120.0d
+	exhaustion_per_block: 110.0d
 
 	# Max amount of blocks that can be ultimined at once
 	# Default: 64

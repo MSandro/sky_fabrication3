@@ -64,6 +64,8 @@
 "ExtraRecipes Enabled" = true
 #Adds more villager trades.
 "ExtraTrades Enabled" = true
+#Adds Charm items as trades for the Wandering Trader.
+"ExtraWanderingTrades Enabled" = true
 #Extract enchantments from any enchanted item into an empty book using the grindstone.
 #The player must pay a cost (in xp levels) to extract enchantments from the item.
 "ExtractEnchantments Enabled" = false
@@ -154,6 +156,8 @@
 "ShulkerBoxDragDrop Enabled" = true
 #A shulker box's contents is shown in the item tooltip when hovering over.
 "ShulkerBoxTooltip Enabled" = true
+#Smooth Glowstone
+"SmoothGlowstone Enabled" = true
 #Increases snow layers when snowing in cold biomes
 "SnowAccumulation Enabled" = true
 #Allows enchanted books to stack.
@@ -192,8 +196,6 @@
 "VariantMobTextures Enabled" = true
 #Villagers are attracted when the player holds a block of emeralds.
 "VillagersFollowEmeraldBlocks Enabled" = true
-#Wandering traders have a chance to sell maps to distant structures.
-"WanderingTraderMaps Enabled" = true
 #Iron rusts when in contact with water.
 "WeatheringIron Enabled" = true
 #A witch has a chance to drop a Potion of Luck when killed by a player.
@@ -238,6 +240,8 @@
 	Facing = true
 	#If true, shows the player's XYZ coordinates.
 	Co-ordinates = true
+	#If true, shows the player's biome.
+	Biome = true
 	#If true, only show the player's X and Z coordinates (not their height/depth).
 	"Only show X and Z" = false
 	#If true, only show the compass overlay if the player is sneaking.
@@ -428,13 +432,6 @@
 	"Rare variants" = true
 	#Approximately 1 in X chance of a mob spawning as a rare variant.
 	"Rarity of rare variants" = 1000
-
-[WanderingTraderMaps]
-	#List of structure tags.
-	"Maps to structures" = ["minecraft:village", "minecraft:mineshaft", "charm:swamp_hut", "charm:igloo"]
-	#List of rarer structure tags.
-	#These are more expensive and less likely to be sold.
-	"Maps to rare structures" = ["charm:desert_pyramid", "charm:jungle_temple", "minecraft:ocean_ruin"]
 
 [WeatheringIron]
 	#The chance of weathering increases according to the number of block faces touching water.

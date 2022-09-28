@@ -857,6 +857,7 @@
 			x: -11.0d
 			y: -5.5d
 			description: ["The main feature of Applied Energistics 2 is the ME Network (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."]
+			dependencies: ["43709A95E106563B"]
 			id: "5683C69200EBC4CD"
 			tasks: [{
 				id: "35DEBD075D82821D"

@@ -116,7 +116,7 @@
 			y: -2.5d
 			subtitle: "Step into the Twilight Realm!"
 			description: [
-				"To make a portal to the from the Eden Ring to the Twilight Forest, build a 2x2 pool of water and souround it with flowers. To ignit it, drop a diamond in the pool."
+				"To make a portal from the Eden Ring to the Twilight Forest, build a 2x2 pool of water and souround it with flowers. To ignit it, drop a diamond in the pool."
 				""
 				"Hint: replace the Soil Blocks around the water with Dirt."
 				""
@@ -141,7 +141,10 @@
 			icon: "edenring:guide_book"
 			x: -0.5d
 			y: -1.5d
-			description: ["To build portal you need 12 waxed copper blocks, 12 waxed cut copper stairs, 4 block of amethyst, 4 amethyst clusters, 1 gold block and 1 flint and steel. To make portal you need to recreate structure from picture below, and to activate it you need to fire central gold block with flint and steel."]
+			description: [
+				"To build portal you need 12 waxed copper blocks, 12 waxed cut copper stairs, 4 block of amethyst, 4 amethyst clusters, 1 gold block and 1 flint and steel. To make portal you need to recreate structure from picture below, and to activate it you need to fire central gold block with flint and steel."
+				"{image:kubejs:textures/item/eden_portal.png width:100 height:100 align:1}"
+			]
 			dependencies: [
 				"6EC4700B21DB617B"
 				"3C392862FC5CA225"

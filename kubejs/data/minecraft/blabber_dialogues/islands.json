@@ -6,30 +6,36 @@
     "choseIsland": {
       "text": "Chose a Island Type:",
       "choices": [
-        { "text": "Oak Sapling - Well known simple early game!", "next": "treeConfirm" },
+        { "text": "Tree - Well known simple early game!", "next": "treeConfirm" },
         { "text": "Bamboo - Similar easy but different early-game!", "next": "bambooConfirm" },
         { "text": "Fishing - Very time intensive early-game!", "next": "fishingConfirm"}
       ]
     },
     "treeConfirm": {
-      "text": "You will start with a Oak Sapling on a dirt block. This is the default mode and if you've already played SkyBlock you should know how to progress.",
+      "text": "You will start with a Oak Sapling on a dirt block. This is the default mode and if you've already played SkyBlock you should know how to progress. Suitable Origins: any except the Merling",
       "choices": [
-        { "text": "Confirm (Chose your Origin in the next step - Suitable Origins: any except the Merling)", "next": "tree" },
-        { "text": "I changed my mind.", "next": "choseIsland" }
+        { "text": "Confirm: Tree Island (Chose your Origin in the next step)", "next": "tree" },
+        { "text": " ", "next": "treeConfirm" },
+        { "text": "I changed my mind. I would like to use the Bamboo Island", "next": "bambooConfirm" },
+        { "text": "I changed my mind. I would like to use the Fishing Island", "next": "fishingConfirm" }
       ]
     },
     "bambooConfirm": {
-      "text": "You will start on a block of podzol with a planted bamboo on it. This mode is very Similar to Simple Tree, you just have to craft wood from bambo.",
+      "text": "You will start on a block of podzol with a planted bamboo on it. This mode is very similar to the Tree Island, but it is slightly more difficult. Suitable Origins: any except the Merling",
       "choices": [
-        { "text": "Confirm (Chose your Origin in the next step - Suitable Origins: any except the Merling)", "next": "bamboo" },
-        { "text": "I changed my mind.", "next": "choseIsland" }
+        { "text": "Confirm: Bamboo Island (Chose your Origin in the next step)", "next": "bamboo" },
+        { "text": " ", "next": "bambooConfirm" },
+        { "text": "I changed my mind. I would like to use the Tree Island", "next": "treeConfirm" },
+        { "text": "I changed my mind. I would like to use the Fishing Island", "next": "fishingConfirm" }
       ]
     },
     "fishingConfirm": {
-      "text": "You will start in 2 blocks of hollow Logs filled with water. Equiped with a fishing rod, you have to hope for luck. Getting a sapling and a soil block to continue is your first goal.",
+      "text": "You will start in 2 blocks of hollow Logs filled with water. Equiped with a fishing rod, you have to hope for luck. Getting a sapling and a soil block to continue is your first goal. Suitable Origins: any",
       "choices": [
-        { "text": "Confirm (Chose your Origin in the next step - Suitable Origins: any)", "next": "fishing" },
-        { "text": "I changed my mind.", "next": "choseIsland" }
+        { "text": "Confirm: Fishing Island (Chose your Origin in the next step)", "next": "fishing" },
+        { "text": " ", "next": "fishingConfirm" },
+        { "text": "I changed my mind. I would like to use the Tree Island", "next": "treeConfirm" },
+        { "text": "I changed my mind. I would like to use the Bamboo Island", "next": "bambooConfirm" }
       ]
     },
     "tree": {

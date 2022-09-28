@@ -18,6 +18,7 @@
 				"Putting multiple sieves side by side acts as a multiblock structure, letting you sieve in bundles."
 				""
 				"Later you will be able to use a Deployer or a Click Machine to automate it."
+				"A Sieve can be water-logged."
 			]
 			dependencies: ["5E67AA32C8260EFE"]
 			id: "2587A593554DBC4A"
@@ -76,6 +77,7 @@
 				id: "3500358743E5638B"
 				type: "item"
 				item: "fabricaeexnihilo:dust"
+				count: 4L
 			}]
 			rewards: [{
 				id: "49A1927E7B45852C"
@@ -111,9 +113,10 @@
 			dependencies: ["0BF9B63E286A7C1B"]
 			id: "1B3743770E4CCF42"
 			tasks: [{
-				id: "2B6FA01BBAED1404"
+				id: "7765D4065719538A"
 				type: "item"
 				item: "minecraft:gravel"
+				count: 4L
 			}]
 			rewards: [{
 				id: "15B361E7C3BFD1C1"
@@ -131,6 +134,7 @@
 				id: "415B428282916C73"
 				type: "item"
 				item: "minecraft:sand"
+				count: 4L
 			}]
 			rewards: [{
 				id: "1000EDC63EA5144F"
@@ -147,7 +151,12 @@
 				""
 				"There are many crooks with varying durability."
 			]
-			dependencies: ["5C82DBC41EC4A4AF"]
+			dependencies: [
+				"5C82DBC41EC4A4AF"
+				"21DA0A446C375C07"
+			]
+			hide: false
+			dependency_requirement: "one_completed"
 			id: "458A8414A5189198"
 			tasks: [{
 				id: "217AF1AB5935DE87"
@@ -678,6 +687,7 @@
 				id: "11FB1D860C8E27FF"
 				type: "item"
 				item: "fabricaeexnihilo:silt"
+				count: 4L
 			}]
 			rewards: [{
 				id: "0F97B790FB409BA6"
@@ -773,50 +783,64 @@
 			id: "500132095BEC908B"
 			tasks: [
 				{
-					id: "18C6E6DE2F52454C"
-					type: "item"
-					item: "fabricaeexnihilo:oak_crucible"
-				}
-				{
 					id: "2C886BA482CAFA8C"
 					type: "item"
 					item: "kibe:wooden_bucket"
+				}
+				{
+					id: "175C5C24332B2642"
+					type: "item"
+					title: "Wooden Crucible"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "fabricaeexnihilo:acacia_crucible"
+									Count: 1b
+								}
+								{
+									id: "fabricaeexnihilo:jungle_crucible"
+									Count: 1b
+								}
+								{
+									id: "fabricaeexnihilo:spruce_crucible"
+									Count: 1b
+								}
+								{
+									id: "fabricaeexnihilo:rubber_crucible"
+									Count: 1b
+								}
+								{
+									id: "fabricaeexnihilo:warped_crucible"
+									Count: 1b
+								}
+								{
+									id: "fabricaeexnihilo:dark_oak_crucible"
+									Count: 1b
+								}
+								{
+									id: "fabricaeexnihilo:crimson_crucible"
+									Count: 1b
+								}
+								{
+									id: "fabricaeexnihilo:oak_crucible"
+									Count: 1b
+								}
+								{
+									id: "fabricaeexnihilo:birch_crucible"
+									Count: 1b
+								}
+							]
+						}
+					}
 				}
 			]
 			rewards: [{
 				id: "1E59BD239846CAE4"
 				type: "item"
 				item: "kibe:water_wooden_bucket"
-			}]
-		}
-		{
-			title: "Void Crafting (Oak Fish)"
-			x: -5.0d
-			y: -13.0d
-			subtitle: "Drop some Oakfishes in the void and wait a few seconds."
-			description: ["Tip: It works better when you're standing (sneaking) on a non-full block like a ladder or trapdoor."]
-			dependencies: ["6D7B9D15C87A8C57"]
-			optional: true
-			id: "008F718327030953"
-			tasks: [
-				{
-					id: "7F45433BF6B9F3AD"
-					type: "item"
-					item: "gofish:oakfish"
-					count: 4L
-				}
-				{
-					id: "587E9CE76EAD4E41"
-					type: "item"
-					item: "minecraft:oak_slab"
-					count: 4L
-				}
-			]
-			rewards: [{
-				id: "60415AC658367F55"
-				type: "item"
-				item: "minecraft:oak_slab"
-				count: 8
 			}]
 		}
 		{
@@ -876,7 +900,6 @@
 			dependencies: [
 				"3AC0329506E80AA4"
 				"51A08025E64EF6C7"
-				"7C1ED61392E551A5"
 			]
 			hide: true
 			dependency_requirement: "one_completed"
@@ -913,11 +936,8 @@
 			x: -1.5d
 			y: -10.0d
 			subtitle: "4 Planks = 1 Crafting Tables? No! Take 2 Slabs."
-			dependencies: [
-				"6D9CF1D77D05C2D4"
-				"07C525ED6A1C8B22"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["6D9CF1D77D05C2D4"]
+			hide: false
 			id: "5C82DBC41EC4A4AF"
 			tasks: [{
 				id: "36D743066E53775D"
@@ -932,9 +952,10 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -8.0d
+			x: 0.0d
+			y: -13.0d
 			dependencies: ["41EEA2C5F1D6B3E1"]
+			hide: false
 			id: "07C525ED6A1C8B22"
 			tasks: [{
 				id: "37E3C7894097D2AB"
@@ -950,8 +971,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: -8.0d
+			x: 0.0d
+			y: -14.5d
 			shape: "octagon"
 			subtitle: "Spam the sneak key to make your bamboo grow faster."
 			dependencies: ["329CC4079DB5DABE"]
@@ -977,27 +998,6 @@
 				type: "item"
 				item: "minecraft:apple"
 				count: 4
-			}]
-		}
-		{
-			title: "Void Crafting (Oak Leaves)"
-			x: -5.5d
-			y: -10.0d
-			subtitle: "Drop some Bamboo Thatch in the void and wait a few seconds."
-			description: ["Tip: It works better when you're standing (sneaking) on a non-full block like a ladder or trapdoor."]
-			dependencies: ["41EEA2C5F1D6B3E1"]
-			id: "7C1ED61392E551A5"
-			tasks: [{
-				id: "60CD9404AB674BC4"
-				type: "item"
-				item: "minecraft:oak_leaves"
-				count: 8L
-			}]
-			rewards: [{
-				id: "2C716B31D7C1F29B"
-				type: "item"
-				item: "fabricaeexnihilo:cooked_silkworm"
-				count: 8
 			}]
 		}
 		{
@@ -1119,19 +1119,12 @@
 			y: -13.0d
 			dependencies: ["6D7B9D15C87A8C57"]
 			id: "722E4F3BB0855CE8"
-			tasks: [
-				{
-					id: "3CDFFBC716C1697C"
-					type: "checkmark"
-					title: "need a new rod?"
-				}
-				{
-					id: "515A874CDEC88BBC"
-					type: "xp"
-					value: 5L
-					points: false
-				}
-			]
+			tasks: [{
+				id: "515A874CDEC88BBC"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
 			rewards: [
 				{
 					id: "5F15360BCD7E5FBB"
@@ -1150,6 +1143,96 @@
 					type: "command"
 					command: "/ftbquests change_progress @p reset 722E4F3BB0855CE8"
 					player_command: false
+				}
+			]
+		}
+		{
+			title: "Crafting Table"
+			x: 1.5d
+			y: -13.0d
+			subtitle: "4 Planks = 1 Crafting Tables? No! Take 2 Slabs."
+			dependencies: ["07C525ED6A1C8B22"]
+			hide: false
+			id: "0B37C46D743A72DF"
+			tasks: [{
+				id: "6BDFF3848989CDC8"
+				type: "item"
+				item: "improved-stations:crafting_station_slab"
+			}]
+			rewards: [{
+				id: "6AB734AA1933E6E4"
+				type: "item"
+				item: "blockus:bamboo_slab"
+				count: 8
+			}]
+		}
+		{
+			x: 1.5d
+			y: -11.5d
+			subtitle: "You can stripp Bamboo by right clicking with a axe."
+			dependencies: ["0B37C46D743A72DF"]
+			hide: false
+			id: "4F5F0B705FCB602F"
+			tasks: [{
+				id: "7C1BB2BF43F96CAC"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7387A4FC77792F74"
+				type: "item"
+				item: "minecraft:bamboo"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: -11.5d
+			description: [
+				"Right-Click a Stripped Bundled Bamboo with Biomass will damage you."
+				"You may ask, why should you do this ..."
+				"It will transform the Block to Leaves."
+				""
+				"As you know, you can break them to get Saplings. Hopefully I don't have to explain to you in detail that you then have to plant this to get other types of wood."
+			]
+			dependencies: ["4F5F0B705FCB602F"]
+			hide: false
+			id: "21DA0A446C375C07"
+			tasks: [
+				{
+					id: "38DBC6B9B751AF46"
+					type: "item"
+					item: "twigs:stripped_bundled_bamboo"
+				}
+				{
+					id: "4721F743A7B2723F"
+					type: "item"
+					item: "indrev:biomass"
+				}
+			]
+			rewards: [
+				{
+					id: "50247FCDE360A34F"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+				}
+				{
+					id: "321377A62E72A102"
+					type: "item"
+					item: "farmersdelight:vegetable_noodles"
+					count: 4
 				}
 			]
 		}

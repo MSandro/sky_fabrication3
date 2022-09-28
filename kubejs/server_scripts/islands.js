@@ -24,8 +24,6 @@ onEvent('server.custom_command', event => {
 				event.server.runCommandSilent(`schematic load bamboo_island`);
 				event.server.runCommandSilent(`execute at ${event.player.name.text} in ${event.level.dimension} run setblock ~1 71 ~1 twilightforest:hollow_oak_log_vertical`);
 				event.server.runCommandSilent(`execute at ${event.player.name.text} in ${event.level.dimension} run setblock ~1 72 ~1 twilightforest:hollow_oak_log_vertical[waterlogged=true]`);
-				event.server.runCommandSilent(`item replace entity ${event.player.name.text} container.8 with minecraft:string 4`);
-				event.server.runCommandSilent(`item replace entity ${event.player.name.text} container.7 with travelersbackpack:standard`);
 				event.server.runCommandSilent(`item replace entity ${event.player.name.text} container.6 with gofish:celestial_rod`);
 				event.player.data.ftbquests.addProgress('251CD869A0906B24', 1);
 				generalTasks(event, 'minecraft:oak_slab', 72);

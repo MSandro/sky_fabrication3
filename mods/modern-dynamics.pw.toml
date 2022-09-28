@@ -1,13 +1,13 @@
 name = "Modern Dynamics"
-filename = "Modern-Dynamics-0.2.5-beta.jar"
+filename = "Modern-Dynamics-0.2.6-beta.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b7a6fb3aa9968657c0a480e93dc52992141328e5"
+hash = "f154c30a19d2dfefde3732f0e15c459321f7d788"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3945894
+file-id = 3995920
 project-id = 552758

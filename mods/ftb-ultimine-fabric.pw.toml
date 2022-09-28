@@ -1,13 +1,13 @@
 name = "FTB Ultimine (Fabric)"
-filename = "ftb-ultimine-fabric-1802.3.3-build.55.jar"
+filename = "ftb-ultimine-fabric-1802.3.3-build.67.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4b8b8927ceca0da6c85abc7df256ed6203261eb9"
+hash = "a1b5934c104c77e7bdb50169d6ea67179e4c2659"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3725671
+file-id = 3993575
 project-id = 448231

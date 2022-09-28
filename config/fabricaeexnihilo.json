@@ -3,7 +3,7 @@
     "barrels": {
       "compost": {
         "enabled": true,
-        "rate": 0.01
+        "rate": 0.02
       },
       "enableAlchemy": true,
       "enableBleeding": true,

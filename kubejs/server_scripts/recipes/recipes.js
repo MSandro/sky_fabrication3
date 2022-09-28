@@ -47,10 +47,6 @@ onEvent('recipes', (event) => {
   event.remove({output: 'modern_industrialization:gold_drill_head', type: 'minecraft:crafting_shaped'})
   event.remove({output: 'modern_industrialization:aluminum_drill', type: 'minecraft:crafting_shaped'})
   event.remove({output: 'modern_industrialization:aluminum_drill_head', type: 'minecraft:crafting_shaped'})
-  event.remove({output: 'modern_industrialization:bronze_drill', type: 'minecraft:crafting_shaped'})
-  event.remove({output: 'modern_industrialization:bronze_drill_head', type: 'minecraft:crafting_shaped'})
-  event.remove({output: 'modern_industrialization:copper_drill', type: 'minecraft:crafting_shaped'})
-  event.remove({output: 'modern_industrialization:copper_drill_head', type: 'minecraft:crafting_shaped'})
   event.remove({output: 'modern_industrialization:stainless_steel_drill', type: 'minecraft:crafting_shaped'})
   event.remove({output: 'modern_industrialization:stainless_steel_drill_head', type: 'minecraft:crafting_shaped'})
   event.remove({output: 'modern_industrialization:steel_drill', type: 'minecraft:crafting_shaped'})
@@ -70,8 +66,9 @@ onEvent('recipes', (event) => {
   // MI Misc
   event.remove({output: 'modern_industrialization:bronze_machine_casing', type: 'minecraft:crafting_shaped'});
   event.remove({output: 'modern_industrialization:bronze_boiler', type: 'minecraft:crafting_shaped'});
-  event.remove({output: 'modern_industrialization:forge_hammer', type: 'minecraft:crafting_shaped'});
+  event.remove({output: 'modern_industrialization:forge_hammer'});
   event.remove({type: 'modern_industrialization:forge_hammer'});
+  event.replaceInput({}, 'modern_industrialization:forge_hammer', 'minecraft:anvil')
 
   // Alloy Forgery
   event.remove({output: 'alloy_forgery:bricks_forge_controller'})

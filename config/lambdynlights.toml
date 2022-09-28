@@ -105,6 +105,60 @@ mode = "fancy"
 				snow_golem = true
 				spider = true
 
+			[light_sources.settings.entities.minesettlements]
+				civilian = true
+
+			[light_sources.settings.entities.timeinabottle]
+				accelerator = true
+
+			[light_sources.settings.entities.botania]
+				mana_burst = true
+
+			[light_sources.settings.entities.mini_scaled]
+				portal = true
+
+			[light_sources.settings.entities.besmirchment]
+				final_broom = true
+
+			[light_sources.settings.entities.betternether]
+				naga_projectile = true
+				firefly = true
+				flying_pig = true
+				hydrogen_jellyfish = true
+				skull = true
+				jungle_skeleton = true
+				naga = true
+
+			[light_sources.settings.entities.adventurez]
+				deer = true
+				orc = true
+				iguana = true
+				amethyst_golem = true
+				soul_reaper = true
+				wither_puppet = true
+				necromancer = true
+				blaze_guardian = true
+				ender_whale = true
+				summoner = true
+				blaze_guardian_shield = true
+				nightmare = true
+
+			[light_sources.settings.entities.agape_space]
+				europa_fish = true
+				rocket_ship_cargo = true
+				europa_fish_a = true
+				rocket_ship = true
+				rocket_ship_v3 = true
+
+			[light_sources.settings.entities.create]
+				carriage_contraption = true
+				stationary_contraption = true
+				super_glue = true
+
+			[light_sources.settings.entities.edenring]
+				diskwing = true
+				lightning_ray = true
+
 			[light_sources.settings.entities.bewitchment]
 				ghost = true
 				raven = true
@@ -155,14 +209,11 @@ mode = "fancy"
 				lammergeier = true
 				crab = true
 
+			[light_sources.settings.entities.mobscarecrow]
+				villager_plushie = true
+
 			[light_sources.settings.entities.farmingforblockheads]
 				merchant = true
-
-			[light_sources.settings.entities.minesettlements]
-				civilian = true
-
-			[light_sources.settings.entities.timeinabottle]
-				accelerator = true
 
 			[light_sources.settings.entities.strawdummy]
 				damage_number_entity = true
@@ -194,18 +245,9 @@ mode = "fancy"
 				spiked_ice_slime = true
 				purple_slime = true
 
-			[light_sources.settings.entities.botania]
-				mana_burst = true
-
 			[light_sources.settings.entities.immersive_portals]
 				nether_portal_new = true
 				loading_indicator = true
-
-			[light_sources.settings.entities.mini_scaled]
-				portal = true
-
-			[light_sources.settings.entities.besmirchment]
-				final_broom = true
 
 			[light_sources.settings.entities.mythicmounts]
 				netherbat = true
@@ -223,15 +265,6 @@ mode = "fancy"
 				moobloom = true
 				chair = true
 
-			[light_sources.settings.entities.betternether]
-				naga_projectile = true
-				firefly = true
-				flying_pig = true
-				hydrogen_jellyfish = true
-				skull = true
-				jungle_skeleton = true
-				naga = true
-
 			[light_sources.settings.entities.the_aether]
 				aerbunny = true
 				poison_needle = true
@@ -241,26 +274,6 @@ mode = "fancy"
 
 			[light_sources.settings.entities.spectrum]
 				shooting_star = true
-
-			[light_sources.settings.entities.adventurez]
-				deer = true
-				orc = true
-				iguana = true
-				amethyst_golem = true
-				soul_reaper = true
-				necromancer = true
-				blaze_guardian = true
-				ender_whale = true
-				summoner = true
-				blaze_guardian_shield = true
-				nightmare = true
-
-			[light_sources.settings.entities.agape_space]
-				europa_fish = true
-				rocket_ship_cargo = true
-				europa_fish_a = true
-				rocket_ship = true
-				rocket_ship_v3 = true
 
 			[light_sources.settings.entities.twilightforest]
 				quest_ram = true
@@ -313,13 +326,4 @@ mode = "fancy"
 				naga = true
 				penguin = true
 				bighorn_sheep = true
-
-			[light_sources.settings.entities.create]
-				carriage_contraption = true
-				stationary_contraption = true
-				super_glue = true
-
-			[light_sources.settings.entities.edenring]
-				diskwing = true
-				lightning_ray = true
 

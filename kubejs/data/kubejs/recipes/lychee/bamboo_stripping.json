@@ -1,0 +1,24 @@
+{
+   "type": "lychee:block_interacting",
+   "item_in": {
+       "tag": "c:axes"
+   },
+   "block_in": "minecraft:bamboo",
+   "post": [
+       {
+           "type": "drop_item",
+           "item": "twigs:bamboo_leaves",
+           "contextual": {
+               "type": "chance",
+               "chance": 0.5
+           }
+       },
+       {
+           "type": "place",
+           "block": "twigs:stripped_bamboo"
+       },
+       {
+           "type": "damage_item"
+       }
+   ]
+}

@@ -1,0 +1,49 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "indrev:biomass"
+    },
+    "block_in": "twigs:stripped_bundled_bamboo",
+    "contextual": {
+        "type": "entity_health",
+        "range": {
+            "min": 5.1
+        }
+    },
+    "post": [
+        {
+          "type": "random",
+          "entries": [
+                {
+                    "type": "place",
+                    "block": "oak_leaves"
+                },
+                {
+                    "type": "place",
+                    "block": "dark_oak_leaves"
+                },
+                {
+                    "type": "place",
+                    "block": "birch_leaves"
+                },
+                {
+                    "type": "place",
+                    "block": "spruce_leaves"
+                },
+                {
+                    "type": "place",
+                    "block": "jungle_leaves"
+                },
+                {
+                    "type": "place",
+                    "block": "acacia_leaves"
+                }
+            ]
+        },
+        {
+            "type": "hurt",
+            "source": "generic",
+            "damage": 5
+        }
+    ]
+}
