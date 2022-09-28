@@ -425,52 +425,8 @@ file = "config/craftingtweaks.toml"
 hash = "8830d327f96393c7952f119a69679025a5f1f21cffa278356503021d55d861b2"
 
 [[files]]
-file = "config/create-client-1.toml.bak"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/create-client-2.toml.bak"
-hash = "7ac66bf8a8f7b7fa5809789866b1e8b2576de08fee8c7b7f1f44c78011e7604b"
-
-[[files]]
-file = "config/create-client-3.toml.bak"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/create-client.toml"
-hash = "4df973247fe88a6d0c41aa0b0d501baddabee8fd927cec62e8ec41a5dd14a4d4"
-
-[[files]]
-file = "config/create-common-1.toml.bak"
-hash = "bc12cb933e317947874f2ec3d21894b75745d5c8a415f4ffa78ba333b2eec130"
-
-[[files]]
 file = "config/create-common.toml"
 hash = "bc12cb933e317947874f2ec3d21894b75745d5c8a415f4ffa78ba333b2eec130"
-
-[[files]]
-file = "config/createaddition-common-1.toml.bak"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/createaddition-common-2.toml.bak"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/createaddition-common-3.toml.bak"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/createaddition-common-4.toml.bak"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/createaddition-common-5.toml.bak"
-hash = "c0333fef005633989acce999a2409f391110676e1110547c3371b230816c2e77"
-
-[[files]]
-file = "config/createaddition-common.toml"
-hash = "e92cd5f5dc6c58cf08cbecfe27647f6c77a7eaea5dd8ff347d1717dbe7a737ed"
 
 [[files]]
 file = "config/croparia/croparia.json"
@@ -547,10 +503,6 @@ hash = "84572dac8ae75667c1e90e64039d0edf884617e25f0b028e4e7bc1339b57a9cc"
 [[files]]
 file = "config/desiredServers/desiredservers.json"
 hash = "3fbbd4c6d76130399b0c79cdf41758669224a91e05b7b216953f0c9728750865"
-
-[[files]]
-file = "config/desiredServers/desiredservers_bak.json"
-hash = "007255a2a31268e28ea3e54ea60799eb5c100dd74767296d8b308b62bb814573"
 
 [[files]]
 file = "config/diggusmaximus/blacklist.json5"
@@ -1589,10 +1541,6 @@ file = "config/harvest_scythes/config.json"
 hash = "198f4179286b1a600e80984f2bb79cddbb10a80c19607dbfaa9e1a42bbee9447"
 
 [[files]]
-file = "config/harvestwithease-common-1.toml.bak"
-hash = "4c59189c68db67f1ab4ac554a4d6c9f917ab1cd29dfbf4c5beae5c02d3cdd391"
-
-[[files]]
 file = "config/harvestwithease-common.toml"
 hash = "4c59189c68db67f1ab4ac554a4d6c9f917ab1cd29dfbf4c5beae5c02d3cdd391"
 
@@ -1941,24 +1889,8 @@ file = "config/pehkui/config.json"
 hash = "2c38b9d7ae1854deacd643780d906a309af90d36424f580c8e2da999fd3971fa"
 
 [[files]]
-file = "config/peripheralium-common-1.toml.bak"
-hash = "62f57003294d1f4a04f919b04bec7876de585f647fccf77d0a9fb092606bb6eb"
-
-[[files]]
-file = "config/peripheralium-common-2.toml.bak"
-hash = "accde05fda23af65fdf9e6e4f05bda3a0cc4fef68904a5ddfc3e93342f6dfc1d"
-
-[[files]]
-file = "config/peripheralium-common-3.toml.bak"
-hash = "accde05fda23af65fdf9e6e4f05bda3a0cc4fef68904a5ddfc3e93342f6dfc1d"
-
-[[files]]
 file = "config/peripheralium-common.toml"
 hash = "accde05fda23af65fdf9e6e4f05bda3a0cc4fef68904a5ddfc3e93342f6dfc1d"
-
-[[files]]
-file = "config/peripheralworks-common-1.toml.bak"
-hash = "a6e93c85590fb06c50a6c22b619815a97ad7592037238f928e99ed1c560f0a9b"
 
 [[files]]
 file = "config/peripheralworks-common.toml"
@@ -2297,52 +2229,12 @@ file = "config/travelersbackpack.json5"
 hash = "e8ca1e995199459eda73cd535df303251402bce946a4dac99e0a20a94a74aada"
 
 [[files]]
-file = "config/turtlematic-common-1.toml.bak"
-hash = "af3e79e6102fc5a47289c03d6207c3be8a0d7f5450183fab5d3f6c458bb7a3be"
-
-[[files]]
-file = "config/turtlematic-common-2.toml.bak"
-hash = "5edf244d70adbf4b907aa11e4bc9291245371c9a4fd6ee2a2f61ee2bdb83d2c6"
-
-[[files]]
-file = "config/turtlematic-common-3.toml.bak"
-hash = "af3e79e6102fc5a47289c03d6207c3be8a0d7f5450183fab5d3f6c458bb7a3be"
-
-[[files]]
-file = "config/turtlematic-common-4.toml.bak"
-hash = "b0ee1dce222eb3814cc1bd8a80dbcd7a295307c2d2468ba6e191953c816abc3a"
-
-[[files]]
-file = "config/turtlematic-common-5.toml.bak"
-hash = "af3e79e6102fc5a47289c03d6207c3be8a0d7f5450183fab5d3f6c458bb7a3be"
-
-[[files]]
-file = "config/turtlematic-common.toml"
-hash = "c73eb0d463f098575b6f9e6358d9822b4d043578352f3adf3d535e47320af7d3"
-
-[[files]]
 file = "config/twerk.json"
 hash = "91bb5bc2305911aa3334bb9d11fe1e3b72413a7dbdd1c7e1f40e10e5cadde9d1"
 
 [[files]]
 file = "config/twilightforest-client.toml"
 hash = "60e74d659627f134db8f4822af124968e289082c70bb238560981e5201e0a7c9"
-
-[[files]]
-file = "config/twilightforest-common-1.toml.bak"
-hash = "8c7dc5f98aa668cbe07c6013bb514c798d71684d65a728bc3d2c8301cb06d9ed"
-
-[[files]]
-file = "config/twilightforest-common-2.toml.bak"
-hash = "eaf66f37883948f699043fe32a706873daa75b6f8a241b5fa20fd8c08b0bc3d6"
-
-[[files]]
-file = "config/twilightforest-common-3.toml.bak"
-hash = "8a6ea65f10e4a23496d97939f5e245f53eb63f7a6d2f4e3a0f9ddb12dc3a0f1c"
-
-[[files]]
-file = "config/twilightforest-common.toml"
-hash = "073e33d0e191918fe41a8959117a1684df635c7d4eaa78b46ee5f62992bc0fa2"
 
 [[files]]
 file = "config/voidtotem.toml"
