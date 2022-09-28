@@ -81,18 +81,6 @@ file = "config/agape/tech.cfg"
 hash = "622693e8ee289f0ada6ccd0ee2635970e756d3d330daa1ff32065b363d42bef1"
 
 [[files]]
-file = "config/almostunified/debug.json"
-hash = "4f1808d3941300cf6e2c53b5a37f2808a4d904e63597cd4e03a03d19e4762fef"
-
-[[files]]
-file = "config/almostunified/duplicates.json"
-hash = "4cf09f8f35f8c8c83c838189e019e2d70a5d93697af3ddd58ed6090d57177058"
-
-[[files]]
-file = "config/almostunified/unify.json"
-hash = "eb65fa18485bd5c898a9df9e35918f64176615cc0c5f040a7a6947382bda35ca"
-
-[[files]]
 file = "config/appleskin.json5"
 hash = "ae87f2d1b38dfd4b1e0767dfeb539261deaaf4fd2eb73692afcbaac7147855b9"
 
