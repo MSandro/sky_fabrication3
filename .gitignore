@@ -2,5 +2,6 @@
 *.zip
 *.exe
 *.sh
+*.bak
 /options.txt
 /kubejs/exported
