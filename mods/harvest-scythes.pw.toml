@@ -1,13 +1,13 @@
 name = "Harvest Scythes"
-filename = "wraith-harvestscythes-2.5.1.jar"
+filename = "wraith-harvestscythes-2.5.2+mc1.18.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "6014ec25417b1e416343dd2660dcf3e11f28bd8d"
+hash = "168e8e97adf044d7defcf2ddf27112e7b391a601"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3822990
+file-id = 4026097
 project-id = 412225

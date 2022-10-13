@@ -80,9 +80,8 @@
 		{
 			title: "Where to start?"
 			icon: "techreborn:wrench"
-			x: 7.5d
-			y: 0.0d
-			shape: "gear"
+			x: 6.5d
+			y: 0.5d
 			subtitle: "Follow the Progression Guide to continue!"
 			description: [
 				"Mods are split into 4 categories:"
@@ -97,7 +96,6 @@
 				"Certain chapters will have tips and tricks on how to ease your adventures with useful trinkets and gadgets."
 			]
 			dependencies: ["175F5611FB7716A4"]
-			size: 1.25d
 			id: "257EAB9268907E1D"
 			tasks: [{
 				id: "60A1EB763CF25699"
@@ -227,6 +225,26 @@
 						]
 					}
 				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			subtitle: "Structures are not disabled!"
+			description: [
+				"The Overworld is completely empty, you will not find any structure here."
+				""
+				"The Nether and any some dimension like the Sky Islands Dimension or the End are full with common and rare structures to discover."
+				""
+				"Take a look at the Adventurer chapter to find out more detailed informations."
+			]
+			dependencies: ["175F5611FB7716A4"]
+			id: "6AD8B7C385B08389"
+			tasks: [{
+				id: "45480B814453AEE7"
+				type: "checkmark"
+				title: "Where are the Structures?"
+				icon: "minecraft:end_portal_frame"
 			}]
 		}
 	]

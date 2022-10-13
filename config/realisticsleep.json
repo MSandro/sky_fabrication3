@@ -1,6 +1,6 @@
 {
   "dawnMessage": "The sun rises.",
-  "sleepSpeedMultiplier": 25.0,
+  "sleepSpeedMultiplier": 25,
   "blockEntityTickSpeedMultiplier": 8,
   "chunkTickSpeedMultiplier": 8
 }

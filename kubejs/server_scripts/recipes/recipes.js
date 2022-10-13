@@ -7,6 +7,7 @@ onEvent('recipes', (event) => {
   // Create
   event.remove({output: 'create:andesite_alloy', type: 'minecraft:crafting_shaped'});
   event.remove({output: 'minecraft:black_dye', type: 'create:milling'});
+  event.remove({output: 'minecraft:bone_meal', type: 'create:milling'});
 
   // KIBE
   event.replaceInput({type: 'minecraft:crafting_shaped'}, "kibe:tank", "modern_industrialization:aluminum_tank")

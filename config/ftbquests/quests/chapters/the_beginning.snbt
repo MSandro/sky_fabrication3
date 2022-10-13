@@ -492,9 +492,44 @@
 			dependencies: ["76B1B19B5D3949F5"]
 			id: "5E67AA32C8260EFE"
 			tasks: [{
-				id: "613AC40F4DDD6380"
+				id: "3E0D5CE550B290BB"
 				type: "item"
-				item: "fabricaeexnihilo:oak_barrel"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "fabricaeexnihilo:birch_barrel"
+								Count: 1b
+							}
+							{
+								id: "fabricaeexnihilo:acacia_barrel"
+								Count: 1b
+							}
+							{
+								id: "fabricaeexnihilo:jungle_barrel"
+								Count: 1b
+							}
+							{
+								id: "fabricaeexnihilo:rubber_barrel"
+								Count: 1b
+							}
+							{
+								id: "fabricaeexnihilo:dark_oak_barrel"
+								Count: 1b
+							}
+							{
+								id: "fabricaeexnihilo:spruce_barrel"
+								Count: 1b
+							}
+							{
+								id: "fabricaeexnihilo:oak_barrel"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 			rewards: [{
 				id: "042B8977BF062957"

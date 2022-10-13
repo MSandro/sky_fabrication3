@@ -1,6 +1,6 @@
 name = "Client Tweaks (Fabric Edition)"
 filename = "clienttweaks-fabric-1.18.1-7.1.0.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

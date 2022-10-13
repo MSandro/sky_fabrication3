@@ -1,6 +1,6 @@
 name = "CleanView (Fabric)"
 filename = "CleanView-1.18.2-v1-fabric.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

@@ -1502,6 +1502,11 @@
 		{
 			x: -3.5d
 			y: 2.0d
+			subtitle: "Copper + Zinc = Brass"
+			description: [
+				"But where to get Zinc?"
+				"Use at least a Iron Mesh to sieve some Crushed Andesit. This will give you the chance to get some crushed Zinc Ore."
+			]
 			dependencies: ["7C76819CB83F2D93"]
 			id: "4E76A136735F7D0D"
 			tasks: [{

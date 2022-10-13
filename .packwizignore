@@ -6,6 +6,7 @@
 .gitattributes
 .gitignore
 /kubejs/exported/**
+/config/roughlyenoughitems/**
 
 # Exclude README
 /README.md
@@ -17,3 +18,4 @@
 *.exe
 *.sh
 *.bak
+*.directory

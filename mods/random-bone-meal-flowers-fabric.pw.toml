@@ -1,13 +1,13 @@
 name = "Random Bone Meal Flowers (Fabric)"
-filename = "randombonemealflowers-fabric_1.18.2-3.0.jar"
+filename = "randombonemealflowers-fabric_1.18.2-3.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7ea13f8496dc9eaa6f8fa4c7679a3b893dab0e1d"
+hash = "d271848bc22bd0c80fa78572bf755573c1edaba9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4007598
+file-id = 4015726
 project-id = 539610

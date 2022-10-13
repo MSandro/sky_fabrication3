@@ -1,6 +1,6 @@
 {
   //The chance for a nearby plant to receive the bonemeal effect when a player hits the crouch button. 10 is 1/10, 20 is 1/20.
-  "chance": 15,
+  "chance": 12,
   //Time, in ticks, from the last player jump for it to have an effect on the sneak chance.
   "jumpTime": 40,
   "jumpModifier": 1.5,

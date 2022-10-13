@@ -12,3 +12,15 @@ net.minecraft.class_433 {
 me.lizardofoz.inventorio.client.ui.InventorioScreen {
 }
 
+net.minecraft.class_490 {
+}
+
+tfar.dankstorage.client.screens.DockScreen {
+}
+
+tfar.dankstorage.client.screens.PortableDankStorageScreen {
+}
+
+net.minecraft.class_481 {
+}
+

@@ -1,0 +1,17 @@
+{
+  "type": "modern_industrialization:wiremill",
+  "eu": 2,
+  "duration": 100,
+  "item_inputs": [
+    {
+      "tag": "c:gold_plates",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "item": "createaddition:gold_wire",
+      "amount": 2
+    }
+  ]
+}

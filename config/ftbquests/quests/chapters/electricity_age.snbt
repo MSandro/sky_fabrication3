@@ -1435,6 +1435,11 @@
 				type: "item"
 				item: "the_extractinator:extractinator"
 			}]
+			rewards: [{
+				id: "67C61B4CC065BA9C"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -11.5d

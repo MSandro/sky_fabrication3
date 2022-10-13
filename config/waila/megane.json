@@ -27,7 +27,8 @@
       "spatialharvesters": 7408640,
       "dark-enchanting": 7408640,
       "techreborn": 8390656,
-      "upc": 7408640
+      "upc": 7408640,
+      "create:schematicannon": 2960685
     },
     "units": {
       "megane": "E",
@@ -37,7 +38,8 @@
       "spatialharvesters": "E",
       "dark-enchanting": "E",
       "techreborn": "E",
-      "upc": "E"
+      "upc": "E",
+      "create:schematicannon": ""
     },
     "blacklist": [
       "appliedenergistics2:energy_acceptor"
@@ -55,7 +57,8 @@
       "fabricaeexnihilo:witchwater": 855385,
       "modern_industrialization:creosote": 6512720,
       "fabricaeexnihilo:blood": 855385,
-      "fabricaeexnihilo:brine": 855385
+      "fabricaeexnihilo:brine": 855385,
+      "modern_industrialization:lubricant": 16761856
     },
     "blacklist": []
   },

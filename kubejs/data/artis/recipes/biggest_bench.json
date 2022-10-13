@@ -2,11 +2,11 @@
   "type": "artis:bigger_bench_shaped",
   "pattern": [
     "Z#####Z",
-    "#######",
-    "##YXY##",
-    "##XNX##",
-    "##YXY##",
-    "#######",
+    "##ABC##",
+    "#GYXYG#",
+    "#HXNXK#",
+    "#GYXYG#",
+    "##DEF##",
     "Z#####Z"
   ],
   "key": {
@@ -14,7 +14,7 @@
       "item": "artis:bigger_bench"
     },
     "N": {
-      "item": "kubejs:infinity_catalyst"
+      "item": "spectrum:germinated_jade_vine_seeds"
     },
     "X": {
       "item": "minecraft:netherite_block"
@@ -24,6 +24,33 @@
     },
     "Z": {
       "item": "kubejs:neutronium_nugget"
+    },
+    "A": {
+      "item": "kubejs:iron_singularity"
+    },
+    "B": {
+      "item": "kubejs:golden_singularity"
+    },
+    "C": {
+      "item": "kubejs:lapis_singularity"
+    },
+    "D": {
+      "item": "kubejs:redstone_singularity"
+    },
+    "E": {
+      "item": "kubejs:diamond_singularity"
+    },
+    "F": {
+      "item": "kubejs:emerald_singularity"
+    },
+    "G": {
+      "item": "dml-refabricated:glitch_ingot"
+    },
+    "H": {
+      "item": "kubejs:cosmic_meatballs"
+    },
+    "K": {
+      "item": "kubejs:fish_and_chips"
     }
   },
   "result": {
