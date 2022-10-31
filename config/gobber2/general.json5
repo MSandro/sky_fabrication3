@@ -60,6 +60,7 @@
 	"medallionLesserHealingAmount": 1,
 	"medallionHealingAmount": 2,
 	"medallionGreaterHealingAmount": 3,
+	"medallionSeaAlwaysOn": false,
 	"medallionShieldingHorizRange": 3,
 	"medallionShieldingVertRange": 2,
 	"medallionShieldingAgainstWither": false,

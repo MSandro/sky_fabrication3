@@ -147,7 +147,7 @@
 			]
 			dependencies: [
 				"6EC4700B21DB617B"
-				"3C392862FC5CA225"
+				"75936E139587B1B5"
 			]
 			id: "07C43FD476A6AB1C"
 			tasks: [{
@@ -194,6 +194,9 @@
 				"Try to find the Stronghold in the Sky-Islands Dimension."
 				""
 				"You have to collect 12 different Eye Items to activate the portal."
+				""
+				"Use REI to check which loot tables or mob drops contain the Eyes."
+				"You can craft some. But most Eyes are obtainable by looting some chests in the Sky Islands Dimension."
 			]
 			dependencies: ["43709A95E106563B"]
 			id: "3D5E0F53E4BAAA72"
@@ -208,6 +211,143 @@
 				type: "random"
 				table_id: 13756307348121783L
 			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: [
+				"Most Twilight Bosses spawn a chest after defeating them."
+				"if there is no floor under the boss, make sure to fly down to the bottom of the world, maybe you can find the chest there."
+			]
+			dependencies: ["36D37A1AFFC1B369"]
+			id: "6FA54248C69DFAB2"
+			tasks: [{
+				id: "51E544D7CF41D801"
+				type: "checkmark"
+				title: "Where is the Loot?"
+			}]
+		}
+		{
+			title: "Trophys"
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["36D37A1AFFC1B369"]
+			id: "3687E7A9DCCB297C"
+			tasks: [
+				{
+					id: "75384D2AEA6EF3AD"
+					type: "item"
+					item: "twilightforest:naga_trophy"
+				}
+				{
+					id: "0826E01B639B5814"
+					type: "item"
+					item: "twilightforest:lich_trophy"
+				}
+				{
+					id: "19807850BD295E28"
+					type: "item"
+					item: "twilightforest:minoshroom_trophy"
+				}
+				{
+					id: "2520062FA3368244"
+					type: "item"
+					item: "twilightforest:hydra_trophy"
+				}
+				{
+					id: "6024A53621A99FF6"
+					type: "item"
+					item: "twilightforest:knight_phantom_trophy"
+				}
+				{
+					id: "17237659D04DCA0F"
+					type: "item"
+					item: "twilightforest:ur_ghast_trophy"
+				}
+				{
+					id: "0CAD573A31967885"
+					type: "item"
+					item: "twilightforest:alpha_yeti_trophy"
+				}
+				{
+					id: "24A67E646805DC70"
+					type: "item"
+					item: "twilightforest:snow_queen_trophy"
+				}
+				{
+					id: "794DCC78306C199E"
+					type: "item"
+					item: "twilightforest:quest_ram_trophy"
+				}
+			]
+			rewards: [
+				{
+					id: "1C8920CB87793372"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BF47837B95B061E"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "46087FC1C2180EA3"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6CDBB6DC64668C02"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20F02D47B62991C0"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "13AF9174F96A639B"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
 		}
 	]
 }

@@ -4,8 +4,7 @@
 		"item": "spectrum:moonstone_shard"
 	},
 	"result": {
-		"item": "croparia:elematilius",
-    "count": 4
+		"item": "croparia:elematilius"
 	},
 	"time": 300,
 	"catalysts": {

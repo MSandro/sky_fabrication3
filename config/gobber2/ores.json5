@@ -39,7 +39,7 @@
 	   
 	   ***********************
 	   Lucky Block - Drops
-	   - only use values between .01 to .99
+	   - only use values between .001 to .999
 	   - values cannot overlap
 	   - values should be in decending order from
 	   cutoff, common, uncommon, and rare

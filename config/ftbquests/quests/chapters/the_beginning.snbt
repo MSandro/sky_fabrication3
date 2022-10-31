@@ -494,6 +494,7 @@
 			tasks: [{
 				id: "3E0D5CE550B290BB"
 				type: "item"
+				title: "Barrel"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b

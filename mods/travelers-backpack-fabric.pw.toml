@@ -1,13 +1,13 @@
 name = "Traveler's Backpack [Fabric]"
-filename = "travelers-backpack-1.18.2-7.1.7.jar"
+filename = "travelers-backpack-1.18.2-7.1.10.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8c3933e1f60084f4fc8ac1c947ad396897dc81ce"
+hash = "a9ae0849fdecfa21f450706313722f3c5917c170"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3972331
+file-id = 4035634
 project-id = 541171

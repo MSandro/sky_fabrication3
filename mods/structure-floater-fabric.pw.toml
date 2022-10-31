@@ -1,13 +1,13 @@
 name = "Structure Floater Fabric"
-filename = "structure_floaters_fabric-3.0.2+1.18.2.jar"
+filename = "structure_floaters_fabric-3.0.4+1.18.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7f81c8f9beb0cc553da2859d6a702bc11c8dd8d6"
+hash = "e1ea6cc18d802088796bfa880456d2bd1bdf48e7"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3803858
+file-id = 4050970
 project-id = 535399

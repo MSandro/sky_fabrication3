@@ -88,6 +88,7 @@ mode = "fancy"
 				player = true
 				pufferfish = true
 				potion = true
+				eye_of_ender = true
 				wolf = true
 				villager = true
 				skeleton_horse = true
@@ -113,6 +114,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.botania]
 				mana_burst = true
+				spark = true
 
 			[light_sources.settings.entities.mini_scaled]
 				portal = true
@@ -282,6 +284,8 @@ mode = "fancy"
 				redcap_sapper = true
 				boar = true
 				lich = true
+				hydra = true
+				hydra_mortar = true
 				unstable_ice_core = true
 				dwarf_rabbit = true
 				winter_wolf = true

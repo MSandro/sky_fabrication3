@@ -1,0 +1,24 @@
+{
+  "type": "artis:big_bench_shaped",
+  "pattern": [
+    "XXXXX",
+    "X###X",
+    "X#D#X",
+    "X###X",
+    "XXXXX"
+  ],
+  "key": {
+    "#": {
+      "item": "xps:xp_remover"
+    },
+    "D": {
+      "item": "minecraft:enchanting_table"
+    },
+    "X": {
+      "item": "spectrum:knowledge_gem"
+    }
+  },
+  "result": {
+    "item": "toolleveling:tool_leveling_table"
+  }
+}

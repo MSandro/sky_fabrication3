@@ -1,13 +1,13 @@
 name = "Turtlematic"
-filename = "turtlematic-0.4.3.jar"
+filename = "turtlematic-0.5.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "098c722166656a0ffa277baf0285638907ef4779"
+hash = "9c83ea54dd0f8f73b8b4a3f7f0b09d320eda5948"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3788351
+file-id = 4049837
 project-id = 618288
