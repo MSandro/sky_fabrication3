@@ -1,13 +1,13 @@
 name = "Dank Storage Fabric"
-filename = "dankstorage-1.18.2-3.7.2.jar"
+filename = "dankstorage-1.18.2-3.9.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "999acfa0892743bdd2af71736375253fb62f3c7f"
+hash = "6da1f2f3cb7d4bc265ca86c822e632d882ae4a90"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4027360
+file-id = 4077254
 project-id = 400619

@@ -1,13 +1,13 @@
 name = "Pickable Villagers [Fabric]"
-filename = "pickable_villagers-1.2.3+1.18.2.jar"
+filename = "pickable_villagers-1.2.4+1.18.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "40e052ef0cdbd1d6b7ce4fff41d74a1f39eda211"
+hash = "327c14fde2ab482176b2dbd9499905b27275aaef"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3963856
+file-id = 4060263
 project-id = 636067

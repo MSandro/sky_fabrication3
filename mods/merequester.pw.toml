@@ -1,0 +1,13 @@
+name = "ME Requester"
+filename = "merequester-1.18.2-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d49fa917cb1e54cf00b260006ed6951d1ce23e9a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4073045
+project-id = 688367

@@ -1,13 +1,13 @@
 name = "Simple Discord RPC [Forge/Fabric/Quilt]"
-filename = "SimpleRPC-fabric-1.18.2-3.1.1.jar"
+filename = "SimpleRPC-fabric-1.18.2-3.2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "37d8131f61620e995543c4d2fe867b51c4504e83"
+hash = "50dcb7c67f5559db530ee5d04becaf67842c4bf2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3899280
+file-id = 4082888
 project-id = 411816

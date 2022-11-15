@@ -1,0 +1,13 @@
+name = "Factory Blocks"
+filename = "factory-blocks-mod-1.0.0+1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b51e58a5db1b95398d050f144adf217bde8e0cfc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3859734
+project-id = 640001
