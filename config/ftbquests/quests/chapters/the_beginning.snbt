@@ -1151,7 +1151,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -5.0d
 			y: -13.0d
 			dependencies: ["6D7B9D15C87A8C57"]
 			id: "722E4F3BB0855CE8"
@@ -1184,7 +1184,7 @@
 		}
 		{
 			title: "Crafting Table"
-			x: 1.5d
+			x: -1.5d
 			y: -13.0d
 			subtitle: "4 Planks = 1 Crafting Tables? No! Take 2 Slabs."
 			dependencies: ["07C525ED6A1C8B22"]
@@ -1203,7 +1203,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: -1.5d
 			y: -11.5d
 			subtitle: "You can stripp Bamboo by right clicking with a axe."
 			dependencies: ["0B37C46D743A72DF"]
@@ -1271,6 +1271,112 @@
 					count: 4
 				}
 			]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			description: ["This Block Breaker can be used to hammer e.g. cobblestone to gravel."]
+			dependencies: ["153C83AD044BF76A"]
+			id: "3D079061CE0AD33F"
+			tasks: [{
+				id: "2E3581C01BE20963"
+				type: "item"
+				item: "redstonebits:breaker"
+			}]
+			rewards: [{
+				id: "7CDBDCBA1A776FD7"
+				type: "item"
+				item: {
+					id: "fabricaeexnihilo:iron_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Early Automation"
+			x: 1.5d
+			y: -11.5d
+			dependencies: ["500132095BEC908B"]
+			id: "5C5EDCED67B705ED"
+			tasks: [{
+				id: "7934FEB9E0C04811"
+				type: "item"
+				item: "coxinhautilities:wooden_hopper"
+			}]
+			rewards: [{
+				id: "4C36A9501E5D2569"
+				type: "item"
+				item: "moderndynamics:extractor"
+			}]
+		}
+		{
+			title: "I am Grout!"
+			x: 7.5d
+			y: -2.5d
+			subtitle: "TConstruct is here (BETA)"
+			description: [
+				"feel free to try out Hephaestus, the Tinkers Construct port for Fabric."
+				"Its not fully included in the modpack, so some recipes are currently missing."
+			]
+			dependencies: ["508DEEE11F45E4F3"]
+			id: "5F6BD70DF6342770"
+			tasks: [{
+				id: "7276E4698718F7F0"
+				type: "item"
+				item: "tconstruct:grout"
+			}]
+			rewards: [{
+				id: "15CFCF83FDF834E2"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+		}
+		{
+			title: "How to obtain Gold?"
+			x: -3.0d
+			y: -5.5d
+			description: [
+				"The Quest Book will not tell you how to get each material."
+				"Instead, you have to find your own way. By using REI you should be able to find the answers."
+				""
+				"Some materials like gold can be obtained in multiple ways."
+				"Gold can be found in the nether, but later you should build a automated gold production with create."
+			]
+			dependencies: ["29B095943AD26EA9"]
+			id: "2E9E67B123FB86ED"
+			tasks: [{
+				id: "7E16990520EE91F9"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
+			rewards: [{
+				id: "76716B49566C77F1"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 7
+			}]
+		}
+		{
+			title: "We need to go Deeper!"
+			x: 7.5d
+			y: -1.0d
+			description: ["Other Dimensions like the Nether are not empty. You can discover some structures there."]
+			dependencies: ["153C83AD044BF76A"]
+			id: "3AB25EAB4F16C5A5"
+			tasks: [{
+				id: "5712A76C98E70614"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "054B8B47F8122CAA"
+				type: "item"
+				item: "minecraft:nether_brick"
+				count: 8
+			}]
 		}
 	]
 }

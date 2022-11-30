@@ -898,31 +898,16 @@
 			dependencies: ["168F737F6246967F"]
 			id: "55A6E90245D38B8B"
 			tasks: [{
-				id: "3CC1B88DDA427A95"
+				id: "263FDBA937D650EB"
 				type: "item"
+				icon: "kibe:white_sleeping_bag"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
 						items: [
 							{
-								id: "kibe:pink_sleeping_bag"
-								Count: 1b
-							}
-							{
-								id: "kibe:lime_sleeping_bag"
-								Count: 1b
-							}
-							{
-								id: "kibe:yellow_sleeping_bag"
-								Count: 1b
-							}
-							{
-								id: "kibe:light_blue_sleeping_bag"
-								Count: 1b
-							}
-							{
-								id: "kibe:magenta_sleeping_bag"
+								id: "kibe:white_sleeping_bag"
 								Count: 1b
 							}
 							{
@@ -930,7 +915,23 @@
 								Count: 1b
 							}
 							{
-								id: "kibe:white_sleeping_bag"
+								id: "kibe:magenta_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:light_blue_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:yellow_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:lime_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:pink_sleeping_bag"
 								Count: 1b
 							}
 							{
@@ -938,23 +939,7 @@
 								Count: 1b
 							}
 							{
-								id: "kibe:black_sleeping_bag"
-								Count: 1b
-							}
-							{
-								id: "kibe:red_sleeping_bag"
-								Count: 1b
-							}
-							{
-								id: "kibe:brown_sleeping_bag"
-								Count: 1b
-							}
-							{
-								id: "kibe:green_sleeping_bag"
-								Count: 1b
-							}
-							{
-								id: "kibe:purple_sleeping_bag"
+								id: "kibe:light_gray_sleeping_bag"
 								Count: 1b
 							}
 							{
@@ -966,7 +951,23 @@
 								Count: 1b
 							}
 							{
-								id: "kibe:light_gray_sleeping_bag"
+								id: "kibe:purple_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:green_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:brown_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:red_sleeping_bag"
+								Count: 1b
+							}
+							{
+								id: "kibe:black_sleeping_bag"
 								Count: 1b
 							}
 						]
@@ -1050,6 +1051,11 @@
 			tasks: [{
 				id: "461A8026187F0779"
 				type: "item"
+				icon: {
+					id: "kibe:white_glider"
+					Count: 1b
+					tag: { }
+				}
 				item: {
 					id: "itemfilters:or"
 					Count: 1b

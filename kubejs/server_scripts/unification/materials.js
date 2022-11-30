@@ -1,6 +1,6 @@
-////////////////////////
-/// Made by MSandro ///
-////////////////////////
+///////////////////
+/// Made by AOF ///
+///////////////////
 const GENERATE_REI_SCRIPT = true;
 // List of part tags to unify.
 const PARTS = [

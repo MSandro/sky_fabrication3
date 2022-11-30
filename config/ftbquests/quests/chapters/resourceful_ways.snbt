@@ -936,6 +936,7 @@
 			x: -4.5d
 			y: -5.0d
 			shape: "pentagon"
+			description: ["(disabled) Greenhouses are currently not usable, sorry"]
 			dependencies: ["748485FEC1097A71"]
 			id: "573AAC30B09B0BAE"
 			tasks: [{

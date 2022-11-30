@@ -213,7 +213,7 @@
 		{
 			x: 1.5d
 			y: 5.5d
-			description: ["You never noticed this Ore before at all.... weird. Is there more to the world than you previously thought?"]
+			description: ["Obtainable with the Extractinator!"]
 			dependencies: ["36258B9E1280A188"]
 			hide: true
 			id: "5E0135DE9E0D30CE"
@@ -1077,7 +1077,7 @@
 			}]
 		}
 		{
-			title: "Not Yet Available in Survival"
+			title: "Moonstone"
 			x: 18.5d
 			y: 6.0d
 			dependencies: ["5F98F94ABEC9673E"]
