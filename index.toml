@@ -6021,10 +6021,6 @@ hash = "5d63ad12301f35fd41d27a73b8b67df3d6404b66137b0ba7b0ce467c577b0a69"
 metafile = true
 
 [[files]]
-file = "mods/forgero.pw.toml_"
-hash = "5d63ad12301f35fd41d27a73b8b67df3d6404b66137b0ba7b0ce467c577b0a69"
-
-[[files]]
 file = "mods/forgetmechunk.pw.toml"
 hash = "358bf1f8fd72886dca6150ee4ed33dc67cfc62c8b5771dce196c228b38d7a9f3"
 metafile = true
@@ -6163,10 +6159,6 @@ metafile = true
 file = "mods/inventory-sorting.pw.toml"
 hash = "53d676cb098f77c9c84750b04ee3c384cc04a55bc92dc2c6e4cc0c31c31f00bf"
 metafile = true
-
-[[files]]
-file = "mods/iris-flywheel-compat.pw.toml_"
-hash = "71cd8233d93ef38ba73aba37ed2842f4136642b3fee4bf15d9a6c8c7ba52205c"
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
