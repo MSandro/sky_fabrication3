@@ -1,13 +1,13 @@
 name = "Staff of Traveling"
-filename = "Staff of Travelling-fabric-1.18.2-1.0.11.jar"
+filename = "Staff of Travelling-fabric-1.18.2-1.2.12.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "996eec690b7dad3780df9bd039eae3cd6dc56cd1"
+hash = "49aa2454ca2f704e786d36aada397c8236fc2050"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3963263
+file-id = 4133404
 project-id = 603970

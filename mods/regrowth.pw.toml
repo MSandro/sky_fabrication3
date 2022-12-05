@@ -1,13 +1,13 @@
 name = "Regrowth"
-filename = "fabric-release-regrowth-1.18-0.31.jar"
+filename = "fabric-release-regrowth-1.18-31.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "4dd48ad987e7f2bb9db29566fcf96002a4a4ee9d"
+hash = "7cbc63b5392504636f7e3350ecbf7e1e023a99c9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3943126
+file-id = 4125890
 project-id = 381597
