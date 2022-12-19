@@ -937,7 +937,7 @@
 				"3AC0329506E80AA4"
 				"51A08025E64EF6C7"
 			]
-			hide: true
+			hide: false
 			dependency_requirement: "one_completed"
 			size: 1.25d
 			id: "6D9CF1D77D05C2D4"
@@ -1369,6 +1369,7 @@
 			tasks: [{
 				id: "5712A76C98E70614"
 				type: "dimension"
+				icon: "minecraft:netherrack"
 				dimension: "minecraft:the_nether"
 			}]
 			rewards: [{
