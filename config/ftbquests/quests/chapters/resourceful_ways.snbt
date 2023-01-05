@@ -933,24 +933,6 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -5.0d
-			shape: "pentagon"
-			description: ["(disabled) Greenhouses are currently not usable, sorry"]
-			dependencies: ["748485FEC1097A71"]
-			id: "573AAC30B09B0BAE"
-			tasks: [{
-				id: "40B061A5347127EB"
-				type: "item"
-				item: "croparia:greenhouse"
-			}]
-			rewards: [{
-				id: "2593738FE907BFBD"
-				type: "item"
-				item: "botania:overgrowth_seed"
-			}]
-		}
-		{
 			x: -3.5d
 			y: -4.0d
 			shape: "pentagon"
@@ -974,10 +956,10 @@
 			}]
 		}
 		{
-			x: -5.5d
+			x: -4.5d
 			y: -5.0d
 			shape: "pentagon"
-			dependencies: ["573AAC30B09B0BAE"]
+			dependencies: ["748485FEC1097A71"]
 			id: "6FFC449DE313A1BD"
 			tasks: [{
 				id: "3A91C6FD4E68A1DD"
@@ -1018,4 +1000,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

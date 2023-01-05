@@ -9,59 +9,9 @@
         "G": {
             "item": "minecraft:glass"
         },
-        "I": [
-          {
-            "item": "croparia:greenhouse"
-          },
-          {
-            "item": "croparia:greenhouse_white"
-          },
-          {
-            "item": "croparia:greenhouse_orange"
-          },
-          {
-            "item": "croparia:greenhouse_magenta"
-          },
-          {
-            "item": "croparia:greenhouse_light_blue"
-          },
-          {
-            "item": "croparia:greenhouse_yellow"
-          },
-          {
-            "item": "croparia:greenhouse_lime"
-          },
-          {
-            "item": "croparia:greenhouse_pink"
-          },
-          {
-            "item": "croparia:greenhouse_gray"
-          },
-          {
-            "item": "croparia:greenhouse_light_gray"
-          },
-          {
-            "item": "croparia:greenhouse_cyan"
-          },
-          {
-            "item": "croparia:greenhouse_purple"
-          },
-          {
-            "item": "croparia:greenhouse_blue"
-          },
-          {
-            "item": "croparia:greenhouse_brown"
-          },
-          {
-            "item": "croparia:greenhouse_green"
-          },
-          {
-            "item": "croparia:greenhouse_red"
-          },
-          {
-            "item": "croparia:greenhouse_black"
-          }
-        ],
+        "I": {
+            "item": "ae2things:crystal_growth"
+        },
         "X": {
             "item": "spectrum:amethyst_calcite_lamp"
         }

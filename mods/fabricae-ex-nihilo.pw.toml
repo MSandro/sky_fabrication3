@@ -1,13 +1,13 @@
 name = "Fabricae Ex Nihilo"
-filename = "wraith-fabricaeexnihilo-0.1.9+mc1.18.2.jar"
+filename = "wraith-fabricaeexnihilo-0.1.10+mc1.18.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ea442c62eeafe1711a906eec70da6decd379d966"
+hash = "f88029ef03f865cb066accacd1553c6b42d503c5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4056960
+file-id = 4146052
 project-id = 596911

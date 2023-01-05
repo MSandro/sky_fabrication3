@@ -1,13 +1,13 @@
 name = "Cosmetica"
-filename = "Cosmetica 1.2.1 1.18.2.jar"
+filename = "Cosmetica 1.2.2 1.18.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "27af3d2e53a7f1ca7c5135ea0bf4a4f6da87357e"
+hash = "7046b4097a413425d543529095477da13ffcdfa4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3973416
+file-id = 4181035
 project-id = 581009
