@@ -195,8 +195,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 0
 						color1: 0
+						color2: 0
 					}
 				}
 			}]
@@ -2389,4 +2389,5 @@
 			}]
 		}
 	]
+	quest_links: [ ]
 }

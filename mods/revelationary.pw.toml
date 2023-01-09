@@ -1,13 +1,13 @@
 name = "Revelationary"
-filename = "revelationary-1.0.2.jar"
+filename = "revelationary-1.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "bc8072a7c398073294b790078cd1982a2b93177b"
+hash = "9b8ccbe81efc81f905c5d3ea301228eff5a6e11f"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3945230
+file-id = 4165240
 project-id = 656526
