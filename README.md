@@ -1,5 +1,4 @@
-# Sky FABRICation 3
-Proposed changes for Sky FABRICation 3
+# Proposed changes for Sky FABRICation 3
 
 <ul>
     <li>Many Questbook edits, including a redesigned Create chapter, corrections and updates for some of the quests, 2 new Endgame Quest Chapters: Spatial Harvesters and Endgame.</li>
@@ -29,6 +28,14 @@ Proposed changes for Sky FABRICation 3
     <li>Removed redundant items, fluids and TR Fluid Cells from REI.</li>
     <li>Record Fragment recipe now accepts any music disc, instead of only disc 13.</li>
     <li>An ability to recycle Croparia Seeds in the MI Centrifuge, since Croparia one works on its own proprietary energy system and it's super slow. Also gives transparency, what are the odds of getting a fruit from recycling a seed!</li>
+	<li>DML Data Model changes for balance with Simulacrum:
+		<ul>
+			<li>Basic: 8 -> 16</li>
+			<li>Advanced: 16 -> 128</li>
+			<li>Superior: 32 -> 256</li>
+			<li>Self-Aware: 64 -> 512</li>
+		</ul>
+	</li>
 </ul>
 
 ## For developers/debugging:
