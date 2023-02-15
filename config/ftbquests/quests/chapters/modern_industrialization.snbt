@@ -114,11 +114,11 @@
 				""
 				"You can also smelt water buckets into steam buckets. Make your first Bronze Compressor before the boiler to save a lot on the plates!"
 				""
-				"It probably looks expensive to you right now, but don't forget that you can triple ores with the Forge Hammer. Also, as soon as you will have your first two machines, it will become more than twice less expensive!"
+				"It probably looks expensive to you right now, but as soon as you will have your first two machines, it will become more than twice less expensive!"
 				""
-				"The boiler will automatically produce and send steam to adjacent machines, up to 8 millibuckets per tick."
+				"The boiler will automatically produce and send steam to adjacent machines, up to 8 mB/t."
 				""
-				"Bronze machines can only process recipes up to 2 EU/t, meaning that the recipe will use 2 Energy Units per Tick. As 1 millibucket of steam = 1 EU, a boiler at max temperature can power 4 machines simultaneously!"
+				"Bronze machines can only process recipes up to 2 EU/t, meaning that the recipe will use 2 Energy Units per Tick. As 1 mB of steam = 1 EU, a boiler at max temperature can power 4 machines simultaneously!"
 			]
 			dependencies: ["4661838E492BDE53"]
 			id: "0BAB52BE15CE157F"
@@ -187,7 +187,7 @@
 			y: 1.5d
 			subtitle: "Ore hemiquadrupling for the win!"
 			description: [
-				"The Macerator will turn 3 crushed dusts/raw ores into 4.5 dusts."
+				"The Macerator will turn 1 ore into 3 crushed dusts/raw ores, which can be later processed into 4.5 dusts at average."
 				"Make sure to not grind your precious gem ores!"
 				""
 				"It can also recycle all kinds of materials by turning them into dust."

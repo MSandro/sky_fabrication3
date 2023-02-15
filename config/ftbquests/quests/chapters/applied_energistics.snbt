@@ -330,7 +330,7 @@
 			description: [
 				"To configure a ME P2P Tunnel you must first attune the tunnel to carry what you want it to, then you need to configure the outputs to their input."
 				""
-				"You configure the connections by using the Memory Card; First Shift+Right Click the input to save it on your memory card, then simply right-click the different outputs to store the input onto the outputs."
+				"You can configure the connections by using the Memory Card; First Shift+Right Click the input to save it on your memory card, then simply right-click the different outputs to store the input onto the outputs."
 				""
 				"Memory Cards can also copy device configurations, in case you want to set up mutliple devices with the same configuration."
 			]
@@ -753,6 +753,7 @@
 				"2 cards - 32 items at once,"
 				"3 cards - 64 items at once,"
 				"4 cards - 96 items at once."
+				"> Crafting Card - the Export Bus will automatically request crafting until the container is filled."
 			]
 			dependencies: ["2BE8127E1180DA21"]
 			id: "578F8DD2ACBA9C6C"
@@ -856,6 +857,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Any Wireless Terminal\"}"
+						}
 						items: [
 							{
 								id: "ae2:wireless_terminal"
@@ -878,9 +882,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Any Wireless Terminal\"}"
-						}
 					}
 				}
 			}]

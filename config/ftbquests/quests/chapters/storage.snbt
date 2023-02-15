@@ -886,6 +886,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Drawers\"}"
+						}
 						items: [
 							{
 								id: "extended_drawers:single_drawer"
@@ -900,9 +903,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Drawers\"}"
-						}
 					}
 				}
 			}]
