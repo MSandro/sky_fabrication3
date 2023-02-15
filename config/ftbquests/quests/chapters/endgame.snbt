@@ -1,0 +1,637 @@
+{
+	id: "7399B85C439F32D6"
+	group: "5A79AA7D1974C9A9"
+	order_index: 1
+	filename: "endgame"
+	title: "Endgame"
+	icon: "kubejs:infinity_catalyst"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 8.5d
+			y: -3.0d
+			shape: "square"
+			subtitle: "Each piece gives +25% chance to completely nullify an attack."
+			dependencies: ["7333416F7B297625"]
+			id: "1C160F416FFFE533"
+			tasks: [{
+				id: "3C259C716EB5F722"
+				type: "item"
+				item: "modern_industrialization:quantum_helmet"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.0d
+			shape: "square"
+			subtitle: "Each piece gives +25% chance to completely nullify an attack."
+			dependencies: ["7333416F7B297625"]
+			id: "3509449F128B121A"
+			tasks: [{
+				id: "1A59B1136DF98C9B"
+				type: "item"
+				item: "modern_industrialization:quantum_chestplate"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			shape: "square"
+			subtitle: "Each piece gives +25% chance to completely nullify an attack."
+			dependencies: ["7333416F7B297625"]
+			id: "592A917BBC32DB01"
+			tasks: [{
+				id: "5422493CD5560280"
+				type: "item"
+				item: "modern_industrialization:quantum_leggings"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			shape: "square"
+			subtitle: "Each piece gives +25% chance to completely nullify an attack."
+			dependencies: ["7333416F7B297625"]
+			id: "3A40E03A1201EF3D"
+			tasks: [{
+				id: "71D74F28731CA68E"
+				type: "item"
+				item: "modern_industrialization:quantum_boots"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.5d
+			subtitle: "Literally /kill's mobs."
+			dependencies: ["7333416F7B297625"]
+			id: "4E43971CD589E489"
+			tasks: [{
+				id: "681D7B8E91D66CF1"
+				type: "item"
+				item: "modern_industrialization:quantum_sword"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			subtitle: "A Crafting Table with a 5x5 Grid."
+			id: "6DB49FCA620A2F05"
+			tasks: [{
+				id: "6912502BE3A397E0"
+				type: "item"
+				item: "artis:big_bench"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			subtitle: "A Crafting Table with a 7x7 grid."
+			dependencies: [
+				"6DB49FCA620A2F05"
+				"59F7DE03A3A8E6F8"
+			]
+			id: "693E287970E53404"
+			tasks: [{
+				id: "703EA9F792F01774"
+				type: "item"
+				item: "artis:bigger_bench"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			subtitle: "A Crafting Table with a 9x9 grid."
+			dependencies: [
+				"693E287970E53404"
+				"43A20488F96931A2"
+				"59F7DE03A3A8E6F8"
+				"29C94774A9E2E953"
+				"136532374C24E706"
+				"2416B9BF7746143B"
+				"7F93DF7B96922E0F"
+				"4628FBF318F9B11B"
+				"5BC1E66D78FBE6EB"
+				"36E78866627C6B40"
+				"42710D1A071289E4"
+				"2BD1A66700434E4B"
+				"2E453832695F2656"
+				"5A575F67D7CDFA7E"
+			]
+			size: 1.5d
+			id: "4818E72ED80C8D7D"
+			tasks: [{
+				id: "57BBC4FCF0923934"
+				type: "item"
+				item: "artis:biggest_bench"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			subtitle: "The massive explosion in confined space led to the creation of a miniature black hole."
+			dependencies: ["6314525E36DEA54B"]
+			id: "513180A5E2142F83"
+			tasks: [{
+				id: "1629AB46D3240E04"
+				type: "item"
+				item: "modern_industrialization:singularity"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			subtitle: "A miniature Black Hole, with 13,122 Diamonds tossed in."
+			description: ["You will need to add a Quantum Upgrade to your Implosion Compressor to satisfy its power requirement."]
+			dependencies: [
+				"513180A5E2142F83"
+				"4847BA675A04852F"
+			]
+			id: "36E78866627C6B40"
+			tasks: [{
+				id: "397288529E0FEBF3"
+				type: "item"
+				item: "kubejs:diamond_singularity"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.0d
+			subtitle: "A miniature Black Hole, with 13,122 Emeralds tossed in."
+			description: ["You will need to add a Quantum Upgrade to your Implosion Compressor to satisfy its power requirement."]
+			dependencies: [
+				"513180A5E2142F83"
+				"4847BA675A04852F"
+			]
+			id: "29C94774A9E2E953"
+			tasks: [{
+				id: "3D8BB3544D05F6B6"
+				type: "item"
+				item: "kubejs:emerald_singularity"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			subtitle: "A miniature Black Hole, with 13,122 Gold Ingots tossed in."
+			description: ["You will need to add a Quantum Upgrade to your Implosion Compressor to satisfy its power requirement."]
+			dependencies: [
+				"513180A5E2142F83"
+				"4847BA675A04852F"
+			]
+			id: "4628FBF318F9B11B"
+			tasks: [{
+				id: "61EDE333ED2EE8C1"
+				type: "item"
+				item: "kubejs:golden_singularity"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "A miniature Black Hole, with 13,122 Iron Ingots tossed in."
+			description: ["You will need to add a Quantum Upgrade to your Implosion Compressor to satisfy its power requirement."]
+			dependencies: [
+				"513180A5E2142F83"
+				"4847BA675A04852F"
+			]
+			id: "2BD1A66700434E4B"
+			tasks: [{
+				id: "13805879914DB3F7"
+				type: "item"
+				item: "kubejs:iron_singularity"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			subtitle: "A miniature Black Hole, with 13,122 Lapis Lazuli tossed in."
+			description: ["You will need to add a Quantum Upgrade to your Implosion Compressor to satisfy its power requirement."]
+			dependencies: [
+				"513180A5E2142F83"
+				"4847BA675A04852F"
+			]
+			id: "7F93DF7B96922E0F"
+			tasks: [{
+				id: "4D4674BFFBD67B4B"
+				type: "item"
+				item: "kubejs:lapis_singularity"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			subtitle: "A miniature Black Hole, with 13,122 Redstone Dust tossed in."
+			description: ["You will need to add a Quantum Upgrade to your Implosion Compressor to satisfy its power requirement."]
+			dependencies: [
+				"513180A5E2142F83"
+				"4847BA675A04852F"
+			]
+			id: "5BC1E66D78FBE6EB"
+			tasks: [{
+				id: "4ACD8280BD0204C1"
+				type: "item"
+				item: "kubejs:redstone_singularity"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			subtitle: "The penultimate material!"
+			description: ["Not automatically craftable with a Mechanical Mixer, as the Basin does not have enough slots."]
+			dependencies: [
+				"11F4D634651C541B"
+				"413B0EFC7DAE33F2"
+			]
+			size: 1.5d
+			id: "07FDBACE26E651C2"
+			tasks: [{
+				id: "5D3D4D3F360E1379"
+				type: "item"
+				item: "kubejs:infinity_catalyst"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			subtitle: "... as well as into the Ingot form!"
+			dependencies: ["59F7DE03A3A8E6F8"]
+			id: "3B0EFD01FFDE1E2C"
+			tasks: [{
+				id: "6DCC9D19EA626CEB"
+				type: "item"
+				item: "kubejs:neutronium_ingot"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			subtitle: "These neutrons seem to be formable into a nugget form..."
+			dependencies: ["740671D7B69AF373"]
+			id: "59F7DE03A3A8E6F8"
+			tasks: [{
+				id: "12253927C8416D8F"
+				type: "item"
+				item: "kubejs:neutronium_nugget"
+			}]
+		}
+		{
+			title: "Pile of Neutrons"
+			x: -5.5d
+			y: 0.0d
+			subtitle: "So many Neutrons!"
+			description: ["Mixing radioactive materials with very hot Helium Plasma seemed to evaporate everything, but neutrons."]
+			dependencies: ["6B83B56BAC02F111"]
+			id: "740671D7B69AF373"
+			tasks: [{
+				id: "47EFAB8688FB7346"
+				type: "item"
+				item: "kubejs:pileof_neutrons"
+			}]
+		}
+		{
+			x: -6.875d
+			y: 0.0d
+			subtitle: "Seems to be extractable from that gravitational anomaly..."
+			dependencies: ["79802A9D4A83E757"]
+			size: 1.25d
+			id: "6B83B56BAC02F111"
+			tasks: [{
+				id: "2F36CFA376D80754"
+				type: "item"
+				item: "modern_industrialization:bucket_uu_matter"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "Made from all the meat in the game!"
+			dependencies: ["693E287970E53404"]
+			id: "136532374C24E706"
+			tasks: [{
+				id: "40EBB927546C8F02"
+				type: "item"
+				item: "kubejs:cosmic_meatballs"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			subtitle: "All the fish and chips, spiced up with Dragon's Breath."
+			dependencies: ["693E287970E53404"]
+			id: "2E453832695F2656"
+			tasks: [{
+				id: "6B659A771C9B19B7"
+				type: "item"
+				item: "kubejs:fish_and_chips"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -0.5d
+			y: 0.0d
+			subtitle: "I hope you have farmed those."
+			dependencies: ["662B39B5C47F5D6B"]
+			id: "42710D1A071289E4"
+			tasks: [{
+				id: "322A7373F9A2CC2F"
+				type: "item"
+				item: "spectrum:germinated_jade_vine_seeds"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -4.5d
+			y: -1.0d
+			subtitle: "A Netherite Ingot infused with Matrix Fragments."
+			dependencies: ["3F69B97A783AC81C"]
+			id: "2416B9BF7746143B"
+			tasks: [{
+				id: "0BC2B1CC69436427"
+				type: "item"
+				item: "dml-refabricated:glitch_ingot"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			subtitle: "Nether Stars in the mesh of Diamonds."
+			id: "43A20488F96931A2"
+			tasks: [{
+				id: "45A8D0E844A910B4"
+				type: "item"
+				item: "kubejs:crystal_matrix_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "A Stew made out of rainbow-colored assortment of fruit and vegetables."
+			dependencies: ["4818E72ED80C8D7D"]
+			id: "11F4D634651C541B"
+			tasks: [{
+				id: "2553A8EEC42FD707"
+				type: "item"
+				item: "kubejs:ultimate_stew"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			subtitle: "The Ultimate Material!"
+			description: ["Feel free to brag."]
+			dependencies: ["07FDBACE26E651C2"]
+			size: 1.5d
+			id: "7D17BAA0723569A5"
+			tasks: [{
+				id: "756D2313F968AED8"
+				type: "item"
+				item: "kubejs:infinity_ingot"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["7D17BAA0723569A5"]
+			id: "7333416F7B297625"
+			tasks: [{
+				id: "711B81987D89FF75"
+				type: "checkmark"
+				title: "Bragging Rights"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			subtitle: "Unlimited Power!!! (v2)"
+			dependencies: ["63D59158E8BC23F3"]
+			id: "387F5E8FA77F2AB3"
+			tasks: [{
+				id: "4041946A78B95D94"
+				type: "item"
+				item: "indrev:lazuli_flux_container_creative"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.5d
+			dependencies: ["7333416F7B297625"]
+			id: "4C76A9150C025A8C"
+			tasks: [{
+				id: "7009209544DBCFBB"
+				type: "item"
+				item: {
+					id: "wands:creative_wand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			subtitle: "Can replicate most of the items using 100 mB of UU Matter."
+			description: [
+				"The notable exceptions are:"
+				"> Items that can contain other items,"
+				"> Spectrum Items,"
+				"> Endgame Items."
+				""
+				"Every non-replicable item can be found using a tag:"
+				"#modern_industrialization:replicator_blacklist"
+			]
+			dependencies: ["7333416F7B297625"]
+			min_width: 300
+			id: "5D28EFA03639684D"
+			tasks: [{
+				id: "0467CAF8C3FB74E2"
+				type: "item"
+				item: "modern_industrialization:replicator"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			subtitle: "More ender than an ender pearl."
+			dependencies: ["4818E72ED80C8D7D"]
+			id: "413B0EFC7DAE33F2"
+			tasks: [{
+				id: "080485C349F18EAA"
+				type: "item"
+				item: "kubejs:endest_pearl"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.5d
+			subtitle: "Provides unlimited amount of one item."
+			dependencies: ["5D28EFA03639684D"]
+			id: "509EA7291D462C54"
+			tasks: [{
+				id: "3C099BFD0FBABA21"
+				type: "item"
+				item: "techreborn:creative_storage_unit"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -5.0d
+			subtitle: "Provides unlimited amount of one fluid."
+			dependencies: ["5D28EFA03639684D"]
+			id: "1F98724810B48B0E"
+			tasks: [{
+				id: "70A2395CD1C4F525"
+				type: "item"
+				item: "techreborn:creative_tank_unit"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			subtitle: "Unlimited Power!!!"
+			dependencies: ["7333416F7B297625"]
+			id: "63D59158E8BC23F3"
+			tasks: [{
+				id: "147AD97FFEEC64B1"
+				type: "item"
+				item: "techreborn:creative_solar_panel"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.0d
+			subtitle: "Holds infinite Mana."
+			description: ["Filled with Vazkii's Tears :("]
+			dependencies: ["5D28EFA03639684D"]
+			id: "59019D4DC9BF2395"
+			tasks: [{
+				id: "19AA99B698C45BEC"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			subtitle: "???"
+			dependencies: ["7333416F7B297625"]
+			id: "51ECB670CB7C48DD"
+			tasks: [{
+				id: "51C2FA6634A635EA"
+				type: "item"
+				item: "iron-jetpacks:creative_cell"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			subtitle: "A Different kind of \"Creative Flight\""
+			dependencies: ["51ECB670CB7C48DD"]
+			id: "52C6F4A3D0793A00"
+			tasks: [{
+				id: "06BD127F6C242ED4"
+				type: "item"
+				item: "iron-jetpacks:creative_jetpack"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -6.5d
+			subtitle: "Provides unlimited amount of items."
+			description: ["Format it using a Cell Workbench first."]
+			dependencies: ["509EA7291D462C54"]
+			id: "73E1094729156DC6"
+			tasks: [{
+				id: "4E0A0CD0E8ACAE40"
+				type: "item"
+				item: "ae2:creative_item_cell"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -6.0d
+			subtitle: "Provides unlimited amount of fluids."
+			description: ["Format it using a Cell Workbench first."]
+			dependencies: ["1F98724810B48B0E"]
+			id: "6B3DD5E1DC5CBD67"
+			tasks: [{
+				id: "4C95D0DC2CC9A7E9"
+				type: "item"
+				item: "ae2:creative_fluid_cell"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			subtitle: "Unlimited Power!!! (for AE2)"
+			dependencies: ["7333416F7B297625"]
+			id: "2460A5C57EDCDAE7"
+			tasks: [{
+				id: "4EB37DAE1E46F306"
+				type: "item"
+				item: "ae2:creative_energy_cell"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			subtitle: "Expands the Wireless Terminal's Range to Infinity!"
+			description: ["It will consume more power when outside of normal range."]
+			dependencies: ["693E287970E53404"]
+			id: "546310057FE774E0"
+			tasks: [{
+				id: "39C2026D22EF6A9B"
+				type: "item"
+				item: "ae2wtlib:infinity_booster_card"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.0d
+			id: "5A575F67D7CDFA7E"
+			tasks: [{
+				id: "3326A635B0C40DEA"
+				type: "item"
+				item: "kubejs:record_fragment"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Choose your way of enchantment."
+			description: [
+				"The ultimate enchantment table!"
+				"You can pick and choose enchantments, upgrading or downgrading them at the cost of XP."
+				"Enchanting cost can be reduced by using a multiblock structure."
+			]
+			dependencies: ["07FDBACE26E651C2"]
+			id: "030CFE419C9627F0"
+			tasks: [{
+				id: "2A1E3263D4BC0DE4"
+				type: "item"
+				item: "dark-enchanting:dark_enchanter"
+			}]
+			rewards: [{
+				id: "6C4C5B29661563A7"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			subtitle: "The Penultimate Jetpack."
+			description: ["Shouldn't you just use Creative flight at this point?"]
+			dependencies: ["3B0EFD01FFDE1E2C"]
+			id: "573B150F7F9769EA"
+			tasks: [{
+				id: "0A2DC6D812A58508"
+				type: "item"
+				item: "iron-jetpacks:neutronium_jetpack"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

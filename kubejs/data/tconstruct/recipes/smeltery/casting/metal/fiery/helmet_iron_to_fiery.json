@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:iron_helmet"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "c:fiery_essence",
+    "amount": 35500
+  },
+  "result": {
+    "item": "twilightforest:fiery_helmet"
+  },
+  "cooling_time": 60
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "c:molten_tin",
+    "amount": 81000
+  },
+  "result": {
+    "item": "modern_industrialization:tin_block"
+  },
+  "cooling_time": 90
+}

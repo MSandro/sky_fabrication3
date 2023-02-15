@@ -1108,6 +1108,7 @@
 		{
 			x: -10.5d
 			y: 10.5d
+			subtitle: "... or maybe \"Silly Cone\"?"
 			dependencies: ["4F297154AC9975DE"]
 			id: "14232EC9A68EA81F"
 			tasks: [{
@@ -1309,6 +1310,8 @@
 		{
 			x: -9.0d
 			y: 13.0d
+			subtitle: "A Better Campfire, good for cooking!"
+			description: ["Works like Campfire, but it has 6 slots to cook food instead of only four."]
 			id: "1E2F74C7110CFEB3"
 			tasks: [{
 				id: "5A1D040B9E5B9377"

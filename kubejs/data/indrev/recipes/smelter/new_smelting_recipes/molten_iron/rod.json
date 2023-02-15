@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "modern_industrialization:iron_rod"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_iron",
+    "amount": 4500
+  },
+  "processTime": 48
+}

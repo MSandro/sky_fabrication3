@@ -1,0 +1,12 @@
+{
+  "type": "indrev:condenser",
+  "output": {
+    "item": "tconstruct:pig_iron_ingot",
+    "count": 1
+  },
+  "fluidInput": {
+    "fluid": "tconstruct:molten_pig_iron",
+    "amount": 9000
+  },
+  "processTime": 240
+}

@@ -4,12 +4,17 @@
 	order_index: 1
 	filename: "simple_storage_network"
 	title: "Simple Storage Network"
+	icon: "toms_storage:ts.inventory_connector"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: -1.0d
 			y: 1.0d
+			description: [
+				"Connects all of the touching inventories into one."
+				"Closer inventories ale prioritised both on insert and extract."
+			]
 			size: 1.5d
 			id: "7C76A579439D4EA9"
 			tasks: [{
@@ -26,6 +31,7 @@
 		{
 			x: -1.0d
 			y: -1.0d
+			subtitle: "Connects different Inventory Network blocks together."
 			dependencies: ["7C76A579439D4EA9"]
 			id: "6F3B60946C6C21DF"
 			tasks: [{
@@ -42,6 +48,11 @@
 		{
 			x: -1.0d
 			y: -2.5d
+			description: [
+				"Access all of your items stored on connected Inventories using this convenient grid."
+				""
+				"Place it on Inventory Connector (block or cable form)."
+			]
 			dependencies: ["6F3B60946C6C21DF"]
 			id: "0CB961291F0A9B12"
 			tasks: [{
@@ -58,6 +69,11 @@
 		{
 			x: -1.0d
 			y: -4.0d
+			description: [
+				"A Storage Terminal with a Crafting Table built into it!"
+				""
+				"Warning: Mass-crafting items can bring the server to halt due to constant lookup for recipes upon each craft."
+			]
 			dependencies: ["0CB961291F0A9B12"]
 			id: "70B0C5570698C366"
 			tasks: [{
@@ -74,6 +90,11 @@
 		{
 			x: -1.0d
 			y: -5.5d
+			description: [
+				"Hold in hand to be able to reach your Terminal up to 16 blocks."
+				""
+				"You can't reach Terminals through walls."
+			]
 			dependencies: ["70B0C5570698C366"]
 			id: "26703D9F698CED92"
 			tasks: [{
@@ -90,6 +111,13 @@
 		{
 			x: -1.0d
 			y: -7.0d
+			description: [
+				"Enables remote access to your Terminal, up to 64 blocks, regardless of obstructions."
+				""
+				"If a level 1 Beacon is within 8 blocks of the Terminal, you can access it anywhere, as long as it's in the same dimension as you."
+				""
+				"If a level 4 (maxed) Beacon is within 8 blocks of the Terminal, you can access your Terminal cross-dimensionally!"
+			]
 			dependencies: ["26703D9F698CED92"]
 			id: "13323D65D14836E4"
 			tasks: [{
@@ -106,6 +134,7 @@
 		{
 			x: 0.5d
 			y: -1.5d
+			description: ["Connects a single Inventory to the Inventory Network."]
 			dependencies: ["6F3B60946C6C21DF"]
 			id: "31D39465E7B92A07"
 			tasks: [{
@@ -122,6 +151,12 @@
 		{
 			x: 0.5d
 			y: -0.5d
+			description: [
+				"Can import or export from the Inventory System."
+				"Can be filtered by Right-Clicking the hopper with an item."
+				""
+				"A bit slower than the vanilla Hopper."
+			]
 			dependencies: ["6F3B60946C6C21DF"]
 			id: "7AEB5D8D3250F219"
 			tasks: [{
@@ -138,6 +173,11 @@
 		{
 			x: -2.5d
 			y: -0.5d
+			description: [
+				"Emits a redstone signal based on Inventory System contents."
+				""
+				"Very similar to AE2 Device with the same name."
+			]
 			dependencies: ["6F3B60946C6C21DF"]
 			id: "3623FC7755A25338"
 			tasks: [{
@@ -154,6 +194,10 @@
 		{
 			x: 0.5d
 			y: 1.0d
+			description: [
+				"Can paint Framed Inventory Cables, disguising them as other blocks."
+				"Shift-Right Click on a block to paint with it."
+			]
 			dependencies: ["7C76A579439D4EA9"]
 			id: "14825318A41F3BDA"
 			tasks: [{
@@ -176,6 +220,7 @@
 		{
 			x: -2.5d
 			y: -1.5d
+			description: ["Can be used instead of inventory to connect distant Inventories together."]
 			dependencies: ["6F3B60946C6C21DF"]
 			id: "5FFAEA8608882D68"
 			tasks: [{
@@ -192,6 +237,11 @@
 		{
 			x: -2.5d
 			y: 1.0d
+			description: [
+				"Extends the faces of the inventory this block points at."
+				""
+				"Useful, if you are tight on space or you just wanted to output from a single inventory using multiple Hoppers."
+			]
 			dependencies: ["7C76A579439D4EA9"]
 			id: "361ADFDACDA99035"
 			tasks: [{

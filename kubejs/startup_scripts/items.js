@@ -6,6 +6,7 @@ onEvent('item.registry', event => {
   event.create('skyfabrication_logo').displayName('Sky FABRICation');
   //event.create('sky_island_activator').displayName('Sky-Island Activator');
 
+  event.create('info_mark').displayName('Info Mark');
   event.create('crystal_matrix_ingot', 'basic').displayName('Crystal Matrix Ingot');
   event.create('diamond_lattice', 'basic').displayName('Diamond Lattice');
   event.create('diamond_singularity', 'basic').displayName('Diamond Singularity');
@@ -20,8 +21,14 @@ onEvent('item.registry', event => {
   event.create('infinity_ingot', 'basic').displayName('Infinity Ingot');
   event.create('neutronium_ingot', 'basic').displayName('Neutronium Ingot');
   event.create('neutronium_nugget', 'basic').displayName('Neutronium Nugget');
-  event.create('pileof_neutrons', 'basic').displayName('Pileof Neutrons');
+  event.create('pileof_neutrons', 'basic').displayName('Pile of Neutrons');
   event.create('record_fragment', 'basic').displayName('Record Fragment');
+  
+  // Additional Purified Ores
+  event.create('nickel_purified_ore', 'basic').displayName('Purified Nickel Ore');
+  event.create('zinc_purified_ore', 'basic').displayName('Purified Zinc Ore');
+  event.create('cobalt_purified_ore', 'basic').displayName('Purified Cobalt Ore');
+  event.create('uranium_purified_ore', 'basic').displayName('Purified Uranium Ore');
 
   // Food
   event.create('fish_and_chips').displayName('Ultimate Fish and Chips').food(foodBuilder => {foodBuilder.hunger(15).saturation(15.0).alwaysEdible()});

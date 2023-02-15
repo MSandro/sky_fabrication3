@@ -12,6 +12,9 @@
     "c:tungsten_ores": 3,
     "minecraft:diamond_ores": 4,
     "minecraft:emerald_ores": 4,
-    "c:ancient_debris_ores": 4
+    "c:ancient_debris_ores": 4,
+    "c:uraninite_ores": 4,
+    "spectrum:sparklestone_ores": 4,
+    "c:certus_quartz_ores": 3
   }
 }

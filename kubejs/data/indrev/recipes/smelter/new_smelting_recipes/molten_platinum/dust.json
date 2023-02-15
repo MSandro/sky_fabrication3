@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "modern_industrialization:platinum_dust"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_platinum",
+    "amount": 9000
+  },
+  "processTime": 196
+}

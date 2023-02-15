@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "kubejs:zinc_purified_ore"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_zinc",
+    "amount": 18000
+  },
+  "processTime": 280
+}

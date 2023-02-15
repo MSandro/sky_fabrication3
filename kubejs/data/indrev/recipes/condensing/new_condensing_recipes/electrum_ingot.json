@@ -1,0 +1,12 @@
+{
+  "type": "indrev:condenser",
+  "output": {
+    "item": "modern_industrialization:electrum_ingot",
+    "count": 1
+  },
+  "fluidInput": {
+    "fluid": "tconstruct:molten_electrum",
+    "amount": 9000
+  },
+  "processTime": 236
+}

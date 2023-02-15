@@ -129,8 +129,8 @@
 		}
 		{
 			x: -8.0d
-			y: 0.0d
-			dependencies: ["13BA3A6E648DF2E4"]
+			y: 1.0d
+			dependencies: ["36A9F28FF574346E"]
 			dependency_requirement: "one_completed"
 			id: "68DB32F00BACEEFD"
 			tasks: [{
@@ -153,7 +153,7 @@
 		}
 		{
 			x: -8.0d
-			y: -1.5d
+			y: -2.5d
 			dependencies: ["279C25C775C22B7E"]
 			id: "13BA3A6E648DF2E4"
 			tasks: [{
@@ -175,8 +175,8 @@
 			]
 		}
 		{
-			x: -9.5d
-			y: -1.5d
+			x: -9.0d
+			y: -2.0d
 			subtitle: "Can use, not only coal, but anything a furnace can to generate energy."
 			dependencies: ["13BA3A6E648DF2E4"]
 			id: "6F42118FDF2C343D"
@@ -253,11 +253,7 @@
 			x: -6.5d
 			y: 2.0d
 			subtitle: "Mainly used for processing ores into two dusts."
-			description: [
-				"Make sure to check the Revolutionary Guide for more info on ore tripling and quadrupling."
-				""
-				"The Pulverizer will turn 1 ore into 2 dusts which can then be smelted into 2 ingots."
-			]
+			description: ["The Pulverizer will turn 1 ore into 2 dusts which can then be smelted into 2 ingots."]
 			dependencies: ["68DB32F00BACEEFD"]
 			id: "0C00CEF0D380206E"
 			tasks: [{
@@ -392,8 +388,16 @@
 		{
 			x: -7.5d
 			y: 3.0d
-			subtitle: "Used for advanced infusing with fluids. It's main current use is for ore quadrupling."
-			description: ["Can also be used to turn Sand into Clay and Concrete Powder into Concrete."]
+			subtitle: "Used for advanced infusing with fluids."
+			description: [
+				"Your first use of this machine propably will be to produce Coolant, necessary for Speed Enhancers and Heatsinks."
+				""
+				"This machine can purify ores to increase yield - 1.5x more than melting ore directly."
+				""
+				"This machine can also be used to turn Sand into Clay and Concrete Powder into Concrete."
+				""
+				"Please note: To purify ores, use Modern Industrialization's Sulfuric Acid, the IndRev one is disabled."
+			]
 			dependencies: ["68DB32F00BACEEFD"]
 			id: "3984A36C1D03501E"
 			tasks: [{
@@ -483,7 +487,13 @@
 			x: -11.0d
 			y: 2.0d
 			subtitle: "A machine focused in fish farming, and it also supports enhancement upgrades."
-			description: ["It's only requirement is a Fishing Rod."]
+			description: [
+				"It's only requirement is a Fishing Rod."
+				""
+				"Will fish items from *vanilla* loot table, so sorry, but you can't automatically fish GoFish fish."
+				""
+				"And do not insert a Bedrock Fishing Rod here - it will completely disappear!"
+			]
 			dependencies: ["47E0E13C53777452"]
 			id: "130566BD27135220"
 			tasks: [{
@@ -611,15 +621,8 @@
 		{
 			title: "Poor Man's Compressor"
 			x: -8.0d
-			y: -3.0d
-			subtitle: "Craft a Forge Hammer from MI and make your first plates."
-			description: [
-				"TIP: Use hammers while crafting in the Forge Hammer."
-				""
-				"These hammers will save you lots of resources."
-				""
-				"NOTE: Indrev Hammer is disabled."
-			]
+			y: -3.5d
+			subtitle: "Use Create's Mechanical Press to make your first Plates."
 			dependencies: ["72FAE2CEB348AF96"]
 			dependency_requirement: "all_started"
 			id: "279C25C775C22B7E"
@@ -648,7 +651,7 @@
 		}
 		{
 			title: "Factory Components"
-			x: 5.0d
+			x: 7.0d
 			y: -4.5d
 			subtitle: "You'll be able to visualize the block positions by right clicking a factory."
 			dependencies: ["2094448C58554B0B"]
@@ -722,9 +725,12 @@
 		}
 		{
 			x: -12.5d
-			y: -3.5d
+			y: -4.5d
 			subtitle: "Don't forget your servos"
-			dependencies: ["6F89CD6C818B0B90"]
+			dependencies: [
+				"6F89CD6C818B0B90"
+				"72FAE2CEB348AF96"
+			]
 			id: "2199A3717A0431FB"
 			tasks: [{
 				id: "31A68C5E6F3BE266"
@@ -741,7 +747,10 @@
 			x: -12.5d
 			y: -5.5d
 			subtitle: "Don't forget your servos"
-			dependencies: ["298C314EC06AD61E"]
+			dependencies: [
+				"298C314EC06AD61E"
+				"72FAE2CEB348AF96"
+			]
 			id: "3ECA6414D58449DD"
 			tasks: [{
 				id: "74534788035362A2"
@@ -756,7 +765,7 @@
 		}
 		{
 			x: -12.5d
-			y: -4.5d
+			y: -3.5d
 			dependencies: ["22B972FA05163190"]
 			id: "49B55A5E5510AA48"
 			tasks: [{
@@ -772,7 +781,7 @@
 		}
 		{
 			x: -11.0d
-			y: -3.5d
+			y: -4.5d
 			subtitle: "Fluid pipes can be used to transfer fluids between tanks far apart."
 			dependencies: ["2366955CB2AB1234"]
 			id: "6F89CD6C818B0B90"
@@ -811,7 +820,7 @@
 		}
 		{
 			x: -11.0d
-			y: -4.5d
+			y: -3.5d
 			subtitle: "Cables can be used to transfer power between machines far apart from each other."
 			description: [
 				""
@@ -819,7 +828,7 @@
 			]
 			dependencies: [
 				"096656EAD28C0878"
-				"2366955CB2AB1234"
+				"72FAE2CEB348AF96"
 			]
 			id: "22B972FA05163190"
 			tasks: [{
@@ -836,7 +845,7 @@
 		{
 			title: "Servos"
 			x: -9.5d
-			y: -4.5d
+			y: -5.0d
 			subtitle: "Item and fluid pipes require servos to function."
 			description: [
 				"Click on the pipe connected to your container to attach a servo. Use a wrench to remove it."
@@ -855,31 +864,33 @@
 				""
 				"The Retriever Servo will pull items/fluids from nearby UNLESS they are also marked as retriever."
 			]
-			dependencies: [
-				"096656EAD28C0878"
-				"72FAE2CEB348AF96"
-			]
+			dependencies: ["096656EAD28C0878"]
 			id: "2366955CB2AB1234"
-			tasks: [
-				{
-					id: "642EC72609F0F51D"
-					type: "item"
-					item: {
-						id: "indrev:servo_retriever"
-						Count: 1b
-						tag: { }
+			tasks: [{
+				id: "680A01AC3697C85A"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "indrev:servo_output"
+								tag: { }
+								Count: 1b
+							}
+							{
+								id: "indrev:servo_retriever"
+								tag: { }
+								Count: 1b
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Output or Retriever Servo\"}"
+						}
 					}
 				}
-				{
-					id: "680A01AC3697C85A"
-					type: "item"
-					item: {
-						id: "indrev:servo_output"
-						Count: 1b
-						tag: { }
-					}
-				}
-			]
+			}]
 			rewards: [{
 				id: "4D7FCD13AB1BA8C5"
 				type: "loot"
@@ -888,7 +899,7 @@
 		}
 		{
 			x: -14.0d
-			y: -4.5d
+			y: -3.5d
 			dependencies: ["49B55A5E5510AA48"]
 			id: "03F6EF819F101266"
 			tasks: [{
@@ -904,7 +915,7 @@
 		}
 		{
 			x: -15.5d
-			y: -4.5d
+			y: -3.5d
 			dependencies: ["03F6EF819F101266"]
 			id: "5A98B8264695375C"
 			tasks: [{
@@ -920,7 +931,7 @@
 		}
 		{
 			x: -14.0d
-			y: -3.5d
+			y: -4.5d
 			dependencies: ["2199A3717A0431FB"]
 			id: "24E0748FC28B20F8"
 			tasks: [{
@@ -936,7 +947,7 @@
 		}
 		{
 			x: -15.5d
-			y: -3.5d
+			y: -4.5d
 			dependencies: [
 				"24E0748FC28B20F8"
 				"300DF9751F4E8837"
@@ -1011,7 +1022,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 9.5d
 			y: -5.0d
 			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
 			dependencies: ["60A8108BE12AFB39"]
@@ -1042,7 +1053,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 9.5d
 			y: -4.0d
 			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
 			dependencies: ["60A8108BE12AFB39"]
@@ -1073,7 +1084,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 9.5d
 			y: -6.0d
 			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
 			dependencies: ["60A8108BE12AFB39"]
@@ -1104,7 +1115,7 @@
 			]
 		}
 		{
-			x: 7.5d
+			x: 9.5d
 			y: -3.0d
 			subtitle: "Factories are improved versions of machines and they can process 5 items at once."
 			dependencies: ["60A8108BE12AFB39"]
@@ -1172,7 +1183,7 @@
 		}
 		{
 			title: "Charging the Core of Modularity"
-			x: 3.0d
+			x: 5.0d
 			y: -1.5d
 			subtitle: "The base for every modular tool."
 			description: [
@@ -1195,6 +1206,7 @@
 				"- Make sure to turn off your laser emitters before retrieving the activated core."
 			]
 			dependencies: ["61096F382C04254A"]
+			min_width: 300
 			id: "3BCE5F8D19C6D53F"
 			tasks: [
 				{
@@ -1220,7 +1232,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 5.0d
 			y: 0.0d
 			description: ["Module levels can be configured any way you want, go into the Controls menu and add a keybind to Modular item configuration."]
 			dependencies: ["3BCE5F8D19C6D53F"]
@@ -1237,7 +1249,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 5.0d
 			y: -3.0d
 			subtitle: "Used to install modules onto Modular Armor parts."
 			description: [
@@ -1260,7 +1272,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 5.0d
 			y: -4.5d
 			dependencies: ["65E60EDD6DE18DC2"]
 			id: "2094448C58554B0B"
@@ -1313,7 +1325,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: -7.5d
 			subtitle: "Upgrades MK3 machines to MK4."
 			description: ["These upgrades will improve the machine's input and output capability as well as other aspects. Right clicking on a machine below the upgrade's tier will upgrade it."]
@@ -1332,13 +1344,11 @@
 		}
 		{
 			title: "Mining Rig"
-			x: 3.0d
+			x: 5.5d
 			y: -7.5d
 			subtitle: "I have confidence in mining. I see exciting opportunities in it."
 			description: [
-				""
-				""
-				"Mining Rig Drills are required for the Mining Rig Computer to work. They have to be placed next to the Computer and require drill heads to work. Each Drill increases the mining speed."
+				"Mining Rig Drills are required for the Mining Rig Computer to work. They have to be placed next to the Computer and require drill heads and an encoded Data Card to work. Each Drill increases the mining speed."
 				"Can hold up to 8 mining rig drills, make sure each one has a drill head."
 				""
 				"Note that the Drills can be placed connected or diagonally to the Mining Rig Computer."
@@ -1367,7 +1377,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 0.5d
 			y: -7.5d
 			subtitle: "Recharge your batteries!"
 			dependencies: ["65E60EDD6DE18DC2"]
@@ -1384,37 +1394,23 @@
 			}]
 		}
 		{
-			title: "Ore Multiplication"
-			x: 2.0d
+			x: 1.5d
 			y: -7.5d
-			subtitle: "Used in the process of tripling and quadrupling ore."
+			subtitle: "Used in the process of melting and cooling down metal for more efficient mettalurgy."
 			description: [
-				"Insert your ores into an Industrial Smelter. It will smelt them into their fluid forms."
+				"It can melt metals and their ores at the rate of the Hephaestus' Smeltery by default."
 				""
-				"Move your molten ore into a Condenser."
+				"You can add up to 16 Speed Enhancers for blast processing!"
 				""
-				"It will solidify them into a Ore Chunk."
-				""
-				"Pulverize your Ore Chunk, which will then give you a dust."
-				""
-				"Smelt your dust."
-				""
-				"Done! Now you've transformed 1 ore into 3 ingots!"
+				"Tip: In this machine, you can also melt purified ores to get 2 ingots worth of metal instead of ⁴/₃ of an ingot worth."
 			]
 			dependencies: ["65E60EDD6DE18DC2"]
 			id: "0BED18C671FC94A5"
-			tasks: [
-				{
-					id: "0969ABA5C3C54F24"
-					type: "item"
-					item: "indrev:condenser_mk4"
-				}
-				{
-					id: "18A20622211F1C01"
-					type: "item"
-					item: "indrev:smelter_mk4"
-				}
-			]
+			tasks: [{
+				id: "18A20622211F1C01"
+				type: "item"
+				item: "indrev:smelter_mk4"
+			}]
 			rewards: [{
 				id: "2BCBE7B3599797CC"
 				type: "loot"
@@ -1457,8 +1453,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -1.5d
+			x: -7.0d
+			y: -2.0d
 			subtitle: "Will consume lava inside it to generate energy. Pairs up well with the pump."
 			dependencies: ["13BA3A6E648DF2E4"]
 			id: "18B6548E50B087D3"
@@ -1470,6 +1466,68 @@
 			rewards: [{
 				id: "26E58D993BF58219"
 				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.5d
+			subtitle: "Encodes data cards for use in the Mining Rig."
+			description: [
+				"Insert stacks or ores (Ancient Debris works too) into the Data Card Encoder."
+				""
+				"Add stacks of Stone to increase size (amount of different ores on one Data Card)."
+				""
+				"Add stacks of Enriched Nikolite Dust to increase richness."
+				""
+				"You can encode the Data Card multiple times, just make sure you don't exceed 100%, because then the card will become corrupted and unusable."
+			]
+			dependencies: [
+				"2094448C58554B0B"
+				"65E60EDD6DE18DC2"
+			]
+			id: "5A7736F8380126E4"
+			tasks: [{
+				id: "05FEEDFDD28751FA"
+				type: "item"
+				item: "indrev:data_card_writer_mk4"
+			}]
+			rewards: [{
+				id: "2E25C27870F57551"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -8.0d
+			y: -0.5d
+			subtitle: "Required for Machine Blocks."
+			dependencies: ["34F3A1E5619563CF"]
+			id: "36A9F28FF574346E"
+			tasks: [{
+				id: "55BE458A7A1793FC"
+				type: "item"
+				disable_toast: true
+				item: "techreborn:basic_machine_casing"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.5d
+			subtitle: "Cools down metals and forms them into Ingots."
+			description: ["By default it forms ingots as fast as the Hephaestus' Casting Table, but you can insert up to 16 Speed Enhancers for blast processing!"]
+			dependencies: ["65E60EDD6DE18DC2"]
+			id: "4F9F51C829426C16"
+			tasks: [{
+				id: "74A3A2D14FE8C5BF"
+				type: "item"
+				item: "indrev:condenser_mk4"
+			}]
+			rewards: [{
+				id: "25CAF57FEF0A7C97"
+				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}

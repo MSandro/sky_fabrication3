@@ -53,7 +53,8 @@
 			x: 0.5d
 			y: -1.5d
 			subtitle: "Allows you to build structures using a set of different Building Modes."
-			description: ["Best tech to build it quick."]
+			description: ["Cadmium Batteries are required to craft this item."]
+			dependencies: ["6D844CA6CF326DFC"]
 			id: "45472C7319EC2261"
 			tasks: [{
 				id: "33686463964EEAED"
@@ -64,10 +65,10 @@
 					tag: {
 						Damage: 0
 						state: {
+							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
-							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -83,6 +84,8 @@
 			x: -0.5d
 			y: -1.5d
 			subtitle: "Provides basic exchanging abilities using a set of different Exchanging Modes."
+			description: ["Cadmium Batteries are required to craft this item."]
+			dependencies: ["6D844CA6CF326DFC"]
 			id: "72D473E1810E45D7"
 			tasks: [{
 				id: "4278655EFD94DBF1"
@@ -93,10 +96,10 @@
 					tag: {
 						Damage: 0
 						state: {
+							data: { }
 							state: {
 								Name: "minecraft:air"
 							}
-							data: { }
 							serializer: "buildinggadgets:dummy_serializer"
 						}
 					}
@@ -112,6 +115,8 @@
 			x: 1.5d
 			y: -1.0d
 			subtitle: "Allows you to select a large radius to copy and paste in a different location."
+			description: ["Cadmium Batteries are required to craft this item."]
+			dependencies: ["6D844CA6CF326DFC"]
 			id: "0232F82465ACC551"
 			tasks: [{
 				id: "77BB53C023067B54"
@@ -186,6 +191,8 @@
 			x: -1.5d
 			y: -1.0d
 			subtitle: "Allows you to void a large area."
+			description: ["Cadmium Batteries are required to craft this item."]
+			dependencies: ["6D844CA6CF326DFC"]
 			id: "454C6A0D83B852C7"
 			tasks: [{
 				id: "5E7623ACE78AD0E5"
@@ -195,8 +202,8 @@
 					Count: 1b
 					tag: {
 						Damage: 0
-						overlay: 1b
 						fuzzy: 1b
+						overlay: 1b
 					}
 				}
 			}]
@@ -357,6 +364,7 @@
 			x: 3.5d
 			y: 1.5d
 			subtitle: "Dirty Stick MK II"
+			description: ["Functions the same as the Rod of the Lands, except it can place Dirt Block in midair!"]
 			id: "6CFB83CA3C41D891"
 			tasks: [{
 				id: "07E070E14442B2D5"
@@ -372,6 +380,7 @@
 		{
 			x: 3.0d
 			y: 2.5d
+			description: ["It can terraform by adding Dirt Blocks or removing terrain blocks to flatten the terrain."]
 			id: "503DD3CEEFE78FFF"
 			tasks: [{
 				id: "6E7765039271CC78"
@@ -404,6 +413,7 @@
 			x: -3.0d
 			y: 0.5d
 			subtitle: "Keep the ocean clean!"
+			description: ["Places Water at the cost of a bit of Mana."]
 			id: "72D41352FD2B752C"
 			tasks: [{
 				id: "69CE55AF68F39797"
@@ -420,6 +430,7 @@
 			x: -3.0d
 			y: 2.5d
 			subtitle: "Shift your block of choice."
+			description: ["Aluminium Rods are required to craft this item."]
 			id: "57A128EE5135A494"
 			tasks: [{
 				id: "5F10EB7947E7C1CB"

@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "tag": "c:raw_gold_blocks"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_gold",
+    "amount": 108000
+  },
+  "processTime": 1364
+}

@@ -860,7 +860,7 @@
 		{
 			x: 3.0d
 			y: -5.0d
-			subtitle: "single item, mass storage devices with an inventory count on the face"
+			subtitle: "Single item, mass storage devices with an inventory count on the face."
 			id: "54065F780CDDB84C"
 			tasks: [{
 				id: "5F2AC7BB6BFEE2F2"
@@ -871,17 +871,47 @@
 		{
 			x: 3.0d
 			y: -3.5d
+			subtitle: "Comes in three flavors: Single, Double and Quad."
+			description: [
+				"(Single) Drawer holds 1024 Items."
+				"Double Drawer holds 512 Items per slot."
+				"Quad Drawer holds 256 Items per slot."
+			]
 			dependencies: ["54065F780CDDB84C"]
 			id: "0A7BD337DC8ADBCB"
 			tasks: [{
 				id: "0170F73CC524BC6A"
 				type: "item"
-				item: "extended_drawers:single_drawer"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "extended_drawers:single_drawer"
+								Count: 1b
+							}
+							{
+								id: "extended_drawers:double_drawer"
+								Count: 1b
+							}
+							{
+								id: "extended_drawers:quad_drawer"
+								Count: 1b
+							}
+						]
+						display: {
+							Name: "{\"text\":\"Drawers\"}"
+						}
+					}
+				}
 			}]
 		}
 		{
 			x: 3.0d
 			y: -2.5d
+			subtitle: "Doubles maximum storage capacity."
+			description: ["Note, that upgrades are installed *per slot*, not per drawer!"]
 			dependencies: ["0A7BD337DC8ADBCB"]
 			id: "27BA62770DC82F9B"
 			tasks: [{
@@ -893,6 +923,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
+			subtitle: "Quadruples maximum storage capacity. (4x)"
 			dependencies: ["0A7BD337DC8ADBCB"]
 			id: "0E31BC8C0E47FF79"
 			tasks: [{
@@ -904,6 +935,7 @@
 		{
 			x: 3.0d
 			y: -0.5d
+			subtitle: "Octuples maximum storage capacity. (8x)"
 			dependencies: ["0E31BC8C0E47FF79"]
 			id: "4950B4335A61C04E"
 			tasks: [{
@@ -915,6 +947,7 @@
 		{
 			x: 3.0d
 			y: 0.5d
+			subtitle: "Sexdecuples maximum storage capacity. (16x)"
 			dependencies: ["4950B4335A61C04E"]
 			id: "6414628E793DC1B2"
 			tasks: [{
@@ -926,6 +959,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
+			subtitle: "Reduces maximum storage to a single stack. Useful for small, lockable buffers!"
 			dependencies: ["54065F780CDDB84C"]
 			id: "0F5BE8087A25E091"
 			tasks: [{
@@ -937,6 +971,7 @@
 		{
 			x: 3.0d
 			y: 2.5d
+			subtitle: "Connects Drawers together."
 			dependencies: ["54065F780CDDB84C"]
 			id: "65995D6871EBAAB7"
 			tasks: [{

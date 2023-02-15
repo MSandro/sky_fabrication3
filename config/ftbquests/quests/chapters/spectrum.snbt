@@ -19,10 +19,9 @@
 				"Focusing on the natural energies that flow in the world, represented in color."
 				""
 				"Trying not to give everything away at first glance, Spectrum uses advancements and a manual (in game) to guide you through."
-				"Team AOF feels that being a newer and more mysterious mod, Spectrum shouldn't have a full quest chapter. Take what you see here as a guideline."
+				"Being a newer and more mysterious mod, Spectrum shouldn't have a full quest chapter. Take what you see here as a guideline."
 				""
-				""
-				"The first step is to find a Geode in the ground. These can be exposed at the surface sometimes."
+				"The first step is to get some Gemstone on hand using an Extractinator."
 			]
 			size: 1.25d
 			id: "6F9B2ECCE750C280"
@@ -35,7 +34,11 @@
 		{
 			x: 9.5d
 			y: 6.0d
-			description: ["The Mermaids Brush can be obtained with Botania. Place it down and it will drop some items."]
+			description: [
+				"The Mermaids Brush can be obtained with Botania. Place it down and it will drop gems after some time."
+				""
+				"A Vacuum Hopper is recommended."
+			]
 			hide_dependency_lines: true
 			dependencies: ["790E66B088B92037"]
 			hide: true
@@ -73,8 +76,18 @@
 		{
 			x: 3.5d
 			y: 1.5d
+			description: [
+				"Pigment Pedestals can auto-craft using Crafting Tablets as a pattern."
+				""
+				"However, it is not recommended to automate the Pigment Pedestal with Hopper below due to massive TPS lag."
+				""
+				"I/O is sided: you can input *only* from the top, output *only* from the bottom (TPS unfriendly), or it can automatically output items into the Chest above."
+				""
+				"Do you see a problem?"
+			]
 			dependencies: ["042E7914986F8A32"]
 			hide: true
+			hide_text_until_complete: true
 			id: "74F0C68679B78B5D"
 			tasks: [{
 				id: "495C5302C801134A"
@@ -175,9 +188,11 @@
 		{
 			x: 3.5d
 			y: -0.5d
-			description: ["Can be obtained with Botania."]
+			subtitle: "Obtainable using Botania's Petal Apothecary."
+			description: ["They can be farmed by placing them in a 1-block deep body of water, with Clay underneath."]
 			dependencies: ["74F0C68679B78B5D"]
 			hide: true
+			hide_text_until_complete: true
 			id: "24C70DAB3F66ECB2"
 			tasks: [{
 				id: "36D473C7A3DA8BED"
@@ -662,12 +677,18 @@
 		{
 			x: 11.0d
 			y: 6.0d
+			description: [
+				"You can submerge your Mermaids Brushes and Quitoxic Reeds in this fluid."
+				""
+				"They will grow faster!"
+			]
 			dependencies: [
 				"5584A52CAA574CFC"
 				"681C638B38019A73"
 			]
 			hide: true
 			dependency_requirement: "one_completed"
+			hide_text_until_complete: true
 			id: "0F6E96D9C9F5EF35"
 			tasks: [{
 				id: "6D58C64A9CC63876"
@@ -782,6 +803,10 @@
 		{
 			x: 14.0d
 			y: 0.0d
+			description: [
+				"This item seems to be related to storms..."
+				"Perhaps there is a item, that makes it more likely for lightning bolt to strike..."
+			]
 			dependencies: ["1810EB195B0CC509"]
 			id: "38BEF83AFD8EA081"
 			tasks: [{
@@ -799,8 +824,10 @@
 		{
 			x: 15.5d
 			y: 1.5d
+			description: ["This substance seems to be so unstable, that it crumbles in your inventory!"]
 			dependencies: ["1810EB195B0CC509"]
 			hide: true
+			hide_text_until_complete: true
 			id: "0CF717072CD02B28"
 			tasks: [{
 				id: "35C7CB50261B9E25"
@@ -834,6 +861,7 @@
 			}]
 		}
 		{
+			icon: "spectrum:black_pigment"
 			x: 9.5d
 			y: 3.0d
 			dependencies: ["681C638B38019A73"]
@@ -862,7 +890,7 @@
 		{
 			x: 11.0d
 			y: 7.5d
-			description: ["Craft and place down a Color Picker"]
+			description: ["Craft and place down a Color Picker."]
 			hide_dependency_lines: true
 			dependencies: ["5D1A91608FE45D0A"]
 			hide: true
@@ -973,8 +1001,28 @@
 		{
 			x: 17.0d
 			y: 1.5d
+			subtitle: "Search the Ancient Ruins for this ancient plant!"
+			description: [
+				"Now that you succesfuly germinated a Jade Vine Bulb, you can get some hints on how to grow this plant."
+				""
+				"Hidden for aeons, the Jade Vine Bulb is very sensitive to light - it hibernates, when it's exposed to sunlight."
+				"It only grows on nights when there is a sky light level between 15 and 9."
+				"Try using a Daylight Detector for automation!"
+				""
+				"For the Jade Vine Bulb to start growing, it needs to have 3 blocks of air under itself."
+				"Then, it will grow up one stage per night, up to stage 6."
+				""
+				"If a Jade Vine is at age 3 or above, it can be plucked for petals."
+				"Right-clicking the Jade Vine can give you 5-9 Petals (+0-2 per level of Fortune on a tool)."
+				"There is also a 12% chance of getting another Bulb!"
+				""
+				"The Jade Vine will reach full bloom (Stage 7) only on full moon nights."
+				"Then, it can be right-clicked with a glass bottle to get a new substance."
+				"If you don't harvest it for 2 consecutive nights, it will revert to stage 6!"
+			]
 			dependencies: ["1E1E5ECB2C1C95B9"]
 			hide: true
+			hide_text_until_complete: true
 			id: "3DE03D1D2B4BC9D0"
 			tasks: [{
 				id: "662B39B5C47F5D6B"
@@ -1045,19 +1093,6 @@
 				id: "5C67C82C30066C6D"
 				type: "advancement"
 				advancement: "spectrum:midgame/create_budding_onyx"
-				criterion: ""
-			}]
-		}
-		{
-			x: 17.0d
-			y: 0.0d
-			dependencies: ["3DE03D1D2B4BC9D0"]
-			hide: true
-			id: "45A0C4DCB8627325"
-			tasks: [{
-				id: "46F1C8320E9FDDCF"
-				type: "advancement"
-				advancement: "spectrum:midgame/drink_restoration_tea_with_milk"
 				criterion: ""
 			}]
 		}
@@ -1136,6 +1171,10 @@
 		{
 			x: 14.0d
 			y: 6.0d
+			description: [
+				"It seems you got lost..."
+				"Try crafting every Dike Trinket, that you can craft!"
+			]
 			dependencies: ["28CB44142633D257"]
 			hide: false
 			id: "054231A4D84A5569"
@@ -1152,9 +1191,10 @@
 			}]
 		}
 		{
+			title: "Budding Crystals"
 			x: 6.5d
 			y: 0.5d
-			description: ["Midnight on a new moon only!"]
+			subtitle: "Craftable only on a new moon nights, just like Onyx."
 			dependencies: ["49D9ECC98F3A5E05"]
 			id: "3C392862FC5CA225"
 			tasks: [

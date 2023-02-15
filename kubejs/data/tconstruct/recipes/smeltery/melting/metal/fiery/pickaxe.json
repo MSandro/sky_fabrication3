@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "twilightforest:fiery_pickaxe"
+  },
+  "result": {
+    "fluid": "twilightforest:molten_fiery",
+    "amount": 27000,
+    "unit_size": 1000
+  },
+  "temperature": 950,
+  "time": 108,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:blazing_blood",
+      "amount": 16200,
+      "rate": "metal"
+    }
+  ]
+}

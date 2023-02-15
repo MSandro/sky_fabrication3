@@ -9,10 +9,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Mystical Path"
-			x: -3.5d
+			title: "The Infusion Pedestal"
+			x: -1.0d
 			y: -1.5d
 			shape: "circle"
+			subtitle: "Required to make your first Elematilius."
 			id: "6D750A38944E9B68"
 			tasks: [
 				{
@@ -160,7 +161,7 @@
 			x: -5.0d
 			y: -1.5d
 			shape: "circle"
-			dependencies: ["6D750A38944E9B68"]
+			dependencies: ["366ACE7F8E5E5C83"]
 			id: "7DFF18CFEB0B8DBE"
 			tasks: [{
 				id: "3BE2200A7B852974"
@@ -933,9 +934,11 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -4.0d
+			x: 0.0d
+			y: -4.5d
 			shape: "pentagon"
+			subtitle: "Used to harvest plants without breaking them."
+			description: ["When harvesting a plant with a Diamond Knife, it will make that plant go back only 1 stage instead of starting from scratch."]
 			dependencies: ["748485FEC1097A71"]
 			id: "17549F4A0B59DEA4"
 			tasks: [{
@@ -956,9 +959,11 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -5.0d
+			x: -3.0d
+			y: -4.5d
 			shape: "pentagon"
+			subtitle: "Plant in a Jar!"
+			description: ["When given a plant and an appropiate soil, it will grow that plant inside and output the harvest into the Hopper below."]
 			dependencies: ["748485FEC1097A71"]
 			id: "6FFC449DE313A1BD"
 			tasks: [{
@@ -973,12 +978,12 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -5.0d
+			x: -1.5d
+			y: -4.5d
 			description: [
-				"These are 3 quests given to receive a 100% chance of an Overgrowth Seed Each to craft magical soil."
+				"These are 2 quests given to receive a 100% chance of an Overgrowth Seed."
 				""
-				"So don't go accidently spend them if you didn't get any from the random rewards."
+				"If placed on grass block, it will turn it into an Enchanted Soil, on which Botania Flowers work twice as fast, so spend them wisely!"
 			]
 			id: "748485FEC1097A71"
 			tasks: [{
@@ -997,6 +1002,527 @@
 				id: "12836F421C015E97"
 				type: "item"
 				item: "croparia:croparia7"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			shape: "circle"
+			subtitle: "A base ingredient for the Croparia mod."
+			dependencies: ["6D750A38944E9B68"]
+			id: "366ACE7F8E5E5C83"
+			tasks: [{
+				id: "5247A5F6BCFAE903"
+				type: "item"
+				item: "croparia:elematilius"
+			}]
+		}
+		{
+			icon: "croparia:infusor"
+			x: -3.0d
+			y: 0.0d
+			shape: "circle"
+			description: [
+				"The Infusor can be used for alternative recipes for Croparias and crops."
+				""
+				"But first, you need an Elematilius Potion."
+				"To obtain it, right-click a Cauldron filled with water with Elematilius in hand."
+				"Then right-click the Elematilius Cauldron with glass bottles to obtain Elematilius Potions."
+				""
+				"These can be dropped on the Infusor to craft recipes."
+			]
+			dependencies: ["366ACE7F8E5E5C83"]
+			id: "50CC6F9ACF40232E"
+			tasks: [
+				{
+					id: "22438152F65DBBB8"
+					type: "item"
+					item: "croparia:infusor"
+				}
+				{
+					id: "2350E7911CD468F6"
+					type: "item"
+					item: "croparia:potion_elematilius"
+				}
+			]
+		}
+		{
+			title: "Recipes Craftable with Elematilius Infusor"
+			x: -1.0d
+			y: -0.5d
+			subtitle: "You won't find these recipes in REI."
+			description: [
+				"Stone -> Elemental Stone"
+				"Croparia -> Croparia of the next Tier"
+				"Wheat/Beetroot Seeds -> Elematilius Seed"
+				"Coal Seed -> Iron Seed"
+				"Gold Seed -> Redstone Seed"
+				"Redstone Seed -> Lapis Seed"
+				"Lapis Seed -> Diamond Seed"
+				"Diamond Seed -> Emerald Seed"
+				"Book -> RF Meter"
+				"Furnace -> Seed Recycler"
+			]
+			dependencies: ["50CC6F9ACF40232E"]
+			id: "48A9D61EE4AECF9B"
+			tasks: [{
+				id: "7788CFE16209F1E1"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Craftable with Elematilius Infusor\"}"
+						}
+						items: [
+							{
+								id: "croparia:croparia2"
+								Count: 1b
+							}
+							{
+								id: "croparia:croparia3"
+								Count: 1b
+							}
+							{
+								id: "croparia:croparia4"
+								Count: 1b
+							}
+							{
+								id: "croparia:croparia5"
+								Count: 1b
+							}
+							{
+								id: "croparia:croparia6"
+								Count: 1b
+							}
+							{
+								id: "croparia:croparia7"
+								Count: 1b
+							}
+							{
+								id: "croparia:elemental_stone"
+								Count: 1b
+							}
+							{
+								id: "croparia:seed_crop_iron"
+								Count: 1b
+							}
+							{
+								id: "croparia:seed_crop_gold"
+								Count: 1b
+							}
+							{
+								id: "croparia:seed_crop_redstone"
+								Count: 1b
+							}
+							{
+								id: "croparia:seed_crop_lapis"
+								Count: 1b
+							}
+							{
+								id: "croparia:seed_crop_diamond"
+								Count: 1b
+							}
+							{
+								id: "croparia:seed_crop_emerald"
+								Count: 1b
+							}
+							{
+								id: "croparia:rf_meter"
+								Count: 1b
+							}
+							{
+								id: "croparia:seed_recycler"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Ritual Tier 1"
+			x: -3.0d
+			y: 1.5d
+			shape: "circle"
+			description: [
+				"{image:kubejs:textures/item/ritual_tier1.png width:160 height:160 align:1}"
+				"The ritual structure consists of:"
+				"> 8 Andesite,"
+				"> 8 Diorite,"
+				"> 4 fully grown Iron Crops,"
+				"> 4 fully grown Gold Crops."
+				""
+				"Crafting with the Ritual requires placing blocks in empty spots around the Elemental Stone, depending on recipe."
+			]
+			dependencies: ["50CC6F9ACF40232E"]
+			id: "2CCE423E7974B8BB"
+			tasks: [{
+				id: "54E5021470F302E4"
+				type: "item"
+				item: "croparia:ritual_stand"
+			}]
+		}
+		{
+			title: "Ritual Tier 2"
+			x: -3.0d
+			y: 3.0d
+			shape: "circle"
+			description: [
+				"{image:kubejs:textures/item/ritual_tier2.png width:160 height:160 align:1}"
+				"The ritual structure consists of:"
+				""
+				"> 12 Andesite,"
+				"> 16 Diorite,"
+				"> 8 Shroomlights,"
+				"> 8 Polished Diorite Stairs,"
+				"> 4 fully grown Iron Crops,"
+				"> 4 fully grown Gold Crops,"
+				"> 8 fully grown Elematilius Crops."
+				""
+				"Crafting with the Ritual requires placing blocks in empty spots around the Elemental Stone, depending on recipe."
+			]
+			dependencies: [
+				"50CC6F9ACF40232E"
+				"2CCE423E7974B8BB"
+			]
+			id: "4DD5B91564DBFBD3"
+			tasks: [{
+				id: "7F8663DF32E65949"
+				type: "item"
+				item: "croparia:ritual_stand"
+			}]
+		}
+		{
+			title: "Recipes Craftable with Ritual Tier 1"
+			x: -1.0d
+			y: 1.5d
+			subtitle: "You won't find these recipes in REI."
+			description: [
+				"Soul Dagger:"
+				"Fill the empty spots with 4 Elemental Stones, throw a Golden Sword onto the Ritual Stand."
+				""
+				"Midas Hand:"
+				"Fill the empty spots with 4 Gold Blocks, throw a Stick onto the Ritual Stand."
+				"It turns any right-clicked block (apart from Bedrock) into Gold Ingots, and any mob (including bosses) into Gold Blocks."
+				""
+				"Horn of Plenty:"
+				"Fill the empty spots with 4 Nether Wart Blocks, throw a Spruce Log onto the Ritual Stand."
+				"Right-clicking blocks with this item in hand will drop random Minecraft food on the ground."
+				""
+				"Infinite Apple:"
+				"Fill the empty spots with 4 Nether Wart Blocks, throw a Golen Apple onto the Ritual Stand."
+				"It can be eaten infinitely, however, it does not restore any hunger points. (bugged item)"
+				""
+				"Magic Rope:"
+				"Fill the empty spots with 4 Elemental Stones, throw a Lead onto the Ritual Stand."
+				"Shift-right click a block to set a position."
+				"Right-click any block to teleport to a saved position."
+				"Warning: It only stores coordinates, not a dimension, so using it in the wrong dimension can cause you to teleport into very far skies..."
+			]
+			dependencies: ["2CCE423E7974B8BB"]
+			id: "5AE23E2EE4787E35"
+			tasks: [{
+				id: "6FA35874C139F976"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Craftable with Ritual Tier 1\"}"
+						}
+						items: [
+							{
+								id: "croparia:soul_dagger"
+								tag: {
+									Damage: 0
+								}
+								Count: 1b
+							}
+							{
+								id: "croparia:midas_hand"
+								tag: { }
+								Count: 1b
+							}
+							{
+								id: "croparia:horn_plenty"
+								Count: 1b
+							}
+							{
+								id: "croparia:infinite_apple"
+								Count: 1b
+							}
+							{
+								id: "croparia:magic_rope"
+								tag: { }
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Recipes Craftable with Ritual Tier 2"
+			x: -1.0d
+			y: 3.0d
+			subtitle: "You won't find these recipes in REI."
+			description: [
+				"Accelerator:"
+				"Fill the empty spots with 4 Elemental Stones, throw a Clock onto the Ritual Stand."
+				"Place up to 5 of them under the soil to very slightly increase growth rate."
+				""
+				"Elemental Time:"
+				"Fill the empty spots with 4 Accelerators, throw an Elematilius onto the Ritual Stand."
+				"Right-click any block to activate it. It will start skipping 2000 time ticks every half second. Right-click again to deactivate."
+				""
+				"Harvester:"
+				"Fill the empty spots with 4 Iron Blocks, throw a Renforced Hoe (sic) onto the Ritual Stand."
+				"When activated with Redstone, it will harvest crops in a 5x5 area."
+				""
+				"Soul Spawner:"
+				"Fill the empty spots with 4 Elemental Stones, throw a Cage onto the Ritual Stand."
+				"It will spawn mobs like a vanilla Spawner, when a Soul Jar with mob's Soul is insterted into it."
+			]
+			dependencies: ["4DD5B91564DBFBD3"]
+			id: "5995D98C701DE0F3"
+			tasks: [{
+				id: "42B15C0E3792B1D6"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Craftable with Ritual Tier 2\"}"
+						}
+						items: [
+							{
+								id: "croparia:accelerator"
+								Count: 1b
+							}
+							{
+								id: "croparia:elemental_time"
+								tag: { }
+								Count: 1b
+							}
+							{
+								id: "croparia:collector"
+								Count: 1b
+							}
+							{
+								id: "croparia:soul_spawner"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			subtitle: "You won't find these recipes in REI."
+			description: [
+				"Recipes crafted in Elematilius Infusor:"
+				""
+				"Prismarine Shard -> Elemental Water"
+				"Magma Block -> Elemental Fire"
+				"Podzol -> Elemental Earth"
+				"End Stone -> Elemental Air"
+				""
+				"To craft an Elemental Potion, just craft the Elemental with a bottle of Dragon's Breath."
+			]
+			dependencies: ["50CC6F9ACF40232E"]
+			id: "1A188C19A2D44165"
+			tasks: [{
+				id: "49AD8DCD1FAC9372"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Elementals\"}"
+						}
+						items: [
+							{
+								id: "croparia:elemental_water"
+								Count: 1b
+							}
+							{
+								id: "croparia:elemental_earth"
+								Count: 1b
+							}
+							{
+								id: "croparia:elemental_fire"
+								Count: 1b
+							}
+							{
+								id: "croparia:elemental_air"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			subtitle: "Avatar: The Last Crystalbender"
+			description: [
+				"Water Shard:"
+				"Right-click to place Water."
+				"Attacking a mob will cause a freezing effect, causing 1 damage."
+				""
+				"Earth Shard:"
+				"Right Click a block to transform it according to this scheme:"
+				"Any other Block -> Stone -> Cobblestone -> Gravel -> Sand"
+				"Red Sandstone -> Red Sand"
+				"Sandstone -> Sand"
+				""
+				"Fire Shard:"
+				"Right-Click to place Fire."
+				"Attacking a mob will briefly set it on fire, however the fire duration is too short to do any damage."
+				""
+				"Air Shard:"
+				"Right-Clicking a block or a mob will make it disappear. Poof! Now it's gone."
+			]
+			dependencies: ["1A188C19A2D44165"]
+			id: "4FB9344EDC392CB0"
+			tasks: [{
+				id: "01310FFC2836BFAB"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Elemental Shards\"}"
+						}
+						items: [
+							{
+								id: "croparia:water_shard"
+								Count: 1b
+							}
+							{
+								id: "croparia:earth_shard"
+								Count: 1b
+							}
+							{
+								id: "croparia:fire_shard"
+								Count: 1b
+							}
+							{
+								id: "croparia:air_shard"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "A Proprietary Power System"
+			x: 2.0d
+			y: 0.5d
+			description: [
+				"The Croparia Energy System is incompatible with other energy systems."
+				"This means that you need specific generators in order to power the Croparia Machines."
+				""
+				"Rain Panel:"
+				"Generates energy while it's raining."
+				""
+				"Depth Generator:"
+				"Generates more energy, the deeper this block is."
+				""
+				"Solar Panel:"
+				"Generates energy in daytime when it's sunny."
+				""
+				"Wind Generator:"
+				"Generates more energy, the higher this block is."
+				""
+				"Crop Generator:"
+				"Generates a bit of energy, when any crop in a 5x5 area around itself grows."
+			]
+			dependencies: ["4FB9344EDC392CB0"]
+			id: "5AEE472CF55E0E18"
+			tasks: [{
+				id: "27E0B79DF8CD9EEF"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						display: {
+							Name: "{\"text\":\"Energy Generators\"}"
+						}
+						items: [
+							{
+								id: "croparia:solar_panel"
+								Count: 1b
+							}
+							{
+								id: "croparia:rain_panel"
+								Count: 1b
+							}
+							{
+								id: "croparia:wind_generator"
+								Count: 1b
+							}
+							{
+								id: "croparia:depth_generator"
+								Count: 1b
+							}
+							{
+								id: "croparia:crop_generator"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Energy Transport"
+			x: 2.0d
+			y: 1.5d
+			description: [
+				"You can use Croparia Copper Wires to transport energy from generators to machines."
+				"You can input energy on blue sides, and output it on top or bottom."
+				"The sides are fixed and not configurable."
+			]
+			dependencies: ["5AEE472CF55E0E18"]
+			id: "4B0B5A453BDD61E2"
+			tasks: [
+				{
+					id: "32EFCFB0C9A773E7"
+					type: "item"
+					item: "croparia:wire"
+				}
+				{
+					id: "27619AEFFAF65273"
+					type: "item"
+					item: "croparia:battery"
+				}
+			]
+		}
+		{
+			icon: "kubejs:info_mark"
+			x: -3.0d
+			y: -3.0d
+			shape: "circle"
+			subtitle: "The Seed Recycling recipes have been added to Modern Industrialization's Centrifuge."
+			description: ["Contrary to Croparia's Seed Recycler, is upgradeable, less buggy and compatible with easily-generatable EU!"]
+			dependencies: ["366ACE7F8E5E5C83"]
+			id: "6EB9FF4D7E730738"
+			tasks: [{
+				id: "67748D8357277FE5"
+				type: "checkmark"
+				title: "Seed Recycling"
 			}]
 		}
 	]

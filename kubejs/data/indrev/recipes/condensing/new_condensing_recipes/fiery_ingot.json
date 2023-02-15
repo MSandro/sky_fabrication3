@@ -1,0 +1,12 @@
+{
+  "type": "indrev:condenser",
+  "output": {
+    "item": "twilightforest:fiery_ingot",
+    "count": 1
+  },
+  "fluidInput": {
+    "fluid": "twilightforest:molten_fiery",
+    "amount": 9000
+  },
+  "processTime": 240
+}

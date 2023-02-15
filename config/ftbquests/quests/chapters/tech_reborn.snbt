@@ -108,10 +108,10 @@
 			title: "Refining Iron"
 			x: -18.0d
 			y: 3.0d
-			subtitle: "An Iron Ingot in a furnace.. It's now refined!"
+			subtitle: "An Iron Ingot in a Blast Furnace.. It's now refined!"
 			description: [
 				"Refined Iron is the key ingredient in most of Tech Reborn,"
-				"You'll need alot of it."
+				"You'll need a lot of it."
 			]
 			dependencies: ["37F10FC248B237FF"]
 			id: "38EAD09F2E4BE8B8"
@@ -294,7 +294,10 @@
 			x: -14.5d
 			y: -3.5d
 			subtitle: "Lets you put items in cells"
-			description: ["Usefull if you want to go bio-fuel way"]
+			description: [
+				"Useful for cheaper 10k Water Coolant Cells!"
+				"Also, you can make Biofuel for use in the Semi Fluid Generator."
+			]
 			dependencies: ["14F7AC09561537D7"]
 			id: "7DA41D6D61CBE36B"
 			tasks: [{
@@ -343,7 +346,7 @@
 		{
 			x: -17.0d
 			y: -1.5d
-			subtitle: "Lets you make wires efficiently"
+			subtitle: "Lets you make wires 3x more efficiently!"
 			dependencies: ["29EAEF6690B64BCE"]
 			id: "601D312DA27E2CB7"
 			tasks: [{
@@ -629,7 +632,7 @@
 		{
 			x: -18.0d
 			y: 1.5d
-			subtitle: "Main purpose is to emit sound when given a red-stone signal."
+			subtitle: "Main purpose is to emit sound when given a redstone signal."
 			dependencies: ["38EAD09F2E4BE8B8"]
 			id: "4DDFB090305954A4"
 			tasks: [{
@@ -662,7 +665,7 @@
 						id: "minecraft:splash_potion"
 						Count: 1b
 						tag: {
-							Potion: "goblintraders:dig_speed_extended"
+							Potion: "additionaladditions:long_haste_potion"
 						}
 					}
 				}
@@ -694,6 +697,7 @@
 			x: -2.0d
 			y: 3.0d
 			subtitle: "Used to assemble components out of ingredients."
+			description: ["If you have plenty of carbon, you can make cheaper circuits."]
 			dependencies: ["332C0D2800027688"]
 			id: "62A66B8FC37FE0A7"
 			tasks: [{
@@ -776,7 +780,7 @@
 				""
 				"Standard Minecraft requirements applies to crops, like watered and tilled dirt for wheat or nearby water for sugar cane."
 				""
-				"Powered lamps above crops will speed-up growth."
+				"Powered Incandescent lamps above crops will speed-up growth."
 			]
 			dependencies: ["332C0D2800027688"]
 			id: "1DC2B0C6E54CC5CF"
@@ -824,11 +828,11 @@
 		{
 			x: -4.5d
 			y: 5.0d
-			subtitle: "A multi-block that can be used to craft items."
+			subtitle: "A multi-block that can be used to cool down items."
 			description: [
-				"Has a button in the gui that can be used to show a Hologram that can help when placing the blocks."
+				"Has a button in the GUI that can be used to show a Hologram that can help when placing the blocks."
 				""
-				"Note the blocks are under the vacuum freezer"
+				"Please note, that the blocks are under the Vacuum Freezer."
 			]
 			dependencies: ["332C0D2800027688"]
 			id: "2FFC8B09FF4C9188"
@@ -1321,6 +1325,7 @@
 			x: -12.0d
 			y: -1.5d
 			subtitle: "Used to build multi-block machines."
+			description: ["Also an ingredient for Industrial Revolution Machine Blocks and Energy generators."]
 			dependencies: ["14F7AC09561537D7"]
 			id: "34F3A1E5619563CF"
 			tasks: [{
@@ -1337,7 +1342,13 @@
 		{
 			x: -6.0d
 			y: -3.0d
-			dependencies: ["1036ABDD2CA5A382"]
+			subtitle: "Important Item in a lot of tech appliances."
+			description: ["You can get this either with a Tech Reborn Blast Furnace of Modern Industralization Blast Furnaces (recommended)."]
+			dependencies: [
+				"1036ABDD2CA5A382"
+				"3612549FFBF5E73C"
+			]
+			dependency_requirement: "one_completed"
 			id: "3C991D47C94359E2"
 			tasks: [{
 				id: "7A11C43617A63850"
@@ -1427,7 +1438,12 @@
 			x: -6.0d
 			y: -1.5d
 			subtitle: "Used in several late game crafting recipes."
-			dependencies: ["1036ABDD2CA5A382"]
+			description: ["You can get this either with a Tech Reborn Blast Furnace of Modern Industralization Blast Furnaces (recommended)."]
+			dependencies: [
+				"1036ABDD2CA5A382"
+				"796F33AE4A9CF30C"
+			]
+			dependency_requirement: "one_completed"
 			id: "5B3E40FC5ED9142A"
 			tasks: [{
 				id: "49B6E05F1768F7F0"
@@ -1482,7 +1498,12 @@
 		{
 			x: -3.0d
 			y: -4.5d
-			dependencies: ["1036ABDD2CA5A382"]
+			description: ["You can get this either with a Tech Reborn Blast Furnace of Modern Industralization Blast Furnaces (recommended)."]
+			dependencies: [
+				"1036ABDD2CA5A382"
+				"7D3D156BE9C9E150"
+			]
+			dependency_requirement: "one_completed"
 			id: "1DD10BCEE7DB3612"
 			tasks: [{
 				id: "1D93E0A128C9FD8A"
@@ -1686,6 +1707,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
+			subtitle: "When equipped, make you invisible."
 			dependencies: ["2155B22C5C34388D"]
 			id: "4324D6EF3ECC1BF7"
 			tasks: [{
@@ -1865,9 +1887,9 @@
 				""
 				"Put fluid to replicate inside hole in multi-block."
 				""
-				"Provide energy and UU-MatterUU-Matter to replicate fluid. "
+				"Provide energy and UU-Matter to replicate fluid. "
 				""
-				"You can either use buckets \\ cells or pipes to extract fluid from internal tank."
+				"You can either use buckets/cells or pipes to extract fluid from internal tank."
 			]
 			dependencies: ["19F81045C86B4A64"]
 			id: "6B59F7EA80D47082"
@@ -1931,6 +1953,8 @@
 		{
 			x: -10.0d
 			y: -7.5d
+			subtitle: "A Powered Light Source. Also a nice heat source for your Greenhouse!"
+			description: ["Uses 2 E/t."]
 			dependencies: ["1B6FE6F215D9961E"]
 			id: "5B61E865B13456BD"
 			tasks: [{
@@ -1956,57 +1980,6 @@
 			}]
 			rewards: [{
 				id: "01F18304A9E3118B"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -15.0d
-			y: -9.5d
-			subtitle: "Converts energy from Medium to Low tier."
-			dependencies: ["495D51C7C05AF3B8"]
-			id: "3FE7D034B8F294E0"
-			tasks: [{
-				id: "7BE1D7C88749145D"
-				type: "item"
-				item: "techreborn:lv_transformer"
-			}]
-			rewards: [{
-				id: "4EE79D62694F7F92"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -15.0d
-			y: -11.0d
-			subtitle: "Converts energy from High to Medium tier. "
-			dependencies: ["3FE7D034B8F294E0"]
-			id: "714A79CFC1404DDE"
-			tasks: [{
-				id: "6AE87A05F2C6DC64"
-				type: "item"
-				item: "techreborn:mv_transformer"
-			}]
-			rewards: [{
-				id: "00E64315A8FC9151"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -14.5d
-			y: -12.5d
-			subtitle: "Converts energy from Extreme to High tier."
-			dependencies: ["714A79CFC1404DDE"]
-			id: "100FA16BBEF4B489"
-			tasks: [{
-				id: "5626555AE3596C5E"
-				type: "item"
-				item: "techreborn:hv_transformer"
-			}]
-			rewards: [{
-				id: "0A854DADA5D90B16"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
@@ -2038,8 +2011,8 @@
 		}
 		{
 			title: "LESU"
-			x: -15.5d
-			y: -12.5d
+			x: -15.0d
+			y: -9.5d
 			subtitle: "A battery multi-block that stores energy and charges items. "
 			description: [
 				"1 32 E/t base input, + 1 E/t per attached LESU Storage. "
@@ -2048,7 +2021,6 @@
 				""
 				"Between 32 and 128, it will scale +1 E/t per LESU Storage2 x = number of LESU Storage blocks attached;\\\\eg. 5 Storage Blocks attached would have an output of 10 E/t (5+5) and a storage of 6 mE (1+5)"
 			]
-			dependencies: ["714A79CFC1404DDE"]
 			id: "6DC63970EA441319"
 			tasks: [
 				{

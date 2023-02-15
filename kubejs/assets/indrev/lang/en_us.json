@@ -1,0 +1,13 @@
+{
+	"fluid.indrev.coolant_still": "Coolant",
+	"fluid.indrev.toxic_mud_still": "Toxic Mud",
+	"advancements.indrev.industrial_smelter.description": "Get an Industrial Smeltery for faster metal processing!",
+	"advancements.indrev.condenser": "Blast Cooling",
+	"advancements.indrev.condenser.description": "Get an Ingot Former",
+	"block.indrev.smelter": "Industrial Smeltery",
+	"block.indrev.smelter_mk4": "Industrial Smeltery",
+	"block.indrev.condenser": "Ingot Former",
+	"block.indrev.condenser_mk4": "Ingot Former",
+	"indrev.category.rei.condensing": "Ingot Forming",
+	"indrev.category.rei.smelting": "Melting"
+}

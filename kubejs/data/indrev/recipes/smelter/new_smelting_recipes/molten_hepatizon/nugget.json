@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "tconstruct:hepatizon_nugget"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_hepatizon",
+    "amount": 1000
+  },
+  "processTime": 104
+}

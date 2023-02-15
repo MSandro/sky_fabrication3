@@ -12,6 +12,6 @@
   },
   "rendering": {
     "customFogRendering [default: true]": true,
-    "netherThickFog [default: true]": true
+    "netherThickFog [default: true]": false
   }
 }

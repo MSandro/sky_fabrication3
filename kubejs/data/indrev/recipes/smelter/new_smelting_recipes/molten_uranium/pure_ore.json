@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "kubejs:uranium_purified_ore"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_uranium",
+    "amount": 18000
+  },
+  "processTime": 368
+}

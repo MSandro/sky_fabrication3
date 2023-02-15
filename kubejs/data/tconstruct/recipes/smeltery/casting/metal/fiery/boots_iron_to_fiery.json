@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:iron_boots"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "c:fiery_essence",
+    "amount": 32400
+  },
+  "result": {
+    "item": "twilightforest:fiery_boots"
+  },
+  "cooling_time": 60
+}

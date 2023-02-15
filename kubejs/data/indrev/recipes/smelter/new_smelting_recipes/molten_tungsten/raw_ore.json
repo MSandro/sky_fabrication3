@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "modern_industrialization:raw_tungsten"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_tungsten",
+    "amount": 12000
+  },
+  "processTime": 388
+}

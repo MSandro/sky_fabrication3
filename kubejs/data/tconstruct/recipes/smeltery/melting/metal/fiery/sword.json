@@ -1,0 +1,20 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "twilightforest:fiery_sword"
+  },
+  "result": {
+    "fluid": "twilightforest:molten_fiery",
+    "amount": 18000,
+    "unit_size": 1000
+  },
+  "temperature": 950,
+  "time": 94,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:blazing_blood",
+      "amount": 8100,
+      "rate": "metal"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "modern_industrialization:aluminum_rod
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_aluminum",
+    "amount": 4500
+  },
+  "processTime": 36
+}

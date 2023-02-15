@@ -1,0 +1,12 @@
+{
+  "type": "indrev:condenser",
+  "output": {
+    "item": "tconstruct:slimesteel_ingot",
+    "count": 1
+  },
+  "fluidInput": {
+    "fluid": "tconstruct:molten_slimesteel",
+    "amount": 9000
+  },
+  "processTime": 252
+}

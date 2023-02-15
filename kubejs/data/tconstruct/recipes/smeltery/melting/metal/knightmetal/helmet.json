@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "twilightforest:knightmetal_helmet"
+  },
+  "result": {
+    "fluid": "twilightforest:molten_knightmetal",
+    "amount": 45000,
+    "unit_size": 1000
+  },
+  "temperature": 950,
+  "time": 137
+}

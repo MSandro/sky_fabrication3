@@ -1,0 +1,11 @@
+{
+  "type": "indrev:pulverize",
+  "ingredients": {
+    "item": "indrev:tin_purified_ore"
+  },
+  "output": {
+    "item": "modern_industrialization:tin_dust",
+    "count": 1
+  },
+  "processTime": 200
+}

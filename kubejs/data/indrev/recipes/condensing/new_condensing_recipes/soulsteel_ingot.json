@@ -1,0 +1,12 @@
+{
+  "type": "indrev:condenser",
+  "output": {
+    "item": "tconstruct:soulsteel_ingot",
+    "count": 1
+  },
+  "fluidInput": {
+    "fluid": "tconstruct:molten_soulsteel",
+    "amount": 9000
+  },
+  "processTime": 288
+}

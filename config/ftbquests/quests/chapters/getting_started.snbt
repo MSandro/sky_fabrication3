@@ -182,7 +182,7 @@
 			title: "Where are my Trinkets Slots?"
 			x: 7.5d
 			y: 4.0d
-			subtitle: "use the switch in the upper right of your inventory!"
+			subtitle: "Use the switch in the upper right of your inventory!"
 			description: [
 				"Inventorio was installed to improve the inventory."
 				""

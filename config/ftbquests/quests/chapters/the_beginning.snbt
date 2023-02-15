@@ -15,9 +15,11 @@
 			description: [
 				"This is your basic way to get materials, insert mesh, sieve a valid material and get resources, its that simple!"
 				""
-				"Putting multiple sieves side by side acts as a multiblock structure, letting you sieve in bundles."
+				"Putting multiple sieves side by side acts as a multiblock structure, letting you sieve in bulk, up to 25 Sieves at once! (in a 5x5 square)."
 				""
 				"Later you will be able to use a Deployer or a Click Machine to automate it."
+				"Note that it can be tricky - because fake players can also unequip Meshes from the Sieve, which breaks the whole automation!"
+				""
 				"A Sieve can be water-logged."
 			]
 			dependencies: ["5E67AA32C8260EFE"]
@@ -218,7 +220,7 @@
 			x: 1.5d
 			y: -5.5d
 			description: [
-				"Meshes have been given an upgrade since we last encountered them, now going upto netherite!"
+				"Meshes have been given an upgrade since we last encountered them, now going up to Netherite!"
 				""
 				"Note that Emerald mesh won't upgrade to Netherite."
 			]
@@ -310,7 +312,16 @@
 		{
 			x: -1.5d
 			y: -8.5d
-			description: ["You can use Botania to get Netherite or use the Electric Quarry."]
+			description: [
+				"To get Ancient Debris for Netherite, you can use:"
+				"> Botania's Orechid Ignem,"
+				"> Modern Industrialization's Electric Quarry with Golden Drills,"
+				"or you can plunder chests found in Nether Structures, especially Bastions and Nether \"End Ships\"."
+				""
+				"After you collect a stack of Ancient Debris, you can make an IndRev Mining Rig to provide you with unlimited Ancient Debris!"
+				""
+				"Used to get Uraninite for Powah!. And only for that."
+			]
 			dependencies: ["42387D579F777B5E"]
 			id: "5E9F6228BBC60FFC"
 			tasks: [{
@@ -457,7 +468,7 @@
 			y: -4.0d
 			subtitle: "Sieving for Pebbles!"
 			description: [
-				"Cobblestone, the most basic, and useful block for skyblock since it's beginning."
+				"Cobblestone, the most basic, and useful block for Skyblock since it's beginning."
 				""
 				"You can put 4 pebbles in the crafting table to get cobblestone or other stones like andesite, diorite, granite and much more."
 			]
@@ -481,7 +492,7 @@
 			}]
 		}
 		{
-			title: "Barrel of fun"
+			title: "Barrels of Fun"
 			x: 3.0d
 			y: -7.0d
 			description: [
@@ -494,7 +505,7 @@
 			tasks: [{
 				id: "3E0D5CE550B290BB"
 				type: "item"
-				title: "Barrel"
+				title: "Wooden Barrel"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -776,7 +787,7 @@
 			title: "Salt and Brine"
 			x: 7.5d
 			y: -5.5d
-			subtitle: "use a bottle on a sand block."
+			subtitle: "Use a bottle on a Sand block."
 			dependencies: ["508DEEE11F45E4F3"]
 			id: "6A8F984980E9BB6B"
 			tasks: [
@@ -940,6 +951,7 @@
 			hide: true
 			dependency_requirement: "one_completed"
 			size: 1.25d
+			optional: true
 			id: "6D9CF1D77D05C2D4"
 			tasks: [
 				{
@@ -974,6 +986,7 @@
 			subtitle: "4 Planks = 1 Crafting Tables? No! Take 2 Slabs."
 			dependencies: ["6D9CF1D77D05C2D4"]
 			hide: false
+			optional: true
 			id: "5C82DBC41EC4A4AF"
 			tasks: [{
 				id: "36D743066E53775D"
@@ -992,6 +1005,7 @@
 			y: -13.0d
 			dependencies: ["41EEA2C5F1D6B3E1"]
 			hide: false
+			optional: true
 			id: "07C525ED6A1C8B22"
 			tasks: [{
 				id: "37E3C7894097D2AB"
@@ -1014,6 +1028,7 @@
 			dependencies: ["329CC4079DB5DABE"]
 			hide: true
 			size: 1.5d
+			optional: true
 			id: "41EEA2C5F1D6B3E1"
 			tasks: [
 				{
@@ -1043,7 +1058,7 @@
 			shape: "gear"
 			subtitle: "Andesite and Iron opens you the door to the Mechanical Age!"
 			dependencies: ["47A493E81814E139"]
-			size: 1.25d
+			size: 1.5d
 			id: "725237684B3596F1"
 			tasks: [
 				{
@@ -1151,9 +1166,13 @@
 			}]
 		}
 		{
+			title: "In case your Fishing Rod broke"
 			x: -5.0d
 			y: -13.0d
+			description: ["This quest is repeatable - meaning that you can always get a new Fishing Rod every 5 XP Levels gained!"]
 			dependencies: ["6D7B9D15C87A8C57"]
+			optional: true
+			can_repeat: true
 			id: "722E4F3BB0855CE8"
 			tasks: [{
 				id: "515A874CDEC88BBC"
@@ -1161,26 +1180,18 @@
 				value: 5L
 				points: false
 			}]
-			rewards: [
-				{
-					id: "5F15360BCD7E5FBB"
-					type: "item"
-					auto: "disabled"
-					item: {
-						id: "minecraft:fishing_rod"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "5F15360BCD7E5FBB"
+				type: "item"
+				auto: "disabled"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-				{
-					id: "5D19B052F5FD784F"
-					type: "command"
-					command: "/ftbquests change_progress @p reset 722E4F3BB0855CE8"
-					player_command: false
-				}
-			]
+			}]
 		}
 		{
 			title: "Crafting Table"
@@ -1189,6 +1200,7 @@
 			subtitle: "4 Planks = 1 Crafting Tables? No! Take 2 Slabs."
 			dependencies: ["07C525ED6A1C8B22"]
 			hide: false
+			optional: true
 			id: "0B37C46D743A72DF"
 			tasks: [{
 				id: "6BDFF3848989CDC8"
@@ -1208,6 +1220,7 @@
 			subtitle: "You can stripp Bamboo by right clicking with a axe."
 			dependencies: ["0B37C46D743A72DF"]
 			hide: false
+			optional: true
 			id: "4F5F0B705FCB602F"
 			tasks: [{
 				id: "7C1BB2BF43F96CAC"
@@ -1239,6 +1252,7 @@
 			]
 			dependencies: ["4F5F0B705FCB602F"]
 			hide: false
+			optional: true
 			id: "21DA0A446C375C07"
 			tasks: [
 				{
@@ -1316,9 +1330,11 @@
 			title: "I am Grout!"
 			x: 7.5d
 			y: -2.5d
-			subtitle: "TConstruct is here (BETA)"
+			subtitle: "Hephaestus is here (Fabric port of TConstruct, BETA)"
 			description: [
-				"feel free to try out Hephaestus, the Tinkers Construct port for Fabric."
+				"Hephaestus - the ancient Greek god of Smithing."
+				""
+				"Feel free to try out Hephaestus, the Tinkers Construct port for Fabric."
 				"Its not fully included in the modpack, so some recipes are currently missing."
 			]
 			dependencies: ["508DEEE11F45E4F3"]
@@ -1343,7 +1359,7 @@
 				"Instead, you have to find your own way. By using REI you should be able to find the answers."
 				""
 				"Some materials like gold can be obtained in multiple ways."
-				"Gold can be found in the nether, but later you should build a automated gold production with create."
+				"Gold can be found in the nether, but later you should build a automated gold production with the Create mod."
 			]
 			dependencies: ["29B095943AD26EA9"]
 			id: "2E9E67B123FB86ED"
@@ -1376,6 +1392,22 @@
 				type: "item"
 				item: "minecraft:nether_brick"
 				count: 8
+			}]
+		}
+		{
+			title: "A Dirt Farm?"
+			x: 7.5d
+			y: -7.0d
+			description: [
+				"You can use Witchwater to generate infinite Dirt. By using Witchwater and regular Water in the configuration below, it will generate Podzol, which you can mine for dirt!"
+				""
+				"{image:kubejs:textures/item/Podzol.png width:120 height:77 align:1}"
+			]
+			dependencies: ["2F61617F7194D76A"]
+			id: "767A2CF2A68BE797"
+			tasks: [{
+				id: "14A86499B880A4F1"
+				type: "checkmark"
 			}]
 		}
 	]
