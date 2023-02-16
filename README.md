@@ -28,21 +28,22 @@
     <li>Removed redundant items, fluids and TR Fluid Cells from REI.</li>
     <li>Record Fragment recipe now accepts any music disc, instead of only disc 13.</li>
     <li>An ability to recycle Croparia Seeds in the MI Centrifuge, since Croparia one works on its own proprietary energy system and it's super slow. Also gives transparency, what are the odds of getting a fruit from recycling a seed!</li>
-	<li>DML Data Model changes for balance with Simulacrum:
-		<ul>
-			<li>Basic: 8 -> 16</li>
-			<li>Advanced: 16 -> 128</li>
-			<li>Superior: 32 -> 256</li>
-			<li>Self-Aware: 64 -> 512</li>
-		</ul>
-	</li>
+    <li>DML Data Model changes for balance with Simulacrum:
+        <ul>
+            <li>Basic: 8 -> 16</li>
+            <li>Advanced: 16 -> 128</li>
+            <li>Superior: 32 -> 256</li>
+            <li>Self-Aware: 64 -> 512</li>
+        </ul>
+    </li>
 </ul>
+
+- Added the ability to craft large table Endgame crafting recipes using large Mechanical Crafting recipes (Crafting ingredients only).
+- REI does not feel good about rendering 9x9 recipes correctly... ![Infinity Ingot](https://user-images.githubusercontent.com/125081901/219349425-0beedaa4-7b3f-423f-82cc-74ee30ac1b47.png)
 
 ## For developers/debugging:
 - A hidden quest chapter containing every Spectrum progression trigger located in the "spectrum:progression" invisible advancement tree.
 
-## Maybe?
-- Ability to craft large table Endgame crafting recipes using large Mechanical Crafting recipes.
 ## Not fixed:
 - Obtaining Cobalt and Stratine Ores,
 - Ancient Ruins not generating in Sky Islands,
