@@ -1,17 +1,17 @@
 {
   "type": "create:mechanical_crafting",
   "pattern": [
-		"NNNNNNNNN",
-		"NCXXCXXCN",
-		"NXCCXCCXN",
-		"NCXXCXXCN",
-		"NNNNNNNNN"
+		"ccccccccc",
+		"cCXXCXXCc",
+		"cXCCXCCXc",
+		"cCXXCXXCc",
+		"ccccccccc"
   ],
   "key": {
 	"C": {
 		"item": "kubejs:crystal_matrix_ingot"
 	},
-	"N": {
+	"c": {
 		"item": "kubejs:neutronium_ingot"
 	},
 	"X": {
