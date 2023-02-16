@@ -1,7 +1,7 @@
 {
   "type": "indrev:smelter",
   "ingredients": {
-    "item": "createaddition:brass_rod
+    "item": "createaddition:brass_rod"
   },
   "fluidOutput": {
     "fluid": "tconstruct:molten_brass",
