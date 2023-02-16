@@ -39,6 +39,7 @@
 	<li>Changed C:C&A Diamond Grit in Diamond Mesh's recipe to MI Diamond Dust.</li>
 	<li>Changed Netherite Mesh's recipe: now it requires you to cast 3 Netherite Ingots on the Diamond Mesh. This improves the timing of the mesh, because previously it was too late to be useful.</li>
 	<li>Processing ores in Alloy Forge now yields correct ingots! Yay!</li>
+	<li>Spectrum's Stratine Ore and Hephaestus' Cobalt Ore are now obtainable using a Gold Drill.</li>
 </ul>
 
 - Added the ability to craft large table Endgame crafting recipes using large Mechanical Crafting recipes (Crafting ingredients only).
