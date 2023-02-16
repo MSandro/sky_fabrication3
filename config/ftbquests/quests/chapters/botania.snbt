@@ -61,9 +61,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Any Petal Apothecary\"}"
-						}
 						items: [
 							{
 								id: "botania:apothecary_default"
@@ -106,6 +103,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Any Petal Apothecary\"}"
+						}
 					}
 				}
 			}]
@@ -208,8 +208,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color1: 0
 						color2: 0
+						color1: 0
 					}
 				}
 			}]
@@ -999,9 +999,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Rings of Magnetization\"}"
-						}
 						items: [
 							{
 								id: "botania:magnet_ring"
@@ -1012,6 +1009,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Rings of Magnetization\"}"
+						}
 					}
 				}
 			}]
@@ -1038,9 +1038,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Bands of Mana\"}"
-						}
 						items: [
 							{
 								id: "botania:mana_ring"
@@ -1051,6 +1048,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Bands of Mana\"}"
+						}
 					}
 				}
 			}]
@@ -1074,9 +1074,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Bands of Aura\"}"
-						}
 						items: [
 							{
 								id: "botania:aura_ring"
@@ -1087,6 +1084,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Bands of Aura\"}"
+						}
 					}
 				}
 			}]
@@ -1972,9 +1972,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Basic Mana Lenses\"}"
-						}
 						items: [
 							{
 								id: "botania:lens_speed"
@@ -1993,6 +1990,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Basic Mana Lenses\"}"
+						}
 					}
 				}
 			}]
@@ -2042,6 +2042,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Functional Lenses (pre-Elven)\"}"
+						}
 						items: [
 							{
 								id: "botania:lens_bounce"
@@ -2096,9 +2099,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Functional Lenses (pre-Elven)\"}"
-						}
 					}
 				}
 			}]
@@ -2135,6 +2135,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Functional Lenses (post-Elven)\"}"
+						}
 						items: [
 							{
 								id: "botania:lens_flare"
@@ -2161,9 +2164,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Functional Lenses (post-Elven)\"}"
-						}
 					}
 				}
 			}]
@@ -2219,9 +2219,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Cloaks of Judgement\"}"
-						}
 						items: [
 							{
 								id: "botania:holy_cloak"
@@ -2236,6 +2233,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Cloaks of Judgement\"}"
+						}
 					}
 				}
 			}]
@@ -2357,9 +2357,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Spark Augments\"}"
-						}
 						items: [
 							{
 								id: "botania:spark_upgrade_dispersive"
@@ -2378,6 +2375,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Spark Augments\"}"
+						}
 					}
 				}
 			}]

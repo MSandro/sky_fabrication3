@@ -873,21 +873,21 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Output or Retriever Servo\"}"
-						}
 						items: [
 							{
 								id: "indrev:servo_output"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "indrev:servo_retriever"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Output or Retriever Servo\"}"
+						}
 					}
 				}
 			}]

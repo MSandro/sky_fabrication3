@@ -216,9 +216,6 @@
 						id: "itemfilters:or"
 						Count: 1b
 						tag: {
-							display: {
-								Name: "{\"text\":\"Depot or Basin\"}"
-							}
 							items: [
 								{
 									id: "create:depot"
@@ -229,6 +226,9 @@
 									Count: 1b
 								}
 							]
+							display: {
+								Name: "{\"text\":\"Depot or Basin\"}"
+							}
 						}
 					}
 				}
@@ -286,9 +286,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Other Fluid Maniuplation\"}"
-						}
 						items: [
 							{
 								id: "create:portable_fluid_interface"
@@ -303,6 +300,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Other Fluid Maniuplation\"}"
+						}
 					}
 				}
 			}]
@@ -792,9 +792,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Pipes\"}"
-						}
 						items: [
 							{
 								id: "create:fluid_pipe"
@@ -813,6 +810,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Pipes\"}"
+						}
 					}
 				}
 			}]
@@ -1056,9 +1056,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Gearshifts\"}"
-						}
 						items: [
 							{
 								id: "create:gearshift"
@@ -1069,6 +1066,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Gearshifts\"}"
+						}
 					}
 				}
 			}]
@@ -1502,9 +1502,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Blocks linking Contraption Blocks together\"}"
-						}
 						items: [
 							{
 								id: "create:linear_chassis"
@@ -1520,10 +1517,10 @@
 							}
 							{
 								id: "create:super_glue"
+								Count: 1b
 								tag: {
 									Damage: 0
 								}
-								Count: 1b
 							}
 							{
 								id: "minecraft:slime_block"
@@ -1538,6 +1535,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Blocks linking Contraption Blocks together\"}"
+						}
 					}
 				}
 			}]
@@ -1562,9 +1562,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Contraption Assemblers\"}"
-						}
 						items: [
 							{
 								id: "create:windmill_bearing"
@@ -1603,6 +1600,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Contraption Assemblers\"}"
+						}
 					}
 				}
 			}]
@@ -1640,9 +1640,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Contraption Actors\"}"
-						}
 						items: [
 							{
 								id: "create:andesite_funnel"
@@ -1725,6 +1722,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Contraption Actors\"}"
+						}
 					}
 				}
 			}]
@@ -1788,9 +1788,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Manual Cranking\"}"
-						}
 						items: [
 							{
 								id: "create:hand_crank"
@@ -1861,6 +1858,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Manual Cranking\"}"
+						}
 					}
 				}
 			}]
@@ -1913,9 +1913,6 @@
 						id: "itemfilters:or"
 						Count: 1b
 						tag: {
-							display: {
-								Name: "{\"text\":\"Blaze Burner or a passive Heat Source\"}"
-							}
 							items: [
 								{
 									id: "create:blaze_burner"
@@ -1938,6 +1935,9 @@
 									Count: 1b
 								}
 							]
+							display: {
+								Name: "{\"text\":\"Blaze Burner or a passive Heat Source\"}"
+							}
 						}
 					}
 				}
@@ -1980,9 +1980,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Chain Drives\"}"
-						}
 						items: [
 							{
 								id: "create:encased_chain_drive"
@@ -1993,6 +1990,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Chain Drives\"}"
+						}
 					}
 				}
 			}]
@@ -2050,9 +2050,6 @@
 						id: "itemfilters:or"
 						Count: 1b
 						tag: {
-							display: {
-								Name: "{\"text\":\"Sail-like Blocks\"}"
-							}
 							items: [
 								{
 									id: "create:white_sail"
@@ -2067,6 +2064,9 @@
 									Count: 1b
 								}
 							]
+							display: {
+								Name: "{\"text\":\"Sail-like Blocks\"}"
+							}
 						}
 					}
 					count: 8L
@@ -2106,6 +2106,7 @@
 			disable_toast: true
 			x: -21.0d
 			y: 7.5d
+			dependencies: ["725237684B3596F1"]
 			id: "28533D71EED27C29"
 			tasks: [{
 				id: "538727A1D7D5E1C1"
@@ -2133,23 +2134,23 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Item Filters\"}"
-						}
 						items: [
 							{
 								id: "create:filter"
+								Count: 1b
 								tag: {
 									Items: { }
 								}
-								Count: 1b
 							}
 							{
 								id: "create:attribute_filter"
-								tag: { }
 								Count: 1b
+								tag: { }
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Item Filters\"}"
+						}
 					}
 				}
 			}]
@@ -2178,9 +2179,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Chutes\"}"
-						}
 						items: [
 							{
 								id: "create:chute"
@@ -2191,6 +2189,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Chutes\"}"
+						}
 					}
 				}
 			}]
@@ -2246,6 +2247,7 @@
 			disable_toast: true
 			x: -8.0d
 			y: -1.0d
+			dependencies: ["725237684B3596F1"]
 			id: "09C258CD619B2B88"
 			tasks: [{
 				id: "322AE9C596D8935D"
@@ -2257,6 +2259,7 @@
 			disable_toast: true
 			x: -8.0d
 			y: 3.5d
+			dependencies: ["725237684B3596F1"]
 			id: "4D59FB0ACC00C03E"
 			tasks: [{
 				id: "381405D90A57FB3D"
@@ -2269,6 +2272,7 @@
 			x: -4.0d
 			y: 6.0d
 			subtitle: "Craft a Steel Wiremill. Copper Spools require Copper Fine Wires, which are craftable there."
+			dependencies: ["43F43FB0B9ED0818"]
 			id: "64623A40FA9ED518"
 			tasks: [{
 				id: "022FAC5C08365D67"
