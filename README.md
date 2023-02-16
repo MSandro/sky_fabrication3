@@ -49,7 +49,6 @@
 - A hidden quest chapter containing every Spectrum progression trigger located in the "spectrum:progression" invisible advancement tree.
 
 ## Not fixed:
-- Obtaining Cobalt and Stratine Ores,
 - Ancient Ruins not generating in Sky Islands,
 - Lack of Void Blossom boss,
 - Absolutely broken Croparia Items,
