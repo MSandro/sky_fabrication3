@@ -18,4 +18,12 @@ onEvent('item.tooltip', tooltip => {
 		}
 	})
 	tooltip.add(['spectrum:spawner'], Text.white('\u00A76'+'Kind of available in Survival now'))
+	tooltip.addAdvanced('modern_industrialization:configurable_chest', (item, advanced, text) => {
+		if (!tooltip.shift) {
+			text.add(1, Text.gray('Press [Shift] for info'))
+		} else {
+			text.add(1, Text.gray('A 27-slot inventory with slot locking and adjustable stack sizes.'))
+			text.add(2, Text.gray('Has an auto-extraction capability.'))
+		}
+	})
 })
