@@ -2306,7 +2306,7 @@
 				""
 				"Sparks are also accepted by Terrestrial Agglomeration Plates and Mana Enchanters."
 				""
-				"The more Mana Outputs there are, the faster it is pumped to its destination!"
+				"The more Mana Inputs there are, the faster it is pumped to its destination!"
 			]
 			dependencies: ["22342F3F0F03F1E6"]
 			id: "3E8F1331183C3BCC"
