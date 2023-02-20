@@ -80,7 +80,7 @@
 		{
 			title: "Where to start?"
 			icon: "techreborn:wrench"
-			x: 6.5d
+			x: 6.0d
 			y: 0.5d
 			subtitle: "Follow the Progression Guide to continue!"
 			description: [
@@ -228,7 +228,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 9.0d
 			y: 0.5d
 			subtitle: "Structures are not disabled!"
 			description: [
@@ -245,6 +245,20 @@
 				type: "checkmark"
 				title: "Where are the Structures?"
 				icon: "minecraft:end_portal_frame"
+			}]
+		}
+		{
+			title: "In case of Emergency"
+			icon: "mcwtrpdoors:metal_warning_trapdoor"
+			x: 7.5d
+			y: 0.0d
+			subtitle: "Use the /emergency command in case you lost your only sapling/bamboo/fishing rod, depending on chosen island."
+			dependencies: ["175F5611FB7716A4"]
+			min_width: 300
+			id: "27C275CE408D4506"
+			tasks: [{
+				id: "4B8FE859920F7A18"
+				type: "checkmark"
 			}]
 		}
 	]
