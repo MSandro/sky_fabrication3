@@ -61,6 +61,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Any Petal Apothecary\"}"
+						}
 						items: [
 							{
 								id: "botania:apothecary_default"
@@ -103,9 +106,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Any Petal Apothecary\"}"
-						}
 					}
 				}
 			}]
@@ -193,10 +193,10 @@
 			y: 2.0d
 			subtitle: "A Botanist's Best Friend!"
 			description: [
-				"> Has 2 modes: Bind and Function."
-				"> Sneak-Right Click in the air to switch between modes."
-				"> Blocks with orientation like chests can be rotated."
-				"> Dispensers can use the wand when triggered by redstone."
+				"> Has 2 modes, bind and function"
+				"> Sneak right click air to switch between modes"
+				"> Blocks with orientation like chests can be rotated"
+				"> Dispenser can use the wand while triggering with redstone"
 			]
 			dependencies: ["009F51E069A5AE9F"]
 			size: 1.5d
@@ -208,8 +208,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color2: 0
 						color1: 0
+						color2: 0
 					}
 				}
 			}]
@@ -264,7 +264,7 @@
 		{
 			x: 3.5d
 			y: -1.5d
-			description: ["Craft an Endoflame or Hydroangeas using the Petal Apothecary to start producing Mana!"]
+			description: ["Craft and Endoflame or Hydroangeas using the Petal Apothecary to start producing Mana!"]
 			dependencies: ["04C2CA40AEA918DB"]
 			id: "5CF7175F3F5F64F6"
 			tasks: [{
@@ -600,7 +600,7 @@
 				""
 				"It will process one step every second."
 				""
-				"The Cells which would appear on one of the 8 block around the Dandelifeon will be consumed for mana."
+				"The Cells which would appear on one of the 8 blocks around the Dandelifeon will be consumed for mana."
 				""
 				"The older the cells, the more Mana they give."
 				""
@@ -999,6 +999,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Rings of Magnetization\"}"
+						}
 						items: [
 							{
 								id: "botania:magnet_ring"
@@ -1009,9 +1012,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Rings of Magnetization\"}"
-						}
 					}
 				}
 			}]
@@ -1038,6 +1038,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Bands of Mana\"}"
+						}
 						items: [
 							{
 								id: "botania:mana_ring"
@@ -1048,9 +1051,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Bands of Mana\"}"
-						}
 					}
 				}
 			}]
@@ -1074,6 +1074,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Bands of Aura\"}"
+						}
 						items: [
 							{
 								id: "botania:aura_ring"
@@ -1084,9 +1087,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Bands of Aura\"}"
-						}
 					}
 				}
 			}]
@@ -1539,8 +1539,8 @@
 		{
 			x: 4.5d
 			y: 8.5d
-			subtitle: "Generates Dungeon Loot (except Music Disks, Black Lotuses or Overgrowth Seeds) using a large amount of Mana."
-			description: ["However, not that directly: this flower will summon a monster. After defeating the monster, it will drop the dungeon loot."]
+			subtitle: "Generates Dungeon Loot (except Disks, Black Lotuses or Overgrowth Seeds) using a large amount of Mana."
+			description: ["However, not that directly: this flower will summon a monster. After defeating, it will drop the dungeon loot."]
 			hide_dependency_lines: true
 			dependencies: ["2F21F31455F11527"]
 			id: "5242AF70A593F53F"
@@ -1957,7 +1957,7 @@
 			description: [
 				"Potency: Doubles the amount of Mana a Burst can carry, however, the burst travels slightly slower and starts losing Mana sooner."
 				""
-				"Velocity: The burst will carry slightly less Mana, but it will be faster. Also will cause Mana Loss sooner."
+				"Velocity: The burst will carry slightly less Mana, but it will be way faster. Also will cause Mana Loss sooner."
 				""
 				"Efficiency: A Burst will start losing Mana later, but when it does, the loss rate is quicker."
 				""
@@ -1972,6 +1972,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Basic Mana Lenses\"}"
+						}
 						items: [
 							{
 								id: "botania:lens_speed"
@@ -1990,9 +1993,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Basic Mana Lenses\"}"
-						}
 					}
 				}
 			}]
@@ -2042,9 +2042,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Functional Lenses (pre-Elven)\"}"
-						}
 						items: [
 							{
 								id: "botania:lens_bounce"
@@ -2099,6 +2096,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Functional Lenses (pre-Elven)\"}"
+						}
 					}
 				}
 			}]
@@ -2135,9 +2135,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Functional Lenses (post-Elven)\"}"
-						}
 						items: [
 							{
 								id: "botania:lens_flare"
@@ -2164,6 +2161,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Functional Lenses (post-Elven)\"}"
+						}
 					}
 				}
 			}]
@@ -2219,6 +2219,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Cloaks of Judgement\"}"
+						}
 						items: [
 							{
 								id: "botania:holy_cloak"
@@ -2233,9 +2236,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Cloaks of Judgement\"}"
-						}
 					}
 				}
 			}]
@@ -2357,6 +2357,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Spark Augments\"}"
+						}
 						items: [
 							{
 								id: "botania:spark_upgrade_dispersive"
@@ -2375,9 +2378,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Spark Augments\"}"
-						}
 					}
 				}
 			}]

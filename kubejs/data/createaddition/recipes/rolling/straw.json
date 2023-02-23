@@ -1,0 +1,9 @@
+{
+	"type":"createaddition:rolling",
+	"input": {
+      	"item": "twigs:stripped_bamboo"
+	},
+	"result": {
+		"item": "createaddition:straw"
+	}
+}

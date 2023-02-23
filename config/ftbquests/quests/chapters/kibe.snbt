@@ -452,9 +452,9 @@
 				title: "Kibe and Rings"
 			}]
 			rewards: [{
-				id: "5EC9036E96573500"
-				type: "xp_levels"
-				xp_levels: 60
+				id: "2C01628132B04859"
+				type: "xp"
+				xp: 60
 			}]
 		}
 		{
@@ -911,9 +911,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Any Sleeping Bag\"}"
-						}
 						items: [
 							{
 								id: "kibe:white_sleeping_bag"
@@ -980,6 +977,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Any Sleeping Bag\"}"
+						}
 					}
 				}
 			}]
@@ -1072,83 +1072,83 @@
 						items: [
 							{
 								id: "kibe:white_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:orange_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:magenta_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:light_blue_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:yellow_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:lime_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:pink_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:gray_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:light_gray_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:cyan_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:blue_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:purple_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:green_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:brown_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:red_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "kibe:black_glider"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 						]
 					}
