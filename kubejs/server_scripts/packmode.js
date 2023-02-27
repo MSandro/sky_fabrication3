@@ -35,36 +35,3 @@ if (!global.isServer) {
 }
 global.isExpertMode = packMode == 'expert';
 console.log(`Current packmode is: ${packMode}`);
-
-onEvent('server.custom_command', event => {
-	if (!event.server.isDedicated()) {
-		if (event.id == 'Expert') {
-		  if (!global.isExpertMode) {
-			  json.write(configName, expertConfig);
-			  event.player.tell("Switching Pack-Mode: Expert ...");
-        event.player.tell("Note: game will freeze in the next few seconds");
-        event.server.runCommandSilent(`reload`);
-			  event.player.tell("Done!");
-		  } else {
-			  event.player.tell("Pack-Mode already set to Expert");
-		  }
-		}
-		if (event.id == 'Normal') {
-		  if (global.isExpertMode) {
-			  json.write(configName, normalConfig);
-			  event.player.tell("Switching Pack-Mode: Normal ...");
-        event.server.runCommandSilent(`reload`);
-			  event.player.tell("Done!");
-			} else {
-			  event.player.tell("Pack-Mode already set to Normal");
-		  }
-		}
-    if (event.id == 'GetPackmode') {
-		  if (global.isExpertMode) {
-			  event.player.tell("Expert Mode");
-			} else {
-			  event.player.tell("Normal Mode");
-		  }
-		}
-	}
-})

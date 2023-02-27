@@ -145,10 +145,7 @@
 				"To build portal you need 12 waxed copper blocks, 12 waxed cut copper stairs, 4 block of amethyst, 4 amethyst clusters, 1 gold block and 1 flint and steel. To make portal you need to recreate structure from picture below, and to activate it you need to fire central gold block with flint and steel."
 				"{image:kubejs:textures/item/eden_portal.png width:100 height:100 align:1}"
 			]
-			dependencies: [
-				"6EC4700B21DB617B"
-				"75936E139587B1B5"
-			]
+			dependencies: ["6EC4700B21DB617B"]
 			id: "07C43FD476A6AB1C"
 			tasks: [{
 				id: "62E94367F808EC8B"

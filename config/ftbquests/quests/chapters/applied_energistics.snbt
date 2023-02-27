@@ -5,385 +5,681 @@
 	filename: "applied_energistics"
 	title: "Applied Energistics 2"
 	icon: "ae2:singularity"
-	default_quest_shape: "square"
+	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Crystals are the way"
-			x: -5.0d
-			y: -6.0d
-			description: ["Cetrus Quartz is required for most AE2 Components."]
-			dependencies: [
-				"43709A95E106563B"
-				"7CE18D246F01445D"
-			]
-			dependency_requirement: "one_completed"
-			id: "409FDC9E0FBF40CB"
+			x: 4.5d
+			y: 10.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["13A7AD9FCC3A0FE8"]
+			id: "10EE17B993744BBE"
 			tasks: [{
-				id: "057AFA385B6AD0B6"
-				type: "checkmark"
-			}]
-		}
-		{
-			x: -3.5d
-			y: -7.0d
-			subtitle: "To charge your Certus Quartz Crystals, you can use either an AE2 Charger, MI Industrial Electrolyzer or a Create: Crafts and Additions Tesla Coil."
-			dependencies: ["409FDC9E0FBF40CB"]
-			id: "4ACC10C8890C306E"
-			tasks: [{
-				id: "2BCC42993452589F"
+				id: "18E17278AF459540"
 				type: "item"
-				item: "ae2:charged_certus_quartz_crystal"
-			}]
-			rewards: [{
-				id: "1D81FAFB7CD11D6B"
-				type: "loot"
-				table_id: 13756307348121783L
+				item: "ae2:quartz_fiber"
 			}]
 		}
 		{
-			x: -3.5d
-			y: -8.5d
-			subtitle: "Throw Charged Certus Quartz, Nether Quartz and Redstone Dust into the water."
-			dependencies: ["4ACC10C8890C306E"]
-			id: "033814C6CFAF56E6"
+			x: 4.5d
+			y: 12.0d
+			dependencies: ["10EE17B993744BBE"]
+			id: "1A8E24EE87E20806"
 			tasks: [{
-				id: "58065B40437B33DA"
-				type: "item"
-				item: "ae2:fluix_crystal"
-				count: 16L
-			}]
-			rewards: [{
-				id: "3545563E6E32AC3D"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -3.5d
-			y: -5.5d
-			subtitle: "Used to press items using various Inscriber Plates."
-			description: ["It can accept 3 Acceleration Cards to speed up processing."]
-			dependencies: ["4ACC10C8890C306E"]
-			id: "42721BC1F7734286"
-			tasks: [{
-				id: "2BDA459026191334"
-				type: "item"
-				item: "ae2:inscriber"
-			}]
-			rewards: [{
-				id: "2B2E12989BCC4DF6"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -5.0d
-			y: -4.5d
-			subtitle: "Provides a way to charge supported tools through the ME Network."
-			description: [
-				"Power can be provided via the top or bottom, via either Fluix ME Glass Cable or other Cables, or other mod power cables. Items can be inserted or removed from any side."
-				""
-				"Can also be used to create Charged Certus Quartz Crystal from Certus Quartz Crystal."
-			]
-			dependencies: ["409FDC9E0FBF40CB"]
-			id: "4AC1C083537E8706"
-			tasks: [{
-				id: "283357E45102D87C"
-				type: "item"
-				item: "ae2:charger"
-			}]
-			rewards: [{
-				id: "2667CE60FB687E04"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -5.0d
-			y: -8.5d
-			subtitle: "Converts energy from external systems into AE and stores it in the network."
-			description: ["Alternatively, you can power your AE2 Network by plugging any Energy-compatible cable to the ME Controller."]
-			id: "44B22A645FC94C64"
-			tasks: [{
-				id: "7C8924F839D8D61E"
-				type: "item"
-				item: "ae2:energy_acceptor"
-			}]
-			rewards: [{
-				id: "1646033242B799C1"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -3.5d
-			y: -10.0d
-			subtitle: "The simplest cable to make, transfers power and channels."
-			description: [
-				"To craft colored cables surround a dye of any type with 8 cables of the same type (color of the cables dosn't matter, but they must be the same type, glass, smart, etc)."
-				""
-				"You can also paint cables in world using a Color Applicator."
-				""
-				"You can craft any colored cable with a water bucket or a snowball to remove the dye."
-				""
-				"You can cover the cable with wool to create Fluix ME Covered Cable, and craft Fluix ME Smart Cable to get a better idea of what is going on with your Channels."
-			]
-			dependencies: [
-				"033814C6CFAF56E6"
-				"00259AC734AF1B4D"
-			]
-			id: "3C12FD23932C3522"
-			tasks: [{
-				id: "1582C3D80B414E43"
+				id: "7AAEE920DC6D9133"
 				type: "item"
 				item: "ae2:fluix_glass_cable"
-				count: 6L
-			}]
-			rewards: [{
-				id: "4EF17501CBFF2087"
-				type: "loot"
-				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -2.0d
-			y: -10.0d
-			subtitle: "Used to accelerate crystal growth, which allows you to create Certus Quartz Crystal and Fluix Crystal from crystal dust."
-			description: ["Place them around the Water to speed up in-world crystal growth."]
-			dependencies: ["3C12FD23932C3522"]
-			id: "7B3F4A3D79F2988B"
+			x: 3.0d
+			y: 9.0d
+			shape: "hexagon"
+			description: [""]
+			hide: true
+			id: "03650B79243393B5"
 			tasks: [{
-				id: "7AA503B6ABF481D7"
-				type: "item"
-				item: "ae2:quartz_growth_accelerator"
-				count: 4L
-			}]
-			rewards: [{
-				id: "065802CBACCBE341"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -0.5d
-			y: -10.0d
-			subtitle: "Throw em in water!"
-			description: [
-				"The Certus Quartz Dust you find can be grown into a Certus Quartz Crystal."
-				""
-				"First you must make a seed by combining the crystal dust with Sand. Then simply drop/throw the seed in water. The seed will not despawn and turn into a crystal over time."
-				""
-				"This process is very slow without the help of the Crystal Growth Accelerator."
-			]
-			dependencies: ["7B3F4A3D79F2988B"]
-			id: "7595957E9616FC92"
-			tasks: [{
-				id: "02C1F3E82404AE7E"
-				type: "item"
-				item: "ae2:fluix_crystal_seed"
-			}]
-			rewards: [{
-				id: "262447B4477C4C26"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -11.0d
-			y: -3.0d
-			subtitle: "A Network Switchboard!"
-			description: [
-				"ME Networks require power to function."
-				""
-				"If your (sub)network does not exceed 8 Channels, it can operate without a ME Controller."
-				""
-				"If you want more than 8 Channels on your network, you need this block."
-				""
-				"Each side of a ME Controller can emit 32 Channels."
-				""
-				"ME Controllers can be put into a multiblock up to a 7x7x7 in size."
-				""
-				"There can be only 1 ME Controller Multiblock on the network."
-				"If there are more, ME Controllers will turn red and the network ceases to function."
-				""
-				"You can right-click an active ME Controller to see amount of installed parts and network's energy consumption - no need for the Network Tool!"
-			]
-			dependencies: ["5683C69200EBC4CD"]
-			id: "696536A55ED81D6B"
-			tasks: [{
-				id: "6CB5F66C1E628B0E"
-				type: "item"
-				item: "ae2:controller"
-			}]
-			rewards: [{
-				id: "3263CC53B6C24CDB"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -12.5d
-			y: -4.5d
-			subtitle: "A smarter cable?"
-			description: [
-				"While bearing some similarity to Fluix ME Covered Cable in appearance, they provide diagnostic function by visualizing the channel usage on the cables, the channels appear as lit colored lines that run along the black stripe on the cables giving you an understanding of how your channels are being used on your network."
-				""
-				"The first four channels show as lines matching the color of the cable, the next four show as white lines."
-				""
-				"You can also read out the amount of channels via The One Probe."
-			]
-			dependencies: ["5683C69200EBC4CD"]
-			id: "2B641E7A30686BCF"
-			tasks: [{
-				id: "733C8308DEA8FB07"
-				type: "item"
-				item: "ae2:fluix_smart_cable"
-			}]
-			rewards: [{
-				id: "7F665B7979BA2C8A"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -11.0d
-			y: -7.0d
-			subtitle: "A block designed to do one thing, store Storage Cells."
-			description: [
-				"This block holds 10 storage cells so you can tightly pack your storage into a very small space."
-				""
-				"Shows their contents and the storage cell status on the front of the drive face."
-				""
-				"Red - Indicates the Storage Cell is Full."
-				""
-				"Orange - Indicates the Storage Cell cannot hold any more types, but it can store more items."
-				""
-				"Green - Indicates the cell can hold more types, or more items."
-				""
-				"Black - Indicates there is no channel, or power is offline."
-				""
-				"Its important to note, that without a ME Network this block does nothing. Its only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each Storage Cell stored inside it."
-			]
-			dependencies: ["5683C69200EBC4CD"]
-			id: "19FBAF9A70549BF5"
-			tasks: [{
-				id: "04A70F331336A1D5"
+				id: "7D22FEA4E24F3116"
 				type: "item"
 				item: "ae2:drive"
 			}]
-			rewards: [{
-				id: "5751269980EAF0AF"
-				type: "loot"
-				table_id: 13756307348121783L
+		}
+		{
+			x: -3.0d
+			y: 10.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["13A7AD9FCC3A0FE8"]
+			id: "63471F9218507F84"
+			tasks: [{
+				id: "33D8577AAD2538D7"
+				type: "item"
+				item: "ae2:wireless_receiver"
 			}]
 		}
 		{
-			x: -9.5d
-			y: -6.5d
-			subtitle: "Upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage."
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "3988E16DAA388261"
+			x: -3.0d
+			y: 12.0d
+			description: [""]
+			dependencies: ["63471F9218507F84"]
+			id: "25FFC52137326268"
+			tasks: [
+				{
+					id: "7994832CABD887E8"
+					type: "item"
+					item: "ae2:wireless_access_point"
+				}
+				{
+					id: "4CBBB9BA189E1001"
+					type: "item"
+					item: {
+						id: "ae2:wireless_terminal"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3E175C946DB73E6B"
+					type: "item"
+					item: "ae2:quartz_block"
+					count: 6
+				}
+				{
+					id: "2158A850D05EB2FD"
+					type: "item"
+					item: "ae2:fluix_block"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 10.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["13A7AD9FCC3A0FE8"]
+			id: "266CC38BC5FD7F6E"
 			tasks: [{
-				id: "0FCC6C4E3FB97D07"
+				id: "23DD3D0091789D2A"
+				type: "item"
+				item: "ae2:semi_dark_monitor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			dependencies: ["266CC38BC5FD7F6E"]
+			id: "3133090A01D9A312"
+			tasks: [{
+				id: "4B0CABD17148AD86"
+				type: "item"
+				item: "ae2:terminal"
+			}]
+			rewards: [{
+				id: "3D3EDC5EBB83A87C"
+				type: "random"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 10.5d
+			dependencies: ["3133090A01D9A312"]
+			id: "0EAF464246E63F5E"
+			tasks: [{
+				id: "1885D051FB622696"
 				type: "item"
 				item: "ae2:crafting_terminal"
 			}]
-			rewards: [{
-				id: "6E68A01114D103E1"
-				type: "loot"
-				table_id: 13756307348121783L
+			rewards: [
+				{
+					id: "3FBF9F291C2323A3"
+					type: "random"
+				}
+				{
+					id: "11B08D9F24961AD4"
+					type: "random"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 10.5d
+			dependencies: ["0EAF464246E63F5E"]
+			id: "431374A4B93FD94D"
+			tasks: [{
+				id: "0B1B749018FC9A81"
+				type: "item"
+				item: "ae2:pattern_encoding_terminal"
+			}]
+			rewards: [
+				{
+					id: "3487E7EB54FB5324"
+					type: "random"
+				}
+				{
+					id: "22616751D84D9CED"
+					type: "random"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			shape: "hexagon"
+			dependencies: ["03650B79243393B5"]
+			hide: true
+			id: "4C3C69789D724BCC"
+			tasks: [{
+				id: "75B61EAC5E445EB8"
+				type: "item"
+				item: "ae2:interface"
+			}]
+			rewards: [
+				{
+					id: "3848D424E453B4DE"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 3
+				}
+				{
+					id: "123547C25C25F950"
+					type: "item"
+					item: "ae2:fluix_block"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 7.5d
+			dependencies: ["4C3C69789D724BCC"]
+			id: "2B2E8903F412D5D2"
+			tasks: [{
+				id: "5A80784DBE0F918E"
+				type: "item"
+				item: "ae2:storage_bus"
 			}]
 		}
 		{
-			x: -11.0d
-			y: -1.5d
-			subtitle: "A versatile configurable system to move items / redstone / power / and fluids from one location to another though an existing ME Network without storage."
-			description: [
-				"Tunnels are 1 input to N outputs. This means you can output to as many points as you want, but only input at a single point per tunnel."
-				""
-				"Networks can support any number of tunnels, of any different types, and they all function independently."
-				""
-				"ME Tunnels can be used to carry channels from one location to another, and can carry up to 32 channels, same as a Fluix ME Dense Covered Cable, while only requiring a single channel per point, making tunnels a very powerful tool to expand ME networks, especially over a distance."
-				""
-				"ME P2P Tunnels can't be chained!"
-				""
-				"Be aware, that the Energy P2P Tunnel will draw a 5% tax on the transfered energy from the network."
-			]
-			dependencies: ["696536A55ED81D6B"]
-			id: "1286F9F4255B9A38"
+			x: 6.0d
+			y: 12.0d
+			dependencies: ["1A8E24EE87E20806"]
+			id: "14A639B96DB8163D"
 			tasks: [{
-				id: "5723EBB3D22A39E7"
+				id: "700118BDBC2C174E"
+				type: "item"
+				item: "ae2:fluix_covered_cable"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 12.0d
+			dependencies: ["6212B659CFB29A21"]
+			id: "103884AEFCF01B44"
+			tasks: [
+				{
+					id: "6BA3AFF458CDCD4A"
+					type: "item"
+					item: "ae2:security_station"
+				}
+				{
+					id: "0BD73C94F0F2086C"
+					type: "item"
+					item: {
+						id: "ae2:biometric_card"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 12.0d
+			dependencies: ["14A639B96DB8163D"]
+			id: "1ACCB3F257B60F4E"
+			tasks: [{
+				id: "0241F7CD7A4D1201"
+				type: "item"
+				item: "ae2:fluix_covered_dense_cable"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 13.5d
+			dependencies: ["14A639B96DB8163D"]
+			id: "59BBD6908713422D"
+			tasks: [{
+				id: "2FA2988C303388E6"
+				type: "item"
+				item: "ae2:fluix_smart_cable"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 13.5d
+			dependencies: ["1ACCB3F257B60F4E"]
+			id: "7D1F9440CD8AD477"
+			tasks: [{
+				id: "4257F352E85C10D4"
+				type: "item"
+				item: "ae2:fluix_smart_dense_cable"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 13.5d
+			dependencies: ["1A8E24EE87E20806"]
+			id: "63B21814E8CE889F"
+			tasks: [{
+				id: "289ACE303E50F3FB"
+				type: "item"
+				item: "ae2:toggle_bus"
+			}]
+			rewards: [{
+				id: "6E95D4026947450F"
+				type: "item"
+				item: "ae2:fluix_block"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 13.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["13A7AD9FCC3A0FE8"]
+			id: "34ECA7AEEC61C281"
+			tasks: [{
+				id: "653A71EB5022480E"
+				type: "item"
+				item: "ae2:basic_card"
+			}]
+		}
+		{
+			title: "Basic Cards"
+			x: -3.0d
+			y: 13.5d
+			dependencies: ["34ECA7AEEC61C281"]
+			id: "7255C5C5E9631BCD"
+			tasks: [
+				{
+					id: "20DA85BDB01998C9"
+					type: "item"
+					item: "ae2:redstone_card"
+				}
+				{
+					id: "5D8CD7AF9B00EF7C"
+					type: "item"
+					item: "ae2:capacity_card"
+				}
+				{
+					id: "17C18255B2D01F31"
+					type: "item"
+					item: "ae2:crafting_card"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 13.5d
+			dependencies: ["34ECA7AEEC61C281"]
+			id: "3A4DBA40E3AD6B82"
+			tasks: [{
+				id: "4A30DEAC4559FF2E"
+				type: "item"
+				item: "ae2:advanced_card"
+			}]
+		}
+		{
+			title: "Advanced Cards"
+			x: 1.5d
+			y: 13.5d
+			dependencies: ["3A4DBA40E3AD6B82"]
+			id: "4F4C07148FE8A730"
+			tasks: [
+				{
+					id: "111FDFB812155611"
+					type: "item"
+					item: "ae2:speed_card"
+				}
+				{
+					id: "7195C02F23FDD88A"
+					type: "item"
+					item: "ae2:fuzzy_card"
+				}
+				{
+					id: "1430B9C878698674"
+					type: "item"
+					item: "ae2:inverter_card"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 9.0d
+			dependencies: ["3C15323D88647DFA"]
+			id: "0B36EC7E3B020FAF"
+			tasks: [{
+				id: "7F7E1C52D202FF80"
+				type: "item"
+				item: "ae2:blank_pattern"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 9.0d
+			dependencies: ["4C3C69789D724BCC"]
+			id: "3C15323D88647DFA"
+			tasks: [{
+				id: "5230585DC06B826B"
+				type: "item"
+				item: "ae2:molecular_assembler"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["13A7AD9FCC3A0FE8"]
+			hide: true
+			id: "19299FC3C312F886"
+			tasks: [{
+				id: "4C0D91B24C985938"
 				type: "item"
 				item: "ae2:me_p2p_tunnel"
 			}]
-			rewards: [{
-				id: "1E6BDDAEB6D3E641"
-				type: "loot"
-				table_id: 13756307348121783L
+		}
+		{
+			x: -6.0d
+			y: 9.0d
+			hide: true
+			id: "602300EB0911920B"
+			tasks: [{
+				id: "2FD7BCBAA8F02ECD"
+				type: "item"
+				item: "ae2:certus_quartz_dust"
 			}]
 		}
 		{
-			x: -11.0d
-			y: 0.0d
-			subtitle: "Used mainly to configure P2P Tunnels."
-			description: [
-				"To configure a ME P2P Tunnel you must first attune the tunnel to carry what you want it to, then you need to configure the outputs to their input."
-				""
-				"You can configure the connections by using the Memory Card; First Shift+Right Click the input to save it on your memory card, then simply right-click the different outputs to store the input onto the outputs."
-				""
-				"Memory Cards can also copy device configurations, in case you want to set up mutliple devices with the same configuration."
-			]
-			dependencies: ["1286F9F4255B9A38"]
-			id: "5DD87AC2BC5F87F2"
+			x: -4.5d
+			y: 9.0d
+			dependencies: ["602300EB0911920B"]
+			id: "0C55240A464838CD"
 			tasks: [{
-				id: "07906B740B4ADB80"
+				id: "60335D86DACCE050"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.0d
+			dependencies: [
+				"60D365CD990FDE55"
+				"0C55240A464838CD"
+			]
+			id: "47D1D718A3B8FB28"
+			tasks: [{
+				id: "6724B80B8D15B66B"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			hide: true
+			id: "60D365CD990FDE55"
+			tasks: [{
+				id: "5D059C33095A7265"
+				type: "item"
+				item: "ae2:charger"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.0d
+			dependencies: ["47D1D718A3B8FB28"]
+			id: "05DB1BB51DB826E5"
+			tasks: [{
+				id: "4BECBD7DAD795998"
+				type: "item"
+				item: "ae2:fluix_crystal"
+			}]
+		}
+		{
+			title: "Inscriber Presses"
+			x: -1.5d
+			y: 7.5d
+			dependencies: ["05DB1BB51DB826E5"]
+			id: "418BC9BABC3AF03C"
+			tasks: [
+				{
+					id: "69F2367BFD61037F"
+					type: "item"
+					item: "ae2:silicon_press"
+				}
+				{
+					id: "47863362E12ED61B"
+					type: "item"
+					item: "ae2:calculation_processor_press"
+				}
+				{
+					id: "000112A0288AE901"
+					type: "item"
+					item: "ae2:engineering_processor_press"
+				}
+				{
+					id: "26590191567E6DE2"
+					type: "item"
+					item: "ae2:logic_processor_press"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			hide: true
+			id: "65F5A62D6E0924F3"
+			tasks: [{
+				id: "167961C40C93DEB0"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: [
+				"65F5A62D6E0924F3"
+				"418BC9BABC3AF03C"
+			]
+			id: "13A7AD9FCC3A0FE8"
+			tasks: [{
+				id: "4889353F64920536"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [
+				{
+					id: "227715D786241BA8"
+					type: "item"
+					item: "ae2:quartz_block"
+					count: 3
+				}
+				{
+					id: "4F561E2AB01DB02B"
+					type: "item"
+					item: "ae2:fluix_block"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			dependencies: ["3133090A01D9A312"]
+			id: "6212B659CFB29A21"
+			tasks: [{
+				id: "08267E0E23A79651"
+				type: "item"
+				item: "ae2:chest"
+			}]
+			rewards: [
+				{
+					id: "6375664F082EE457"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 6
+				}
+				{
+					id: "56776F22B66E4BBE"
+					type: "item"
+					item: "ae2:quartz_block"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 12.0d
+			dependencies: ["25FFC52137326268"]
+			id: "23DBB16E42C4EEC6"
+			tasks: [{
+				id: "25AB07182572D025"
 				type: "item"
 				item: {
-					id: "ae2:memory_card"
+					id: "ae2:wireless_crafting_terminal"
 					Count: 1b
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "6A0D087F9939DEF6"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
 		}
 		{
-			x: -14.0d
-			y: -4.5d
-			subtitle: "Higher Capacity cable, can carry 32 channels unlike standard cable which can only carry 8."
-			description: ["However it doesn't support buses so you must first step down from dense to a smaller cable (such as Fluix ME Glass Cable or Fluix ME Smart Cable) before using buses or panels. Shows load similarly to Fluix ME Smart Cable, with each line lit representing four channels in use."]
-			dependencies: ["2B641E7A30686BCF"]
-			id: "1E435A4C1547934D"
+			x: -6.0d
+			y: 12.0d
+			dependencies: ["23DBB16E42C4EEC6"]
+			id: "39CFA05053FB9AD2"
 			tasks: [{
-				id: "4D657D4CBB6A2016"
+				id: "6D58157DF06FE92C"
 				type: "item"
-				item: "ae2:fluix_smart_dense_cable"
-			}]
-			rewards: [{
-				id: "4330B05B53533D6C"
-				type: "loot"
-				table_id: 13756307348121783L
+				item: "ae2wtlib:wireless_pattern_encoding_terminal"
 			}]
 		}
 		{
-			x: -12.0d
-			y: -9.0d
-			subtitle: "Lowest Tier Storage Cell, which can contain 1,024 bytes of storage."
-			description: [
-				"1,024 bytes of storage can hold 127 Stacks of a single item. or 65 Stacks, while holding 63 Different items."
-				""
-				"The 1k Storage Cell uses 8 bytes of data to store a single type."
-				""
-				"8 Items take up 1 byte."
-			]
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "215EF29F7DD6B37C"
+			x: -7.5d
+			y: 12.0d
+			dependencies: ["39CFA05053FB9AD2"]
+			id: "567010DC769010E8"
 			tasks: [{
-				id: "3FDDED57431181C3"
+				id: "54EE2CB2EC6616FB"
+				type: "item"
+				item: {
+					id: "ae2wtlib:wireless_universal_terminal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 15.5d
+			hide_dependency_lines: true
+			dependencies: ["13A7AD9FCC3A0FE8"]
+			id: "76134021918AC213"
+			tasks: [{
+				id: "2D86038C90896284"
+				type: "item"
+				item: "ae2:crafting_unit"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 16.0d
+			dependencies: ["76134021918AC213"]
+			id: "0AE5A4DCC13A3774"
+			tasks: [{
+				id: "6701532581AB0656"
+				type: "item"
+				item: "ae2:1k_crafting_storage"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 16.5d
+			dependencies: ["0AE5A4DCC13A3774"]
+			id: "17F316F992E23A6A"
+			tasks: [{
+				id: "0E48F7573A371C93"
+				type: "item"
+				item: "ae2:4k_crafting_storage"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 17.0d
+			dependencies: ["17F316F992E23A6A"]
+			id: "463B1FCA0A966C29"
+			tasks: [{
+				id: "01A88A1F1AA4196E"
+				type: "item"
+				item: "ae2:16k_crafting_storage"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 17.5d
+			dependencies: ["463B1FCA0A966C29"]
+			id: "1D2BF5999723A124"
+			tasks: [{
+				id: "32234E86ED07919A"
+				type: "item"
+				item: "ae2:64k_crafting_storage"
+			}]
+			rewards: [
+				{
+					id: "523EC8579836AC1C"
+					type: "item"
+					item: "ae2:printed_calculation_processor"
+					count: 8
+				}
+				{
+					id: "1CE3093E519D885D"
+					type: "item"
+					item: "ae2:printed_engineering_processor"
+					count: 8
+				}
+				{
+					id: "39121C1F9BC221D1"
+					type: "item"
+					item: "ae2:printed_logic_processor"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 15.5d
+			hide_dependency_lines: true
+			dependencies: ["13A7AD9FCC3A0FE8"]
+			id: "768ACB3D76C0A9CE"
+			tasks: [{
+				id: "416D09C5AD97E621"
+				type: "item"
+				item: "ae2:item_cell_housing"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 16.0d
+			dependencies: ["768ACB3D76C0A9CE"]
+			id: "0E33C11E0CFB522A"
+			tasks: [{
+				id: "3A9B8C4068950844"
 				type: "item"
 				item: {
 					id: "ae2:item_storage_cell_1k"
@@ -391,28 +687,14 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "649B9989A24F85A0"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
 		}
 		{
-			x: -12.0d
-			y: -10.0d
-			subtitle: "Low Tier Storage Cell, which can contain 4,096 bytes of storage."
-			description: [
-				"4,096 bytes of storage can hold 508 Stacks of a single item. or 260 Stacks, while holding 63 Different items."
-				""
-				"The 4k Storage Cell uses 32 bytes of data to store a single type."
-				""
-				"8 Items take up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "5AB8DB04F4DA2F40"
+			x: 1.5d
+			y: 16.5d
+			dependencies: ["0E33C11E0CFB522A"]
+			id: "74B06813276F176B"
 			tasks: [{
-				id: "2E155470D8151510"
+				id: "21845DEDB81A13D7"
 				type: "item"
 				item: {
 					id: "ae2:item_storage_cell_4k"
@@ -420,28 +702,14 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "0E07A03963E49881"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
 		}
 		{
-			x: -12.0d
-			y: -11.0d
-			subtitle: "Middle Tier Storage Cell, which can contain 16,384 bytes of storage."
-			description: [
-				"16,384 bytes of storage can hold 2,032 Stacks of a single item. or 1,040 Stacks, while holding 63 Different items."
-				""
-				"The 16k Storage Cell uses 128 bytes of data to store a single type."
-				""
-				"8 Items take up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "2A358437484E61CF"
+			x: 2.5d
+			y: 17.0d
+			dependencies: ["74B06813276F176B"]
+			id: "68171C864D9BBA50"
 			tasks: [{
-				id: "0950907AA16E55FA"
+				id: "01E5F6EA156EA67E"
 				type: "item"
 				item: {
 					id: "ae2:item_storage_cell_16k"
@@ -449,28 +717,14 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "5431849B646D74A7"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
 		}
 		{
-			x: -12.0d
-			y: -12.0d
-			subtitle: "High Tier Storage Cell, which can contain 65,536 bytes of storage."
-			description: [
-				"65,536 bytes of storage can hold 8,128 Stacks of a single item. or 4,160 Stacks, while holding 63 Different items."
-				""
-				"The 64k Storage Cell uses 512 bytes of data to store a single type."
-				""
-				"8 Items take up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "451C8D5D92F1BAED"
+			x: 1.5d
+			y: 17.5d
+			dependencies: ["68171C864D9BBA50"]
+			id: "4FA20091C1E1803F"
 			tasks: [{
-				id: "7FAF15C54C21DDF8"
+				id: "1F2497BD24D08B64"
 				type: "item"
 				item: {
 					id: "ae2:item_storage_cell_64k"
@@ -478,758 +732,40 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "2E7996FFCCA4BEDB"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -8.0d
-			y: -7.0d
-			subtitle: "A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting, Processing, Stonecutting or Smithing Patterns."
-			description: [
-				"Lets you browse the contents of your network like other terminals, but also contains an area for designing patterns."
-				""
-				"There are four modes for pattern encoding. Crafting Patterns, Processing Patterns, Stonecutting Patterns and Smithing Patterns."
-				""
-				"Processing patterns are designed for use with machines that do not use standard crafting recipes; such as furnaces, or other machines. "
-				"You can encode up to 81 input items, 1 output item and 26 secondary output items (which will be used before items in ME Network for automation)."
-				""
-				"Stonecutting and Smithing Patterns work with Molecular Assemblers, just like regular Crafting Patterns."
-				""
-				"To select between modes, click the tabs to the right of the interface."
+			rewards: [
+				{
+					id: "633A42AA3028387A"
+					type: "item"
+					item: "ae2:cell_component_4k"
+					count: 2
+				}
+				{
+					id: "39733D6C11381E59"
+					type: "item"
+					item: "minecraft:diamond_block"
+					count: 8
+				}
 			]
-			dependencies: [
-				"3988E16DAA388261"
-				"4555AD508D9C6CEB"
-			]
-			min_width: 300
-			id: "34550EB511DF1DBC"
-			tasks: [{
-				id: "2A1935843BEBBF9F"
-				type: "item"
-				item: "ae2:pattern_encoding_terminal"
-			}]
-			rewards: [{
-				id: "029183DD4EFACEE5"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.5d
-			y: -7.5d
-			subtitle: "A HID which gives you access to items stored in your ME Network. This will also include items accessible through ME Storage Bus."
-			description: [
-				"It has the ability to sort and search, as well as filter by using View Cell. It requires a channel to function."
-				""
-				"Can be upgraded into a ME Crafting Terminal."
-			]
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "4555AD508D9C6CEB"
-			tasks: [{
-				id: "2FEE9FBD8CE4FE03"
-				type: "item"
-				item: "ae2:terminal"
-			}]
-			rewards: [{
-				id: "7CDA5584E969893A"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 2.0d
-			y: -5.5d
-			subtitle: "Exports and imports items and fluids from/to the network."
-			description: [
-				"It has a special interaction when ME Storage Bus or ME Pattern Provider is placed on this block."
-				""
-				"Read their respective descriptions for more info."
-				""
-				"It can accept upgrades:"
-				"> Fuzzy Card - exports items regardless of their damage or NBT."
-				"> Crafting Card - automatically requests crafting to keep items in stock. (not recommended as excessive requesting can lead to TPS lag.)"
-			]
-			dependencies: ["2BE8127E1180DA21"]
-			id: "115B865B26BE47E5"
-			tasks: [{
-				id: "5F3D81B7D3F27CA2"
-				type: "item"
-				item: "ae2:interface"
-			}]
-			rewards: [{
-				id: "75BCEA59308257CA"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
 		}
 		{
 			x: 4.0d
-			y: -5.5d
-			subtitle: "This particular block provides the CPU with no additional features, but can be used as a \"filler\" block."
-			description: [
-				"It is the base for crafting the other functional components of a crafting CPU."
-				""
-				"A Crafting CPU Multiblock must be a cuboid, else it will not form."
-			]
-			dependencies: ["2BE8127E1180DA21"]
-			id: "159C31FE32578AD2"
+			y: 15.5d
+			hide_dependency_lines: true
+			dependencies: ["13A7AD9FCC3A0FE8"]
+			id: "723E62305C736C09"
 			tasks: [{
-				id: "2641A595A151CEC8"
+				id: "77F41D6F5A3CC1A8"
 				type: "item"
-				item: "ae2:crafting_unit"
-			}]
-			rewards: [{
-				id: "35560ED76E3DEE07"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 3.0d
-			y: -5.5d
-			subtitle: "Automatically crafts Crafting Table, Stonecutter and Smithing Table recipes."
-			description: [
-				"It has two modes of operation."
-				""
-				"If you put an Encoded Pattern inside of the Molecular Assembler, it will automatically craft with items pushed into it."
-				""
-				"If you put it next to a Pattern Provider, it can automatically craft recipes requested by a Pattern Provider."
-				""
-				"After crafting, the Molecular Assembler will try to push its output item into an adjacent inventory, Interface or Pattern Provider."
-			]
-			dependencies: ["2BE8127E1180DA21"]
-			id: "63DF8DED795008EA"
-			tasks: [{
-				id: "1E101186DD63E8A3"
-				type: "item"
-				item: "ae2:molecular_assembler"
-			}]
-			rewards: [{
-				id: "36274E786964367A"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 0.5d
-			y: -1.5d
-			subtitle: "Provides 1024 bytes of storage for crafting."
-			dependencies: ["2BE8127E1180DA21"]
-			id: "719707385946F7F4"
-			tasks: [{
-				id: "00690EE1F30F9B99"
-				type: "item"
-				item: "ae2:1k_crafting_storage"
-			}]
-			rewards: [{
-				id: "60B2624F883FD72F"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 1.5d
-			y: -1.5d
-			subtitle: "Provides 4,096 bytes of storage for crafting."
-			dependencies: ["2BE8127E1180DA21"]
-			id: "2C7ABB61B3B1AD85"
-			tasks: [{
-				id: "640B719C25B50B4B"
-				type: "item"
-				item: "ae2:4k_crafting_storage"
-			}]
-			rewards: [{
-				id: "6F58CE36BA02724F"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 2.5d
-			y: -1.5d
-			subtitle: "Provides 16,384 bytes of storage for crafting."
-			dependencies: ["2BE8127E1180DA21"]
-			id: "1C9473DDA8CA1AC1"
-			tasks: [{
-				id: "3B28508C9447ACAC"
-				type: "item"
-				item: "ae2:16k_crafting_storage"
-			}]
-			rewards: [{
-				id: "3CAC6A77BD991766"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 3.5d
-			y: -1.5d
-			subtitle: "Provides 65,536 bytes of storage for crafting."
-			dependencies: ["2BE8127E1180DA21"]
-			id: "6862A2B7639A470E"
-			tasks: [{
-				id: "0505C3A757A97D86"
-				type: "item"
-				item: "ae2:64k_crafting_storage"
-			}]
-			rewards: [{
-				id: "663D11734F2B827E"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 2.0d
-			y: -7.0d
-			subtitle: "Exposes an external inventory as a storage for the ME Network."
-			description: [
-				"If placed on the ME Interface of another network, it exposes items of that network instead."
-				""
-				"Useful for making mass storage while using only 1 channel on main ME Network."
-			]
-			dependencies: ["115B865B26BE47E5"]
-			id: "5386766A061332CA"
-			tasks: [{
-				id: "6DD06942CEC418CB"
-				type: "item"
-				item: "ae2:storage_bus"
-			}]
-			rewards: [{
-				id: "50BDA7486CD5F797"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 0.0d
-			y: -3.5d
-			subtitle: "Pulls items/fluids from external inventory/tank into the ME Network."
-			description: [
-				"It can accept upgrades:"
-				"> Capacity Card (max: 2) - adds 4 additional filter slots for importing per card."
-				"> Inverter Card - the filter is now a deny-list rather than allow-list."
-				"> Fuzzy Card - disregards damage and NBT of filter items."
-				"> Redstone Card - adds redstone sensitivity. Besides the typical \"Redstone on/off\" there is also an option to activate once per pulse."
-				"> Acceleration Card - speeds up importing:"
-				"0 cards - 1 item at once,"
-				"1 card - 8 items at once,"
-				"2 cards - 32 items at once,"
-				"3 cards - 64 items at once,"
-				"4 cards - 96 items at once."
-			]
-			dependencies: ["2BE8127E1180DA21"]
-			id: "05F88D164E0A2988"
-			tasks: [{
-				id: "006B723E69E57816"
-				type: "item"
-				item: "ae2:import_bus"
-			}]
-			rewards: [{
-				id: "5FE40F90038D950F"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 0.0d
-			y: -2.5d
-			subtitle: "Pushes items/fluids from ME Network into the external inventory/tank."
-			description: [
-				"It can accept upgrades:"
-				"> Capacity Card (max: 2) - adds 4 additional filter slots for exporting per card."
-				"Adds 3 scheduling modes in case multiple items are set up on the filter:"
-				"- Export the first item until the network is empty, then try the next ones."
-				"- Round-Robin,"
-				"- Random."
-				"> Inverter Card - the filter is now a deny-list rather than allow-list."
-				"> Fuzzy Card - disregards damage and NBT of filter items."
-				"> Redstone Card - adds redstone sensitivity. Besides the typical \"Redstone on/off\" there is also an option to activate once per pulse."
-				"> Acceleration Card - speeds up exporting:"
-				"0 cards - 1 item at once,"
-				"1 card - 8 items at once,"
-				"2 cards - 32 items at once,"
-				"3 cards - 64 items at once,"
-				"4 cards - 96 items at once."
-				"> Crafting Card - the Export Bus will automatically request crafting until the container is filled."
-			]
-			dependencies: ["2BE8127E1180DA21"]
-			id: "578F8DD2ACBA9C6C"
-			tasks: [{
-				id: "3D82F453CBD0740A"
-				type: "item"
-				item: "ae2:export_bus"
-			}]
-			rewards: [{
-				id: "015E6C5EDA60D2A8"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -6.5d
-			y: -1.5d
-			subtitle: "Allows you to configure which users, and what permissions the users have with the ME System."
-			description: [
-				"By existing it enforces permissions on the usage of the system."
-				""
-				"The security system does not prevent destructive tampering, removing cables / machines or breaking of drives is not directly provided by the security Terminal."
-				""
-				"If you need to protect your system from physical vandalism you will need another form of physical security. This block provides Network level security."
-				""
-				"The player who places the ME Security Terminal has full control over the network and cannot exclude himself any rights."
-				""
-				"By adding a blank Biometric Card you define a default behavior for every player who has no own Biometric Card registered."
-				""
-				"Other than adding security on software layer, you can link up your Wireless Terminal with the network and access it wirelessly."
-			]
-			dependencies: ["679955AA48F79365"]
-			id: "57507836248CB116"
-			tasks: [{
-				id: "6FDD185D41E3E494"
-				type: "item"
-				item: "ae2:security_station"
-			}]
-			rewards: [{
-				id: "71278AA6D7386AED"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -5.0d
-			y: -1.5d
-			description: [
-				"Allows you to specify permissions for different players."
-				""
-				"Useful in Multiplayer."
-			]
-			dependencies: ["57507836248CB116"]
-			id: "563432F2BB1EE1AF"
-			tasks: [{
-				id: "21C4930537157E49"
-				type: "item"
-				item: "ae2:biometric_card"
-			}]
-			rewards: [{
-				id: "42A223A49CCD5F52"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -6.5d
-			y: 0.0d
-			subtitle: "Allows wireless access via a Wireless Terminal."
-			description: [
-				"Range and power usage is determined based on the number of Wireless Booster installed into the ME Wireless Access Point."
-				""
-				"A network can have any number of ME Wireless Access Point with any number of Wireless Booster in each one, allowing you to optimize power usage and range by altering your setup."
-				""
-				"Requires a channel to be operational."
-			]
-			dependencies: ["57507836248CB116"]
-			id: "69597F2A6D80AE29"
-			tasks: [{
-				id: "4E38E22FE7B37FE6"
-				type: "item"
-				item: "ae2:wireless_access_point"
-			}]
-			rewards: [{
-				id: "4E65ABF8921A048C"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Wireless Terminal"
-			x: -6.5d
-			y: 1.5d
-			subtitle: "Put it in the designated slot in ME Security Terminal to link it to the network."
-			dependencies: ["69597F2A6D80AE29"]
-			id: "0B27217B40C19911"
-			tasks: [{
-				id: "1CFC818DEC3E5B6C"
-				type: "item"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "ae2:wireless_terminal"
-								Count: 1b
-							}
-							{
-								id: "ae2:wireless_crafting_terminal"
-								Count: 1b
-							}
-							{
-								id: "ae2wtlib:wireless_pattern_encoding_terminal"
-								Count: 1b
-							}
-							{
-								id: "ae2wtlib:wireless_pattern_access_terminal"
-								Count: 1b
-							}
-							{
-								id: "ae2wtlib:wireless_universal_terminal"
-								Count: 1b
-							}
-						]
-						display: {
-							Name: "{\"text\":\"Any Wireless Terminal\"}"
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "51F75DBF6855EF97"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -6.5d
-			y: 3.0d
-			subtitle: "Used to increase the range of the ME Wireless Access Point."
-			dependencies: ["0B27217B40C19911"]
-			id: "7814B078C6256761"
-			tasks: [{
-				id: "6C0BA4228CC4B8B0"
-				type: "item"
-				item: "ae2:wireless_booster"
-			}]
-			rewards: [{
-				id: "56CE5BDC03E4B724"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -8.5d
-			y: -1.5d
-			subtitle: "Required to create a connection between to Quantum Network Bridges."
-			description: [
-				"They are always produced in matching pairs, to create a connection place 1 of the pair of Quantum Entangled Singularity into the ME Quantum Link Chamber of the bridge on each side."
-				""
-				"They are crafted by causing a reaction between Ender Pearl or Ender Dustand a Singularity. Any explosive force should be enough to trigger the reaction."
-				""
-				"Nearly any explosion - even creepers - will work."
-				""
-				"Always produced in pairs, but only require a single Singularity."
-				""
-				"It might be a good idea to label these with names when you create them using any method, ex. an Anvil."
-			]
-			dependencies: ["679955AA48F79365"]
-			id: "5CF50859A98E45FB"
-			tasks: [{
-				id: "435ED5858F476384"
-				type: "item"
-				item: "ae2:quantum_entangled_singularity"
-			}]
-			rewards: [{
-				id: "2DD77D29A7CA2D98"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -8.5d
-			y: 0.0d
-			subtitle: "One of these blocks surrounded by a ME Quantum Ring will create a Quantum Network Bridge."
-			description: [
-				"This block doesn't connect to any cables and only registers as part of the network with the full bridge is made."
-				""
-				"This blocks inventory can only hold a single Quantum Entangled Singularity and is automation accessible."
-			]
-			dependencies: ["5CF50859A98E45FB"]
-			id: "2FB251E717EA2F3C"
-			tasks: [{
-				id: "0DAFE1BDC893DE5F"
-				type: "item"
-				item: "ae2:quantum_link"
-			}]
-			rewards: [{
-				id: "6FFEB53CB2191D64"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -8.5d
-			y: 1.5d
-			subtitle: "Eight of these blocks placed around a ME Quantum Link Chamber will create a Quantum Network Bridge."
-			description: ["Only the 4 ME Quantum Ring blocks adjacent to the ME Quantum Link Chamber will accept network connections, the 4 corner blocks cannot connect to cables."]
-			dependencies: ["2FB251E717EA2F3C"]
-			id: "300343A7965531DD"
-			tasks: [{
-				id: "422C32A11B9803B4"
-				type: "item"
-				item: "ae2:quantum_ring"
-			}]
-			rewards: [{
-				id: "7ED338DC09F7805B"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Security, Wireless and Beyond"
-			x: -7.5d
-			y: -3.0d
-			description: ["These blocks can keep your network secure and give you remote access to the ME Network contents!"]
-			dependencies: [
-				"43709A95E106563B"
-				"7CE18D246F01445D"
-			]
-			dependency_requirement: "one_completed"
-			id: "679955AA48F79365"
-			tasks: [{
-				id: "1349A47C54D391CA"
-				type: "checkmark"
-				title: "Security and Wireless"
-			}]
-		}
-		{
-			title: "Automation is key!"
-			x: 2.5d
-			y: -3.5d
-			subtitle: "Use various interfaces and automate your network."
-			description: ["You can use these to route items around and automate crafting requests on your ME Network!"]
-			dependencies: [
-				"43709A95E106563B"
-				"7CE18D246F01445D"
-			]
-			dependency_requirement: "one_completed"
-			id: "2BE8127E1180DA21"
-			tasks: [{
-				id: "2E567019AD31DD51"
-				type: "checkmark"
-				title: "So you want to automate?"
-			}]
-		}
-		{
-			title: "Storage and Transport"
-			x: -11.0d
-			y: -4.5d
-			description: [
-				"General network and storage parts of the ME Network."
-				""
-				"The ME Network (pr. Emm-Eee: Matter Energy) is a set of connected blocks, and cables grouped into a system, where storage, power and functions cooperate between multiple components."
-			]
-			dependencies: [
-				"43709A95E106563B"
-				"7CE18D246F01445D"
-			]
-			dependency_requirement: "one_completed"
-			id: "5683C69200EBC4CD"
-			tasks: [{
-				id: "35DEBD075D82821D"
-				type: "checkmark"
-				title: "Storage and transport"
-			}]
-		}
-		{
-			x: 1.0d
-			y: -5.5d
-			subtitle: "Pushes crafting recipes encoded in patterns to nearby machines/containers."
-			description: [
-				"                                --- About Autocrafting ---"
-				"The encoded patterns need to be put into pattern providers on the same network as the Crafting CPU itself."
-				""
-				"When the crafting CPU then needs to craft the primary result of that pattern, it'll delegate this to the pattern provider."
-				""
-				"Normally, the pattern provider will then push out the ingredients to an adjacent block (a Molecular Assembler for crafting recipes, for example), and crafting continues once the result enters the network again."
-				""
-				"This can be achieved by pushing the crafting result back into the pattern provider, an ME Interface or any other means that would import the crafting result into the network."
-				""
-				"Molecular Assemblers are smart enough to automatically return the crafting result to the same pattern provider that provided the ingredients."
-				""
-				"                               --- About Blocking Mode ---"
-				"A Blocking Mode can be set to prevent the ME Pattern Provider from pushing items into an inventory, if that inventory already has a pattern input."
-				""
-				"When placed on the ME Interface of another network, the Blocking Mode regards the storage of entire ME Network on which the ME Interface is placed."
-				""
-				"This interaction can be used for smart item routing for recipes that require items to be split between multiple inventories."
-				""
-				"                              --- About Crafting Lock ---"
-				"Explore the newest addition to AE2 - the \"Lock Crafting\" option."
-				""
-				"You can select 5 modes of locking:"
-				""
-				"> Never - no changes to Pattern Provider's behavior."
-				"> Until redstone pulse is recieved - Will push recipes one at a time. Redstone pulse will insert next set (a Refined Storage-like option)."
-				"> With Redstone Signal - pushes Pattern items only when Provider is powered by Redstone."
-				"> Without Redstone Signal - pushes Pattern items only when Provider is NOT powered by Redstone."
-				"> Until primary crafting result is returned (to the same Pattern Provider, that pushed the crafting recipe) - will also insert one recipe at a time."
-			]
-			dependencies: ["2BE8127E1180DA21"]
-			min_width: 400
-			id: "20AD73B935309188"
-			tasks: [{
-				id: "1A5F4DE4911B984A"
-				type: "item"
-				item: "ae2:pattern_provider"
-			}]
-			rewards: [{
-				id: "2A54A638B71261B7"
-				type: "loot"
-				table_id: 13756307348121783L
+				item: "ae2:fluid_cell_housing"
 			}]
 		}
 		{
 			x: 5.0d
-			y: -4.0d
-			subtitle: "Keeps items in stock by making crafting requests to the ME Network."
-			description: [
-				"One Requester can keep 5 items in stock."
-				""
-				"You can set the item, amount of the item to stock, and the size of one batch which will be requested continuously until the amount to stock is reached."
-			]
-			dependencies: ["2BE8127E1180DA21"]
-			id: "40FC373056C16F8D"
+			y: 16.0d
+			dependencies: ["723E62305C736C09"]
+			id: "008DDF17D3E4A76B"
 			tasks: [{
-				id: "4AC53B928B57CFE4"
-				type: "item"
-				item: "merequester:requester"
-			}]
-			rewards: [{
-				id: "694B1E4CF3B1F6C3"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 5.0d
-			y: -3.0d
-			subtitle: "A HID which gives you access to all ME Requesters connected to the network."
-			dependencies: ["2BE8127E1180DA21"]
-			id: "5B869B2834EFC0AA"
-			tasks: [{
-				id: "532676485F4631D2"
-				type: "item"
-				item: "merequester:requester_terminal"
-			}]
-			rewards: [{
-				id: "79ED7C77A5C3193C"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -12.0d
-			y: -13.0d
-			subtitle: "Higher Tier Storage Cell, which can contain 262,144 bytes of storage."
-			description: [
-				"262,144 bytes of storage can hold 32,512 Stacks of a single item. or 16,640 Stacks, while holding 63 Different items."
-				""
-				"The 256k Storage Cell uses 2,048 bytes of data to store a single type."
-				""
-				"8 Items take up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "0D1DBAAB4C29A4B2"
-			tasks: [{
-				id: "79853D301CE0FA2E"
-				type: "item"
-				item: {
-					id: "ae2:item_storage_cell_256k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "327EC0D75CA14E9C"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -12.0d
-			y: -15.0d
-			subtitle: "Very high Tier Storage Cell, which can contain 8,388,608 bytes of storage."
-			description: [
-				"8,388,608 bytes of storage can hold 1,047,552 Stacks of a single item. or 894,976 Stacks, while holding 150 Different items."
-				""
-				"The 4096k Storage Cell uses 8,192 bytes of data to store a single type."
-				""
-				"8 Items take up 1 byte."
-				""
-				"This cell does not accept upgrades!"
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "47BF09742658937F"
-			tasks: [{
-				id: "7C0531DBC6B7CA3A"
-				type: "item"
-				item: {
-					id: "ae2additions:item_storage_cell_4096"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "31894FEB3ADC65BD"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -12.0d
-			y: -16.0d
-			subtitle: "Extremely high Tier Storage Cell, which can contain 16,777,216 bytes of storage."
-			description: [
-				"16,777,216 bytes of storage can hold 2,093,056 Stacks of a single item. or 1,277,952 Stacks, while holding 200 Different items."
-				""
-				"The 16384k Storage Cell uses 32,768 bytes of data to store a single type."
-				""
-				"8 Items take up 1 byte."
-				""
-				"This cell does not accept upgrades!"
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "0F0B9AEBF18374E6"
-			tasks: [{
-				id: "52B446807607C861"
-				type: "item"
-				item: {
-					id: "ae2additions:item_storage_cell_16384"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "778E8C92B12D4D32"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -10.0d
-			y: -9.0d
-			subtitle: "Lowest Tier Storage Cell, which can contain 1,024 bytes of storage."
-			description: [
-				"1,024 bytes of storage can hold 8128 Buckets of a single fluid. or 7872 Buckets while holding 5 Different fluids."
-				""
-				"The 1k Storage Cell uses 8 bytes of data to store a single type."
-				""
-				"8 Buckets of fluid take up 1 byte."
-			]
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "6C1E1FE24F56BA1A"
-			tasks: [{
-				id: "667FB36E7A9D5C02"
+				id: "64BC9466DFECE16C"
 				type: "item"
 				item: {
 					id: "ae2:fluid_storage_cell_1k"
@@ -1237,29 +773,14 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "5B0CB4E7E3007EC5"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
 		}
 		{
-			x: -10.0d
-			y: -10.0d
-			subtitle: "Low Tier Storage Cell, which can contain 4,096 bytes of storage."
-			description: [
-				"4,096 bytes of storage can hold 32,512 Buckets of a single fluid. or 31,488 Buckets while holding 5 Different fluids."
-				""
-				"The 4k Storage Cell uses 32 bytes of data to store a single type."
-				""
-				"8 Buckets of fluid take up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "65A0AA0DC272DABC"
+			x: 4.0d
+			y: 16.5d
+			dependencies: ["008DDF17D3E4A76B"]
+			id: "0A58686E2EACA105"
 			tasks: [{
-				id: "79F0256C5B758C1B"
+				id: "67B58ED7048D6CE6"
 				type: "item"
 				item: {
 					id: "ae2:fluid_storage_cell_4k"
@@ -1267,29 +788,14 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "1D4F1FE54E84C260"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
 		}
 		{
-			x: -10.0d
-			y: -11.0d
-			subtitle: "Middle Tier Storage Cell, which can contain 16,384 bytes of storage."
-			description: [
-				"16,384 bytes of storage can hold 130,048 Buckets of a single fluid. or 125,952 Buckets while holding 5 Different fluids."
-				""
-				"The 16k Storage Cell uses 128 bytes of data to store a single type."
-				""
-				"8 Buckets of fluid take up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "50C931E4D600C0FB"
+			x: 5.0d
+			y: 17.0d
+			dependencies: ["0A58686E2EACA105"]
+			id: "0E93806123997DBD"
 			tasks: [{
-				id: "5313D3FAA3AC4933"
+				id: "132A3ADCECA40257"
 				type: "item"
 				item: {
 					id: "ae2:fluid_storage_cell_16k"
@@ -1297,29 +803,14 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "3249A717585CD19D"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
 		}
 		{
-			x: -10.0d
-			y: -12.0d
-			subtitle: "High Tier Storage Cell, which can contain 65,536 bytes of storage."
-			description: [
-				"65,536 bytes of storage can hold 520,192 Buckets of a single fluid. or 503,808 Buckets while holding 5 Different fluids."
-				""
-				"The 64k Storage Cell uses 512 bytes of data to store a single type."
-				""
-				"8 Buckets of fluid take up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "21158C062AC7606A"
+			x: 4.0d
+			y: 17.5d
+			dependencies: ["0E93806123997DBD"]
+			id: "73436EE099E909B2"
 			tasks: [{
-				id: "000F6AA7BDA7EF79"
+				id: "637BD2475A00A6CB"
 				type: "item"
 				item: {
 					id: "ae2:fluid_storage_cell_64k"
@@ -1327,29 +818,150 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "24D7707AEBE22219"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
+			rewards: [
+				{
+					id: "16575ED788974EC8"
+					type: "item"
+					item: "ae2:cell_component_4k"
+					count: 2
+				}
+				{
+					id: "32FACAD862F745D2"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 48
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 15.5d
+			hide_dependency_lines: true
+			dependencies: ["13A7AD9FCC3A0FE8"]
+			id: "1196A62742266103"
+			tasks: [{
+				id: "251A7FA6FEEBAC7B"
+				type: "item"
+				item: "ae2:spatial_cell_component_2"
 			}]
 		}
 		{
-			x: -10.0d
-			y: -13.0d
-			subtitle: "Higher Tier Storage Cell, which can contain 262,144 bytes of storage."
-			description: [
-				"262,144 bytes of storage can hold 2,080,768 Buckets of a single fluid. or 2,015,232 Buckets while holding 5 Different fluids."
-				""
-				"The 256k Storage Cell uses 2,048 bytes of data to store a single type."
-				""
-				"8 Buckets of fluid take up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "6B92D43A12B62631"
+			x: -5.0d
+			y: 16.0d
+			dependencies: ["1196A62742266103"]
+			id: "610E28996460A9DC"
 			tasks: [{
-				id: "5FF24E5DB1DE2421"
+				id: "0ED6481B7EB518B7"
+				type: "item"
+				item: "ae2:spatial_cell_component_16"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 16.5d
+			dependencies: ["610E28996460A9DC"]
+			id: "7D3E74D82F9DE177"
+			tasks: [{
+				id: "1167414B3D2CB935"
+				type: "item"
+				item: "ae2:spatial_cell_component_128"
+			}]
+			rewards: [
+				{
+					id: "0AD9555D2333FA20"
+					type: "item"
+					item: "architects_palette:ender_pearl_block"
+					count: 5
+				}
+				{
+					id: "10A9B9252A52E869"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 55
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 15.5d
+			hide_dependency_lines: true
+			dependencies: ["13A7AD9FCC3A0FE8"]
+			id: "5A7AAB2EF5DC997C"
+			tasks: [{
+				id: "4318AC9D6283C86C"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 16.0d
+			dependencies: ["5A7AAB2EF5DC997C"]
+			id: "707CF3A6FF7C6609"
+			tasks: [{
+				id: "24E53AAA7769593B"
+				type: "item"
+				item: "ae2:cell_component_4k"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 16.5d
+			dependencies: ["707CF3A6FF7C6609"]
+			id: "455E11F278090B1B"
+			tasks: [{
+				id: "13C2EDE24B43981B"
+				type: "item"
+				item: "ae2:cell_component_16k"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 17.0d
+			dependencies: ["455E11F278090B1B"]
+			id: "5ECC276FFCE6548B"
+			tasks: [{
+				id: "6ABD101C70770ED4"
+				type: "item"
+				item: "ae2:cell_component_64k"
+			}]
+			rewards: [
+				{
+					id: "6D2C44BE87EA825C"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 48
+				}
+				{
+					id: "36C8649D6D0A0B7D"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 18.0d
+			dependencies: ["4FA20091C1E1803F"]
+			id: "01B779C245D185A3"
+			tasks: [{
+				id: "022A0BC28AAF31B3"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 18.0d
+			dependencies: ["73436EE099E909B2"]
+			id: "12D6852D6FB79D71"
+			tasks: [{
+				id: "77698F08CD17BCA5"
 				type: "item"
 				item: {
 					id: "ae2:fluid_storage_cell_256k"
@@ -1357,1321 +969,210 @@
 					tag: { }
 				}
 			}]
-			rewards: [{
-				id: "2641C333E568C00F"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
+		}
+		{
+			x: -3.5d
+			y: 17.5d
+			dependencies: ["5ECC276FFCE6548B"]
+			id: "4C991C3475687CA6"
+			tasks: [{
+				id: "2A6D120EBA0644E5"
+				type: "item"
+				item: "ae2:cell_component_256k"
 			}]
 		}
 		{
-			x: -10.0d
-			y: -15.0d
-			subtitle: "Very high Tier Storage Cell, which can contain 4,194,304 bytes of storage."
-			description: [
-				"4,194,304 bytes of storage can hold 33,488,896 Buckets of a single fluid. or 32,571,392 Buckets while holding 15 Different fluids."
-				""
-				"The 4096k Storage Cell uses 8,192 bytes of data to store a single type."
-				""
-				"8 Buckets of fluid take up 1 byte."
-				""
-				"This cell does not accept upgrades!"
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "3168D649A4C5C2AF"
+			x: -4.5d
+			y: 10.5d
+			dependencies: ["63471F9218507F84"]
+			id: "7301EBE4C8EEB29D"
 			tasks: [{
-				id: "1F8DBE7ADCE1EF15"
+				id: "2D63E873C80E4E7D"
 				type: "item"
-				item: {
-					id: "ae2additions:fluid_storage_cell_4096"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "780AEA8111CD1E3B"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
+				item: "ae2:quantum_ring"
 			}]
 		}
 		{
-			x: -10.0d
-			y: -16.0d
-			subtitle: "Highest Tier Storage Cell, which can contain 16,777,216 bytes of storage."
-			description: [
-				"16,777,216 bytes of storage can hold 133,955,584 Buckets of a single fluid. or 128,974,848 Buckets while holding 20 Different fluids."
-				""
-				"The 16384k Storage Cell uses 32,768 bytes of data to store a single type."
-				""
-				"8 Buckets of fluid take up 1 byte."
-				""
-				"This cell does not accept upgrades!"
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "66C8DD50C666B571"
+			x: -6.0d
+			y: 10.5d
+			dependencies: ["7301EBE4C8EEB29D"]
+			id: "1B01F2B2376214AC"
 			tasks: [{
-				id: "7BAD74354CC1DDF6"
+				id: "2DDBA62B03900DC9"
 				type: "item"
-				item: {
-					id: "ae2additions:fluid_storage_cell_16384"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "5D3CCAA158F43F24"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
+				item: "ae2:quantum_link"
 			}]
 		}
 		{
-			x: -12.5d
-			y: -7.0d
-			subtitle: "Lowest Tier Storage Cell, which can contain 1,024 bytes of storage."
-			description: [
-				"It stores 508,000 Mana."
-				"(about 0.5 Mana Pools)"
-			]
-			dependencies: [
-				"19FBAF9A70549BF5"
-				"1C502D06D2093A4F"
-			]
-			id: "646D7BA27DEC967C"
+			x: -7.5d
+			y: 10.5d
+			dependencies: ["1B01F2B2376214AC"]
+			id: "3B096512914B9314"
 			tasks: [{
-				id: "0C097C61C2D493F8"
+				id: "359E00EF355E1C3D"
 				type: "item"
-				item: {
-					id: "appbot:mana_storage_cell_1k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "0CEFA996BB877366"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -13.5d
-			y: -7.0d
-			subtitle: "Low Tier Storage Cell, which can contain 4,096 bytes of storage."
-			description: [
-				"It stores 2,032,000 mana."
-				"(about 2 Mana Pools)"
-			]
-			dependencies: [
-				"1C502D06D2093A4F"
-				"19FBAF9A70549BF5"
-			]
-			id: "45B4961C68B3B300"
-			tasks: [{
-				id: "1B6C70E93F74EB32"
-				type: "item"
-				item: {
-					id: "appbot:mana_storage_cell_4k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "15E65833D7B9DA8D"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -14.5d
-			y: -7.0d
-			subtitle: "Middle Tier Storage Cell, which can contain 16,384 bytes of storage."
-			description: [
-				"It stores 8,128,000 mana."
-				"(about 8.1 Mana Pools)"
-			]
-			dependencies: [
-				"1C502D06D2093A4F"
-				"19FBAF9A70549BF5"
-			]
-			id: "1721419C13B2B450"
-			tasks: [{
-				id: "44350B94F569AD59"
-				type: "item"
-				item: {
-					id: "appbot:mana_storage_cell_16k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "3DA6CFF238529DB6"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -15.5d
-			y: -7.0d
-			subtitle: "High Tier Storage Cell, which can contain 65,536 bytes of storage."
-			description: [
-				"It stores 32,512,000 mana."
-				"(about 32.5 Mana Pools)"
-			]
-			dependencies: [
-				"1C502D06D2093A4F"
-				"19FBAF9A70549BF5"
-			]
-			id: "41C575953C323009"
-			tasks: [{
-				id: "77388A8F1B5F409C"
-				type: "item"
-				item: {
-					id: "appbot:mana_storage_cell_64k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "3233AE1C5B3182F3"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -11.0d
-			y: -9.0d
-			subtitle: "Lowest Tier Storage Cell, which can contain 1,024 bytes of storage."
-			description: [
-				"Super Storage Cells can hold Items, Fluids and Mana - all at once!"
-				""
-				"These cells cannot be formatted nor upgraded."
-			]
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "5F5920414DBA920F"
-			tasks: [{
-				id: "327983B4CDB975A4"
-				type: "item"
-				item: {
-					id: "ae2additions:super_cell_1k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "4842005D2DDB5229"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -11.0d
-			y: -10.0d
-			subtitle: "Low Tier Storage Cell, which can contain 4,096 bytes of storage."
-			description: [
-				"Super Storage Cells can hold Items, Fluids and Mana - all at once!"
-				""
-				"These cells cannot be formatted nor upgraded."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "05C269D4892D9CD8"
-			tasks: [{
-				id: "5C6A72AFE137626B"
-				type: "item"
-				item: {
-					id: "ae2additions:super_cell_4k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "3A37D0501003B31F"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -11.0d
-			y: -11.0d
-			subtitle: "Middle Tier Storage Cell, which can contain 16,384 bytes of storage."
-			description: [
-				"Super Storage Cells can hold Items, Fluids and Mana - all at once!"
-				""
-				"These cells cannot be formatted nor upgraded."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "2BD31184B35B22A8"
-			tasks: [{
-				id: "54F42F768B7E2568"
-				type: "item"
-				item: {
-					id: "ae2additions:super_cell_16k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "4FF14805DE3F3197"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -11.0d
-			y: -12.0d
-			subtitle: "High Tier Storage Cell, which can contain 65,536 bytes of storage."
-			description: [
-				"Super Storage Cells can hold Items, Fluids and Mana - all at once!"
-				""
-				"These cells cannot be formatted nor upgraded."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "23D0A80042101606"
-			tasks: [{
-				id: "06C6C2091A89189A"
-				type: "item"
-				item: {
-					id: "ae2additions:super_cell_64k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "7AFBC0D8FC17C466"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -11.0d
-			y: -13.0d
-			subtitle: "Higher Tier Storage Cell, which can contain 262,144 bytes of storage."
-			description: [
-				"Super Storage Cells can hold Items, Fluids and Mana - all at once!"
-				""
-				"These cells cannot be formatted nor upgraded."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "3F7ACD00C9119A5D"
-			tasks: [{
-				id: "7A349AFFA8C8679D"
-				type: "item"
-				item: {
-					id: "ae2additions:super_cell_256k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "7D9A41C02D59E894"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -11.0d
-			y: -15.0d
-			subtitle: "Very high Tier Storage Cell, which can contain 4,194,304 bytes of storage."
-			description: [
-				"Super Storage Cells can hold Items, Fluids and Mana - all at once!"
-				""
-				"These cells cannot be formatted nor upgraded."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "3E2A84421F1ABA4A"
-			tasks: [{
-				id: "0587548EC3094CBB"
-				type: "item"
-				item: {
-					id: "ae2additions:super_cell_4096k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "041F414A12B2ABF3"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -12.0d
-			y: -14.0d
-			subtitle: "Even higher Tier Storage Cell, which can contain 1,048,576 bytes of storage."
-			description: [
-				"1,048,576 bytes of storage can hold 130,048 Stacks of a single item. or 79,872 Stacks, while holding 100 Different items."
-				""
-				"The 1024k Storage Cell uses 4,096 bytes of data to store a single type."
-				""
-				"8 Items take up 1 byte."
-				""
-				"This cell does not accept upgrades!"
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "56DCD1CF3647FBC7"
-			tasks: [{
-				id: "41AD49611BB82EF2"
-				type: "item"
-				item: {
-					id: "ae2additions:item_storage_cell_1024"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "49B392990F2EF5DD"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -10.0d
-			y: -14.0d
-			subtitle: "Even higher Tier Storage Cell, which can contain 1,048,576 bytes of storage."
-			description: [
-				"1,048,576 bytes of storage can hold 8,355,840 Buckets of a single fluid. or 8,060,928 Buckets while holding 10 Different fluids."
-				""
-				"The 1024k Storage Cell uses 4,096 bytes of data to store a single type."
-				""
-				"8 Buckets of fluid take up 1 byte."
-				""
-				"This cell does not accept upgrades!"
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "6C2DD7E2CE2DCD50"
-			tasks: [{
-				id: "033723F0C32CAD46"
-				type: "item"
-				item: {
-					id: "ae2additions:fluid_storage_cell_1024"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "05681B2AA42503B8"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -11.0d
-			y: -14.0d
-			subtitle: "Even higher Tier Storage Cell, which can contain 1,048,576 bytes of storage."
-			description: [
-				"Super Storage Cells can hold Items, Fluids and Mana - all at once!"
-				""
-				"These cells cannot be formatted nor upgraded."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "3B7AE9B7813AC175"
-			tasks: [{
-				id: "1B6DCC50A072941D"
-				type: "item"
-				item: {
-					id: "ae2additions:super_cell_1024k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "0548F9BDA9595F0B"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -11.0d
-			y: -16.0d
-			subtitle: "Extremely high Tier Storage Cell, which can contain 16,777,216 bytes of storage."
-			description: [
-				"Super Storage Cells can hold Items, Fluids and Mana - all at once!"
-				""
-				"These cells cannot be formatted nor upgraded."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "7DC6E09FB2FA9027"
-			tasks: [{
-				id: "6A8CDC2839F55779"
-				type: "item"
-				item: {
-					id: "ae2additions:super_cell_16m"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "30953F6E451BAA2F"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -11.0d
-			y: -17.0d
-			subtitle: "Highest Tier Storage Cell, which can contain 67,108,864 bytes of storage."
-			description: [
-				"Super Storage Cells can hold Items, Fluids and Mana - all at once!"
-				""
-				"These cells cannot be formatted nor upgraded."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "36051E2E5BC91744"
-			tasks: [{
-				id: "3D1B12C0F19B0BFF"
-				type: "item"
-				item: {
-					id: "ae2additions:super_cell_65m"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "18887866AB588782"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -12.0d
-			y: -17.0d
-			subtitle: "Highest Tier Storage Cell, which can contain 67,108,864 bytes of storage."
-			description: [
-				"67,108,864 bytes of storage can hold 8,372,224 Stacks of a single item. or 3,473,408 Stacks, while holding 300 Different items."
-				""
-				"The 65536k Storage Cell uses 131,072 bytes of data to store a single type."
-				""
-				"8 Items take up 1 byte."
-				""
-				"This cell does not accept upgrades!"
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "0E64DB2A29F809C5"
-			tasks: [{
-				id: "3C349EC67674153F"
-				type: "item"
-				item: {
-					id: "ae2additions:item_storage_cell_65536"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "1F755C17E6378AA0"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
+				item: "ae2:singularity"
 			}]
 		}
 		{
 			x: -9.0d
-			y: -9.0d
-			subtitle: "Lowest Tier fluid DISK, which can contain 1,024 droplets (12 ⁵²/₈₁ mb)."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"1 droplet (¹/₈₁ mB) of fluid takes up 1 byte."
-			]
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "004758FABD151C7A"
+			y: 10.5d
+			dependencies: ["3B096512914B9314"]
+			id: "63D27EFF4BC93638"
 			tasks: [{
-				id: "5431393D4A52CC68"
+				id: "7D6CF4670DBB1953"
 				type: "item"
-				item: {
-					id: "ae2additions:disk_fluid_1k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "22472A5FA0529871"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.0d
-			y: -10.0d
-			subtitle: "Low Tier fluid DISK, which can contain 4,096 droplets (50 ⁴⁶/₈₁ mB)."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"1 droplet (¹/₈₁ mB) of fluid takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "4908925B5307A07F"
-			tasks: [{
-				id: "62CD00EE63245701"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_fluid_4k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "3FE108925C26263D"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.0d
-			y: -11.0d
-			subtitle: "Middle Tier fluid DISK, which can contain 16,384 droplets (202 ²²/₈₁ mB)."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"1 droplet (¹/₈₁ mB) of fluid takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "36C11DD6691F4269"
-			tasks: [{
-				id: "4DF8A89B3A0E6F60"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_fluid_16k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "4DF2A6D450C90209"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.0d
-			y: -12.0d
-			subtitle: "High Tier fluid DISK, which can contain 65,536 droplets (809 ⁷/₈₁ mB)."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"1 droplet (¹/₈₁ mB) of fluid takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "18A955BD8CDE786D"
-			tasks: [{
-				id: "54A13614C10CB89C"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_fluid_64k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "3B149159551A1BF2"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.0d
-			y: -13.0d
-			subtitle: "Higher Tier fluid DISK, which can contain 262,144 droplets (3,236 ²⁸/₈₁ mB)."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"1 droplet (¹/₈₁ mB) of fluid takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "3DF93144B245CFA8"
-			tasks: [{
-				id: "018E17ACC9F07211"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_fluid_256k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "057D157A34C15EA8"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.0d
-			y: -14.0d
-			subtitle: "Even higher Tier fluid DISK, which can contain 1,048,576 droplets (12,945 ³¹/₈₁ mB)."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"1 droplet (¹/₈₁ mB) of fluid takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "390DD76BEB28E089"
-			tasks: [{
-				id: "5062F88A93091692"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_fluid_1024k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "03E1E68D98261DCE"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.0d
-			y: -15.0d
-			subtitle: "Very high Tier fluid DISK, which can contain 4,194,304 droplets (51,781 ⁴³/₈₁ mB)."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"1 droplet (¹/₈₁ mB) of fluid takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "66B5DC76B4EEC937"
-			tasks: [{
-				id: "64919C14C864683E"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_fluid_4096k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "00D7B2A6B88B577F"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.0d
-			y: -16.0d
-			subtitle: "Extremely high Tier fluid DISK, which can contain 16,777,216 droplets (207,126 ¹⁰/₈₁ mB)."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"1 droplet (¹/₈₁ mB) of fluid takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "5837BF8AC9B3D71D"
-			tasks: [{
-				id: "48DC87ED9A4D53CF"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_fluid_16384k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "0C640C7536AA75CA"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.0d
-			y: -17.0d
-			subtitle: "Highest Tier fluid DISK, which can contain 67,108,864 droplets (828,504 ⁴⁰/₈₁ mB)."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"1 droplet (¹/₈₁ mB) of fluid takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "7CA5674AB77F01D3"
-			tasks: [{
-				id: "75D2FD4B396A82D8"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_fluid_65536k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "3689C3DA15CAAD69"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -13.0d
-			y: -9.0d
-			subtitle: "Lowest Tier DISK, which can contain 1,000 items."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"However, 1 item takes up 1 byte."
-			]
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "6E54238840D4783B"
-			tasks: [{
-				id: "673A7ECF3E8C31EA"
-				type: "item"
-				item: {
-					id: "ae2things:disk_drive_1k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "322D94F8A4D8887E"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -13.0d
-			y: -10.0d
-			subtitle: "Low Tier DISK, which can contain 4,000 items."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"However, 1 item takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "6D5D3718B929F4AB"
-			tasks: [{
-				id: "423E9BB4A44B6B3C"
-				type: "item"
-				item: {
-					id: "ae2things:disk_drive_4k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "7848CA478AA1BFDD"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -13.0d
-			y: -11.0d
-			subtitle: "Middle Tier DISK, which can contain 16,000 items."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"However, 1 item takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "6D3A1045F45FA69E"
-			tasks: [{
-				id: "0ED95E9897628CD8"
-				type: "item"
-				item: {
-					id: "ae2things:disk_drive_16k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "1DAEC0E31673DDE9"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -13.0d
-			y: -12.0d
-			subtitle: "High Tier DISK, which can contain 64,000 items."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"However, 1 item takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "6BDC3795A141711F"
-			tasks: [{
-				id: "2F4CB9D82CF7DB03"
-				type: "item"
-				item: {
-					id: "ae2things:disk_drive_64k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "61F5B43959209877"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -13.0d
-			y: -13.0d
-			subtitle: "Higher Tier DISK, which can contain 262,144 items."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"However, 1 item takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "4290CC67CB9C627F"
-			tasks: [{
-				id: "506F36B0A9652E67"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_item_256k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "0F131C63BBE5CD13"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -13.0d
-			y: -14.0d
-			subtitle: "Even higher Tier DISK, which can contain 1,048,576 items."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"However, 1 item takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "065FFA7093CC8F1D"
-			tasks: [{
-				id: "7AAA98A08D005C17"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_item_1024k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "1DF72A3A113D54A1"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -13.0d
-			y: -15.0d
-			subtitle: "Very high Tier DISK, which can contain 4,194,304 items."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"However, 1 item takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "16C4CF96DCDE1C9F"
-			tasks: [{
-				id: "45EA7B54BDA049B1"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_item_4096k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "37EF2F2C6CC0B47A"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -13.0d
-			y: -16.0d
-			subtitle: "Extremely high Tier DISK, which can contain 16,777,216 items."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"However, 1 item takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "34B2EC196D37BBD5"
-			tasks: [{
-				id: "4AAA1EBECA9A1B78"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_item_16384k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "3F72CF883DC7555A"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -13.0d
-			y: -17.0d
-			subtitle: "Highest Tier DISK, which can contain 67,108,864 items."
-			description: [
-				"DISKs work like Storage Disks from Refined Storage - meaning that they have no type limits."
-				""
-				"However, 1 item takes up 1 byte."
-			]
-			hide_dependency_lines: true
-			dependencies: ["19FBAF9A70549BF5"]
-			id: "11AE46BDD53F6528"
-			tasks: [{
-				id: "0EE191E7AA6778DA"
-				type: "item"
-				item: {
-					id: "ae2additions:disk_item_65536k"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "2BF170D72B569467"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 4.5d
-			y: -1.5d
-			subtitle: "Provides 262,144 bytes of storage for crafting."
-			dependencies: ["2BE8127E1180DA21"]
-			id: "251F9FC322ED0512"
-			tasks: [{
-				id: "03206F38961D3D1E"
-				type: "item"
-				item: "ae2:256k_crafting_storage"
-			}]
-			rewards: [{
-				id: "7C966E6655B6DD55"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 0.5d
-			y: -0.5d
-			subtitle: "Provides 1 MByte of storage for crafting."
-			dependencies: ["2BE8127E1180DA21"]
-			id: "1A7613F5225E87D9"
-			tasks: [{
-				id: "23B28F74DD3DF68B"
-				type: "item"
-				item: "ae2additions:1024k_crafting_storage"
-			}]
-			rewards: [{
-				id: "558FFF0928C1B0BE"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
+				item: "ae2:quantum_entangled_singularity"
 			}]
 		}
 		{
 			x: 1.5d
-			y: -0.5d
-			subtitle: "Provides 4 MBytes of storage for crafting."
-			dependencies: ["2BE8127E1180DA21"]
-			id: "54B37947E3639AA6"
+			y: 18.5d
+			dependencies: ["01B779C245D185A3"]
+			id: "4DF1645C9C770231"
 			tasks: [{
-				id: "172C1C7F0EF4E703"
-				type: "item"
-				item: "ae2additions:4096k_crafting_storage"
-			}]
-			rewards: [{
-				id: "21AC25FA69A32FD9"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 2.5d
-			y: -0.5d
-			subtitle: "Provides 16 MBytes of storage for crafting."
-			dependencies: ["2BE8127E1180DA21"]
-			id: "113040498970252F"
-			tasks: [{
-				id: "30D1A0766804585C"
-				type: "item"
-				item: "ae2additions:16384k_crafting_storage"
-			}]
-			rewards: [{
-				id: "7DABA660AB4F6819"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 3.5d
-			y: -0.5d
-			subtitle: "Provides 64 MBytes of storage for crafting."
-			dependencies: ["2BE8127E1180DA21"]
-			id: "364A5BE6DF49FEAE"
-			tasks: [{
-				id: "020BECF4F1EA3E82"
-				type: "item"
-				item: "ae2additions:65536k_crafting_storage"
-			}]
-			rewards: [{
-				id: "70A03D8559F6DDFF"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -3.5d
-			y: -4.0d
-			subtitle: "Contrary to a standard Inscriber, Advanced Inscriber can hold entire stacks of items at once!"
-			description: [
-				"It can accept 5 Acceleration Cards to speed up processing."
-				""
-				"Additionally, it will automatically export its output into the attached ME Network!"
-			]
-			dependencies: ["42721BC1F7734286"]
-			id: "21F87EAF080BEDCF"
-			tasks: [{
-				id: "495B03BC7076DDD8"
-				type: "item"
-				item: "ae2things:advanced_inscriber"
-			}]
-			rewards: [{
-				id: "570A4AA4D0E92791"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -2.0d
-			y: -11.5d
-			subtitle: "Crystal Growth in a box!"
-			description: [
-				"It has a inventory with 27 slots for growing crystals."
-				""
-				"It can accept 3 Acceleration Cards to further speed up crystal growth."
-				""
-				"It can also automatically export grown Crystals into the attached ME Network."
-			]
-			dependencies: ["7B3F4A3D79F2988B"]
-			id: "5F14B12A3DF739A7"
-			tasks: [{
-				id: "5378BE7961B80D6B"
-				type: "item"
-				item: "ae2things:crystal_growth"
-			}]
-			rewards: [{
-				id: "26B8764FC29DD83E"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -16.5d
-			y: -7.0d
-			subtitle: "Highest Tier Storage Cell, which can contain 262,144 bytes of storage."
-			description: [
-				"It stores 130,048,000 mana."
-				"(about 130 Mana Pools)"
-			]
-			dependencies: [
-				"1C502D06D2093A4F"
-				"19FBAF9A70549BF5"
-			]
-			id: "672B1B1A28716D45"
-			tasks: [{
-				id: "27FE7B27871E203D"
+				id: "10BAC87484A3FF48"
 				type: "item"
 				item: {
-					id: "appbot:mana_storage_cell_256k"
+					id: "megacells:item_storage_cell_1m"
 					Count: 1b
 					tag: { }
 				}
 			}]
 		}
 		{
-			x: 4.5d
-			y: -0.5d
-			subtitle: "When in the Crafting CPU Multiblock, it allows processing of 1 more step in parallel."
-			dependencies: ["2BE8127E1180DA21"]
-			id: "40A8018DEDB92CD7"
+			x: 2.5d
+			y: 19.0d
+			dependencies: ["4DF1645C9C770231"]
+			id: "15CC367E51293D8D"
 			tasks: [{
-				id: "2107AA88057E5F27"
+				id: "53BAD6FC5003BFF6"
 				type: "item"
-				item: "ae2:crafting_accelerator"
-			}]
-			rewards: [{
-				id: "7FCB381D1B0FF034"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
+				item: {
+					id: "megacells:item_storage_cell_4m"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
-			x: -9.5d
-			y: -5.0d
-			subtitle: "Perfectly balanced."
-			description: [
-				"The Equal Distribution Card will ensure equal maximum amount of items/fluids that can fit into the Cell."
-				""
-				"Add it to the Cell using a Cell Workbench."
-				""
-				"Together with Overflow Destruction Card, this makes a great, compact alternative for walls of Drawers."
-			]
-			dependencies: ["5683C69200EBC4CD"]
-			id: "126ED91F2DDB5014"
+			x: 1.5d
+			y: 19.5d
+			dependencies: ["15CC367E51293D8D"]
+			id: "437B28860EAFFF6D"
 			tasks: [{
-				id: "5EBE6FD266BB954E"
+				id: "7E2A0E710BB71D13"
 				type: "item"
-				item: "ae2:equal_distribution_card"
-			}]
-			rewards: [{
-				id: "568C97838AD92DE0"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
+				item: {
+					id: "megacells:item_storage_cell_16m"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
-			x: -9.5d
-			y: -4.0d
-			subtitle: "Prevents spillouts."
-			description: [
-				"If an item/fluid would not fit inside of a Cell or would exceed the quota managed by the Equal Distribution Card, the item/fluid would be destroyed instead of filling other Cells."
-				""
-				"Add it to the Cell using a Cell Workbench."
-				""
-				"Together with Equal Distribution Card, this makes a great, compact alternative for walls of Drawers."
-			]
-			dependencies: ["5683C69200EBC4CD"]
-			id: "517D8D869BF16C7A"
+			x: 2.5d
+			y: 20.0d
+			dependencies: ["437B28860EAFFF6D"]
+			id: "4CA75106F982C0F4"
 			tasks: [{
-				id: "5F44631DB3C274F8"
+				id: "0444B3043C2EC628"
 				type: "item"
-				item: "ae2:void_card"
-			}]
-			rewards: [{
-				id: "5FD3057D1C937E26"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
+				item: {
+					id: "megacells:item_storage_cell_64m"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
-			x: -5.0d
-			y: -10.0d
-			subtitle: "Transmits only power."
-			description: [
-				"It does not transmit channels."
-				""
-				"Useful for separating Subnetworks from your main ME Network."
-			]
-			id: "00259AC734AF1B4D"
+			x: 1.5d
+			y: 20.5d
+			dependencies: ["4CA75106F982C0F4"]
+			id: "212DAE87A464AA43"
 			tasks: [{
-				id: "7E9B7D58547006CD"
+				id: "1A2F4CDE5BB15C66"
 				type: "item"
-				item: "ae2:quartz_fiber"
-			}]
-			rewards: [{
-				id: "750B0A0536E68927"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
+				item: {
+					id: "megacells:item_storage_cell_256m"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 		{
-			x: 0.0d
-			y: -4.5d
-			subtitle: "Emits a redstone signal based on contents of the ME Network."
-			description: [
-				"It can accept upgrades:"
-				""
-				"> Fuzzy Card - disregards damage and NBT when counting items in the ME Network."
-				"> Crafting Card - Redstone emission is now based on crafting status instead of item amount:"
-				""
-				"- Emit Redstone while item is crafting: Self-explainatory."
-				"- Emit Redstone to craft item: This mode will add a dummy \"pattern\" for the item, which will have no input items. While the item is requested, the Level Emitter will emit a redstone signal, until the requested amount is inserted into the ME Network."
-				""
-				"This device §ndoes NOT require a channel§r to be operational!"
-			]
-			dependencies: ["2BE8127E1180DA21"]
-			min_width: 300
-			id: "4BF6E8068B7C3090"
+			x: 4.0d
+			y: 18.5d
+			dependencies: ["12D6852D6FB79D71"]
+			id: "502E675A710EEA45"
 			tasks: [{
-				id: "2C46ECA134C472FC"
+				id: "3D9C01E67A45B64A"
 				type: "item"
-				item: "ae2:level_emitter"
+				item: {
+					id: "megacells:fluid_storage_cell_1m"
+					Count: 1b
+					tag: { }
+				}
 			}]
-			rewards: [{
-				id: "3F19628F7F67B23B"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
+		}
+		{
+			x: 5.0d
+			y: 19.0d
+			dependencies: ["502E675A710EEA45"]
+			id: "62E0C1EBD72F2718"
+			tasks: [{
+				id: "4229A3CC0151D37F"
+				type: "item"
+				item: {
+					id: "megacells:fluid_storage_cell_4m"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 19.5d
+			dependencies: ["62E0C1EBD72F2718"]
+			id: "5BD0500FD9B62B74"
+			tasks: [{
+				id: "26FCC394BA02599A"
+				type: "item"
+				item: {
+					id: "megacells:fluid_storage_cell_16m"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 20.0d
+			dependencies: ["5BD0500FD9B62B74"]
+			id: "4B75E6D5C09F5900"
+			tasks: [{
+				id: "0E1BB52981260393"
+				type: "item"
+				item: {
+					id: "megacells:fluid_storage_cell_64m"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 20.5d
+			dependencies: ["4B75E6D5C09F5900"]
+			id: "0F216FC71AA60626"
+			tasks: [{
+				id: "4B2F905E9BAE007F"
+				type: "item"
+				item: {
+					id: "megacells:fluid_storage_cell_256m"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]

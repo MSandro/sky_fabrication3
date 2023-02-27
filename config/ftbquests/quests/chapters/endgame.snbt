@@ -331,7 +331,6 @@
 			x: -0.5d
 			y: 0.0d
 			subtitle: "I hope you have farmed those."
-			dependencies: ["662B39B5C47F5D6B"]
 			id: "42710D1A071289E4"
 			tasks: [{
 				id: "322A7373F9A2CC2F"

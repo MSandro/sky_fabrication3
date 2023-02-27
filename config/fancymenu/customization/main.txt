@@ -38,6 +38,11 @@ customization {
 }
 
 customization {
+  identifier = %id=376310%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   action = hidebutton
 }
@@ -134,10 +139,20 @@ customization {
   y = -10
   scale = 1.0
   alignment = left
-  value = Sky FABRICation 3 v0.5.7a
+  value = Sky FABRICation 3 v0.6.0
 }
 
 customization {
-  identifier = %id=376310%
-  action = hidebutton
+  orientation = top-left
+  audio_source:076e3d4f-4f60-47bb-8d55-c41dcf3746bb1676760803815 = config/fancymenu/start.ogg;EXTERNAL_LOCAL;100;0
+  loop = false
+  channel = master
+  x = 0
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = f7993c68-9f18-424b-b7d8-036fa95b8e6e1676757279115
+  y = 0
+  once_per_session = true
+  height = 50
 }
+
