@@ -145,4 +145,5 @@ onEvent('tags.fluids', event => {
   event.add('c:molten_fiery', 'twilightforest:molten_fiery')
   event.add('c:fiery_essence', 'twilightforest:fiery_essence')
   event.add('c:molten_knightmetal', 'twilightforest:molten_knightmetal')
+  event.add('c:plantoil',  'createaddition:seed_oil')
 });

@@ -2305,6 +2305,32 @@
 				table_id: 13756307348121783L
 			}]
 		}
+		{
+			x: -10.0d
+			y: 0.5d
+			subtitle: "*slurp*"
+			description: [
+				"Right-Click a Blaze Burner with the Straw in hand."
+				"It will then accept fluids as fuel:"
+				"> Seed Oil - 1 bucket lasts for 1 minute,"
+				"> Bioethanol - 1 bucket lasts for 4 minutes,"
+				"> Lava - 1 bucket lasts for 16m 40s."
+			]
+			dependencies: ["5212BF6AA5940CA1"]
+			min_width: 250
+			id: "01F494CB9517D433"
+			tasks: [{
+				id: "2FD848C7153EF50C"
+				type: "item"
+				item: "createaddition:straw"
+			}]
+			rewards: [{
+				id: "3E3573F18C9A92DA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
 	]
 	quest_links: [ ]
 }

@@ -452,9 +452,9 @@
 				title: "Kibe and Rings"
 			}]
 			rewards: [{
-				id: "5EC9036E96573500"
-				type: "xp_levels"
-				xp_levels: 60
+				id: "2C01628132B04859"
+				type: "xp"
+				xp: 60
 			}]
 		}
 		{
@@ -1063,9 +1063,7 @@
 				icon: {
 					id: "kibe:white_glider"
 					Count: 1b
-					tag: {
-						Damage: 0
-					}
+					tag: { }
 				}
 				item: {
 					id: "itemfilters:or"
