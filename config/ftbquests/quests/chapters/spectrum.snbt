@@ -11,10 +11,19 @@
 		{
 			title: "Welcome to the Spectrum mod"
 			icon: "spectrum:manual"
-			x: 0.0d
+			x: -1.0d
 			y: 1.5d
-			description: ["If you need more informations, take a look in the guide-book or the Advancements."]
-			hide: true
+			description: [
+				"Spectrum is a story driven and exploration-based magic mod."
+				""
+				"Focusing on the natural energies that flow in the world, represented in color."
+				""
+				"Trying not to give everything away at first glance, Spectrum uses advancements and a manual (in game) to guide you through."
+				"Being a newer and more mysterious mod, Spectrum shouldn't have a full quest chapter. Take what you see here as a guideline."
+				""
+				"The first step is to get some Gemstone on hand using an Extractinator."
+			]
+			size: 1.25d
 			id: "6F9B2ECCE750C280"
 			tasks: [{
 				id: "3FFA395CAB5C258F"
@@ -23,10 +32,339 @@
 			}]
 		}
 		{
-			x: 17.5d
-			y: -3.5d
+			x: 9.5d
+			y: 6.0d
+			description: [
+				"The Mermaids Brush can be obtained with Botania. Place it down and it will drop gems after some time."
+				""
+				"A Vacuum Hopper is recommended."
+			]
 			hide_dependency_lines: true
-			dependencies: ["0F8957C09DC1ADE9"]
+			dependencies: ["790E66B088B92037"]
+			hide: true
+			id: "5584A52CAA574CFC"
+			tasks: [{
+				id: "7D947A422124FBFF"
+				type: "advancement"
+				advancement: "spectrum:collect_mermaids_gem"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2859B7AA60045469"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["2CC5282720701CB2"]
+			hide: true
+			id: "042E7914986F8A32"
+			tasks: [{
+				id: "050348C6180B542B"
+				type: "advancement"
+				advancement: "spectrum:collect_all_basic_shards"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4EEA476803C3672F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			description: [
+				"Pigment Pedestals can auto-craft using Crafting Tablets as a pattern."
+				""
+				"However, it is not recommended to automate the Pigment Pedestal with Hopper below due to massive TPS lag."
+				""
+				"I/O is sided: you can input *only* from the top, output *only* from the bottom (TPS unfriendly), or it can automatically output items into the Chest above."
+				""
+				"Do you see a problem?"
+			]
+			dependencies: ["042E7914986F8A32"]
+			hide: true
+			hide_text_until_complete: true
+			id: "74F0C68679B78B5D"
+			tasks: [{
+				id: "495C5302C801134A"
+				type: "advancement"
+				advancement: "spectrum:craft_colored_pedestal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1D92BB2FDA46790F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["74F0C68679B78B5D"]
+			hide: true
+			id: "3A53CED5C9ABC06B"
+			tasks: [{
+				id: "5A0D90E9F122144F"
+				type: "advancement"
+				advancement: "spectrum:build_basic_pedestal_structure"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1D32B309EFF17941"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["This new crafting table will help you harness the power of gemstones."]
+			dependencies: ["6F9B2ECCE750C280"]
+			hide: true
+			id: "777CED8399E65C29"
+			tasks: [{
+				id: "4D2C0E433C9185B6"
+				type: "advancement"
+				advancement: "spectrum:place_pedestal"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "12C6CB96FD6FD2CD"
+					type: "item"
+					item: "minecraft:anvil"
+				}
+				{
+					id: "47B0357A4ABA1193"
+					type: "loot"
+					table_id: 13756307348121783L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			description: ["Turns out dropping an anvil on something is pretty useful!"]
+			dependencies: ["777CED8399E65C29"]
+			hide: true
+			id: "1481A572B8751B94"
+			tasks: [{
+				id: "4DCB4066706CAA1D"
+				type: "advancement"
+				advancement: "spectrum:collect_gemstone_powder"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "36ACE50D44A6D519"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			dependencies: [
+				"2F56655D7C4C3882"
+				"24C70DAB3F66ECB2"
+			]
+			hide: true
+			id: "678BCF3361AE5512"
+			tasks: [{
+				id: "5C5AD91BEF4B518D"
+				type: "advancement"
+				advancement: "spectrum:midgame/craft_bottle_of_failing"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2DD4B56B20CF129B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			subtitle: "Obtainable using Botania's Petal Apothecary."
+			description: ["They can be farmed by placing them in a 1-block deep body of water, with Clay underneath."]
+			dependencies: ["74F0C68679B78B5D"]
+			hide: true
+			hide_text_until_complete: true
+			id: "24C70DAB3F66ECB2"
+			tasks: [{
+				id: "36D473C7A3DA8BED"
+				type: "advancement"
+				advancement: "spectrum:collect_quitoxic_reeds"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "36A116E4625D11E6"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			description: ["Use your Pigment Pedestal to craft an item using gemstone powder. It seems to react to redstone?"]
+			dependencies: ["1481A572B8751B94"]
+			hide: true
+			id: "36258B9E1280A188"
+			tasks: [{
+				id: "3248FA069DECAD16"
+				type: "advancement"
+				advancement: "spectrum:craft_using_pedestal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5A9E1AF931F9CCA4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			description: ["Obtainable with the Extractinator!"]
+			dependencies: ["36258B9E1280A188"]
+			hide: true
+			id: "5E0135DE9E0D30CE"
+			tasks: [{
+				id: "6CA9C223DFA792D2"
+				type: "advancement"
+				advancement: "spectrum:collect_sparklestone"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4F9E610F1DD722F7"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			description: [
+				"To unlock this recipe you must now venture to the depths of The Nether and aquire a smoldering ingredient."
+				""
+				"Time to tinker with your new magical abilities. Create life! Or more like... microorganisms. Weak and slow. It's something. What do they eat?"
+			]
+			dependencies: ["5E0135DE9E0D30CE"]
+			hide: true
+			id: "1E161856A9975BCE"
+			tasks: [{
+				id: "5312C1B5091577AF"
+				type: "advancement"
+				advancement: "spectrum:craft_bottle_of_fading"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3B7BC022A5A971F3"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.5d
+			description: [
+				"Spill out your microorganisms and place organic blocks around it so it can feast!"
+				""
+				"In the leftovers you find a new material!"
+			]
+			dependencies: ["1E161856A9975BCE"]
+			hide: true
+			id: "371F3371DC37B760"
+			tasks: [{
+				id: "33D74A4188B867BE"
+				type: "advancement"
+				advancement: "spectrum:collect_vegetal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1CA80A7983D7CCC0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.5d
+			description: ["Here come the colors! Craft a colored sapling and bring color into the world!"]
+			dependencies: ["371F3371DC37B760"]
+			hide: true
+			id: "265E77D910C56546"
+			tasks: [{
+				id: "68A98F4268DBD672"
+				type: "advancement"
+				advancement: "spectrum:craft_colored_sapling"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "40EE17DAA7859E8B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			description: ["Break the leaves of a colored tree to get the pure pigment you so desired. The leaves release their precious harvest only when broken by you personally."]
+			dependencies: ["265E77D910C56546"]
+			hide: true
+			id: "723E1C665A781C52"
+			tasks: [{
+				id: "279233226F0D7AB6"
+				type: "advancement"
+				advancement: "spectrum:collect_pigment"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1CF3AA62BAB7B6BE"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			dependencies: [
+				"723E1C665A781C52"
+				"2B9252657949C67E"
+				"64CFFA9B0256E062"
+				"1F17B62A67347D61"
+				"782330BECD66EFD5"
+				"0777D896D81DEA4A"
+				"1FCEEFE4A3804DEF"
+				"013FC32A48DE8E39"
+				"4451D4AA7CB1BFF2"
+				"54A1328F07B4BF16"
+				"5008ED129CAE4EED"
+				"2B486D1AE4A59F73"
+			]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "4C06D25DACB5536C"
+			tasks: [{
+				id: "4D844E1A8EE700CD"
+				type: "advancement"
+				advancement: "spectrum:collect_all_basic_pigments_besides_brown"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "48B135B3B2182FDB"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: ["723E1C665A781C52"]
 			hide: true
 			id: "1FCEEFE4A3804DEF"
 			tasks: [{
@@ -34,12 +372,17 @@
 				type: "item"
 				item: "spectrum:orange_pigment"
 			}]
+			rewards: [{
+				id: "124FC5D47240F437"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 16.0d
-			y: -4.5d
+			x: 8.0d
+			y: 6.5d
 			hide_dependency_lines: true
-			dependencies: ["0F8957C09DC1ADE9"]
+			dependencies: ["723E1C665A781C52"]
 			hide: true
 			id: "0777D896D81DEA4A"
 			tasks: [{
@@ -47,12 +390,17 @@
 				type: "item"
 				item: "spectrum:magenta_pigment"
 			}]
+			rewards: [{
+				id: "3D4B1E010CDA62C8"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 15.5d
-			y: -5.5d
+			x: 5.0d
+			y: 5.5d
 			hide_dependency_lines: true
-			dependencies: ["0F8957C09DC1ADE9"]
+			dependencies: ["723E1C665A781C52"]
 			hide: true
 			id: "782330BECD66EFD5"
 			tasks: [{
@@ -60,12 +408,17 @@
 				type: "item"
 				item: "spectrum:light_blue_pigment"
 			}]
+			rewards: [{
+				id: "529BD938798A7297"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 17.5d
-			y: -5.5d
+			x: 8.0d
+			y: 2.5d
 			hide_dependency_lines: true
-			dependencies: ["0F8957C09DC1ADE9"]
+			dependencies: ["723E1C665A781C52"]
 			hide: true
 			id: "1F17B62A67347D61"
 			tasks: [{
@@ -73,12 +426,17 @@
 				type: "item"
 				item: "spectrum:yellow_pigment"
 			}]
+			rewards: [{
+				id: "5C69CFD4FD310359"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 15.5d
-			y: -3.5d
+			x: 5.0d
+			y: 2.5d
 			hide_dependency_lines: true
-			dependencies: ["0F8957C09DC1ADE9"]
+			dependencies: ["723E1C665A781C52"]
 			hide: true
 			id: "64CFFA9B0256E062"
 			tasks: [{
@@ -86,12 +444,17 @@
 				type: "item"
 				item: "spectrum:lime_pigment"
 			}]
+			rewards: [{
+				id: "6F1CCF589652C316"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 16.5d
-			y: -3.5d
+			x: 8.0d
+			y: 5.5d
 			hide_dependency_lines: true
-			dependencies: ["0F8957C09DC1ADE9"]
+			dependencies: ["723E1C665A781C52"]
 			hide: true
 			id: "2B9252657949C67E"
 			tasks: [{
@@ -99,12 +462,17 @@
 				type: "item"
 				item: "spectrum:pink_pigment"
 			}]
+			rewards: [{
+				id: "66A2CE85E4CA68C6"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 14.5d
-			y: -5.5d
-			hide_dependency_lines: false
-			dependencies: ["0F8957C09DC1ADE9"]
+			x: 5.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["723E1C665A781C52"]
 			hide: true
 			id: "013FC32A48DE8E39"
 			tasks: [{
@@ -112,12 +480,17 @@
 				type: "item"
 				item: "spectrum:cyan_pigment"
 			}]
+			rewards: [{
+				id: "67A9FDD934B7869B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 15.0d
-			y: -4.5d
+			x: 8.0d
+			y: 7.5d
 			hide_dependency_lines: true
-			dependencies: ["0F8957C09DC1ADE9"]
+			dependencies: ["723E1C665A781C52"]
 			hide: true
 			id: "4451D4AA7CB1BFF2"
 			tasks: [{
@@ -125,12 +498,17 @@
 				type: "item"
 				item: "spectrum:purple_pigment"
 			}]
+			rewards: [{
+				id: "792070E157CF1065"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 16.5d
-			y: -5.5d
+			x: 5.0d
+			y: 4.5d
 			hide_dependency_lines: true
-			dependencies: ["0F8957C09DC1ADE9"]
+			dependencies: ["723E1C665A781C52"]
 			hide: true
 			id: "54A1328F07B4BF16"
 			tasks: [{
@@ -138,12 +516,17 @@
 				type: "item"
 				item: "spectrum:blue_pigment"
 			}]
+			rewards: [{
+				id: "35756DC7E76EE4E2"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 14.5d
-			y: -3.5d
+			x: 5.0d
+			y: 3.5d
 			hide_dependency_lines: true
-			dependencies: ["0F8957C09DC1ADE9"]
+			dependencies: ["723E1C665A781C52"]
 			hide: true
 			id: "5008ED129CAE4EED"
 			tasks: [{
@@ -151,12 +534,17 @@
 				type: "item"
 				item: "spectrum:green_pigment"
 			}]
+			rewards: [{
+				id: "3CE84D947815AF7D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 17.0d
-			y: -4.5d
+			x: 8.0d
+			y: 4.5d
 			hide_dependency_lines: true
-			dependencies: ["0F8957C09DC1ADE9"]
+			dependencies: ["723E1C665A781C52"]
 			hide: true
 			id: "2B486D1AE4A59F73"
 			tasks: [{
@@ -164,2198 +552,702 @@
 				type: "item"
 				item: "spectrum:red_pigment"
 			}]
-		}
-		{
-			x: 2.5d
-			y: 0.0d
-			dependencies: ["6F9B2ECCE750C280"]
-			hide: true
-			id: "288F013D959A5F7B"
-			tasks: [{
-				id: "68AB0959F007F297"
-				type: "item"
-				item: "minecraft:amethyst_shard"
+			rewards: [{
+				id: "5453E67AEACD0B09"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
-			dependencies: ["6F9B2ECCE750C280"]
-			hide: true
-			id: "6D7A1D2B2D51D2E6"
-			tasks: [{
-				id: "224665C4277B78A9"
-				type: "item"
-				item: "spectrum:topaz_shard"
-			}]
-		}
-		{
-			x: 2.5d
-			y: 2.0d
-			dependencies: ["6F9B2ECCE750C280"]
-			hide: true
-			id: "625897FEBDB07708"
-			tasks: [{
-				id: "6BB16C441051AACA"
-				type: "item"
-				item: "spectrum:citrine_shard"
-			}]
-		}
-		{
-			title: "Any Pigment Pedestal"
 			x: 6.5d
-			y: 1.0d
+			y: 1.5d
 			dependencies: [
-				"312F2B00E056C919"
-				"708056E4348F8AF9"
+				"4C06D25DACB5536C"
+				"3A53CED5C9ABC06B"
 			]
 			hide: true
-			id: "5C8397CB649048D9"
+			id: "49D9ECC98F3A5E05"
 			tasks: [{
-				id: "17CECD7F4C9BB2C9"
-				type: "item"
-				title: "Any Pigment Pedestal"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "spectrum:pedestals"
-					}
-				}
-			}]
-		}
-		{
-			x: 4.5d
-			y: 1.0d
-			dependencies: [
-				"625897FEBDB07708"
-				"288F013D959A5F7B"
-				"6D7A1D2B2D51D2E6"
-			]
-			hide: true
-			id: "708056E4348F8AF9"
-			tasks: [{
-				id: "3C3D6EB06A7CD768"
-				type: "advancement"
-				advancement: "spectrum:collect_gemstone_powder"
-				criterion: ""
-			}]
-		}
-		{
-			x: 8.5d
-			y: 1.0d
-			dependencies: ["5C8397CB649048D9"]
-			hide: true
-			id: "0C6801E2945A1E82"
-			tasks: [{
-				id: "7B2F5DBF51721D18"
-				type: "advancement"
-				advancement: "spectrum:craft_colored_pedestal"
-				criterion: ""
-			}]
-		}
-		{
-			x: 12.0d
-			y: -4.5d
-			dependencies: ["377A9775CF15B9C7"]
-			hide: true
-			id: "19E75CF6C2D34DC5"
-			tasks: [{
-				id: "37B9C5CD83AD7A43"
-				type: "item"
-				title: "Any #spectrum:colored_saplings"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "spectrum:colored_saplings"
-					}
-				}
-			}]
-		}
-		{
-			x: 2.5d
-			y: 3.0d
-			dependencies: ["6F9B2ECCE750C280"]
-			hide: true
-			id: "312F2B00E056C919"
-			tasks: [{
-				id: "0D1AC0C40B79E9BC"
-				type: "item"
-				item: "spectrum:paintbrush"
-			}]
-		}
-		{
-			x: 10.0d
-			y: -1.5d
-			dependencies: ["0C6801E2945A1E82"]
-			hide: true
-			id: "20F6F90726EA291A"
-			tasks: [{
-				id: "42667CAEBAAEB4DE"
-				type: "item"
-				item: "spectrum:bottle_of_fading"
-			}]
-		}
-		{
-			x: 11.0d
-			y: -3.0d
-			dependencies: ["20F6F90726EA291A"]
-			hide: true
-			id: "377A9775CF15B9C7"
-			tasks: [{
-				id: "0710304A59AF6E1E"
-				type: "item"
-				item: "spectrum:vegetal"
-			}]
-		}
-		{
-			x: 14.0d
-			y: -4.5d
-			dependencies: ["19E75CF6C2D34DC5"]
-			hide: true
-			id: "0F8957C09DC1ADE9"
-			tasks: [{
-				id: "7402B40178FEAE93"
-				type: "advancement"
-				advancement: "spectrum:collect_pigment"
-				criterion: ""
-			}]
-		}
-		{
-			x: 10.5d
-			y: 1.0d
-			dependencies: ["0C6801E2945A1E82"]
-			hide: true
-			id: "1E34FD20594B8724"
-			tasks: [{
-				id: "5B762DD020D36A52"
+				id: "2FD8A5F5867DD21E"
 				type: "advancement"
 				advancement: "spectrum:build_fusion_shrine"
 				criterion: ""
 			}]
+			rewards: [{
+				id: "0AE6F7E82DE777F4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["49D9ECC98F3A5E05"]
+			hide: true
+			id: "6F3F4B2ADAAED3C1"
+			tasks: [{
+				id: "7D0EB9275BA39983"
+				type: "advancement"
+				advancement: "spectrum:create_onyx_shard"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6029A74459C27B43"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			dependencies: ["6F3F4B2ADAAED3C1"]
+			hide: true
+			id: "6D98F53C0C9748C4"
+			tasks: [{
+				id: "3BD1F28CE6C6D457"
+				type: "advancement"
+				advancement: "spectrum:craft_onyx_pedestal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "10F0A4EE7E7E6803"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			dependencies: ["6D98F53C0C9748C4"]
+			hide: true
+			id: "681C638B38019A73"
+			tasks: [{
+				id: "11534701EC58670B"
+				type: "advancement"
+				advancement: "spectrum:midgame/build_advanced_pedestal_structure"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4740DB8D7DFEE405"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.5d
-			y: 1.0d
-			dependencies: ["1E34FD20594B8724"]
+			y: 1.5d
+			dependencies: ["681C638B38019A73"]
 			hide: true
-			id: "1579348A80AED8CE"
+			id: "2F56655D7C4C3882"
 			tasks: [{
-				id: "1848DB5EABCD1C0D"
-				type: "item"
-				item: "spectrum:onyx_shard"
+				id: "0F13414A52097D55"
+				type: "advancement"
+				advancement: "spectrum:midgame/collect_scarlet"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "28F8FB582AFFC021"
+				type: "loot"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
-			title: "Onyx Pigment Pedestal"
-			x: 14.5d
-			y: 1.0d
-			dependencies: ["1579348A80AED8CE"]
-			hide: true
-			id: "37225136C817718C"
-			tasks: [{
-				id: "0A7669F15D35A178"
-				type: "item"
-				item: "spectrum:pedestal_onyx"
-			}]
-		}
-		{
-			x: 5.0d
-			y: -1.5d
-			dependencies: ["5C8397CB649048D9"]
-			hide: true
-			id: "7ADF10843EF07CDE"
-			tasks: [
-				{
-					id: "2FD6CB1FE5EE644C"
-					type: "item"
-					item: {
-						id: "spectrum:emergency_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "415FEE121EC7F0E9"
-					type: "item"
-					item: {
-						id: "spectrum:emergency_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "494539CF6D92808A"
-					type: "item"
-					item: {
-						id: "spectrum:emergency_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "2023DE9CBCD9E022"
-					type: "item"
-					item: {
-						id: "spectrum:emergency_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
+			x: 14.0d
+			y: 1.5d
+			description: [
+				"Your first Experiments were successful. But there has to be More..."
+				""
+				"This blob seems likely to be unsatisified with anything but the hardest of materials."
 			]
+			dependencies: ["678BCF3361AE5512"]
+			hide: true
+			id: "1810EB195B0CC509"
+			tasks: [{
+				id: "7889167DE36DEF22"
+				type: "advancement"
+				advancement: "spectrum:midgame/collect_neolith"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5653ABF9D4C32A2D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 6.0d
-			y: -3.5d
-			dependencies: ["4DD9959AA5ACC4DA"]
+			x: 11.0d
+			y: 6.0d
+			description: [
+				"You can submerge your Mermaids Brushes and Quitoxic Reeds in this fluid."
+				""
+				"They will grow faster!"
+			]
+			dependencies: [
+				"5584A52CAA574CFC"
+				"681C638B38019A73"
+			]
 			hide: true
-			id: "1DBAEFB322231C4E"
+			dependency_requirement: "one_completed"
+			hide_text_until_complete: true
+			id: "0F6E96D9C9F5EF35"
 			tasks: [{
-				id: "6E4426C9A47D883B"
-				type: "item"
-				item: {
-					id: "spectrum:voiding_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "spectrum:voiding"
-							lvl: 1s
-						}]
-					}
-				}
+				id: "6D58C64A9CC63876"
+				type: "advancement"
+				advancement: "spectrum:midgame/enter_liquid_crystal"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "24EEBA48321D09F0"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 6.0d
+			dependencies: ["0F6E96D9C9F5EF35"]
+			hide: false
+			id: "5EA323A52C146DEA"
+			tasks: [{
+				id: "42F25E8A341BEB26"
+				type: "advancement"
+				advancement: "spectrum:midgame/build_enchanting_structure"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "05C1C6C9F5CECF91"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 3.0d
+			dependencies: ["1810EB195B0CC509"]
+			hide: true
+			id: "2AB88707D86F0506"
+			tasks: [{
+				id: "0E372556B55A9935"
+				type: "advancement"
+				advancement: "spectrum:midgame/collect_azurite"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "396317CFD5EB00BF"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.0d
+			description: ["Is your Failing spreading too far? Reverse its consumption with Decay Away!"]
+			dependencies: ["2AB88707D86F0506"]
+			hide: true
+			id: "0FC449098A9EAD1D"
+			tasks: [{
+				id: "0A9087BFACBDF44A"
+				type: "advancement"
+				advancement: "spectrum:midgame/craft_bottle_of_decay_away"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "40DACBBDC54E040E"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.5d
+			description: ["Refine raw Azurite in the Fusion Shrine. You didn't think it would only be used once did you?"]
+			dependencies: ["2AB88707D86F0506"]
+			hide: true
+			id: "28CB44142633D257"
+			tasks: [{
+				id: "7A826E0E7E0F7C87"
+				type: "advancement"
+				advancement: "spectrum:midgame/create_refined_azurite"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1143364F1A2B988F"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			description: ["Spectrum Mid Game"]
+			id: "5D1A91608FE45D0A"
+			tasks: [{
+				id: "4BA0EB2C5D96C882"
+				type: "advancement"
+				advancement: "spectrum:midgame/spectrum_midgame"
+				criterion: ""
 			}]
 		}
 		{
 			x: 7.0d
 			y: -1.5d
-			dependencies: ["5C8397CB649048D9"]
-			hide: true
-			id: "435748796136AF52"
+			description: ["Spectrum Early Game"]
+			id: "790E66B088B92037"
 			tasks: [{
-				id: "71C0E81F321B0B9D"
-				type: "item"
-				item: {
-					id: "spectrum:looting_falchion"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:looting"
-							lvl: 3s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: 8.0d
-			y: -1.5d
-			dependencies: ["5C8397CB649048D9"]
-			hide: true
-			id: "09047AC3CED341E9"
-			tasks: [{
-				id: "1C1E68C20AB45335"
-				type: "item"
-				item: {
-					id: "spectrum:fortune_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:fortune"
-							lvl: 3s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: 14.5d
-			y: 2.5d
-			dependencies: ["37225136C817718C"]
-			hide: true
-			id: "6D08AD15B16564DC"
-			tasks: [{
-				id: "05395E919C60FC97"
-				type: "item"
-				item: "spectrum:bottle_of_failing"
-			}]
-		}
-		{
-			x: 14.5d
-			y: 4.0d
-			dependencies: ["6D08AD15B16564DC"]
-			hide: true
-			id: "63D58D2720C33A19"
-			tasks: [{
-				id: "185FC6AF4932B535"
-				type: "item"
-				item: "spectrum:neolith"
-			}]
-		}
-		{
-			x: 15.5d
-			y: 5.5d
-			dependencies: [
-				"63D58D2720C33A19"
-				"3D5D6C00F8BD053A"
-			]
-			hide: true
-			id: "4177CB710050A003"
-			tasks: [{
-				id: "4E5ECEC128D86B33"
-				type: "item"
-				item: "spectrum:refined_azurite"
-			}]
-		}
-		{
-			x: 16.5d
-			y: 4.0d
-			hide_dependency_lines: true
-			dependencies: ["63D58D2720C33A19"]
-			hide: true
-			id: "3D5D6C00F8BD053A"
-			tasks: [{
-				id: "2F1A7E4819C1CB10"
+				id: "5EA6ED20EC868381"
 				type: "advancement"
-				advancement: "spectrum:midgame/collect_azurite"
+				advancement: "spectrum:spectrum"
 				criterion: ""
 			}]
 		}
 		{
-			x: 18.5d
-			y: 1.0d
-			dependencies: ["37225136C817718C"]
-			hide: true
-			id: "025571B8D640D2B0"
-			tasks: [{
-				id: "0E7F839D2E37D3E6"
-				type: "advancement"
-				advancement: "spectrum:collect_mermaids_gem"
-				criterion: ""
-			}]
-		}
-		{
-			x: 23.0d
-			y: 1.0d
-			dependencies: ["025571B8D640D2B0"]
-			hide: true
-			id: "70B1CEAA44F78F99"
-			tasks: [{
-				id: "00FF284DC1552724"
-				type: "item"
-				item: "spectrum:liquid_crystal_bucket"
-			}]
-		}
-		{
-			x: 27.0d
-			y: 1.0d
-			dependencies: ["70B1CEAA44F78F99"]
-			hide: true
-			id: "626C243897D9F583"
-			tasks: [{
-				id: "7B0361F06D25BBE7"
-				type: "item"
-				item: "spectrum:pigment_palette"
-			}]
-		}
-		{
-			x: 18.5d
-			y: 2.5d
-			hide_dependency_lines: true
-			dependencies: ["4177CB710050A003"]
-			hide: true
-			id: "5C20ED7840209816"
-			tasks: [{
-				id: "40E9DD0206C52997"
-				type: "item"
-				item: "spectrum:fanciful_stone_ring"
-			}]
-		}
-		{
-			x: 20.5d
-			y: 5.5d
-			hide_dependency_lines: true
-			dependencies: ["4177CB710050A003"]
-			hide: true
-			id: "699DB3D4EEC28FA6"
-			tasks: [{
-				id: "69CEF8B2683C3C2A"
-				type: "item"
-				item: "spectrum:fanciful_belt"
-			}]
-		}
-		{
-			x: 23.5d
-			y: 5.5d
-			hide_dependency_lines: true
-			dependencies: ["4177CB710050A003"]
-			hide: true
-			id: "7AEE4DAEC7057A0B"
-			tasks: [{
-				id: "79AD7E35785B1C2D"
-				type: "item"
-				item: "spectrum:fanciful_pendant"
-			}]
-		}
-		{
-			x: 27.5d
-			y: 2.5d
-			hide_dependency_lines: true
-			dependencies: ["4177CB710050A003"]
-			hide: true
-			id: "53D8BE62AABD61EE"
-			tasks: [{
-				id: "68F5A512B4FD6225"
-				type: "item"
-				item: "spectrum:fanciful_circlet"
-			}]
-		}
-		{
-			x: 26.0d
-			y: 5.5d
-			hide_dependency_lines: true
-			dependencies: ["4177CB710050A003"]
-			hide: true
-			id: "27333A9945C4DA64"
-			tasks: [{
-				id: "0890FDC70021B75D"
-				type: "item"
-				item: "spectrum:fanciful_gloves"
-			}]
-		}
-		{
-			x: 27.0d
+			x: 14.0d
 			y: 0.0d
-			dependencies: ["70B1CEAA44F78F99"]
-			hide: true
-			id: "388E3C0F1444D3E0"
-			tasks: [{
-				id: "1D55AFDD3FF4C46F"
-				type: "item"
-				item: "spectrum:seven_league_boots"
-			}]
-		}
-		{
-			x: 20.0d
-			y: 3.5d
-			dependencies: [
-				"70B1CEAA44F78F99"
-				"5C20ED7840209816"
+			description: [
+				"This item seems to be related to storms..."
+				"Perhaps there is a item, that makes it more likely for lightning bolt to strike..."
 			]
-			hide: true
-			id: "7A78F452D82AB0D3"
+			dependencies: ["1810EB195B0CC509"]
+			id: "38BEF83AFD8EA081"
 			tasks: [{
-				id: "20FAEAC9B3E07731"
-				type: "item"
-				item: "spectrum:heartsingers_reward"
+				id: "37714CE4A2C0677A"
+				type: "advancement"
+				advancement: "spectrum:midgame/collect_lightning_stone"
+				criterion: ""
 			}]
-		}
-		{
-			x: 20.0d
-			y: 2.5d
-			dependencies: [
-				"5C20ED7840209816"
-				"70B1CEAA44F78F99"
-			]
-			hide: true
-			id: "2AA065A634A30827"
-			tasks: [{
-				id: "12B57437C796BF9A"
-				type: "item"
-				item: "spectrum:jeopardant"
-			}]
-		}
-		{
-			x: 20.0d
-			y: 4.5d
-			dependencies: [
-				"70B1CEAA44F78F99"
-				"699DB3D4EEC28FA6"
-			]
-			hide: true
-			id: "31690466F77D5218"
-			tasks: [{
-				id: "23C6585FB5DBFAB2"
-				type: "item"
-				item: "spectrum:take_off_belt"
-			}]
-		}
-		{
-			x: 21.0d
-			y: 4.5d
-			dependencies: [
-				"70B1CEAA44F78F99"
-				"699DB3D4EEC28FA6"
-			]
-			hide: true
-			id: "1F025ED8628D48B7"
-			tasks: [{
-				id: "17775A527834987D"
-				type: "item"
-				item: "spectrum:azure_dike_belt"
-			}]
-		}
-		{
-			x: 22.5d
-			y: 4.5d
-			dependencies: [
-				"70B1CEAA44F78F99"
-				"7AEE4DAEC7057A0B"
-			]
-			hide: true
-			id: "7339C69E58130684"
-			tasks: [{
-				id: "3F6CEB0CD94C7A39"
-				type: "item"
-				item: "spectrum:totem_pendant"
-			}]
-		}
-		{
-			x: 23.5d
-			y: 4.5d
-			dependencies: [
-				"70B1CEAA44F78F99"
-				"7AEE4DAEC7057A0B"
-			]
-			hide: true
-			id: "282A10ABEB4CA6B5"
-			tasks: [{
-				id: "2AD3BE11CD2F8EE6"
-				type: "item"
-				item: "spectrum:shieldgrasp_amulet"
-			}]
-		}
-		{
-			x: 24.5d
-			y: 4.5d
-			dependencies: [
-				"70B1CEAA44F78F99"
-				"7AEE4DAEC7057A0B"
-			]
-			hide: true
-			id: "50547DFAE9F40A17"
-			tasks: [{
-				id: "712B93D515651734"
-				type: "item"
-				item: "spectrum:lesser_potion_pendant"
-			}]
-		}
-		{
-			x: 26.0d
-			y: 4.5d
-			dependencies: [
-				"70B1CEAA44F78F99"
-				"27333A9945C4DA64"
-			]
-			hide: true
-			id: "3705EC6824D39CDF"
-			tasks: [{
-				id: "075A3450D4128E7A"
-				type: "item"
-				item: "spectrum:gloves_of_dawns_grasp"
-			}]
-		}
-		{
-			x: 26.0d
-			y: 2.5d
-			dependencies: [
-				"70B1CEAA44F78F99"
-				"53D8BE62AABD61EE"
-			]
-			hide: true
-			id: "11D467D94A9C7B98"
-			tasks: [{
-				id: "64D5AD13A600AEE5"
-				type: "item"
-				item: "spectrum:tidal_circlet"
-			}]
-		}
-		{
-			x: 26.0d
-			y: 3.5d
-			dependencies: [
-				"70B1CEAA44F78F99"
-				"53D8BE62AABD61EE"
-			]
-			hide: true
-			id: "36710BE4AD182986"
-			tasks: [{
-				id: "2058188CA1CF2100"
-				type: "item"
-				item: "spectrum:ashen_circlet"
-			}]
-		}
-		{
-			x: 26.0d
-			y: 1.5d
-			dependencies: [
-				"70B1CEAA44F78F99"
-				"53D8BE62AABD61EE"
-			]
-			hide: true
-			id: "61393E2F88613852"
-			tasks: [{
-				id: "4404B2FB6F651547"
-				type: "item"
-				item: "spectrum:whispy_circlet"
-			}]
-		}
-		{
-			x: 27.0d
-			y: -1.0d
-			dependencies: [
-				"70B1CEAA44F78F99"
-				"45729C328A42091F"
-				"2134D86E54B29C82"
-			]
-			hide: true
-			id: "036EB74BBD0B6150"
-			tasks: [{
-				id: "001D498849D92956"
-				type: "item"
-				item: "spectrum:radiance_pin"
-			}]
-		}
-		{
-			x: 23.0d
-			y: -1.0d
-			description: ["Shift rightclick a shooting star"]
-			hide_dependency_lines: false
-			dependencies: ["70B1CEAA44F78F99"]
-			hide: true
-			id: "69CAFA62EF0BD36B"
-			tasks: [{
-				id: "6D19F71DA93D4EB1"
-				type: "item"
-				title: "Any #spectrum:shooting_stars"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "spectrum:shooting_stars"
-					}
-				}
-			}]
-		}
-		{
-			x: 24.0d
-			y: -0.5d
-			dependencies: ["69CAFA62EF0BD36B"]
-			hide: true
-			id: "45729C328A42091F"
-			tasks: [{
-				id: "1A775384AD734469"
-				type: "item"
-				item: "spectrum:shooting_star"
-			}]
-		}
-		{
-			x: 24.0d
-			y: -1.5d
-			dependencies: ["69CAFA62EF0BD36B"]
-			hide: true
-			id: "2134D86E54B29C82"
-			tasks: [{
-				id: "502D4BAF4A7D9503"
-				type: "item"
-				item: "spectrum:stardust"
-			}]
-		}
-		{
-			x: 20.0d
-			y: 1.5d
-			dependencies: [
-				"5C20ED7840209816"
-				"70B1CEAA44F78F99"
-			]
-			hide: true
-			id: "05F0FD8FF28BA909"
-			tasks: [{
-				id: "7E914F1784087C04"
-				type: "item"
-				item: "spectrum:azure_dike_ring"
-			}]
-		}
-		{
-			x: 8.5d
-			y: 3.5d
-			dependencies: ["0C6801E2945A1E82"]
-			hide: true
-			id: "222E8B917DB4AB66"
-			tasks: [{
-				id: "3AB5F37827372E4F"
-				type: "item"
-				item: "spectrum:ender_treasure"
-			}]
-		}
-		{
-			x: 8.0d
-			y: 4.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"222E8B917DB4AB66"
-				"097C9F328FC6F0CC"
-			]
-			hide: true
-			id: "1835ADB9512039C0"
-			tasks: [{
-				id: "6420CBE9CF76C6D5"
-				type: "item"
-				item: "spectrum:universe_spyhole"
-			}]
-		}
-		{
-			x: 9.0d
-			y: 2.5d
-			hide_dependency_lines: true
-			dependencies: ["222E8B917DB4AB66"]
-			hide: true
-			id: "7E68FE622A0E1CC8"
-			tasks: [{
-				id: "51E67549CDA47A8E"
-				type: "item"
-				item: "spectrum:ender_glass"
-			}]
-		}
-		{
-			x: 9.5d
-			y: 3.5d
-			hide_dependency_lines: true
-			dependencies: ["222E8B917DB4AB66"]
-			hide: true
-			id: "4FDF7098E93D8CF8"
-			tasks: [{
-				id: "16CBC567C8603931"
-				type: "item"
-				item: "spectrum:ender_splice"
-			}]
-		}
-		{
-			x: 9.0d
-			y: 4.5d
-			hide_dependency_lines: true
-			dependencies: ["222E8B917DB4AB66"]
-			hide: true
-			id: "290D51ED0DD15839"
-			tasks: [{
-				id: "16FE2B8703EA1077"
-				type: "item"
-				item: "spectrum:ender_bag"
-			}]
-		}
-		{
-			x: 7.5d
-			y: 3.5d
-			hide_dependency_lines: true
-			dependencies: ["222E8B917DB4AB66"]
-			hide: true
-			id: "3FBC5C7DAA4D3C7C"
-			tasks: [{
-				id: "3E60A3B70BD4849E"
-				type: "item"
-				item: "spectrum:ender_hopper"
-			}]
-		}
-		{
-			x: 8.0d
-			y: 2.5d
-			hide_dependency_lines: true
-			dependencies: ["222E8B917DB4AB66"]
-			hide: true
-			id: "6DB0E6567A1C383B"
-			tasks: [{
-				id: "3F53F714F7125731"
-				type: "item"
-				item: "spectrum:ender_dropper"
-			}]
-		}
-		{
-			x: 19.5d
-			y: -3.0d
-			hide_dependency_lines: false
-			dependencies: [
-				"70B1CEAA44F78F99"
-				"7BEE50506D406448"
-			]
-			hide: true
-			id: "2BB8821F39756594"
-			tasks: [{
-				id: "4D3BFF7E4CE82940"
-				type: "item"
-				item: "spectrum:midnight_aberration"
+			rewards: [{
+				id: "73376946C465455F"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
 			x: 15.5d
-			y: 6.5d
-			dependencies: ["4177CB710050A003"]
+			y: 1.5d
+			description: ["This substance seems to be so unstable, that it crumbles in your inventory!"]
+			dependencies: ["1810EB195B0CC509"]
 			hide: true
-			id: "35F725414ABDC4BD"
+			hide_text_until_complete: true
+			id: "0CF717072CD02B28"
 			tasks: [{
-				id: "663F76B19D366996"
-				type: "item"
-				item: "spectrum:upgrade_efficiency"
+				id: "35C7CB50261B9E25"
+				type: "advancement"
+				advancement: "spectrum:midgame/create_midnight_aberration"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2C16AC1564787375"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: 12.0d
-			y: 4.0d
-			dependencies: ["37225136C817718C"]
+			x: 15.5d
+			y: 3.0d
+			description: ["Ouch! That hurt! Perhaps we should use the Midnight Solution on an entity..."]
+			dependencies: ["0CF717072CD02B28"]
 			hide: true
-			id: "5DF167FA6CEF1059"
+			id: "120A70EB61245315"
 			tasks: [{
-				id: "364D2B567CD2C80A"
-				type: "item"
-				item: "spectrum:scarlet_fragments"
+				id: "0C9DCFB386B1AF2A"
+				type: "advancement"
+				advancement: "spectrum:midgame/collect_midnight_chip"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5BC0FB0F8EBCF752"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: 13.0d
-			y: 5.5d
-			dependencies: ["5DF167FA6CEF1059"]
+			icon: "spectrum:black_pigment"
+			x: 9.5d
+			y: 3.0d
+			dependencies: ["681C638B38019A73"]
 			hide: true
-			id: "00EF574F138EFDA7"
+			id: "7B50D9F39BF07C16"
 			tasks: [{
-				id: "394C6782ACEBF7EC"
-				type: "item"
-				item: "spectrum:scarlet_gem"
+				id: "4E7D74069D2ABD87"
+				type: "advancement"
+				advancement: "spectrum:collect_all_basic_pigments"
+				criterion: ""
 			}]
 		}
 		{
-			x: 13.0d
-			y: 6.5d
-			dependencies: ["00EF574F138EFDA7"]
-			hide: true
-			id: "404FC3797A2932C5"
-			tasks: [{
-				id: "667EB2B596FCAFFB"
-				type: "item"
-				item: "spectrum:cinderhearth"
-			}]
-		}
-		{
-			x: 12.0d
-			y: 6.0d
-			dependencies: ["5DF167FA6CEF1059"]
-			hide: true
-			id: "6D9F96203DAC9247"
-			tasks: [{
-				id: "4ECFB35934B5FC83"
-				type: "item"
-				item: "spectrum:restocking_chest"
-			}]
-		}
-		{
-			x: 8.5d
-			y: 9.5d
-			dependencies: ["5DF167FA6CEF1059"]
-			hide: true
-			id: "3282B3A4164DB997"
-			tasks: [{
-				id: "2F159E6DE1436B6A"
-				type: "item"
-				item: "spectrum:enchanter"
-			}]
-		}
-		{
-			x: 13.0d
+			x: 9.5d
 			y: 4.5d
-			dependencies: ["5DF167FA6CEF1059"]
+			dependencies: ["7B50D9F39BF07C16"]
 			hide: true
-			id: "17DC0EBD6C0F4E47"
+			id: "00CE2107C6C46BE1"
 			tasks: [{
-				id: "0B6469ADBDB68F42"
-				type: "item"
-				item: "spectrum:placement_staff"
+				id: "505BC27038A8EF05"
+				type: "advancement"
+				advancement: "spectrum:collect_shooting_star"
+				criterion: ""
 			}]
 		}
 		{
-			x: 8.5d
-			y: 10.5d
-			hide_dependency_lines: true
-			dependencies: ["3282B3A4164DB997"]
-			hide: true
-			id: "0AC7537D5B546155"
-			tasks: [{
-				id: "74AA86A835AF12CF"
-				type: "item"
-				item: "spectrum:knowledge_gem"
-			}]
-		}
-		{
-			title: "Curse of the Void"
-			x: 8.5d
-			y: 8.5d
-			hide_dependency_lines: true
-			dependencies: ["3282B3A4164DB997"]
-			hide: true
-			id: "34C4C6D649EFC99B"
-			tasks: [{
-				id: "17568B15AD6BD190"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:voiding"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Pest Control"
-			x: 9.5d
-			y: 10.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"3282B3A4164DB997"
-				"3BC1EC3FF62EB557"
-			]
-			hide: true
-			id: "321D948B642B7E1F"
-			tasks: [{
-				id: "606B456FBE69E3A1"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:pest_control"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Foundry"
-			x: 9.5d
+			x: 11.0d
 			y: 7.5d
+			description: ["Craft and place down a Color Picker."]
 			hide_dependency_lines: true
-			dependencies: ["3282B3A4164DB997"]
+			dependencies: ["5D1A91608FE45D0A"]
 			hide: true
-			id: "4EBF148B20C70909"
+			id: "0A895BEB210EA39C"
 			tasks: [{
-				id: "767EA6B2580A861F"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:autosmelt"
-							lvl: 1s
-						}]
-					}
-				}
+				id: "0EF7BBEA7D70F057"
+				type: "advancement"
+				advancement: "spectrum:midgame/place_color_picker"
+				criterion: ""
 			}]
 		}
 		{
-			title: "Inventory Insertion"
-			x: 9.5d
-			y: 8.5d
-			hide_dependency_lines: true
-			dependencies: ["3282B3A4164DB997"]
-			hide: true
-			id: "7A72E9A8EBED13E9"
-			tasks: [{
-				id: "595FFDA6481CFEB4"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:inventory_insertion"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Exuberance I"
-			x: 7.5d
-			y: 9.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"3282B3A4164DB997"
-				"4177CB710050A003"
-			]
-			hide: true
-			id: "26B0F8DDBF7A66CF"
-			tasks: [{
-				id: "5B43444E8D73ED67"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:exuberance"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Exuberance II"
-			x: 6.5d
-			y: 9.5d
-			hide_dependency_lines: true
-			dependencies: ["26B0F8DDBF7A66CF"]
-			hide: true
-			id: "3201C7C7FDFEB9B0"
-			tasks: [{
-				id: "4B7EA4198CD168A5"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:exuberance"
-							lvl: 2s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Exuberance III"
-			x: 5.5d
-			y: 9.5d
-			hide_dependency_lines: true
-			dependencies: ["3201C7C7FDFEB9B0"]
-			hide: true
-			id: "0614C41F4D80F266"
-			tasks: [{
-				id: "61B688ABB3889059"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:exuberance"
-							lvl: 3s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Exuberance IV"
-			x: 4.5d
-			y: 9.5d
-			hide_dependency_lines: true
-			dependencies: ["0614C41F4D80F266"]
-			hide: true
-			id: "68EBEE5504C24782"
-			tasks: [{
-				id: "36DD3B52D49B23DE"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:exuberance"
-							lvl: 4s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Exuberance V"
-			x: 3.5d
-			y: 9.5d
-			hide_dependency_lines: true
-			dependencies: ["68EBEE5504C24782"]
-			hide: true
-			id: "7574AC8B7A61FB6C"
-			tasks: [{
-				id: "68DDBCA4B5F07FD4"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:exuberance"
-							lvl: 5s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Treasure Hunter I"
-			x: 7.5d
-			y: 11.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"3282B3A4164DB997"
-				"3BC1EC3FF62EB557"
-			]
-			hide: true
-			id: "6FABEEEFBF1E0569"
-			tasks: [{
-				id: "3FDA52CCFCE18027"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:treasure_hunter"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Treasure Hunter II"
-			x: 6.5d
-			y: 11.5d
-			hide_dependency_lines: true
-			dependencies: ["6FABEEEFBF1E0569"]
-			hide: true
-			id: "0DAD7AD8C9655709"
-			tasks: [{
-				id: "6F70CB4D1A6C19DF"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:treasure_hunter"
-							lvl: 2s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Treasure Hunter III"
-			x: 5.5d
-			y: 11.5d
-			hide_dependency_lines: true
-			dependencies: ["0DAD7AD8C9655709"]
-			hide: true
-			id: "4390DC0D4A1992B0"
-			tasks: [{
-				id: "33F3E6907FCC3D45"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:treasure_hunter"
-							lvl: 3s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Disarming I"
-			x: 7.5d
-			y: 6.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"3282B3A4164DB997"
-				"5DF167FA6CEF1059"
-				"3BC1EC3FF62EB557"
-			]
-			hide: true
-			id: "4332EDC74D120BF1"
-			tasks: [{
-				id: "44AA5796CEFBB787"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:disarming"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Disarming II"
-			x: 6.5d
-			y: 6.5d
-			hide_dependency_lines: true
-			dependencies: ["4332EDC74D120BF1"]
-			hide: true
-			id: "5B9D3CE567A14CBD"
-			tasks: [{
-				id: "155010E6D83699B8"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:disarming"
-							lvl: 2s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "First Strike I"
-			x: 9.5d
-			y: 9.5d
-			hide_dependency_lines: true
-			dependencies: ["3282B3A4164DB997"]
-			hide: true
-			id: "4014923355368DCF"
-			tasks: [{
-				id: "5A6906093EC38785"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:first_strike"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "First Strike II"
-			x: 10.5d
-			y: 9.5d
-			hide_dependency_lines: true
-			dependencies: ["4014923355368DCF"]
-			hide: true
-			id: "1C658F363604D566"
-			tasks: [{
-				id: "0902E4DE8AE3BD18"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:first_strike"
-							lvl: 2s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Improved Critical I"
-			x: 7.5d
-			y: 12.5d
-			hide_dependency_lines: true
-			dependencies: ["3282B3A4164DB997"]
-			hide: true
-			id: "5D407C315988EFCE"
-			tasks: [{
-				id: "4CFC6DA8CCDD35B9"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:improved_critical"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Improved Critical II"
-			x: 6.5d
-			y: 12.5d
-			hide_dependency_lines: true
-			dependencies: ["5D407C315988EFCE"]
-			hide: true
-			id: "172226DFEB09F47B"
-			tasks: [{
-				id: "23BB3667D95846EA"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:improved_critical"
-							lvl: 2s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Inertia I"
-			x: 7.5d
-			y: 8.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"3282B3A4164DB997"
-				"63D58D2720C33A19"
-			]
-			hide: true
-			id: "77278F87165D2537"
-			tasks: [{
-				id: "7B25AE98AD3380D6"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:inertia"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Inertia II"
-			x: 6.5d
-			y: 8.5d
-			hide_dependency_lines: true
-			dependencies: ["77278F87165D2537"]
-			hide: true
-			id: "780CE8372D3A6D56"
-			tasks: [{
-				id: "45F8E4C05E880201"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:inertia"
-							lvl: 2s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Inertia III"
-			x: 5.5d
-			y: 8.5d
-			hide_dependency_lines: true
-			dependencies: ["780CE8372D3A6D56"]
-			hide: true
-			id: "715D9F03BBF88303"
-			tasks: [{
-				id: "2E15143563DD94B7"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:inertia"
-							lvl: 3s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Clovers' Favor I"
-			x: 7.5d
-			y: 10.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"3282B3A4164DB997"
-				"756D0C5EECCCF2BD"
-			]
-			hide: true
-			id: "74A99BDA566B3596"
-			tasks: [{
-				id: "0FF6E6F37D8E5BEE"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:clovers_favor"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Clovers' Favor II"
-			x: 6.5d
-			y: 10.5d
-			hide_dependency_lines: true
-			dependencies: ["74A99BDA566B3596"]
-			hide: true
-			id: "0EC7EBD3E53D06B5"
-			tasks: [{
-				id: "653E324E4E18574F"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:clovers_favor"
-							lvl: 2s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Clovers' Favor III"
-			x: 5.5d
-			y: 10.5d
-			hide_dependency_lines: true
-			dependencies: ["0EC7EBD3E53D06B5"]
-			hide: true
-			id: "140589FE83B7E740"
-			tasks: [{
-				id: "0D86958C3804A23C"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:clovers_favor"
-							lvl: 3s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Sniping I"
-			x: 8.5d
+			x: 12.5d
 			y: 7.5d
-			hide_dependency_lines: true
-			dependencies: ["3282B3A4164DB997"]
+			dependencies: ["0A895BEB210EA39C"]
 			hide: true
-			id: "3AA4EB61C5026932"
+			id: "5ADB895DCB77C6A8"
 			tasks: [{
-				id: "2F80359B41714156"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:sniper"
-							lvl: 1s
-						}]
-					}
-				}
+				id: "3083977D9E453EE2"
+				type: "advancement"
+				advancement: "spectrum:midgame/fill_ink_container"
+				criterion: ""
 			}]
 		}
 		{
-			title: "Sniping II"
-			x: 8.5d
-			y: 6.5d
-			hide_dependency_lines: true
-			dependencies: ["3AA4EB61C5026932"]
-			hide: true
-			id: "6B41F36CF50CBCD3"
-			tasks: [{
-				id: "704C03A9D3B677BE"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:sniper"
-							lvl: 2s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Tight Grip I"
-			x: 8.5d
-			y: 11.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"3282B3A4164DB997"
-				"63D58D2720C33A19"
-			]
-			hide: true
-			id: "20513AC96C830129"
-			tasks: [{
-				id: "564C0B4759D64A52"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:tight_grip"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Tight Grip II"
-			x: 8.5d
-			y: 12.5d
-			hide_dependency_lines: true
-			dependencies: ["20513AC96C830129"]
-			hide: true
-			id: "1A512A54B96CD12E"
-			tasks: [{
-				id: "48851E630CB7B613"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:tight_grip"
-							lvl: 2s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Steadfast"
-			x: 9.5d
-			y: 11.5d
-			hide_dependency_lines: true
-			dependencies: ["3282B3A4164DB997"]
-			hide: true
-			id: "21117591F19AEEBE"
-			tasks: [{
-				id: "5043ED2A268ED63A"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:steadfast"
-							lvl: 1s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			title: "Big Catch I"
-			x: 7.5d
+			x: 14.0d
 			y: 7.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"3282B3A4164DB997"
-				"025571B8D640D2B0"
-			]
+			dependencies: ["5ADB895DCB77C6A8"]
 			hide: true
-			id: "0DD3BB822CC2F366"
+			id: "349FEF1506100E4D"
 			tasks: [{
-				id: "65A3A053EAFC9010"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:big_catch"
-							lvl: 1s
-						}]
-					}
-				}
+				id: "05A46F5786E43C89"
+				type: "advancement"
+				advancement: "spectrum:midgame/kill_entity_with_ink_projectile"
+				criterion: ""
 			}]
 		}
 		{
-			title: "Big Catch II"
-			x: 6.5d
-			y: 7.5d
-			hide_dependency_lines: true
-			dependencies: ["0DD3BB822CC2F366"]
+			x: 15.5d
+			y: 4.5d
+			dependencies: ["120A70EB61245315"]
 			hide: true
-			id: "63FE3A80C5BA6F48"
+			id: "110822566F9E2DBB"
 			tasks: [{
-				id: "72A61FE3E81142B6"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:big_catch"
-							lvl: 2s
-						}]
-					}
-				}
+				id: "4E83BEE7E58FB233"
+				type: "advancement"
+				advancement: "spectrum:midgame/craft_bottle_of_ruin"
+				criterion: ""
 			}]
 		}
 		{
-			title: "Big Catch III"
-			x: 5.5d
-			y: 7.5d
-			hide_dependency_lines: true
-			dependencies: ["63FE3A80C5BA6F48"]
+			x: 15.5d
+			y: 0.0d
+			dependencies: ["38BEF83AFD8EA081"]
 			hide: true
-			id: "5FB38167942FB142"
+			id: "78ED7745488BC27E"
 			tasks: [{
-				id: "5CEFC7F230E4DCC4"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							id: "spectrum:big_catch"
-							lvl: 3s
-						}]
-					}
-				}
+				id: "68CD0B7A81BC2CB3"
+				type: "advancement"
+				advancement: "spectrum:midgame/collect_gemstone_shard_using_crystal_apothecary"
+				criterion: ""
 			}]
-		}
-		{
-			x: 14.5d
-			y: -2.0d
-			hide_dependency_lines: true
-			dependencies: ["37225136C817718C"]
-			hide: true
-			id: "3BC1EC3FF62EB557"
-			tasks: [{
-				id: "35F01790E82007C5"
-				type: "item"
-				item: "spectrum:lightning_stone"
-			}]
-		}
-		{
-			x: 12.0d
-			y: 2.5d
-			dependencies: ["1579348A80AED8CE"]
-			id: "756D0C5EECCCF2BD"
-			tasks: [{
-				id: "04110CC9F87DACB0"
-				type: "item"
-				item: "spectrum:four_leaf_clover"
-			}]
-		}
-		{
-			x: 6.0d
-			y: -1.5d
-			dependencies: ["5C8397CB649048D9"]
-			hide: true
-			id: "169BCBE474211A25"
-			tasks: [{
-				id: "5DBA48AC04820B4E"
-				type: "item"
-				item: "spectrum:quitoxic_reeds"
-			}]
-		}
-		{
-			x: 6.0d
-			y: -2.5d
-			dependencies: ["169BCBE474211A25"]
-			hide: true
-			id: "4DD9959AA5ACC4DA"
-			tasks: [{
-				id: "35309AC1C59F0108"
-				type: "item"
-				item: "spectrum:quitoxic_powder"
-			}]
-		}
-		{
-			x: 17.5d
-			y: 6.5d
-			dependencies: ["66AB913F91B0B7A3"]
-			hide: true
-			id: "187A62860B30933E"
-			tasks: [{
-				id: "0DEFF8185351BACA"
-				type: "item"
-				item: "spectrum:spirit_instiller"
-			}]
-		}
-		{
-			x: 24.0d
-			y: -3.0d
-			dependencies: ["424C65D3C9EB491E"]
-			hide: true
-			id: "097C9F328FC6F0CC"
-			tasks: [{
-				id: "6D316D1B16788A8E"
-				type: "item"
-				item: "spectrum:midnight_chip"
-			}]
-		}
-		{
-			x: 22.0d
-			y: -3.0d
-			dependencies: ["2BB8821F39756594"]
-			hide: true
-			id: "424C65D3C9EB491E"
-			tasks: [{
-				id: "0DC21A167CF145AE"
-				type: "item"
-				item: "spectrum:midnight_solution_bucket"
-			}]
-		}
-		{
-			x: 17.5d
-			y: 5.5d
-			dependencies: ["3D5D6C00F8BD053A"]
-			hide: true
-			id: "66AB913F91B0B7A3"
-			tasks: [{
-				id: "0E90B1D95B1B798C"
-				type: "item"
-				item: "spectrum:azurite_block"
-			}]
-		}
-		{
-			x: 17.5d
-			y: 7.5d
-			dependencies: ["187A62860B30933E"]
-			hide: true
-			id: "52EA978546127667"
-			tasks: [{
-				id: "5350F02C069B9A12"
-				type: "item"
-				item: "spectrum:memory"
-			}]
-		}
-		{
-			x: 27.0d
-			y: -3.0d
-			dependencies: ["097C9F328FC6F0CC"]
-			hide: true
-			id: "7A7D5BF4CFAEE5A2"
-			tasks: [{
-				id: "724D43DF67168075"
-				type: "item"
-				item: "spectrum:bottle_of_ruin"
+			rewards: [{
+				id: "5406245BE8A175B4"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
 			x: 17.0d
-			y: -1.0d
-			dependencies: ["37225136C817718C"]
+			y: 3.0d
+			dependencies: ["120A70EB61245315"]
 			hide: true
-			id: "7BEE50506D406448"
+			id: "1E1E5ECB2C1C95B9"
 			tasks: [{
-				id: "46F10B195367E0A6"
-				type: "item"
-				item: "spectrum:bottle_of_decay_away"
+				id: "64BC2C12B83AF299"
+				type: "advancement"
+				advancement: "spectrum:midgame/build_spirit_instiller_structure"
+				criterion: ""
 			}]
 		}
 		{
-			x: 31.0d
-			y: -3.0d
-			dependencies: ["7A7D5BF4CFAEE5A2"]
+			x: 15.5d
+			y: 6.0d
+			dependencies: ["110822566F9E2DBB"]
 			hide: true
-			id: "468492DFEC7E5624"
+			id: "16AFA6ABBF50A54C"
 			tasks: [{
-				id: "510877E3E27ED034"
-				type: "item"
-				item: "spectrum:bedrock_dust"
+				id: "6C1D187007F8798F"
+				type: "advancement"
+				advancement: "spectrum:midgame/break_decayed_bedrock"
+				criterion: ""
 			}]
 		}
 		{
-			x: 32.5d
-			y: -3.0d
-			dependencies: ["468492DFEC7E5624"]
+			x: 15.5d
+			y: 7.5d
+			dependencies: ["16AFA6ABBF50A54C"]
 			hide: true
-			id: "591FBF0610B049D0"
+			id: "7CE00D3A16827F50"
 			tasks: [{
-				id: "5322FF104A4A8F46"
-				type: "item"
-				item: "spectrum:bedrock_storage_block"
+				id: "7A6F1ABEF288A69F"
+				type: "advancement"
+				advancement: "spectrum:midgame/wear_complete_set_of_bedrock_armor"
+				criterion: ""
 			}]
 		}
 		{
-			x: 34.0d
-			y: -3.0d
-			dependencies: ["591FBF0610B049D0"]
-			hide: true
-			id: "247DDD96E77ECB9F"
-			tasks: [{
-				id: "43BE7781BD423DBA"
-				type: "item"
-				item: "spectrum:bedrock_anvil"
-			}]
-		}
-		{
-			x: 29.0d
-			y: -4.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"468492DFEC7E5624"
-				"00EF574F138EFDA7"
+			x: 17.0d
+			y: 1.5d
+			subtitle: "Search the Ancient Ruins for this ancient plant!"
+			description: [
+				"Now that you succesfuly germinated a Jade Vine Bulb, you can get some hints on how to grow this plant."
+				""
+				"Hidden for aeons, the Jade Vine Bulb is very sensitive to light - it hibernates, when it's exposed to sunlight."
+				"It only grows on nights when there is a sky light level between 15 and 9."
+				"Try using a Daylight Detector for automation!"
+				""
+				"For the Jade Vine Bulb to start growing, it needs to have 3 blocks of air under itself."
+				"Then, it will grow up one stage per night, up to stage 6."
+				""
+				"If a Jade Vine is at age 3 or above, it can be plucked for petals."
+				"Right-clicking the Jade Vine can give you 5-9 Petals (+0-2 per level of Fortune on a tool)."
+				"There is also a 12% chance of getting another Bulb!"
+				""
+				"The Jade Vine will reach full bloom (Stage 7) only on full moon nights."
+				"Then, it can be right-clicked with a glass bottle to get a new substance."
+				"If you don't harvest it for 2 consecutive nights, it will revert to stage 6!"
 			]
+			dependencies: ["1E1E5ECB2C1C95B9"]
 			hide: true
-			id: "6BB8D4AA071CB289"
+			hide_text_until_complete: true
+			id: "3DE03D1D2B4BC9D0"
 			tasks: [{
-				id: "747B99FA6B1E9709"
-				type: "item"
-				item: {
-					id: "spectrum:bedrock_pickaxe"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							id: "minecraft:silk_touch"
-							lvl: 1s
-						}]
-					}
-				}
+				id: "662B39B5C47F5D6B"
+				type: "advancement"
+				advancement: "spectrum:midgame/plant_jade_vines"
+				criterion: ""
 			}]
 		}
 		{
-			x: 31.0d
-			y: -5.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"468492DFEC7E5624"
-				"00EF574F138EFDA7"
-			]
+			x: 18.5d
+			y: 3.0d
+			dependencies: ["1E1E5ECB2C1C95B9"]
 			hide: true
-			id: "614AA6A8646F7B23"
+			id: "3E84D82AC7429CF4"
 			tasks: [{
-				id: "6887549A6837B2CD"
-				type: "item"
-				item: {
-					id: "spectrum:bedrock_axe"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							id: "minecraft:efficiency"
-							lvl: 6s
-						}]
-					}
-				}
+				id: "016F031021A0B903"
+				type: "advancement"
+				advancement: "spectrum:midgame/manifest_memory"
+				criterion: ""
 			}]
 		}
 		{
-			x: 30.0d
-			y: -5.0d
-			hide_dependency_lines: true
-			dependencies: [
-				"468492DFEC7E5624"
-				"00EF574F138EFDA7"
-			]
+			x: 21.5d
+			y: 3.0d
+			dependencies: ["27A271B2A51373A6"]
 			hide: true
-			id: "7592C8494346882F"
+			id: "0858F0938EC383B5"
 			tasks: [{
-				id: "5419EBAA9D874478"
-				type: "item"
-				item: {
-					id: "spectrum:bedrock_shovel"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							id: "minecraft:efficiency"
-							lvl: 6s
-						}]
-					}
-				}
+				id: "4553B6B160CCB2A8"
+				type: "advancement"
+				advancement: "spectrum:midgame/craft_blacklisted_memory_success"
+				criterion: ""
 			}]
 		}
 		{
-			x: 32.0d
-			y: -1.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"468492DFEC7E5624"
-				"5DF167FA6CEF1059"
-			]
-			hide: true
-			id: "6A163A906A91E0B5"
+			x: 20.0d
+			y: 3.0d
+			dependencies: ["3E84D82AC7429CF4"]
+			hide: false
+			id: "27A271B2A51373A6"
 			tasks: [{
-				id: "77051ECB069CC2C1"
-				type: "item"
-				item: {
-					id: "spectrum:bedrock_sword"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							id: "minecraft:sharpness"
-							lvl: 6s
-						}]
-					}
-				}
+				id: "6A5DE0060CB4295D"
+				type: "advancement"
+				advancement: "spectrum:midgame/craft_blacklisted_memory_fail"
+				criterion: ""
 			}]
 		}
 		{
-			x: 32.0d
-			y: -5.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"468492DFEC7E5624"
-				"00EF574F138EFDA7"
-			]
+			x: 18.5d
+			y: 1.5d
+			dependencies: ["3DE03D1D2B4BC9D0"]
 			hide: true
-			id: "3AEDE0F74E4F970D"
+			id: "117B54FCAF3A40B9"
 			tasks: [{
-				id: "538B4A6CAAE64966"
-				type: "item"
-				item: {
-					id: "spectrum:bedrock_hoe"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							id: "minecraft:fortune"
-							lvl: 4s
-						}]
-					}
-				}
+				id: "6AD46CD52B099DC4"
+				type: "advancement"
+				advancement: "spectrum:midgame/harvest_moonstruck_nectar"
+				criterion: ""
 			}]
 		}
 		{
-			x: 31.0d
-			y: -1.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"468492DFEC7E5624"
-				"5DF167FA6CEF1059"
-			]
+			x: 20.0d
+			y: 1.5d
+			dependencies: ["117B54FCAF3A40B9"]
 			hide: true
-			id: "051333AF604BC96F"
+			id: "1699D14B24CE2883"
 			tasks: [{
-				id: "6DA5DDC63C451E6F"
-				type: "item"
-				item: {
-					id: "spectrum:bedrock_bow"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							id: "minecraft:power"
-							lvl: 6s
-						}]
-					}
-				}
+				id: "5C67C82C30066C6D"
+				type: "advancement"
+				advancement: "spectrum:midgame/create_budding_onyx"
+				criterion: ""
 			}]
 		}
 		{
-			x: 33.0d
-			y: -5.0d
-			hide_dependency_lines: true
-			dependencies: [
-				"468492DFEC7E5624"
-				"5DF167FA6CEF1059"
-			]
+			title: "Not Yet Available in Survival"
+			x: 17.0d
+			y: 6.0d
+			description: ["Not Yet Available in Survival"]
+			dependencies: ["16AFA6ABBF50A54C"]
 			hide: true
-			id: "08E7BE0FB290785B"
+			id: "5F98F94ABEC9673E"
 			tasks: [{
-				id: "45211CE6155F93F6"
-				type: "item"
-				item: {
-					id: "spectrum:bedrock_shears"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							id: "minecraft:silk_touch"
-							lvl: 1s
-						}]
-					}
-				}
+				id: "45F1F7513D75C6CD"
+				type: "advancement"
+				advancement: "spectrum:midgame/enter_dimension"
+				criterion: ""
 			}]
 		}
 		{
-			x: 34.0d
-			y: -4.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"468492DFEC7E5624"
-				"5DF167FA6CEF1059"
-			]
+			title: "Moonstone"
+			x: 18.5d
+			y: 6.0d
+			dependencies: ["5F98F94ABEC9673E"]
 			hide: true
-			id: "0D718CF6872370D9"
+			id: "6210877F3EE8EE4C"
 			tasks: [{
-				id: "78BEB0F0216CCF6A"
-				type: "item"
-				item: {
-					id: "spectrum:bedrock_fishing_rod"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							id: "minecraft:luck_of_the_sea"
-							lvl: 4s
-						}]
-					}
-				}
+				id: "4E87AAAACAB88424"
+				type: "advancement"
+				advancement: "spectrum:midgame/collect_moonstone_shard"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "57FCAEAE3AD8012F"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: 30.0d
-			y: -0.5d
-			hide_dependency_lines: true
-			dependencies: ["5DF167FA6CEF1059"]
+			title: "Not Yet Available in Survival"
+			x: 20.0d
+			y: 6.0d
+			description: ["Use a Moonstone to Upgrade your Pigment Pedestal."]
+			dependencies: ["6210877F3EE8EE4C"]
 			hide: true
-			id: "0165EF0A37DA6DED"
+			id: "0023E8716BF866A2"
 			tasks: [{
-				id: "2A936CA8A4EC79C9"
-				type: "item"
-				item: {
-					id: "spectrum:bedrock_helmet"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							id: "minecraft:projectile_protection"
-							lvl: 5s
-						}]
-					}
-				}
+				id: "267D7B7EE7A7C67A"
+				type: "advancement"
+				advancement: "spectrum:midgame/craft_moonstone_pedestal"
+				criterion: ""
 			}]
-		}
-		{
-			x: 31.0d
-			y: 0.0d
-			hide_dependency_lines: true
-			dependencies: [
-				"468492DFEC7E5624"
-				"5DF167FA6CEF1059"
-			]
-			hide: true
-			id: "517F8257D02858E1"
-			tasks: [{
-				id: "3503FB8242F0889F"
-				type: "item"
-				item: {
-					id: "spectrum:bedrock_chestplate"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							id: "minecraft:protection"
-							lvl: 5s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: 32.0d
-			y: 0.0d
-			hide_dependency_lines: true
-			dependencies: [
-				"468492DFEC7E5624"
-				"5DF167FA6CEF1059"
-			]
-			hide: true
-			id: "3EABD5105E17864D"
-			tasks: [{
-				id: "1B7B9CD01D411AD0"
-				type: "item"
-				item: {
-					id: "spectrum:bedrock_leggings"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							id: "minecraft:blast_protection"
-							lvl: 5s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: 33.0d
-			y: -0.5d
-			hide_dependency_lines: true
-			dependencies: [
-				"468492DFEC7E5624"
-				"5DF167FA6CEF1059"
-			]
-			hide: true
-			id: "270B0FC2EA114D2F"
-			tasks: [{
-				id: "25D0C270E198157C"
-				type: "item"
-				item: {
-					id: "spectrum:bedrock_boots"
-					Count: 1b
-					tag: {
-						Enchantments: [{
-							id: "minecraft:fire_protection"
-							lvl: 5s
-						}]
-					}
-				}
-			}]
-		}
-		{
-			x: 14.5d
-			y: -0.5d
-			dependencies: ["37225136C817718C"]
-			hide: true
-			id: "2F4D06109149B572"
-			tasks: [{
-				id: "257C2CC36AFE30C6"
-				type: "item"
-				item: "spectrum:upgrade_speed"
+			rewards: [{
+				id: "1B19D3AD728F1250"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
 			x: 12.5d
-			y: -0.5d
-			dependencies: [
-				"2F4D06109149B572"
-				"3BC1EC3FF62EB557"
-			]
+			y: 4.5d
+			dependencies: ["28CB44142633D257"]
 			hide: true
-			id: "1832BCAA5500BCBD"
+			id: "3EF90588748BCDE8"
 			tasks: [{
-				id: "60A6EDA0772F39CF"
-				type: "item"
-				item: "spectrum:upgrade_speed2"
+				id: "7F62A84995E6AC3A"
+				type: "advancement"
+				advancement: "spectrum:midgame/get_azure_dike_charge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "219059EE1D7938E4"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: 12.5d
-			y: -2.0d
-			dependencies: ["3BC1EC3FF62EB557"]
-			hide: true
-			id: "38EA6D0962B24B64"
+			x: 14.0d
+			y: 6.0d
+			description: [
+				"It seems you got lost..."
+				"Try crafting every Dike Trinket, that you can craft!"
+			]
+			dependencies: ["28CB44142633D257"]
+			hide: false
+			id: "054231A4D84A5569"
 			tasks: [{
-				id: "788AAC4A90E1D2FC"
-				type: "item"
-				item: "spectrum:upgrade_experience"
+				id: "02067EB7D2A55E90"
+				type: "advancement"
+				advancement: "spectrum:midgame/fill_pigment_palette"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "2BD34F667AC30BBA"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Budding Crystals"
+			x: 6.5d
+			y: 0.5d
+			subtitle: "Craftable only on a new moon nights, just like Onyx."
+			dependencies: ["49D9ECC98F3A5E05"]
+			id: "3C392862FC5CA225"
+			tasks: [
+				{
+					id: "75936E139587B1B5"
+					type: "item"
+					item: "minecraft:budding_amethyst"
+				}
+				{
+					id: "6489E8A3A28AF1F0"
+					type: "item"
+					item: "spectrum:budding_topaz"
+				}
+				{
+					id: "18208C8DE62AE202"
+					type: "item"
+					item: "spectrum:budding_citrine"
+				}
+			]
+			rewards: [{
+				id: "60F4D2895D3954A5"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Shards"
+			x: 0.5d
+			y: 1.5d
+			subtitle: "Collect all the Shards!"
+			dependencies: ["6F9B2ECCE750C280"]
+			id: "2CC5282720701CB2"
+			tasks: [
+				{
+					id: "741E15F4FB15D690"
+					type: "item"
+					item: "minecraft:amethyst_shard"
+				}
+				{
+					id: "7B405876AFEF6174"
+					type: "item"
+					item: "spectrum:topaz_shard"
+				}
+				{
+					id: "5A709C62E284AB93"
+					type: "item"
+					item: "spectrum:citrine_shard"
+				}
+			]
+			rewards: [{
+				id: "6116A006C23BCC0B"
+				type: "random"
+				table_id: 13756307348121783L
 			}]
 		}
 	]

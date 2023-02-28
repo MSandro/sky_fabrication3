@@ -163,174 +163,135 @@ onEvent('recipes', event => {
 
     //huge thanks to Itplays#1148
     //improved stations
-    e.remove({output: "improved-stations:crafting_station"});
-    e.remove({output: "improved-stations:crafting_station_slab"});
-    e.shaped("improved-stations:crafting_station", [
-    ["minecraft:crafting_table", "minecraft:crafting_table","minecraft:crafting_table"],
-    ["minecraft:crafting_table", "minecraft:crafting_table","minecraft:crafting_table"],
-    ["minecraft:oak_log", "minecraft:chest", "minecraft:oak_log"],
-    ]);
-    e.shaped("improved-stations:crafting_station_slab",[
-    [null,null,null],
-    ["improved_stations:crafting_station","improved_stations:crafting_station","improved_stations:crafting_station"],
-    ["improved_stations:crafting_station","improved_stations:crafting_station","improved_stations:crafting_station"],
-    ]);
+    event.remove({output: "improved-stations:crafting_table_slab"});
+    event.stonecutting('improved-stations:crafting_table_slab', '#c:workbenches');
     //plate recipe
-    e.remove({output: "minecraft:bucket"})
-    e.remove({output: "minecraft:cauldren"})
-    e.remove({output: "minecraft:iron_boots"})
-    e.remove({output: "minecraft:iron_chestplate"})
-    e.remove({output: "minecraft:iron_leggings"})
-    e.remove({output: "minecraft:iron_helmet"})
-    e.remove({output: "minecraft:iron_sword"})
-    e.remove({output: "minecraft:iron_axe"})
-    e.remove({output: "minecraft:iron_pickaxe"})
-    e.remove({output: "minecraft:iron_shovel"})
-    e.remove({output: "minecraft:iron_hoe"})
+    event.remove({output: "minecraft:cauldren"})
+    event.remove({output: "minecraft:iron_boots"})
+    event.remove({output: "minecraft:iron_chestplate"})
+    event.remove({output: "minecraft:iron_leggings"})
+    event.remove({output: "minecraft:iron_helmet"})
+    event.remove({output: "minecraft:iron_sword"})
+    event.remove({output: "minecraft:iron_axe"})
+    event.remove({output: "minecraft:iron_pickaxe"})
+    event.remove({output: "minecraft:iron_shovel"})
+    event.remove({output: "minecraft:iron_hoe"})
 
-    e.shaped("minecraft:bucket", [
-        ["modern_industrialization:iron_plate",  null	,"modern_industrialization:iron_plate"],
-        [null,		  "modern_industrialization:iron_plate", null			      ],
-      ]);
-    e.shaped("minecraft:cauldron", [
+    event.shaped("minecraft:cauldron", [
         ["modern_industrialization:iron_plate",  null	,"modern_industrialization:iron_plate"],
         ["modern_industrialization:iron_plate",  null	,"modern_industrialization:iron_plate"],
         ["modern_industrialization:iron_plate","modern_industrialization:iron_plate","modern_industrialization:iron_plate"],
       ]);
-    e.shaped("minecraft:iron_sword", [
+    event.shaped("minecraft:iron_sword", [
         [null,"modern_industrialization:iron_plate"	,null],
         [null,"modern_industrialization:iron_plate",null],
         [null,"minecraft:stick",null],
      ]);
-    e.shaped("minecraft:iron_axe", [
+    event.shaped("minecraft:iron_axe", [
         ["modern_industrialization:iron_plate","modern_industrialization:iron_plate",null],
         ["modern_industrialization:iron_plate","minecraft:stick",null],
         [null,"minecraft:stick",null],
       ]);
-    e.shaped("minecraft:iron_pickaxe", [
+    event.shaped("minecraft:iron_pickaxe", [
         ["modern_industrialization:iron_plate","modern_industrialization:iron_plate","modern_industrialization:iron_plate"],
         [null,"minecraft:stick",null],
         [null,"minecraft:stick",null],
       ]);
-    e.shaped("minecraft:iron_shovel", [
+    event.shaped("minecraft:iron_shovel", [
         [null,"modern_industrialization:iron_plate",null],
         [null,"minecraft:stick",null],
         [null,"minecraft:stick",null],
       ]);
-    e.shaped("minecraft:iron_hoe", [
+    event.shaped("minecraft:iron_hoe", [
         ["modern_industrialization:iron_plate","modern_industrialization:iron_plate",null],
         [null,"minecraft:stick",null],
         [null,"minecraft:stick",null],
       ]);
-    e.shaped("minecraft:iron_boots", [
+    event.shaped("minecraft:iron_boots", [
         [null,null,null],
         ["modern_industrialization:iron_plate",null,"modern_industrialization:iron_plate"],
         ["modern_industrialization:iron_plate",null,"modern_industrialization:iron_plate"],
       ]);
-    e.shaped("minecraft:iron_leggings", [
+    event.shaped("minecraft:iron_leggings", [
         ["modern_industrialization:iron_plate",null,"modern_industrialization:iron_plate"],
         ["modern_industrialization:iron_plate",null,"modern_industrialization:iron_plate"],
         ["modern_industrialization:iron_plate","modern_industrialization:iron_plate","modern_industrialization:iron_plate"],
       ]);
-    e.shaped("minecraft:iron_chestplate", [
+    event.shaped("minecraft:iron_chestplate", [
         ["modern_industrialization:iron_plate",null,"modern_industrialization:iron_plate"],
         ["modern_industrialization:iron_plate","modern_industrialization:iron_plate","modern_industrialization:iron_plate"],
         ["modern_industrialization:iron_plate","modern_industrialization:iron_plate","modern_industrialization:iron_plate"],
       ]);
-    e.shaped("minecraft:iron_helmet", [
+    event.shaped("minecraft:iron_helmet", [
         ["modern_industrialization:iron_plate","modern_industrialization:iron_plate","modern_industrialization:iron_plate"],
         ["modern_industrialization:iron_plate",null,"modern_industrialization:iron_plate"],
         [null,null,null],
       ]);
 
     //diamond equipment WIP (maybe diamond plates)
-    e.remove({output: "minecraft:diamond_boots"})
-    e.remove({output: "minecraft:diamond_leggings"})
-    e.remove({output: "minecraft:diamond_chestplate"})
-    e.remove({output: "minecraft:diamond_helmet"})
-    e.remove({output: "minecraft:diamond_sword"})
-    e.remove({output: "minecraft:diamond_axe"})
-    e.remove({output: "minecraft:diamond_pickaxe"})
-    e.remove({output: "minecraft:diamond_shovel"})
-    e.remove({output: "minecraft:diamond_hoe"})
+    event.remove({output: "minecraft:diamond_boots"})
+    event.remove({output: "minecraft:diamond_leggings"})
+    event.remove({output: "minecraft:diamond_chestplate"})
+    event.remove({output: "minecraft:diamond_helmet"})
+    event.remove({output: "minecraft:diamond_sword"})
+    event.remove({output: "minecraft:diamond_axe"})
+    event.remove({output: "minecraft:diamond_pickaxe"})
+    event.remove({output: "minecraft:diamond_shovel"})
+    event.remove({output: "minecraft:diamond_hoe"})
 
-    e.shaped("minecraft:diamond_boots", [
+    event.shaped("minecraft:diamond_boots", [
         [null,null,null],
         ["modern_industrialization:diamond_plate",null,"modern_industrialization:diamond_plate"],
         ["modern_industrialization:diamond_plate",null,"modern_industrialization:diamond_plate"],
       ]);
 
-    e.shaped("minecraft:diamond_leggings", [
+    event.shaped("minecraft:diamond_leggings", [
         ["modern_industrialization:diamond_plate","modern_industrialization:diamond_plate","modern_industrialization:diamond_plate"],
         ["modern_industrialization:diamond_plate",null,"modern_industrialization:diamond_plate"],
         ["modern_industrialization:diamond_plate",null,"modern_industrialization:diamond_plate"],
       ]);
-    e.shaped("minecraft:diamond_chestplate", [
+    event.shaped("minecraft:diamond_chestplate", [
         ["modern_industrialization:diamond_plate",null,"modern_industrialization:diamond_plate"],
         ["modern_industrialization:diamond_plate","modern_industrialization:diamond_plate","modern_industrialization:diamond_plate"],
         ["modern_industrialization:diamond_plate","modern_industrialization:diamond_plate","modern_industrialization:diamond_plate"],
       ]);
-    e.shaped("minecraft:diamond_helmet", [
+    event.shaped("minecraft:diamond_helmet", [
         ["modern_industrialization:diamond_plate","modern_industrialization:diamond_plate","modern_industrialization:diamond_plate"],
         ["modern_industrialization:diamond_plate",null,"modern_industrialization:diamond_plate"],
         [null,null,null],
       ]);
 
-    e.shaped("minecraft:diamond_sword", [
+    event.shaped("minecraft:diamond_sword", [
         [null,"modern_industrialization:diamond_plate",null],
         [null,"modern_industrialization:diamond_plate",null],
         [null,"minecraft:stick",null],
       ]);
-    e.shaped("minecraft:diamond_axe", [
+    event.shaped("minecraft:diamond_axe", [
         ["modern_industrialization:diamond_plate","modern_industrialization:diamond_plate",null],
         ["modern_industrialization:diamond_plate","minecraft:stick",null],
         [null,"minecraft:stick",null],
       ]);
-    e.shaped("minecraft:diamond_pickaxe", [
+    event.shaped("minecraft:diamond_pickaxe", [
         ["modern_industrialization:diamond_plate","modern_industrialization:diamond_plate","modern_industrialization:diamond_plate"],
         [null,"minecraft:stick",null],
         [null,"minecraft:stick",null],
       ]);
-    e.shaped("minecraft:diamond_shovel", [
+    event.shaped("minecraft:diamond_shovel", [
         [null,"modern_industrialization:diamond_plate",null],
         [null,"minecraft:stick",null],
         [null,"minecraft:stick",null],
       ]);
-    e.shaped("minecraft:diamond_hoe", [
+    event.shaped("minecraft:diamond_hoe", [
         ["modern_industrialization:diamond_plate","modern_industrialization:diamond_plate",null],
         [null,"minecraft:stick",null],
         [null,"minecraft:stick",null],
       ]);
 
-
-
-
-
-
-
-
-
-
-
-
-    //bed
-    e.remove({output: "#minecraft:beds"})
-    e.remove({output: "#kibe:sleeping_bed"})
-    e.remove({output: "minecraft:white_carpet"})
-    e.shaped("minecraft:red_carpet", [
-        [null,null,null],
-        [null,null,null],
-        ["minecraft:red_wool","minecraft:red_wool",null],
-      ]);
-    e.shaped("minecraft:red_bed", [
-        ["minecraft:red_carpet","minecraft:red_carpet","minecraft:red_carpet"],
-        ["minecraft:red_wool","minecraft:red_wool","minecraft:red_wool"],
-        ["#c:fences",null,"#c:fences"],
-      ]);
+    event.remove({output: "#kibe:sleeping_bed"})
 
     //MODERN INDUSTRIALIZATION
-    e.remove({output: "minecraft:charcoal"})
-     e.custom({
+    event.remove({output: "minecraft:charcoal"})
+     event.custom({
      "type" : "modern_industrialization:coke_oven",
       "eu" : 2,
       "duration" : 600,
@@ -349,86 +310,82 @@ onEvent('recipes', event => {
         }
     });
 
-
     //wands
-    e.remove({output:"wands:stone_wand"});
-    e.remove({output:"wands:iron_wand"});
+    event.remove({output:"wands:stone_wand"});
+    event.remove({output:"wands:iron_wand"});
 
     //earlygame
-    e.remove({output: "minecraft:cobblestone"})
-    e.remove({output: "minecraft:andesite"})
-    e.remove({output: "minecraft:basalt"})
-    e.remove({output: "minecraft:blackstone"})
-    e.remove({output: "minecraft:calcite"})
-    e.remove({output: "minecraft:deepslate"})
-    e.remove({output: "minecraft:diorite"})
-    e.remove({output: "minecraft:granite"})
-    e.remove({output: "minecraft:tuff"})
+    event.remove({output: "minecraft:cobblestone"})
+    event.remove({output: "minecraft:andesite"})
+    event.remove({output: "minecraft:basalt"})
+    event.remove({output: "minecraft:blackstone"})
+    event.remove({output: "minecraft:calcite"})
+    event.remove({output: "minecraft:deepslate"})
+    event.remove({output: "minecraft:diorite"})
+    event.remove({output: "minecraft:granite"})
+    event.remove({output: "minecraft:tuff"})
 
-
-    e.shaped("minecraft:cobblestone", [
+    event.shaped("minecraft:cobblestone", [
        ["fabricaeexnihilo:stone_pebble","fabricaeexnihilo:stone_pebble","fabricaeexnihilo:stone_pebble"],
        ["fabricaeexnihilo:stone_pebble","fabricaeexnihilo:stone_pebble","fabricaeexnihilo:stone_pebble"],
        ["fabricaeexnihilo:stone_pebble","fabricaeexnihilo:stone_pebble","fabricaeexnihilo:stone_pebble"],
        ]);
-    e.shaped("minecraft:andesite", [
+    event.shaped("minecraft:andesite", [
        ["fabricaeexnihilo:andesite_pebble","fabricaeexnihilo:andesite_pebble","fabricaeexnihilo:andesite_pebble"],
        ["fabricaeexnihilo:andesite_pebble","fabricaeexnihilo:andesite_pebble","fabricaeexnihilo:andesite_pebble"],
        ["fabricaeexnihilo:andesite_pebble","fabricaeexnihilo:andesite_pebble","fabricaeexnihilo:andesite_pebble"],
        ]);
-    e.shaped("minecraft:basalt", [
+    event.shaped("minecraft:basalt", [
        ["fabricaeexnihilo:basalt_pebble","fabricaeexnihilo:basalt_pebble","fabricaeexnihilo:basalt_pebble"],
        ["fabricaeexnihilo:basalt_pebble","fabricaeexnihilo:basalt_pebble","fabricaeexnihilo:basalt_pebble"],
        ["fabricaeexnihilo:basalt_pebble","fabricaeexnihilo:basalt_pebble","fabricaeexnihilo:basalt_pebble"],
        ]);
-    e.shaped("minecraft:blackstone", [
+    event.shaped("minecraft:blackstone", [
        ["fabricaeexnihilo:blackstone_pebble","fabricaeexnihilo:blackstone_pebble","fabricaeexnihilo:blackstone_pebble"],
        ["fabricaeexnihilo:blackstone_pebble","fabricaeexnihilo:blackstone_pebble","fabricaeexnihilo:blackstone_pebble"],
        ["fabricaeexnihilo:blackstone_pebble","fabricaeexnihilo:blackstone_pebble","fabricaeexnihilo:blackstone_pebble"],
        ]);
-    e.shaped("minecraft:calcite", [
+    event.shaped("minecraft:calcite", [
        ["fabricaeexnihilo:calcite_pebble","fabricaeexnihilo:calcite_pebble","fabricaeexnihilo:calcite_pebble"],
        ["fabricaeexnihilo:calcite_pebble","fabricaeexnihilo:calcite_pebble","fabricaeexnihilo:calcite_pebble"],
        ["fabricaeexnihilo:calcite_pebble","fabricaeexnihilo:calcite_pebble","fabricaeexnihilo:calcite_pebble"],
        ]);
-    e.shaped("minecraft:deepslate", [
+    event.shaped("minecraft:deepslate", [
        ["fabricaeexnihilo:deepslate_pebble","fabricaeexnihilo:deepslate_pebble","fabricaeexnihilo:deepslate_pebble"],
        ["fabricaeexnihilo:deepslate_pebble","fabricaeexnihilo:deepslate_pebble","fabricaeexnihilo:deepslate_pebble"],
        ["fabricaeexnihilo:deepslate_pebble","fabricaeexnihilo:deepslate_pebble","fabricaeexnihilo:deepslate_pebble"],
        ]);
-    e.shaped("minecraft:diorite", [
+    event.shaped("minecraft:diorite", [
        ["fabricaeexnihilo:diorite_pebble","fabricaeexnihilo:diorite_pebble","fabricaeexnihilo:diorite_pebble"],
        ["fabricaeexnihilo:diorite_pebble","fabricaeexnihilo:diorite_pebble","fabricaeexnihilo:diorite_pebble"],
        ["fabricaeexnihilo:diorite_pebble","fabricaeexnihilo:diorite_pebble","fabricaeexnihilo:diorite_pebble"],
        ]);
-    e.shaped("minecraft:granite", [
+    event.shaped("minecraft:granite", [
        ["fabricaeexnihilo:granite_pebble","fabricaeexnihilo:granite_pebble","fabricaeexnihilo:granite_pebble"],
        ["fabricaeexnihilo:granite_pebble","fabricaeexnihilo:granite_pebble","fabricaeexnihilo:granite_pebble"],
        ["fabricaeexnihilo:granite_pebble","fabricaeexnihilo:granite_pebble","fabricaeexnihilo:granite_pebble"],
        ]);
-    e.shaped("minecraft:tuff", [
+    event.shaped("minecraft:tuff", [
        ["fabricaeexnihilo:tuff_pebble","fabricaeexnihilo:tuff_pebble","fabricaeexnihilo:tuff_pebble"],
        ["fabricaeexnihilo:tuff_pebble","fabricaeexnihilo:tuff_pebble","fabricaeexnihilo:tuff_pebble"],
        ["fabricaeexnihilo:tuff_pebble","fabricaeexnihilo:tuff_pebble","fabricaeexnihilo:tuff_pebble"],
        ]);
 
-
-    e.remove({output:"fabriccaeexnihilo:porcelain"})
-    e.shaped("fabriccaeexnihilo:procelain", [
+    event.remove({output:"fabriccaeexnihilo:porcelain"})
+    event.shaped("fabriccaeexnihilo:procelain", [
        ["BBB","BCB","BBB"],{
        B:"minecraft:bonemeal",
        C:"minecraft:clay",
        }]);
-    e.remove({output: "minecraft:flint_and_steel"})
-    e.shapeless("minecraft:flint_and_steel", [
+    event.remove({output: "minecraft:flint_and_steel"})
+    event.shapeless("minecraft:flint_and_steel", [
     	    "modern_industrialization:steel_ingot",
             "minecraft:flint",
             ]);
-    e.remove({output: "minecraft:coarse_dirt"});
-    //e.remove({output: "techreborn:brass_ingot", type:"minecraft:smelting"});  (funktioniert irgendwie nicht)
-    e.remove({output:"create:goggles"});
-    e.remove({output: "fabricaeexnihilo:blaze_doll"})
-
+    //event.remove({output: "minecraft:coarse_dirt"});
+    //event.remove({output: "techreborn:brass_ingot", type:"minecraft:smelting"});  (funktioniert irgendwie nicht)
+    //event.remove({output:"create:goggles"});
+    event.remove({output: "fabricaeexnihilo:blaze_doll"})
   } else {
     event.replaceInput({output: 'techreborn:basic_tank_unit'}, 'techreborn:basic_storage_unit', 'modern_industrialization:bronze_tank')
     event.replaceInput({output: 'spatialharvesters:casing'}, 'modern_industrialization:quantum_upgrade', 'modern_industrialization:quantum_circuit')

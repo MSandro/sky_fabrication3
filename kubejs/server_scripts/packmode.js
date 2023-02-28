@@ -16,22 +16,22 @@ const expertConfig = {
 const configName = 'mode.json';
 
 console.log(`PackMode: initializing...`);
-if (!global.isServer) {
-  console.log("PackMode: Client is loading mode.json")
-  let config = json.read(configName);
 
-  if (!config || !config.mode) {
-      json.write(configName, normalConfig);
-      console.log(`Created new ${configName}`);
-      config = normalConfig;
-  }
-  if (config.mode == 'none') {
-      json.write(configName, normalConfig);
-      config.mode = normalConfig.mode;
-      console.log(`Overwrote ${configName}, because the mode 'none' was found. Valid modes are 'normal' and 'expert'.`);
-  }
+console.log("PackMode: Client is loading mode.json")
+let config = JsonIO.read(configName);
 
-  packMode = config.mode;
+if (!config || !config.mode) {
+    JsonIO.write(configName, normalConfig);
+    console.log(`Created new ${configName}`);
+    config = normalConfig;
 }
+if (config.mode == 'none') {
+    JsonIO.write(configName, normalConfig);
+    config.mode = normalConfig.mode;
+    console.log(`Overwrote ${configName}, because the mode 'none' was found. Valid modes are 'normal' and 'expert'.`);
+}
+
+packMode = config.mode;
+
 global.isExpertMode = packMode == 'expert';
 console.log(`Current packmode is: ${packMode}`);

@@ -19,11 +19,19 @@
 				type: "item"
 				item: "croptopia:cooking_pot"
 			}]
-			rewards: [{
-				id: "6A49FC56516A31B5"
-				type: "item"
-				item: "croptopia:guide"
-			}]
+			rewards: [
+				{
+					id: "6A49FC56516A31B5"
+					type: "item"
+					item: "croptopia:guide"
+				}
+				{
+					id: "293688C30EE0924F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 13756307348121783L
+				}
+			]
 		}
 		{
 			x: 6.000000000000018d
@@ -35,6 +43,12 @@
 				id: "77836333547427D0"
 				type: "item"
 				item: "croptopia:frying_pan"
+			}]
+			rewards: [{
+				id: "765D21FA414BCF8F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -60,6 +74,12 @@
 					item: "croptopia:tofuburger"
 				}
 			]
+			rewards: [{
+				id: "195CE818F45516DD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Pizzas"
@@ -92,6 +112,12 @@
 					item: "croptopia:pineapple_pepperoni_pizza"
 				}
 			]
+			rewards: [{
+				id: "0C97C8B42FBC1266"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Pies"
@@ -124,6 +150,12 @@
 					item: "croptopia:pecan_pie"
 				}
 			]
+			rewards: [{
+				id: "0471B88018BDCC80"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 7.500000000000018d
@@ -134,6 +166,12 @@
 				id: "26E8C832524AF2F1"
 				type: "item"
 				item: "croptopia:tortilla"
+			}]
+			rewards: [{
+				id: "5BFBC0359D5C98BC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -173,6 +211,12 @@
 					item: "croptopia:carnitas"
 				}
 			]
+			rewards: [{
+				id: "2FA7D8FEFF227C92"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "That's a healthy meal"
@@ -202,6 +246,12 @@
 					item: "croptopia:beef_wellington"
 				}
 			]
+			rewards: [{
+				id: "7CFFA84FBEB2799A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Roasted"
@@ -236,6 +286,12 @@
 					item: "croptopia:roasted_turnips"
 				}
 			]
+			rewards: [{
+				id: "4618D9D219FF398B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Ice Crime"
@@ -275,6 +331,12 @@
 					item: "croptopia:pecan_ice_cream"
 				}
 			]
+			rewards: [{
+				id: "4D7DE629FFB4D70B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "That's my jam"
@@ -329,6 +391,12 @@
 					item: "croptopia:raspberry_jam"
 				}
 			]
+			rewards: [{
+				id: "20A556E2DBA68A75"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Fries"
@@ -348,6 +416,12 @@
 					item: "croptopia:sweet_potato_fries"
 				}
 			]
+			rewards: [{
+				id: "15628D46A7BF7F85"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5000000000000067d
@@ -358,6 +432,12 @@
 				id: "3ABA57E2E1463278"
 				type: "item"
 				item: "croptopia:butter"
+			}]
+			rewards: [{
+				id: "499B7714083F2EC2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -388,6 +468,12 @@
 					item: "croptopia:lemon_coconut_bar"
 				}
 			]
+			rewards: [{
+				id: "1669A05DE73AB27E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
@@ -398,6 +484,12 @@
 				id: "56A3C980E541F0EF"
 				type: "item"
 				item: "farmingforblockheads:market"
+			}]
+			rewards: [{
+				id: "51377A38615E9A59"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -423,6 +515,12 @@
 					item: "farmingforblockheads:yellow_fertilizer"
 				}
 			]
+			rewards: [{
+				id: "21B43C22AA9BBB64"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.5d
@@ -440,6 +538,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "08D063BEA1EB4289"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.0d
@@ -452,6 +556,12 @@
 				type: "item"
 				item: "farmersdelight:cutting_board"
 			}]
+			rewards: [{
+				id: "0C39D436D58127DF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 7.5d
@@ -462,6 +572,12 @@
 				id: "4778B37EFC07E091"
 				type: "item"
 				item: "farmersdelight:stove"
+			}]
+			rewards: [{
+				id: "615E5BC8BCEF6A43"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -474,6 +590,12 @@
 				type: "item"
 				item: "farmersdelight:cooking_pot"
 			}]
+			rewards: [{
+				id: "052E1A5741B635FF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.0d
@@ -485,6 +607,12 @@
 				type: "item"
 				item: "farmersdelight:organic_compost"
 			}]
+			rewards: [{
+				id: "06E591C79BA5DFC4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 10.0d
@@ -495,6 +623,12 @@
 				id: "660EDDC8AA6A3A2C"
 				type: "item"
 				item: "farmersdelight:rich_soil"
+			}]
+			rewards: [{
+				id: "392F534E5ADBC8EB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -515,6 +649,12 @@
 					item: "farmersdelight:brown_mushroom_colony"
 				}
 			]
+			rewards: [{
+				id: "4EF253124F37FB61"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Huge meals"
@@ -539,6 +679,12 @@
 					item: "farmersdelight:shepherds_pie_block"
 				}
 			]
+			rewards: [{
+				id: "315A63FFEB27E438"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.5d
@@ -552,6 +698,12 @@
 				id: "4F6C5F404DBE1A78"
 				type: "item"
 				item: "farmersdelight:stuffed_pumpkin_block"
+			}]
+			rewards: [{
+				id: "6FB2133EB6F05358"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -585,6 +737,12 @@
 					item: "farmersdelight:cake_slice"
 				}
 			]
+			rewards: [{
+				id: "2C7063280AB31461"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Pies"
@@ -609,6 +767,12 @@
 					item: "farmersdelight:chocolate_pie"
 				}
 			]
+			rewards: [{
+				id: "69419D1DB480C1F3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.0d
@@ -619,6 +783,12 @@
 				id: "41A41C448404833E"
 				type: "item"
 				item: "farmersdelight:raw_pasta"
+			}]
+			rewards: [{
+				id: "3DA9907E6CA00463"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -652,6 +822,12 @@
 					item: "farmersdelight:squid_ink_pasta"
 				}
 			]
+			rewards: [{
+				id: "6FC6704DF329F6B4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Sandwiches'n Burgers"
@@ -681,6 +857,12 @@
 					item: "farmersdelight:bacon_sandwich"
 				}
 			]
+			rewards: [{
+				id: "7F697198B06615C2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Slicy"
@@ -715,6 +897,12 @@
 					item: "farmersdelight:beef_patty"
 				}
 			]
+			rewards: [{
+				id: "2F155520EFD72B77"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.5d
@@ -725,6 +913,12 @@
 				id: "1134769F3C1CFA6A"
 				type: "item"
 				item: "farmersdelight:pie_crust"
+			}]
+			rewards: [{
+				id: "5F40B7EF1BDCCF0F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -745,6 +939,12 @@
 					item: "farmersdelight:cabbage_rolls"
 				}
 			]
+			rewards: [{
+				id: "2B48C1886C9DB211"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Salads"
@@ -784,6 +984,12 @@
 					item: "farmersdelight:nether_salad"
 				}
 			]
+			rewards: [{
+				id: "20648A8264380F3B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Animal Food"
@@ -803,6 +1009,12 @@
 					item: "farmersdelight:horse_feed"
 				}
 			]
+			rewards: [{
+				id: "0586801F68189847"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Stews'n Soups"
@@ -847,6 +1059,12 @@
 					item: "farmersdelight:baked_cod_stew"
 				}
 			]
+			rewards: [{
+				id: "30E7AD91D67AE468"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.5d
@@ -857,6 +1075,12 @@
 				id: "5B46A1BC6E136C54"
 				type: "item"
 				item: "farmingforblockheads:feeding_trough"
+			}]
+			rewards: [{
+				id: "525B4F7A596620EA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -869,6 +1093,12 @@
 				type: "item"
 				item: "croptosis:potash"
 			}]
+			rewards: [{
+				id: "5DD4D9D0319C23E6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 7.5d
@@ -879,6 +1109,12 @@
 				id: "0B8009A06ECBFB69"
 				type: "item"
 				item: "croptosis:rotten_pile"
+			}]
+			rewards: [{
+				id: "7E1FDFF1062545B7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -891,10 +1127,16 @@
 				type: "item"
 				item: "croptosis:feather_meal"
 			}]
+			rewards: [{
+				id: "20C62CB566B68DC2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 16.699999999999992d
-			y: -1.7999999999999994d
+			x: 10.999999999999996d
+			y: -6.0d
 			hide: true
 			id: "17E6C123D3D65800"
 			tasks: [{
@@ -902,10 +1144,16 @@
 				type: "item"
 				item: "croptosis:iron_watering_can"
 			}]
+			rewards: [{
+				id: "66F67AFA00C25FA4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 16.199999999999996d
-			y: -3.2999999999999994d
+			x: 10.5d
+			y: -7.5d
 			dependencies: ["17E6C123D3D65800"]
 			id: "4A772B99CD435285"
 			tasks: [{
@@ -913,10 +1161,16 @@
 				type: "item"
 				item: "croptosis:gold_watering_can"
 			}]
+			rewards: [{
+				id: "4E8FF35EEFD86AB9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 15.699999999999996d
-			y: -1.7999999999999994d
+			x: 10.0d
+			y: -6.0d
 			dependencies: ["4A772B99CD435285"]
 			id: "2BF9CB319CF8BF36"
 			tasks: [{
@@ -924,10 +1178,16 @@
 				type: "item"
 				item: "croptosis:diamond_watering_can"
 			}]
+			rewards: [{
+				id: "234A449889391FBC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 15.199999999999996d
-			y: -3.2999999999999994d
+			x: 9.5d
+			y: -7.5d
 			dependencies: ["2BF9CB319CF8BF36"]
 			id: "25B54342BD246BAE"
 			tasks: [{
@@ -935,396 +1195,11 @@
 				type: "item"
 				item: "croptosis:netherite_watering_can"
 			}]
-		}
-		{
-			x: 9.200000000000012d
-			y: -3.299999999999993d
-			dependencies: ["40B43AE849F4B6EA"]
-			id: "15D31BA45964DF32"
-			tasks: [{
-				id: "6C00C6BE0CE36AC7"
-				type: "item"
-				item: {
-					id: "harvest_scythes:netherite_scythe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 9.700000000000012d
-			y: -1.8000000000000003d
-			dependencies: ["0C313E3A7BD39CC3"]
-			id: "40B43AE849F4B6EA"
-			tasks: [{
-				id: "7AD0C972C5041CA2"
-				type: "item"
-				item: {
-					id: "harvest_scythes:diamond_scythe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 10.200000000000012d
-			y: -3.299999999999993d
-			dependencies: ["590595B265F4BBC2"]
-			id: "0C313E3A7BD39CC3"
-			tasks: [{
-				id: "641E09414BCDEA0E"
-				type: "item"
-				item: {
-					id: "harvest_scythes:golden_scythe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 10.700000000000012d
-			y: -1.8000000000000003d
-			dependencies: ["5327C8A1B77BC42F"]
-			id: "590595B265F4BBC2"
-			tasks: [{
-				id: "4DA2E87C427E686B"
-				type: "item"
-				item: {
-					id: "harvest_scythes:iron_scythe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 11.200000000000012d
-			y: -3.299999999999993d
-			dependencies: ["4AFE073305AB7539"]
-			id: "5327C8A1B77BC42F"
-			tasks: [{
-				id: "29C8F6E210EEDD00"
-				type: "item"
-				item: {
-					id: "harvest_scythes:stone_scythe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 11.700000000000012d
-			y: -1.8000000000000003d
-			hide: true
-			id: "4AFE073305AB7539"
-			tasks: [{
-				id: "68D2F593E4A541E3"
-				type: "item"
-				item: {
-					id: "harvest_scythes:wooden_scythe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 12.200000000000008d
-			y: -3.2999999999999994d
-			dependencies: ["7FF61367595091CA"]
-			id: "1240974B59EE05EF"
-			tasks: [{
-				id: "75FF7EF214B9B95B"
-				type: "item"
-				item: {
-					id: "harvest_scythes:netherite_machete"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 12.700000000000008d
-			y: -1.8000000000000012d
-			dependencies: ["7CA94100ECEE3B1B"]
-			id: "7FF61367595091CA"
-			tasks: [{
-				id: "61D8A24EA147D9DB"
-				type: "item"
-				item: {
-					id: "harvest_scythes:diamond_machete"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 13.200000000000005d
-			y: -3.2999999999999994d
-			dependencies: ["79BDA08AE89153F2"]
-			id: "7CA94100ECEE3B1B"
-			tasks: [{
-				id: "6C96650FEF8C9EB0"
-				type: "item"
-				item: {
-					id: "harvest_scythes:golden_machete"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 13.700000000000006d
-			y: -1.8000000000000012d
-			dependencies: ["46C7DC757481F1C2"]
-			id: "79BDA08AE89153F2"
-			tasks: [{
-				id: "7EB572A51819CDBA"
-				type: "item"
-				item: {
-					id: "harvest_scythes:iron_machete"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 14.200000000000006d
-			y: -3.2999999999999994d
-			dependencies: ["52E7C9D432952332"]
-			id: "46C7DC757481F1C2"
-			tasks: [{
-				id: "35F24B8CB0943B02"
-				type: "item"
-				item: {
-					id: "harvest_scythes:stone_machete"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 14.700000000000006d
-			y: -1.8000000000000012d
-			hide: true
-			id: "52E7C9D432952332"
-			tasks: [{
-				id: "1AB0DA8DB3EB5A07"
-				type: "item"
-				item: {
-					id: "harvest_scythes:wooden_machete"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-		}
-		{
-			x: 9.0d
-			y: -7.0d
-			hide: true
-			id: "7905BFCF3A5CCFE2"
-			tasks: [{
-				id: "12D60F49F580A1D7"
-				type: "item"
-				item: "croparia:elematilius"
-			}]
-		}
-		{
-			x: 10.0d
-			y: -7.0d
-			dependencies: ["7905BFCF3A5CCFE2"]
-			id: "2718B4748C4B0497"
-			tasks: [{
-				id: "18D9AC1030F785B5"
-				type: "item"
-				item: "croparia:croparia"
-			}]
-		}
-		{
-			x: 11.0d
-			y: -7.0d
-			dependencies: ["2718B4748C4B0497"]
-			id: "2D7B577ACE6802B5"
-			tasks: [{
-				id: "35829137CA805716"
-				type: "item"
-				item: "croparia:croparia2"
-			}]
-		}
-		{
-			x: 12.0d
-			y: -7.0d
-			dependencies: ["2D7B577ACE6802B5"]
-			id: "715CB2C2F1F476E3"
-			tasks: [{
-				id: "65CF175C74850605"
-				type: "item"
-				item: "croparia:croparia3"
-			}]
-		}
-		{
-			x: 13.0d
-			y: -7.0d
-			dependencies: ["715CB2C2F1F476E3"]
-			id: "265CE4F5E0D54A5A"
-			tasks: [{
-				id: "37792C55554185F7"
-				type: "item"
-				item: "croparia:croparia4"
-			}]
-		}
-		{
-			x: 14.0d
-			y: -7.0d
-			dependencies: ["265CE4F5E0D54A5A"]
-			id: "4793A3243BEE2DC1"
-			tasks: [{
-				id: "6A266B4C6D061610"
-				type: "item"
-				item: "croparia:croparia5"
-			}]
-		}
-		{
-			x: 15.0d
-			y: -7.0d
-			dependencies: ["4793A3243BEE2DC1"]
-			id: "5E1047740C47EB2E"
-			tasks: [{
-				id: "0EF636969C9C4D9E"
-				type: "item"
-				item: "croparia:croparia6"
-			}]
-		}
-		{
-			x: 16.0d
-			y: -7.0d
-			dependencies: ["5E1047740C47EB2E"]
-			id: "744FACC49E18CADA"
-			tasks: [{
-				id: "1A1BCDB329B17B28"
-				type: "item"
-				item: "croparia:croparia7"
-			}]
-		}
-		{
-			x: 9.0d
-			y: -8.0d
-			dependencies: ["7905BFCF3A5CCFE2"]
-			id: "225D73794EF218A0"
-			tasks: [{
-				id: "4E20E08BA1936082"
-				type: "item"
-				item: "plantinajar:plant_jar"
-			}]
-		}
-		{
-			x: 9.0d
-			y: -6.0d
-			dependencies: ["7905BFCF3A5CCFE2"]
-			id: "2CCCC00DC2A05F33"
-			tasks: [{
-				id: "4A6DCC7E2BBE33AB"
-				type: "item"
-				item: "botanypots:white_terracotta_botany_pot"
-			}]
-		}
-		{
-			x: 9.0d
-			y: -5.0d
-			dependencies: ["2CCCC00DC2A05F33"]
-			id: "2D181DEFA4351C41"
-			tasks: [{
-				id: "43181C720515A344"
-				type: "item"
-				item: "botanypots:white_terracotta_hopper_botany_pot"
-			}]
-		}
-		{
-			x: 10.0d
-			y: -6.0d
-			dependencies: ["2CCCC00DC2A05F33"]
-			id: "46A7B168CF6B4A3A"
-			tasks: [{
-				id: "31DFDE70BDE2A380"
-				type: "item"
-				item: "botanypotstiers:elite_white_terracotta_botany_pot"
-			}]
-		}
-		{
-			x: 11.0d
-			y: -5.0d
-			dependencies: ["054075E51CCA480C"]
-			id: "5BEB7814CC735E95"
-			tasks: [{
-				id: "76426837626616AC"
-				type: "item"
-				item: "botanypotstiers:ultra_white_terracotta_hopper_botany_pot"
-			}]
-		}
-		{
-			x: 12.0d
-			y: -6.0d
-			dependencies: ["3D287EA0D2F96D05"]
-			id: "5717447FFF91ACFB"
-			tasks: [{
-				id: "7C582A4A993E12C9"
-				type: "item"
-				item: "botanypotstiers:creative_white_terracotta_hopper_botany_pot"
-			}]
-		}
-		{
-			x: 10.0d
-			y: -5.0d
-			dependencies: ["2D181DEFA4351C41"]
-			id: "054075E51CCA480C"
-			tasks: [{
-				id: "1F3FCD86FD507A23"
-				type: "item"
-				item: "botanypotstiers:elite_white_terracotta_hopper_botany_pot"
-			}]
-		}
-		{
-			x: 11.0d
-			y: -6.0d
-			dependencies: ["46A7B168CF6B4A3A"]
-			id: "3D287EA0D2F96D05"
-			tasks: [{
-				id: "37BD18C6E4A668BC"
-				type: "item"
-				item: "botanypotstiers:ultra_white_terracotta_botany_pot"
-			}]
-		}
-		{
-			x: 12.0d
-			y: -5.0d
-			dependencies: ["5BEB7814CC735E95"]
-			id: "6EDD76EE8BD945B2"
-			tasks: [{
-				id: "34AC88FE5AB46CAE"
-				type: "item"
-				item: "botanypotstiers:creative_white_terracotta_botany_pot"
+			rewards: [{
+				id: "7CD707DBD45849C2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 	]

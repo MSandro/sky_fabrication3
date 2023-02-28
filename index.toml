@@ -473,18 +473,6 @@ file = "config/defaultoptions.toml"
 hash = "3e93640912ed3a9ddf871b45ccf373d7d8db57e50bcc2798e9b7112b2e031c67"
 
 [[files]]
-file = "config/defaultoptions/keybindings.txt"
-hash = "4466c359264dfb1d7ab5a0ee8d7551e9306f83665f9a9aa8f5a9eeb8288f5615"
-
-[[files]]
-file = "config/defaultoptions/options.txt"
-hash = "4aebd6161e5240f455948f880acb77607e300e61b58794f1fa65710c1e46d2d4"
-
-[[files]]
-file = "config/defaultoptions/servers.dat"
-hash = "84572dac8ae75667c1e90e64039d0edf884617e25f0b028e4e7bc1339b57a9cc"
-
-[[files]]
 file = "config/desiredServers/desiredservers.json"
 hash = "3fbbd4c6d76130399b0c79cdf41758669224a91e05b7b216953f0c9728750865"
 
@@ -1458,11 +1446,11 @@ hash = "3a4ed6e43487115adbc29d6edd5b5bdc32dfbd66d04cfa7501a359900f8459b8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/agriculture.snbt"
-hash = "b5d86c221727a56fffef228432353aac6790eb1c8daa85a1707c07b1f3832bdd"
+hash = "54380be7653b1c25480b0e28f96d454dab979ecc9fa24697f12f6827d27ac9ff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "035512bb2c1df71c383944b3060b51675d57a56412a5a14c49ac19d2fbff6ec2"
+hash = "83945520441a84d28ba071ac85be75d623e0e93bbea4ab1593a0d77d59e4a4ee"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arcanus.snbt"
@@ -1474,11 +1462,11 @@ hash = "5f8ac7bb1b7dbf4a0f11158951567ce39c5d30100157f8ee7176faa2497b062c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bewitchment.snbt"
-hash = "9844e35b7ac466173d5b4e048efa19f4f0c6a004c15f2db3dbab2063312a0064"
+hash = "9f9b1c2badb4ad9be6d8a4c8f68e8feacd5abf4d9514dace9c8a9cf7dee86355"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/botania.snbt"
-hash = "66a85b3fd43ff7c1d7e6186e54e97dccd204f686e47b48839bab3454e267db9d"
+hash = "de729e974ed8311bb32b5646d80d7302760f496cb7dc9ec609ba6d61f3b8af01"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/conjuring.snbt"
@@ -1490,11 +1478,11 @@ hash = "f8f01b04df2936247ae7e990f913bc534271984de7fca0396e1c59940894d065"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity_age.snbt"
-hash = "a9c8346bffb6ff4a765fe51806666b25e6fe038fc36593a08d3110d2dc782073"
+hash = "ce0bb51b58b20b18423c1f1c16b3ed70340d8357bfc095f0fbf724dd72208d40"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/endgame.snbt"
-hash = "39fe37409e567f626a3d4c16533dbbfef332638fabd746ac8091391c6b03110a"
+hash = "61c19418aefd6b593105fff6eab4ff58153ee94e1113216424e039787047e192"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gadgets.snbt"
@@ -1502,7 +1490,7 @@ hash = "df3a612bc3b356f592e6ec87f3d66cba8e56df64283229fea2dd1e1c4c607796"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "ef58af4eaffa2c8cb703e7e77aa12eda472bddac4f754558bad2b4a433181219"
+hash = "3edd520c4d05e9d2f9a81ad2d65fa2232cde5f74a6a51532dede44f4b08c5555"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_revolution.snbt"
@@ -1514,11 +1502,11 @@ hash = "602785da61a5e5d64d9f7c6af786013b511d88d6f0aaaac4eef69077df250b1b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kibe.snbt"
-hash = "f753ef727a1b61ec3328aaf1ece21e97670dbdb7b82e3be657b45e9818e9c018"
+hash = "3fe6cbaf9bea2ef068c4b8f51b1abba79f6b4e2d2fd70b6865be0689dfd09baa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mechanical_age.snbt"
-hash = "3669f1b6e36e769a726eca8a669ccdc7bcc10bbc8492f18d920a21d2e3603a24"
+hash = "d900954bab8c7c9e55b50a59e458b15e0440fc8bbaf7494a8e177eca80583365"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modern_industrialization.snbt"
@@ -1534,11 +1522,11 @@ hash = "4681ba016b85d1d1dbe9de27b776889d6bf46e32d932317c01a514a3163cbedf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spatial_harvesters.snbt"
-hash = "38369bd4f811de629ee9c1a1a697e6a5a660f432101d22ae854113397b8f1705"
+hash = "bc3d4eea4e3506b41f051c21254a292f4fbda0b30581f7ee0539681eb4096045"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spectrum.snbt"
-hash = "2c308976a3998eb08b0eae7439a8157258841cb71cdcdd6c57acbd7a06170400"
+hash = "e865505b40d638c7f3f440482f0903a264e13eb178ce2242fb06aee58a73c575"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spectrum_unlock_progress.snbt"
@@ -1558,7 +1546,7 @@ hash = "6fb56e0bdc6b3cfcf6aec8796c97f89183857a25f5df8e36cd6341bee4c876fa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tools_and_armor.snbt"
-hash = "73a14591c8a698410f147a6573eda7ce0225aca948888ce2735933272b3706e6"
+hash = "fa867ac7d0b00cb1f703f5368d264d12d32b5f0d6a7ca672179e41681b7fc0e5"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -2194,7 +2182,7 @@ hash = "db172d2253fe40b044c85b14ddce86fb2982cf47f08d95f5bf0afca1d4bc3c6b"
 
 [[files]]
 file = "config/structure_floaters.json5"
-hash = "156d896e949b555de0984a857bd39e10900b3632134a2b213b684f28382da225"
+hash = "2c2a85304027c0dfd17d8e75ab037cb91745444e29c63a8bcdd2c9cfb9d9a8a8"
 
 [[files]]
 file = "config/suggestion-tweaker.json5"
@@ -3390,7 +3378,7 @@ hash = "91a43be4b9024e5eeafd409d3f02e836241f615d4cdd8380a4603d16bdd81ba3"
 
 [[files]]
 file = "kubejs/client_scripts/rei_removal_script.js"
-hash = "e0c39499304999be7a05c4a37606f5b98223c53232d9e18060433a270b7cd04a"
+hash = "ddafcba0fa6b9fdbd1453714ba23511dd5de89826df9dd6e9fc6e441945ff211"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
@@ -3929,8 +3917,16 @@ file = "kubejs/data/createaddition/recipes/rolling/copper_ingot.json"
 hash = "752b17f1b7506cc1664932c5ea980bcd53d731f087d7cff12af849b55a1260cf"
 
 [[files]]
+file = "kubejs/data/createaddition/recipes/rolling/copper_plate.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "kubejs/data/createaddition/recipes/rolling/gold_ingot.json"
 hash = "e4b68ba5de3703b7912cc04cdb79a90d48dbcbc2780aee3525acb205e8978de1"
+
+[[files]]
+file = "kubejs/data/createaddition/recipes/rolling/gold_plate.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/data/createaddition/recipes/rolling/gold_plate_mi.json"
@@ -3939,6 +3935,14 @@ hash = "afdd25a03426a0e34358c94a214d66685d75ec2a939a2a1ae63029ddfab11241"
 [[files]]
 file = "kubejs/data/createaddition/recipes/rolling/iron_ingot.json"
 hash = "c60899ec3e6159c19b9d458db1d4eb22c59af5f648065de24983c0b09348d0c4"
+
+[[files]]
+file = "kubejs/data/createaddition/recipes/rolling/iron_plate.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/createaddition/recipes/rolling/straw.json"
+hash = "26c023919ce2d70271c4695aa9024e20a8cb2c7f172a298a9e5c699d148c2252"
 
 [[files]]
 file = "kubejs/data/createplus/recipes/architects_palette/mixing/sunstone.json"
@@ -5853,6 +5857,10 @@ file = "kubejs/data/minecraft/blabber_dialogues/islands.json"
 hash = "de94414d7418f6ba6a9c4643c52031e949f1b6447e83695e41e6fdf8d3912d62"
 
 [[files]]
+file = "kubejs/data/minecraft/blabber_dialogues/packmode.json"
+hash = "a1e3ba0aff73cbf7a1bfc049147d661f49a692147e51b3d906baba08fe6728f6"
+
+[[files]]
 file = "kubejs/data/minecraft/blabber_dialogues/start.json"
 hash = "fd4ee7f572a70052176563e1fc9070315c1301c444a8b886ef3be0a4d3cbad23"
 
@@ -6234,7 +6242,7 @@ hash = "259072c621ecf7fb517ee3dad6b5c4dcb086143b43df7c3691325ceec4f94ec3"
 
 [[files]]
 file = "kubejs/data/sf3/dimension/void.json"
-hash = "d5f511c1ca3245a945bc2d2d1041404a7bb3f56a350e5e1e98ac57ab0f86f2df"
+hash = "869413303cbce67b32ab3af242044288fa129a5eefba438c01f5f2eea8e999ef"
 
 [[files]]
 file = "kubejs/data/sf3/dimension_type/skygrid.json"
@@ -6242,7 +6250,7 @@ hash = "2800a85c45d1db546dec3181e140d403d9104bcf67a409cb651a15f6defb86f0"
 
 [[files]]
 file = "kubejs/data/sf3/dimension_type/void.json"
-hash = "2800a85c45d1db546dec3181e140d403d9104bcf67a409cb651a15f6defb86f0"
+hash = "f47ae7b3d7722055a5990243d039f91fb896796e33f88593bfaa3c2eca78da09"
 
 [[files]]
 file = "kubejs/data/sf3/worldgen/noise/void_dirt_layer.json"
@@ -6307,6 +6315,10 @@ hash = "a61aec835426fca86d20b370275d9f70ffbfdba857d5d647b5e1d91be4c022b1"
 [[files]]
 file = "kubejs/data/spectrum/worldgen/template_pool/ancient_ruins.json"
 hash = "d1a1ab43e9886e560c5d54936a50ee61e03f185d7a1bde1d145f1b3b29a029a8"
+
+[[files]]
+file = "kubejs/data/structures_compass/recipes/structures_compass.json"
+hash = "4a5eb24f045d08e5a68a78803059f6bd54ef035d1c00bc2638a7f18b92b0326b"
 
 [[files]]
 file = "kubejs/data/tconstruct/recipes/smeltery/alloys/molten_fiery.json"
@@ -6558,7 +6570,7 @@ hash = "8ed27d4e6ad782b39d3c5ac8ab68e0600bed6d89dc8f87954a4ac3b6c2bd7f95"
 
 [[files]]
 file = "kubejs/server_scripts/commands.js"
-hash = "bced4027eaedb317316784d5e4735f34436cdfcffb445cc41de9d3c083ac37bf"
+hash = "7d669cb4ca24613533fed1217ec4eea8b300dbb299cac07ba7b491dcf18c2fea"
 
 [[files]]
 file = "kubejs/server_scripts/drops.js"
@@ -6577,16 +6589,12 @@ file = "kubejs/server_scripts/interactions.js"
 hash = "6b39f420bfb1cda985ba4ffdde086ed70a9754e7e8626b5535962c0178cbd2ac"
 
 [[files]]
-file = "kubejs/server_scripts/islands.js"
-hash = "c55d649201eefeaa7c312b5b6a9ff1625c8c64495a6c981e46d0f6e9376e1fe0"
-
-[[files]]
 file = "kubejs/server_scripts/packmode.js"
-hash = "93b315657ad83071033dc67c1c5a74a8e98bea0389387405ff165fc7f50cdf92"
+hash = "34fc79702845eb5fc60202f6c8e150227efb1fbe364e72150de0438f4dc9efe8"
 
 [[files]]
 file = "kubejs/server_scripts/quests.js"
-hash = "5d6871f658ff445d0ccb3c408f5b28411377a4b185f3c87d3b7d1a4d446a0472"
+hash = "b1636a73cd9f557b33ff8082af6ee5d420181bf5432ee7b18d8afb3233fc67af"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/KubeJS/food.js"
@@ -6598,7 +6606,7 @@ hash = "edbd792cf277a50625244600fc852c52b97be9b236f50b720c889dd606a3ce2e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/expert.js"
-hash = "a4d4e4193d8f1267bad54ffd6ce9a38d62c90efb5c3579de218d9435ab24e4df"
+hash = "5896f971812ebd67f64bf7bb0ebc731f1ec6bc1f19876dd8f3f1899921780272"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/kibe/shaped.js"
@@ -6606,7 +6614,7 @@ hash = "8d36197d88d5005838ee52870e6ab3ed6ad2428792047a91abc698f24ef1eb99"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/recipes.js"
-hash = "b3e133a4f0df3eaeab21b304bc1320d01249e5b3122f8137a8afa60938040601"
+hash = "193fde4f5ac0291f76ba496bf108653256854052e4636100fc1c9c35d388bec5"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/techreborn/shaped.js"
@@ -6614,7 +6622,7 @@ hash = "e82fff37ec8f7e6039b3e246fa2cb1d7226c9409e6ed0d31f36d84a0eb25a503"
 
 [[files]]
 file = "kubejs/server_scripts/tags/general_tags.js"
-hash = "00db897f1c2b5b656a2efcf273be6f980a92438adeca4407d1956e20ca88329a"
+hash = "9ea4ef8738909a370a4b29d49e10ff7baa8df21f0ad2c9e9e4b68a931f2af151"
 
 [[files]]
 file = "kubejs/server_scripts/tags/mambience_bows.js"
@@ -6635,6 +6643,10 @@ hash = "56b702efae1aa138ff5d4783ed5adc5fe8d0a7f6779fca772603d04c4aadecd8"
 [[files]]
 file = "kubejs/server_scripts/tags/replicator_blacklist.js"
 hash = "3c9dd10a6b0769f1023d7192eb9950073fb8b3dbf7e02f7b486c2a96ae1652e8"
+
+[[files]]
+file = "kubejs/server_scripts/tags/ultimine_blacklist.js"
+hash = "2107186c71fbe196504b4cb9a0cbe843b24d4415257d9e4f95811a96ec13eb6e"
 
 [[files]]
 file = "kubejs/server_scripts/twilightforest_fixes.js"
@@ -6667,6 +6679,10 @@ hash = "41c5910442a4f8856804797482c24a33a1f95d50c553e78fcfea5414b9be0960"
 [[files]]
 file = "kubejs/startup_scripts/seeds.js"
 hash = "7c8ad61a191b4a1b508c0337474aed0d86a16c9e2ed7418534f9a506dc1bd298"
+
+[[files]]
+file = "mode.json"
+hash = "af0a3152744db2ab69330997a26026d8fd88890ea2c8d41b14ac260cf7a8e862"
 
 [[files]]
 file = "mods/accurate-block-placement.pw.toml"
@@ -6810,7 +6826,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm-fabric.pw.toml"
-hash = "f3a64bb3af6d17a8e300d03a00953478fc0735d131d39003fdaaa12966fcf3cf"
+hash = "780f2f39a61874bf5eb5b20accd408f2f6788c2a7051630715b79a8a532bf12f"
 metafile = true
 
 [[files]]
@@ -7946,11 +7962,6 @@ metafile = true
 [[files]]
 file = "mods/simple-teleporters-fabric.pw.toml"
 hash = "e1208cc70150db35017300490277ec393ddb5fcc9cf3e1718cf87c2bbfabb5ff"
-metafile = true
-
-[[files]]
-file = "mods/simple-void-world.pw.toml"
-hash = "3d15c547ae28754132a2d16ab5d91ebcee981f0db3fa8134248746b78ced8fbe"
 metafile = true
 
 [[files]]

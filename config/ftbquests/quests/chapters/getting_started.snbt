@@ -19,7 +19,7 @@
 				"Thanks for playing Sky FABRICation 3."
 				""
 				""
-				"In this version you have the choice how to start the modpack. Check and Claim one of the following 3 Quests to start."
+				"In this version you have the choice how to start the modpack. You will also have to chose your Origin!"
 			]
 			size: 1.5d
 			id: "175F5611FB7716A4"
@@ -84,8 +84,8 @@
 			y: 0.5d
 			subtitle: "Follow the Progression Guide to continue!"
 			description: [
-				"Mods are split into 4 categories:"
-				""
+				"Mods are split into 5 categories:"
+				"- Progression"
 				"- Technology"
 				"- Magic"
 				"- Utilities"
