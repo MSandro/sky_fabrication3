@@ -1399,9 +1399,9 @@
 			x: 7.5d
 			y: -7.0d
 			description: [
-				"You can use Witchwater to generate infinite Dirt. By using Witchwater and regular Water in the configuration below, it will generate Podzol, which you can mine for dirt!"
+				"You can use Witchwater to generate infinite Dirt. By using Witchwater and regular Water in the configuration below, it will generate Dirt and sometimes Podzol!"
 				""
-				"{image:kubejs:textures/item/Podzol.png width:120 height:77 align:1}"
+				"{image:kubejs:textures/item/Podzol.png width:150 height:75 align:1}"
 			]
 			dependencies: ["2F61617F7194D76A"]
 			id: "767A2CF2A68BE797"
