@@ -750,7 +750,6 @@
 				"- Export the first item until the network is empty, then try the next ones."
 				"- Round-Robin,"
 				"- Random."
-				"> Inverter Card - the filter is now a deny-list rather than allow-list."
 				"> Fuzzy Card - disregards damage and NBT of filter items."
 				"> Redstone Card - adds redstone sensitivity. Besides the typical \"Redstone on/off\" there is also an option to activate once per pulse."
 				"> Acceleration Card - speeds up exporting:"
