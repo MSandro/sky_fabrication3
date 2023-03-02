@@ -38,8 +38,8 @@
 		}
 		{
 			title: "Crucial Crucible"
-			x: 7.5d
-			y: -1.0d
+			x: 9.0d
+			y: -2.5d
 			description: [
 				"Crucible are the tip of the iceberg (or in this case volcano) when it comes to lava production."
 				""
@@ -66,8 +66,8 @@
 		}
 		{
 			title: "This is not even my final form!"
-			x: 7.5d
-			y: -4.0d
+			x: 9.0d
+			y: -5.5d
 			description: [
 				"The only way to transform dust beyond, is to either sieve into materials, or turn it into clay."
 				""
@@ -110,8 +110,8 @@
 			}]
 		}
 		{
-			x: 4.5d
-			y: -2.5d
+			x: 6.0d
+			y: -4.0d
 			dependencies: ["0BF9B63E286A7C1B"]
 			id: "1B3743770E4CCF42"
 			tasks: [{
@@ -128,8 +128,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -2.5d
+			x: 7.5d
+			y: -4.0d
 			dependencies: ["1B3743770E4CCF42"]
 			id: "508DEEE11F45E4F3"
 			tasks: [{
@@ -185,8 +185,8 @@
 		}
 		{
 			title: "Time to Grind"
-			x: 3.0d
-			y: -2.5d
+			x: 4.5d
+			y: -4.0d
 			description: [
 				"To get the next 3 sieving materials, you have to hammer them."
 				""
@@ -406,8 +406,8 @@
 		{
 			title: "All the cobble gens!"
 			icon: "kibe:cobblestone_generator_mk1"
-			x: 9.0d
-			y: 0.5d
+			x: 10.5d
+			y: -1.0d
 			description: [
 				"There are many cobble generators in this modpack."
 				""
@@ -559,8 +559,8 @@
 					Damage: 0
 				}
 			}
-			x: 9.0d
-			y: -1.0d
+			x: 10.5d
+			y: -2.5d
 			description: [
 				"Heat Sources can be seen from pressing U while hovering your mouse over a crucible."
 				""
@@ -593,8 +593,8 @@
 		}
 		{
 			title: "Blocks for Lava?"
-			x: 7.5d
-			y: 0.5d
+			x: 9.0d
+			y: -1.0d
 			description: [
 				"Lava production not only needs heat, but also needs blocks for production."
 				""
@@ -726,8 +726,8 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: -2.5d
+			x: 9.0d
+			y: -4.0d
 			dependencies: ["508DEEE11F45E4F3"]
 			id: "1A9719BED12BDFC3"
 			tasks: [{
@@ -785,8 +785,8 @@
 		}
 		{
 			title: "Salt and Brine"
-			x: 6.0d
-			y: -4.0d
+			x: 7.5d
+			y: -5.5d
 			subtitle: "Use a bottle on a Sand block."
 			dependencies: ["508DEEE11F45E4F3"]
 			id: "6A8F984980E9BB6B"
@@ -1287,8 +1287,8 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: 2.0d
+			x: 9.0d
+			y: 0.5d
 			description: ["This Block Breaker can be used to hammer e.g. cobblestone to gravel."]
 			dependencies: ["153C83AD044BF76A"]
 			id: "3D079061CE0AD33F"
@@ -1328,8 +1328,8 @@
 		}
 		{
 			title: "I am Grout!"
-			x: 6.0d
-			y: -1.0d
+			x: 7.5d
+			y: -2.5d
 			subtitle: "Hephaestus is here (Fabric port of TConstruct, BETA)"
 			description: [
 				"Hephaestus - the ancient Greek god of Smithing."
@@ -1377,8 +1377,8 @@
 		}
 		{
 			title: "We need to go Deeper!"
-			x: 6.0d
-			y: 0.5d
+			x: 7.5d
+			y: -1.0d
 			description: ["Other Dimensions like the Nether are not empty. You can discover some structures there."]
 			dependencies: ["153C83AD044BF76A"]
 			id: "3AB25EAB4F16C5A5"
@@ -1399,37 +1399,15 @@
 			x: 7.5d
 			y: -7.0d
 			description: [
-				"You can use Witchwater to generate infinite Dirt. By using Witchwater and regular Water in the configuration below, it will generate Podzol, which you can mine for dirt!"
+				"You can use Witchwater to generate infinite Dirt. By using Witchwater and regular Water in the configuration below, it will generate Dirt and sometimes Podzol!"
 				""
-				"{image:kubejs:textures/item/Podzol.png width:120 height:77 align:1}"
+				"{image:kubejs:textures/item/Podzol.png width:150 height:75 align:1}"
 			]
 			dependencies: ["2F61617F7194D76A"]
 			id: "767A2CF2A68BE797"
 			tasks: [{
 				id: "14A86499B880A4F1"
 				type: "checkmark"
-			}]
-		}
-		{
-			title: "Barrel Leaking"
-			x: 7.5d
-			y: -5.5d
-			description: [
-				"Place a Wooden Barrel above a Sand block and fill it with Witch Water."
-				"In a few ticks it will transform it to Soul Sand."
-			]
-			dependencies: ["2F61617F7194D76A"]
-			id: "1EB8320E7CF741E6"
-			tasks: [{
-				id: "0ABF572E20147FE0"
-				type: "item"
-				item: "minecraft:soul_sand"
-			}]
-			rewards: [{
-				id: "19EE7B120D24ADA1"
-				type: "item"
-				item: "minecraft:sand"
-				count: 4
 			}]
 		}
 	]

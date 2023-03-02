@@ -549,10 +549,16 @@
 				"Read their respective descriptions for more info."
 				""
 				"It can accept upgrades:"
+				""
 				"> Fuzzy Card - exports items regardless of their damage or NBT."
+				""
+				"You can also export only damaged items using \"Split Damaged Items\" mode while setting a §ndamaged§r item to stock, or set a damage treshold (75%, 50%, 25%)."
+				""
 				"> Crafting Card - automatically requests crafting to keep items in stock. (not recommended as excessive requesting can lead to TPS lag.)"
+				"Always exports items already in stock first."
 			]
 			dependencies: ["2BE8127E1180DA21"]
+			min_width: 300
 			id: "115B865B26BE47E5"
 			tasks: [{
 				id: "5F3D81B7D3F27CA2"
@@ -744,7 +750,6 @@
 				"- Export the first item until the network is empty, then try the next ones."
 				"- Round-Robin,"
 				"- Random."
-				"> Inverter Card - the filter is now a deny-list rather than allow-list."
 				"> Fuzzy Card - disregards damage and NBT of filter items."
 				"> Redstone Card - adds redstone sensitivity. Besides the typical \"Redstone on/off\" there is also an option to activate once per pulse."
 				"> Acceleration Card - speeds up exporting:"
@@ -753,9 +758,10 @@
 				"2 cards - 32 items at once,"
 				"3 cards - 64 items at once,"
 				"4 cards - 96 items at once."
-				"> Crafting Card - the Export Bus will automatically request crafting until the container is filled."
+				"> Crafting Card - the Export Bus will automatically request crafting until the container is filled. You can choose whether to you want to extract items already in stock first or not."
 			]
 			dependencies: ["2BE8127E1180DA21"]
+			min_width: 300
 			id: "578F8DD2ACBA9C6C"
 			tasks: [{
 				id: "3D82F453CBD0740A"
@@ -857,9 +863,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Any Wireless Terminal\"}"
-						}
 						items: [
 							{
 								id: "ae2:wireless_terminal"
@@ -882,6 +885,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Any Wireless Terminal\"}"
+						}
 					}
 				}
 			}]
@@ -2652,6 +2658,9 @@
 				"It can accept upgrades:"
 				""
 				"> Fuzzy Card - disregards damage and NBT when counting items in the ME Network."
+				""
+				"You can also count only damaged items using \"Split Damaged Items\" mode while setting a §ndamaged§r item in the filter, or set a damage treshold (75%, 50%, 25%)."
+				""
 				"> Crafting Card - Redstone emission is now based on crafting status instead of item amount:"
 				""
 				"- Emit Redstone while item is crafting: Self-explainatory."
