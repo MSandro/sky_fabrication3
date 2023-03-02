@@ -6617,10 +6617,6 @@ file = "kubejs/server_scripts/recipes/chisel_to_stonecutter.js"
 hash = "ddd70c524219628e6ec285fefb5d3e284c4308bc1a9e6132c111030725ce6165"
 
 [[files]]
-file = "kubejs/server_scripts/recipes/chisel_to_stonecutter.js.txt"
-hash = "ddd70c524219628e6ec285fefb5d3e284c4308bc1a9e6132c111030725ce6165"
-
-[[files]]
 file = "kubejs/server_scripts/recipes/expert.js"
 hash = "ca34653625ac0af310799de32ec8f0c811db4e9d1ca0768ec78b7a45d2eb1e7c"
 
