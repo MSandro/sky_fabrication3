@@ -322,7 +322,7 @@ hash = "f7e7f346e0724cf9cfb77f44dec2e7d202ea2507729ec7b95ee6a8f089c82982"
 
 [[files]]
 file = "config/carrier.json"
-hash = "00e70dbdf9380d920f3a5cfb0c14455a7ec0dee332c763d549cbd85115801050"
+hash = "92402923ede6c9af6a464cdbcfbb416656a65df38fd570c8f601db513328f6e5"
 
 [[files]]
 file = "config/charm.toml"
@@ -1450,7 +1450,7 @@ hash = "54380be7653b1c25480b0e28f96d454dab979ecc9fa24697f12f6827d27ac9ff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "66fa0c2f747d8dc2446b06efd7784703cde28ac96a3b7bf1a3fd1d159a202201"
+hash = "fa5c55442b93dd29aa960fc97c3b3af82918123cc01bb036c8b30327fb8dbf89"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arcanus.snbt"
@@ -1542,7 +1542,7 @@ hash = "5b92a28c40a6d6965fd8a7a22e0f174b3782a1d197fe8edf68f30bd2657f38e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_beginning.snbt"
-hash = "2281a3394db8b612982366e4ee8c6939149c4c9f997b905c2962ba44c801f36d"
+hash = "ff93b69e95468c6b18c30ac29000ba05dd8596090a9f685a559aa1d30fed0278"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tools_and_armor.snbt"
@@ -3006,7 +3006,7 @@ hash = "7cfd3b94eafbaa436a53038ae31fb5200b8b76d30f65ca34cae73ce7028cad06"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/Podzol.png"
-hash = "aca105612a389528fecee5592c54a8e014b055f25d39d847ef9d580a7c52b89d"
+hash = "a0115fce5a2ad01a0344d5fe954d7b0b306fce91a08f6624e495efa3b3bb6fad"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/base.png"
@@ -3718,7 +3718,7 @@ hash = "443a9e05128dd5744d6bab225dd195eacd739a1898530eb1936cdc99903805bf"
 
 [[files]]
 file = "kubejs/data/chisel/tags/items/chiseled_blocks.json"
-hash = "51e37db6f440c2ee2b61b68a7d31d21ac4b99f4eddada919e7327b9ac3268857"
+hash = "6e162887fc72947b92a2c03f2e5e6117bd1f00a134cb26813c4e323c2d56be15"
 
 [[files]]
 file = "kubejs/data/chiselsandbits/loot_tables/blocks/bit_storage.json"
@@ -4610,7 +4610,7 @@ hash = "9f875e8743e5f7d53fdd63aafa9ad4d0657201243805c48070bd1db487f3d3b6"
 
 [[files]]
 file = "kubejs/data/fabricaeexnihilo/recipes/witch_water_world/water.json"
-hash = "134a064306a825442e9806ec8934a6b0aa7cc0c95bcf1c68becca1a83db4af7f"
+hash = "c9bb3d92258ad253fb220a6def8f3de45a2dfe07878f3011acbc10c0a4623514"
 
 [[files]]
 file = "kubejs/data/factory_blocks/tags/items/chiseled_blocks.json"
@@ -6258,7 +6258,7 @@ hash = "2800a85c45d1db546dec3181e140d403d9104bcf67a409cb651a15f6defb86f0"
 
 [[files]]
 file = "kubejs/data/sf3/dimension_type/void.json"
-hash = "f47ae7b3d7722055a5990243d039f91fb896796e33f88593bfaa3c2eca78da09"
+hash = "1589a989988655592783a8cda32cb9dd34de2c95a26cebd39857b41ca696b231"
 
 [[files]]
 file = "kubejs/data/sf3/worldgen/noise/void_dirt_layer.json"
@@ -6310,7 +6310,7 @@ hash = "0bde54170cbc02ef260db54bf6d556b7271db2db2c6e176c10db93faccf12b67"
 
 [[files]]
 file = "kubejs/data/spectrum/worldgen/configured_structure_feature/ancient_ruins.json"
-hash = "1347d0987c43890b4f3b9d7d3a135a84092ee504f08fd71220387dd92154072e"
+hash = "8745799ec6e7d0f63e8149fba1046309edd2662c80c103314449e29184ead168"
 
 [[files]]
 file = "kubejs/data/spectrum/worldgen/noise_settings/void_noise.json"
@@ -6318,11 +6318,11 @@ hash = "abe76da316a7307de4b95232c3fb5c7cdfa411b4ba84bd1a0b9add0fe7fdb99f"
 
 [[files]]
 file = "kubejs/data/spectrum/worldgen/structure_set/ancient_ruins.json"
-hash = "a61aec835426fca86d20b370275d9f70ffbfdba857d5d647b5e1d91be4c022b1"
+hash = "08b9df6100881ededc63d0782e396b0a0aab26df27ba98c1c3f79007d9a1cdc2"
 
 [[files]]
 file = "kubejs/data/spectrum/worldgen/template_pool/ancient_ruins.json"
-hash = "d1a1ab43e9886e560c5d54936a50ee61e03f185d7a1bde1d145f1b3b29a029a8"
+hash = "d410d6c86091225fba568879298c6f906f189c3be2e786e65ad14f270fd1cbf6"
 
 [[files]]
 file = "kubejs/data/structures_compass/recipes/structures_compass.json"
@@ -6617,6 +6617,10 @@ file = "kubejs/server_scripts/recipes/chisel_to_stonecutter.js"
 hash = "ddd70c524219628e6ec285fefb5d3e284c4308bc1a9e6132c111030725ce6165"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/chisel_to_stonecutter.js.txt"
+hash = "ddd70c524219628e6ec285fefb5d3e284c4308bc1a9e6132c111030725ce6165"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/expert.js"
 hash = "ca34653625ac0af310799de32ec8f0c811db4e9d1ca0768ec78b7a45d2eb1e7c"
 
@@ -6799,11 +6803,6 @@ metafile = true
 [[files]]
 file = "mods/auth-me.pw.toml"
 hash = "a7495e12d42dbed5489c5cf318364bb320af116806f63ef05d3651f26018f63d"
-metafile = true
-
-[[files]]
-file = "mods/auto-clicker-fabric.pw.toml"
-hash = "5a33dc87cd28fd241d88317c3a5782ace76bbbd610297d6ccf74b0a46f6328f1"
 metafile = true
 
 [[files]]
