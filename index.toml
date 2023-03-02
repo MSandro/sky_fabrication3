@@ -1450,11 +1450,11 @@ hash = "54380be7653b1c25480b0e28f96d454dab979ecc9fa24697f12f6827d27ac9ff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "83945520441a84d28ba071ac85be75d623e0e93bbea4ab1593a0d77d59e4a4ee"
+hash = "66fa0c2f747d8dc2446b06efd7784703cde28ac96a3b7bf1a3fd1d159a202201"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arcanus.snbt"
-hash = "62631b05940f8295c3e0738f8cc31bfec06dd32e8f12a937dd08829f0d166fcf"
+hash = "c261d51b59eca7a4436da12575bda19fd4871c1b86fa914e8b4fb94d1f65d6a2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/automatedtasksandtriggers.snbt"
@@ -1474,7 +1474,7 @@ hash = "a13e4d9e61ed1efe2474c48c0d5ade7542f2b560502af0994ec66af630aacb56"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deep_mob_learning.snbt"
-hash = "f8f01b04df2936247ae7e990f913bc534271984de7fca0396e1c59940894d065"
+hash = "7939b0d2e3d3fa0d221aa066c112d763d039409c57d75a5db417808aef4230b9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity_age.snbt"
@@ -1486,7 +1486,7 @@ hash = "61c19418aefd6b593105fff6eab4ff58153ee94e1113216424e039787047e192"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gadgets.snbt"
-hash = "df3a612bc3b356f592e6ec87f3d66cba8e56df64283229fea2dd1e1c4c607796"
+hash = "bae3a7fe4439ac39eda6bced631d17561da4000064d2a389bd745023388eac14"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
@@ -1494,7 +1494,7 @@ hash = "3edd520c4d05e9d2f9a81ad2d65fa2232cde5f74a6a51532dede44f4b08c5555"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_revolution.snbt"
-hash = "45c844e064dd5d5f015fceff8828938764b9b1211bf71962e1d56ae886808558"
+hash = "2763f7dae32eba310f4c6633a31a881ab2c1db22abf6962b1c968ec49fa627b7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/infinity.snbt"
@@ -1502,11 +1502,11 @@ hash = "602785da61a5e5d64d9f7c6af786013b511d88d6f0aaaac4eef69077df250b1b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kibe.snbt"
-hash = "3fe6cbaf9bea2ef068c4b8f51b1abba79f6b4e2d2fd70b6865be0689dfd09baa"
+hash = "60a25214bb6eb3fb72bffd9ca098f75bbeed9d20630cacf3d879fb6279120a90"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mechanical_age.snbt"
-hash = "d900954bab8c7c9e55b50a59e458b15e0440fc8bbaf7494a8e177eca80583365"
+hash = "df4cf27f5f539869598a44196380e1172426d7188cc909e430373f6cdb8d3137"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modern_industrialization.snbt"
@@ -1514,7 +1514,7 @@ hash = "46221426ae383dcb64ecc07a259fc226fc4480f7859e3d5b5c25c22e30d01f36"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resourceful_ways.snbt"
-hash = "1f90c9cd949618a6a3be630527710cbda58db7029411e539cb037d24f4bfb748"
+hash = "5681a9ec72ec34115d610036b80a83b2252e63b30c2c92ba999d1239e0af1935"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simple_storage_network.snbt"
@@ -1530,11 +1530,11 @@ hash = "e865505b40d638c7f3f440482f0903a264e13eb178ce2242fb06aee58a73c575"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spectrum_unlock_progress.snbt"
-hash = "7c05d74016992f12b7ab79d9252cbdcf47afeef88a8c0a396da340e3fb1d7139"
+hash = "3808513b930d434d7e881624aca57eb4f9d0dac2a6536a253fd72be6d1638f3f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
-hash = "b0f04ac21d3f96858748e70c611eb3b851f2bc6302739e010b956d665003c876"
+hash = "0af819442c17fda899225da557c9dc315f2b9ec2b233444ba40f4e103d9290cf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tech_reborn.snbt"
@@ -1542,7 +1542,7 @@ hash = "5b92a28c40a6d6965fd8a7a22e0f174b3782a1d197fe8edf68f30bd2657f38e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_beginning.snbt"
-hash = "6fb56e0bdc6b3cfcf6aec8796c97f89183857a25f5df8e36cd6341bee4c876fa"
+hash = "2281a3394db8b612982366e4ee8c6939149c4c9f997b905c2962ba44c801f36d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tools_and_armor.snbt"
@@ -3717,6 +3717,10 @@ file = "kubejs/data/chisel/recipes/chisel.json"
 hash = "443a9e05128dd5744d6bab225dd195eacd739a1898530eb1936cdc99903805bf"
 
 [[files]]
+file = "kubejs/data/chisel/tags/items/chiseled_blocks.json"
+hash = "51e37db6f440c2ee2b61b68a7d31d21ac4b99f4eddada919e7327b9ac3268857"
+
+[[files]]
 file = "kubejs/data/chiselsandbits/loot_tables/blocks/bit_storage.json"
 hash = "ffd546f5604641aba4ae18da66eca6954a9e543404c7f7acf85f2717bf77c159"
 
@@ -4607,6 +4611,10 @@ hash = "9f875e8743e5f7d53fdd63aafa9ad4d0657201243805c48070bd1db487f3d3b6"
 [[files]]
 file = "kubejs/data/fabricaeexnihilo/recipes/witch_water_world/water.json"
 hash = "134a064306a825442e9806ec8934a6b0aa7cc0c95bcf1c68becca1a83db4af7f"
+
+[[files]]
+file = "kubejs/data/factory_blocks/tags/items/chiseled_blocks.json"
+hash = "edb15d06f7f5c8924c4c1962a286741f8b7b365fc39972eb2adb9ce42dd0b305"
 
 [[files]]
 file = "kubejs/data/gardenofglass/loot_tables/pebbles.json"
@@ -6605,8 +6613,12 @@ file = "kubejs/server_scripts/recipes/charm/shaped.js"
 hash = "edbd792cf277a50625244600fc852c52b97be9b236f50b720c889dd606a3ce2e"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/chisel_to_stonecutter.js"
+hash = "ddd70c524219628e6ec285fefb5d3e284c4308bc1a9e6132c111030725ce6165"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/expert.js"
-hash = "5896f971812ebd67f64bf7bb0ebc731f1ec6bc1f19876dd8f3f1899921780272"
+hash = "ca34653625ac0af310799de32ec8f0c811db4e9d1ca0768ec78b7a45d2eb1e7c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/kibe/shaped.js"
@@ -7272,11 +7284,6 @@ metafile = true
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
 hash = "617ad00be9c1d9df4cd143bae57279e63d744e3441774e633d421ac5daccc955"
-metafile = true
-
-[[files]]
-file = "mods/fabric-progressive-bosses.pw.toml"
-hash = "36acdbc99f32edf1a3a3c9d86f6fccfa61811948c6fc9f14a6fcb087bdb419a2"
 metafile = true
 
 [[files]]
@@ -8126,7 +8133,7 @@ metafile = true
 
 [[files]]
 file = "mods/travelers-backpack-fabric.pw.toml"
-hash = "8b6ad4c3961728635692fe114e511cb6e16662429a36edcf49395dd71a089968"
+hash = "e391ef1e40d070c04c8605f0398375c4270acc8b5f9b1eb11ad44653c2be4315"
 metafile = true
 
 [[files]]
