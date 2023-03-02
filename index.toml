@@ -3509,30 +3509,6 @@ file = "kubejs/data/ae2wtlib/recipes/infinity_booster_card.json"
 hash = "45cdf48649f4450c74e049de13828f627df23cd57412a2b5d9ccaf1747d680bf"
 
 [[files]]
-file = "kubejs/data/agape_space/recipes/powergen.json"
-hash = "478798686379855ad49352e63c2dbb17f40e8e1fdd7b17b81c6149d7a83d3f29"
-
-[[files]]
-file = "kubejs/data/agape_space/recipes/rocket_ship_box.json"
-hash = "820b400241ad31b855f00c4e4e472d8e28a0efb9044ea4363a707836704729bf"
-
-[[files]]
-file = "kubejs/data/agape_space/recipes/rocket_ship_box_v2.json"
-hash = "89d269a7993b475239c4b45c35761e4e6d96a4e3075925e7271bf4dce69dbe2c"
-
-[[files]]
-file = "kubejs/data/agape_space/recipes/rocket_ship_box_v3.json"
-hash = "48f0625ad9640e15c574ec7358061160f17b38e1f4dd4ffbd728cb57bb3c2897"
-
-[[files]]
-file = "kubejs/data/agape_space/recipes/solargen.json"
-hash = "5228c72bd47d99a54fca03bd5c3c14d00408a8993a7339af7d317ff52f5d52ff"
-
-[[files]]
-file = "kubejs/data/agape_space/recipes/wire.json"
-hash = "7ec38d75eb574191de0b9b452599a93a87955c63dabb26a82e276a6fa1bd3123"
-
-[[files]]
 file = "kubejs/data/alloy_forgery/alloy_forges/prismarine_bricks_forge_controller.json"
 hash = "7cae5ef262e92977702e391640e491a979e5fdd32dc5be48744a5816e8f2e837"
 
@@ -3957,394 +3933,6 @@ file = "kubejs/data/createplus/recipes/modern_industrialization/mixer/limestone.
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/acacia_seed.json"
-hash = "a7dce88d95cd4c81c61240220910cfc1247c3dbbcddce9e7a3821fcafeb56511"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/amethyst_seed.json"
-hash = "0480a002063a4a7db7cc6bdec4d69aca396950729fc5f93c63b49187d5809de8"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/apple_seed.json"
-hash = "29d7bdf35a07733b0cf382b74336a56bafa4a600778baeefa61ab0b8f2ee9056"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/beef_seed.json"
-hash = "b0b39d70b9b15a39ed73689ca6c44d01c138ce0ffa29b3097c79c364a157409f"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/birch_seed.json"
-hash = "6a6057104cdfa0b0ebb3ded688b9224fa9a0af9d5af61911fd33804c02ab801b"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/black_dye_seed.json"
-hash = "309b2e1eb3386c8451509e7016c8a4c6b0280f7b47aeaec19b24bd548a2f2285"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/blue_dye_seed.json"
-hash = "91c7809f1c0561fc1751fad5816616ee20c6217c78a48ad24a16a785d51ba08f"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/bottle_seed.json"
-hash = "c01f060eca2febaf7a8e12e7988696167675cbedc73fc2cf8c02c9fdb14f45a1"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/bread_seed.json"
-hash = "838fdc54d5c6b97d687c6d664b0e9720cfbd03a0009e5be78c94fb617ea8ea04"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/brown_dye_seed.json"
-hash = "5b7811035a70f78fe2827417e42281e5185b50cb6c342cb1103a544a5530ffdf"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/charcoal_seed.json"
-hash = "a3438311e7ca080a037405eaa617a80ca038929f1431ee2cda706dc835a3d6e3"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/chicken_seed.json"
-hash = "93281ffc24271076e64126bd96c5a99cd90ff8ec78ca4dfd12b9f66f477bc59f"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/clay_seed.json"
-hash = "6199f43dc923d508556990c2dc8263448a2a2d5b4013c69b12ac45b9d13195c7"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/coal_seed.json"
-hash = "d68e23705969e5d188a7f881dcb8f5fee169225dbbd819cf99bf2aadc3a8ea1a"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/cod_seed.json"
-hash = "e604b27b27879ad6138dc7ec3ae48130d70aab0322e9aa43195cdcc31f8bc6b5"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/cookie_seed.json"
-hash = "d0bf0ffec71a5f04d619020aff68c5d4def436fab62c123c6fd4fef231e71366"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/cyan_dye_seed.json"
-hash = "662061f813b67c1f85d5f6cb61792133c7dabdb9de618f4961757ce689cc042a"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/dark_oak_seed.json"
-hash = "d723719bee8429ceca38400a7f2cd8efde82c4830061a1a26772e25a3a4e074b"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/dead_bush_seed.json"
-hash = "57df641d60b3a7d54fa39077ea54b27856462a165c134604447f9a6f9b74352c"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/egg_seed.json"
-hash = "97903abad392512501250f867410cb3afe717511ef4251c276df01aee07105fb"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/feather_seed.json"
-hash = "4af507b091fba11beac68049158f08e2e83a67e7e3c96f14fde911d5027b36f0"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/fern_seed.json"
-hash = "81201bfca4d33eea82669715faf2de30816c8ec79038d831e935b83060eb32b0"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/firework_seed.json"
-hash = "b98670b704c4effb2441029c4464549283df94223959119fb7030c462d68d5e8"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/flint_seed.json"
-hash = "aa6269fd64e30afcd4878335ceaa011032c783a6663c71c25daa6dead18586cb"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/glow_ink_seed.json"
-hash = "76188c9438fa84979a2f9d4beef5ca5c7ea5ff54890ef6998564d9b70a366c97"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/grass_seed.json"
-hash = "a8b0af104cbedad5556b6e1e346473cdda0733da5807a1f566d41c95a63745cf"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/gray_dye_seed.json"
-hash = "9902778834fcc3746619f0e4c5b4b6d48f98e6f560eb67c6645ad5fe7a330190"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/green_dye_seed.json"
-hash = "fc9689865f88490c05b99c0d9cc16467844c17cce5856117d8577b23c230d338"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/honeycomb_seed.json"
-hash = "3e282be819da853665a866dbcbd78223f585fea5ad4a0e8d303b663ced6dcb5e"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/ink_seed.json"
-hash = "c368263755d6d17e9ddf495049d2f020d6056882b86be57f7701fd5433ec9fe9"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/jungle_seed.json"
-hash = "48fd3a18904d48a7ea21bd1dfc2818e005349de90bc8ced6ede6814921ea9a9a"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/large_fern_seed.json"
-hash = "f0094c0db4440110eaf78e100c416a7512a693ebcb940ea4ff75137d04b80780"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/lead_leash_seed.json"
-hash = "2a11296dfeacee2325b61f9478dc6174933f7adf0d91d3efd11fbb91135edfcb"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/leather_seed.json"
-hash = "c458244894472fce19c77fba82e85e9fd0f24e3591d68c49f6ad948becfb77f0"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/light_blue_dye_seed.json"
-hash = "d5f9b291cdcbe28ea2f60f397cc6c6f1c6ef4e85af400e293b028c24465a817f"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/light_gray_dye_seed.json"
-hash = "c6edc7634177f0544440b241cd941fda6143fbc2f361ed0a798a83d8a7c8ca11"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/lily_pad_seed.json"
-hash = "6cc22a5db54a9d340aa6b3fb91dcc67b0c0a3a58981c9c6bfee022f207f5a481"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/lime_dye_seed.json"
-hash = "7d53476162b1c028c7eedd1cf69d6c4ba2896235ed3aea695b4b2573cd0dad34"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/magenta_dye_seed.json"
-hash = "042c4f7a0f2ed5f6f68acd1b985aac44843c3decbdd4659c0bb0570f7f240c20"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/mutton_seed.json"
-hash = "d6a38468022e6fee0b1936d5e9b1494b24df3bd1c1ce6468df39fa29bd90afc5"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/name_tag_seed.json"
-hash = "fe22ab772ea15e3a691916fe382d7194a1236d1b00bc1b254a9d75334cc0db64"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/oak_seed.json"
-hash = "6d59b41ca6dc975261d7f1d725cd29a38eb35b8b9f98f346a38c404d5e6504a2"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/orange_dye_seed.json"
-hash = "c371acc1d8f828360c70d357698eafc57d31ab498248a9d2ab491c192ca40191"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/paper_seed.json"
-hash = "a21c5c873574ae90b4d75315eec7b735aca00c0c55066fa23945aec832c6909b"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/pink_dye_seed.json"
-hash = "6ed48b1a135ca2eb21d4edc0840025b81bcbae51fc78e039c9b90a88b527c378"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/pork_seed.json"
-hash = "dce7f68673cfa42cf6c2d6e840a859ae8e8610f2d98d4987c71d38eecf8d2602"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/pufferfish_seed.json"
-hash = "7b9312d35cbd0e66774ac4aa8a0293dda68c492e24191ef20ed52bb75255e142"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/purple_dye_seed.json"
-hash = "68ff9aa252beac4f36b280292c72c2cf3a4c1e8ed7a6f79d9be1b4622daaba05"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/rabbit_foot_seed.json"
-hash = "a1ec03a4f88e3325eaf07966369fd480324e3bc45a08e6a24423ea38ac52d227"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/rabbit_hide_seed.json"
-hash = "70e9fdc3c160a922a3c0862a1ce3ad6e84fafe6967d88d6f7fd6faca7a790322"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/rabbit_seed.json"
-hash = "d605293dfcab510fc7877c6213559810313dcb6639318838b1fac3743326d8d7"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/red_dye_seed.json"
-hash = "bb1108915fc08c5dd61157df5e13eaa592bcafc1c217b9c25b5af6e2add4e449"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/salmon_seed.json"
-hash = "b5512cae551de2afa1f92c0b40b5fb708fd337ab91e26e25723e1ad235b77030"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/snowball_seed.json"
-hash = "df5fa50bb6302c04f08f3bd23f1a0d000fd6670765d151af564c3573de7df8d0"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/spruce_seed.json"
-hash = "8b2372608931aad06f6a020932b05de42d59b0e1c8e30e411eb45ffdb802c6a2"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/sugar_seed.json"
-hash = "77e26cf82efcdad400762574ae5c8db9954adcb927b80f2f8b5a65c884954472"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/tallgrass_seed.json"
-hash = "06cd7e542a8c28a850e8658691c8e553b58938cd721a1f8668efeef26089a53c"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/tropical_fish_seed.json"
-hash = "8af3ae836b147cdd3c0f850fd3f811249e040cc8540ba2d19d6b72c805977814"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/vine_seed.json"
-hash = "53c9bb8a18459d84e86f62c19df3fb4caaa1f442d6e20fc1ff3f4656df650993"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/white_dye_seed.json"
-hash = "170488d8acfe66e2c2d7399cc1b621c11407b4b7467508275b4f6db59e48cdb0"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T1/yellow_dye_seed.json"
-hash = "c2438e2918e34765ad2b00973e7fca8cd86bd646559cf23912cf805761987852"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/bone_seed.json"
-hash = "7128a751fbb2c23a444686b27f0f303d024ac8bb3d01097edf5ab5b673085768"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/copper_seed.json"
-hash = "205b7de9705919df90eae21f244313041f28f5572ba1b5605046e0c21df8b8c6"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/gold_seed.json"
-hash = "82c0239207588c3ba20dc3369ac515a1e1c2e822b3753fefd9d257b0d762c1c9"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/gunpowder_seed.json"
-hash = "ad497207c13a23d523485eee6ffc8f08d55c2df8cc0d47cea5411b4fbeaadb7d"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/iron_seed.json"
-hash = "7164d0a0e0a6ac64bddebc1191ac00614af19fcbf40b271b81335558b966ca7a"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/phantom_seed.json"
-hash = "d02a0144adc27a69de530293568c4e6f4d8145d4dd41e58a0e6f9e63594c85cb"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/prismarine_crystal_seed.json"
-hash = "c9ed615103f8c5858f068240056052d42c2982f43419702598f8eac3278f65c4"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/prismarine_seed.json"
-hash = "d2ba07a8f2c8b2f815cb36f06751089e5cd5acb2923961ab0c7a1e955474b1e4"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/rotten_flesh_seed.json"
-hash = "8f10e0451fe7d905d7d2f196d73efd3f98abf8f3049133c826e304528dc7176c"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/scute_seed.json"
-hash = "59c5f7b7e3a0ad4406d3fc965c2ec2123cb7b92b6016f180a21cbdc6746dba08"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/slime_ball_seed.json"
-hash = "aa7d5b21bad98e0ae16cef643533cea333d3aa98876dc7636fa3bc72b75b0bf2"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/spider_eye_seed.json"
-hash = "a61bf6b255feafafedf17035ce3f9b9c51ae8d40200c78fd43f33974b07d77fd"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T2/string_seed.json"
-hash = "62215706faf548151bd17f8ae036fcea0c0ce4063e014d674ce7f6548321b1e9"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T3/blaze_rod_seed.json"
-hash = "a763c11581db3c5225307d0ed815caa7e732be4d14a39a3cf9996df4b02a4465"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T3/chorus_seed.json"
-hash = "ae690dd28f789de9d077c81dc340a0673015ae3fe86a69445963871ca92bd0b9"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T3/ender_pearl_seed.json"
-hash = "c9b343a6286d90bc4ed30cabee8bf27e00bcb0a14364291ab21eb7f0927ef897"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T3/glowstone_seed.json"
-hash = "0e762789e9d687e4a0f6c10afa3e5eaa963797059db4ed975d9a8c7eb2dde60e"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T3/golden_apple_seed.json"
-hash = "6bc948426ae849a5c02f705711be91cb7552abb81bd5dbf543bfb448ed5478b0"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T3/lapis_seed.json"
-hash = "7da6dc2f3abab1d2f1beef4a788f4421635df4951dcc1f2463870d68a4f3c5a1"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T3/magma_cream_seed.json"
-hash = "4ef8a7ed31240a84aae43788e1f444842e5b60fbafe03c85804828a2a0ad8607"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T3/nautilus_seed.json"
-hash = "91709c362f529d759f380703070bb7681bdaf417761e539c21cc242530df8c19"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T3/nether_bricks_seed.json"
-hash = "341920c3b5fa1e878a3de52930e0eb9de9a619f8e1e2815b17240bd1217f9da3"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T3/quartz_seed.json"
-hash = "54dad8143c16eb91ba2ac335236404b03d290bed4520df1881aefaa2463b4ac2"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T3/redstone_seed.json"
-hash = "91709c362f529d759f380703070bb7681bdaf417761e539c21cc242530df8c19"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T4/bottle_o_enchanting_seed.json"
-hash = "b264bd74f34acf7a92b88544c2d8c9bed75728dd70bf2fba4930128d47595e32"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T4/diamond_seed.json"
-hash = "1d69c9bbdd9cae52f5635cf557e49739b51309cce4d48199be1819043bd5e323"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T4/elematilius_seed.json"
-hash = "d8f07e608c0bed0789ba16dc41e63df7ff403b3c4df44683f2fa9cb840e5ac30"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T4/emerald_seed.json"
-hash = "c34aa7c427e1ea1d73310f772ec9fd926c758d7c6fbc73e746f8a8eb68331f40"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T4/ghast_tear_seed.json"
-hash = "237a5c878feaf75e122c648c969d0cc04643c2fd774048ba9da4b77d34f3608b"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T4/heart_of_the_sea_seed.json"
-hash = "de9d9572e447ef2f1b4fd8e627d5fccbd26134948add5c7c7e87aaf3ab9ac4e4"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T4/shulker_shell_seed.json"
-hash = "e94460a9c9cea76add7effd50c78dc578d0df794d7185b8b3f7af99afadaa6cc"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T5/netherite_seed.json"
-hash = "3a948e95a9317e30bd5a33ca70e64319ea4bf26c99d631b39ec8f444d1d745cb"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T5/wither_rose_seed.json"
-hash = "581847baeccb6fac22f79590be6d6cb1ce593b25c75df8c646cfd699ec286aa7"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T6/nether_star_seed.json"
-hash = "73075eba4e0f444fe5b520f599ccb628000d3371e931f2451273dea8440d7854"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T6/totem_seed.json"
-hash = "a6f8c9fc72da2662376da246b816034dd64d8c5c981393113ffba7a02c30fea9"
-
-[[files]]
-file = "kubejs/data/croparia/recipes/MICentrifugeRecycling/T7/dragon_egg_seed.json"
-hash = "601e2c0939794a47331ce50bd566b4a065829bf07238715114f9c392e037f03a"
-
-[[files]]
 file = "kubejs/data/croparia/recipes/diamond_knife.json"
 hash = "a3dcc9b0ed837da3584fe3a1d0598673fe031e6033e0045d8fa044d287ec2f49"
 
@@ -4439,6 +4027,394 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "kubejs/data/croparia/recipes/iron_knife.json"
 hash = "651ffaa976f28bb888efd9592754e609a2d23f73c003315813b0b234ec76fbf0"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/acacia_seed.json"
+hash = "a7dce88d95cd4c81c61240220910cfc1247c3dbbcddce9e7a3821fcafeb56511"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/amethyst_seed.json"
+hash = "0480a002063a4a7db7cc6bdec4d69aca396950729fc5f93c63b49187d5809de8"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/apple_seed.json"
+hash = "29d7bdf35a07733b0cf382b74336a56bafa4a600778baeefa61ab0b8f2ee9056"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/beef_seed.json"
+hash = "b0b39d70b9b15a39ed73689ca6c44d01c138ce0ffa29b3097c79c364a157409f"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/birch_seed.json"
+hash = "6a6057104cdfa0b0ebb3ded688b9224fa9a0af9d5af61911fd33804c02ab801b"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/black_dye_seed.json"
+hash = "309b2e1eb3386c8451509e7016c8a4c6b0280f7b47aeaec19b24bd548a2f2285"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/blue_dye_seed.json"
+hash = "91c7809f1c0561fc1751fad5816616ee20c6217c78a48ad24a16a785d51ba08f"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/bottle_seed.json"
+hash = "c01f060eca2febaf7a8e12e7988696167675cbedc73fc2cf8c02c9fdb14f45a1"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/bread_seed.json"
+hash = "838fdc54d5c6b97d687c6d664b0e9720cfbd03a0009e5be78c94fb617ea8ea04"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/brown_dye_seed.json"
+hash = "5b7811035a70f78fe2827417e42281e5185b50cb6c342cb1103a544a5530ffdf"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/charcoal_seed.json"
+hash = "a3438311e7ca080a037405eaa617a80ca038929f1431ee2cda706dc835a3d6e3"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/chicken_seed.json"
+hash = "93281ffc24271076e64126bd96c5a99cd90ff8ec78ca4dfd12b9f66f477bc59f"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/clay_seed.json"
+hash = "6199f43dc923d508556990c2dc8263448a2a2d5b4013c69b12ac45b9d13195c7"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/coal_seed.json"
+hash = "d68e23705969e5d188a7f881dcb8f5fee169225dbbd819cf99bf2aadc3a8ea1a"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/cod_seed.json"
+hash = "e604b27b27879ad6138dc7ec3ae48130d70aab0322e9aa43195cdcc31f8bc6b5"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/cookie_seed.json"
+hash = "d0bf0ffec71a5f04d619020aff68c5d4def436fab62c123c6fd4fef231e71366"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/cyan_dye_seed.json"
+hash = "662061f813b67c1f85d5f6cb61792133c7dabdb9de618f4961757ce689cc042a"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/dark_oak_seed.json"
+hash = "d723719bee8429ceca38400a7f2cd8efde82c4830061a1a26772e25a3a4e074b"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/dead_bush_seed.json"
+hash = "57df641d60b3a7d54fa39077ea54b27856462a165c134604447f9a6f9b74352c"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/egg_seed.json"
+hash = "97903abad392512501250f867410cb3afe717511ef4251c276df01aee07105fb"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/feather_seed.json"
+hash = "4af507b091fba11beac68049158f08e2e83a67e7e3c96f14fde911d5027b36f0"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/fern_seed.json"
+hash = "81201bfca4d33eea82669715faf2de30816c8ec79038d831e935b83060eb32b0"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/firework_seed.json"
+hash = "b98670b704c4effb2441029c4464549283df94223959119fb7030c462d68d5e8"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/flint_seed.json"
+hash = "aa6269fd64e30afcd4878335ceaa011032c783a6663c71c25daa6dead18586cb"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/glow_ink_seed.json"
+hash = "76188c9438fa84979a2f9d4beef5ca5c7ea5ff54890ef6998564d9b70a366c97"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/grass_seed.json"
+hash = "a8b0af104cbedad5556b6e1e346473cdda0733da5807a1f566d41c95a63745cf"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/gray_dye_seed.json"
+hash = "9902778834fcc3746619f0e4c5b4b6d48f98e6f560eb67c6645ad5fe7a330190"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/green_dye_seed.json"
+hash = "fc9689865f88490c05b99c0d9cc16467844c17cce5856117d8577b23c230d338"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/honeycomb_seed.json"
+hash = "3e282be819da853665a866dbcbd78223f585fea5ad4a0e8d303b663ced6dcb5e"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/ink_seed.json"
+hash = "c368263755d6d17e9ddf495049d2f020d6056882b86be57f7701fd5433ec9fe9"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/jungle_seed.json"
+hash = "48fd3a18904d48a7ea21bd1dfc2818e005349de90bc8ced6ede6814921ea9a9a"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/large_fern_seed.json"
+hash = "f0094c0db4440110eaf78e100c416a7512a693ebcb940ea4ff75137d04b80780"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/lead_leash_seed.json"
+hash = "2a11296dfeacee2325b61f9478dc6174933f7adf0d91d3efd11fbb91135edfcb"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/leather_seed.json"
+hash = "c458244894472fce19c77fba82e85e9fd0f24e3591d68c49f6ad948becfb77f0"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/light_blue_dye_seed.json"
+hash = "d5f9b291cdcbe28ea2f60f397cc6c6f1c6ef4e85af400e293b028c24465a817f"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/light_gray_dye_seed.json"
+hash = "c6edc7634177f0544440b241cd941fda6143fbc2f361ed0a798a83d8a7c8ca11"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/lily_pad_seed.json"
+hash = "6cc22a5db54a9d340aa6b3fb91dcc67b0c0a3a58981c9c6bfee022f207f5a481"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/lime_dye_seed.json"
+hash = "7d53476162b1c028c7eedd1cf69d6c4ba2896235ed3aea695b4b2573cd0dad34"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/magenta_dye_seed.json"
+hash = "042c4f7a0f2ed5f6f68acd1b985aac44843c3decbdd4659c0bb0570f7f240c20"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/mutton_seed.json"
+hash = "d6a38468022e6fee0b1936d5e9b1494b24df3bd1c1ce6468df39fa29bd90afc5"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/name_tag_seed.json"
+hash = "fe22ab772ea15e3a691916fe382d7194a1236d1b00bc1b254a9d75334cc0db64"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/oak_seed.json"
+hash = "6d59b41ca6dc975261d7f1d725cd29a38eb35b8b9f98f346a38c404d5e6504a2"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/orange_dye_seed.json"
+hash = "c371acc1d8f828360c70d357698eafc57d31ab498248a9d2ab491c192ca40191"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/paper_seed.json"
+hash = "a21c5c873574ae90b4d75315eec7b735aca00c0c55066fa23945aec832c6909b"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/pink_dye_seed.json"
+hash = "6ed48b1a135ca2eb21d4edc0840025b81bcbae51fc78e039c9b90a88b527c378"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/pork_seed.json"
+hash = "dce7f68673cfa42cf6c2d6e840a859ae8e8610f2d98d4987c71d38eecf8d2602"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/pufferfish_seed.json"
+hash = "7b9312d35cbd0e66774ac4aa8a0293dda68c492e24191ef20ed52bb75255e142"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/purple_dye_seed.json"
+hash = "68ff9aa252beac4f36b280292c72c2cf3a4c1e8ed7a6f79d9be1b4622daaba05"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/rabbit_foot_seed.json"
+hash = "a1ec03a4f88e3325eaf07966369fd480324e3bc45a08e6a24423ea38ac52d227"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/rabbit_hide_seed.json"
+hash = "70e9fdc3c160a922a3c0862a1ce3ad6e84fafe6967d88d6f7fd6faca7a790322"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/rabbit_seed.json"
+hash = "d605293dfcab510fc7877c6213559810313dcb6639318838b1fac3743326d8d7"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/red_dye_seed.json"
+hash = "bb1108915fc08c5dd61157df5e13eaa592bcafc1c217b9c25b5af6e2add4e449"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/salmon_seed.json"
+hash = "b5512cae551de2afa1f92c0b40b5fb708fd337ab91e26e25723e1ad235b77030"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/snowball_seed.json"
+hash = "df5fa50bb6302c04f08f3bd23f1a0d000fd6670765d151af564c3573de7df8d0"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/spruce_seed.json"
+hash = "8b2372608931aad06f6a020932b05de42d59b0e1c8e30e411eb45ffdb802c6a2"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/sugar_seed.json"
+hash = "77e26cf82efcdad400762574ae5c8db9954adcb927b80f2f8b5a65c884954472"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/tallgrass_seed.json"
+hash = "06cd7e542a8c28a850e8658691c8e553b58938cd721a1f8668efeef26089a53c"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/tropical_fish_seed.json"
+hash = "8af3ae836b147cdd3c0f850fd3f811249e040cc8540ba2d19d6b72c805977814"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/vine_seed.json"
+hash = "53c9bb8a18459d84e86f62c19df3fb4caaa1f442d6e20fc1ff3f4656df650993"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/white_dye_seed.json"
+hash = "170488d8acfe66e2c2d7399cc1b621c11407b4b7467508275b4f6db59e48cdb0"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t1/yellow_dye_seed.json"
+hash = "c2438e2918e34765ad2b00973e7fca8cd86bd646559cf23912cf805761987852"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/bone_seed.json"
+hash = "7128a751fbb2c23a444686b27f0f303d024ac8bb3d01097edf5ab5b673085768"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/copper_seed.json"
+hash = "205b7de9705919df90eae21f244313041f28f5572ba1b5605046e0c21df8b8c6"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/gold_seed.json"
+hash = "82c0239207588c3ba20dc3369ac515a1e1c2e822b3753fefd9d257b0d762c1c9"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/gunpowder_seed.json"
+hash = "ad497207c13a23d523485eee6ffc8f08d55c2df8cc0d47cea5411b4fbeaadb7d"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/iron_seed.json"
+hash = "7164d0a0e0a6ac64bddebc1191ac00614af19fcbf40b271b81335558b966ca7a"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/phantom_seed.json"
+hash = "d02a0144adc27a69de530293568c4e6f4d8145d4dd41e58a0e6f9e63594c85cb"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/prismarine_crystal_seed.json"
+hash = "c9ed615103f8c5858f068240056052d42c2982f43419702598f8eac3278f65c4"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/prismarine_seed.json"
+hash = "d2ba07a8f2c8b2f815cb36f06751089e5cd5acb2923961ab0c7a1e955474b1e4"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/rotten_flesh_seed.json"
+hash = "8f10e0451fe7d905d7d2f196d73efd3f98abf8f3049133c826e304528dc7176c"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/scute_seed.json"
+hash = "59c5f7b7e3a0ad4406d3fc965c2ec2123cb7b92b6016f180a21cbdc6746dba08"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/slime_ball_seed.json"
+hash = "aa7d5b21bad98e0ae16cef643533cea333d3aa98876dc7636fa3bc72b75b0bf2"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/spider_eye_seed.json"
+hash = "a61bf6b255feafafedf17035ce3f9b9c51ae8d40200c78fd43f33974b07d77fd"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t2/string_seed.json"
+hash = "62215706faf548151bd17f8ae036fcea0c0ce4063e014d674ce7f6548321b1e9"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t3/blaze_rod_seed.json"
+hash = "a763c11581db3c5225307d0ed815caa7e732be4d14a39a3cf9996df4b02a4465"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t3/chorus_seed.json"
+hash = "ae690dd28f789de9d077c81dc340a0673015ae3fe86a69445963871ca92bd0b9"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t3/ender_pearl_seed.json"
+hash = "c9b343a6286d90bc4ed30cabee8bf27e00bcb0a14364291ab21eb7f0927ef897"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t3/glowstone_seed.json"
+hash = "0e762789e9d687e4a0f6c10afa3e5eaa963797059db4ed975d9a8c7eb2dde60e"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t3/golden_apple_seed.json"
+hash = "6bc948426ae849a5c02f705711be91cb7552abb81bd5dbf543bfb448ed5478b0"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t3/lapis_seed.json"
+hash = "7da6dc2f3abab1d2f1beef4a788f4421635df4951dcc1f2463870d68a4f3c5a1"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t3/magma_cream_seed.json"
+hash = "4ef8a7ed31240a84aae43788e1f444842e5b60fbafe03c85804828a2a0ad8607"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t3/nautilus_seed.json"
+hash = "91709c362f529d759f380703070bb7681bdaf417761e539c21cc242530df8c19"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t3/nether_bricks_seed.json"
+hash = "341920c3b5fa1e878a3de52930e0eb9de9a619f8e1e2815b17240bd1217f9da3"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t3/quartz_seed.json"
+hash = "54dad8143c16eb91ba2ac335236404b03d290bed4520df1881aefaa2463b4ac2"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t3/redstone_seed.json"
+hash = "91709c362f529d759f380703070bb7681bdaf417761e539c21cc242530df8c19"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t4/bottle_o_enchanting_seed.json"
+hash = "b264bd74f34acf7a92b88544c2d8c9bed75728dd70bf2fba4930128d47595e32"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t4/diamond_seed.json"
+hash = "1d69c9bbdd9cae52f5635cf557e49739b51309cce4d48199be1819043bd5e323"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t4/elematilius_seed.json"
+hash = "d8f07e608c0bed0789ba16dc41e63df7ff403b3c4df44683f2fa9cb840e5ac30"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t4/emerald_seed.json"
+hash = "c34aa7c427e1ea1d73310f772ec9fd926c758d7c6fbc73e746f8a8eb68331f40"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t4/ghast_tear_seed.json"
+hash = "237a5c878feaf75e122c648c969d0cc04643c2fd774048ba9da4b77d34f3608b"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t4/heart_of_the_sea_seed.json"
+hash = "de9d9572e447ef2f1b4fd8e627d5fccbd26134948add5c7c7e87aaf3ab9ac4e4"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t4/shulker_shell_seed.json"
+hash = "e94460a9c9cea76add7effd50c78dc578d0df794d7185b8b3f7af99afadaa6cc"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t5/netherite_seed.json"
+hash = "3a948e95a9317e30bd5a33ca70e64319ea4bf26c99d631b39ec8f444d1d745cb"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t5/wither_rose_seed.json"
+hash = "581847baeccb6fac22f79590be6d6cb1ce593b25c75df8c646cfd699ec286aa7"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t6/nether_star_seed.json"
+hash = "129ad726adc38cc19a9ac87f5263541b1a9b16f1468b709d6d9164d2ee62d857"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t6/totem_seed.json"
+hash = "a6f8c9fc72da2662376da246b816034dd64d8c5c981393113ffba7a02c30fea9"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/mi_centrifuge_recycling/t7/dragon_egg_seed.json"
+hash = "601e2c0939794a47331ce50bd566b4a065829bf07238715114f9c392e037f03a"
 
 [[files]]
 file = "kubejs/data/croparia/recipes/obsidian_pestle.json"
@@ -5754,7 +5730,7 @@ hash = "eaf6fe68f80f1ee324b6e601df38bfece73160658077cbec8e6451014f552e7b"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/extreme/creative/creative_thruster.json"
-hash = "2d3645274584c37fd1ab4894b51140969e28df58a51ed94064bc0d7b77e086f3"
+hash = "b09560a8b30919206408f717070cfe47aa064cdf69609939b82b4630f400494d"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/extreme/creative/creative_wand.json"

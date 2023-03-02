@@ -58,8 +58,7 @@ const UNIFICATION_ORDER = [
     "create",
     "createplus",
     "alloygery",
-    "resourceful_tools",
-    "agape_space"
+    "resourceful_tools"
 ];
 // List of tags NOT to unify
 const UNIFICATION_BLACKLIST = [

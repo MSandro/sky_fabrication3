@@ -92,7 +92,7 @@ onEvent('recipes', event => {
       "count": amount
     }
   });
-  
+
   event.custom({
     "type": "create:mechanical_crafting",
     "pattern": [
@@ -179,9 +179,13 @@ onEvent('recipes', event => {
   });
 
   event.custom({
-    "type": "artis:bigger_bench_shaped",
+    "type": "artis:big_bench_shaped",
     "pattern": [
-      "ABCDEFG", "JKLMNOP", "STUVWX ", "HIQR   "
+        "ABCDE",
+  	    "FGKLM",
+  	    "NOPST",
+  	    "UVWXH",
+  	    " IQR "
     ],
     "key": {
       "A": {"item": first_item},
@@ -193,7 +197,6 @@ onEvent('recipes', event => {
       "G": {"item": "minecraft:mutton"},
       "H": {"item": "additionaladditions:chicken_nugget"},
       "I": {"item": "twilightforest:raw_venison"},
-      "J": {"item": "agape_space:space_meat"},
       "K": {"item": "farmersdelight:pasta_with_meatballs"},
       "L": {"item": "croptopia:tofu"},
       "M": {"item": "croparia:fruit_rawbeef"},
@@ -214,15 +217,15 @@ onEvent('recipes', event => {
       "count": amount
     }
   });
-  
+
   event.custom({
     "type": "create:mechanical_crafting",
     "pattern": [
       "ABCDE",
-	  "FGJKL",
-	  "MNOPS",
-	  "TUVWX",
-	  "HIQR "
+	    "FGKLM",
+	    "NOPST",
+	    "UVWXH",
+	    " IQR "
     ],
     "key": {
       "A": {"item": first_item},
@@ -234,7 +237,6 @@ onEvent('recipes', event => {
       "G": {"item": "minecraft:mutton"},
       "H": {"item": "additionaladditions:chicken_nugget"},
       "I": {"item": "twilightforest:raw_venison"},
-      "J": {"item": "agape_space:space_meat"},
       "K": {"item": "farmersdelight:pasta_with_meatballs"},
       "L": {"item": "croptopia:tofu"},
       "M": {"item": "croparia:fruit_rawbeef"},
@@ -311,7 +313,7 @@ onEvent('recipes', event => {
       "count": amount
     }
   });
-  
+
   event.custom({
     "type": "create:mechanical_crafting",
     "pattern": [

@@ -9,6 +9,6 @@
   "item_outputs": {
     "item": "croparia:fruit_star",
     "amount": 1,
-	"probability": 0.055
+	  "probability": 0.055
   }
 }

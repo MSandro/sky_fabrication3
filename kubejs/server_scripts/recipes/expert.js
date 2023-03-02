@@ -75,7 +75,7 @@ onEvent('recipes', event => {
       F: 'fabric-furnaces:emerald_furnace',
       P: 'kubejs:endest_pearl',
       E: 'minecraft:dragon_egg',
-      Q: 'truerooms:camolock_eye',
+      Q: 'endrem:wither_eye',
       C: 'things:hardening_catalyst',
       R: 'compress:compressed_end_stone_1',
     });
@@ -101,7 +101,7 @@ onEvent('recipes', event => {
         "ECE"
     ], {
       F: 'modern_industrialization:aluminum_tank',
-      H: 'appliedenergistics2:quantum_entangled_singularity',
+      H: 'ae2:quantum_entangled_singularity',
       E: 'minecraft:blaze_rod',
       Q: 'botania:third_eye',
       C: 'modern_industrialization:kanthal_block'
@@ -113,7 +113,7 @@ onEvent('recipes', event => {
         "ECE"
     ], {
       F: 'minecraft:ender_chest',
-      H: 'appliedenergistics2:quantum_entangled_singularity',
+      H: 'ae2:quantum_entangled_singularity',
       E: 'minecraft:blaze_rod',
       Q: 'botania:third_eye',
       C: 'modern_industrialization:kanthal_block'
