@@ -3,7 +3,11 @@ onEvent('recipes', event => {
 
   chisel.forEach(item => {
     var material = item.id.split('/')[1];
+    if (material == "purpur") {
+      event.stonecutting(item.id, `minecraft:purpur_block`, 1);
+    } else {
       event.stonecutting(item.id, `minecraft:${material}`, 1);
+    }
   });
 
   const factory = Ingredient.of(`#factory_blocks:chiseled_blocks`).getStacks().toArray();

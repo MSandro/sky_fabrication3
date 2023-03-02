@@ -4473,6 +4473,10 @@ file = "kubejs/data/dark-enchanting/recipes/table_upgrade.json"
 hash = "83924f9c7f817bacf766f1817bdb7e02d556c75f4ebe653a90a89d74d4717b0e"
 
 [[files]]
+file = "kubejs/data/dmlsimulacrum/recipes/transmute/transmutes2_extraterrestrial/nether_star.json"
+hash = "3f0e5ba96e9559670da766f133b794acc36dd650bf6c1309a45f51fea86ce70a"
+
+[[files]]
 file = "kubejs/data/extended_drawers/recipes/access_point.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -6614,7 +6618,7 @@ hash = "edbd792cf277a50625244600fc852c52b97be9b236f50b720c889dd606a3ce2e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/chisel_to_stonecutter.js"
-hash = "ddd70c524219628e6ec285fefb5d3e284c4308bc1a9e6132c111030725ce6165"
+hash = "0d6ccc62c431df51ca18d5dd6351e41753e36e21679fd074e54231022b781c2c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/expert.js"
