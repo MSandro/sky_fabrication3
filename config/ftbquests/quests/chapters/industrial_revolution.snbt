@@ -352,8 +352,8 @@
 					Count: 1b
 					tag: {
 						selected: { }
-						energy: 9995L
 						Progress: 1.0f
+						energy: 9995L
 						Damage: 0
 						Active: 1b
 					}

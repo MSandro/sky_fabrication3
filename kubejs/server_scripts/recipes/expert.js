@@ -371,12 +371,12 @@ onEvent('recipes', event => {
        ["fabricaeexnihilo:tuff_pebble","fabricaeexnihilo:tuff_pebble","fabricaeexnihilo:tuff_pebble"],
        ]);
 
-    event.remove({output:"fabriccaeexnihilo:porcelain"})
-    event.shaped("fabriccaeexnihilo:procelain", [
-       ["BBB","BCB","BBB"],{
-       B:"minecraft:bonemeal",
-       C:"minecraft:clay",
-       }]);
+    event.remove({output:"fabriccaeexnihilo:porcelain"});
+    event.shaped("fabricaeexnihilo:porcelain", [
+       ["minecraft:bone_meal","minecraft:bone_meal","minecraft:bone_meal"],
+       ["minecraft:bone_meal","minecraft:clay","minecraft:bone_meal"],
+       ["minecraft:bone_meal","minecraft:bone_meal","minecraft:bone_meal"],
+    ]);
     event.remove({output: "minecraft:flint_and_steel"})
     event.shapeless("minecraft:flint_and_steel", [
     	    "modern_industrialization:steel_ingot",

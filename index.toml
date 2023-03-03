@@ -1450,11 +1450,11 @@ hash = "54380be7653b1c25480b0e28f96d454dab979ecc9fa24697f12f6827d27ac9ff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "fa5c55442b93dd29aa960fc97c3b3af82918123cc01bb036c8b30327fb8dbf89"
+hash = "98cc7ffbab172988754024ac71db665d015de5466bc9dec510cb56e04804ca4c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arcanus.snbt"
-hash = "c261d51b59eca7a4436da12575bda19fd4871c1b86fa914e8b4fb94d1f65d6a2"
+hash = "62631b05940f8295c3e0738f8cc31bfec06dd32e8f12a937dd08829f0d166fcf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/automatedtasksandtriggers.snbt"
@@ -1474,7 +1474,7 @@ hash = "a13e4d9e61ed1efe2474c48c0d5ade7542f2b560502af0994ec66af630aacb56"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deep_mob_learning.snbt"
-hash = "7939b0d2e3d3fa0d221aa066c112d763d039409c57d75a5db417808aef4230b9"
+hash = "f8f01b04df2936247ae7e990f913bc534271984de7fca0396e1c59940894d065"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity_age.snbt"
@@ -1486,7 +1486,7 @@ hash = "61c19418aefd6b593105fff6eab4ff58153ee94e1113216424e039787047e192"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gadgets.snbt"
-hash = "bae3a7fe4439ac39eda6bced631d17561da4000064d2a389bd745023388eac14"
+hash = "2304669e5386d944b54221f4e1d153b6bcc32c1832ad5e8777ea7ef4d721fcac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
@@ -1494,7 +1494,7 @@ hash = "3edd520c4d05e9d2f9a81ad2d65fa2232cde5f74a6a51532dede44f4b08c5555"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_revolution.snbt"
-hash = "2763f7dae32eba310f4c6633a31a881ab2c1db22abf6962b1c968ec49fa627b7"
+hash = "45c844e064dd5d5f015fceff8828938764b9b1211bf71962e1d56ae886808558"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/infinity.snbt"
@@ -1502,11 +1502,11 @@ hash = "602785da61a5e5d64d9f7c6af786013b511d88d6f0aaaac4eef69077df250b1b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kibe.snbt"
-hash = "60a25214bb6eb3fb72bffd9ca098f75bbeed9d20630cacf3d879fb6279120a90"
+hash = "3fe6cbaf9bea2ef068c4b8f51b1abba79f6b4e2d2fd70b6865be0689dfd09baa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mechanical_age.snbt"
-hash = "df4cf27f5f539869598a44196380e1172426d7188cc909e430373f6cdb8d3137"
+hash = "d900954bab8c7c9e55b50a59e458b15e0440fc8bbaf7494a8e177eca80583365"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modern_industrialization.snbt"
@@ -1514,7 +1514,7 @@ hash = "46221426ae383dcb64ecc07a259fc226fc4480f7859e3d5b5c25c22e30d01f36"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resourceful_ways.snbt"
-hash = "5681a9ec72ec34115d610036b80a83b2252e63b30c2c92ba999d1239e0af1935"
+hash = "1f90c9cd949618a6a3be630527710cbda58db7029411e539cb037d24f4bfb748"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simple_storage_network.snbt"
@@ -1530,11 +1530,11 @@ hash = "e865505b40d638c7f3f440482f0903a264e13eb178ce2242fb06aee58a73c575"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spectrum_unlock_progress.snbt"
-hash = "3808513b930d434d7e881624aca57eb4f9d0dac2a6536a253fd72be6d1638f3f"
+hash = "7c05d74016992f12b7ab79d9252cbdcf47afeef88a8c0a396da340e3fb1d7139"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
-hash = "0af819442c17fda899225da557c9dc315f2b9ec2b233444ba40f4e103d9290cf"
+hash = "b0f04ac21d3f96858748e70c611eb3b851f2bc6302739e010b956d665003c876"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tech_reborn.snbt"
@@ -1542,7 +1542,7 @@ hash = "5b92a28c40a6d6965fd8a7a22e0f174b3782a1d197fe8edf68f30bd2657f38e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_beginning.snbt"
-hash = "ff93b69e95468c6b18c30ac29000ba05dd8596090a9f685a559aa1d30fed0278"
+hash = "eab896f12807287ac8750bd743c003829a58eefd6c086ff7505d8e2faf2f26e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tools_and_armor.snbt"
@@ -3378,11 +3378,11 @@ hash = "91a43be4b9024e5eeafd409d3f02e836241f615d4cdd8380a4603d16bdd81ba3"
 
 [[files]]
 file = "kubejs/client_scripts/rei_removal_script.js"
-hash = "ddafcba0fa6b9fdbd1453714ba23511dd5de89826df9dd6e9fc6e441945ff211"
+hash = "5a99f0b1b0379a033e0cc3e4dfd5908704f89be46b7307d4f147d400d60343ad"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
-hash = "0009b4aa88c457c3382a06894aec0f48791dc217544675ba5ab29003fb839238"
+hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
@@ -3403,6 +3403,14 @@ hash = "17c32509236a1312dfe1630d75cfb6eaa91d26706bc24739e9e0d21f4675060c"
 [[files]]
 file = "kubejs/config/probejs.json"
 hash = "8935613ac1aba22540424d2265778fa81b77f3e600f70d5da6d80c81502242bd"
+
+[[files]]
+file = "kubejs/data/advanced_reborn/recipes/crafting/nano_helmet.json"
+hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+
+[[files]]
+file = "kubejs/data/advanced_reborn/recipes/crafting/nano_helmet_2.json"
+hash = "86d7a02bb50e034b11c994e4ead16f06f69850f17e1eedf0592111f303893ca7"
 
 [[files]]
 file = "kubejs/data/ae2things/recipes/blocks/advanced_inscriber.json"
@@ -4442,7 +4450,7 @@ hash = "4be7cbce48e5a8755b3a4cf0fc4f8dc82f0ac534ec416aa76bcf76a922bb2ef3"
 
 [[files]]
 file = "kubejs/data/dark-enchanting/recipes/dark_enchanter.json"
-hash = "2892c0d47a67f02eb9dcd061078ac42cc05d8385d2845334c1537186b3cab4e3"
+hash = "47924a20b5e558616cb5d5e8020aeaed6ebeff5c065224ed7d522cbde61594b3"
 
 [[files]]
 file = "kubejs/data/dark-enchanting/recipes/table_upgrade.json"
@@ -4451,6 +4459,14 @@ hash = "83924f9c7f817bacf766f1817bdb7e02d556c75f4ebe653a90a89d74d4717b0e"
 [[files]]
 file = "kubejs/data/dmlsimulacrum/recipes/transmute/transmutes2_extraterrestrial/nether_star.json"
 hash = "3f0e5ba96e9559670da766f133b794acc36dd650bf6c1309a45f51fea86ce70a"
+
+[[files]]
+file = "kubejs/data/enchanted-vertical-slabs/recipes/vertical_mangrove_slab.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/enchanted-vertical-slabs/recipes/vertical_mud_brick_slab.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/data/extended_drawers/recipes/access_point.json"
@@ -4522,6 +4538,10 @@ hash = "d692a0c36e48bd1816914b61f9a1279e8e398dcc2ab4b26c5affa29b617e2fa7"
 
 [[files]]
 file = "kubejs/data/fabricaeexnihilo/recipes/end_cake.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/fabricaeexnihilo/recipes/hammering/glass_to_sand.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
@@ -5537,10 +5557,6 @@ file = "kubejs/data/indrev/recipes/smelter/new_smelting_recipes/molten_uranium/n
 hash = "36a304bc8291d518cec898ef867019464f0de51f06d4da786b63c85b30185697"
 
 [[files]]
-file = "kubejs/data/indrev/recipes/smelter/new_smelting_recipes/molten_uranium/plate.json"
-hash = "25e33769cb5bd9960aa27eaab364fca92ebda7abf48898ea2eb99c6354a3fbf1"
-
-[[files]]
 file = "kubejs/data/indrev/recipes/smelter/new_smelting_recipes/molten_uranium/pure_ore.json"
 hash = "f696e414644e12c09fc2c24b470184cc1e325baf58f6b1116c94831c94331a1f"
 
@@ -5686,7 +5702,7 @@ hash = "cbca99dd55f9dd149c3beb81fa5cef30ce6aef3cb45f65f60cf64f2fa7196d7d"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/extreme/creative/creative_booster.json"
-hash = "2d3645274584c37fd1ab4894b51140969e28df58a51ed94064bc0d7b77e086f3"
+hash = "69708810df1e2aa3627c3e81d295de8178bc5d5d492ed29c669b491d480adc7c"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/extreme/creative/creative_capacitor.json"
@@ -5706,7 +5722,7 @@ hash = "c455153612c6a588a6cab25e2d6db99d6d2242ea7cb06c672df9e91ca7eccded"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/extreme/creative/creative_jetpack.json"
-hash = "23b18d6c3617e40a2142ae31def1cfe9b61f73cf6439fff58cbf39ea79786c9c"
+hash = "cf76e7c7568197ae310fbf3c782887612bf18b61cffb514e687c27be462e1bf8"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/extreme/creative/creative_lazuli_flux.json"
@@ -5730,7 +5746,7 @@ hash = "eaf6fe68f80f1ee324b6e601df38bfece73160658077cbec8e6451014f552e7b"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/extreme/creative/creative_thruster.json"
-hash = "b09560a8b30919206408f717070cfe47aa064cdf69609939b82b4630f400494d"
+hash = "f705d8d48c61d933147cfe70b5da234d1f6cbae6ca569ebaa7931284ac33fd9e"
 
 [[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/extreme/creative/creative_wand.json"
@@ -6449,6 +6465,42 @@ file = "kubejs/data/tconstruct/recipes/smeltery/melting/metal/knightmetal/sword.
 hash = "16b65d7cc136bc6b38e07dfd1ddb745de1b4b2b98a12b940aaaf9350687b3100"
 
 [[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/scorched/chiseled_scorched_bricks_stonecutting.json"
+hash = "4f2afe72a88b5d83835c8e4fb56a718997ea6e66c01273cc4bb53143f46c2e5b"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/scorched/polished_scorched_stone_stonecutting.json"
+hash = "f8def87e780829d354ba4dc3fc2ab6fe464bdc2a980e6df53550b2da1819fb3c"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/scorched/scorched_brick_kiln.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/scorched/scorched_bricks_stonecutting.json"
+hash = "5eebbd7f40f685dcd0fb8812237c5470731e924a0192beb1eeed5d970ec3bdb0"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/seared/seared_brick_kiln.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/seared/seared_bricks_stonecutting.json"
+hash = "0af7510787aa5eed4ca029496dbd951f81466d8fa20a9f1c56f3695fb2ff752c"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/seared/seared_fancy_bricks_stonecutting.json"
+hash = "70c73a73f72cba41227be90b270b0c84bfb8699c54d5460431c63a98623331a2"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/smeltery/seared/seared_triangle_bricks_stonecutting.json"
+hash = "55f66abf2ae9f2dd1bcc3028bb491da4dde0fe3f244ade6e531a7bd4bed0733a"
+
+[[files]]
+file = "kubejs/data/tconstruct/recipes/tables/crafting_station.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "kubejs/data/tconstruct/recipes/tools/materials/casting/tungsten.json"
 hash = "8c1baf333fed331fdd8cf4d463925347583d2de8adc77d4f20d1c5c5f36a0bfb"
 
@@ -6570,7 +6622,7 @@ hash = "fca3526ab18fd971688835e17b3de62779c6e7bd4a36ce67d023c2ef1cf229d4"
 
 [[files]]
 file = "kubejs/server_scripts/functions.js"
-hash = "593ed370379c13c1327ed39814c5b72800cc4bf1b8f500d637c9b0e8dd24fb8a"
+hash = "5346a57c367911f209cc393b496d25c3ebf5184a1515ae1595592cf869bb22c8"
 
 [[files]]
 file = "kubejs/server_scripts/interactions.js"
@@ -6586,7 +6638,11 @@ hash = "b1636a73cd9f557b33ff8082af6ee5d420181bf5432ee7b18d8afb3233fc67af"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/KubeJS/food.js"
-hash = "f37ba8070fe0df784804b73d089ec8b8de1e5d3f891e0e3e0e1ae6c4a27a2a43"
+hash = "a07872c937ebe98108417ba5436578c0a14d38e15e2e719fe219f186161ff1a8"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/alternatives.js"
+hash = "81c699a09078158c89a13d38221243cfe896afd976730624f6e6bff674882f5c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/charm/shaped.js"
@@ -6598,7 +6654,7 @@ hash = "0d6ccc62c431df51ca18d5dd6351e41753e36e21679fd074e54231022b781c2c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/expert.js"
-hash = "ca34653625ac0af310799de32ec8f0c811db4e9d1ca0768ec78b7a45d2eb1e7c"
+hash = "9591119b3f32a41438f21b7eade3b0b8743b7e57d4fd7e4f83561bbd0acce51f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/kibe/shaped.js"
@@ -6650,7 +6706,7 @@ hash = "ab3e0217d6d08af0118e32ff8b8a4981d098b8b0deb71511d3ff0adb1124e065"
 
 [[files]]
 file = "kubejs/server_scripts/unification/materials.js"
-hash = "acfd8bef40da35dd694f771ab1fde758090faa373d2d9a315a20c81cbe21935f"
+hash = "8f1d76d37a5781c81f788a9d965f7b889aeb44087bb8d87be86dbee0d9dbc20f"
 
 [[files]]
 file = "kubejs/server_scripts/void.js"
@@ -6813,7 +6869,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm-fabric.pw.toml"
-hash = "780f2f39a61874bf5eb5b20accd408f2f6788c2a7051630715b79a8a532bf12f"
+hash = "1cd501c016fc860acc4cb6763b9e0d92502a3021b9626f92d3debefadb52a54a"
 metafile = true
 
 [[files]]
@@ -7392,6 +7448,11 @@ hash = "832280e1dc3ccd858c8415daf0a92338dd8479c530ac1cb94bddddb9b9fb4b7b"
 metafile = true
 
 [[files]]
+file = "mods/gearreborn.pw.toml"
+hash = "6dd5e489e7dfe388adea19e1637acb8d487af656be8ce8e7a3f1f5338d30213c"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "623014e55885a6f3e61e54d1acdda801145019de02954c7254eca827be787688"
 metafile = true
@@ -7633,7 +7694,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcpitanlibarch.pw.toml"
-hash = "035b9785e4535e6aa1a6183fb24a6583200dd560094160e40cac72e57f5dae1e"
+hash = "10cf57bb6391a5d30552c761d7a8dac56d2e7c737682478801595c64d836e388"
 metafile = true
 
 [[files]]
