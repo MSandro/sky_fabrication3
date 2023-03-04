@@ -24,13 +24,11 @@
 	// Worlds where shooting stars spawn for players. Shooting Stars will only spawn for players with sufficient progress in the mod
 	"ShootingStarWorlds": [
 		"minecraft:overworld",
-		"starry_sky:starry_sky",
 		"sf3:void"
 	],
 	// Worlds where lightning strikes can spawn Storm Stones
 	"LightningStonesWorlds": [
 		"minecraft:overworld",
-		"starry_sky:starry_sky",
 		"sf3:void"
 	],
 	// chance for a lightning strike to spawn a Storm Stone
