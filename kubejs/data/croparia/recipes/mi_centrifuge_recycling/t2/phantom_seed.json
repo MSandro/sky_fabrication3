@@ -1,0 +1,14 @@
+{
+  "type": "modern_industrialization:centrifuge",
+  "eu": 8,
+  "duration": 200,
+  "item_inputs": {
+    "item": "croparia:seed_crop_phantom",
+    "amount": 1
+  },
+  "item_outputs": {
+    "item": "croparia:fruit_phantom",
+    "amount": 1,
+	"probability": 0.165
+  }
+}

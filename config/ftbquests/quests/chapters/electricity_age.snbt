@@ -1226,37 +1226,6 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 3.0d
-			shape: "gear"
-			subtitle: "A giant UwU has been constructed..."
-			description: [
-				"With a suitable Pressurizer setup and a Singularity, large amounts of energy can be turned through Quantum Hawnking Radiation, into Universally Useable Matter also known as UU Matter, the very fabric of the universe."
-				""
-				"Hint - you need at least 32 Highly Advanced Upgrades to satisfy this recipe's energy requirement."
-			]
-			dependencies: ["6314525E36DEA54B"]
-			size: 1.5d
-			id: "79802A9D4A83E757"
-			tasks: [{
-				id: "15325EFF41DA3891"
-				type: "item"
-				item: "modern_industrialization:bucket_uu_matter"
-			}]
-			rewards: [
-				{
-					id: "5B72A41410DB60FF"
-					type: "item"
-					item: "minecraft:flint"
-				}
-				{
-					id: "527FADF1DB02BCCC"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
-		}
-		{
 			x: 4.0d
 			y: -0.5d
 			dependencies: ["5310B93F2821826A"]

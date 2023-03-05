@@ -1063,7 +1063,9 @@
 				icon: {
 					id: "kibe:white_glider"
 					Count: 1b
-					tag: { }
+					tag: {
+						Damage: 0
+					}
 				}
 				item: {
 					id: "itemfilters:or"

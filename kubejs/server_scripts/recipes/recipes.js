@@ -100,4 +100,7 @@ onEvent('recipes', (event) => {
   event.remove({output: 'improved-stations:furnace_slab', type: 'minecraft:crafting_shapeless'});
   event.remove({output: 'improved-stations:smoker_slab', type: 'minecraft:crafting_shapeless'});
   event.remove({output: 'improved-stations:blast_furnace_slab', type: 'minecraft:crafting_shapeless'});
+  event.remove({output: "improved-stations:crafting_station"});
+  event.remove({output: "improved-stations:crafting_station_slab"});
+  event.shapeless('2x improved-stations:crafting_station_slab', ['#tconstruct:tables']);
 })

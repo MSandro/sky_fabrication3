@@ -6,9 +6,6 @@ net.minecraft.class_442 {
 net.minecraft.class_525 {
 }
 
-net.minecraft.class_433 {
-}
-
 me.lizardofoz.inventorio.client.ui.InventorioScreen {
 }
 
@@ -22,5 +19,11 @@ tfar.dankstorage.client.screens.PortableDankStorageScreen {
 }
 
 net.minecraft.class_481 {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_433 {
 }
 

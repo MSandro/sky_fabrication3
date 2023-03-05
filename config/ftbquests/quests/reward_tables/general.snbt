@@ -39,7 +39,9 @@
 			item: {
 				id: "kibe:white_glider"
 				Count: 1b
-				tag: { }
+				tag: {
+					Damage: 0
+				}
 			}
 		}
 		{ item: "minecraft:leather", count: 2, random_bonus: 4 }

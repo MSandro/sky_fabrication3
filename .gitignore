@@ -5,3 +5,4 @@
 *.bak
 /options.txt
 /kubejs/exported
+*.directory

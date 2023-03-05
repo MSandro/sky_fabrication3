@@ -1427,10 +1427,7 @@
 			y: -4.0d
 			subtitle: "[Endgame Item]"
 			description: ["Check out the Endgame tab for more info."]
-			dependencies: [
-				"25B6D9950B1CF03C"
-				"030CFE419C9627F0"
-			]
+			dependencies: ["25B6D9950B1CF03C"]
 			id: "1EE7E1FA12789E34"
 			tasks: [{
 				id: "0C45A1E8EE9BCBE8"

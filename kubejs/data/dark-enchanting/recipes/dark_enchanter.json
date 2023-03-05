@@ -36,5 +36,3 @@
     "item": "dark-enchanting:dark_enchanter"
   }
 }
-
-{"type":"minecraft:crafting_shaped","pattern":["EGE","GDG","CCC"],"key":{"E":{"item":""},"G":{"item":""},"D":{"item":""},"C":{"item":"compress:compressed_diamond_block_1"}},"result":{"item":""}}

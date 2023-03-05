@@ -112,7 +112,6 @@
 			x: 2.5d
 			y: 3.5d
 			subtitle: "A Neutronium Nugget is required to craft this item."
-			dependencies: ["59F7DE03A3A8E6F8"]
 			id: "3E17651799AF2546"
 			tasks: [{
 				id: "72A113FAD8AB99EE"

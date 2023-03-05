@@ -43,11 +43,6 @@
 				type: "checkmark"
 				title: "Your every day toolbelt"
 			}]
-			rewards: [{
-				id: "2B08F0AD303DA2A2"
-				type: "item"
-				item: "staffofbuilding:infinite_builder_staff"
-			}]
 		}
 		{
 			x: 0.5d
