@@ -57,12 +57,12 @@
       "amount": 1,
       "probability": 0.25
     },
-	{
+	  {
       "item": "tconstruct:cobalt_ore",
       "amount": 2,
       "probability": 0.15
     },
-	{
+	  {
       "item": "spectrum:scarlet_ore",
       "amount": 1,
       "probability": 0.05

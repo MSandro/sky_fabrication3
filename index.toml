@@ -6194,7 +6194,7 @@ hash = "934c3b42ca0dbcc4db3af3c59e3e9743e2a03d8d866252c67a9d5886727f0dc5"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/quarry/gold.json"
-hash = "2ae0d95131b09bfe5c1e48007fab9052f5e884e13a95407e8d2ad3ff65d7d261"
+hash = "ab8ec981fb58e15a44720de3e6b61fdcae391adb81df3cf21b58a1fd6ac8b3b0"
 
 [[files]]
 file = "kubejs/data/modern_industrialization/recipes/quarry/titanium.json"
@@ -6654,7 +6654,7 @@ hash = "0d6ccc62c431df51ca18d5dd6351e41753e36e21679fd074e54231022b781c2c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/expert.js"
-hash = "a913f49616a1ddac6c2534db8750dcb9f4e4ccd28e0d57029b6a16ce98f494e2"
+hash = "0cd87954780004f8588117759b4f5e2dab2210bbb9d2d04b66b48e0ccc3cb59b"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/kibe/shaped.js"
@@ -8095,6 +8095,11 @@ metafile = true
 [[files]]
 file = "mods/suggestion-tweaker.pw.toml"
 hash = "a7c09eb7876079b51538266f5f648c878fe9ba6b9acc112deb23df3c6d3e73c6"
+metafile = true
+
+[[files]]
+file = "mods/tamago.pw.toml"
+hash = "7bef5674d5e7d5d581c3e5e86123d1010461be2b4a9641e0f33b408f3017ba6d"
 metafile = true
 
 [[files]]

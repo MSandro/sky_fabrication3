@@ -132,50 +132,50 @@ onEvent('recipes', event => {
     });
 
     //KIBE
-    event.replaceInput({output: 'kibe:golden_lasso'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
-    event.replaceInput({output: 'kibe:golden_lasso'}, 'minecraft:gold_nugget', 'minecraft:gold_block')
-    event.replaceInput({output: 'kibe:cursed_lasso'}, 'kibe:cursed_droplets', 'minecraft:wither_skeleton_skull')
-    event.replaceInput({output: 'kibe:diamond_lasso'}, 'minecraft:diamond', 'minecraft:diamond_block')
+    event.replaceInput({output: 'kibe:golden_lasso'}, 'minecraft:gold_ingot', 'minecraft:gold_block');
+    event.replaceInput({output: 'kibe:golden_lasso'}, 'minecraft:gold_nugget', 'minecraft:gold_block');
+    event.replaceInput({output: 'kibe:cursed_lasso'}, 'kibe:cursed_droplets', 'minecraft:wither_skeleton_skull');
+    event.replaceInput({output: 'kibe:diamond_lasso'}, 'minecraft:diamond', 'minecraft:diamond_block');
 
     //ExpandedStorage
-    event.replaceInput({output: 'expandedstorage:old_iron_chest'}, 'minecraft:iron_ingot', 'minecraft:iron_block')
-    event.replaceInput({output: 'expandedstorage:iron_chest'}, 'minecraft:iron_ingot', 'minecraft:iron_block')
-    event.replaceInput({output: 'expandedstorage:iron_barrel'}, 'minecraft:iron_ingot', 'minecraft:iron_block')
-    event.replaceInput({output: 'expandedstorage:wood_to_iron_conversion_kit'}, 'minecraft:iron_ingot', 'minecraft:iron_block')
-    event.replaceInput({output: 'expandedstorage:old_gold_chest'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
-    event.replaceInput({output: 'expandedstorage:gold_chest'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
-    event.replaceInput({output: 'expandedstorage:gold_barrel'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
-    event.replaceInput({output: 'expandedstorage:wood_to_gold_conversion_kit'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
-    event.replaceInput({output: 'expandedstorage:iron_to_gold_conversion_kit'}, 'minecraft:gold_ingot', 'minecraft:gold_block')
-    event.replaceInput({output: 'expandedstorage:old_diamond_chest'}, 'minecraft:diamond', 'minecraft:diamond_block')
-    event.replaceInput({output: 'expandedstorage:diamond_chest'}, 'minecraft:diamond', 'minecraft:diamond_block')
-    event.replaceInput({output: 'expandedstorage:diamond_barrel'}, 'minecraft:diamond', 'minecraft:diamond_block')
-    event.replaceInput({output: 'expandedstorage:wood_to_diamond_conversion_kit'}, 'minecraft:diamond', 'minecraft:diamond_block')
-    event.replaceInput({output: 'expandedstorage:gold_to_diamond_conversion_kit'}, 'minecraft:diamond', 'minecraft:diamond_block')
-    event.replaceInput({output: 'expandedstorage:netherite_chest'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
-    event.replaceInput({output: 'expandedstorage:old_netherite_chest'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
-    event.replaceInput({output: 'expandedstorage:netherite_barrel'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
-    event.replaceInput({output: 'expandedstorage:wood_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
-    event.replaceInput({output: 'expandedstorage:obsidian_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
-    event.replaceInput({output: 'expandedstorage:diamond_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
-    event.replaceInput({output: 'expandedstorage:gold_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
-    event.replaceInput({output: 'expandedstorage:iron_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block')
+    event.replaceInput({output: 'expandedstorage:old_iron_chest'}, 'minecraft:iron_ingot', 'minecraft:iron_block');
+    event.replaceInput({output: 'expandedstorage:iron_chest'}, 'minecraft:iron_ingot', 'minecraft:iron_block');
+    event.replaceInput({output: 'expandedstorage:iron_barrel'}, 'minecraft:iron_ingot', 'minecraft:iron_block');
+    event.replaceInput({output: 'expandedstorage:wood_to_iron_conversion_kit'}, 'minecraft:iron_ingot', 'minecraft:iron_block');
+    event.replaceInput({output: 'expandedstorage:old_gold_chest'}, 'minecraft:gold_ingot', 'minecraft:gold_block');
+    event.replaceInput({output: 'expandedstorage:gold_chest'}, 'minecraft:gold_ingot', 'minecraft:gold_block');
+    event.replaceInput({output: 'expandedstorage:gold_barrel'}, 'minecraft:gold_ingot', 'minecraft:gold_block');
+    event.replaceInput({output: 'expandedstorage:wood_to_gold_conversion_kit'}, 'minecraft:gold_ingot', 'minecraft:gold_block');
+    event.replaceInput({output: 'expandedstorage:iron_to_gold_conversion_kit'}, 'minecraft:gold_ingot', 'minecraft:gold_block');
+    event.replaceInput({output: 'expandedstorage:old_diamond_chest'}, 'minecraft:diamond', 'minecraft:diamond_block');
+    event.replaceInput({output: 'expandedstorage:diamond_chest'}, 'minecraft:diamond', 'minecraft:diamond_block');
+    event.replaceInput({output: 'expandedstorage:diamond_barrel'}, 'minecraft:diamond', 'minecraft:diamond_block');
+    event.replaceInput({output: 'expandedstorage:wood_to_diamond_conversion_kit'}, 'minecraft:diamond', 'minecraft:diamond_block');
+    event.replaceInput({output: 'expandedstorage:gold_to_diamond_conversion_kit'}, 'minecraft:diamond', 'minecraft:diamond_block');
+    event.replaceInput({output: 'expandedstorage:netherite_chest'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block');
+    event.replaceInput({output: 'expandedstorage:old_netherite_chest'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block');
+    event.replaceInput({output: 'expandedstorage:netherite_barrel'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block');
+    event.replaceInput({output: 'expandedstorage:wood_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block');
+    event.replaceInput({output: 'expandedstorage:obsidian_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block');
+    event.replaceInput({output: 'expandedstorage:diamond_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block');
+    event.replaceInput({output: 'expandedstorage:gold_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block');
+    event.replaceInput({output: 'expandedstorage:iron_to_netherite_conversion_kit'}, 'minecraft:netherite_ingot', 'minecraft:netherite_block');
 
     //huge thanks to Itplays#1148
     //improved stations
     event.remove({output: "improved-stations:crafting_table_slab"});
     event.stonecutting('improved-stations:crafting_table_slab', '#c:workbenches');
     //plate recipe
-    event.remove({output: "minecraft:cauldren"})
-    event.remove({output: "minecraft:iron_boots"})
-    event.remove({output: "minecraft:iron_chestplate"})
-    event.remove({output: "minecraft:iron_leggings"})
-    event.remove({output: "minecraft:iron_helmet"})
-    event.remove({output: "minecraft:iron_sword"})
-    event.remove({output: "minecraft:iron_axe"})
-    event.remove({output: "minecraft:iron_pickaxe"})
-    event.remove({output: "minecraft:iron_shovel"})
-    event.remove({output: "minecraft:iron_hoe"})
+    event.remove({output: "minecraft:cauldren"});
+    event.remove({output: "minecraft:iron_boots"});
+    event.remove({output: "minecraft:iron_chestplate"});
+    event.remove({output: "minecraft:iron_leggings"});
+    event.remove({output: "minecraft:iron_helmet"});
+    event.remove({output: "minecraft:iron_sword"});
+    event.remove({output: "minecraft:iron_axe"});
+    event.remove({output: "minecraft:iron_pickaxe"});
+    event.remove({output: "minecraft:iron_shovel"});
+    event.remove({output: "minecraft:iron_hoe"});
 
     event.shaped("minecraft:cauldron", [
         ["modern_industrialization:iron_plate",  null	,"modern_industrialization:iron_plate"],
@@ -229,15 +229,15 @@ onEvent('recipes', event => {
       ]);
 
     //diamond equipment WIP (maybe diamond plates)
-    event.remove({output: "minecraft:diamond_boots"})
-    event.remove({output: "minecraft:diamond_leggings"})
-    event.remove({output: "minecraft:diamond_chestplate"})
-    event.remove({output: "minecraft:diamond_helmet"})
-    event.remove({output: "minecraft:diamond_sword"})
-    event.remove({output: "minecraft:diamond_axe"})
-    event.remove({output: "minecraft:diamond_pickaxe"})
-    event.remove({output: "minecraft:diamond_shovel"})
-    event.remove({output: "minecraft:diamond_hoe"})
+    event.remove({output: "minecraft:diamond_boots"});
+    event.remove({output: "minecraft:diamond_leggings"});
+    event.remove({output: "minecraft:diamond_chestplate"});
+    event.remove({output: "minecraft:diamond_helmet"});
+    event.remove({output: "minecraft:diamond_sword"});
+    event.remove({output: "minecraft:diamond_axe"});
+    event.remove({output: "minecraft:diamond_pickaxe"});
+    event.remove({output: "minecraft:diamond_shovel"});
+    event.remove({output: "minecraft:diamond_hoe"});
 
     event.shaped("minecraft:diamond_boots", [
         [null,null,null],
@@ -287,27 +287,27 @@ onEvent('recipes', event => {
         [null,"minecraft:stick",null],
       ]);
 
-    event.remove({output: "#kibe:sleeping_bed"})
+    event.remove({output: "#kibe:sleeping_bed"});
 
     //MODERN INDUSTRIALIZATION
-    event.remove({output: "minecraft:charcoal"})
+    event.remove({output: "minecraft:charcoal"});
     event.custom({
-    "type" : "modern_industrialization:coke_oven",
-     "eu" : 2,
-     "duration" : 600,
-     "item_inputs" : {
-       "tag" : "minecraft:logs_that_burn",
-       "amount" : 16
-     },
-     "fluid_outputs" : {
-         "fluid" : "modern_industrialization:creosote",
-         "amount" : 500,
-         "probability" : 0.1
-     },
-     "item_outputs" : {
-       "item" : "minecraft:charcoal",
-       "amount" : 16
-       }
+      type: "modern_industrialization:coke_oven",
+      eu: 2,
+      duration: 600,
+      item_inputs: {
+        tag: "minecraft:logs_that_burn",
+        amount: 16
+      },
+      fluid_outputs: {
+        fluid: "modern_industrialization:creosote",
+        amount: 500,
+        probability: 0.1
+      },
+      item_outputs: {
+        item: "minecraft:charcoal",
+        amount: 16
+      }
    });
 
     //wands
@@ -315,15 +315,15 @@ onEvent('recipes', event => {
     event.remove({output:"wands:iron_wand"});
 
     //earlygame
-    event.remove({output: "minecraft:cobblestone"})
-    event.remove({output: "minecraft:andesite"})
-    event.remove({output: "minecraft:basalt"})
-    event.remove({output: "minecraft:blackstone"})
-    event.remove({output: "minecraft:calcite"})
-    event.remove({output: "minecraft:deepslate"})
-    event.remove({output: "minecraft:diorite"})
-    event.remove({output: "minecraft:granite"})
-    event.remove({output: "minecraft:tuff"})
+    event.remove({output: "minecraft:cobblestone"});
+    event.remove({output: "minecraft:andesite"});
+    event.remove({output: "minecraft:basalt"});
+    event.remove({output: "minecraft:blackstone"});
+    event.remove({output: "minecraft:calcite"});
+    event.remove({output: "minecraft:deepslate"});
+    event.remove({output: "minecraft:diorite"});
+    event.remove({output: "minecraft:granite"});
+    event.remove({output: "minecraft:tuff"});
 
     event.shaped("minecraft:cobblestone", [
        ["fabricaeexnihilo:stone_pebble","fabricaeexnihilo:stone_pebble","fabricaeexnihilo:stone_pebble"],
@@ -377,7 +377,7 @@ onEvent('recipes', event => {
        ["minecraft:bone_meal","minecraft:clay","minecraft:bone_meal"],
        ["minecraft:bone_meal","minecraft:bone_meal","minecraft:bone_meal"],
     ]);
-    event.remove({output: "minecraft:flint_and_steel"})
+    event.remove({output: "minecraft:flint_and_steel"});
     event.shapeless("minecraft:flint_and_steel", [
     	    "modern_industrialization:steel_ingot",
             "minecraft:flint",
@@ -385,9 +385,9 @@ onEvent('recipes', event => {
     //event.remove({output: "minecraft:coarse_dirt"});
     //event.remove({output: "techreborn:brass_ingot", type:"minecraft:smelting"});  (funktioniert irgendwie nicht)
     //event.remove({output:"create:goggles"});
-    event.remove({output: "fabricaeexnihilo:blaze_doll"})
+    event.remove({output: "fabricaeexnihilo:blaze_doll"});
   } else {
-    event.replaceInput({output: 'techreborn:basic_tank_unit'}, 'techreborn:basic_storage_unit', 'modern_industrialization:bronze_tank')
-    event.replaceInput({output: 'spatialharvesters:casing'}, 'modern_industrialization:quantum_upgrade', 'modern_industrialization:quantum_circuit')
+    event.replaceInput({output: 'techreborn:basic_tank_unit'}, 'techreborn:basic_storage_unit', 'modern_industrialization:bronze_tank');
+    event.replaceInput({output: 'spatialharvesters:casing'}, 'modern_industrialization:quantum_upgrade', 'modern_industrialization:quantum_circuit');
   }
 });
