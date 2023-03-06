@@ -296,8 +296,8 @@ onEvent('recipes', event => {
       "eu" : 2,
       "duration" : 600,
       "item_inputs" : {
-        "item" : "16x #minecraft:logs_that_burn",
-        "amount" : 1
+        "item" : "#minecraft:logs_that_burn",
+        "amount" : 16
       },
       "fluid_outputs" : {
           "fluid" : "modern_industrialization:creosote",
@@ -305,8 +305,8 @@ onEvent('recipes', event => {
           "probability" : 0.1
       },
       "item_outputs" : {
-        "item" : "16x minecraft:charcoal",
-        "amount" : 1
+        "item" : "minecraft:charcoal",
+        "amount" : 16
         }
     });
 

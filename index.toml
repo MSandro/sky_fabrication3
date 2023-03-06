@@ -22,7 +22,7 @@ hash = "57aff8e15bfd1a7ad48ef2b985993a3b2d9d0a69139da5402f8730299699bbfc"
 
 [[files]]
 file = "config/Spectrum.json5"
-hash = "a1beef3c4e3b76c56f87c1c49c6a82bce35eed65a4904d0a4127d31a0593a462"
+hash = "0e55d30949be142059d88d7d3fbbd20f1b1ab73eca7e7f48ec2d538510bc1764"
 
 [[files]]
 file = "config/YungsExtras/README.txt"
@@ -7259,7 +7259,7 @@ metafile = true
 
 [[files]]
 file = "mods/expanded-storage.pw.toml"
-hash = "5b52a4c620fea77f5195e0f1f4ab71636b934c599c9b023563f9408fd3912233"
+hash = "8982039cd133df184adcb60354f1cddaf40d8ab7e718ca78fbceb99cb71041a9"
 metafile = true
 
 [[files]]
@@ -7694,7 +7694,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcpitanlibarch.pw.toml"
-hash = "10cf57bb6391a5d30552c761d7a8dac56d2e7c737682478801595c64d836e388"
+hash = "9c55dbbfd01966d648369d77d08e170c0c8b4938e06583659933b18369664921"
 metafile = true
 
 [[files]]
