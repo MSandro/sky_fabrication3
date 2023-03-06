@@ -1,8 +1,12 @@
-# Proposed changes for Sky FABRICation 3
+# Sky FABRICation 3 - 0.6.0 Update
 
 <ul>
+    <li>A new "expert" mode for those who like to spend more time with the earlygame.</li>
     <li>Many Questbook edits, including a redesigned Create chapter, corrections and updates for some of the quests, 2 new Endgame Quest Chapters: Spatial Harvesters and Endgame.</li>
     <li>Added some of the MI Metals as materials for Hephaestus/Tinker's Construct Tools, making them also meltable.</li>
+    <li>TODO: New Hephaestus Tool Materials: Steeleaf, Fiery, Knightmetal, Neutronium and Infinity.</li>
+    <li>Fixed Hephaestus "Step Up" ability.</li>
+    <li>Hephaestus tools are now able to be equipped in Inventorio slots and are able to vein-mine using FTB Ultimine.</li>
     <li>Rebalanced Industrial Revolution's ore processing:
         <ul>
             <li>Industrial Smelter is renamed to Industrial Smeltery, it now melts metals into their Hephaestus molten form, at the rate of regular Smeltery by default.</li>
@@ -49,7 +53,6 @@
 - A hidden quest chapter containing every Spectrum progression trigger located in the "spectrum:progression" invisible advancement tree.
 
 ## Not fixed:
-- Ancient Ruins not generating in Sky Islands,
 - Lack of Void Blossom boss,
 - Absolutely broken Croparia Items,
 - Poor MI Diesel Drill breaking speed.
