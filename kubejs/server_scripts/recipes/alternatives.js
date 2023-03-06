@@ -1,12 +1,14 @@
 //priority: 12
 function pulverize(event, output, input) {
-   var json = {
-     type: "indrev:pulverize",
-     ingredients: Item.of(input).toJson(),
-     output: output,
-     processTime: 200
-   };
-   event.custom(json);
+  if (!input.includes("#")) {
+    var json = {
+      type: "indrev:pulverize",
+      ingredients: Item.of(input).toJson(),
+      output: output,
+      processTime: 200
+    };
+    event.custom(json);
+  }
 }
 
 onEvent('recipes', event => {

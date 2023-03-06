@@ -291,24 +291,24 @@ onEvent('recipes', event => {
 
     //MODERN INDUSTRIALIZATION
     event.remove({output: "minecraft:charcoal"})
-     event.custom({
-     "type" : "modern_industrialization:coke_oven",
-      "eu" : 2,
-      "duration" : 600,
-      "item_inputs" : {
-        "item" : "#minecraft:logs_that_burn",
-        "amount" : 16
-      },
-      "fluid_outputs" : {
-          "fluid" : "modern_industrialization:creosote",
-          "amount" : 500,
-          "probability" : 0.1
-      },
-      "item_outputs" : {
-        "item" : "minecraft:charcoal",
-        "amount" : 16
-        }
-    });
+    event.custom({
+    "type" : "modern_industrialization:coke_oven",
+     "eu" : 2,
+     "duration" : 600,
+     "item_inputs" : {
+       "tag" : "minecraft:logs_that_burn",
+       "amount" : 16
+     },
+     "fluid_outputs" : {
+         "fluid" : "modern_industrialization:creosote",
+         "amount" : 500,
+         "probability" : 0.1
+     },
+     "item_outputs" : {
+       "item" : "minecraft:charcoal",
+       "amount" : 16
+       }
+   });
 
     //wands
     event.remove({output:"wands:stone_wand"});
