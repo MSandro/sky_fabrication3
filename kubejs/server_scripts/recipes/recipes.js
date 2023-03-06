@@ -63,6 +63,10 @@ onEvent('recipes', (event) => {
   event.remove({output: 'modern_industrialization:bronze_dust', type: 'minecraft:crafting_shapeless'})
   event.remove({output: 'modern_industrialization:bronze_tiny_dust', type: 'minecraft:crafting_shapeless'})
   event.remove({output: 'modern_industrialization:raw_tungsten', type: 'minecraft:crafting_shapeless'})
+  event.remove({output: 'modern_industrialization:tungsten_dust', type: 'minecraft:crafting_shaped'})
+  event.shapeless('modern_industrialization:tungsten_dust', ['modern_industrialization:tungsten_tiny_dust', 'modern_industrialization:tungsten_tiny_dust', 'modern_industrialization:tungsten_tiny_dust', 'modern_industrialization:tungsten_tiny_dust']);
+  event.remove({output: 'modern_industrialization:tungsten_tiny_dust', type: 'minecraft:crafting_shaped'})
+  event.shapeless('4x modern_industrialization:tungsten_tiny_dust', ['modern_industrialization:tungsten_dust']);
 
   // MI Misc
   event.remove({output: 'modern_industrialization:bronze_machine_casing', type: 'minecraft:crafting_shaped'});

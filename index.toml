@@ -6662,7 +6662,7 @@ hash = "8d36197d88d5005838ee52870e6ab3ed6ad2428792047a91abc698f24ef1eb99"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/recipes.js"
-hash = "193fde4f5ac0291f76ba496bf108653256854052e4636100fc1c9c35d388bec5"
+hash = "c5ea32544059818f40f848f8bd8a4810de65c50e6954798b583860244e683afd"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/techreborn/shaped.js"
