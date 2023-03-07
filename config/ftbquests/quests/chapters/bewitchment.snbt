@@ -11,7 +11,13 @@
 		{
 			x: -1.0d
 			y: -1.5d
-			dependencies: ["07935BDEE10F47FC"]
+			subtitle: "Convenient tools for any witch."
+			description: [
+				"The Athame is a very helpful tool for your journey into the Bewitchment Mod."
+				"It can be used to gather heads from mobs, among other niche uses."
+				"Being made out of Silver, it is perfectly usable against unholy creatures."
+				"Athames can also be used to start Rituals from a Dispenser."
+			]
 			hide: true
 			id: "51E73309110A8113"
 			tasks: [{
@@ -34,6 +40,7 @@
 		{
 			x: 0.0d
 			y: -2.5d
+			description: ["Use the Athame to get Barks."]
 			dependencies: ["51E73309110A8113"]
 			id: "5B56F27E804C5718"
 			tasks: [{
@@ -45,6 +52,10 @@
 		{
 			x: 1.0d
 			y: -1.5d
+			description: [
+				"Burn Barks on a Campfire to get Wood Ash."
+				"When thrown into a filled Witch Cauldron it will immediately empty it."
+			]
 			dependencies: ["5B56F27E804C5718"]
 			id: "0CF1E4923DB74544"
 			tasks: [{
@@ -56,6 +67,7 @@
 		{
 			x: 2.5d
 			y: 0.0d
+			description: ["Follow the instructions in the Guide-Book to figure out how to start your rituals."]
 			dependencies: ["0CF1E4923DB74544"]
 			id: "11729DAA115C6DE1"
 			tasks: [{
@@ -73,6 +85,13 @@
 		{
 			x: 0.0d
 			y: -1.5d
+			subtitle: "Altars are the cornerstone of any witch's lair."
+			description: [
+				"Altars can be used to collect magical energy."
+				"This energy is essential to most witchcraft, and is collected from nearby plants."
+				"You'll want many different plants to collect maximum power."
+				"You may also place swords, pentacles, and wands atop the altar to modify it."
+			]
 			dependencies: ["5B56F27E804C5718"]
 			id: "3B7F081B65EAB0BB"
 			tasks: [{
@@ -84,6 +103,13 @@
 		{
 			x: -2.0d
 			y: -4.5d
+			description: [
+				"This magical cauldron is extremely versatile in use and is namely used for Oil Crafting, Brewing and and Teleportation."
+				""
+				"To make it boil, place hot blocks such as Lava or Magma Blocks below it."
+				""
+				"The Witch Cauldron requires Altar Power, except for Oil Crafting."
+			]
 			dependencies: [
 				"5B56F27E804C5718"
 				"7B43B945C37783BA"
@@ -100,7 +126,7 @@
 			title: "Basic Plants"
 			x: -2.0d
 			y: -3.0d
-			dependencies: ["07935BDEE10F47FC"]
+			description: ["By breaking grass you might get some Bewitchment seeds."]
 			hide: true
 			id: "7B43B945C37783BA"
 			tasks: [
@@ -343,6 +369,7 @@
 			title: "Brooms"
 			x: 0.5d
 			y: 1.0d
+			description: ["They enable the user to fly through the skies. Brooms come in four variants, each with unique properties."]
 			dependencies: ["7006D17754235A44"]
 			id: "7FDDEEA84EE05FC2"
 			tasks: [
@@ -398,6 +425,7 @@
 		{
 			x: 4.5d
 			y: 0.0d
+			description: ["It can be combined with a Splash Potion, which can then be thrown four times using the Scepter at the cost of ME."]
 			dependencies: ["3092EF2FC246625F"]
 			id: "5F5CBB1A93F9222E"
 			tasks: [{
@@ -415,6 +443,10 @@
 		{
 			x: 4.5d
 			y: 1.0d
+			description: [
+				"It has multiple-tool functionality comparable to Netherite."
+				"It can also be used to throw powerful fireballs at the cost of some ME."
+			]
 			dependencies: ["3092EF2FC246625F"]
 			id: "549C5C564C46694A"
 			tasks: [{
@@ -432,6 +464,7 @@
 		{
 			x: 4.5d
 			y: 2.0d
+			description: ["Much like a Trident, it can be thrown towards a target, and will always return to whoever threw it."]
 			dependencies: ["3092EF2FC246625F"]
 			id: "2597B9C9D971FD32"
 			tasks: [{
@@ -540,7 +573,10 @@
 			title: "Poppet Items"
 			x: 3.0d
 			y: -4.5d
-			dependencies: ["07935BDEE10F47FC"]
+			description: [
+				"To gather a taglock from an entity, either sneak up from behind or search for their bed."
+				"To gather a taglock from a Bed, use it while sneaking so you don't accidentally sleep."
+			]
 			hide: true
 			id: "3F6A16857A4317D3"
 			tasks: [
@@ -565,88 +601,6 @@
 					item: "bewitchment:taglock"
 				}
 			]
-		}
-		{
-			x: 7.0d
-			y: 0.0d
-			dependencies: ["34C7A8DBC01C7C16"]
-			id: "7207DBB4BE1B9C76"
-			tasks: [{
-				id: "6545011A0A552A65"
-				type: "item"
-				item: "haema:vampire_blood"
-			}]
-		}
-		{
-			x: 8.0d
-			y: -1.5d
-			dependencies: ["07935BDEE10F47FC"]
-			hide: true
-			id: "34C7A8DBC01C7C16"
-			tasks: [{
-				id: "639BA70A2437D5F8"
-				type: "item"
-				item: "haema:empty_vampire_blood_injector"
-			}]
-		}
-		{
-			x: 6.0d
-			y: -1.5d
-			dependencies: ["34C7A8DBC01C7C16"]
-			id: "27437DC5EF9BECC1"
-			tasks: [{
-				id: "4739352908AE964C"
-				type: "item"
-				item: "haema:vampire_blood_injector"
-			}]
-		}
-		{
-			x: 9.0d
-			y: 0.0d
-			dependencies: ["34C7A8DBC01C7C16"]
-			id: "06451314055001B3"
-			tasks: [{
-				id: "7671C2A33623D0F7"
-				type: "item"
-				item: {
-					id: "haema:vampire_hunter_contract"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
-			x: 7.0d
-			y: -3.0d
-			dependencies: ["34C7A8DBC01C7C16"]
-			id: "1EB9C33CF8760830"
-			tasks: [{
-				id: "15B1EB74CCE2A7F8"
-				type: "item"
-				item: "haema:ritual_table"
-			}]
-		}
-		{
-			x: 10.0d
-			y: -1.5d
-			dependencies: ["34C7A8DBC01C7C16"]
-			id: "50BB4E2139B314C9"
-			tasks: [{
-				id: "13FDC80621C7EB36"
-				type: "checkmark"
-				title: "Perform a Ritual!"
-			}]
-		}
-		{
-			x: 9.0d
-			y: -3.0d
-			dependencies: ["34C7A8DBC01C7C16"]
-			id: "72D2F3A9F32796F1"
-			tasks: [{
-				id: "1523B8833D3FF065"
-				type: "checkmark"
-				title: "Construct the Altar!"
-			}]
 		}
 		{
 			x: -1.5d
@@ -691,6 +645,21 @@
 				id: "483F2120648CF26F"
 				type: "item"
 				item: "besmirchment:scroll_of_torment"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: [
+				"When used, they will give the caster a fortune, at the cost of some ME drawn from a nearby Altar."
+				"Additionally, Crystal Balls may be used for scrying."
+			]
+			dependencies: ["3B7F081B65EAB0BB"]
+			id: "113A3B1354A13AD5"
+			tasks: [{
+				id: "121A7338855CDF7F"
+				type: "item"
+				item: "bewitchment:crystal_ball"
 			}]
 		}
 	]

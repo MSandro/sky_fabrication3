@@ -15,14 +15,15 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Mystical Flowers"
 			x: 4.5d
 			y: -2.5d
-			dependencies: ["06796341AB3CFBB4"]
+			dependencies: ["358776C4E9A01BCC"]
 			id: "485B2B25658C5301"
 			tasks: [{
 				id: "7ABB92917F9A529C"
 				type: "item"
-				title: "Any #botania:mystical_flowers"
+				title: "Any Mystical Flower"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -31,16 +32,27 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "0D4613B04BEFE3D5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
+			title: "Colored Petals"
 			x: 4.5d
 			y: -3.5d
+			description: [
+				"Petals are obtained by placing a Mystical Flower in the crafting table."
+				"They are used later to craft special flowers."
+			]
 			dependencies: ["485B2B25658C5301"]
 			id: "6A1CC424788CAC34"
 			tasks: [{
 				id: "3F596D2ECA308348"
 				type: "item"
-				title: "Any #botania:petals/white"
+				title: "Any Petal or Mushroom"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -49,11 +61,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "52C94F530D5278D3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.5d
-			y: -1.5d
-			dependencies: ["4926A51ADA32C0CC"]
+			y: -0.5d
+			description: ["If you need more information about any content in the Botania Mod, check the Lexica Botania. It will describe every part in more detail."]
 			hide: true
 			id: "06796341AB3CFBB4"
 			tasks: [{
@@ -61,10 +79,17 @@
 				type: "item"
 				item: "botania:lexicon"
 			}]
+			rewards: [{
+				id: "7CDFCC5D44D1D8AE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.0d
 			y: -3.5d
+			description: ["By dropping some petals into the water basin, and at least add a seed, it will create new special flowers."]
 			dependencies: ["6A1CC424788CAC34"]
 			progression_mode: "linear"
 			id: "7D112B8FC4531A7E"
@@ -72,6 +97,12 @@
 				id: "60358EC46F777869"
 				type: "item"
 				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "78A063E6B8038C85"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -85,6 +116,12 @@
 				type: "item"
 				item: "botania:rune_water"
 			}]
+			rewards: [{
+				id: "74CFFFF4231A0D1D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.476190476190482d
@@ -96,6 +133,12 @@
 				id: "191B867FA467FAEA"
 				type: "item"
 				item: "botania:rune_fire"
+			}]
+			rewards: [{
+				id: "1EF62E6C61755851"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -109,6 +152,12 @@
 				type: "item"
 				item: "botania:rune_earth"
 			}]
+			rewards: [{
+				id: "38775BE18FB00A5A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.079591836734664d
@@ -119,6 +168,12 @@
 				id: "2913177D2A0D273B"
 				type: "item"
 				item: "botania:rune_air"
+			}]
+			rewards: [{
+				id: "434E4D189F377EC1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -132,6 +187,12 @@
 				type: "item"
 				item: "botania:rune_spring"
 			}]
+			rewards: [{
+				id: "13E60E701E1EBF9F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 14.047619047619058d
@@ -142,6 +203,12 @@
 				id: "748A43501A988927"
 				type: "item"
 				item: "botania:rune_summer"
+			}]
+			rewards: [{
+				id: "0541DDB94F66C756"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -155,6 +222,12 @@
 				type: "item"
 				item: "botania:rune_autumn"
 			}]
+			rewards: [{
+				id: "575ABEB4D1CC3A16"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.653401360544258d
@@ -166,6 +239,12 @@
 				id: "2079BFA573F0D5B8"
 				type: "item"
 				item: "botania:rune_winter"
+			}]
+			rewards: [{
+				id: "07B8BEF029D5B405"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -179,6 +258,12 @@
 				type: "item"
 				item: "botania:rune_mana"
 			}]
+			rewards: [{
+				id: "25F5EC446759FBF7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.108843537414977d
@@ -190,6 +275,12 @@
 				id: "624831524D3FC47A"
 				type: "item"
 				item: "botania:rune_lust"
+			}]
+			rewards: [{
+				id: "5F83A46745E2CA06"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -203,6 +294,12 @@
 				type: "item"
 				item: "botania:rune_gluttony"
 			}]
+			rewards: [{
+				id: "1E6C2F512CD85249"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 14.45578231292518d
@@ -214,6 +311,12 @@
 				id: "05A7C741B4F1918F"
 				type: "item"
 				item: "botania:rune_sloth"
+			}]
+			rewards: [{
+				id: "7659B88EE8C6944B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -227,6 +330,12 @@
 				type: "item"
 				item: "botania:rune_wrath"
 			}]
+			rewards: [{
+				id: "566548D70FAF30AA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.700680272108848d
@@ -238,6 +347,12 @@
 				id: "440FC1619630DC28"
 				type: "item"
 				item: "botania:rune_envy"
+			}]
+			rewards: [{
+				id: "7D36C2EC9D0F1FC0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -251,10 +366,17 @@
 				type: "item"
 				item: "botania:rune_pride"
 			}]
+			rewards: [{
+				id: "677F67A05C9C1709"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.5d
 			y: -8.5d
+			description: ["This is a functional flower which you can place next to a pool to indicate if you have a lose or a gain of mana in it."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "26C37DB6B3A9A36C"
@@ -263,10 +385,17 @@
 				type: "item"
 				item: "botania:manastar"
 			}]
+			rewards: [{
+				id: "62CF3676A7E5381F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 10.5d
 			y: -8.5d
+			description: ["A liquid-based passive generating flower. It will decay after a period of time. But it might be a cheap option to start generating mana."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "09DDD53672B0A561"
@@ -275,10 +404,17 @@
 				type: "item"
 				item: "botania:hydroangeas"
 			}]
+			rewards: [{
+				id: "252C7151361DC274"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 7.5d
 			y: -8.5d
+			description: ["It consumes burnable materials to generate mana."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "71A4C5B1E8C9C79C"
@@ -287,10 +423,17 @@
 				type: "item"
 				item: "botania:endoflame"
 			}]
+			rewards: [{
+				id: "2142C66BF03D4D80"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.5d
 			y: -8.5d
+			description: ["It absorbs lava around it to produce mana. It is not easy to automate, but it is definitely possible."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "718F083C919115DE"
@@ -299,10 +442,17 @@
 				type: "item"
 				item: "botania:thermalily"
 			}]
+			rewards: [{
+				id: "124B2037FB0094AA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.5d
 			y: -8.5d
+			description: ["This flower converts XP into mana."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "25A5A748D3DB6FD0"
@@ -311,10 +461,17 @@
 				type: "item"
 				item: "botania:rosa_arcana"
 			}]
+			rewards: [{
+				id: "0B56CC54BFA94436"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.0d
 			y: -9.5d
+			description: ["It converts nearby leaves into mana."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "0A75593D0D68EC0F"
@@ -323,10 +480,17 @@
 				type: "item"
 				item: "botania:munchdew"
 			}]
+			rewards: [{
+				id: "685A80F3D56E231E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 7.0d
 			y: -9.5d
+			description: ["It converts the energy of explosiones to mana blasts."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "2F399FC03DB26EBD"
@@ -335,10 +499,17 @@
 				type: "item"
 				item: "botania:entropinnyum"
 			}]
+			rewards: [{
+				id: "58DF513589CD78F1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
 			y: -7.5d
+			description: ["This flower eats nearby placed cakes to generate mana."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "4E9962D7D506C825"
@@ -347,10 +518,17 @@
 				type: "item"
 				item: "botania:kekimurus"
 			}]
+			rewards: [{
+				id: "6B68D989C820289E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 8.5d
-			y: -6.5d
+			x: 10.0d
+			y: -7.5d
+			description: ["This flower can convert any food item into mana."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "1A2858B1927BC08F"
@@ -359,10 +537,17 @@
 				type: "item"
 				item: "botania:gourmaryllis"
 			}]
+			rewards: [{
+				id: "195A6B49E7D2F87A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
-			x: 8.5d
-			y: -5.5d
+			x: 7.0d
+			y: -7.5d
+			description: ["Can be used in Slime-Chunks and it absorbs the Slimes to generate mana."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "4B45C598CB667293"
@@ -371,10 +556,17 @@
 				type: "item"
 				item: "botania:narslimmus"
 			}]
+			rewards: [{
+				id: "1EA3C41055D5DD6D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.0d
 			y: -7.5d
+			description: ["It converts nearby dropped wool blocks into mana."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "20CD84F21593809A"
@@ -383,10 +575,17 @@
 				type: "item"
 				item: "botania:spectrolus"
 			}]
+			rewards: [{
+				id: "06100F237921A5A5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.5d
 			y: -8.5d
+			description: ["Very complex to describe. Please check out your Lexica Botania to figure out how it works."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "2DB8FCEEAA44B8EE"
@@ -395,10 +594,17 @@
 				type: "item"
 				item: "botania:dandelifeon"
 			}]
+			rewards: [{
+				id: "07ADA1CEF2409B0A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 10.0d
 			y: -9.5d
+			description: ["It eats man-made flowers from nearby apothecaries to generate mana."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "6B6C1338DA6E05E1"
@@ -407,10 +613,17 @@
 				type: "item"
 				item: "botania:rafflowsia"
 			}]
+			rewards: [{
+				id: "00479B14C7D1BB81"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
 			y: -9.5d
+			description: ["This flower uses the power of Shulker's Levitation to generate mana if a mob was targeted by a shulker projectile."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "3C6E5B44E163C799"
@@ -419,10 +632,17 @@
 				type: "item"
 				item: "botania:shulk_me_not"
 			}]
+			rewards: [{
+				id: "58CDA4138663B4B4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.0d
 			y: -9.5d
+			description: ["By consuming some mana, this flower will harm any nearby monster or animal."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "739DFA411EBFB864"
@@ -431,10 +651,17 @@
 				type: "item"
 				item: "botania:bellethorn"
 			}]
+			rewards: [{
+				id: "2437C67D4954DDD5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.5d
 			y: -8.5d
+			description: ["This flower can absorb dins."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "570B152BB34722E6"
@@ -443,10 +670,17 @@
 				type: "item"
 				item: "botania:bergamute"
 			}]
+			rewards: [{
+				id: "48D53D32C6BCB062"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 16.0d
 			y: -7.5d
+			description: ["This flower harms any nearby adult animals."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "397FC7D166A82A7A"
@@ -455,10 +689,17 @@
 				type: "item"
 				item: "botania:dreadthorn"
 			}]
+			rewards: [{
+				id: "30BE6C091B924A4E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.5d
 			y: -10.5d
+			description: ["This flower will manipulate nearby mobs so they will try to kill each other."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "74876684DC462F9A"
@@ -467,10 +708,17 @@
 				type: "item"
 				item: "botania:heisei_dream"
 			}]
+			rewards: [{
+				id: "40EE8221267C307D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.5d
 			y: -10.5d
+			description: ["This flower acts like an cat. Creepers are not able to explode near the flower and they will flee from players."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "3677DAB681F8D9C8"
@@ -479,10 +727,17 @@
 				type: "item"
 				item: "botania:tigerseye"
 			}]
+			rewards: [{
+				id: "7FE64CE1526053C8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 16.0d
 			y: -9.5d
+			description: ["This flower will grow mystical flowers nearby if feeded with mana."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "4910B83CB988196B"
@@ -491,10 +746,17 @@
 				type: "item"
 				item: "botania:jaded_amaranthus"
 			}]
+			rewards: [{
+				id: "5D879ABBEEED7838"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.5d
 			y: -8.5d
+			description: ["This flower will use mana to convert stone into ores."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "68C6FBD10D2B6D72"
@@ -503,10 +765,17 @@
 				type: "item"
 				item: "botania:orechid"
 			}]
+			rewards: [{
+				id: "2A6BEC125D0F8D4C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.5d
 			y: -8.5d
+			description: ["This flower uses mana to generates an aura of healing."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "27AC22B620B89DF4"
@@ -515,10 +784,17 @@
 				type: "item"
 				item: "botania:fallen_kanade"
 			}]
+			rewards: [{
+				id: "2571139906FE9E92"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 17.5d
 			y: -6.5d
+			description: ["Use mana to fuel nearby furnaces."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "7D1CEAA94F356A43"
@@ -527,10 +803,17 @@
 				type: "item"
 				item: "botania:exoflame"
 			}]
+			rewards: [{
+				id: "211DC3CF7E71194D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 16.5d
 			y: -8.5d
+			description: ["This flower transforms mana into a fertilization effect for nearby crops."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "3FBBF519A94669E4"
@@ -539,10 +822,17 @@
 				type: "item"
 				item: "botania:agricarnation"
 			}]
+			rewards: [{
+				id: "2F2424AC56246BBA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 17.5d
 			y: -8.5d
+			description: ["This flower can pick up nearby items and will place the into a chest placed next to it."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "380C15C1DAC3F9D7"
@@ -551,10 +841,17 @@
 				type: "item"
 				item: "botania:hopperhock"
 			}]
+			rewards: [{
+				id: "5A054E5F24A25F56"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.0d
 			y: -7.5d
+			description: ["This flower prevents monsters or animals from leaving its area within a certain radius."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "26DD7670DD6BC270"
@@ -563,10 +860,17 @@
 				type: "item"
 				item: "botania:tangleberrie"
 			}]
+			rewards: [{
+				id: "421D525063AD56E6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 17.0d
 			y: -7.5d
+			description: ["This flower is able to pick up nearby items and place them in a large radius around it."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "521A546902D8C10B"
@@ -575,10 +879,17 @@
 				type: "item"
 				item: "botania:rannuncarpus"
 			}]
+			rewards: [{
+				id: "731173C37955B48B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 20.0d
 			y: -9.5d
+			description: ["This flower can be used in mob farms, it will harm mobs, but it does not kill them, to be one-hitted by the player."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "3276FA70E0225D04"
@@ -587,10 +898,17 @@
 				type: "item"
 				item: "botania:hyacidus"
 			}]
+			rewards: [{
+				id: "49DA5EFB916FBDE1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.0d
 			y: -11.5d
+			description: ["This flower will use nearby dropped food items to feed nearby animals."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "41742AAE9E513983"
@@ -599,10 +917,17 @@
 				type: "item"
 				item: "botania:pollidisiac"
 			}]
+			rewards: [{
+				id: "432523431A8BD938"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.0d
 			y: -7.5d
+			description: ["This flower generates a area which is protected so no monster is able to enter this area."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "4AF639EFD211E634"
@@ -611,10 +936,17 @@
 				type: "item"
 				item: "botania:jiyuulia"
 			}]
+			rewards: [{
+				id: "49C9503811063508"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.0d
 			y: -9.5d
+			description: ["This flower uses mana to convert sand into clay."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "2E6728E2898E3201"
@@ -623,10 +955,17 @@
 				type: "item"
 				item: "botania:clayconia"
 			}]
+			rewards: [{
+				id: "513727C8193D2741"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.0d
 			y: -11.5d
+			description: ["This flower will use mana to summon monsters helding dungeon loot in their hand."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "178CEDDE5FB1477D"
@@ -635,10 +974,17 @@
 				type: "item"
 				item: "botania:loonium"
 			}]
+			rewards: [{
+				id: "6AB932FEB2D16C57"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 17.0d
 			y: -9.5d
+			description: ["A mana powered fan?"]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "1DED9FFD8AC3C2FB"
@@ -647,10 +993,17 @@
 				type: "item"
 				item: "botania:daffomill"
 			}]
+			rewards: [{
+				id: "77B638DC49792BE2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 17.0d
 			y: -11.5d
+			description: ["This flower has a large area of effect, in this area, any enerman which tries to teleport, will be teleported directly to this flower."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "46BD42AE54F2CE89"
@@ -659,10 +1012,17 @@
 				type: "item"
 				item: "botania:vinculotus"
 			}]
+			rewards: [{
+				id: "44748FE294808B11"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 16.5d
 			y: -10.5d
+			description: ["Item Teleportation Flower!"]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "569D4AF8036BF532"
@@ -671,10 +1031,20 @@
 				type: "item"
 				item: "botania:spectranthemum"
 			}]
+			rewards: [{
+				id: "72A0DFD35249A072"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 17.5d
 			y: -5.5d
+			description: [
+				"This flower consumes mana to create a slowing field."
+				"This field affects any entity but not players."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "1440C7814E99B2C6"
@@ -683,10 +1053,17 @@
 				type: "item"
 				item: "botania:medumone"
 			}]
+			rewards: [{
+				id: "3BF9B8C9484D81C7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 17.5d
 			y: -10.5d
+			description: ["This flower converts nearby stone into other stone variants."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "0975F41A35E0A953"
@@ -695,10 +1072,17 @@
 				type: "item"
 				item: "botania:marimorphosis"
 			}]
+			rewards: [{
+				id: "1A03EDBAB1A1DF27"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.0d
 			y: -9.5d
+			description: ["This flower if placed under water and supplied with mana, it will remove water in a 12 blocks radius."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "13D165DA7627571B"
@@ -707,10 +1091,17 @@
 				type: "item"
 				item: "botania:bubbell"
 			}]
+			rewards: [{
+				id: "5104F74419B3C1AB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.5d
 			y: -8.5d
+			description: ["This flower prevents the Ring of Magnetization in its area to push items to the player."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "420D15E11CFCA292"
@@ -719,10 +1110,17 @@
 				type: "item"
 				item: "botania:solegnolia"
 			}]
+			rewards: [{
+				id: "643DBF458E365579"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.5d
 			y: -10.5d
+			description: ["This flower will use mana to convert netherrack into some nether ores."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "17D7A712F5CCFEDF"
@@ -731,10 +1129,17 @@
 				type: "item"
 				item: "botania:orechid_ignem"
 			}]
+			rewards: [{
+				id: "4D0CEF2450F1F138"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 16.0d
 			y: -11.5d
+			description: ["This flower will pick up name tags dropped on top of it and uses mana to rename any dropped item or entity in its 5x5 radius."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "0D7302F3B76BEC3A"
@@ -743,10 +1148,17 @@
 				type: "item"
 				item: "botania:labellia"
 			}]
+			rewards: [{
+				id: "41C308D8D7C12141"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.0d
 			y: -2.5d
+			description: ["Learn how the Apothecary works by dropping 4 White Petals into it, and add a Seed to finalize the recipe."]
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "0BA60C71BADB27EA"
 			tasks: [{
@@ -754,10 +1166,18 @@
 				type: "item"
 				item: "botania:pure_daisy"
 			}]
+			rewards: [{
+				id: "4BF5CC2F81566680"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
+			title: "Living Wood / Rock"
 			x: 7.0d
 			y: -2.5d
+			description: ["By placing Blocks like stone and wood around the Pure Daisy, it will take some time to transform the blocks into e.g. living wood or rock."]
 			dependencies: ["0BA60C71BADB27EA"]
 			id: "793DCC312DFF0198"
 			tasks: [
@@ -772,16 +1192,29 @@
 					item: "botania:livingwood_log"
 				}
 			]
+			rewards: [{
+				id: "6A17FE1BE4DC3385"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.0d
 			y: -1.0d
+			description: ["Any log or bark can be transformed to Living Wood Logs."]
 			dependencies: ["0BA60C71BADB27EA"]
 			id: "0365DF3000755BCA"
 			tasks: [{
 				id: "12AB987B855C150E"
 				type: "item"
 				item: "botania:livingwood_log"
+			}]
+			rewards: [{
+				id: "664B975DE1255B13"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -794,10 +1227,17 @@
 				type: "item"
 				item: "botania:glimmering_livingwood"
 			}]
+			rewards: [{
+				id: "06CD4A97CA07D2EF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.0d
 			y: 0.0d
+			description: ["By adding some Glowstone to your Livingwood Log in an Crafting Table you can get glimmering Livingwood Logs."]
 			dependencies: ["0365DF3000755BCA"]
 			id: "19A554515EB494CB"
 			tasks: [{
@@ -805,10 +1245,17 @@
 				type: "item"
 				item: "botania:glimmering_livingwood_log"
 			}]
+			rewards: [{
+				id: "1766CA28C52A4760"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.0d
 			y: 2.0d
+			description: ["Take a look in the Lexica Botania to get a visualization on how to build the Elven Portal."]
 			dependencies: [
 				"2B967CD07CAA4F0C"
 				"44DF71B4C8D2B61A"
@@ -819,10 +1266,20 @@
 				type: "item"
 				item: "botania:alfheim_portal"
 			}]
+			rewards: [{
+				id: "53E764BA3014408D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
 			y: 2.0d
+			description: [
+				"Terrasteel is a very expensive material. Not because of the Mana Ingot, Diamond and Pearl."
+				"But it will consume almost an entire mana pool for each ingot."
+			]
 			dependencies: ["0D915881A8BF7EE3"]
 			id: "44DF71B4C8D2B61A"
 			tasks: [{
@@ -830,10 +1287,20 @@
 				type: "item"
 				item: "botania:terrasteel_ingot"
 			}]
+			rewards: [{
+				id: "7F35BF0317C45F62"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
 			y: -1.0d
+			description: [
+				"You have to place 4 Lapis Lazuli Blocks and 5 Living Rocks under the Plate."
+				"Take a look into the Lexica Botania to get a visualization."
+			]
 			dependencies: ["01200B72145FDADD"]
 			id: "0D915881A8BF7EE3"
 			tasks: [{
@@ -841,10 +1308,17 @@
 				type: "item"
 				item: "botania:terra_plate"
 			}]
+			rewards: [{
+				id: "1F52C3499CC2F1D0"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.0d
 			y: -2.5d
+			description: ["Drop a Iron Ingot in a Mana Pool."]
 			dependencies: ["45AC772575502EB6"]
 			id: "01200B72145FDADD"
 			tasks: [{
@@ -852,10 +1326,17 @@
 				type: "item"
 				item: "botania:manasteel_ingot"
 			}]
+			rewards: [{
+				id: "2FB2958D6542A699"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 10.0d
 			y: -2.5d
+			description: ["Drop a Ender Pearl in a Mana Pool."]
 			dependencies: ["45AC772575502EB6"]
 			id: "7129CFCFCC75AAFC"
 			tasks: [{
@@ -863,10 +1344,17 @@
 				type: "item"
 				item: "botania:mana_pearl"
 			}]
+			rewards: [{
+				id: "039E232232C24F1C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.0d
 			y: -2.5d
+			description: ["Drop Redstone, Sugar or Gunpowder in a Mana Pool."]
 			dependencies: ["45AC772575502EB6"]
 			id: "5A76DF911EFC76EE"
 			tasks: [{
@@ -874,10 +1362,17 @@
 				type: "item"
 				item: "botania:mana_powder"
 			}]
+			rewards: [{
+				id: "1C476E578F1AF472"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.0d
 			y: -2.5d
+			description: ["Drop a Diamond in a Mana Pool."]
 			dependencies: ["45AC772575502EB6"]
 			id: "641E7D71ACC0F28B"
 			tasks: [{
@@ -885,16 +1380,29 @@
 				type: "item"
 				item: "botania:mana_diamond"
 			}]
+			rewards: [{
+				id: "5682C4E0F57D33C2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.0d
 			y: -2.5d
+			description: ["Drop a String in a Mana Pool."]
 			dependencies: ["45AC772575502EB6"]
 			id: "651A934D02AD1F90"
 			tasks: [{
 				id: "26EDDAFE43B34F88"
 				type: "item"
 				item: "botania:mana_string"
+			}]
+			rewards: [{
+				id: "1D95DB3FE7497096"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -907,10 +1415,17 @@
 				type: "item"
 				item: "botania:manaweave_cloth"
 			}]
+			rewards: [{
+				id: "622787961FD77506"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.0d
 			y: -3.5d
+			description: ["Basic Mana Storage and easy to use for mana infusing."]
 			hide_dependency_lines: true
 			dependencies: ["793DCC312DFF0198"]
 			id: "45AC772575502EB6"
@@ -918,6 +1433,12 @@
 				id: "2AEB1FA3E37A8C54"
 				type: "item"
 				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "7FECE90E5F1D4444"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -933,6 +1454,12 @@
 				type: "item"
 				item: "botania:crafting_halo"
 			}]
+			rewards: [{
+				id: "628F5FC335D32437"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 14.0d
@@ -944,6 +1471,12 @@
 				id: "389469E828006E4A"
 				type: "item"
 				item: "botania:aura_ring"
+			}]
+			rewards: [{
+				id: "36F89598569BA9C6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -960,6 +1493,12 @@
 				type: "item"
 				item: "botania:mana_ring"
 			}]
+			rewards: [{
+				id: "4E7ECFEB0E24244A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.0d
@@ -971,16 +1510,33 @@
 				type: "item"
 				item: "botania:mana_tablet"
 			}]
+			rewards: [{
+				id: "1EDC894DE5674730"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.0d
 			y: -1.0d
+			description: [
+				"Obtaining Runes is essential to continue in Botania."
+				"Adding the ingredient items and some mana, will fuse it into new items."
+				"To finalize the process, place a living rock on the altar and right click with you Wand."
+			]
 			dependencies: ["641E7D71ACC0F28B"]
 			id: "278D27920CB07C59"
 			tasks: [{
 				id: "7F09BE20C379E9DC"
 				type: "item"
 				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "1AE997B3E54928E1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -993,16 +1549,32 @@
 				type: "item"
 				item: "botania:animated_torch"
 			}]
+			rewards: [{
+				id: "21899F71390BCD84"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.0d
 			y: 3.0d
+			description: [
+				"You can use this pylons near your enchanting table and it will act like Bookshelves."
+				"Two are enough to have a level 30 Enchantment Table."
+			]
 			dependencies: ["52250F3E2FB2AE6F"]
 			id: "52EFBE28E4AD5797"
 			tasks: [{
 				id: "2E495E3EFB192769"
 				type: "item"
 				item: "botania:mana_pylon"
+			}]
+			rewards: [{
+				id: "2611EE0DBF8D78F7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1061,11 +1633,18 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "6D3824DBD3617E28"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Make a Mana Enchanter"
 			x: 14.0d
 			y: -2.5d
+			description: ["Take a look into the Lexica Botania to figure out how to build this magical enchanting shrine."]
 			dependencies: ["45AC772575502EB6"]
 			id: "54517F82F4BBEDB5"
 			tasks: [{
@@ -1073,6 +1652,12 @@
 				type: "advancement"
 				advancement: "botania:main/enchanter_make"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "75B484891F776208"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1193,11 +1778,18 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "4D7B51528423853E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Terrasteel Gear"
 			x: 8.0d
 			y: 3.0d
+			description: ["Terrasteel Equipment has special abilities, feel free to try it out."]
 			dependencies: ["44DF71B4C8D2B61A"]
 			id: "1F640301A7DFAF61"
 			tasks: [
@@ -1268,10 +1860,17 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "79E07621EDB0B112"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.5d
 			y: -3.5d
+			description: ["You will need this tool in many situations when playing with Botania. It allows you to connect various blocks or change their function."]
 			dependencies: ["6A1CC424788CAC34"]
 			id: "22B2C00FB3706A6F"
 			tasks: [{
@@ -1286,10 +1885,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "129219E0C6B85ABA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 6.0d
 			y: 4.0d
+			description: [
+				"Nature Pylons are required to open the Elven Portal."
+				"Place two of them on top of full mana pools near your portal frame."
+			]
 			dependencies: ["52EFBE28E4AD5797"]
 			id: "486A51B5EAECBF17"
 			tasks: [{
@@ -1300,6 +1909,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "3968A588C2BCA5C5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1312,6 +1927,12 @@
 				id: "08311AEF83BFDACE"
 				type: "item"
 				item: "botania:brewery"
+			}]
+			rewards: [{
+				id: "057CD550AB6C276F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1330,6 +1951,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "4D0374F9CB521DAE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.0d
@@ -1346,6 +1973,12 @@
 						brewKey: "botania:strength"
 					}
 				}
+			}]
+			rewards: [{
+				id: "1A08F59BF6F8A01A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1364,6 +1997,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "107B61C581A2936F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.0d
@@ -1381,6 +2020,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5208F099CBA95055"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.0d
@@ -1397,6 +2042,12 @@
 						brewKey: "botania:regen"
 					}
 				}
+			}]
+			rewards: [{
+				id: "25DD88E6CDC5D3D3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1416,6 +2067,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "776628215178ED4D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.0d
@@ -1433,6 +2090,12 @@
 						brewKey: "botania:resistance"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2AD5428D3E18B285"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1452,6 +2115,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1C7D451F245603DF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.0d
@@ -1469,6 +2138,12 @@
 						brewKey: "botania:soul_cross"
 					}
 				}
+			}]
+			rewards: [{
+				id: "1A2529E23CD29B8F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1488,6 +2163,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "68B4113D22A644B1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 20.0d
@@ -1505,6 +2186,12 @@
 						brewKey: "botania:water_breathing"
 					}
 				}
+			}]
+			rewards: [{
+				id: "2BB09ED5DA109B70"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1524,6 +2211,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "677DD7864D624D7C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 20.0d
@@ -1541,6 +2234,12 @@
 						brewKey: "botania:allure"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7996FBAA76DE846C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1560,6 +2259,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "6FB74DAA97EEB96E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 20.0d
@@ -1578,11 +2283,21 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "2BF4B869885084FF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Open the Alfheim Portal"
 			x: 5.0d
 			y: 4.0d
+			description: [
+				"Right click the Core with your Wand of the forest to open the Portal."
+				"Make sure to have enough Mana in your pools, the activation process will take a lot mana."
+			]
 			dependencies: ["486A51B5EAECBF17"]
 			id: "49D0F5D9196D9E2A"
 			tasks: [{
@@ -1590,6 +2305,12 @@
 				type: "advancement"
 				advancement: "botania:main/elf_portal_open"
 				criterion: ""
+			}]
+			rewards: [{
+				id: "7DDB9BB1A5B83F33"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1604,16 +2325,32 @@
 				entity: "botania:doppleganger"
 				value: 1L
 			}]
+			rewards: [{
+				id: "52F6B763C27B4933"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.0d
 			y: 5.0d
+			description: [
+				"If you would like to defend the Gaia, you will have to craft 4 of this pylons."
+				"Please check the Lexica Botania to get a visualization and more details on how to summon the Gaia Boss."
+			]
 			dependencies: ["006D707637E3F606"]
 			id: "6B0E85AA7CDEF191"
 			tasks: [{
 				id: "3FCFB77DF9211A92"
 				type: "item"
 				item: "botania:gaia_pylon"
+			}]
+			rewards: [{
+				id: "7A187D2492559BC1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1632,6 +2369,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "06B71FC891303190"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.0d
@@ -1642,6 +2385,12 @@
 				id: "113ADF66181455AB"
 				type: "item"
 				item: "botania:mana_bomb"
+			}]
+			rewards: [{
+				id: "5FED9541D389A020"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1657,6 +2406,12 @@
 				type: "item"
 				item: "botania:spawner_mover"
 			}]
+			rewards: [{
+				id: "44571518B7BF67AA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.0d
@@ -1669,10 +2424,20 @@
 				type: "item"
 				item: "botania:ender_air_bottle"
 			}]
+			rewards: [{
+				id: "3E9D8BCA48BB8371"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.0d
 			y: 3.0d
+			description: [
+				"A kind of teleporters?"
+				"Find out how it works by checking the Lexica Botania."
+			]
 			dependencies: ["4BD4D197F9DC863F"]
 			id: "2E1BF033CA30ECDA"
 			tasks: [{
@@ -1680,10 +2445,17 @@
 				type: "item"
 				item: "botania:light_relay"
 			}]
+			rewards: [{
+				id: "42AD73CC711253C8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.0d
 			y: 3.0d
+			description: ["With this device you can transfer items or e.g. animals with you Luminizers."]
 			dependencies: ["2E1BF033CA30ECDA"]
 			id: "29C392416255DF7A"
 			tasks: [{
@@ -1691,10 +2463,17 @@
 				type: "item"
 				item: "botania:light_launcher"
 			}]
+			rewards: [{
+				id: "6A98DD7F25E2E6C9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.5d
 			y: -3.5d
+			description: ["This device allows you to e.g. collect mana from generating flowers and transfer it into an mana pool."]
 			dependencies: ["22B2C00FB3706A6F"]
 			id: "1CE364B83E30A5F9"
 			tasks: [{
@@ -1702,10 +2481,17 @@
 				type: "item"
 				item: "botania:mana_spreader"
 			}]
+			rewards: [{
+				id: "5E45D0ECAC7064B8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
 			y: -3.5d
+			description: ["This spreader can be triggerd by a redstone pulse."]
 			dependencies: ["1CE364B83E30A5F9"]
 			id: "6FCE275B8B4666F6"
 			tasks: [{
@@ -1713,10 +2499,17 @@
 				type: "item"
 				item: "botania:redstone_spreader"
 			}]
+			rewards: [{
+				id: "4302B83EFB491850"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.5d
 			y: -3.5d
+			description: ["It is faster and has no mana lose."]
 			dependencies: ["6FCE275B8B4666F6"]
 			id: "41AE0B6A34EE680F"
 			tasks: [{
@@ -1724,10 +2517,17 @@
 				type: "item"
 				item: "botania:elven_spreader"
 			}]
+			rewards: [{
+				id: "26AE0C5445202411"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -0.5d
 			y: -3.5d
+			description: ["Best and fastest mana spreader you can get."]
 			dependencies: ["41AE0B6A34EE680F"]
 			id: "24598EAB4F2A89E0"
 			tasks: [{
@@ -1735,10 +2535,17 @@
 				type: "item"
 				item: "botania:gaia_spreader"
 			}]
+			rewards: [{
+				id: "22A0A366FC44DC92"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.0d
 			y: 5.0d
+			description: ["Simply throw a Manasteel Ingot through the portal to get this upgraded variant back."]
 			dependencies: ["49D0F5D9196D9E2A"]
 			id: "006D707637E3F606"
 			tasks: [{
@@ -1746,10 +2553,17 @@
 				type: "item"
 				item: "botania:elementium_ingot"
 			}]
+			rewards: [{
+				id: "72962AE9D315A558"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.0d
 			y: 3.0d
+			description: ["Simply throw a Livingwood Log through the portal to get this upgraded variant back."]
 			dependencies: ["49D0F5D9196D9E2A"]
 			id: "4BD4D197F9DC863F"
 			tasks: [{
@@ -1757,10 +2571,17 @@
 				type: "item"
 				item: "botania:dreamwood_log"
 			}]
+			rewards: [{
+				id: "6678051D11EA430F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.0d
 			y: 5.0d
+			description: ["Simply throw a Mana Diamond through the portal to get this upgraded variant back."]
 			dependencies: ["49D0F5D9196D9E2A"]
 			id: "14D1B573F4741CBE"
 			tasks: [{
@@ -1768,10 +2589,17 @@
 				type: "item"
 				item: "botania:dragonstone"
 			}]
+			rewards: [{
+				id: "4B6707E69ADB4626"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.0d
 			y: 4.0d
+			description: ["Simply throw a Mana Pearl through the portal to get this upgraded variant back."]
 			dependencies: ["49D0F5D9196D9E2A"]
 			id: "4714CF6728EF8D9B"
 			tasks: [{
@@ -1779,11 +2607,18 @@
 				type: "item"
 				item: "botania:pixie_dust"
 			}]
+			rewards: [{
+				id: "145801C37DF2C232"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Elementium Gear"
 			x: 4.0d
 			y: 6.0d
+			description: ["With Elementium you now have access to a new set of tools and armor, but is it better than the Terrasteel Set?"]
 			dependencies: ["006D707637E3F606"]
 			id: "2AFF3A18E9A02A42"
 			tasks: [
@@ -1910,16 +2745,29 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "21F945843DB4F6FD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.5d
 			y: -5.5d
+			description: ["Sparks are powerfull to spread mana between several pools."]
 			dependencies: ["6A1CC424788CAC34"]
 			id: "5C05E71686140C61"
 			tasks: [{
 				id: "02225091E1C7C825"
 				type: "item"
 				item: "botania:spark"
+			}]
+			rewards: [{
+				id: "70827AE21B952000"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1932,16 +2780,32 @@
 				type: "item"
 				item: "botania:spark_changer"
 			}]
+			rewards: [{
+				id: "4EA5EC6DA8E7553C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 4.5d
 			y: -6.5d
+			description: [
+				"Item transport system!"
+				"More informations in the Lexica Botania."
+			]
 			dependencies: ["5C05E71686140C61"]
 			id: "1F8DC917E3C860B4"
 			tasks: [{
 				id: "6EF9753240967770"
 				type: "item"
 				item: "botania:corporea_spark"
+			}]
+			rewards: [{
+				id: "5B957E69A53DFD7A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1954,16 +2818,29 @@
 				type: "item"
 				item: "botania:corporea_spark_master"
 			}]
+			rewards: [{
+				id: "6CC84256B3F546D4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.0d
 			y: 4.0d
+			description: ["You might find a decorative use for this device."]
 			dependencies: ["006D707637E3F606"]
 			id: "187B054D0DC85DE3"
 			tasks: [{
 				id: "24ABCA3520EC28F4"
 				type: "item"
 				item: "botania:starfield"
+			}]
+			rewards: [{
+				id: "4B18D18392CAEA79"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1976,6 +2853,12 @@
 				type: "item"
 				item: "botania:corporea_block"
 			}]
+			rewards: [{
+				id: "4495D4E04A68A8C9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 3.5d
@@ -1986,6 +2869,12 @@
 				id: "634124C50462628E"
 				type: "item"
 				item: "botania:corporea_retainer"
+			}]
+			rewards: [{
+				id: "26DCADC2B3F3AC3D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -1998,6 +2887,12 @@
 				type: "item"
 				item: "botania:corporea_interceptor"
 			}]
+			rewards: [{
+				id: "23EE8F434D8698DF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.5d
@@ -2008,6 +2903,12 @@
 				id: "6749F22578952FC8"
 				type: "item"
 				item: "botania:corporea_funnel"
+			}]
+			rewards: [{
+				id: "68AABDE4E1BD1885"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2020,6 +2921,12 @@
 				type: "item"
 				item: "botania:corporea_index"
 			}]
+			rewards: [{
+				id: "0444E7BEA5A37AF4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 5.5d
@@ -2030,6 +2937,12 @@
 				id: "7E1B38FEF88714A7"
 				type: "item"
 				item: "botania:corporea_crystal_cube"
+			}]
+			rewards: [{
+				id: "797CF7C24C7ADE31"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2042,6 +2955,12 @@
 				type: "item"
 				item: "botania:gaia_ingot"
 			}]
+			rewards: [{
+				id: "097D84B49B83B066"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 10.0d
@@ -2052,6 +2971,12 @@
 				id: "54EEC2EB4F66562D"
 				type: "item"
 				item: "botania:alchemy_catalyst"
+			}]
+			rewards: [{
+				id: "792BEAEBA7302809"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2064,10 +2989,17 @@
 				type: "item"
 				item: "botania:conjuration_catalyst"
 			}]
+			rewards: [{
+				id: "6BDD6CB3CF721D1C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.0d
 			y: -4.5d
+			description: ["Mana transportation on rails."]
 			dependencies: ["45AC772575502EB6"]
 			id: "3EC6CBCD308A0830"
 			tasks: [{
@@ -2075,10 +3007,17 @@
 				type: "item"
 				item: "botania:pool_minecart"
 			}]
+			rewards: [{
+				id: "3CDBB2A930CB6C95"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.0d
 			y: -5.5d
+			description: ["Can be used to pump mana from or in a mana pool cart."]
 			dependencies: ["3EC6CBCD308A0830"]
 			id: "1CB1AAF1AA5D6CFF"
 			tasks: [{
@@ -2086,10 +3025,17 @@
 				type: "item"
 				item: "botania:pump"
 			}]
+			rewards: [{
+				id: "02BF73B209B821AA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.0d
 			y: 2.0d
+			description: ["You should always carry some mana around with you, e.g. through a mana tablet, so that this tool never breaks. This also applies to various other Botania tools."]
 			dependencies: ["44DF71B4C8D2B61A"]
 			id: "7F4A982FF8F7F124"
 			tasks: [{
@@ -2104,10 +3050,20 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "197E935FB3CF7460"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.5d
 			y: -2.5d
+			description: [
+				"Place a spreader on top of it to rotate it."
+				"You can change the speed, and stop it with a redstone signal."
+			]
 			dependencies: ["1CE364B83E30A5F9"]
 			id: "718CFFBDA0ABEF28"
 			tasks: [{
@@ -2115,10 +3071,20 @@
 				type: "item"
 				item: "botania:turntable"
 			}]
+			rewards: [{
+				id: "4EB1BAD893B07FEE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
 			y: -4.5d
+			description: [
+				"Manipulate mana bursts on the fly by adding a mana lens to it."
+				"More informations are available in the Lexica Botania."
+			]
 			dependencies: ["479CCC7995B0C0D4"]
 			id: "01466AA75BC97D89"
 			tasks: [{
@@ -2126,16 +3092,29 @@
 				type: "item"
 				item: "botania:prism"
 			}]
+			rewards: [{
+				id: "5AC84DDED15682B6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 2.5d
 			y: -4.5d
+			description: ["Upgrade your mana spreaders with different types of lenses."]
 			dependencies: ["1CE364B83E30A5F9"]
 			id: "479CCC7995B0C0D4"
 			tasks: [{
 				id: "7D021966984E6630"
 				type: "item"
 				item: "botania:lens_normal"
+			}]
+			rewards: [{
+				id: "6E075ACCC0634FA5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2148,10 +3127,18 @@
 				type: "item"
 				item: "botania:mana_fluxfield"
 			}]
+			rewards: [{
+				id: "3EDA83AE008DB029"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
+			title: "Improved Lexica Botania"
 			x: 5.0d
 			y: 3.0d
+			description: ["Just throw your Lexica Botania through the portal to get the updated variant back. This contains more chapters."]
 			dependencies: ["49D0F5D9196D9E2A"]
 			id: "145F11A416AEAB22"
 			tasks: [{
@@ -2165,10 +3152,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5F78C9E6373CD537"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.5d
 			y: -2.5d
+			description: ["Outputs a redstone signal if a mana burst flows through it."]
 			dependencies: ["718CFFBDA0ABEF28"]
 			id: "5B30CD81857C59F9"
 			tasks: [{
@@ -2176,10 +3170,17 @@
 				type: "item"
 				item: "botania:mana_detector"
 			}]
+			rewards: [{
+				id: "1F447F076AD8E509"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.5d
 			y: -2.5d
+			description: ["It is able to split the mana recieved e.g. from a spreader to 4 directions into e.g. 4 Pools."]
 			dependencies: ["5B30CD81857C59F9"]
 			id: "2D3ADCD4FACF0124"
 			tasks: [{
@@ -2187,16 +3188,29 @@
 				type: "item"
 				item: "botania:mana_distributor"
 			}]
+			rewards: [{
+				id: "2793E3AF6A860743"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: -0.5d
 			y: -2.5d
+			description: ["A grave for mana."]
 			dependencies: ["2D3ADCD4FACF0124"]
 			id: "600B2F8628F59093"
 			tasks: [{
 				id: "235E47CD19D99EED"
 				type: "item"
 				item: "botania:mana_void"
+			}]
+			rewards: [{
+				id: "49AA1832DCBD5A17"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2210,6 +3224,12 @@
 				type: "item"
 				item: "botania:dirt_rod"
 			}]
+			rewards: [{
+				id: "692E8784C0299F61"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 20.0d
@@ -2221,6 +3241,12 @@
 				id: "210B0BB9B3B31279"
 				type: "item"
 				item: "botania:skydirt_rod"
+			}]
+			rewards: [{
+				id: "27092A1C23A0D7BF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2234,6 +3260,12 @@
 				type: "item"
 				item: "botania:terraform_rod"
 			}]
+			rewards: [{
+				id: "1BA9270F126A4A7E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.0d
@@ -2246,6 +3278,12 @@
 				type: "item"
 				item: "botania:cobble_rod"
 			}]
+			rewards: [{
+				id: "19C0AD2F58E0CE77"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.0d
@@ -2257,6 +3295,12 @@
 				id: "5B16328A01B0007C"
 				type: "item"
 				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "6BAA581EB6C6120C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2274,6 +3318,12 @@
 					tag: { }
 				}
 			}]
+			rewards: [{
+				id: "5277D92EC5C613F8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 18.0d
@@ -2285,6 +3335,12 @@
 				id: "46EA7149C75AA348"
 				type: "item"
 				item: "botania:fire_rod"
+			}]
+			rewards: [{
+				id: "7519787E3429BBF1"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2298,6 +3354,12 @@
 				type: "item"
 				item: "botania:divining_rod"
 			}]
+			rewards: [{
+				id: "23765AA700D609FD"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 20.0d
@@ -2309,6 +3371,12 @@
 				id: "219D731E7D4A38B9"
 				type: "item"
 				item: "botania:smelt_rod"
+			}]
+			rewards: [{
+				id: "08D721D80D9C59AA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2322,6 +3390,12 @@
 				type: "item"
 				item: "botania:exchange_rod"
 			}]
+			rewards: [{
+				id: "1E84FFCBB1F4A70D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.0d
@@ -2333,6 +3407,12 @@
 				id: "144BAA0654F24F51"
 				type: "item"
 				item: "botania:rainbow_rod"
+			}]
+			rewards: [{
+				id: "406A2BC646C487C9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2355,6 +3435,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "658E7AFC3B288A0C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 19.0d
@@ -2367,6 +3453,12 @@
 				type: "item"
 				item: "botania:missile_rod"
 			}]
+			rewards: [{
+				id: "1EA26F438AA19226"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.0d
@@ -2378,6 +3470,12 @@
 				type: "item"
 				item: "botania:record_gaia_1"
 			}]
+			rewards: [{
+				id: "7540593A7F548BE3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.0d
@@ -2388,6 +3486,12 @@
 				id: "789D935650F03624"
 				type: "item"
 				item: "botania:record_gaia_2"
+			}]
+			rewards: [{
+				id: "29EEE774EB91F0BE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2401,6 +3505,12 @@
 				type: "item"
 				item: "botania:mining_ring"
 			}]
+			rewards: [{
+				id: "069B022CE8686B01"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 16.0d
@@ -2412,6 +3522,12 @@
 				id: "3A68D8330CB9EA97"
 				type: "item"
 				item: "botania:dodge_ring"
+			}]
+			rewards: [{
+				id: "2D1610AAC9D0B0F6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2425,6 +3541,12 @@
 				type: "item"
 				item: "botania:swap_ring"
 			}]
+			rewards: [{
+				id: "5C3A8EA3C839ECD2"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.0d
@@ -2437,6 +3559,12 @@
 				type: "item"
 				item: "botania:water_ring"
 			}]
+			rewards: [{
+				id: "6884925B0B8051CA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 15.0d
@@ -2448,6 +3576,12 @@
 				id: "199B6E697B3AD171"
 				type: "item"
 				item: "botania:magnet_ring"
+			}]
+			rewards: [{
+				id: "7991882319A36E8B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2472,6 +3606,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "28D2DB90B8F8A35D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 16.0d
@@ -2495,6 +3635,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "723CBA5B8B49569E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.0d
@@ -2511,6 +3657,12 @@
 						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
 					}
 				}
+			}]
+			rewards: [{
+				id: "3282CD8B987F4F18"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2529,6 +3681,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "1E42599B941033FF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.0d
@@ -2545,6 +3703,12 @@
 						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
 					}
 				}
+			}]
+			rewards: [{
+				id: "7CAD8B5E2883AD2A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2563,6 +3727,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5A066A08BEEBC61F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 1.0d
@@ -2580,6 +3750,12 @@
 						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
 					}
 				}
+			}]
+			rewards: [{
+				id: "5D07C18B5ECD45EE"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2605,6 +3781,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5F330B7765723657"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.0d
@@ -2626,6 +3808,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "5695B1B8B127BFF3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 0.0d
@@ -2636,6 +3824,12 @@
 				id: "2B28737EB6634138"
 				type: "item"
 				item: "botania:pinkinator"
+			}]
+			rewards: [{
+				id: "7F24FD69445675C8"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2649,6 +3843,12 @@
 				type: "item"
 				item: "botania:bauble_box"
 			}]
+			rewards: [{
+				id: "2948D50C662BB17D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 10.0d
@@ -2661,6 +3861,12 @@
 				type: "item"
 				item: "botania:travel_belt"
 			}]
+			rewards: [{
+				id: "70C4227C261DCE33"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.0d
@@ -2672,6 +3878,12 @@
 				id: "3AD8D6E7EAF64822"
 				type: "item"
 				item: "botania:speed_up_belt"
+			}]
+			rewards: [{
+				id: "56BC701A1D0883E3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2696,6 +3908,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "43C9CDE9BC034099"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.0d
@@ -2707,6 +3925,12 @@
 				id: "5CBAA1C5A4D8D193"
 				type: "item"
 				item: "botania:super_travel_belt"
+			}]
+			rewards: [{
+				id: "55FBD17BFF776BA5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2720,6 +3944,12 @@
 				type: "item"
 				item: "botania:invisibility_cloak"
 			}]
+			rewards: [{
+				id: "6EC7CFF1D2EE924B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.0d
@@ -2731,6 +3961,12 @@
 				id: "49AC377D3EB1ABF4"
 				type: "item"
 				item: "botania:balance_cloak"
+			}]
+			rewards: [{
+				id: "07B9102460B1845E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2744,6 +3980,12 @@
 				type: "item"
 				item: "botania:unholy_cloak"
 			}]
+			rewards: [{
+				id: "68F3F3134D2793F9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.0d
@@ -2755,6 +3997,12 @@
 				id: "6FAB518401079705"
 				type: "item"
 				item: "botania:holy_cloak"
+			}]
+			rewards: [{
+				id: "765B81FF9F9C7EA6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2771,6 +4019,12 @@
 					Count: 1b
 					tag: { }
 				}
+			}]
+			rewards: [{
+				id: "44CA736254020F3C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2790,6 +4044,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "55AEB9B529626450"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
@@ -2801,6 +4061,12 @@
 				id: "10EA96EB49141FC3"
 				type: "item"
 				item: "botania:astrolabe"
+			}]
+			rewards: [{
+				id: "47124AEE7CDFA169"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2814,6 +4080,12 @@
 				type: "item"
 				item: "botania:sextant"
 			}]
+			rewards: [{
+				id: "35888BF3CB434C2B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 10.0d
@@ -2825,6 +4097,12 @@
 				id: "3BE45B4827BB43E3"
 				type: "item"
 				item: "botania:itemfinder"
+			}]
+			rewards: [{
+				id: "09338CE38699CC57"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2838,6 +4116,12 @@
 				type: "item"
 				item: "botania:diva_charm"
 			}]
+			rewards: [{
+				id: "28539FAADD742902"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 13.0d
@@ -2849,6 +4133,12 @@
 				id: "49E09972E2986C6F"
 				type: "item"
 				item: "botania:goddess_charm"
+			}]
+			rewards: [{
+				id: "7B8EC9A4B90C1318"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2862,6 +4152,12 @@
 				type: "item"
 				item: "botania:tiny_planet"
 			}]
+			rewards: [{
+				id: "48B08391FEF7480A"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 12.0d
@@ -2873,6 +4169,12 @@
 				id: "6C4A08D7F0DDE3FA"
 				type: "item"
 				item: "botania:monocle"
+			}]
+			rewards: [{
+				id: "27874D315E5A18AA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2886,6 +4188,12 @@
 				type: "item"
 				item: "botania:third_eye"
 			}]
+			rewards: [{
+				id: "3501516087D617BB"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 11.0d
@@ -2897,6 +4205,12 @@
 				id: "5B43B948EB83B7A3"
 				type: "item"
 				item: "botania:black_hole_talisman"
+			}]
+			rewards: [{
+				id: "21CC685470BDD09E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2916,6 +4230,12 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "74A4AD2DAC23BDC9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 7.0d
@@ -2927,6 +4247,12 @@
 				id: "0D833CA32C782F32"
 				type: "item"
 				item: "botania:cacophonium"
+			}]
+			rewards: [{
+				id: "3F805EEBC2C627E7"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2940,6 +4266,12 @@
 				type: "item"
 				item: "botania:flower_bag"
 			}]
+			rewards: [{
+				id: "034642BF43FF6E00"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 8.0d
@@ -2951,6 +4283,12 @@
 				id: "5CCF28FC366025A8"
 				type: "item"
 				item: "botania:cloud_pendant"
+			}]
+			rewards: [{
+				id: "282613656097CDA9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2964,6 +4302,12 @@
 				type: "item"
 				item: "botania:super_cloud_pendant"
 			}]
+			rewards: [{
+				id: "71252508EFCEAC84"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 7.0d
@@ -2975,6 +4319,12 @@
 				id: "1DC30B95CB92FC72"
 				type: "item"
 				item: "botania:lava_pendant"
+			}]
+			rewards: [{
+				id: "24DEA576D3259F22"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -2988,6 +4338,12 @@
 				type: "item"
 				item: "botania:super_lava_pendant"
 			}]
+			rewards: [{
+				id: "27F255988D18350C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 9.0d
@@ -3000,6 +4356,12 @@
 				type: "item"
 				item: "botania:ice_pendant"
 			}]
+			rewards: [{
+				id: "34997E15E140BD73"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 16.0d
@@ -3010,6 +4372,12 @@
 				id: "27B0207FB98FD37B"
 				type: "item"
 				item: "botania:mana_ring_greater"
+			}]
+			rewards: [{
+				id: "650EC4514482FBAF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 		{
@@ -3022,6 +4390,12 @@
 				type: "item"
 				item: "botania:magnet_ring_greater"
 			}]
+			rewards: [{
+				id: "46C207816EE91F9B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			x: 14.0d
@@ -3032,6 +4406,35 @@
 				id: "6EFA9C6E0151C1DC"
 				type: "item"
 				item: "botania:aura_ring_greater"
+			}]
+			rewards: [{
+				id: "1AE17C529C7FBA37"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Floral Fertilizer"
+			x: 4.5d
+			y: -1.5d
+			description: [
+				"A kind of better bone meal."
+				"Use it on Grass Blocks and see what happens."
+			]
+			dependencies: ["06796341AB3CFBB4"]
+			id: "358776C4E9A01BCC"
+			tasks: [{
+				id: "0F2F35262721F3A7"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 16L
+			}]
+			rewards: [{
+				id: "4512F9C2BB4B1C3D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
 			}]
 		}
 	]
