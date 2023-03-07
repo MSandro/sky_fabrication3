@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": {
+    "item": "twilightforest:steeleaf_ingot"
+  },
+  "value": 1,
+  "needed": 1,
+  "material": "tconstruct:steeleaf"
+}

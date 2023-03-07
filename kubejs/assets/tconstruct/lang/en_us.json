@@ -1,0 +1,10 @@
+{
+  "material.tconstruct.steeleaf": "Steeleaf",
+  "material.tconstruct.steeleaf.flavor": "Hard as Steel, but more leafy.",
+  "material.tconstruct.steeleaf.encyclopedia": "The tool has 75% chance to resist damage in sunlight. Also gives extra Fortune and Looting!",
+  
+  "material.tconstruct.fiery": "Fiery",
+  "material.tconstruct.fiery.flavor": "An alloy of Iron and Fiery Essence.",
+  "material.tconstruct.fiery.encyclopedia": "Sets targets on fire and smelts mined blocks"
+}
+

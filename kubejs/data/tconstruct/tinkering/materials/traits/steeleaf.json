@@ -1,0 +1,30 @@
+{
+  "default": [
+    {
+      "name": "tconstruct:solar_powered",
+      "level": 1
+    }
+  ],
+  "perStat": {
+    "tconstruct:extra": [
+      {
+        "name": "tconstruct:fortune",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:solar_powered",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "tconstruct:looting",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:solar_powered",
+        "level": 1
+      }
+    ]
+  }
+}

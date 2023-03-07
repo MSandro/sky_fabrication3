@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tconstruct:fiery",
+  "temperature": 950,
+  "result": {
+    "fluid": "twilightforest:molten_fiery",
+    "amount": 9000
+  }
+}
