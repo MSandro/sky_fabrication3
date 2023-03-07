@@ -1462,7 +1462,7 @@ hash = "5f8ac7bb1b7dbf4a0f11158951567ce39c5d30100157f8ee7176faa2497b062c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bewitchment.snbt"
-hash = "9f9b1c2badb4ad9be6d8a4c8f68e8feacd5abf4d9514dace9c8a9cf7dee86355"
+hash = "49578de61ac7a3994241122faccaaabf40cca7c68cd27fbd55d5072ef3dbc7fb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/botania.snbt"
@@ -7414,7 +7414,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-fabric.pw.toml"
-hash = "a16fb0f0fe91f741f17e8635ef34774710a55f5db1671d3b56d9b365ce57c4b9"
+hash = "22a1a30e4c53de9dbbaea965563567f0642f1d3ebb9640ac94e9809065dca033"
 metafile = true
 
 [[files]]
