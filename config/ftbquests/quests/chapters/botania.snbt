@@ -1277,8 +1277,9 @@
 			x: 8.0d
 			y: 2.0d
 			description: [
-				"Terrasteel is a very expensive material. Not because of the Mana Ingot, Diamond and Pearl."
-				"But it will consume almost an entire mana pool for each ingot."
+				"Throw a Manasteel Ingot, Mana Diamond and Mana Pearl on the Terrestrial Agglomeration Plate."
+				""
+				"It will then consume half a Mana Pool worth of Mana to create a Terrasteel Ingot."
 			]
 			dependencies: ["0D915881A8BF7EE3"]
 			id: "44DF71B4C8D2B61A"
@@ -1880,8 +1881,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color1: 0
 						color2: 0
+						color1: 0
 					}
 				}
 			}]
@@ -2755,7 +2756,15 @@
 		{
 			x: 4.5d
 			y: -5.5d
-			description: ["Sparks are powerfull to spread mana between several pools."]
+			description: [
+				"Sparks are powerful way to transport Mana, mainly between Pools."
+				""
+				"Right-Click on a Mana Pool, Mana Enchanter, Terrestrial Agglomeration Plate or a Mana P2P Tunnel to place it."
+				""
+				"You can Right-Click Sparks with dyes to change its channel - differently colored Sparks won't interact with each other."
+				""
+				"You can later add Spark Augments to control the mana flow."
+			]
 			dependencies: ["6A1CC424788CAC34"]
 			id: "5C05E71686140C61"
 			tasks: [{
@@ -2772,8 +2781,10 @@
 		}
 		{
 			x: 3.0d
-			y: 6.0d
-			dependencies: ["006D707637E3F606"]
+			y: 7.0d
+			subtitle: "When powered by Redstone, it swaps Spark Augments between the Spark and itself."
+			description: ["Useful for two-way Mana Batteries!"]
+			dependencies: ["427099DD01253700"]
 			id: "4F1519138246C47C"
 			tasks: [{
 				id: "735D7905C30990DD"
@@ -2790,9 +2801,11 @@
 		{
 			x: 4.5d
 			y: -6.5d
+			subtitle: "ME Network, magical version."
 			description: [
-				"Item transport system!"
-				"More informations in the Lexica Botania."
+				"Put them on inventories to connect them to Corporea Network."
+				""
+				"Like regular Sparks, you can dye them to separate different Corporea Networks."
 			]
 			dependencies: ["5C05E71686140C61"]
 			id: "1F8DC917E3C860B4"
@@ -2811,6 +2824,14 @@
 		{
 			x: 4.5d
 			y: -7.5d
+			subtitle: "The Brain of Corporea Network."
+			description: [
+				"Each Corporea Network needs one of these as a controller."
+				""
+				"It won't add attached inventory to Corporea Network."
+				""
+				"Because of this, placing this on a Corporea Index would be your best bet."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
 			id: "223B017578ED4A5E"
 			tasks: [{
@@ -2828,6 +2849,7 @@
 		{
 			x: 3.0d
 			y: 4.0d
+			subtitle: "Creates a starry sky at night."
 			description: ["You might find a decorative use for this device."]
 			dependencies: ["006D707637E3F606"]
 			id: "187B054D0DC85DE3"
@@ -2846,6 +2868,12 @@
 		{
 			x: 3.5d
 			y: -6.5d
+			subtitle: "Corporea Decor."
+			description: [
+				"Used for decoration."
+				""
+				"You can also attach Corporea Sparks on them for lag-friendly Corporea Network extension."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
 			id: "3307FC8385E2C531"
 			tasks: [{
@@ -2863,6 +2891,17 @@
 		{
 			x: 3.5d
 			y: -5.5d
+			subtitle: "Trying to restock..."
+			description: [
+				"Place this adjacent to a Corporea Interceptor."
+				""
+				"If the request can't be fulfilled, the Corporea Retainer will remember said request and \"replay\" it upon being triggered by Redstone."
+				""
+				"It can memorize only one request at a time - newer requests will overwrite the old ones."
+				""
+				"A Redstone Comparator can read out the number of items that were originally requested."
+				"You can change this behavior using the Wand of the Forest to read out the amount of missing items."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
 			id: "013D73DB5C77DEAA"
 			tasks: [{
@@ -2880,6 +2919,14 @@
 		{
 			x: 3.5d
 			y: -7.5d
+			subtitle: "Warning: Item out of stock."
+			description: [
+				"Place Item Frames on it to filter requests."
+				""
+				"If the request of any item in frames can't be fulfilled, this block will emit a Redstone pulse."
+				""
+				"You can then use the Redstone Pulse to your heart's contents: ex. trigger your auto-crafter, light up a lamp, etc."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
 			id: "22D41FA56CD242A1"
 			tasks: [{
@@ -2897,6 +2944,16 @@
 		{
 			x: 5.5d
 			y: -5.5d
+			subtitle: "A magical Export Bus."
+			description: [
+				"Place the Item Frame on the Corporea Funnel and put the desired item into the Item Frame."
+				""
+				"When the Corporea Funnel is powered by Redstone, it will request one item from the Corporea Network and put it into a neighboring inventory, or in the world above itself if there are no neighboring inventories."
+				""
+				"Rotate the item in the frame to request 2, 4, 8, 16, 32, 48 and 64 items."
+				""
+				"If there are multiple Item Frames on the Corporea Funnel, it will request items at random."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
 			id: "2B4703CA4EF9B3F4"
 			tasks: [{
@@ -2914,7 +2971,51 @@
 		{
 			x: 5.5d
 			y: -7.5d
+			subtitle: "A Voice-controlled item terminal."
+			description: [
+				"When the Corporea Index is nearby, anything you type in chat will be interpreted as a Corporea request and won't be sent to other players (unless a server plugin tampers with chat messages)."
+				""
+				"This will appear if you are close enough to the Corporea Index:"
+				""
+				"{image:kubejs:textures/item/corporea.png width:160 height:44 align:1}"
+				""
+				"Now, how to request items:"
+				"> Typing in just the name of item will give 1 of that item."
+				"ex. \"iron ingot\" will give 1 Iron Ingot."
+				""
+				"> Prepend the name with amount (number or X stack(s)) to get that amount of items."
+				"\"16 iron ingot\" will give 16 Iron Ingots."
+				"\"1 stack iron ingot\" will give 64 Iron Ingots."
+				""
+				"> Use the name \"this\" to get the item which is in your hand."
+				"ex. \"64 this\" while holding an Iron Ingot will give you 64 Iron Ingots."
+				""
+				"> Prepend or append the name with \"...\", \"~\", \"+\" or \"?\" to get all items containing the name."
+				""
+				"> A \"*\" is a wildcard - meaning, it will match any number of characters. Any sign above will be interpreted as \"*name*\"."
+				"ex. \"32 iron?\" will give 32 of any item that contains \"iron\" in its name."
+				"\"32 iron*\" will give 32 of any item which name starts with \"iron\"."
+				"\"1 stack purified * ore\" will give you 1 stack of anything which name starts with \"purified \" and ends with \" ore\"."
+				""
+				"> \"count\", \"show\", \"display\", \"tell\" will not take out any items from the Corporea Network, leaving you only with a chat message."
+				""
+				"> \"all\" and \"every\" will take all of the items, that matches the request."
+				""
+				"Corporea will understand plural forms (ending with -s, -es, or -ies)."
+				""
+				"The quantity can be requested in various ways:"
+				"- using just a number, ex \"132\","
+				"- \"132x\" and \"132 of\" also work."
+				"- combining stacks and numbers: \"2 stacks + 4\", \"2 stacks and 4\"..."
+				""
+				"You can also request items from REI by using [C - by default], while hovering over an item in REI."
+				""
+				"Shift + C will request a full stack."
+				"Ctrl + C will request half a stack."
+				"Ctrl + Shift + C will request a quarter of a stack."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
+			min_width: 300
 			id: "5A07ED60A5C78C87"
 			tasks: [{
 				id: "7DEEC88468569615"
@@ -2931,6 +3032,23 @@
 		{
 			x: 5.5d
 			y: -6.5d
+			subtitle: "A fortuneteller would see a future inside."
+			description: [
+				"But you can see the present inside."
+				""
+				"Right-Click the Corporea Crystal Cube with item in hand to set it to that item."
+				""
+				"The item amount will update every second."
+				""
+				"Punch it to get 1 item."
+				"Punch it while sneaking to get a stack of that item."
+				""
+				"A Redstone Comparator will read out the amount of items. Signal strength increases with each power of 2 of items inside the Corporea Network."
+				"Max strength of 15 is achieved when there is 16384 of the chosen item in the Corporea Network."
+				""
+				"Sneak-Right Click with a Wand of the Forest to lock it to that item."
+				"Useful in order to not accidentaly change the item displayed in the cube."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
 			id: "3DA7EDA176FF1819"
 			tasks: [{
@@ -3061,7 +3179,7 @@
 			x: 2.5d
 			y: -2.5d
 			description: [
-				"Place a spreader on top of it to rotate it."
+				"Place a Mana Spreader on top of it to rotate it."
 				"You can change the speed, and stop it with a redstone signal."
 			]
 			dependencies: ["1CE364B83E30A5F9"]
@@ -3102,7 +3220,7 @@
 		{
 			x: 2.5d
 			y: -4.5d
-			description: ["Upgrade your mana spreaders with different types of lenses."]
+			description: ["Upgrade your Mana Spreaders with different types of Lenses."]
 			dependencies: ["1CE364B83E30A5F9"]
 			id: "479CCC7995B0C0D4"
 			tasks: [{
@@ -3120,6 +3238,8 @@
 		{
 			x: 8.0d
 			y: -2.5d
+			subtitle: "A proof that Botania is a tech mod."
+			description: ["Transforms Mana into Energy, at a 1:1 ratio."]
 			dependencies: ["01200B72145FDADD"]
 			id: "0321A7B6265CEB0C"
 			tasks: [{
@@ -4418,10 +4538,7 @@
 			title: "Floral Fertilizer"
 			x: 4.5d
 			y: -1.5d
-			description: [
-				"A kind of better bone meal."
-				"Use it on Grass Blocks and see what happens."
-			]
+			description: ["Use it on a Grass Block to make it flourish with different Mystical Flowers!"]
 			dependencies: ["06796341AB3CFBB4"]
 			id: "358776C4E9A01BCC"
 			tasks: [{
@@ -4432,6 +4549,63 @@
 			}]
 			rewards: [{
 				id: "4512F9C2BB4B1C3D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Spark Augments"
+			x: 3.0d
+			y: 6.0d
+			subtitle: "Control the Mana flow on the Spark Network!"
+			description: [
+				"> Dominant - a Spark will pull Mana from other pools to itself."
+				""
+				"> Recessive - a Spark will push Mana to other pools from itself."
+				""
+				"> Dispersive - will charge nearby players' Mana Tablets and Rings with Mana."
+				""
+				"> Isolated - Spark won't interact with Dominant or Recessive Sparks, but will still send Mana to Terrestrial Agglomeration Plates and Mana Enchanters."
+			]
+			dependencies: ["006D707637E3F606"]
+			id: "427099DD01253700"
+			tasks: [
+				{
+					id: "12C05D04C45F155D"
+					type: "item"
+					item: "botania:spark_upgrade_dispersive"
+				}
+				{
+					id: "41428D55A2F37B3F"
+					type: "item"
+					item: "botania:spark_upgrade_dominant"
+				}
+				{
+					id: "409F9AA4EB7D54C6"
+					type: "item"
+					item: "botania:spark_upgrade_recessive"
+				}
+				{
+					id: "1F2718902444F34A"
+					type: "item"
+					item: "botania:spark_upgrade_isolated"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["278D27920CB07C59"]
+			id: "4DD2393E9AADE210"
+			tasks: [{
+				id: "2ED308B27E911759"
+				type: "item"
+				item: "botania:rune_greed"
+			}]
+			rewards: [{
+				id: "1560E7152E31DEE9"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
