@@ -1,7 +1,7 @@
 {
-  "name": "fabricaeexnihilo:dust",
-  "tier": 4,
-  "yield": 50,
+  "name": "the_extractinator:slush",
+  "tier": 0,
+  "yield": 0,
   "additional_drops": [],
   "disabled_drops": []
 }

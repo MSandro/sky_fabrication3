@@ -1,0 +1,13 @@
+{
+  "common_drops": [],
+  "uncommon_drops": [
+    {
+      "name": "ae2:certus_quartz_dust"
+      "min": 1,
+      "max": 2
+    }
+  ],
+  "rare_drops": [],
+  "very_rare_drops": [],
+  "extremely_rare_drops": []
+}
