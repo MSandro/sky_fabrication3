@@ -71,6 +71,7 @@
 		{
 			x: 4.5d
 			y: -0.5d
+			subtitle: "Botania is a tech mod themed around Natural Magic."
 			description: ["If you need more information about any content in the Botania Mod, check the Lexica Botania. It will describe every part in more detail."]
 			hide: true
 			id: "06796341AB3CFBB4"
@@ -89,7 +90,19 @@
 		{
 			x: 6.0d
 			y: -3.5d
-			description: ["By dropping some petals into the Petal Apothecary, and finalize the recipe by adding a seed, it will create new special flowers."]
+			subtitle: "Here, you will craft various Botania flowers."
+			description: [
+				"Learn how to use it, by performing a simple craft:"
+				"1. Fill it with Water by Right-Clicking the Apothecary with Water Bucket, or by throwing the Water Bucket on top."
+				"2. Throw 4 Mystical White Petals inside."
+				"3. Throw any vanilla seed into the Apothecary."
+				""
+				"And voila! Your first flower!"
+				""
+				"By the way:"
+				"Did you know, that Create's Spouts can fill Petal Apothecaries as well?"
+				"{image:kubejs:textures/item/spout_apothecary.png width:60 height:125 align:1}"
+			]
 			dependencies: ["6A1CC424788CAC34"]
 			progression_mode: "linear"
 			id: "7D112B8FC4531A7E"
@@ -1292,7 +1305,8 @@
 		{
 			x: 6.0d
 			y: -2.5d
-			description: ["Learn how the Apothecary works by filling it with Water by Right-Clicking with a Water Bucket or dropping it on top, dropping 4 White Petals into it, and add a Seed to finalize the recipe."]
+			subtitle: "Transforms 8 blocks around itself into other blocks."
+			description: ["Try placing Logs or Stone!"]
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "0BA60C71BADB27EA"
 			tasks: [{
@@ -1560,7 +1574,12 @@
 		{
 			x: 11.0d
 			y: -3.5d
-			description: ["Basic Mana Storage and easy to use for mana infusing."]
+			subtitle: "Basic Mana Storage, easy to use for mana infusing."
+			description: [
+				"Sometimes, Mana will be related to in numbers in quests. (Botania is not constructed for number-crunching and min-maxing)."
+				""
+				"The Mana Pool stores 1,000,000 Mana."
+			]
 			hide_dependency_lines: true
 			dependencies: ["793DCC312DFF0198"]
 			id: "45AC772575502EB6"
@@ -1579,6 +1598,14 @@
 		{
 			x: 9.0d
 			y: -1.0d
+			subtitle: "Portable, magical Worktable."
+			description: [
+				"It is a portable Crafting Table, that can also remember 11 different recipes."
+				""
+				"Craft a recipe once, then turn around to remember the recipe in one of the slots."
+				""
+				"You can then Right-Click the memorized recipe to craft it without opening the crafting GUI."
+			]
 			dependencies: [
 				"01200B72145FDADD"
 				"7129CFCFCC75AAFC"
@@ -1716,6 +1743,19 @@
 			title: "Manaweave Armor"
 			x: 15.0d
 			y: -1.0d
+			subtitle: "Doesn't do well in defense, but is very powerful in magic."
+			description: [
+				"Wearing a full set of Manaweave Armor grants:"
+				""
+				"> 35% Mana discount on all tools and Rods,"
+				"> Increased range on Bifrost, Plentiful Mantle, Shifting Crust, and Terra Firma rods,"
+				"> Increased height of the Rod of the Skies,"
+				"> Increased time before the bridge created by the Rod of the Bifrost decays,"
+				"> Increased smelting speed of the Rod of the Molten Core,"
+				"> Increased item pulling speed of the Rod of the Shaded Mesa,"
+				"> Doubled fire rate of the Rod of the Unstable Reservoir,"
+				"> Decreased cooldown on the Rod of the Hells."
+			]
 			dependencies: ["375F904F1F7C628D"]
 			id: "5943C8B3EF469F17"
 			tasks: [
@@ -1799,6 +1839,7 @@
 			title: "Manasteel Gear"
 			x: 9.0d
 			y: -3.5d
+			subtitle: "Check out the \"Tools and Armor\" tab for more info."
 			dependencies: ["01200B72145FDADD"]
 			id: "2AF513D68BE988F3"
 			tasks: [
@@ -1924,6 +1965,7 @@
 			title: "Terrasteel Gear"
 			x: 8.0d
 			y: 3.0d
+			subtitle: "Check out the \"Tools and Armor\" tab for more info."
 			description: ["Terrasteel Equipment has special abilities, feel free to try it out."]
 			dependencies: ["44DF71B4C8D2B61A"]
 			id: "1F640301A7DFAF61"
@@ -2015,8 +2057,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color1: 0
 						color2: 0
+						color1: 0
 					}
 				}
 			}]
@@ -2032,7 +2074,9 @@
 			y: 4.0d
 			description: [
 				"Nature Pylons are required to open the Elven Portal."
-				"Place two of them on top of full mana pools near your portal frame."
+				"Place two of them on top of Mana Pools near your portal frame."
+				""
+				"You need at least 0.2 Mana Pools worth of Mana across your Pools to open the portal."
 			]
 			dependencies: ["52EFBE28E4AD5797"]
 			id: "486A51B5EAECBF17"
@@ -2491,6 +2535,12 @@
 		{
 			x: 2.0d
 			y: 6.0d
+			subtitle: "Allows you to fly."
+			description: [
+				"However, not infinitely - there's a flight bar, upon depleting it you will stop flying."
+				""
+				"You can add wings by crafting the Flugel Tiara with different quartz types."
+			]
 			dependencies: ["4F5A513E14904BDA"]
 			id: "768DB75FDF38BB98"
 			tasks: [{
@@ -2608,7 +2658,30 @@
 		{
 			x: 2.5d
 			y: -3.5d
-			description: ["This device allows you to e.g. collect mana from generating flowers and transfer it into an mana pool."]
+			subtitle: "Mana Transfer!"
+			description: [
+				"Can transfer Mana from one point to another."
+				""
+				"To bind your Generating Flowers to a Mana Spreader, Sneak-Right Click a flower, and then do the same with the Mana Spreader."
+				""
+				"If you did that correctly, the colorful beam between the Flower and the Spreader will briefly appear."
+				""
+				"You can also take Mana from Pools, for that you need to place the Spreader next to a Mana Pool."
+				""
+				"Aim the Mana Spreader the same way as you bind the flower."
+				""
+				"Mana Spreader will transfer mana through Mana Bursts."
+				""
+				"After a certain point (in Mana Spreader's case that's 12 blocks), Mana Burst will suffer from Mana loss."
+				""
+				"Mana Spreaders will shoot another Burst only if the previous one reached its destination."
+				""
+				"For maximum throughput, place a Mana Spreader aiming at the Mana Pool next to said Mana Pool."
+				""
+				"You can put Wool onto the Spreader to muffle its shooting sounds."
+				""
+				"You can put a Scaffolding onto the Spreader to make its hitbox a full block."
+			]
 			dependencies: ["22B2C00FB3706A6F"]
 			id: "1CE364B83E30A5F9"
 			tasks: [{
@@ -2626,7 +2699,8 @@
 		{
 			x: 1.5d
 			y: -3.5d
-			description: ["This spreader can be triggerd by a redstone pulse."]
+			subtitle: "A Mana Spreader, that only shoots upon a redstone pulse."
+			description: ["The \"burst reached its destination\" rule still applies, though."]
 			dependencies: ["1CE364B83E30A5F9"]
 			id: "6FCE275B8B4666F6"
 			tasks: [{
@@ -2644,7 +2718,8 @@
 		{
 			x: 0.5d
 			y: -3.5d
-			description: ["It is faster and has no mana lose."]
+			subtitle: "Faster than a regular Mana Spreader."
+			description: ["After 20 blocks, the burst shot by this spreader will suffer a Mana loss."]
 			dependencies: ["6FCE275B8B4666F6"]
 			id: "41AE0B6A34EE680F"
 			tasks: [{
@@ -2662,7 +2737,14 @@
 		{
 			x: -0.5d
 			y: -3.5d
-			description: ["Best and fastest mana spreader you can get."]
+			subtitle: "The fastest Mana Spreader available."
+			description: [
+				"After 48 blocks, the burst shot by this spreader will suffer a Mana loss."
+				""
+				"One burst shot by this spreader carries a lot of Mana."
+				""
+				"Still not fast enough? Apply a Potency-Velocity Compound Mana Lens!"
+			]
 			dependencies: ["41AE0B6A34EE680F"]
 			id: "24598EAB4F2A89E0"
 			tasks: [{
@@ -2753,7 +2835,11 @@
 			title: "Elementium Gear"
 			x: 4.0d
 			y: 6.0d
-			description: ["With Elementium you now have access to a new set of tools and armor, but is it better than the Terrasteel Set?"]
+			description: [
+				"With Elementium you now have access to a new set of tools and armor, but is it better than the Terrasteel Set?"
+				""
+				"Check it out in the \"Tools and Armor\" tab!"
+			]
 			dependencies: ["006D707637E3F606"]
 			id: "2AFF3A18E9A02A42"
 			tasks: [
@@ -3271,7 +3357,12 @@
 		{
 			x: 11.0d
 			y: -5.5d
-			description: ["Can be used to pump mana from or in a mana pool cart."]
+			subtitle: "Pumps Mana from or into the Minecart with Mana Pool."
+			description: [
+				"Pumps Mana so quickly, that it can drain/fill the whole pool in just 5 seconds!"
+				""
+				"Warning: It can lose Mana if the target Pool can accept less Mana than the Mana Pump sends."
+			]
 			dependencies: ["3EC6CBCD308A0830"]
 			id: "1CB1AAF1AA5D6CFF"
 			tasks: [{
@@ -3335,9 +3426,10 @@
 		{
 			x: 1.5d
 			y: -4.5d
+			subtitle: "Changes Mana Bursts effects on the fly."
 			description: [
-				"Manipulate mana bursts on the fly by adding a mana lens to it."
-				"More informations are available in the Lexica Botania."
+				"Just equip a lens inside."
+				"More information is available in the Lexica Botania."
 			]
 			dependencies: ["479CCC7995B0C0D4"]
 			id: "01466AA75BC97D89"
@@ -3356,7 +3448,8 @@
 		{
 			x: 2.5d
 			y: -4.5d
-			description: ["Upgrade your Mana Spreaders with different types of Lenses."]
+			subtitle: "Can change Mana Burst's color or behavior."
+			description: ["Check out the Lexica Botania for more info about lenses."]
 			dependencies: ["1CE364B83E30A5F9"]
 			id: "479CCC7995B0C0D4"
 			tasks: [{
@@ -3436,7 +3529,8 @@
 		{
 			x: 0.5d
 			y: -2.5d
-			description: ["It is able to split the mana recieved e.g. from a spreader to 4 directions into e.g. 4 Pools."]
+			subtitle: "Accepts Mana and spreads it equally between 4 Mana Pools connected to it."
+			description: ["Useful for storing more Mana before getting Sparks."]
 			dependencies: ["5B30CD81857C59F9"]
 			id: "2D3ADCD4FACF0124"
 			tasks: [{
@@ -3454,7 +3548,8 @@
 		{
 			x: -0.5d
 			y: -2.5d
-			description: ["A grave for mana."]
+			subtitle: "Voids any Mana given to it."
+			description: ["Not a tile entity - that means you can push it with Pistons!"]
 			dependencies: ["2D3ADCD4FACF0124"]
 			id: "600B2F8628F59093"
 			tasks: [{
@@ -3901,18 +3996,20 @@
 		{
 			x: 1.0d
 			y: 7.0d
+			subtitle: "Gives 1 out of 6 Ancient Relics."
+			description: [
+				"If you already got one of the Relics, then upon another dice roll you will get 1 out of 5 different Relics, and so on..."
+				""
+				"Never try to give Relics to the player who does not own the Relic - wielding a Relic that's not yours will damage you continuously."
+				""
+				"If you already rolled all the Relics, don't worry - additional Dice can give you some valuable resources!"
+			]
 			dependencies: ["6C892E06A15C3774"]
 			id: "0261B1AB2F3BF7F3"
 			tasks: [{
 				id: "155F5CC814C7A1DC"
 				type: "item"
-				item: {
-					id: "botania:dice"
-					Count: 1b
-					tag: {
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-					}
-				}
+				item: "botania:dice"
 			}]
 			rewards: [{
 				id: "3282CD8B987F4F18"
@@ -3924,18 +4021,15 @@
 		{
 			x: 0.0d
 			y: 8.0d
+			subtitle: "Unlimited food."
+			description: ["You can eat this infinitely, as long as you have Mana."]
 			dependencies: ["0261B1AB2F3BF7F3"]
 			id: "767D778A9A25D73E"
 			tasks: [{
 				id: "129797F8FAFCBE17"
 				type: "item"
-				item: {
-					id: "botania:infinite_fruit"
-					Count: 1b
-					tag: {
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-					}
-				}
+				item: "botania:infinite_fruit"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "1E42599B941033FF"
@@ -3947,18 +4041,15 @@
 		{
 			x: 1.0d
 			y: 8.0d
+			subtitle: "Is it an anime?"
+			description: ["Will shoot magical keys from behind yourself, that will explode upon impact."]
 			dependencies: ["0261B1AB2F3BF7F3"]
 			id: "340F16084C940F53"
 			tasks: [{
 				id: "2D0C2B7DF6538388"
 				type: "item"
-				item: {
-					id: "botania:king_key"
-					Count: 1b
-					tag: {
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-					}
-				}
+				item: "botania:king_key"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "7CAD8B5E2883AD2A"
@@ -3970,18 +4061,19 @@
 		{
 			x: 2.0d
 			y: 8.0d
+			subtitle: "A replica of Flugel's original ability."
+			description: [
+				"Can memorize one location per dimension (Sneak-Right Click on a block to set the location, then by holding Right Click you can warp to that location)."
+				""
+				"Having this in you inventory also allows to fly with Flugel Tiara even with an empty flight bar, but at a higher Mana cost."
+			]
 			dependencies: ["0261B1AB2F3BF7F3"]
 			id: "0641EE252CD065A2"
 			tasks: [{
 				id: "11ECFE184F61AD41"
 				type: "item"
-				item: {
-					id: "botania:flugel_eye"
-					Count: 1b
-					tag: {
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-					}
-				}
+				item: "botania:flugel_eye"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "5A066A08BEEBC61F"
@@ -3993,19 +4085,26 @@
 		{
 			x: 1.0d
 			y: 9.0d
+			subtitle: "The Thunder god's ability."
+			description: [
+				"Drastically increased Terra Shatterer's AoE."
+				""
+				"With this ring equipped, the ranges are as follows:"
+				""
+				"> C: 3x3x3,"
+				"> B: 5x5x5,"
+				"> A: 7x7x7,"
+				"> S: 9x9x9,"
+				"> SS: 11x11x11."
+			]
 			hide_dependency_lines: true
 			dependencies: ["0261B1AB2F3BF7F3"]
 			id: "36EE02CA34CA5295"
 			tasks: [{
 				id: "4D1EB658C515A112"
 				type: "item"
-				item: {
-					id: "botania:thor_ring"
-					Count: 1b
-					tag: {
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-					}
-				}
+				item: "botania:thor_ring"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "5D07C18B5ECD45EE"
@@ -4017,25 +4116,16 @@
 		{
 			x: 2.0d
 			y: 9.0d
+			subtitle: "The Principal god's ability."
+			description: ["When equipped, grants +20 Health and immunity to fall damage, fire damage, drowning, suffocating and starving."]
 			hide_dependency_lines: true
 			dependencies: ["0261B1AB2F3BF7F3"]
 			id: "640A1804DC116D54"
 			tasks: [{
 				id: "2BF6576D5732AAB6"
 				type: "item"
-				item: {
-					id: "botania:odin_ring"
-					Count: 1b
-					tag: {
-						baubleUUID: [I;
-							857398293
-							905004555
-							-1844241383
-							-1433063062
-						]
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-					}
-				}
+				item: "botania:odin_ring"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "5F330B7765723657"
@@ -4047,22 +4137,20 @@
 		{
 			x: 0.0d
 			y: 9.0d
+			subtitle: "The Trickster god's ability."
+			description: [
+				"You can choose multiple blocks by Sneak-Right Clicking with this ring in hand."
+				""
+				"Then, after equipping, all actions (placing and breaking blocks) are reflected across all chosen locations."
+			]
 			hide_dependency_lines: true
 			dependencies: ["0261B1AB2F3BF7F3"]
 			id: "60C80EB4047BDA16"
 			tasks: [{
 				id: "232362976E59F378"
 				type: "item"
-				item: {
-					id: "botania:loki_ring"
-					Count: 1b
-					tag: {
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-						xOrigin: 0
-						yOrigin: -2147483648
-						zOrigin: 0
-					}
-				}
+				item: "botania:loki_ring"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "5695B1B8B127BFF3"
@@ -4745,6 +4833,24 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Also Mana on Rails?"
+			icon: "create:minecart_contraption"
+			x: 12.0d
+			y: -4.5d
+			subtitle: "... or maybe rather - Mana on Contraptions?"
+			description: [
+				"{image:kubejs:textures/item/mana_contraption.png width:100 height:100 align:1}"
+				""
+				"The only downside is, that you need to disassemble the Contraption to load and unload Mana."
+			]
+			dependencies: ["45AC772575502EB6"]
+			id: "379274D6D08ECCEE"
+			tasks: [{
+				id: "7AEDD960544BB1D3"
+				type: "checkmark"
 			}]
 		}
 	]
