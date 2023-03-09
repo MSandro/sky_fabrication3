@@ -1,7 +1,7 @@
 {
-  "name": "fabricaeexnihilo:silt",
-  "tier": 4,
-  "yield": 75,
+  "name": "the_extractinator:silt",
+  "tier": 0,
+  "yield": 0,
   "additional_drops": [],
   "disabled_drops": []
 }

@@ -1,0 +1,12 @@
+{
+  "name": "fabricaeexnihilo:silt",
+  "tier": 4,
+  "yield": 75,
+  "additional_drops": [],
+  "disabled_drops": [
+    "ae2:certus_quartz_crystal",
+    "ae2:charged_certus_quartz_crystal",
+    "ae2:fluix_dust",
+    "ae2:fluix_crystal"
+  ]
+}

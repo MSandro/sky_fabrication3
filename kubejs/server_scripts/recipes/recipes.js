@@ -96,8 +96,8 @@ onEvent('recipes', (event) => {
   event.remove({output: 'techreborn:refined_iron_storage_block', type: 'minecraft:blasting'});
 
   // Extractinator
-  event.replaceInput({}, 'the_extractinator:silt', 'fabricaeexnihilo:silt')
-  event.replaceInput({}, 'the_extractinator:slush', 'fabricaeexnihilo:dust')
+  event.remove({input: 'the_extractinator:silt'});
+  event.remove({input: 'the_extractinator:slush'});
 
   // Improved Stations
   event.remove({output: 'improved-stations:furnace_slab', type: 'minecraft:crafting_shaped'});
