@@ -7722,7 +7722,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-fabric.pw.toml"
-hash = "22a1a30e4c53de9dbbaea965563567f0642f1d3ebb9640ac94e9809065dca033"
+hash = "e3ae6ed88173331a42d585953fc6612a95d7f2be5ab619c365d9ea9d4fa25e68"
 metafile = true
 
 [[files]]
@@ -7812,7 +7812,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-weathering-fabric.pw.toml"
-hash = "7cc3f6ba5b4566427039b742de1ffe7de2017d91f2f8e8761de5859e43e9a4c8"
+hash = "9868d8821e44560d3b600e0653bfda422220d4e5118d6560c00776cc0ee32825"
 metafile = true
 
 [[files]]
@@ -7977,12 +7977,12 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-roofs.pw.toml"
-hash = "0768b37b00547e31b0a65f9d01613c2dfc8d12198685c96ac0ca07dcdda9e928"
+hash = "db76e4032047963e91933d3da10e710a6df1b7f9b8a90eb5e68ec91844c81cbc"
 metafile = true
 
 [[files]]
 file = "mods/macaws-trapdoors.pw.toml"
-hash = "5e0068380101e761adecc63c624f0801fb8c9b33f8f9b113116231e4b81e86fb"
+hash = "485a793fc5c599f23047d72e51073ae7a44e00880bc34c0dce6dd638b30de9e6"
 metafile = true
 
 [[files]]
