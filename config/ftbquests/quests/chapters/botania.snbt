@@ -52,7 +52,7 @@
 			tasks: [{
 				id: "3F596D2ECA308348"
 				type: "item"
-				title: "Any Petal or Mushroom"
+				title: "Any Petal or Shimmering Mushroom"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -71,6 +71,7 @@
 		{
 			x: 4.5d
 			y: -0.5d
+			subtitle: "Botania is a tech mod themed around Natural Magic."
 			description: ["If you need more information about any content in the Botania Mod, check the Lexica Botania. It will describe every part in more detail."]
 			hide: true
 			id: "06796341AB3CFBB4"
@@ -89,7 +90,19 @@
 		{
 			x: 6.0d
 			y: -3.5d
-			description: ["By dropping some petals into the water basin, and at least add a seed, it will create new special flowers."]
+			subtitle: "Here, you will craft various Botania flowers."
+			description: [
+				"Learn how to use it, by performing a simple craft:"
+				"1. Fill it with Water by Right-Clicking the Apothecary with Water Bucket, or by throwing the Water Bucket on top."
+				"2. Throw 4 Mystical White Petals inside."
+				"3. Throw any vanilla seed into the Apothecary."
+				""
+				"And voila! Your first flower!"
+				""
+				"By the way:"
+				"Did you know, that Create's Spouts can fill Petal Apothecaries as well?"
+				"{image:kubejs:textures/item/spout_apothecary.png width:60 height:125 align:1}"
+			]
 			dependencies: ["6A1CC424788CAC34"]
 			progression_mode: "linear"
 			id: "7D112B8FC4531A7E"
@@ -376,7 +389,12 @@
 		{
 			x: 12.5d
 			y: -8.5d
-			description: ["This is a functional flower which you can place next to a pool to indicate if you have a lose or a gain of mana in it."]
+			subtitle: "Place next to a Mana Pool to see if you are gaining or losing Mana."
+			description: [
+				"The flower shines §cred§r, if you are losing Mana."
+				""
+				"The flower shines §9blue§r, if you are gaining Mana."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "26C37DB6B3A9A36C"
@@ -395,7 +413,8 @@
 		{
 			x: 10.5d
 			y: -8.5d
-			description: ["A liquid-based passive generating flower. It will decay after a period of time. But it might be a cheap option to start generating mana."]
+			subtitle: "A Passive flower, that generates Mana out of water."
+			description: ["It will decay after 1 hour. But it might be a cheap option to start generating mana."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "09DDD53672B0A561"
@@ -414,7 +433,7 @@
 		{
 			x: 7.5d
 			y: -8.5d
-			description: ["It consumes burnable materials to generate mana."]
+			subtitle: "Consumes burnable materials to generate Mana."
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "71A4C5B1E8C9C79C"
@@ -433,7 +452,12 @@
 		{
 			x: 6.5d
 			y: -8.5d
-			description: ["It absorbs lava around it to produce mana. It is not easy to automate, but it is definitely possible."]
+			subtitle: "Absorbs Lava around itself to produce Mana."
+			description: [
+				"After absorbing the lava source block, Thermalily will rapidly generate mana for 45 seconds, after which Thermalily will enter a 5-minute cooldown."
+				""
+				"During that cooldown, Lava will be consumed without giving any Mana."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "718F083C919115DE"
@@ -452,7 +476,12 @@
 		{
 			x: 9.5d
 			y: -8.5d
-			description: ["This flower converts XP into mana."]
+			subtitle: "This flower converts XP into Mana."
+			description: [
+				"It can grab XP from a nearby player (full efficiency) or from XP Orbs (lower efficiency)."
+				""
+				"Might be a good choice if you have a lot of excess XP."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "25A5A748D3DB6FD0"
@@ -471,7 +500,8 @@
 		{
 			x: 9.0d
 			y: -9.5d
-			description: ["It converts nearby leaves into mana."]
+			subtitle: "Eats nearby Leaf blocks to generate Mana."
+			description: ["However, eaten leaves won't drop any Saplings, so keep that in mind."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "0A75593D0D68EC0F"
@@ -490,7 +520,14 @@
 		{
 			x: 7.0d
 			y: -9.5d
-			description: ["It converts the energy of explosiones to mana blasts."]
+			subtitle: "Absorbs TNT explosions to generate Mana."
+			description: [
+				"If a Primed TNT would explode in the Entropinnyum's range, the explosion will be absorbed, generating Mana."
+				""
+				"Just make sure that the Entropinnyum's internal Mana buffer is empty, else the explosion won't be absorbed and the explosion would probably ruin your automation."
+				""
+				"Also, duping TNT is no use, since duped TNT generates very little Mana, so avoid priming TNT near pistons or rails."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "2F399FC03DB26EBD"
@@ -509,7 +546,8 @@
 		{
 			x: 8.0d
 			y: -7.5d
-			description: ["This flower eats nearby placed cakes to generate mana."]
+			subtitle: "Eats nearby Cakes to generate Mana."
+			description: ["Automating this flower can be a good challenge, so give it a try!"]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "4E9962D7D506C825"
@@ -528,7 +566,14 @@
 		{
 			x: 10.0d
 			y: -7.5d
-			description: ["This flower can convert any food item into mana."]
+			subtitle: "Consumes nearby dropped food to generate Mana."
+			description: [
+				"The more nourishing the food is, the more Mana it gives and the longer is digested."
+				""
+				"Giving Gourmalillys the same food over and over leads to diminishing returns, so avoid doing that."
+				""
+				"The best way to generate Mana with this flower is to cycle between 6 different nourishing foods."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "1A2858B1927BC08F"
@@ -547,7 +592,12 @@
 		{
 			x: 7.0d
 			y: -7.5d
-			description: ["Can be used in Slime-Chunks and it absorbs the Slimes to generate mana."]
+			subtitle: "Absorbs naturally spawned Slimes to generate Mana."
+			description: [
+				"Best used in a slime chunk, as low as possible since the lower the surface, the more mobs spawn."
+				""
+				"Narslimmus will generate more Mana, the bigger the consumed Slime is."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "4B45C598CB667293"
@@ -566,7 +616,13 @@
 		{
 			x: 9.0d
 			y: -7.5d
-			description: ["It converts nearby dropped wool blocks into mana."]
+			subtitle: "Consumes nearby dropped Wool to generate Mana."
+			description: [
+				"However, there's a caveat:"
+				"The wool must be given in the correct order, according to default metadata order, as seen in REI."
+				""
+				"If you give this flower a wrong color of Wool, it will be consumed without giving any Mana."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "20CD84F21593809A"
@@ -585,7 +641,28 @@
 		{
 			x: 8.5d
 			y: -8.5d
-			description: ["Very complex to describe. Please check out your Lexica Botania to figure out how it works."]
+			subtitle: "Simulates Conway's Game of Life to generate Mana."
+			description: [
+				"The simulation is performed in 25x25 arena around the Dandelifeon."
+				""
+				"When powered by Redstone, it will process 1 step of Game of Life every second."
+				""
+				"Living Cells are Cellular Blocks."
+				""
+				"There are a few more rules, specific for this simulation:"
+				""
+				"> Any cell, which would appear on a 3x3 region centered at the Dandelifeon, will be consumed into Mana. The older the cell, the more Mana it gives."
+				""
+				"> Cells will die after 100 steps."
+				""
+				"> You can place solid, non-cellular blocks inside the arena to make them permanently dead."
+				""
+				"If you are too lazy to make a design by yourself, here's a design found by u/Cobra1117 on Reddit."
+				""
+				"In 50 seconds (there's Enchanted Soil under the Dandelifeon), it will make 6 age 100 cells, producing roughly 1440 Mana per second."
+				""
+				"{image:kubejs:textures/item/botania_gameoflife.png width:160 height:140 align:1}"
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "2DB8FCEEAA44B8EE"
@@ -604,7 +681,14 @@
 		{
 			x: 10.0d
 			y: -9.5d
-			description: ["It eats man-made flowers from nearby apothecaries to generate mana."]
+			subtitle: "Consumes man-made Flowers to generate Mana."
+			description: [
+				"The more complicated the Flower is, the more Mana it gives."
+				""
+				"Giving Rafflowsia the same flower over and over leads to diminishing returns, so avoid doing that."
+				""
+				"The best way to generate Mana with this flower is to cycle between 6 different Flowers."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "6B6C1338DA6E05E1"
@@ -623,7 +707,18 @@
 		{
 			x: 8.0d
 			y: -9.5d
-			description: ["This flower uses the power of Shulker's Levitation to generate mana if a mob was targeted by a shulker projectile."]
+			subtitle: "Generates Mana, when a Shulker hits another monster."
+			description: [
+				"The Shulker must target that monster - so tricks like putting a Snowman or a Iron Golem won't work."
+				""
+				"Use Heisei Dream to make a Shulker aggresive at that monster."
+				""
+				"Also, the Shulk Me Not's internal Mana buffer must be empty."
+				""
+				"If both conditions are satisfied, the Shulk Me Not will generate huge amounts of Mana."
+				""
+				"Both the Shulker and the monster will be killed without dropping anything."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "3C6E5B44E163C799"
@@ -642,7 +737,7 @@
 		{
 			x: 18.0d
 			y: -9.5d
-			description: ["By consuming some mana, this flower will harm any nearby monster or animal."]
+			subtitle: "Harms nearby mobs using Mana."
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "739DFA411EBFB864"
@@ -661,7 +756,12 @@
 		{
 			x: 13.5d
 			y: -8.5d
-			description: ["This flower can absorb dins."]
+			subtitle: "Shut up!"
+			description: [
+				"The Bergamute will muffle any sounds around itself."
+				""
+				"Does not use Mana."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "570B152BB34722E6"
@@ -680,7 +780,7 @@
 		{
 			x: 16.0d
 			y: -7.5d
-			description: ["This flower harms any nearby adult animals."]
+			subtitle: "Harms any nearby adult animals using Mana."
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "397FC7D166A82A7A"
@@ -699,6 +799,7 @@
 		{
 			x: 15.5d
 			y: -10.5d
+			subtitle: "I'm angry."
 			description: ["This flower will manipulate nearby mobs so they will try to kill each other."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
@@ -718,6 +819,7 @@
 		{
 			x: 18.5d
 			y: -10.5d
+			subtitle: "Creeper? Aww man!"
 			description: ["This flower acts like an cat. Creepers are not able to explode near the flower and they will flee from players."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
@@ -737,7 +839,7 @@
 		{
 			x: 16.0d
 			y: -9.5d
-			description: ["This flower will grow mystical flowers nearby if feeded with mana."]
+			subtitle: "Grows Mystical Flowers around itself using Mana."
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "4910B83CB988196B"
@@ -756,7 +858,12 @@
 		{
 			x: 18.5d
 			y: -8.5d
-			description: ["This flower will use mana to convert stone into ores."]
+			subtitle: "Uses Mana to generate ores in Stone."
+			description: [
+				"Note that Garden of Glass is installed."
+				""
+				"This means that this plant is way cheaper, faster and uses less Mana than vanilla Orechid."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "68C6FBD10D2B6D72"
@@ -775,7 +882,7 @@
 		{
 			x: 15.5d
 			y: -8.5d
-			description: ["This flower uses mana to generates an aura of healing."]
+			subtitle: "Uses Mana to provide nearby players with Regeneration III."
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "27AC22B620B89DF4"
@@ -794,7 +901,7 @@
 		{
 			x: 17.5d
 			y: -6.5d
-			description: ["Use mana to fuel nearby furnaces."]
+			subtitle: "Fuels nearby Furnaces using Mana."
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "7D1CEAA94F356A43"
@@ -813,7 +920,7 @@
 		{
 			x: 16.5d
 			y: -8.5d
-			description: ["This flower transforms mana into a fertilization effect for nearby crops."]
+			subtitle: "Fertilizes nearby plants using Mana."
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "3FBBF519A94669E4"
@@ -832,7 +939,12 @@
 		{
 			x: 17.5d
 			y: -8.5d
-			description: ["This flower can pick up nearby items and will place the into a chest placed next to it."]
+			subtitle: "A magical Vacuum Hopper."
+			description: [
+				"This flower picks up nearby items and places the into an inventory placed next to it."
+				""
+				"You can filter the items picked up by placing Item Frames on the soil under the Hopperhock."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "380C15C1DAC3F9D7"
@@ -851,7 +963,7 @@
 		{
 			x: 19.0d
 			y: -7.5d
-			description: ["This flower prevents monsters or animals from leaving its area within a certain radius."]
+			subtitle: "Prevents mobs from leaving the area around the flower."
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "26DD7670DD6BC270"
@@ -870,7 +982,14 @@
 		{
 			x: 17.0d
 			y: -7.5d
-			description: ["This flower is able to pick up nearby items and place them in a large radius around it."]
+			subtitle: "Picks up nearby blocks and places them in a large radius around itself."
+			description: [
+				"Specify the block by putting it below the Rannucarpus."
+				""
+				"The Rannucarpus will place blocks only above that block."
+				""
+				"Using Wand of the Forest in Function Mode, you can change whether the blockstate is respected or not."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "521A546902D8C10B"
@@ -889,7 +1008,12 @@
 		{
 			x: 20.0d
 			y: -9.5d
-			description: ["This flower can be used in mob farms, it will harm mobs, but it does not kill them, to be one-hitted by the player."]
+			subtitle: "For some reason, Poison does not kill."
+			description: [
+				"This flower can be used in Mob Farms."
+				""
+				"It will inflict Poison to them, allowing the mobs to be one-hitted by the player."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "3276FA70E0225D04"
@@ -908,7 +1032,7 @@
 		{
 			x: 19.0d
 			y: -11.5d
-			description: ["This flower will use nearby dropped food items to feed nearby animals."]
+			subtitle: "Uses nearby dropped food items to feed nearby animals."
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "41742AAE9E513983"
@@ -927,7 +1051,7 @@
 		{
 			x: 18.0d
 			y: -7.5d
-			description: ["This flower generates a area which is protected so no monster is able to enter this area."]
+			subtitle: "Prevents mobs from entering the area around the flower."
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "4AF639EFD211E634"
@@ -946,7 +1070,8 @@
 		{
 			x: 19.0d
 			y: -9.5d
-			description: ["This flower uses mana to convert sand into clay."]
+			subtitle: "Balanced because it takes effort."
+			description: ["This flower uses Mana to convert Sand into Clay."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "2E6728E2898E3201"
@@ -965,7 +1090,12 @@
 		{
 			x: 18.0d
 			y: -11.5d
-			description: ["This flower will use mana to summon monsters helding dungeon loot in their hand."]
+			subtitle: "Uses Mana to summon monsters holding dungeon loot."
+			description: [
+				"Kill the monster to get the dungeon loot."
+				""
+				"The dungeon loot will NOT contain any Music Discs nor Overgrowth Seeds."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "178CEDDE5FB1477D"
@@ -984,7 +1114,7 @@
 		{
 			x: 17.0d
 			y: -9.5d
-			description: ["A mana powered fan?"]
+			subtitle: "A Mana powered fan?"
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "1DED9FFD8AC3C2FB"
@@ -1003,6 +1133,7 @@
 		{
 			x: 17.0d
 			y: -11.5d
+			subtitle: "Ender Tether."
 			description: ["This flower has a large area of effect, in this area, any enerman which tries to teleport, will be teleported directly to this flower."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
@@ -1022,7 +1153,18 @@
 		{
 			x: 16.5d
 			y: -10.5d
-			description: ["Item Teleportation Flower!"]
+			subtitle: "Teleports items using Mana."
+			description: [
+				"You can bind it to a block just like you can bind Mana Spreaders to Pools."
+				""
+				"The block selected must be in a 12-block radius."
+				""
+				"It will then teleport nearby items to the chosen location."
+				""
+				"It will NOT teleport Mana containers nor already teleported items."
+				""
+				"Useful for aesthetically pleasing Botania automations."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "569D4AF8036BF532"
@@ -1041,10 +1183,7 @@
 		{
 			x: 17.5d
 			y: -5.5d
-			description: [
-				"This flower consumes mana to create a slowing field."
-				"This field affects any entity but not players."
-			]
+			subtitle: "Slows down mobs (but not players) around itself using Mana."
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "1440C7814E99B2C6"
@@ -1063,7 +1202,8 @@
 		{
 			x: 17.5d
 			y: -10.5d
-			description: ["This flower converts nearby stone into other stone variants."]
+			subtitle: "Converts nearby stone into other stone variants."
+			description: ["You will surely love some color pallets of stones generated by this flower."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "0975F41A35E0A953"
@@ -1082,7 +1222,8 @@
 		{
 			x: 15.0d
 			y: -9.5d
-			description: ["This flower if placed under water and supplied with mana, it will remove water in a 12 blocks radius."]
+			subtitle: "... and whistle."
+			description: ["If placed underwater and supplied with Mana, it will remove water in a 12 blocks radius."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "13D165DA7627571B"
@@ -1101,7 +1242,7 @@
 		{
 			x: 19.5d
 			y: -8.5d
-			description: ["This flower prevents the Ring of Magnetization in its area to push items to the player."]
+			subtitle: "Prevents the Rings of Magnetization from attracting items in its radius."
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "420D15E11CFCA292"
@@ -1120,7 +1261,8 @@
 		{
 			x: 19.5d
 			y: -10.5d
-			description: ["This flower will use mana to convert netherrack into some nether ores."]
+			subtitle: "Generates Nether ores in Netherrack using hefty amounts of Mana."
+			description: ["Works ONLY in the Nether."]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "17D7A712F5CCFEDF"
@@ -1139,7 +1281,12 @@
 		{
 			x: 16.0d
 			y: -11.5d
-			description: ["This flower will pick up name tags dropped on top of it and uses mana to rename any dropped item or entity in its 5x5 radius."]
+			subtitle: "Labels nearby Items of Mobs using Mana."
+			description: [
+				"This flower will pick up name tags dropped on top of it and uses mana to rename any dropped item or entity in its 5x5 radius."
+				""
+				"The Name Tag will be consumed in the process."
+			]
 			hide_dependency_lines: true
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "0D7302F3B76BEC3A"
@@ -1158,7 +1305,8 @@
 		{
 			x: 6.0d
 			y: -2.5d
-			description: ["Learn how the Apothecary works by dropping 4 White Petals into it, and add a Seed to finalize the recipe."]
+			subtitle: "Transforms 8 blocks around itself into other blocks."
+			description: ["Try placing Logs or Stone!"]
 			dependencies: ["7D112B8FC4531A7E"]
 			id: "0BA60C71BADB27EA"
 			tasks: [{
@@ -1202,7 +1350,7 @@
 		{
 			x: 6.0d
 			y: -1.0d
-			description: ["Any log or bark can be transformed to Living Wood Logs."]
+			description: ["Any Log or Wood can be transformed to Livingwood Logs."]
 			dependencies: ["0BA60C71BADB27EA"]
 			id: "0365DF3000755BCA"
 			tasks: [{
@@ -1277,8 +1425,9 @@
 			x: 8.0d
 			y: 2.0d
 			description: [
-				"Terrasteel is a very expensive material. Not because of the Mana Ingot, Diamond and Pearl."
-				"But it will consume almost an entire mana pool for each ingot."
+				"Throw a Manasteel Ingot, Mana Diamond and Mana Pearl on the Terrestrial Agglomeration Plate."
+				""
+				"It will then consume half a Mana Pool worth of Mana to create a Terrasteel Ingot."
 			]
 			dependencies: ["0D915881A8BF7EE3"]
 			id: "44DF71B4C8D2B61A"
@@ -1318,7 +1467,7 @@
 		{
 			x: 9.0d
 			y: -2.5d
-			description: ["Drop a Iron Ingot in a Mana Pool."]
+			subtitle: "Drop an Iron Ingot into the Mana Pool."
 			dependencies: ["45AC772575502EB6"]
 			id: "01200B72145FDADD"
 			tasks: [{
@@ -1336,7 +1485,7 @@
 		{
 			x: 10.0d
 			y: -2.5d
-			description: ["Drop a Ender Pearl in a Mana Pool."]
+			subtitle: "Drop an Ender Pearl into the Mana Pool."
 			dependencies: ["45AC772575502EB6"]
 			id: "7129CFCFCC75AAFC"
 			tasks: [{
@@ -1354,7 +1503,7 @@
 		{
 			x: 11.0d
 			y: -2.5d
-			description: ["Drop Redstone, Sugar or Gunpowder in a Mana Pool."]
+			subtitle: "Drop Redstone, Sugar, Gunpowder or any Dye into the Mana Pool."
 			dependencies: ["45AC772575502EB6"]
 			id: "5A76DF911EFC76EE"
 			tasks: [{
@@ -1372,7 +1521,7 @@
 		{
 			x: 12.0d
 			y: -2.5d
-			description: ["Drop a Diamond in a Mana Pool."]
+			subtitle: "Drop a Diamond into the Mana Pool."
 			dependencies: ["45AC772575502EB6"]
 			id: "641E7D71ACC0F28B"
 			tasks: [{
@@ -1425,7 +1574,12 @@
 		{
 			x: 11.0d
 			y: -3.5d
-			description: ["Basic Mana Storage and easy to use for mana infusing."]
+			subtitle: "Basic Mana Storage, easy to use for mana infusing."
+			description: [
+				"Sometimes, Mana will be related to in numbers in quests. (Botania is not constructed for number-crunching and min-maxing)."
+				""
+				"The Mana Pool stores 1,000,000 Mana."
+			]
 			hide_dependency_lines: true
 			dependencies: ["793DCC312DFF0198"]
 			id: "45AC772575502EB6"
@@ -1444,6 +1598,14 @@
 		{
 			x: 9.0d
 			y: -1.0d
+			subtitle: "Portable, magical Worktable."
+			description: [
+				"It is a portable Crafting Table, that can also remember 11 different recipes."
+				""
+				"Craft a recipe once, then turn around to remember the recipe in one of the slots."
+				""
+				"You can then Right-Click the memorized recipe to craft it without opening the crafting GUI."
+			]
 			dependencies: [
 				"01200B72145FDADD"
 				"7129CFCFCC75AAFC"
@@ -1581,6 +1743,19 @@
 			title: "Manaweave Armor"
 			x: 15.0d
 			y: -1.0d
+			subtitle: "Doesn't do well in defense, but is very powerful in magic."
+			description: [
+				"Wearing a full set of Manaweave Armor grants:"
+				""
+				"> 35% Mana discount on all tools and Rods,"
+				"> Increased range on Bifrost, Plentiful Mantle, Shifting Crust, and Terra Firma rods,"
+				"> Increased height of the Rod of the Skies,"
+				"> Increased time before the bridge created by the Rod of the Bifrost decays,"
+				"> Increased smelting speed of the Rod of the Molten Core,"
+				"> Increased item pulling speed of the Rod of the Shaded Mesa,"
+				"> Doubled fire rate of the Rod of the Unstable Reservoir,"
+				"> Decreased cooldown on the Rod of the Hells."
+			]
 			dependencies: ["375F904F1F7C628D"]
 			id: "5943C8B3EF469F17"
 			tasks: [
@@ -1664,6 +1839,7 @@
 			title: "Manasteel Gear"
 			x: 9.0d
 			y: -3.5d
+			subtitle: "Check out the \"Tools and Armor\" tab for more info."
 			dependencies: ["01200B72145FDADD"]
 			id: "2AF513D68BE988F3"
 			tasks: [
@@ -1789,6 +1965,7 @@
 			title: "Terrasteel Gear"
 			x: 8.0d
 			y: 3.0d
+			subtitle: "Check out the \"Tools and Armor\" tab for more info."
 			description: ["Terrasteel Equipment has special abilities, feel free to try it out."]
 			dependencies: ["44DF71B4C8D2B61A"]
 			id: "1F640301A7DFAF61"
@@ -1880,8 +2057,8 @@
 					id: "botania:twig_wand"
 					Count: 1b
 					tag: {
-						color1: 0
 						color2: 0
+						color1: 0
 					}
 				}
 			}]
@@ -1897,7 +2074,9 @@
 			y: 4.0d
 			description: [
 				"Nature Pylons are required to open the Elven Portal."
-				"Place two of them on top of full mana pools near your portal frame."
+				"Place two of them on top of Mana Pools near your portal frame."
+				""
+				"You need at least 0.2 Mana Pools worth of Mana across your Pools to open the portal."
 			]
 			dependencies: ["52EFBE28E4AD5797"]
 			id: "486A51B5EAECBF17"
@@ -2356,6 +2535,12 @@
 		{
 			x: 2.0d
 			y: 6.0d
+			subtitle: "Allows you to fly."
+			description: [
+				"However, not infinitely - there's a flight bar, upon depleting it you will stop flying."
+				""
+				"You can add wings by crafting the Flugel Tiara with different quartz types."
+			]
 			dependencies: ["4F5A513E14904BDA"]
 			id: "768DB75FDF38BB98"
 			tasks: [{
@@ -2473,7 +2658,30 @@
 		{
 			x: 2.5d
 			y: -3.5d
-			description: ["This device allows you to e.g. collect mana from generating flowers and transfer it into an mana pool."]
+			subtitle: "Mana Transfer!"
+			description: [
+				"Can transfer Mana from one point to another."
+				""
+				"To bind your Generating Flowers to a Mana Spreader, Sneak-Right Click a flower, and then do the same with the Mana Spreader."
+				""
+				"If you did that correctly, the colorful beam between the Flower and the Spreader will briefly appear."
+				""
+				"You can also take Mana from Pools, for that you need to place the Spreader next to a Mana Pool."
+				""
+				"Aim the Mana Spreader the same way as you bind the flower."
+				""
+				"Mana Spreader will transfer mana through Mana Bursts."
+				""
+				"After a certain point (in Mana Spreader's case that's 12 blocks), Mana Burst will suffer from Mana loss."
+				""
+				"Mana Spreaders will shoot another Burst only if the previous one reached its destination."
+				""
+				"For maximum throughput, place a Mana Spreader aiming at the Mana Pool next to said Mana Pool."
+				""
+				"You can put Wool onto the Spreader to muffle its shooting sounds."
+				""
+				"You can put a Scaffolding onto the Spreader to make its hitbox a full block."
+			]
 			dependencies: ["22B2C00FB3706A6F"]
 			id: "1CE364B83E30A5F9"
 			tasks: [{
@@ -2491,7 +2699,8 @@
 		{
 			x: 1.5d
 			y: -3.5d
-			description: ["This spreader can be triggerd by a redstone pulse."]
+			subtitle: "A Mana Spreader, that only shoots upon a redstone pulse."
+			description: ["The \"burst reached its destination\" rule still applies, though."]
 			dependencies: ["1CE364B83E30A5F9"]
 			id: "6FCE275B8B4666F6"
 			tasks: [{
@@ -2509,7 +2718,8 @@
 		{
 			x: 0.5d
 			y: -3.5d
-			description: ["It is faster and has no mana lose."]
+			subtitle: "Faster than a regular Mana Spreader."
+			description: ["After 20 blocks, the burst shot by this spreader will suffer a Mana loss."]
 			dependencies: ["6FCE275B8B4666F6"]
 			id: "41AE0B6A34EE680F"
 			tasks: [{
@@ -2527,7 +2737,14 @@
 		{
 			x: -0.5d
 			y: -3.5d
-			description: ["Best and fastest mana spreader you can get."]
+			subtitle: "The fastest Mana Spreader available."
+			description: [
+				"After 48 blocks, the burst shot by this spreader will suffer a Mana loss."
+				""
+				"One burst shot by this spreader carries a lot of Mana."
+				""
+				"Still not fast enough? Apply a Potency-Velocity Compound Mana Lens!"
+			]
 			dependencies: ["41AE0B6A34EE680F"]
 			id: "24598EAB4F2A89E0"
 			tasks: [{
@@ -2618,7 +2835,11 @@
 			title: "Elementium Gear"
 			x: 4.0d
 			y: 6.0d
-			description: ["With Elementium you now have access to a new set of tools and armor, but is it better than the Terrasteel Set?"]
+			description: [
+				"With Elementium you now have access to a new set of tools and armor, but is it better than the Terrasteel Set?"
+				""
+				"Check it out in the \"Tools and Armor\" tab!"
+			]
 			dependencies: ["006D707637E3F606"]
 			id: "2AFF3A18E9A02A42"
 			tasks: [
@@ -2755,7 +2976,15 @@
 		{
 			x: 4.5d
 			y: -5.5d
-			description: ["Sparks are powerfull to spread mana between several pools."]
+			description: [
+				"Sparks are powerful way to transport Mana, mainly between Pools."
+				""
+				"Right-Click on a Mana Pool, Mana Enchanter, Terrestrial Agglomeration Plate or a Mana P2P Tunnel to place it."
+				""
+				"You can Right-Click Sparks with dyes to change its channel - differently colored Sparks won't interact with each other."
+				""
+				"You can later add Spark Augments to control the mana flow."
+			]
 			dependencies: ["6A1CC424788CAC34"]
 			id: "5C05E71686140C61"
 			tasks: [{
@@ -2772,8 +3001,10 @@
 		}
 		{
 			x: 3.0d
-			y: 6.0d
-			dependencies: ["006D707637E3F606"]
+			y: 7.0d
+			subtitle: "When powered by Redstone, it swaps Spark Augments between the Spark and itself."
+			description: ["Useful for two-way Mana Batteries!"]
+			dependencies: ["427099DD01253700"]
 			id: "4F1519138246C47C"
 			tasks: [{
 				id: "735D7905C30990DD"
@@ -2790,9 +3021,11 @@
 		{
 			x: 4.5d
 			y: -6.5d
+			subtitle: "ME Network, magical version."
 			description: [
-				"Item transport system!"
-				"More informations in the Lexica Botania."
+				"Put them on inventories to connect them to Corporea Network."
+				""
+				"Like regular Sparks, you can dye them to separate different Corporea Networks."
 			]
 			dependencies: ["5C05E71686140C61"]
 			id: "1F8DC917E3C860B4"
@@ -2811,6 +3044,14 @@
 		{
 			x: 4.5d
 			y: -7.5d
+			subtitle: "The Brain of Corporea Network."
+			description: [
+				"Each Corporea Network needs one of these as a controller."
+				""
+				"It won't add attached inventory to Corporea Network."
+				""
+				"Because of this, placing this on a Corporea Index would be your best bet."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
 			id: "223B017578ED4A5E"
 			tasks: [{
@@ -2828,6 +3069,7 @@
 		{
 			x: 3.0d
 			y: 4.0d
+			subtitle: "Creates a starry sky at night."
 			description: ["You might find a decorative use for this device."]
 			dependencies: ["006D707637E3F606"]
 			id: "187B054D0DC85DE3"
@@ -2846,6 +3088,12 @@
 		{
 			x: 3.5d
 			y: -6.5d
+			subtitle: "Corporea Decor."
+			description: [
+				"Used for decoration."
+				""
+				"You can also attach Corporea Sparks on them for lag-friendly Corporea Network extension."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
 			id: "3307FC8385E2C531"
 			tasks: [{
@@ -2863,6 +3111,17 @@
 		{
 			x: 3.5d
 			y: -5.5d
+			subtitle: "Trying to restock..."
+			description: [
+				"Place this adjacent to a Corporea Interceptor."
+				""
+				"If the request can't be fulfilled, the Corporea Retainer will remember said request and \"replay\" it upon being triggered by Redstone."
+				""
+				"It can memorize only one request at a time - newer requests will overwrite the old ones."
+				""
+				"A Redstone Comparator can read out the number of items that were originally requested."
+				"You can change this behavior using the Wand of the Forest to read out the amount of missing items."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
 			id: "013D73DB5C77DEAA"
 			tasks: [{
@@ -2880,6 +3139,14 @@
 		{
 			x: 3.5d
 			y: -7.5d
+			subtitle: "Warning: Item out of stock."
+			description: [
+				"Place Item Frames on it to filter requests."
+				""
+				"If the request of any item in frames can't be fulfilled, this block will emit a Redstone pulse."
+				""
+				"You can then use the Redstone Pulse to your heart's contents: ex. trigger your auto-crafter, light up a lamp, etc."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
 			id: "22D41FA56CD242A1"
 			tasks: [{
@@ -2897,6 +3164,16 @@
 		{
 			x: 5.5d
 			y: -5.5d
+			subtitle: "A magical Export Bus."
+			description: [
+				"Place the Item Frame on the Corporea Funnel and put the desired item into the Item Frame."
+				""
+				"When the Corporea Funnel is powered by Redstone, it will request one item from the Corporea Network and put it into a neighboring inventory, or in the world above itself if there are no neighboring inventories."
+				""
+				"Rotate the item in the frame to request 2, 4, 8, 16, 32, 48 and 64 items."
+				""
+				"If there are multiple Item Frames on the Corporea Funnel, it will request items at random."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
 			id: "2B4703CA4EF9B3F4"
 			tasks: [{
@@ -2914,7 +3191,53 @@
 		{
 			x: 5.5d
 			y: -7.5d
+			subtitle: "A Voice-controlled item terminal."
+			description: [
+				"This description is huge, so remember that you can use the Scroll Wheel to scroll the text."
+				""
+				"When the Corporea Index is nearby, anything you type in chat will be interpreted as a Corporea request and won't be sent to other players (unless a server plugin tampers with chat messages)."
+				""
+				"This will appear if you are close enough to the Corporea Index:"
+				""
+				"{image:kubejs:textures/item/corporea.png width:160 height:44 align:1}"
+				""
+				"Now, how to request items:"
+				"> Typing in just the name of item will give 1 of that item."
+				"ex. \"iron ingot\" will give 1 Iron Ingot."
+				""
+				"> Prepend the name with amount (number or X stack(s)) to get that amount of items."
+				"\"16 iron ingot\" will give 16 Iron Ingots."
+				"\"1 stack iron ingot\" will give 64 Iron Ingots."
+				""
+				"> Use the name \"this\" to get the item which is in your hand."
+				"ex. \"64 this\" while holding an Iron Ingot will give you 64 Iron Ingots."
+				""
+				"> Prepend or append the name with \"...\", \"~\", \"+\" or \"?\" to get all items containing the name."
+				""
+				"> A \"*\" is a wildcard - meaning, it will match any number of characters. Any sign above will be interpreted as \"*name*\"."
+				"ex. \"32 iron?\" will give 32 of any item that contains \"iron\" in its name."
+				"\"32 iron*\" will give 32 of any item which name starts with \"iron\"."
+				"\"1 stack purified * ore\" will give you 1 stack of anything which name starts with \"purified \" and ends with \" ore\"."
+				""
+				"> \"count\", \"show\", \"display\", \"tell\" will not take out any items from the Corporea Network, leaving you only with a chat message."
+				""
+				"> \"all\" and \"every\" will take all of the items, that matches the request."
+				""
+				"Corporea will understand plural forms (ending with -s, -es, or -ies)."
+				""
+				"The quantity can be requested in various ways:"
+				"- using just a number, ex \"132\","
+				"- \"132x\" and \"132 of\" also work."
+				"- combining stacks and numbers: \"2 stacks + 4\", \"2 stacks and 4\"..."
+				""
+				"You can also request items from REI by using [C - by default], while hovering over an item in REI."
+				""
+				"Shift + C will request a full stack."
+				"Ctrl + C will request half a stack."
+				"Ctrl + Shift + C will request a quarter of a stack."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
+			min_width: 300
 			id: "5A07ED60A5C78C87"
 			tasks: [{
 				id: "7DEEC88468569615"
@@ -2931,6 +3254,23 @@
 		{
 			x: 5.5d
 			y: -6.5d
+			subtitle: "A fortuneteller would see a future inside."
+			description: [
+				"But you can see the present inside."
+				""
+				"Right-Click the Corporea Crystal Cube with item in hand to set it to that item."
+				""
+				"The item amount will update every second."
+				""
+				"Punch it to get 1 item."
+				"Punch it while sneaking to get a stack of that item."
+				""
+				"A Redstone Comparator will read out the amount of items. Signal strength increases with each power of 2 of items inside the Corporea Network."
+				"Max strength of 15 is achieved when there is 16384 of the chosen item in the Corporea Network."
+				""
+				"Sneak-Right Click with a Wand of the Forest to lock it to that item."
+				"Useful in order to not accidentaly change the item displayed in the cube."
+			]
 			dependencies: ["1F8DC917E3C860B4"]
 			id: "3DA7EDA176FF1819"
 			tasks: [{
@@ -2999,7 +3339,7 @@
 		{
 			x: 11.0d
 			y: -4.5d
-			description: ["Mana transportation on rails."]
+			subtitle: "Mana on rails!"
 			dependencies: ["45AC772575502EB6"]
 			id: "3EC6CBCD308A0830"
 			tasks: [{
@@ -3017,7 +3357,12 @@
 		{
 			x: 11.0d
 			y: -5.5d
-			description: ["Can be used to pump mana from or in a mana pool cart."]
+			subtitle: "Pumps Mana from or into the Minecart with Mana Pool."
+			description: [
+				"Pumps Mana so quickly, that it can drain/fill the whole pool in just 5 seconds!"
+				""
+				"Warning: It can lose Mana if the target Pool can accept less Mana than the Mana Pump sends."
+			]
 			dependencies: ["3EC6CBCD308A0830"]
 			id: "1CB1AAF1AA5D6CFF"
 			tasks: [{
@@ -3061,7 +3406,7 @@
 			x: 2.5d
 			y: -2.5d
 			description: [
-				"Place a spreader on top of it to rotate it."
+				"Place a Mana Spreader on top of it to rotate it."
 				"You can change the speed, and stop it with a redstone signal."
 			]
 			dependencies: ["1CE364B83E30A5F9"]
@@ -3081,9 +3426,10 @@
 		{
 			x: 1.5d
 			y: -4.5d
+			subtitle: "Changes Mana Bursts effects on the fly."
 			description: [
-				"Manipulate mana bursts on the fly by adding a mana lens to it."
-				"More informations are available in the Lexica Botania."
+				"Just equip a lens inside."
+				"More information is available in the Lexica Botania."
 			]
 			dependencies: ["479CCC7995B0C0D4"]
 			id: "01466AA75BC97D89"
@@ -3102,7 +3448,8 @@
 		{
 			x: 2.5d
 			y: -4.5d
-			description: ["Upgrade your mana spreaders with different types of lenses."]
+			subtitle: "Can change Mana Burst's color or behavior."
+			description: ["Check out the Lexica Botania for more info about lenses."]
 			dependencies: ["1CE364B83E30A5F9"]
 			id: "479CCC7995B0C0D4"
 			tasks: [{
@@ -3120,6 +3467,8 @@
 		{
 			x: 8.0d
 			y: -2.5d
+			subtitle: "A proof that Botania is a tech mod."
+			description: ["Transforms Mana into Energy, at a 1:1 ratio."]
 			dependencies: ["01200B72145FDADD"]
 			id: "0321A7B6265CEB0C"
 			tasks: [{
@@ -3180,7 +3529,8 @@
 		{
 			x: 0.5d
 			y: -2.5d
-			description: ["It is able to split the mana recieved e.g. from a spreader to 4 directions into e.g. 4 Pools."]
+			subtitle: "Accepts Mana and spreads it equally between 4 Mana Pools connected to it."
+			description: ["Useful for storing more Mana before getting Sparks."]
 			dependencies: ["5B30CD81857C59F9"]
 			id: "2D3ADCD4FACF0124"
 			tasks: [{
@@ -3198,7 +3548,8 @@
 		{
 			x: -0.5d
 			y: -2.5d
-			description: ["A grave for mana."]
+			subtitle: "Voids any Mana given to it."
+			description: ["Not a tile entity - that means you can push it with Pistons!"]
 			dependencies: ["2D3ADCD4FACF0124"]
 			id: "600B2F8628F59093"
 			tasks: [{
@@ -3645,18 +3996,20 @@
 		{
 			x: 1.0d
 			y: 7.0d
+			subtitle: "Gives 1 out of 6 Ancient Relics."
+			description: [
+				"If you already got one of the Relics, then upon another dice roll you will get 1 out of 5 different Relics, and so on..."
+				""
+				"Never try to give Relics to the player who does not own the Relic - wielding a Relic that's not yours will damage you continuously."
+				""
+				"If you already rolled all the Relics, don't worry - additional Dice can give you some valuable resources!"
+			]
 			dependencies: ["6C892E06A15C3774"]
 			id: "0261B1AB2F3BF7F3"
 			tasks: [{
 				id: "155F5CC814C7A1DC"
 				type: "item"
-				item: {
-					id: "botania:dice"
-					Count: 1b
-					tag: {
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-					}
-				}
+				item: "botania:dice"
 			}]
 			rewards: [{
 				id: "3282CD8B987F4F18"
@@ -3668,18 +4021,15 @@
 		{
 			x: 0.0d
 			y: 8.0d
+			subtitle: "Unlimited food."
+			description: ["You can eat this infinitely, as long as you have Mana."]
 			dependencies: ["0261B1AB2F3BF7F3"]
 			id: "767D778A9A25D73E"
 			tasks: [{
 				id: "129797F8FAFCBE17"
 				type: "item"
-				item: {
-					id: "botania:infinite_fruit"
-					Count: 1b
-					tag: {
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-					}
-				}
+				item: "botania:infinite_fruit"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "1E42599B941033FF"
@@ -3691,18 +4041,15 @@
 		{
 			x: 1.0d
 			y: 8.0d
+			subtitle: "Is it an anime?"
+			description: ["Will shoot magical keys from behind yourself, that will explode upon impact."]
 			dependencies: ["0261B1AB2F3BF7F3"]
 			id: "340F16084C940F53"
 			tasks: [{
 				id: "2D0C2B7DF6538388"
 				type: "item"
-				item: {
-					id: "botania:king_key"
-					Count: 1b
-					tag: {
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-					}
-				}
+				item: "botania:king_key"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "7CAD8B5E2883AD2A"
@@ -3714,18 +4061,19 @@
 		{
 			x: 2.0d
 			y: 8.0d
+			subtitle: "A replica of Flugel's original ability."
+			description: [
+				"Can memorize one location per dimension (Sneak-Right Click on a block to set the location, then by holding Right Click you can warp to that location)."
+				""
+				"Having this in you inventory also allows to fly with Flugel Tiara even with an empty flight bar, but at a higher Mana cost."
+			]
 			dependencies: ["0261B1AB2F3BF7F3"]
 			id: "0641EE252CD065A2"
 			tasks: [{
 				id: "11ECFE184F61AD41"
 				type: "item"
-				item: {
-					id: "botania:flugel_eye"
-					Count: 1b
-					tag: {
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-					}
-				}
+				item: "botania:flugel_eye"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "5A066A08BEEBC61F"
@@ -3737,19 +4085,26 @@
 		{
 			x: 1.0d
 			y: 9.0d
+			subtitle: "The Thunder god's ability."
+			description: [
+				"Drastically increased Terra Shatterer's AoE."
+				""
+				"With this ring equipped, the ranges are as follows:"
+				""
+				"> C: 3x3x3,"
+				"> B: 5x5x5,"
+				"> A: 7x7x7,"
+				"> S: 9x9x9,"
+				"> SS: 11x11x11."
+			]
 			hide_dependency_lines: true
 			dependencies: ["0261B1AB2F3BF7F3"]
 			id: "36EE02CA34CA5295"
 			tasks: [{
 				id: "4D1EB658C515A112"
 				type: "item"
-				item: {
-					id: "botania:thor_ring"
-					Count: 1b
-					tag: {
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-					}
-				}
+				item: "botania:thor_ring"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "5D07C18B5ECD45EE"
@@ -3761,25 +4116,16 @@
 		{
 			x: 2.0d
 			y: 9.0d
+			subtitle: "The Principal god's ability."
+			description: ["When equipped, grants +20 Health and immunity to fall damage, fire damage, drowning, suffocating and starving."]
 			hide_dependency_lines: true
 			dependencies: ["0261B1AB2F3BF7F3"]
 			id: "640A1804DC116D54"
 			tasks: [{
 				id: "2BF6576D5732AAB6"
 				type: "item"
-				item: {
-					id: "botania:odin_ring"
-					Count: 1b
-					tag: {
-						baubleUUID: [I;
-							857398293
-							905004555
-							-1844241383
-							-1433063062
-						]
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-					}
-				}
+				item: "botania:odin_ring"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "5F330B7765723657"
@@ -3791,22 +4137,20 @@
 		{
 			x: 0.0d
 			y: 9.0d
+			subtitle: "The Trickster god's ability."
+			description: [
+				"You can choose multiple blocks by Sneak-Right Clicking with this ring in hand."
+				""
+				"Then, after equipping, all actions (placing and breaking blocks) are reflected across all chosen locations."
+			]
 			hide_dependency_lines: true
 			dependencies: ["0261B1AB2F3BF7F3"]
 			id: "60C80EB4047BDA16"
 			tasks: [{
 				id: "232362976E59F378"
 				type: "item"
-				item: {
-					id: "botania:loki_ring"
-					Count: 1b
-					tag: {
-						soulbindUUID: "c58b620f-e261-41cf-8e1c-618bf66248b8"
-						xOrigin: 0
-						yOrigin: -2147483648
-						zOrigin: 0
-					}
-				}
+				item: "botania:loki_ring"
+				match_nbt: false
 			}]
 			rewards: [{
 				id: "5695B1B8B127BFF3"
@@ -4418,10 +4762,7 @@
 			title: "Floral Fertilizer"
 			x: 4.5d
 			y: -1.5d
-			description: [
-				"A kind of better bone meal."
-				"Use it on Grass Blocks and see what happens."
-			]
+			subtitle: "Use it on a Grass Block to make it flourish with different Mystical Flowers!"
 			dependencies: ["06796341AB3CFBB4"]
 			id: "358776C4E9A01BCC"
 			tasks: [{
@@ -4435,6 +4776,81 @@
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Spark Augments"
+			x: 3.0d
+			y: 6.0d
+			subtitle: "Control the Mana flow on the Spark Network!"
+			description: [
+				"> Dominant - a Spark will pull Mana from other pools to itself."
+				""
+				"> Recessive - a Spark will push Mana to other pools from itself."
+				""
+				"> Dispersive - will charge nearby players' Mana Tablets and Rings with Mana."
+				""
+				"> Isolated - Spark won't interact with Dominant or Recessive Sparks, but will still send Mana to Terrestrial Agglomeration Plates and Mana Enchanters."
+			]
+			dependencies: ["006D707637E3F606"]
+			id: "427099DD01253700"
+			tasks: [
+				{
+					id: "12C05D04C45F155D"
+					type: "item"
+					item: "botania:spark_upgrade_dispersive"
+				}
+				{
+					id: "41428D55A2F37B3F"
+					type: "item"
+					item: "botania:spark_upgrade_dominant"
+				}
+				{
+					id: "409F9AA4EB7D54C6"
+					type: "item"
+					item: "botania:spark_upgrade_recessive"
+				}
+				{
+					id: "1F2718902444F34A"
+					type: "item"
+					item: "botania:spark_upgrade_isolated"
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["278D27920CB07C59"]
+			id: "4DD2393E9AADE210"
+			tasks: [{
+				id: "2ED308B27E911759"
+				type: "item"
+				item: "botania:rune_greed"
+			}]
+			rewards: [{
+				id: "1560E7152E31DEE9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Also Mana on Rails?"
+			icon: "create:minecart_contraption"
+			x: 12.0d
+			y: -4.5d
+			subtitle: "... or maybe rather - Mana on Contraptions?"
+			description: [
+				"{image:kubejs:textures/item/mana_contraption.png width:100 height:100 align:1}"
+				""
+				"The only downside is, that you need to disassemble the Contraption to load and unload Mana."
+			]
+			dependencies: ["45AC772575502EB6"]
+			id: "379274D6D08ECCEE"
+			tasks: [{
+				id: "7AEDD960544BB1D3"
+				type: "checkmark"
 			}]
 		}
 	]

@@ -9,8 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -0.5d
-			y: -1.0d
+			x: 0.5d
+			y: 1.5d
+			subtitle: "A necessary component for most of Industrial Revolution machines."
 			hide: true
 			id: "428D908D1D50663A"
 			tasks: [{
@@ -25,8 +26,9 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 0.0d
+			x: 0.5d
+			y: 2.5d
+			subtitle: "Can store energy. Necessary component for IndRev generators and some machines."
 			dependencies: ["428D908D1D50663A"]
 			id: "4DCC2E29C8C38EC1"
 			tasks: [{
@@ -36,8 +38,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -0.5d
+			x: -0.5d
+			y: 2.0d
 			dependencies: ["428D908D1D50663A"]
 			id: "245E7355D03D0B5B"
 			tasks: [{
@@ -47,8 +49,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 0.0d
+			x: -1.5d
+			y: 2.5d
 			dependencies: ["245E7355D03D0B5B"]
 			id: "617653EA5DA787D8"
 			tasks: [{
@@ -58,8 +60,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 0.5d
+			x: -0.5d
+			y: 3.0d
 			dependencies: ["617653EA5DA787D8"]
 			id: "2812C0109ACEF9AD"
 			tasks: [{
@@ -69,8 +71,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 1.0d
+			x: -1.5d
+			y: 3.5d
 			dependencies: ["2812C0109ACEF9AD"]
 			id: "385090906E0A8E18"
 			tasks: [{
@@ -80,8 +82,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: -0.5d
+			x: 1.5d
+			y: 2.0d
 			dependencies: ["428D908D1D50663A"]
 			id: "70B2F3CEE9B60339"
 			tasks: [{
@@ -91,8 +93,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 0.0d
+			x: 2.5d
+			y: 2.5d
 			dependencies: ["70B2F3CEE9B60339"]
 			id: "6A00D6AC2A102E90"
 			tasks: [{
@@ -102,8 +104,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 0.5d
+			x: 1.5d
+			y: 3.0d
 			dependencies: ["6A00D6AC2A102E90"]
 			id: "5D963FF7D56AE8BA"
 			tasks: [{
@@ -113,8 +115,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 1.0d
+			x: 2.5d
+			y: 3.5d
 			dependencies: ["5D963FF7D56AE8BA"]
 			id: "6E475FEF7A259851"
 			tasks: [{
@@ -126,7 +128,7 @@
 		{
 			x: 1.5d
 			y: -2.0d
-			dependencies: ["428D908D1D50663A"]
+			dependencies: ["2681D79AC994F938"]
 			id: "34CB6B9511E3A181"
 			tasks: [{
 				id: "2220DECB715FB9A6"
@@ -135,26 +137,21 @@
 			}]
 		}
 		{
-			title: "Processing"
-			x: 1.5d
-			y: -3.0d
+			title: "Useful Machines"
+			x: 0.5d
+			y: -3.5d
+			description: [
+				"Compressor will compress Ingots into Plates and Curved Plates. It's also the only machine that can craft Basic Enhancers."
+				""
+				"Solid Infuser is mainly used to create Nikolite Ingots and Enriched Nikolite (Dust and Ingots) necessary for upgrades!"
+			]
 			dependencies: ["34CB6B9511E3A181"]
 			id: "289277F2CC26EA5C"
 			tasks: [
 				{
-					id: "026F559D8AFA6942"
-					type: "item"
-					item: "indrev:electric_furnace_mk1"
-				}
-				{
 					id: "5132CEAC048CA51C"
 					type: "item"
 					item: "indrev:compressor_mk1"
-				}
-				{
-					id: "04BA2A1FDABA81F9"
-					type: "item"
-					item: "indrev:pulverizer_mk1"
 				}
 				{
 					id: "6CCF36F97F02E397"
@@ -164,9 +161,16 @@
 			]
 		}
 		{
-			title: "Early-game generators"
+			title: "Early IndRev Generators"
 			x: 1.5d
-			y: -1.0d
+			y: 0.0d
+			description: [
+				"The Coal Generator will burn furnace fuel to generate Energy."
+				""
+				"The Solar Generator will produce energy, when exposed to sunlight."
+				""
+				"Heat Generator will generate energy from lava."
+			]
 			dependencies: ["34CB6B9511E3A181"]
 			id: "6E4BAB70886BD52F"
 			tasks: [
@@ -192,9 +196,24 @@
 			]
 		}
 		{
-			title: "Everyday life automation"
-			x: 0.5d
-			y: -2.5d
+			title: "Everyday Life Automation"
+			x: 2.5d
+			y: -0.5d
+			subtitle: "When you are not feeling very Create-ive."
+			description: [
+				"Chopper will chop nearby trees! Just give it an axe and watch it go!"
+				""
+				"Rancher will feed nearby animals with food and kill excess animals using a Sword."
+				"Also can milk Cows, if you give it some Buckets."
+				""
+				"Slaughter will kill nearby mobs (but not players) using a Sword."
+				""
+				"Farmer will automatically plant seeds onto Farmland and fertilize them with Bone Meal."
+				""
+				"Fisher will fish §nvanilla§r fish, junk and treasure."
+				""
+				"Pump will pump out liquids. No infinite lava with this, sorry."
+			]
 			dependencies: ["34CB6B9511E3A181"]
 			id: "71F58B6350BD82CD"
 			tasks: [
@@ -235,8 +254,9 @@
 			]
 		}
 		{
-			x: 2.5d
+			x: 3.0d
 			y: -1.5d
+			subtitle: "Recycles plants into Biomass. Useful in Biomass Generator."
 			dependencies: ["34CB6B9511E3A181"]
 			id: "6240B51E9838436B"
 			tasks: [{
@@ -246,8 +266,9 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -1.0d
+			x: 4.0d
+			y: -1.5d
+			subtitle: "Generates Energy using Biomass as fuel."
 			dependencies: ["6240B51E9838436B"]
 			id: "399DB13C91286EE5"
 			tasks: [{
@@ -257,7 +278,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 3.0d
 			y: -2.5d
 			dependencies: ["34CB6B9511E3A181"]
 			id: "7F6A049779DF7B77"
@@ -268,8 +289,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -4.0d
+			x: 5.75d
+			y: -3.5d
 			dependencies: [
 				"7F6A049779DF7B77"
 				"5ED3F7AADE5D813D"
@@ -283,8 +304,8 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -5.0d
+			x: 5.75d
+			y: -2.0d
 			hide_dependency_lines: true
 			dependencies: ["428D908D1D50663A"]
 			id: "5ED3F7AADE5D813D"
@@ -296,7 +317,7 @@
 		}
 		{
 			x: 4.5d
-			y: -5.0d
+			y: -4.25d
 			dependencies: ["2A086C1BEF19C1B3"]
 			id: "16EE0728FF1DBA43"
 			tasks: [{
@@ -306,8 +327,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -2.5d
+			x: 5.25d
+			y: -5.0d
 			dependencies: ["2A086C1BEF19C1B3"]
 			id: "5F7A225CCBFD6332"
 			tasks: [{
@@ -317,8 +338,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -5.5d
+			x: 6.25d
+			y: -5.0d
 			dependencies: ["2A086C1BEF19C1B3"]
 			id: "40886B9C62B55687"
 			tasks: [{
@@ -328,8 +349,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -3.0d
+			x: 7.0d
+			y: -4.25d
 			dependencies: ["2A086C1BEF19C1B3"]
 			id: "273B3D8B8A850C8B"
 			tasks: [{
@@ -341,6 +362,13 @@
 		{
 			x: 7.5d
 			y: -1.5d
+			subtitle: "§cR§aG§9B§r On!"
+			description: [
+				"A powerful Battle§7§mstation§r Axe!"
+				"Make sure to activate it first."
+				""
+				"It uses a lot of energy when active."
+			]
 			hide_dependency_lines: true
 			dependencies: ["428D908D1D50663A"]
 			id: "1420C663EF1091DF"
@@ -362,7 +390,7 @@
 		}
 		{
 			x: 5.0d
-			y: -1.0d
+			y: 0.0d
 			hide_dependency_lines: true
 			dependencies: ["428D908D1D50663A"]
 			id: "772A27C0FEA18CC3"
@@ -374,7 +402,7 @@
 		}
 		{
 			x: 6.0d
-			y: -0.5d
+			y: 0.5d
 			dependencies: ["772A27C0FEA18CC3"]
 			id: "7BABC045AEE32D6B"
 			tasks: [{
@@ -385,7 +413,7 @@
 		}
 		{
 			x: 5.0d
-			y: 0.0d
+			y: 1.0d
 			dependencies: ["7BABC045AEE32D6B"]
 			id: "50EB6F30AF7D5196"
 			tasks: [{
@@ -396,7 +424,7 @@
 		}
 		{
 			x: 6.0d
-			y: 0.5d
+			y: 1.5d
 			dependencies: ["50EB6F30AF7D5196"]
 			id: "0E14F16C796D52F4"
 			tasks: [{
@@ -406,8 +434,9 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -4.5d
+			x: 0.5d
+			y: 4.5d
+			subtitle: "Pulls from other containers, that do not have Servos on them."
 			hide_dependency_lines: true
 			dependencies: ["428D908D1D50663A"]
 			id: "4322671C875CA6FC"
@@ -422,10 +451,10 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -3.5d
+			x: 0.5d
+			y: 3.5d
+			subtitle: "Extracts items or fluids and pushes them to inventories/tanks which have no Servos on them."
 			hide_dependency_lines: true
-			dependencies: ["428D908D1D50663A"]
 			id: "6448FAA4CFC7E232"
 			tasks: [{
 				id: "76D4F972C1A0A633"
@@ -439,7 +468,7 @@
 		}
 		{
 			x: 2.0d
-			y: -6.0d
+			y: -7.0d
 			hide_dependency_lines: true
 			dependencies: ["428D908D1D50663A"]
 			id: "7A49A733257F75CE"
@@ -450,9 +479,9 @@
 			}]
 		}
 		{
-			title: "Gamer Axe modules"
+			title: "Gamer Axe Modules"
 			x: 1.0d
-			y: -5.5d
+			y: -6.5d
 			dependencies: ["7A49A733257F75CE"]
 			id: "27ECDC02B7B9E507"
 			tasks: [
@@ -479,9 +508,9 @@
 			]
 		}
 		{
-			title: "Drill modules"
+			title: "Drill Modules"
 			x: 3.0d
-			y: -5.5d
+			y: -6.5d
 			dependencies: ["7A49A733257F75CE"]
 			id: "6B514953DF58B1FB"
 			tasks: [
@@ -508,8 +537,11 @@
 			]
 		}
 		{
+			title: "§cC§6o§el§ao§br§3s§9!§r"
 			x: 3.0d
-			y: -4.5d
+			y: -5.5d
+			subtitle: "Can you find them all?"
+			description: ["Available only in loot chests!"]
 			hide_dependency_lines: true
 			dependencies: ["428D908D1D50663A"]
 			id: "17EC65D282425DF9"
@@ -565,11 +597,17 @@
 					item: "indrev:module_color_brown"
 				}
 			]
+			rewards: [{
+				id: "139E6603D5857B2D"
+				type: "item"
+				item: "blockus:rainbow_block"
+				count: 256
+			}]
 		}
 		{
-			title: "Modular Armor modules"
+			title: "Modular Armor Modules"
 			x: 2.0d
-			y: -5.0d
+			y: -6.0d
 			dependencies: ["7A49A733257F75CE"]
 			id: "6989E5360556BEA2"
 			tasks: [
@@ -638,6 +676,7 @@
 		{
 			x: -1.5d
 			y: -4.5d
+			subtitle: "A base for all other enhancers."
 			dependencies: ["289277F2CC26EA5C"]
 			id: "52E6CFAF03B88892"
 			tasks: [{
@@ -649,6 +688,7 @@
 		{
 			x: -1.5d
 			y: -5.5d
+			subtitle: "Increases machine's internal energy buffer."
 			dependencies: ["52E6CFAF03B88892"]
 			id: "70FD9D5F81F3D7CF"
 			tasks: [{
@@ -660,6 +700,7 @@
 		{
 			x: -0.5d
 			y: -5.0d
+			subtitle: "Speeds up your machines, at the cost of increased energy consumption."
 			dependencies: ["52E6CFAF03B88892"]
 			id: "3F344986307D0CDD"
 			tasks: [{
@@ -669,30 +710,29 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -3.5d
-			dependencies: ["52E6CFAF03B88892"]
-			id: "0CCBDBCAE3B61BC7"
-			tasks: [{
-				id: "09F63E8C0CEDF5B1"
-				type: "item"
-				item: "indrev:blast_furnace_enhancer"
-			}]
-		}
-		{
+			title: "Furnace Enhancers"
 			x: -2.5d
 			y: -5.0d
+			subtitle: "Wanted your Electric Furnace to be a Smoker or a Blast Furnace? Well, here you go!"
 			dependencies: ["52E6CFAF03B88892"]
 			id: "6E7FDB6D0A6C5990"
-			tasks: [{
-				id: "2BFB8863CEE8F979"
-				type: "item"
-				item: "indrev:smoker_enhancer"
-			}]
+			tasks: [
+				{
+					id: "2BFB8863CEE8F979"
+					type: "item"
+					item: "indrev:smoker_enhancer"
+				}
+				{
+					id: "4FF6845C70440835"
+					type: "item"
+					item: "indrev:blast_furnace_enhancer"
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: -4.0d
+			subtitle: "Increases damage dealt by the Slaughter."
 			dependencies: ["52E6CFAF03B88892"]
 			id: "306312B20D074AC1"
 			tasks: [{
@@ -736,8 +776,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -0.5d
+			x: -0.5d
+			y: 4.0d
 			hide_dependency_lines: true
 			dependencies: ["428D908D1D50663A"]
 			hide: true
@@ -749,8 +789,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 0.0d
+			x: -1.5d
+			y: 4.5d
 			dependencies: ["43B60B1316B892EC"]
 			id: "19C02E6D0184BED7"
 			tasks: [{
@@ -760,8 +800,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 0.5d
+			x: -0.5d
+			y: 5.0d
 			dependencies: ["19C02E6D0184BED7"]
 			id: "100E76829F766A5A"
 			tasks: [{
@@ -771,8 +811,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 1.0d
+			x: -1.5d
+			y: 5.5d
 			dependencies: ["100E76829F766A5A"]
 			id: "7B2FB931A6741C82"
 			tasks: [{
@@ -794,8 +834,10 @@
 			]
 		}
 		{
-			x: -2.5d
-			y: -1.0d
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Cools down your machines."
+			description: ["Having a hot machine gives it better stats without Enhancers, but it also makes Speed Enhancers less effective!"]
 			hide_dependency_lines: true
 			dependencies: ["428D908D1D50663A"]
 			id: "11242FB4797B538A"
@@ -812,8 +854,10 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -1.5d
+			x: -0.5d
+			y: 1.0d
+			subtitle: "Cools your machine even better than a fan."
+			description: ["Having a hot machine gives it better stats without Enhancers, but it also makes Speed Enhancers less effective!"]
 			dependencies: ["11242FB4797B538A"]
 			id: "164986E5D251C09A"
 			tasks: [{
@@ -829,20 +873,172 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: -2.0d
-			hide: true
-			id: "1D4DD6201C32B9BF"
-			tasks: [{
-				id: "2CE62B38F3D41379"
-				type: "item"
-				item: {
-					id: "indrev:hammer"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
+			title: "Required ingredients!"
+			disable_toast: true
+			x: 1.5d
+			y: -4.0d
+			subtitle: "A Standard Machine Casing and Nikolite is required to progress here."
+			hide_dependency_lines: true
+			dependencies: [
+				"244120BFE2DF2741"
+				"428D908D1D50663A"
+			]
+			id: "2681D79AC994F938"
+			tasks: [
+				{
+					id: "5BD92F59555258BD"
+					type: "item"
+					item: "techreborn:basic_machine_casing"
 				}
+				{
+					id: "04791192C2B1140A"
+					type: "item"
+					item: "indrev:nikolite_dust"
+				}
+			]
+		}
+		{
+			title: "Vanilla Upgrades"
+			x: 2.5d
+			y: -3.5d
+			description: [
+				"Pulverizer will grind your ores into dusts. It can 1.5x your raw ores and 3x your ore blocks."
+				""
+				"Electric Furnace is well, a version of vanilla Furnace that accepts energy and enhancers."
+			]
+			dependencies: ["34CB6B9511E3A181"]
+			id: "40451EEB7512C94B"
+			tasks: [
+				{
+					id: "6F51F096279B10C7"
+					type: "item"
+					item: "indrev:pulverizer_mk1"
+				}
+				{
+					id: "2A8D30C98863E0FA"
+					type: "item"
+					item: "indrev:electric_furnace_mk1"
+				}
+			]
+		}
+		{
+			title: "The Mining Rig"
+			x: 0.5d
+			y: -0.5d
+			subtitle: "From where do the Ores come from?"
+			description: [
+				"From below the void, of course!"
+				""
+				"Insert the Data Card that has been encoded in the Data Card Encoder to start mining!"
+				""
+				"You can place up to 8 Mining Rig Drills around the Computer."
+				""
+				"The more and the better the drills are, the faster they mine!"
+				"But remember - more speed = more energy consumed."
+			]
+			dependencies: ["34CB6B9511E3A181"]
+			id: "76C99EA3D7B58C3D"
+			tasks: [
+				{
+					id: "51936BD704A4642E"
+					type: "item"
+					item: "indrev:mining_rig_mk4"
+				}
+				{
+					id: "1E3B4B629ADBDE99"
+					type: "item"
+					item: "indrev:drill_bottom"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Smeltery Upgrades!"
+			description: [
+				"The Industrial Smeltery will melt your metal ores into their Hephaestus molten form."
+				""
+				"It also can melt Purified Raw Ores to 2 ingots worth of Molten metal!"
+				""
+				"Due to technical difficulties, it can't melt non-metals."
+				""
+				"The Ingot Former will cool down molten metal, forming it into Ingots!"
+				""
+				"These machines operate at the rate of the default Smeltery melting and Ingot cooling respectively."
+				"You can add up to 16 Speed Enhancers for blast processing!"
+			]
+			dependencies: ["34CB6B9511E3A181"]
+			id: "290344044301C12F"
+			tasks: [
+				{
+					id: "315706CC8080634C"
+					type: "item"
+					item: "indrev:smelter_mk4"
+				}
+				{
+					id: "069AE600680CD3A7"
+					type: "item"
+					item: "indrev:condenser_mk4"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Will infuse items with liquids."
+			description: [
+				"A necessary machine, if you want to create some Coolant for your coolers and Speed Enhancers!"
+				""
+				"It also can purify raw ores using 50 mB of MI Sulfuric Acid. These can be later melted in the Industrial Smeltery for getting 2 ingots from 1 raw ore!"
+			]
+			dependencies: ["34CB6B9511E3A181"]
+			min_width: 250
+			id: "393E2DBB6400A2AA"
+			tasks: [{
+				id: "7863115B8EF7BA52"
+				type: "item"
+				item: "indrev:fluid_infuser_mk1"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			subtitle: "Encodes Data Cards for use in the Mining Rig."
+			description: [
+				"Insert stacks of Ores or Ancient Debris to start encoding!"
+				""
+				"Add stacks of Stone to increase size (the amount of Ore that can be generated with this card)."
+				""
+				"Add stacks of Enriched Nikolite Dust to increase richness (amount of ores generated per cycle)!"
+				""
+				"You can encode the same data card over and over."
+				""
+				"Just make sure that it doesn't exceed 100%, else the card will become corrupted and unusable."
+				""
+				"Encoding too many different ores can also cause the Data Card to be corrupted and unusable."
+			]
+			dependencies: ["76C99EA3D7B58C3D"]
+			id: "075603D7C8FB1B13"
+			tasks: [{
+				id: "33AE48881443CDF1"
+				type: "item"
+				item: "indrev:data_card_writer_mk4"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.0d
+			subtitle: "Don't screw yourself!"
+			description: [
+				"It can configure Industrial Revolution Machines."
+				"Right-Click a Machine with a Screwdriver in hand to configure its input and output sides."
+			]
+			size: 1.5d
+			id: "1EE0FFB64F8C8DD1"
+			tasks: [{
+				id: "50AD18D157DED1B0"
+				type: "item"
+				item: "indrev:screwdriver"
 			}]
 		}
 	]

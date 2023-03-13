@@ -1,0 +1,18 @@
+{
+  "material.tconstruct.steeleaf": "Steeleaf",
+  "material.tconstruct.steeleaf.flavor": "Hard as Steel, but more leafy.",
+  "material.tconstruct.steeleaf.encyclopedia": "The tool has 75% chance to resist damage in sunlight. Also gives extra Fortune and Looting!",
+  
+  "material.tconstruct.fiery": "Fiery",
+  "material.tconstruct.fiery.flavor": "An alloy of Iron and Fiery Essence.",
+  "material.tconstruct.fiery.encyclopedia": "Sets targets on fire and smelts mined blocks",
+  
+  "material.tconstruct.knightmetal": "Knightmetal",
+  "material.tconstruct.knightmetal.flavor": "Made from Armor Shards.",
+  "material.tconstruct.knightmetal.encyclopedia": "Increases Armor-Piercing damage by 2, at the cost of -1 regular damage per part",
+  
+  "material.tconstruct.neutronium": "Neutronium",
+  "material.tconstruct.neutronium.flavor": "Dark Matter.",
+  "material.tconstruct.neutronium.encyclopedia": "It's indestructible. (unless you want to eat it)"
+}
+
