@@ -1,0 +1,351 @@
+{
+	id: "4F80AA2EB0DCC10C"
+	group: "1039AC171AB01709"
+	order_index: 4
+	filename: "adventurer"
+	title: "Adventurer"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Adventures and Mysteries"
+			x: -0.5d
+			y: -0.5d
+			subtitle: "If we were meant to stay in one place, we’d have roots instead of feet."
+			id: "6EC4700B21DB617B"
+			tasks: [{
+				id: "40FC0E99020D1BB4"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Fishes and Crates!"
+			icon: {
+				id: "gofish:celestial_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 0.5d
+			subtitle: "Fishing should be fun."
+			description: [
+				"Go Fish adds in general Fish, which are obtainable globally in any area for each dimension, and biome-specific Fish, which are only obtainable in certain areas (See below)."
+				""
+				"Overworld (Global):"
+				"- Wooden Crate"
+				"- Iron Crate"
+				"- Golden Crate"
+				"- Diamond Crate"
+				""
+				"During a full moon:"
+				"- Lunarfish"
+				"- Galaxy Starfish"
+				"- Starry Salmon"
+				"- Nebula Swordfish"
+				"- Astral Crate"
+				""
+				"The Nether (Global):"
+				"- Smokey Salmon"
+				"- Magma Cod"
+				"- Bonefish"
+				"- Obsidian Halibut"
+				"- Basalt Bass"
+				"- Spikerfish"
+				"- Fiery Crate"
+				""
+				"Basalt Deltas:"
+				"- Gilded Blackstone Carp"
+				"- Gilded Blackstone Crate"
+				"- Blackstone Trout"
+				""
+				"Soul Sand Valley:"
+				"- Soul Salmon"
+				"- Soul Crate"
+				""
+				"The End:"
+				"- Baked Endfish"
+			]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "1941554F8883F5BE"
+			tasks: [{
+				id: "52BEAE23DF485E51"
+				type: "item"
+				item: {
+					id: "itemfilters:mod"
+					Count: 1b
+					tag: {
+						value: "gofish"
+					}
+				}
+			}]
+			rewards: [{
+				id: "69D9C7A4DDC5D916"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Waystones"
+			x: 0.5d
+			y: 0.5d
+			subtitle: "Craft your first Waystone!"
+			description: ["You can use them for interdimensional teleportation between Waystones. Costs 1 XP Level to teleport."]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "23C3589FAFB40AD5"
+			tasks: [{
+				id: "73C759A163CEAEE8"
+				type: "observation"
+				icon: "fwaystones:waystone"
+				timer: 0L
+				observe_type: 0
+				to_observe: "fwaystones:waystone"
+			}]
+			rewards: [{
+				id: "7E79E623D0CD9F54"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "The Twilight Forest"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			x: -0.5d
+			y: -2.5d
+			subtitle: "Step into the Twilight Realm!"
+			description: [
+				"To make a portal from the Eden Ring to the Twilight Forest, build a 2x2 pool of water and souround it with flowers. To ignit it, drop a diamond in the pool."
+				""
+				"Hint: replace the Soil Blocks around the water with Dirt."
+				""
+				"Twilight Forest is a dimension exploration mod focused on adventure that will take you on a journey to meet strange creatures, exploring dungeons, and much more."
+			]
+			dependencies: ["07C43FD476A6AB1C"]
+			id: "36D37A1AFFC1B369"
+			tasks: [{
+				id: "64630338E7F2207F"
+				type: "dimension"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				dimension: "twilightforest:twilight_forest"
+			}]
+			rewards: [{
+				id: "0C0869CB6A2C4E9F"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Eden Ring"
+			icon: "edenring:guide_book"
+			x: -0.5d
+			y: -1.5d
+			description: [
+				"To build portal you need 12 waxed copper blocks, 12 waxed cut copper stairs, 4 block of amethyst, 4 amethyst clusters, 1 gold block and 1 flint and steel. To make portal you need to recreate structure from picture below, and to activate it you need to fire central gold block with flint and steel."
+				"{image:kubejs:textures/item/eden_portal.png width:100 height:100 align:1}"
+			]
+			dependencies: ["6EC4700B21DB617B"]
+			id: "07C43FD476A6AB1C"
+			tasks: [{
+				id: "62E94367F808EC8B"
+				type: "dimension"
+				icon: "edenring:guide_book"
+				dimension: "edenring:edenring"
+			}]
+			rewards: [{
+				id: "27B7DB469610DA03"
+				type: "item"
+				item: "edenring:guide_book"
+			}]
+		}
+		{
+			title: "Sky Islands Dimension?"
+			x: -0.5d
+			y: -3.5d
+			description: [
+				"Build the Portal Frame with Gravilite Blocks, and ignite the portal with a Maze Map Focus!"
+				""
+				"In this dimension you can discover many Biomes and Strucutres."
+			]
+			dependencies: ["36D37A1AFFC1B369"]
+			id: "43709A95E106563B"
+			tasks: [{
+				id: "5B4FF07511C0CD65"
+				type: "dimension"
+				icon: "soaringstructures2:soaring_island_pixels"
+				dimension: "sf3:void"
+			}]
+			rewards: [{
+				id: "5D34D1245BE18BBB"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "The End, but not really!"
+			icon: "minecraft:end_portal_frame"
+			x: -0.5d
+			y: -4.5d
+			description: [
+				"Try to find the Stronghold in the Sky-Islands Dimension."
+				""
+				"You have to collect 12 different Eye Items to activate the portal."
+				""
+				"Use REI to check which loot tables or mob drops contain the Eyes."
+				"You can craft some. But most Eyes are obtainable by looting some chests in the Sky Islands Dimension."
+			]
+			dependencies: ["43709A95E106563B"]
+			id: "3D5E0F53E4BAAA72"
+			tasks: [{
+				id: "56BA1F2EB64D3CC4"
+				type: "dimension"
+				icon: "minecraft:end_portal_frame"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "7FA8A6CFD1E3BAD2"
+				type: "random"
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: [
+				"Most Twilight Bosses spawn a chest after defeating them."
+				"If there is no floor under the boss, make sure to fly down to the bottom of the world, maybe you can find the chest there."
+			]
+			dependencies: ["36D37A1AFFC1B369"]
+			id: "6FA54248C69DFAB2"
+			tasks: [{
+				id: "51E544D7CF41D801"
+				type: "checkmark"
+				title: "Where is the Loot?"
+			}]
+		}
+		{
+			title: "Twilight Trophies"
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["36D37A1AFFC1B369"]
+			id: "3687E7A9DCCB297C"
+			tasks: [
+				{
+					id: "75384D2AEA6EF3AD"
+					type: "item"
+					item: "twilightforest:naga_trophy"
+				}
+				{
+					id: "0826E01B639B5814"
+					type: "item"
+					item: "twilightforest:lich_trophy"
+				}
+				{
+					id: "19807850BD295E28"
+					type: "item"
+					item: "twilightforest:minoshroom_trophy"
+				}
+				{
+					id: "2520062FA3368244"
+					type: "item"
+					item: "twilightforest:hydra_trophy"
+				}
+				{
+					id: "6024A53621A99FF6"
+					type: "item"
+					item: "twilightforest:knight_phantom_trophy"
+				}
+				{
+					id: "17237659D04DCA0F"
+					type: "item"
+					item: "twilightforest:ur_ghast_trophy"
+				}
+				{
+					id: "0CAD573A31967885"
+					type: "item"
+					item: "twilightforest:alpha_yeti_trophy"
+				}
+				{
+					id: "24A67E646805DC70"
+					type: "item"
+					item: "twilightforest:snow_queen_trophy"
+				}
+				{
+					id: "794DCC78306C199E"
+					type: "item"
+					item: "twilightforest:quest_ram_trophy"
+				}
+			]
+			rewards: [
+				{
+					id: "1C8920CB87793372"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6BF47837B95B061E"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "46087FC1C2180EA3"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6CDBB6DC64668C02"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "20F02D47B62991C0"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "13AF9174F96A639B"
+					type: "item"
+					item: {
+						id: "twilightforest:fiery_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

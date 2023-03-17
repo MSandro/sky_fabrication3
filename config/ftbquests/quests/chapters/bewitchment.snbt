@@ -1,0 +1,667 @@
+{
+	id: "1B81080941D776C5"
+	group: "1039AC171AB01709"
+	order_index: 1
+	filename: "bewitchment"
+	title: "Bewitchment"
+	icon: "bewitchment:hellish_bauble"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: -1.5d
+			subtitle: "Convenient tools for any witch."
+			description: [
+				"The Athame is a very helpful tool for your journey into the Bewitchment Mod."
+				"It can be used to gather heads from mobs, among other niche uses."
+				"Being made out of Silver, it is perfectly usable against unholy creatures."
+				"Athames can also be used to start Rituals from a Dispenser."
+			]
+			hide: true
+			id: "51E73309110A8113"
+			tasks: [{
+				id: "7D4A1EA73E0D48DD"
+				type: "item"
+				item: {
+					id: "bewitchment:athame"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "720DD3F227DC81BE"
+				type: "item"
+				item: "bewitchment:book_of_shadows"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: ["Use the Athame to get Barks."]
+			dependencies: ["51E73309110A8113"]
+			id: "5B56F27E804C5718"
+			tasks: [{
+				id: "0D956C53EC25A05C"
+				type: "item"
+				item: "bewitchment:oak_bark"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: [
+				"Burn Barks on a Campfire to get Wood Ash."
+				"When thrown into a filled Witch Cauldron it will immediately empty it."
+			]
+			dependencies: ["5B56F27E804C5718"]
+			id: "0CF1E4923DB74544"
+			tasks: [{
+				id: "5A621B7262181672"
+				type: "item"
+				item: "bewitchment:wood_ash"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: ["Follow the instructions in the Guide-Book to figure out how to start your rituals."]
+			dependencies: ["0CF1E4923DB74544"]
+			id: "11729DAA115C6DE1"
+			tasks: [{
+				id: "6006E823BF0B4073"
+				type: "item"
+				item: {
+					id: "bewitchment:chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Altars are the cornerstone of any witch's lair."
+			description: [
+				"Altars can be used to collect magical energy."
+				"This energy is essential to most witchcraft, and is collected from nearby plants."
+				"You'll want many different plants to collect maximum power."
+				"You may also place swords, pentacles, and wands atop the altar to modify it."
+			]
+			dependencies: ["5B56F27E804C5718"]
+			id: "3B7F081B65EAB0BB"
+			tasks: [{
+				id: "439CEC0927C5284C"
+				type: "item"
+				item: "bewitchment:stone_witch_altar"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			description: [
+				"This magical cauldron is extremely versatile in use and is namely used for Oil Crafting, Brewing and and Teleportation."
+				""
+				"To make it boil, place hot blocks such as Lava or Magma Blocks below it."
+				""
+				"The Witch Cauldron requires Altar Power, except for Oil Crafting."
+			]
+			dependencies: [
+				"5B56F27E804C5718"
+				"7B43B945C37783BA"
+			]
+			hide: true
+			id: "26C7CDBCC8599727"
+			tasks: [{
+				id: "283C4E1520240BFD"
+				type: "item"
+				item: "bewitchment:witch_cauldron"
+			}]
+		}
+		{
+			title: "Basic Plants"
+			x: -2.0d
+			y: -3.0d
+			description: ["By breaking grass you might get some Bewitchment seeds."]
+			hide: true
+			id: "7B43B945C37783BA"
+			tasks: [
+				{
+					id: "61E865F1B83B2F1A"
+					type: "item"
+					item: "bewitchment:mandrake_root"
+				}
+				{
+					id: "66E638C8A1F8A50A"
+					type: "item"
+					item: "bewitchment:aconite"
+				}
+				{
+					id: "2A6B4396276372EF"
+					type: "item"
+					item: "bewitchment:belladonna"
+				}
+				{
+					id: "6E11FF6F2745C16E"
+					type: "item"
+					item: "bewitchment:garlic"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			dependencies: ["26C7CDBCC8599727"]
+			id: "6D71FE568C8E8A76"
+			tasks: [{
+				id: "6975725D164A79AB"
+				type: "item"
+				item: "bewitchment:heaven_extract"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -5.5d
+			dependencies: ["26C7CDBCC8599727"]
+			id: "448938BBA9352019"
+			tasks: [{
+				id: "6E1D23DE7834A9A6"
+				type: "item"
+				item: "bewitchment:cleansing_balm"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["26C7CDBCC8599727"]
+			id: "277FB76034FD4B8B"
+			tasks: [{
+				id: "54DF541016D50530"
+				type: "item"
+				item: "bewitchment:grim_elixir"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.5d
+			dependencies: ["26C7CDBCC8599727"]
+			id: "19C683CCD6A3DE00"
+			tasks: [{
+				id: "555D662C419161C8"
+				type: "item"
+				item: "bewitchment:aqua_cerate"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -4.5d
+			dependencies: ["26C7CDBCC8599727"]
+			id: "73AC7EB854EFF6F5"
+			tasks: [{
+				id: "4CF23FFAB19A59FD"
+				type: "item"
+				item: "bewitchment:fiery_serum"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			dependencies: ["26C7CDBCC8599727"]
+			id: "3CC93604C74D8EF6"
+			tasks: [{
+				id: "1B842885F0E22C16"
+				type: "item"
+				item: "bewitchment:earth_ichor"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			dependencies: ["3F6A16857A4317D3"]
+			id: "621173DFA13F83F8"
+			tasks: [{
+				id: "7FE8258B44B70C7D"
+				type: "item"
+				item: {
+					id: "bewitchment:voodoo_protection_poppet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["3F6A16857A4317D3"]
+			id: "4C4B745E9F9F3955"
+			tasks: [{
+				id: "3B68F252F106F62F"
+				type: "item"
+				item: {
+					id: "bewitchment:protection_poppet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			dependencies: ["3F6A16857A4317D3"]
+			id: "6BE3E700EA366ED6"
+			tasks: [{
+				id: "5BB55991AE4B6E27"
+				type: "item"
+				item: {
+					id: "bewitchment:fatigue_poppet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			dependencies: ["3F6A16857A4317D3"]
+			id: "07DB332B2D23C53A"
+			tasks: [{
+				id: "5CC07A8D13448286"
+				type: "item"
+				item: {
+					id: "bewitchment:mending_poppet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			dependencies: ["3F6A16857A4317D3"]
+			id: "3920293F35F05316"
+			tasks: [{
+				id: "6250469155819B85"
+				type: "item"
+				item: {
+					id: "bewitchment:curse_poppet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			dependencies: ["3F6A16857A4317D3"]
+			id: "500B6D4A12FAA58B"
+			tasks: [{
+				id: "56E7D77FC66C59F1"
+				type: "item"
+				item: {
+					id: "bewitchment:vampiric_poppet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["3F6A16857A4317D3"]
+			id: "2415E3EBE0309EA4"
+			tasks: [{
+				id: "7D0AF0D8204DE6B3"
+				type: "item"
+				item: {
+					id: "bewitchment:voodoo_poppet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["3F6A16857A4317D3"]
+			id: "6939F79DC61FB6D0"
+			tasks: [{
+				id: "5334AF9FEEDC173A"
+				type: "item"
+				item: {
+					id: "bewitchment:death_protection_poppet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["11729DAA115C6DE1"]
+			id: "7006D17754235A44"
+			tasks: [{
+				id: "761B5C8085806DD8"
+				type: "item"
+				item: "bewitchment:demon_heart"
+			}]
+		}
+		{
+			title: "Brooms"
+			x: 0.5d
+			y: 1.0d
+			description: ["They enable the user to fly through the skies. Brooms come in four variants, each with unique properties."]
+			dependencies: ["7006D17754235A44"]
+			id: "7FDDEEA84EE05FC2"
+			tasks: [
+				{
+					id: "326100CDED4246C3"
+					type: "item"
+					item: "bewitchment:juniper_broom"
+				}
+				{
+					id: "3070DB476869FC61"
+					type: "item"
+					item: "bewitchment:cypress_broom"
+				}
+				{
+					id: "24A8EE2EE72CEA7F"
+					type: "item"
+					item: "bewitchment:elder_broom"
+				}
+				{
+					id: "1AC4BB3B14F3DF21"
+					type: "item"
+					item: "bewitchment:dragons_blood_broom"
+				}
+				{
+					id: "0F26FA4E59425744"
+					type: "item"
+					item: {
+						id: "besmirchment:final_broom"
+						Count: 1b
+						tag: {
+							OwnerUUID: [I;
+								-980721137
+								-496942641
+								-1910742645
+								-161331016
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["11729DAA115C6DE1"]
+			id: "3092EF2FC246625F"
+			tasks: [{
+				id: "6BD179C511C3F9CC"
+				type: "item"
+				item: "bewitchment:demon_horn"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: ["It can be combined with a Splash Potion, which can then be thrown four times using the Scepter at the cost of ME."]
+			dependencies: ["3092EF2FC246625F"]
+			id: "5F5CBB1A93F9222E"
+			tasks: [{
+				id: "0C497A073658514A"
+				type: "item"
+				item: {
+					id: "bewitchment:scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: [
+				"It has multiple-tool functionality comparable to Netherite."
+				"It can also be used to throw powerful fireballs at the cost of some ME."
+			]
+			dependencies: ["3092EF2FC246625F"]
+			id: "549C5C564C46694A"
+			tasks: [{
+				id: "501164C2C4611CDC"
+				type: "item"
+				item: {
+					id: "bewitchment:caduceus"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			description: ["Much like a Trident, it can be thrown towards a target, and will always return to whoever threw it."]
+			dependencies: ["3092EF2FC246625F"]
+			id: "2597B9C9D971FD32"
+			tasks: [{
+				id: "493F4A6394C13B5A"
+				type: "item"
+				item: {
+					id: "bewitchment:horned_spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			dependencies: ["11729DAA115C6DE1"]
+			id: "41F6EF5636067396"
+			tasks: [{
+				id: "72DC90709649D192"
+				type: "item"
+				item: {
+					id: "bewitchment:demonic_contract"
+					Count: 1b
+					tag: {
+						Contract: "bewitchment:pestilence"
+						Duration: 168000
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["26C7CDBCC8599727"]
+			id: "705074EBE2B43A39"
+			tasks: [{
+				id: "017F09323F7BAF9C"
+				type: "item"
+				item: "bewitchment:specter_bangle"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["26C7CDBCC8599727"]
+			id: "34B8C2CE1DCDC976"
+			tasks: [{
+				id: "02E67CE2D2BFC1FB"
+				type: "item"
+				item: "bewitchment:nazar"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["26C7CDBCC8599727"]
+			id: "3AA2D217E71215AF"
+			tasks: [{
+				id: "09314C401576F5EA"
+				type: "item"
+				item: "bewitchment:hellish_bauble"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["26C7CDBCC8599727"]
+			id: "59EFB1BA7732F069"
+			tasks: [{
+				id: "2178281AE1B074F5"
+				type: "item"
+				item: "bewitchment:prickly_belt"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["26C7CDBCC8599727"]
+			id: "7A4B1A19AA7ABEBE"
+			tasks: [{
+				id: "2B2815267B59E9AF"
+				type: "item"
+				item: "bewitchment:druid_band"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["26C7CDBCC8599727"]
+			id: "10735C0DC340E1D8"
+			tasks: [{
+				id: "172AE3E41B61E6AB"
+				type: "item"
+				item: "bewitchment:zephyr_harness"
+			}]
+		}
+		{
+			title: "Poppet Items"
+			x: 3.0d
+			y: -4.5d
+			description: [
+				"To gather a taglock from an entity, either sneak up from behind or search for their bed."
+				"To gather a taglock from a Bed, use it while sneaking so you don't accidentally sleep."
+			]
+			hide: true
+			id: "3F6A16857A4317D3"
+			tasks: [
+				{
+					id: "2A69030049B39B71"
+					type: "item"
+					item: "minecraft:vine"
+				}
+				{
+					id: "3B3392C2935AEFDF"
+					type: "item"
+					item: "minecraft:hay_block"
+				}
+				{
+					id: "3B589ABAC8B5AE6D"
+					type: "item"
+					item: "minecraft:dried_kelp"
+				}
+				{
+					id: "671F16F02BE523EB"
+					type: "item"
+					item: "bewitchment:taglock"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["26C7CDBCC8599727"]
+			progression_mode: "linear"
+			id: "4B052AFF65E35A89"
+			tasks: [{
+				id: "7E5D63F5A623048C"
+				type: "item"
+				item: "besmirchment:elite_coffin"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			description: ["Reach Lichdom and become immortal by storing souls in here."]
+			hide_dependency_lines: true
+			dependencies: ["26C7CDBCC8599727"]
+			id: "2ED8F6E3A1250146"
+			tasks: [
+				{
+					id: "55D34B4DDAA936EB"
+					type: "item"
+					item: "besmirchment:phylactery"
+				}
+				{
+					id: "245B20E77C350239"
+					type: "item"
+					item: "besmirchment:lich_gem"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["26C7CDBCC8599727"]
+			id: "74A8B6E3A2D31EDA"
+			tasks: [{
+				id: "483F2120648CF26F"
+				type: "item"
+				item: "besmirchment:scroll_of_torment"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: [
+				"When used, they will give the caster a fortune, at the cost of some ME drawn from a nearby Altar."
+				"Additionally, Crystal Balls may be used for scrying."
+			]
+			dependencies: ["3B7F081B65EAB0BB"]
+			id: "113A3B1354A13AD5"
+			tasks: [{
+				id: "121A7338855CDF7F"
+				type: "item"
+				item: "bewitchment:crystal_ball"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
