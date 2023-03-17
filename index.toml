@@ -11998,15 +11998,15 @@ hash = "29649e7f8bd25eb57df9a085696c60837a53b67be754a56bf47b7a8247a1dd03"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/exnihilo/dust.json"
-hash = "63d77ef78c29764adea266e92ecb0e6efa00a21b3785437d1286cc8bfa8c0a55"
+hash = "05176f7004a2ff88fb654de18b03520b3a5042e90b806f970e24038bac9393c1"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/exnihilo/silt.json"
-hash = "a94ce008656318f8d34e761ce143a99cab8707b1928fe18327837356573b8f2a"
+hash = "174be2d8bb60a4c2af52e47cdcb85769bf0c2a999db73742145c9056c6150fcd"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/andesite.json"
-hash = "231d0a824e93d0c8978a7ef773eb06309c558130335473b41f6308463083fc2a"
+hash = "dbe5f385660affadf1ada91ba0ee906e3259b3680cdde4528402c7cd30af22fc"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/basalt.json"
@@ -12034,7 +12034,7 @@ hash = "4f06ffc2fe9742d181a8b9012de7adacea56d79f9b60681fccd57df40e6a05e1"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/diorite.json"
-hash = "fb86bfb01ad80b8a7f46bf6c76424f5ee2749696dedd005ca398e0d10d9aa20f"
+hash = "1cd46597563c6b3b182e33f57cacce8190d17d1469e9eee52ea90e3a1b37b7b7"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/end_stone.json"
@@ -12042,11 +12042,11 @@ hash = "147a6b032be8d17aabe8fcc33383cfcf931062afa2e3644fe5f162074e8b6fee"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/granite.json"
-hash = "b1fc0c7584036787ab6dc94548446a6113404e27bef4b2816a60f280fc8a2441"
+hash = "30d925d22cae486ebb1ce406211b88fa53654bcdcf909e3a2a7c0a9090bc60f4"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/gravel.json"
-hash = "725a953033ba6d95b7b40d67a2c3166d0d59c00c6b0ccf94e6a1b49a2e9436ab"
+hash = "40008624c097a3a3d1cb86733bf304ea5ca5eae13ec0835a43f84db399bc4fa8"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/netherrack.json"
@@ -12054,7 +12054,7 @@ hash = "bbd5586eacd17c4089fc47db42b73998f5ce2b690beac184e13997aa548732b8"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/sand.json"
-hash = "20e3da5457af1c9efb2443a7cb3771c5f6778592c148f80cbc3d934fe834b79e"
+hash = "7ebb8272d7f5e3ea99a7de84cfb7d7d94de70ca96b9ab700a504c3b1dec6ee8a"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/smooth_basalt.json"
@@ -12230,19 +12230,19 @@ hash = "625febf2adacfa4071d8914f73c7362d6926c2eedf51a8c9cda369717c0f7346"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/tiers/modern_industrialization/tier_2.json"
-hash = "b97a47e383caca1358c6a4b2bbada4927f1b2960eab8486bb6b77638b8917c3a"
+hash = "a082d050471f0a71ba10d02a808b03349c00a440cdc456f0440bb78da2d00869"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/tiers/modern_industrialization/tier_3.json"
-hash = "729cfc7435fb4689d9ddd0fe20fb7206964adb559294d6dc42e308e6d819b211"
+hash = "61b57773e9ae58c753a74fa3db25eb1eaa511a246d419bfce73aa807f56946ed"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/tiers/modern_industrialization/tier_4.json"
-hash = "f8dff05a19e9e27293b656c31bf2f04fee4d77d9c789b91ede2ad7549a640a38"
+hash = "460f865759a54450b71d9bfbeb0d9a99193255b883e5e208982c9198b0e24a60"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/tiers/modern_industrialization/tier_5.json"
-hash = "2f7acb90ca46186c6620a9c4b3eff60412a0128418424cddc9c44783867fe2e9"
+hash = "5842444531aa0734f83003390a2f53f3390bdd8a66ad6c8491e0bf0700cae3d7"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/tiers/mythicmetals/tier_1.json"
@@ -12290,19 +12290,19 @@ hash = "94cf1b26cc535795c058b4b6b2cca358625628cde6b276bab521d6d630a3e0da"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/tiers/techreborn/tier_2.json"
-hash = "c435887f9eea7a92faf2d6832949936e573ded9fe0368d5c83650160c82f3ef9"
+hash = "5e962c5c6ef27ed116ab3f543d4379860d9afb265519645a537db9c12a91fa19"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/tiers/techreborn/tier_3.json"
-hash = "f23c8c8e659a6a6d745d4e612564d621f3c6bd4b63defd6c12d9b47fe8f1f899"
+hash = "bbfa7168844288510365170b9202ba9f7903c9da37eb8646bb5febe1ecebef53"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/tiers/techreborn/tier_4.json"
-hash = "b156d9b117b37f42557136ebd6554b78ff0664f370ba792d2d2cc1b503b7823f"
+hash = "f341b4c20c86df9952b5223383059b0b7eb6db6b87db803bcb10e0491dd684fb"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/tiers/techreborn/tier_5.json"
-hash = "1bd46070fc7ded8224081e7ffaeac47f5260eeee65ac3f75f6fda83c3694dd0d"
+hash = "39b57390bf78d204a2abfb19216f5c437dc81cc357315df5771376b86038aa0b"
 
 [[files]]
 file = "kubejs/data/things/recipes/broken_watch.json"

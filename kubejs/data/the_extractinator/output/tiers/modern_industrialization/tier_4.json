@@ -50,7 +50,9 @@
       "name": "modern_industrialization:raw_uranium",
       "min": 8,
       "max": 16
-    },
+    }
+  ],
+  "extremely_rare_drops": [
     {
       "name": "modern_industrialization:raw_tungsten",
       "min": 3,
@@ -58,13 +60,6 @@
     },
     {
       "name": "modern_industrialization:raw_platinum",
-      "min": 2,
-      "max": 6
-    }
-  ],
-  "extremely_rare_drops": [
-    {
-      "name": "modern_industrialization:raw_titanium",
       "min": 2,
       "max": 6
     }

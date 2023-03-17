@@ -60,18 +60,13 @@
       "name": "modern_industrialization:raw_platinum",
       "min": 3,
       "max": 9
-    },
-    {
-      "name": "modern_industrialization:raw_titanium",
-      "min": 3,
-      "max": 9
     }
   ],
   "extremely_rare_drops": [
     {
       "name": "modern_industrialization:raw_iridium",
-      "min": 2,
-      "max": 6
+      "min": 1,
+      "max": 1
     }
   ]
 }

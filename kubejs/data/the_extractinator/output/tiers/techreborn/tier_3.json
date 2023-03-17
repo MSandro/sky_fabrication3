@@ -47,12 +47,6 @@
     },
     {
       "name": "techreborn:platinum_dust"
-    },
-    {
-      "name": "techreborn:titanium_dust"
-    },
-    {
-      "name": "techreborn:chrome_dust"
     }
   ],
   "extremely_rare_drops": [],
@@ -70,8 +64,7 @@
           "techreborn:ruby_gem",
           "techreborn:bauxite_dust",
           "techreborn:raw_tungsten",
-          "techreborn:platinum_dust",
-          "techreborn:titanium_dust"
+          "techreborn:platinum_dust"
         ]
       }
     ]

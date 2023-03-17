@@ -55,11 +55,6 @@
       "name": "techreborn:platinum_dust",
       "min": 4,
       "max": 8
-    },
-    {
-      "name": "techreborn:titanium_dust",
-      "min": 4,
-      "max": 8
     }
   ],
   "extremely_rare_drops": [
@@ -83,7 +78,6 @@
           "techreborn:bauxite_dust",
           "techreborn:raw_tungsten",
           "techreborn:platinum_dust",
-          "techreborn:titanium_dust",
           "techreborn:raw_iridium"
         ]
       }
