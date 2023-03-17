@@ -1,13 +1,13 @@
 name = "Tom's Simple Storage Mod (Fabric)"
-filename = "toms_storage_fabric-1.18.2-1.5.0.jar"
+filename = "toms_storage_fabric-1.18.2-1.5.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c8d1d5ad78973f5cd31d0351f3771f6a1dcd293f"
+hash = "0ff1ff0cbdc39f6f4f0b707db0c17abb70bbd031"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4395903
+file-id = 4439070
 project-id = 396826
