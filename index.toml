@@ -1437,6 +1437,126 @@ file = "config/fpsreducer.json"
 hash = "94860f1433e6124b52ba84b46ffac245f839fbd467202ba844cdf072534ac723"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "a71d41c58b95146679e3d8cc7219b619dc4a5f795eb453190298d29b524a0499"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/adventurer.snbt"
+hash = "3a4ed6e43487115adbc29d6edd5b5bdc32dfbd66d04cfa7501a359900f8459b8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/agriculture.snbt"
+hash = "54380be7653b1c25480b0e28f96d454dab979ecc9fa24697f12f6827d27ac9ff"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
+hash = "98cc7ffbab172988754024ac71db665d015de5466bc9dec510cb56e04804ca4c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/arcanus.snbt"
+hash = "62631b05940f8295c3e0738f8cc31bfec06dd32e8f12a937dd08829f0d166fcf"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/automatedtasksandtriggers.snbt"
+hash = "5f8ac7bb1b7dbf4a0f11158951567ce39c5d30100157f8ee7176faa2497b062c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/bewitchment.snbt"
+hash = "e56e7600bcb4ce6231d4a2d61a88f2e97427981a7177737ea2154cb8df9161d1"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/botania.snbt"
+hash = "3bbfe9a72916278bc9a44eb9a3094625bd1c902d097ad1de81dc6b1204f5cc82"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/conjuring.snbt"
+hash = "a13e4d9e61ed1efe2474c48c0d5ade7542f2b560502af0994ec66af630aacb56"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/deep_mob_learning.snbt"
+hash = "f8f01b04df2936247ae7e990f913bc534271984de7fca0396e1c59940894d065"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/electricity_age.snbt"
+hash = "ce0bb51b58b20b18423c1f1c16b3ed70340d8357bfc095f0fbf724dd72208d40"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/endgame.snbt"
+hash = "0b13603a8e8739ed67b073346bcae7042a659145183fff65f19a07e72a2b937a"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/gadgets.snbt"
+hash = "2304669e5386d944b54221f4e1d153b6bcc32c1832ad5e8777ea7ef4d721fcac"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/getting_started.snbt"
+hash = "3edd520c4d05e9d2f9a81ad2d65fa2232cde5f74a6a51532dede44f4b08c5555"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/industrial_revolution.snbt"
+hash = "a78ed59e445166a534cfd6a37e1e659f39924b332ae4475fe945ae260653982b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/infinity.snbt"
+hash = "602785da61a5e5d64d9f7c6af786013b511d88d6f0aaaac4eef69077df250b1b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/kibe.snbt"
+hash = "3fe6cbaf9bea2ef068c4b8f51b1abba79f6b4e2d2fd70b6865be0689dfd09baa"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/mechanical_age.snbt"
+hash = "303c99ec30a4d86428a799d4ffc43f03937312350ab57f3ad8b70438b58c50ca"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/modern_industrialization.snbt"
+hash = "46221426ae383dcb64ecc07a259fc226fc4480f7859e3d5b5c25c22e30d01f36"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/resourceful_ways.snbt"
+hash = "1f90c9cd949618a6a3be630527710cbda58db7029411e539cb037d24f4bfb748"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/simple_storage_network.snbt"
+hash = "4681ba016b85d1d1dbe9de27b776889d6bf46e32d932317c01a514a3163cbedf"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/spatial_harvesters.snbt"
+hash = "bc3d4eea4e3506b41f051c21254a292f4fbda0b30581f7ee0539681eb4096045"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/spectrum.snbt"
+hash = "e865505b40d638c7f3f440482f0903a264e13eb178ce2242fb06aee58a73c575"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/spectrum_unlock_progress.snbt"
+hash = "7c05d74016992f12b7ab79d9252cbdcf47afeef88a8c0a396da340e3fb1d7139"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/storage.snbt"
+hash = "b0f04ac21d3f96858748e70c611eb3b851f2bc6302739e010b956d665003c876"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/tech_reborn.snbt"
+hash = "5b92a28c40a6d6965fd8a7a22e0f174b3782a1d197fe8edf68f30bd2657f38e4"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/the_beginning.snbt"
+hash = "eab896f12807287ac8750bd743c003829a58eefd6c086ff7505d8e2faf2f26e2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/tools_and_armor.snbt"
+hash = "fa867ac7d0b00cb1f703f5368d264d12d32b5f0d6a7ca672179e41681b7fc0e5"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "1c49bd0ca3a3c557fd8487a14644f83dda5312be79ba0d4c59aced9a4403149d"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/general.snbt"
+hash = "40496cb95dd7ea2c47476fddb07a1796657c6f8c68e9ba2b71f5475851a34af9"
+
+[[files]]
 file = "config/ftbultimine.snbt"
 hash = "047dd4b91fc96f6936723c9672e2eada0449547f16de10585f6677635bc4e30c"
 
