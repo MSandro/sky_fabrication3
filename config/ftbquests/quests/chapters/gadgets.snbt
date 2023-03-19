@@ -18,7 +18,7 @@
 			x: 0.0d
 			y: 1.5d
 			subtitle: "You can dream, create, design, and build the most wonderful place in the world."
-			description: ["INFINITE BUILDING!"]
+			description: [""]
 			dependencies: [
 				"57A128EE5135A494"
 				"4EC49EFF4B139771"
