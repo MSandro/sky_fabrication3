@@ -75,6 +75,10 @@ onEvent('recipes', (event) => {
   event.remove({type: 'modern_industrialization:forge_hammer'});
   event.replaceInput({}, 'modern_industrialization:forge_hammer', 'minecraft:anvil')
 
+  // Advanced Reborn
+  event.remove({input: 'advanced_reborn:advanced_forge_hammer', type: 'minecraft:crafting_shapeless'});
+  event.remove({input: 'advanced_reborn:forge_hammer', type: 'minecraft:crafting_shapeless'});
+
   // Alloy Forgery
   event.remove({output: 'alloy_forgery:bricks_forge_controller'})
   event.remove({output: 'alloy_forgery:deepslate_bricks_forge_controller'})

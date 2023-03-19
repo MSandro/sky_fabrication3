@@ -1,13 +1,13 @@
 name = "Essential Commands"
-filename = "essential_commands-0.31.1-mc1.18.2.jar"
+filename = "essential_commands-0.32.0-mc1.18.2.jar"
 side = "server"
 
 [download]
 hash-format = "sha1"
-hash = "c89a3690405b8d432b5ffe6c93b56132a1158525"
+hash = "01bc9822b4f75f39994f3c9f75c598d26bc08538"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4369474
+file-id = 4444120
 project-id = 475964

@@ -4,6 +4,10 @@
   "yield": 25,
   "additional_drops": [
     {
+      "name": "ae2:sky_dust",
+      "rarity": "rare"
+    },
+    {
       "name": "minecraft:black_dye",
       "rarity": "rare"
     },

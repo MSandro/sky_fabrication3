@@ -9818,7 +9818,7 @@ hash = "83924f9c7f817bacf766f1817bdb7e02d556c75f4ebe653a90a89d74d4717b0e"
 
 [[files]]
 file = "kubejs/data/dmlsimulacrum/recipes/transmute/transmutes2_extraterrestrial/nether_star.json"
-hash = "3f0e5ba96e9559670da766f133b794acc36dd650bf6c1309a45f51fea86ce70a"
+hash = "99e80c1c20b3723cbc9b0169bb3690a707a73f1d2d9b5f9b925c93ec16841836"
 
 [[files]]
 file = "kubejs/data/enchanted-vertical-slabs/recipes/vertical_mangrove_slab.json"
@@ -12014,7 +12014,7 @@ hash = "0e65cd34f1dc112ff3457ec3a67f720c5dff3d6567942613c232652cb81731d1"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/blackstone.json"
-hash = "45f1b39c8f2495f3f9651a0caa686f0e3167d0e36c9bb7522388271330106d4d"
+hash = "76a716d16a8049011b3d69a4609e4257a8cc523b7a78a81a830c1bb8a2da9017"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/calcite.json"
@@ -12182,7 +12182,7 @@ hash = "2809826dc07638aa4f23575e25c43aec7923507059b5b08276b8934336475954"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/tiers/ae2/tier_5.json"
-hash = "b5eebb7e330b16496f63ada47251eb803a47b8b6e66b6ce0e645231560f8b3b5"
+hash = "f40ee4be50c90967c0dd8307d41a148e216b3d5dea3c41db9c7e3024086de89d"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/tiers/indrev/tier_1.json"
@@ -12422,7 +12422,7 @@ hash = "8d36197d88d5005838ee52870e6ab3ed6ad2428792047a91abc698f24ef1eb99"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/recipes.js"
-hash = "72b8d8ccb338660068560f1ce4cd58cc27d0f151e4a35f3dc1fa69a41d9beede"
+hash = "b5a720552a2814ea8254049c9d0c2cd3b49dc4845d3429334b040c25c69a4d8e"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/techreborn/shaped.js"
@@ -13014,7 +13014,7 @@ metafile = true
 
 [[files]]
 file = "mods/essential-commands.pw.toml"
-hash = "d8f099b74b3062cb6acac7847a7047943b89771da72ea2eac105a4fd39247954"
+hash = "b5dfd51b7114f26e41e3cba980aa7cc04410a75ea062311ea613d34f09fb0a44"
 metafile = true
 
 [[files]]
@@ -13174,7 +13174,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-fabric.pw.toml"
-hash = "e3ae6ed88173331a42d585953fc6612a95d7f2be5ab619c365d9ea9d4fa25e68"
+hash = "a6dbf8e1339508ca3dedd5bc2a346616bbb7c17f18def665ed4d3a2fcec70b1e"
 metafile = true
 
 [[files]]
@@ -13314,7 +13314,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap-integration.pw.toml"
-hash = "cb56cc4367ccc46ea618fee51258df33e70ab2267a3e81de38c7b7de6a7597ba"
+hash = "03aa7d8ef0c6dcc954542e1eeaa5083668816620fe6cd20e87825342f0cfa9a5"
 metafile = true
 
 [[files]]
@@ -13454,7 +13454,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcpitanlibarch.pw.toml"
-hash = "1dde2883903ccee7954361f57eab34715d980870d83e1a9fcfbdcff98be3cfb4"
+hash = "f81980a3d26a708b11a4fe48a3fd7d8de353154bae65704e5578c696b882ba61"
 metafile = true
 
 [[files]]
@@ -13759,7 +13759,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "2a9308ac8dc4828c2bcd7a980e424de265d7ba1d5510512abeb7a9deab73e6da"
+hash = "4b548e130325ca41a291a4616e28a6d22e9a869ca12ca8e810184a5f32dc3c95"
 metafile = true
 
 [[files]]

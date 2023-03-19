@@ -1,13 +1,13 @@
 name = "JourneyMap Integration"
-filename = "jmi-fabric-1.18.2-0.13-31.jar"
+filename = "jmi-fabric-1.18.2-0.13-32.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b2e9c3b55a47c3ee9269dbb50ecdd592788dfe81"
+hash = "fa85cc256c27ebc40a94299d612494ff96be3aec"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3965091
+file-id = 4443489
 project-id = 525447
