@@ -1486,7 +1486,7 @@ hash = "0b13603a8e8739ed67b073346bcae7042a659145183fff65f19a07e72a2b937a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gadgets.snbt"
-hash = "2304669e5386d944b54221f4e1d153b6bcc32c1832ad5e8777ea7ef4d721fcac"
+hash = "25cf13889eb97ec188d0e790bc49003e0270c1bd1ade946f2dd9b105e20c3eaf"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
@@ -12414,7 +12414,7 @@ hash = "0d6ccc62c431df51ca18d5dd6351e41753e36e21679fd074e54231022b781c2c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/expert.js"
-hash = "0cd87954780004f8588117759b4f5e2dab2210bbb9d2d04b66b48e0ccc3cb59b"
+hash = "6416badf68d30ec061821f5b8228f9de741edad0861ce9cfff013ab18915cf45"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/kibe/shaped.js"
@@ -12579,7 +12579,7 @@ metafile = true
 
 [[files]]
 file = "mods/artis-recrafted.pw.toml"
-hash = "1779af2d939151e702a42e96c7d0c0a76880e93e78dfe057b895d0dfd5b285f4"
+hash = "ffbc30c0a73a7da04a195f0cec9b7dc7243c51d4fb4dee1cacb0cca889961619"
 metafile = true
 
 [[files]]
@@ -12689,7 +12689,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "e0fa82d595ac5544b2bebd196bdddbdc9702e281d6f9496bbeac2058c7968126"
+hash = "05f5638f82bd94467ef8e5748dcd1aa02d1477dc93ad61ec41c84b5abd8dbcfc"
 metafile = true
 
 [[files]]
@@ -13399,12 +13399,12 @@ metafile = true
 
 [[files]]
 file = "mods/macaws-bridges.pw.toml"
-hash = "76f4a00c62eb8611fa11189250c8c5565df594520f31dccf893bf5b938efc96b"
+hash = "4035ff1f3f1d32080f3bd75479c6dd0ff9273ff16b5bc5cc36c45cde8cfa900f"
 metafile = true
 
 [[files]]
 file = "mods/macaws-doors.pw.toml"
-hash = "eb682196f341da42db98bbd16669513896349cf356840ead2191cc5e8e105e7b"
+hash = "a98dc156a46911f0351ded265122f3022dbd35d7131c9e461822881cf3bdedf3"
 metafile = true
 
 [[files]]
@@ -13454,7 +13454,7 @@ metafile = true
 
 [[files]]
 file = "mods/mcpitanlibarch.pw.toml"
-hash = "f81980a3d26a708b11a4fe48a3fd7d8de353154bae65704e5578c696b882ba61"
+hash = "697240f7c5063e995d626076b0f16f3dede39a108f522464d0a60dc968372d43"
 metafile = true
 
 [[files]]
@@ -13544,7 +13544,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-telemetry.pw.toml"
-hash = "220b073091c4793880db803654c5d92643b48e6b80f748e8a12864e48168d33f"
+hash = "16b3aced2b697e3bda8060fa0e05a8203167da440ca5238911733cd123e5c51a"
 metafile = true
 
 [[files]]
@@ -13824,7 +13824,7 @@ metafile = true
 
 [[files]]
 file = "mods/spectrum.pw.toml"
-hash = "b7f6fd8e033892464c7fbf39c8c160b56ff9280d1380c10324808d53ba115709"
+hash = "f86c79fc839a0643e81b581fe4e12af825d4b5d8d16c435832a77303d899444e"
 metafile = true
 
 [[files]]
@@ -13934,7 +13934,7 @@ metafile = true
 
 [[files]]
 file = "mods/travelers-backpack-fabric.pw.toml"
-hash = "f67472c176626e8269b06d9b4787640057515ef2b438fcb5abd5b46ada2b55df"
+hash = "7fe6d9dd63e2b83282d229aef4979013ce28ad71e4b4cde6909715c7ee103de1"
 metafile = true
 
 [[files]]

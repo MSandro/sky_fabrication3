@@ -119,18 +119,6 @@ onEvent('recipes', event => {
       C: 'modern_industrialization:kanthal_block'
     });
 
-    //blockus
-    event.remove({output: 'blockus:legacy_nether_reactor_core', type: 'minecraft:crafting_shaped'});
-    event.shaped('blockus:legacy_nether_reactor_core', [
-        "DID",
-        "DBD",
-        "DID"
-    ], {
-      D: "minecraft:diamond",
-      I: "modern_industrialization:steel_block",
-      B: "botania:blaze_block"
-    });
-
     //KIBE
     event.replaceInput({output: 'kibe:golden_lasso'}, 'minecraft:gold_ingot', 'minecraft:gold_block');
     event.replaceInput({output: 'kibe:golden_lasso'}, 'minecraft:gold_nugget', 'minecraft:gold_block');
@@ -371,7 +359,7 @@ onEvent('recipes', event => {
        ["fabricaeexnihilo:tuff_pebble","fabricaeexnihilo:tuff_pebble","fabricaeexnihilo:tuff_pebble"],
        ]);
 
-    event.remove({output:"fabriccaeexnihilo:porcelain"});
+    event.remove({output:"fabricaeexnihilo:porcelain"});
     event.shaped("fabricaeexnihilo:porcelain", [
        ["minecraft:bone_meal","minecraft:bone_meal","minecraft:bone_meal"],
        ["minecraft:bone_meal","minecraft:clay","minecraft:bone_meal"],
