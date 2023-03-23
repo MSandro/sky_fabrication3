@@ -11998,11 +11998,11 @@ hash = "29649e7f8bd25eb57df9a085696c60837a53b67be754a56bf47b7a8247a1dd03"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/exnihilo/dust.json"
-hash = "05176f7004a2ff88fb654de18b03520b3a5042e90b806f970e24038bac9393c1"
+hash = "2df003d211e04cd37e37b0a4419eb989c4acb8d6a89c3135c80b4959fd70c44a"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/exnihilo/silt.json"
-hash = "174be2d8bb60a4c2af52e47cdcb85769bf0c2a999db73742145c9056c6150fcd"
+hash = "d184cc3137aefae37302490cbdc8e2b397807d0429e32c900e17ceae3edd1c28"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/andesite.json"
@@ -12402,7 +12402,7 @@ hash = "a07872c937ebe98108417ba5436578c0a14d38e15e2e719fe219f186161ff1a8"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/alternatives.js"
-hash = "ba85ff4717b0103a754dee5c4ce90bf17a371fb8e5cffd712ac8bc28b10d5468"
+hash = "887aac37502706b11611d9c6ee794dee59c13159bb9a49712dadab33d91583f8"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/charm/shaped.js"

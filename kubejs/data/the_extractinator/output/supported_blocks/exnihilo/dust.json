@@ -3,5 +3,9 @@
   "tier": 5,
   "yield": 50,
   "additional_drops": [],
-  "disabled_drops": []
+  "disabled_drops": [
+    "ae2:fluix_crystal",
+    "ae2:charged_certus_quartz_crystal",
+    "ae2:certus_quartz_crystal"
+  ]
 }

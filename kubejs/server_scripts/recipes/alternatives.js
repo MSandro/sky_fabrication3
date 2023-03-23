@@ -1,11 +1,19 @@
 //priority: 12
 function pulverize(event, output, input) {
-  if (!input.includes("#")) {
+  if (input.includes("#")) {
+    var json = {
+      type: "indrev:pulverize",
+      ingredients: Item.of(input.substring(1)).toJson(),
+      output: output,
+      processTime: 150
+    };
+    event.custom(json);
+  } else {
     var json = {
       type: "indrev:pulverize",
       ingredients: Item.of(input).toJson(),
       output: output,
-      processTime: 200
+      processTime: 150
     };
     event.custom(json);
   }
