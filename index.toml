@@ -537,6 +537,10 @@ file = "config/dragonloot.json5"
 hash = "95d52e27337544de3ab9ebfac856517fb894db33596788e212104d8fe360278b"
 
 [[files]]
+file = "config/drippyloadingscreen/config.cfg"
+hash = "713d71d1bab277eac2195c4d929b5e77c0175590e0451062c15b43e7a734d219"
+
+[[files]]
 file = "config/dusk.json"
 hash = "258a7df36514fd0abef051327b6cdae09edb7344c4f6acd1f1f9c36e29f2b91f"
 
