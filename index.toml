@@ -13157,6 +13157,11 @@ hash = "e326d593b81cd24964147dea21ed0b057c93790a6c8d96d4d00d47153f4ed205"
 metafile = true
 
 [[files]]
+file = "mods/flan.pw.toml"
+hash = "1d3aff6c2f6cfc4393d689d38e1e8cbbde631d128b868137573f042f941550b6"
+metafile = true
+
+[[files]]
 file = "mods/forge-config-api-port-fabric.pw.toml"
 hash = "dfb96c1c19d1bbc24ed0d53f6d7bc8b9a8502f3a878e61edd07c34de4106558c"
 metafile = true
@@ -13989,6 +13994,11 @@ metafile = true
 [[files]]
 file = "mods/wmitaf.pw.toml"
 hash = "a48872af569129f395747f81ff8e274a443d0504f0f7e9106dbaf0726e1a47cf"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "b4d1af03603eba0a2fe8e9db1b0807154bbc16bf669dd084b7c96dded90cf213"
 metafile = true
 
 [[files]]
