@@ -13098,7 +13098,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "0177e656db13f1eae32cb1d9d93a8751fa4b331afff5ed6b18364b0c017c2fbd"
+hash = "422f048e173c9320f09265d5ea679511cc941efd72f80125f4b1f321e5669cbf"
 metafile = true
 
 [[files]]
@@ -13473,7 +13473,7 @@ metafile = true
 
 [[files]]
 file = "mods/memoryleakfix.pw.toml"
-hash = "e92dac9eaf502c8e2ac0db76f2b8a1aae0f75fd25ee1a73326190d1664804b01"
+hash = "eb091a92ec5564e593ba1aef42d205a61af5c52ec53ca1b5be0e0ffbc2b888de"
 metafile = true
 
 [[files]]

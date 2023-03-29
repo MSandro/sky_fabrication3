@@ -1,13 +1,13 @@
 name = "MemoryLeakFix"
-filename = "memoryleakfix-1.18.2-0.8.0.jar"
+filename = "memoryleakfix-fabric-1.17+-1.0.0-beta.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "37c5cf3029ece32889f390aa6df67f6111c76786"
+hash = "230f4d32a68049c45041e768c2f9c2b7e841258c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4428826
+file-id = 4461935
 project-id = 627566
