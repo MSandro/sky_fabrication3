@@ -1,13 +1,13 @@
 name = "Flan (Fabric)"
-filename = "flan-1.18.2-1.8.4-fabric.jar"
+filename = "flan-1.18.2-1.8.4.1-fabric.jar"
 side = "server"
 
 [download]
 hash-format = "sha1"
-hash = "58e4de783f2a83c7a0db9838f0b4330b5354cc4a"
+hash = "12888b3c0a6a5ad4b3b255285d69775190d7afe5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4432453
+file-id = 4464887
 project-id = 404578

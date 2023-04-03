@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cec",
+    "aga",
+    "cec"
+  ],
+  "key": {
+    "c": {
+      "item": "minecraft:blackstone"
+    },
+    "e": {
+      "item": "minecraft:ender_pearl"
+    },
+    "g": {
+      "item": "techreborn:lithium_ion_battery"
+    },
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    }
+  },
+  "result": {
+    "item": "remote_controlled:energy_remote_control"
+  }
+}
