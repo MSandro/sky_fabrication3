@@ -12590,7 +12590,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "7c32561dc768e8acb98c8dfe323fbaa167c7a0d1c9b6c4a07af5e3e6ab0e539e"
+hash = "e0917e3b5febe243fef9f8353440137bfa3f5bddc3f383a4538160f00b1434b4"
 metafile = true
 
 [[files]]
@@ -12730,7 +12730,7 @@ metafile = true
 
 [[files]]
 file = "mods/building-wands.pw.toml"
-hash = "7422172942472191b7ad3a81722cf09e05182d687b89e45573c2a1b1a29bf09a"
+hash = "c1f0b3873ac58695632244bfb51b9c433563200e39f23d64b6a488519ce709be"
 metafile = true
 
 [[files]]
@@ -12870,7 +12870,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-fabric.pw.toml"
-hash = "581a155762c71b57a22a3df5fea58a68158287b0f25621dea4eb42e8de6b8ab8"
+hash = "e6463553198770c9e070e2903ad644f6260761aef51e79cef06038a471a2d599"
 metafile = true
 
 [[files]]
@@ -12980,7 +12980,7 @@ metafile = true
 
 [[files]]
 file = "mods/drippy-loading-screen-fabric.pw.toml"
-hash = "d59d2e8d01dcf8a028c989dc851c5e2930dba92b09faf14481194b92463989bc"
+hash = "ea5fb545adb4da4a778df53b11ad3d2de6b096229e5cce9010a9fb69b195f598"
 metafile = true
 
 [[files]]
@@ -13120,7 +13120,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu-fabric.pw.toml"
-hash = "8f2993bea14c4496c9a01b9b81eff1bd1cd823bd71150d9b072bd672f41db2e6"
+hash = "afe5546bb41430d19ea8667cb9a78088b55abc1bb13101e29722a52ce7f14041"
 metafile = true
 
 [[files]]
@@ -13140,7 +13140,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastload.pw.toml"
-hash = "ab2ec85351b6ba0b3e109340ccd7185b3fb231422a64247c276a21ce205e3516"
+hash = "fbe01809194c481c572e8898772623f545f9d21b731702afb3da306a52c24db0"
 metafile = true
 
 [[files]]
@@ -13340,7 +13340,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "57712b5540cb92cbc1f86cab50a878bbb829b63ff394ceab26081c4380be53ec"
+hash = "b54a10557b38ffa5f0c83a98603dfd4a4bc53aaf39f0f5d069dd6ac5b43d82a2"
 metafile = true
 
 [[files]]
@@ -13925,7 +13925,7 @@ metafile = true
 
 [[files]]
 file = "mods/toms-storage-fabric.pw.toml"
-hash = "b8df83e0484c3235d56293c5d2cb2a8474874630916e0a9be4f311b546e3bb4b"
+hash = "4590466e68431ac1f4bf496df59d194579a4f183838d5b8dd24cbd8023786535"
 metafile = true
 
 [[files]]
