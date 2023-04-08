@@ -1410,6 +1410,34 @@
 				type: "checkmark"
 			}]
 		}
+		{
+			x: 1.5d
+			y: -4.0d
+			subtitle: "Automated Sieving!"
+			description: [
+				"It will automatically sieve items inserted into it."
+				""
+				"Mechanically similar to a Millstone."
+				""
+				"FabricaeExNihilo Meshes won't work here - using Crafting you can switch between FabricaeExNihilo and Create Sifter variants of meshes."
+				""
+				"Please Note: You need some sort of a blacklistable item extraction (like Brass Funnels or Smart Chutes), because without filtering it will extract currently sieved items!"
+				""
+				"A huge advantage of the Sifter is the fact that it will not automatically unequip meshes nor it will spill out items into the world."
+				""
+				"The Sifter can also be Waterlogged to process certain recipes."
+			]
+			dependencies: [
+				"2587A593554DBC4A"
+				"18E391B45D935712"
+			]
+			id: "2EEFE657598AC91C"
+			tasks: [{
+				id: "4BAC6F40786AAF4D"
+				type: "item"
+				item: "createsifter:sifter"
+			}]
+		}
 	]
 	quest_links: [ ]
 }

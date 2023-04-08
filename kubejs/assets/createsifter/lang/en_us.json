@@ -1,0 +1,11 @@
+{
+  "block.createsifter.sifter": "Sifter",
+  "create.recipe.sifting": "Sifting Recipe",
+  "createsifter.recipe.sifting": "Sifting Recipe",
+  "item.createsifter.andesite_mesh": "Flint Mesh",
+  "item.createsifter.brass_mesh": "Gold Mesh",
+  "item.createsifter.custom_mesh": "Custom Mesh",
+  "item.createsifter.string_mesh": "String Mesh",
+  "item.createsifter.zinc_mesh": "Iron Mesh",
+  "itemGroup.createsifter:main": "Create Sifting"
+}

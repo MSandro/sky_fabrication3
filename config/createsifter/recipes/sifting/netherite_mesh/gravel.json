@@ -1,0 +1,67 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:netherite_mesh"
+    },
+    {
+      "item": "minecraft:gravel"
+    }
+  ],
+  "results": [
+    {
+      "item": "fabricaeexnihilo:raw_tin_piece",
+      "chance": 0.3
+    },
+    {
+      "item": "modern_industrialization:lignite_coal",
+      "chance": 0.4
+    },
+    {
+      "item": "fabricaeexnihilo:raw_antimony_piece",
+      "chance": 0.3
+    },
+    {
+      "item": "minecraft:coal",
+      "chance": 0.4
+    },
+    {
+      "item": "fabricaeexnihilo:raw_nickel_piece",
+      "chance": 0.3
+    },
+    {
+      "item": "minecraft:emerald",
+      "chance": 0.032
+    },
+    {
+      "item": "fabricaeexnihilo:raw_silver_piece",
+      "chance": 0.3
+    },
+    {
+      "item": "fabricaeexnihilo:raw_copper_piece",
+      "chance": 0.32
+    },
+    {
+      "item": "minecraft:diamond",
+      "chance": 0.032
+    },
+    {
+      "item": "fabricaeexnihilo:raw_iron_piece",
+      "count": 2,
+      "chance": 1.0
+    },
+    {
+      "item": "fabricaeexnihilo:raw_iron_piece",
+      "chance": 0.91
+    },
+    {
+      "item": "modern_industrialization:bauxite_tiny_dust",
+      "chance": 0.75
+    },
+    {
+      "item": "fabricaeexnihilo:raw_lead_piece",
+      "chance": 0.3
+    }
+  ],
+  "processingTime": 500
+}

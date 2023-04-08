@@ -1,0 +1,30 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:blaze_powder",
+      "chance": 0.35
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "chance": 0.40
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "chance": 0.11
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 500
+}

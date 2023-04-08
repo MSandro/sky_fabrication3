@@ -1,0 +1,27 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:netherite_mesh"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:ghast_tear",
+      "chance": 0.2
+    },
+    {
+      "item": "minecraft:quartz",
+      "amount": 3,
+      "chance": 1.0
+    },
+    {
+      "item": "minecraft:quartz",
+      "chance": 0.6
+    }
+  ],
+  "processingTime": 500
+}

@@ -1,0 +1,18 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:emerald_mesh"
+    },
+    {
+      "item": "minecraft:dark_oak_leaves"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:dark_oak_sapling",
+      "chance": 0.7
+    }
+  ],
+  "processingTime": 500
+}

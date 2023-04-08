@@ -1,0 +1,22 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:emerald_mesh"
+    },
+    {
+      "item": "minecraft:jungle_leaves"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:jungle_sapling",
+      "chance": 0.7
+    },
+    {
+      "item": "minecraft:bamboo",
+      "chance": 0.6
+    }
+  ],
+  "processingTime": 500
+}

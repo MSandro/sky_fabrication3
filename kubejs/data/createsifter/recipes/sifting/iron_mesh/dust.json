@@ -1,0 +1,22 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:zinc_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:redstone",
+      "chance": 0.275
+    },
+    {
+      "item": "minecraft:glowstone_dust",
+      "chance": 0.04
+    }
+  ],
+  "processingTime": 500
+}

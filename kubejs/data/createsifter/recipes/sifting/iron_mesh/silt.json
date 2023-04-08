@@ -1,0 +1,18 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:zinc_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:silt"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:lapis_lazuli",
+      "chance": 0.075
+    }
+  ],
+  "processingTime": 500
+}

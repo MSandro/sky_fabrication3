@@ -1,0 +1,22 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:zinc_mesh"
+    },
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:coal",
+      "chance": 0.05
+    },
+    {
+      "item": "modern_industrialization:lignite_coal",
+      "chance": 0.05
+    }
+  ],
+  "processingTime": 500
+}

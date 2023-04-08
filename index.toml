@@ -12874,6 +12874,11 @@ hash = "e6463553198770c9e070e2903ad644f6260761aef51e79cef06038a471a2d599"
 metafile = true
 
 [[files]]
+file = "mods/create-sifting-refabricated.pw.toml"
+hash = "19452e56d51ce17608509ba09b9dc0414c92950b59e80239a11038edbfc77b40"
+metafile = true
+
+[[files]]
 file = "mods/createaddition.pw.toml"
 hash = "537f69a40435666979111f250398ee856bd0fd9c0a1a7a98392e996c01d20e12"
 metafile = true

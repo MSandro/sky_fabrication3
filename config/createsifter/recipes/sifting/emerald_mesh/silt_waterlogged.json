@@ -1,0 +1,19 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:emerald_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:silt"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:lily_pad",
+      "chance": 0.6
+    }
+  ],
+  "processingTime": 500,
+  "waterlogged": true
+}
