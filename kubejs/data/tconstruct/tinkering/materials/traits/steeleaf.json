@@ -1,6 +1,10 @@
 {
   "default": [
     {
+      "name": "twilightforest:twilit",
+      "level": 1
+    },
+    {
       "name": "tconstruct:solar_powered",
       "level": 1
     }
