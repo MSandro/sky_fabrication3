@@ -3000,6 +3000,8 @@
 			tasks: [{
 				id: "47BAD816E1669131"
 				type: "advancement"
+				title: "Unlock Spirit Instiller"
+				icon: "spectrum:spirit_instiller"
 				advancement: "spectrum:progression/unlock_spirit_instiller"
 				criterion: ""
 			}]

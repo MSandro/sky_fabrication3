@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "collected_mermaids_gem": {
+      "trigger":"revelationary:advancement_gotten",
+      "conditions": { "advancement_identifier": "spectrum:create_onyx_shard" }
+    }
+  }
+}

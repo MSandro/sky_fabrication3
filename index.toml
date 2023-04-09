@@ -13689,6 +13689,11 @@ hash = "8e59815b193e52f162b5ded34a4b1dfdac31b880893ab286ac12a970903ceb4b"
 metafile = true
 
 [[files]]
+file = "mods/quests-additions-fabric.pw.toml"
+hash = "ce7eec91cd0d4de37f8879e1ace768052e6ada0b1fc832d58fe4f2fc56aa0254"
+metafile = true
+
+[[files]]
 file = "mods/random-bone-meal-flowers-fabric.pw.toml"
 hash = "60aea47e2f741c89c6bc2be4559d99321b129de9c1a2ddc9c3b2986f93067967"
 metafile = true

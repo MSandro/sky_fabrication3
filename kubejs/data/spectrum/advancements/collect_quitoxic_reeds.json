@@ -1,0 +1,35 @@
+{
+  "parent": "spectrum:create_onyx_shard",
+  "display": {
+    "icon": {
+      "item": "spectrum:quitoxic_reeds"
+    },
+    "title": {
+      "translate": "advancements.spectrum.collect_quitoxic_reeds.title"
+    },
+    "description": {
+      "translate": "advancements.spectrum.collect_quitoxic_reeds.description"
+    }
+  },
+  "criteria": {
+    "has_plant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": [ "spectrum:quitoxic_reeds" ]}] }
+    },
+    "has_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": [ "spectrum:quitoxic_powder" ]}] }
+    },
+    "gotten_previous": {
+      "trigger":"revelationary:advancement_gotten",
+      "conditions": { "advancement_identifier": "spectrum:create_onyx_shard" }
+    }
+  },
+  "requirements": [
+    [
+      "has_plant",
+      "has_powder"
+    ],
+    [ "gotten_previous" ]
+  ]
+}

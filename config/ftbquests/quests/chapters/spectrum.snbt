@@ -32,6 +32,7 @@
 			}]
 		}
 		{
+			icon: "spectrum:mermaids_gem"
 			x: 9.5d
 			y: 6.0d
 			description: [
@@ -39,8 +40,7 @@
 				""
 				"A Vacuum Hopper is recommended."
 			]
-			hide_dependency_lines: true
-			dependencies: ["790E66B088B92037"]
+			dependencies: ["62497389C3267837"]
 			hide: true
 			id: "5584A52CAA574CFC"
 			tasks: [{
@@ -166,7 +166,7 @@
 		}
 		{
 			x: 12.5d
-			y: -0.5d
+			y: -1.0d
 			dependencies: [
 				"2F56655D7C4C3882"
 				"24C70DAB3F66ECB2"
@@ -186,11 +186,11 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -0.5d
+			x: 8.0d
+			y: -1.0d
 			subtitle: "Obtainable using Botania's Petal Apothecary."
 			description: ["They can be farmed by placing them in a 1-block deep body of water, with Clay underneath."]
-			dependencies: ["74F0C68679B78B5D"]
+			dependencies: ["6F3F4B2ADAAED3C1"]
 			hide: true
 			hide_text_until_complete: true
 			id: "24C70DAB3F66ECB2"
@@ -683,8 +683,8 @@
 				"They will grow faster!"
 			]
 			dependencies: [
-				"5584A52CAA574CFC"
 				"681C638B38019A73"
+				"5584A52CAA574CFC"
 			]
 			hide: true
 			dependency_requirement: "one_completed"
@@ -777,8 +777,9 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -1.5d
+			x: 10.5d
+			y: -2.0d
+			shape: "square"
 			description: ["Spectrum Mid Game"]
 			id: "5D1A91608FE45D0A"
 			tasks: [{
@@ -789,8 +790,9 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -1.5d
+			x: 9.5d
+			y: -2.0d
+			shape: "square"
 			description: ["Spectrum Early Game"]
 			id: "790E66B088B92037"
 			tasks: [{
@@ -862,8 +864,8 @@
 		}
 		{
 			icon: "spectrum:black_pigment"
-			x: 9.5d
-			y: 3.0d
+			x: 11.0d
+			y: 0.0d
 			dependencies: ["681C638B38019A73"]
 			hide: true
 			id: "7B50D9F39BF07C16"
@@ -876,7 +878,7 @@
 		}
 		{
 			x: 9.5d
-			y: 4.5d
+			y: 0.0d
 			dependencies: ["7B50D9F39BF07C16"]
 			hide: true
 			id: "00CE2107C6C46BE1"
@@ -1193,7 +1195,7 @@
 		{
 			title: "Budding Crystals"
 			x: 6.5d
-			y: 0.5d
+			y: 0.0d
 			subtitle: "Craftable only on a new moon nights, just like Onyx."
 			dependencies: ["49D9ECC98F3A5E05"]
 			id: "3C392862FC5CA225"
@@ -1248,6 +1250,18 @@
 				id: "6116A006C23BCC0B"
 				type: "random"
 				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			dependencies: ["6F3F4B2ADAAED3C1"]
+			hide: true
+			id: "62497389C3267837"
+			tasks: [{
+				id: "441428F5822DD91A"
+				type: "item"
+				item: "spectrum:mermaids_brush"
 			}]
 		}
 	]

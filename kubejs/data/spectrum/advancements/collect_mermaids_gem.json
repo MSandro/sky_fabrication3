@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "spectrum:mermaids_brush"
+    },
+    "title": {
+      "translate": "advancements.spectrum.collect_mermaids_gem.title"
+    },
+    "description": {
+      "translate": "advancements.spectrum.collect_mermaids_gem.description"
+    }
+  },
+  "parent": "spectrum:create_onyx_shard",
+  "criteria": {
+    "has_onyx_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": [ "spectrum:mermaids_gem" ]}] }
+    },
+    "gotten_previous": {
+      "trigger":"revelationary:advancement_gotten",
+      "conditions": { "advancement_identifier": "spectrum:create_onyx_shard" }
+    }
+  }
+}
