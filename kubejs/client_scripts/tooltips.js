@@ -1,3 +1,17 @@
+function getMethods(obj) {
+    var result = [];
+    for (var id in obj) {
+      try {
+        if (typeof(obj[id]) == "function") {
+          result.push(id + ": " + obj[id].toString() + '\n');
+        }
+      } catch (err) {
+        result.push(id + ": inaccessible");
+      }
+    }
+    return result;
+  }
+
 onEvent('item.tooltip', tooltip => {
 	tooltip.add(['spectrum:onyx_shard', 'spectrum:budding_citrine', 'spectrum:budding_topaz', 'minecraft:budding_amethyst', 'spectrum:budding_moonstone'], Text.gray('Only craftable on new moon nights.'))
 	tooltip.add(['iron-jetpacks:citrine_jetpack', 'iron-jetpacks:crystal_jetpack', 'iron-jetpacks:soul_jetpack'], Text.gray('LV Tier'))
@@ -73,5 +87,26 @@ onEvent('item.tooltip', tooltip => {
     
     tooltip.add('minecraft:prismarine_crystals', Text.gray('§9Better rates with a §bWaterlogged§9 sieve.§r'))
     
-    
+    const toContain = [
+		"Looting", "Luck"
+	] 
+	onEvent('item.tooltip', event => {
+		event.addAdvanced(/^tconstruct:.*/, (stack, a, text) => {
+			let del_indexes = [];
+			let matches = 0;
+			for (let i = text.size()-1; i > 0; i--) {
+				let component = text.get(i)
+				let k = component?.string
+				toContain.forEach(e => {
+					if(k.contains(e)) {
+						matches++;
+						if (e == "Looting") {del_indexes.push(i);}
+				}
+				});
+			}
+			if (matches > 1) {
+				text.remove(del_indexes[0]);
+			}
+		})
+	})
 })

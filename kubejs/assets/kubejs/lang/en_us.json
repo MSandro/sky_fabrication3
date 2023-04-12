@@ -8,6 +8,12 @@
   "block.kubejs.end_portal_locked": "Locked End Portal",
   "block.kubejs.unknown": "Unknown",
 
+  "block.kubejs.compressed_quartz_block_1": "Compressed Block of Quartz (1x)",
+  "block.kubejs.compressed_quartz_block_2": "Compressed Block of Quartz (2x)",
+  "block.kubejs.compressed_quartz_block_3": "Compressed Block of Quartz (3x)",
+  "block.kubejs.compressed_quartz_block_4": "Compressed Block of Quartz (4x)",
+  "block.kubejs.compressed_quartz_block_5": "Compressed Block of Quartz (5x)",
+
   "item.kubejs.redstone_singularity": "Redstone Singularity",
   "item.kubejs.iron_singularity": "Iron Singularity",
   "item.kubejs.diamond_singularity": "Diamond Singularity",
@@ -114,7 +120,6 @@
   "structure.bettermineshafts.mineshaft": "Mineshaft",
   "structure.betternether.nether_city": "Nether City",
   "structure.betterstrongholds.stronghold": "Stronghold",
-  "structure.bettermineshafts.mineshaft": "Mineshaft",
   "structure.bosses_of_mass_destruction.gauntlet_arena": "Gauntlet Arena",
   "structure.bosses_of_mass_destruction.lich_tower": "Lich Tower",
   "structure.bosses_of_mass_destruction.obsidilith_arena": "Obsidilith Arena",

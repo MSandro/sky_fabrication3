@@ -37,8 +37,7 @@ onEvent('item.registry', event => {
   event.create('netherite_mesh','createsifter:mesh').displayName('Netherite Mesh').parentModel("createsifter:block/meshes/custom_mesh").texture("1","createsifter:item/netherite_mesh").texture("0","minecraft:block/oak_planks");
   event.create('copper_mesh','createsifter:mesh').displayName('Copper Mesh').parentModel("createsifter:block/meshes/custom_mesh").texture("1","createsifter:item/copper_mesh").texture("0","minecraft:block/oak_planks");
   event.create('carbon_mesh','createsifter:mesh').displayName('Carbon Mesh').parentModel("createsifter:block/meshes/custom_mesh").texture("1","createsifter:item/carbon_mesh").texture("0","minecraft:block/oak_planks");
-  
-  
+
   // Food
   event.create('fish_and_chips').displayName('Ultimate Fish and Chips').food(foodBuilder => {foodBuilder.hunger(15).saturation(15.0).alwaysEdible()});
   event.create('cosmic_meatballs').displayName('Cosmic Meatballs').food(food => {

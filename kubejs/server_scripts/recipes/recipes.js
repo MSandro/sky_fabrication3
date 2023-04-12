@@ -111,4 +111,17 @@ onEvent('recipes', (event) => {
   event.remove({output: "improved-stations:crafting_station"});
   event.remove({output: "improved-stations:crafting_station_slab"});
   event.shapeless('2x improved-stations:crafting_station_slab', ['#tconstruct:tables']);
+
+  // Nether Quartz Compressing
+  const compressed_quartz = ["kubejs:compressed_quartz_block_1", "kubejs:compressed_quartz_block_2", "kubejs:compressed_quartz_block_3", "kubejs:compressed_quartz_block_4", "kubejs:compressed_quartz_block_5"];
+  compressed_quartz.forEach((block, i) => {
+    event.shaped(block, [
+      "BBB",
+      "BBB",
+      "BBB"
+    ], {
+      B: (i == 0) ? 'minecraft:quartz_block' : compressed_quartz[i-1]
+    });
+    event.shapeless((i == 0) ? '9x minecraft:quartz_block' : `9x ${compressed_quartz[i-1]}`, block)
+  })
 })
