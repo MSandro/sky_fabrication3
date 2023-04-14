@@ -1,7 +1,7 @@
 {
   "name": "fabricaeexnihilo:dust",
-  "tier": 5,
-  "yield": 50,
+  "tier": 3,
+  "yield": 75,
   "additional_drops": [],
   "disabled_drops": [
     "ae2:fluix_crystal",

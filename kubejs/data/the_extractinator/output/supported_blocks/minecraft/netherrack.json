@@ -20,14 +20,8 @@
       ]
     },
     {
-      "name": "techreborn:sulfur_dust",
-      "rarity": "rare",
-      "conditional_mods": [
-        "techreborn"
-      ],
-      "incompatible_mods": [
-        "modern_industrialization"
-      ]
+      "name": "minecraft:quartz",
+      "rarity": "common"
     },
     {
       "name": "mythicmetals:raw_midas_gold",

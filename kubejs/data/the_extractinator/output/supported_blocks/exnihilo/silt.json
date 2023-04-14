@@ -1,7 +1,7 @@
 {
   "name": "fabricaeexnihilo:silt",
-  "tier": 4,
-  "yield": 75,
+  "tier": 2,
+  "yield": 50,
   "additional_drops": [],
   "disabled_drops": [
     "ae2:fluix_crystal",
