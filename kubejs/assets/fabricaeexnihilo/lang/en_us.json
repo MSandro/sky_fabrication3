@@ -2,5 +2,10 @@
   "fluid.fabricaeexnihilo.witchwater": "Witchwater",
   "fluid.fabricaeexnihilo.milk": "Milk",
   "fluid.fabricaeexnihilo.brine": "Brine",
-  "fluid.fabricaeexnihilo.blood": "Blood"
+  "fluid.fabricaeexnihilo.blood": "Blood",
+  
+  "block.fabricaeexnihilo.rubber_sieve": "Stripped Bamboo Sieve",
+  "block.fabricaeexnihilo.rubber_barrel": "Stripped Bamboo Barrel",
+  "block.fabricaeexnihilo.rubber_crucible": "Bone Crucible",
+  "block.fabricaeexnihilo.rubber_strainer": "Bone Strainer"
 }

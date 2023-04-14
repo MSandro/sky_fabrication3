@@ -12,11 +12,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
-          "name": "buildable_campfire:campfire_log"
-        },
-        {
-          "type": "minecraft:item",
           "weight": 10,
           "functions": [
             {
@@ -44,7 +39,7 @@
         {
           "type": "minecraft:item",
           "weight": 100,
-          "name": "minecraft:oak_sapling"
+          "name": "minecraft:oak_log"
         },
         {
           "type": "minecraft:item",

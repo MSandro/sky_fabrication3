@@ -122,6 +122,72 @@ onEvent('recipes', (event) => {
     ], {
       B: (i == 0) ? 'minecraft:quartz_block' : compressed_quartz[i-1]
     });
-    event.shapeless((i == 0) ? '9x minecraft:quartz_block' : `9x ${compressed_quartz[i-1]}`, block)
-  })
+    event.shapeless((i == 0) ? '9x minecraft:quartz_block' : `9x ${compressed_quartz[i-1]}`, block);
+  }),
+
+  // Remove Osseous Bricks shaped crafting recipe because it conflicts with Full Bone Block recipe.
+  // The Osseous Bricks are still craftable using a Stonecutter.
+  event.remove({output: "architects_palette:osseous_bricks", type: 'minecraft:crafting_shaped'});
+
+  // Yeet the impossible Create Mixer recipe for the Infinity Catalyst
+  event.custom({
+    "type": "artis:big_bench_shapeless",
+    "result": {
+      "item": "kubejs:infinity_catalyst"
+    },
+    "ingredients": [
+      {
+        "item": "kubejs:diamond_lattice"
+      },
+      {
+        "item": "kubejs:crystal_matrix_ingot"
+      },
+      {
+        "item": "kubejs:neutronium_ingot"
+      },
+      {
+        "item": "kubejs:ultimate_stew"
+      },
+      {
+        "item": "kubejs:cosmic_meatballs"
+      },
+      {
+        "item": "kubejs:fish_and_chips"
+      },
+      {
+        "item": "kubejs:endest_pearl"
+      },
+      {
+        "item": "kubejs:record_fragment"
+      },
+      {
+        "item": "kubejs:iron_singularity"
+      },
+      {
+        "item": "kubejs:golden_singularity"
+      },
+      {
+        "item": "kubejs:lapis_singularity"
+      },
+      {
+        "item": "kubejs:redstone_singularity"
+      },
+      {
+        "item": "kubejs:diamond_singularity"
+      },
+      {
+        "item": "kubejs:emerald_singularity"
+      },
+      {
+        "item": "kubejs:nether_quartz_singularity"
+      },
+      {
+        "item": "spectrum:germinated_jade_vine_seeds"
+      },
+      {
+        "item": "dml-refabricated:glitch_ingot"
+      }
+    ]
+  }
+  ).id('kubejs:infinity_catalyst_manual_only')
 })

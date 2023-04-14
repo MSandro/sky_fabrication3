@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "#S#",
+        "I I"
+    ],
+    "key": {
+        "#": {
+            "item": "twigs:stripped_bamboo_planks"
+        },
+        "S": {
+            "item": "twigs:stripped_bamboo_slab"
+        },
+        "I": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "fabricaeexnihilo:rubber_sieve",
+        "count": 1
+    }
+}

@@ -7,7 +7,7 @@
 		"ABCDE",
 		"FGHIJ",
 		"KLMNO",
-		"P    "
+		"PQ   "
 	],
 	"key": {
 		"A": {
@@ -53,9 +53,12 @@
 			"item":"kubejs:emerald_singularity"
 		},
 		"O": {
-			"item":"spectrum:germinated_jade_vine_seeds"
+			"item":"kubejs:nether_quartz_singularity"
 		},
 		"P": {
+			"item":"spectrum:germinated_jade_vine_seeds"
+		},
+		"Q": {
 			"item":"dml-refabricated:glitch_ingot"
 		}
 	},

@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+      "item": "betternether:bone_block"
+    },
+    "result": "betternether:bone_stairs"
+  }

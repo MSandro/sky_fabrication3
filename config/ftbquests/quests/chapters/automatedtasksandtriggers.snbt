@@ -14,6 +14,7 @@
 			subtitle: "Well known simple early game!"
 			description: ["Basic Sky Block, you will start on a oak tree."]
 			hide: true
+			invisible: true
 			id: "3AC0329506E80AA4"
 			tasks: [{
 				id: "5DB597A4B3A2F623"
@@ -29,6 +30,7 @@
 			description: ["You will build your island from just a bamboo and a block of podzol. You can craft Wood from bamboo. Wood is the basis for everything."]
 			hide: true
 			dependency_requirement: "one_completed"
+			invisible: true
 			id: "329CC4079DB5DABE"
 			tasks: [{
 				id: "56B5556B44C046F2"
@@ -48,6 +50,7 @@
 			]
 			hide: true
 			dependency_requirement: "one_completed"
+			invisible: true
 			id: "7849BD01ACBFAC3A"
 			tasks: [{
 				id: "251CD869A0906B24"

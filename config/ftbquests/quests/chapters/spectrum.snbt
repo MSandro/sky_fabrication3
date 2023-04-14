@@ -35,11 +35,7 @@
 			icon: "spectrum:mermaids_gem"
 			x: 9.5d
 			y: 6.0d
-			description: [
-				"The Mermaids Brush can be obtained with Botania. Place it down and it will drop gems after some time."
-				""
-				"A Vacuum Hopper is recommended."
-			]
+			description: ["A Vacuum Hopper is recommended to automatically collect Mermaids Gems."]
 			dependencies: ["62497389C3267837"]
 			hide: true
 			id: "5584A52CAA574CFC"
@@ -1196,7 +1192,7 @@
 			title: "Budding Crystals"
 			x: 6.5d
 			y: 0.0d
-			subtitle: "Craftable only on a new moon nights, just like Onyx."
+			subtitle: "Craftable only on new moon nights, just like Onyx."
 			dependencies: ["49D9ECC98F3A5E05"]
 			id: "3C392862FC5CA225"
 			tasks: [
@@ -1255,6 +1251,8 @@
 		{
 			x: 9.5d
 			y: 3.0d
+			subtitle: "Obtainable using Botania's Petal Apothecary."
+			description: ["Plant it underwater. After some time, you will get a new item!"]
 			dependencies: ["6F3F4B2ADAAED3C1"]
 			hide: true
 			id: "62497389C3267837"

@@ -14,3 +14,16 @@ onEvent('item.modification', event => {
       item.burnTime = 200 * ONE_ITEM
     })
   })
+
+onEvent('block.modification', event => {
+  event.modify("fabricaeexnihilo:rubber_crucible", block => {
+    block.material = "bone",
+    block.requiresTool = true,
+    block.hardness = 2
+    }),
+  event.modify("fabricaeexnihilo:rubber_strainer", block => {
+    block.material = "bone",
+    block.requiresTool = true,
+    block.hardness = 2
+  })
+})
