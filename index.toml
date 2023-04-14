@@ -413,6 +413,506 @@ file = "config/createaddition-common.toml"
 hash = "e92cd5f5dc6c58cf08cbecfe27647f6c77a7eaea5dd8ff347d1717dbe7a737ed"
 
 [[files]]
+file = "config/createsifter/recipes/andesite_mesh.json"
+hash = "6ac9f2ec763d4c74a6d2a697400f8503f94952d7d841157e1d504fbf0fda7c83"
+
+[[files]]
+file = "config/createsifter/recipes/brass_mesh.json"
+hash = "97fd5fdb0cf963af86b96410780d87829460d0a524e05ee6df4d0e1f7fa00820"
+
+[[files]]
+file = "config/createsifter/recipes/sifter.json"
+hash = "7a494be015a34dacf749151e81eb591adc5c3a9869e659f841a41e414063cd7e"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/carbon_mesh/crushed_end_stone.json"
+hash = "96f52190952a70ee3c9fdfc2625b0f752e692244306500e9e2b5365f9ed71da8"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/carbon_mesh/crushed_prismarine.json"
+hash = "c5dfa016c79df67b4efa33f2b918fca7fac9eec98d784901bf47858417d84f71"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/carbon_mesh/red_sand.json"
+hash = "74b89697d275de54ee387980df660897be00e5f001821232a668845e832ea8a9"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/acacia_leaves.json"
+hash = "ac67bcf4dbfa3446e8e35cfdba4f0b6f6e271fd1122bb53640b8c9b395b381a3"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/birch_leaves.json"
+hash = "19ad4a69abc3bc81ebf2fe5ce34f57b4bf7ad133cfaccd617ebcbb1309d85797"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/coarse_dirt.json"
+hash = "4439de1e0d42c255de5e249f6af42815f61fca36c0c0822057b5b502cbf9d61f"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/crushed_end_stone.json"
+hash = "de099b406d353e3e0813ae5be34f22b873c967e3165363a98072d39f52896a20"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/crushed_prismarine_waterlogged.json"
+hash = "1d719532d27e8960227ee254ea1e592d511ba5bb0ce63579760e94138b0396f3"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/dark_oak_leaves.json"
+hash = "73d5be26ae2bbbe9433ae736998234148ed2aa6e8fe326699853cbbe30b8df72"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/dirt.json"
+hash = "2b5e385637be604b3ab0bde4ff51ce2d2917c8fc6193b316380658072e6ea52f"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/dust.json"
+hash = "4d5f92f1af36b0911067635203efe573303d76eadc55d5b86cfa854d5b474ab0"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/jungle_leaves.json"
+hash = "a74f378578e006df935d7031fa937ce4d7022ab3b48802cb815797322bd73a25"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/oak_leaves.json"
+hash = "4fbc47e8530fd2ee057f318bb7db3c5a36c57a098ac0cd634bcc2c6ad69fbbc5"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/red_sand.json"
+hash = "7dcfaba02d46c78060f00ce4c81dd3b7a94fe5b612d08c6b6be85c2b952d82d1"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/sand.json"
+hash = "833e1a35d19a7e5ef65a121134b129239c48ff8a70cffacf4398feee51a85f8f"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/sand_waterlogged.json"
+hash = "aa7f01b2e73b54526e44726e124457a2e4ff1fd24a458e5caa227b1622807102"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/silt_waterlogged.json"
+hash = "8a96e09ac1590980668a4212b0a8506d75c370201b5da093b534d1b9fc77dc82"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/soul_sand.json"
+hash = "4aed82c10033acd9fb4dbb783652e900e83fef0868f2ae21c88a28dffd61124e"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/copper_mesh/spruce_leaves.json"
+hash = "faf8343f7a4218628eeadf66bf12f4998732e4b06cbdcd042f7fdbe5b1194bff"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/diamond_mesh/crushed_andesite.json"
+hash = "39c4e20d39f9e4e3e3303e8aa08e29dd8ebd440650ff13d29ebd4fe6dd048ab4"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/diamond_mesh/crushed_calcite.json"
+hash = "db18988602ef1898992e1870bea0721111b57595c92082e6defbab421ca8f06a"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/diamond_mesh/crushed_end_stone.json"
+hash = "303db4fec3de5b72246b6142753b26b170df9cbdeeef53b65323981b33c1f81c"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/diamond_mesh/crushed_granite.json"
+hash = "4d7fb759869bab2859b528043ba7d77d5ddfb25c87e24be2904369164b5346c4"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/diamond_mesh/dust.json"
+hash = "fa4e12411a5b5370aa35294afd9baa0db8649eba42449cbf291db789c1c57635"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/diamond_mesh/gravel.json"
+hash = "00d269f1179b713e41ef93246f51148ec19aa6705b912c8dec61bda156ce627f"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/diamond_mesh/gravel_waterlogged.json"
+hash = "4e18ef497ff3a2f1492360733fd48c80315a7cc24f09c168adefb7681cabfef8"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/diamond_mesh/red_sand.json"
+hash = "a66a4b1571d93cb2ee07bb7688a753c0141f8e10174947fe846905275a9ed523"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/diamond_mesh/sand.json"
+hash = "c4ed8e9e95181f20530e3a972555f1f4ba92d4abd18bb1c8d070ddb98a57153c"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/diamond_mesh/silt.json"
+hash = "ab1d5b93348ee92bab17da93cee744cf6600da8bdd5dfeffef4fadbf52b67bd0"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/diamond_mesh/soul_sand.json"
+hash = "53f37940572cd25d41379393eef07144dd2a2900ce3dc7dd90305721aa6ced90"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/dirt_strig_mesh_waterlogged.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/acacia_leaves.json"
+hash = "5c5c781ffaf1e47558dedbcf1ce9baae7c01310f180ba387b421d42e4ec3dbc0"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/birch_leaves.json"
+hash = "be3981f8fe490d2cbf726f5e5799c80e9fced4df962c9176b16f3c3d1913e7fe"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/coarse_dirt.json"
+hash = "04a9410bab5153969e215a9e5c40049e7c0593aa03cb0de4279b09f63c991345"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/crushed_end_stone.json"
+hash = "1df9098b63355fb301f47d3c149a83ea74c5a225e9540b8c445c6f7d7198ca56"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/crushed_prismarine.json"
+hash = "6145f108afa341ca80e33923b5aa4227a369318d6799415030a150225dcd0518"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/crushed_prismarine_waterlogged.json"
+hash = "9c60f2103a6e9e5ecb06892f81b36bd640b2496f844186fd08e2305c3b2ad189"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/dark_oak_leaves.json"
+hash = "5fe28af6660cebfb0dd86c24f7bd4213bdcc2ecaa1346fc94a49fd4754a2bfce"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/dirt.json"
+hash = "292daad4a3369f0f0efa09dcdeb7f83d1048534ca7861d1102ccd21da63e9002"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/dust.json"
+hash = "d22ad352604e13de76907aa97fe8804ea0905fc138e068c2c3b6353e2e57a258"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/jungle_leaves.json"
+hash = "398a521c388f85e923ef7a4b4e5051c03e2dee351751bcea1b47ee574098d5e3"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/oak_leaves.json"
+hash = "e8719eacbd7e9678d153789dc1911fcd32183d6fb4d42e49e093d9b11d28368e"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/red_sand.json"
+hash = "83c70aa198d99c2a434b9c2a7015c862fbe3e3b58c598c8d7e846a3e00cc22e4"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/sand.json"
+hash = "6172bca89968c1c26e6c4df969d3f582ef6c769433db72f098d673523351e730"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/sand_waterlogged.json"
+hash = "2900c15340a0a72a79f4145c37e916e495356d74097745752319460c8b452a15"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/silt_waterlogged.json"
+hash = "b3738e13e6626c193df49ba02511aba433d9e2cff72390d48117e49782773bd6"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/soul_sand.json"
+hash = "ce14f3b9073cc1c8632df3cbcb26791102620dc0ae0abc203d298d5282c0af43"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/emerald_mesh/spruce_leaves.json"
+hash = "a6fb04fd4af6299a21f3aeaf1650ffc7dcccf0d4202ca9e635bead3165e67c22"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/acacia_leaves.json"
+hash = "7c74447d605ade1d60feb2226228c9d27cc93e6b3177d4939c7a5fde33d98974"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/birch_leaves.json"
+hash = "675b33e668b96d67248547f6c21b1c2e7e3f99901146a81949d0ed8cceee0607"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/coarse_dirt.json"
+hash = "9fd65ac77908310a6f33c1596b1d3fbf963f57da5b51b3f0b60a3a0322f2c120"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/crushed_calcite.json"
+hash = "867b047274f61ac5c99f2115d2b462d6826b11c7cb9ea329b332573182c1fa5f"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/crushed_granite.json"
+hash = "23e289120fc9bed8e5e3486b1e6640f9553ebca32e3930dab9fff2f5592c3735"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/crushed_netherrack.json"
+hash = "b40a88e9f95ed309d2d181c08f042038454a02ece6d68f547ddf8ff50c4e5ecc"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/dark_oak_leaves.json"
+hash = "12a365282da2a8ce4e668ba0dd9e538093239f7e6f874ce356a0fa34b97a4f89"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/dirt.json"
+hash = "d31a5c067cd2d100f60a9ec1777d7a894b16414e63253a659ad29c55e81ae892"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/dust.json"
+hash = "d53b4faf5d758fa777b4ccbb52786af0cb8bf47e2adb642b39e3610b7639dd58"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/gravel.json"
+hash = "a9731d05b5cf4c89593c7152916478e23399019975d47b4683c261c05177064e"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/jungle_leaves.json"
+hash = "d166025c881c05f063462ae2845caba36746197bdbbbe2adf57fd450e5610e70"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/oak_leaves.json"
+hash = "339e917592e0b12251db1467e6b02ce939f93b2443703ba873fe6c9871261eeb"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/red_sand.json"
+hash = "8a67cba3c90805f86689f895c0a91adc664430832deda8ccc3660a919201dc0f"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/sand.json"
+hash = "5e62d17eafdde458d7cd390b40b295c90f470b8311b5c91c7a54491ee17796c3"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/sand_waterlogged.json"
+hash = "5dd4fa0a79d4456064ace6bbff196cbdc63c2ab349abb42fa5d230317c840c4e"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/silt.json"
+hash = "59761ef13f6bd7cb1f0f6e5fd62d30ec6ffa5491e4930059e68cf1b44845f308"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/silt_waterlogged.json"
+hash = "dcfd96470df6552cb3a6117d6d38fd498cede41250b9733674e56a9185938225"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/soul_sand.json"
+hash = "99608b9566e7d33588d883d4eb8befa5a52e86b19bcac3d61272572ee56d2a8c"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/flint_mesh/spruce_leaves.json"
+hash = "feeff469e0a46341d0d2aef91eb8d25301c4d9f94f5d767e9fe134b79c9ec1f2"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/acacia_leaves.json"
+hash = "6224459fd6ce9c785b13493dbd65ee8d0de3f6dc2053f7ace745baef399ab979"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/birch_leaves.json"
+hash = "daa42981432060af0efcfb51f4a221eba7578bb4c76a0a3d465975431c77eb76"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/coarse_dirt.json"
+hash = "6e17dc3246062fe9641328013d34bb66bf4ed7f1b335869aea15f7a8cd5f21aa"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/crushed_end_stone.json"
+hash = "6fb140d004a8570573d9e55926d0086ccbf869f462eebfc76ead739865318e40"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/crushed_prismarine.json"
+hash = "726949ba6ee8dc8c39fc537be8ca5540d6aa44d7feb7a3b9cc7b0abae09ba8e5"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/crushed_prismarine_waterlogged.json"
+hash = "2397d64aee38eb4492bbe317cbf1d2aab0edb94bfcbe7bfb1536bc0677f3e91b"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/dark_oak_leaves.json"
+hash = "99a8eeaef2d94be7a25ce54fd2390b1e850762356247f467c5aa3776f2d717d8"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/dirt.json"
+hash = "e527c4782bcbae276166fe9a09b6579f74528ddaf383f63912ee629b91ab0604"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/dust.json"
+hash = "0918687bb5a5612e143740800cc4461155604e64c09cc2fb2f79dbb15c1cbac1"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/jungle_leaves.json"
+hash = "d03c58e9c6b77a9d6ec34863cc47b7e4e728258f4683293ae51b96f970c88cdc"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/oak_leaves.json"
+hash = "c8a1681d3b2f4dc912d8b8ce2e462527ed62cf585baa08db2173d31d2061c304"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/red_sand.json"
+hash = "83af77382fcb84c9c29cc8dc85e790745617b9ebae864d419c891654132d50fd"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/sand.json"
+hash = "ab807d7bf28f37cebcd0f0758ec79da7a5034412098e0c282e6ba264d5e4346a"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/sand_waterlogged.json"
+hash = "f576b9dc821d46e3eeb06a26458af8e6b224ddccbea7cccfc9e865277fa472a4"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/silt_waterlogged.json"
+hash = "2d35d01c03365d38f184b2ad08ad9409c430dd81de9d9c27a21c658cba01d864"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/soul_sand.json"
+hash = "e5c2e6d47d433ed7c0c63a0d4439ceb7ba9a4a1e47086ade8f23170f550132f2"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gold_mesh/spruce_leaves.json"
+hash = "d0c5a9f51b50e126f4cbf6ee3763a4b8ede03c3da512d0b48cd5527826c9d531"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gravel_andesite_mesh.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gravel_brass_mesh.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/gravel_zinc_mesh.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/iron_mesh/crushed_andesite.json"
+hash = "d6f10865670ccd8faac34fc9a54604693b5ae5fd3c09240495372ba23b58a3e9"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/iron_mesh/crushed_calcite.json"
+hash = "6c88bf6ca8bdaa74c382f2800cf18c4062edf11b32fd42c736664bb7bdd34fcc"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/iron_mesh/crushed_end_stone.json"
+hash = "def6e8d5c2bb8df0b2eba1d27394dceed15921b091cf25cc7e85f359c4654e79"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/iron_mesh/crushed_granite.json"
+hash = "c35c9c83a8860077fa229c2051d47bdeab24ba76a69798218f0fba848c67553a"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/iron_mesh/dust.json"
+hash = "0260524e53819a06025894bc41a38048ccf2b68a2657d9d65633a11ef0710ada"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/iron_mesh/gravel.json"
+hash = "09bf9983ce6b212b2ebd8d9e6afca28035b3110d9e8e16ed29759f25ed6a8736"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/iron_mesh/gravel_waterlogged.json"
+hash = "25fa642f4fc5c578517a952b8a2166245a689fe5bf00aaf9a5087db260c2cffa"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/iron_mesh/red_sand.json"
+hash = "b704c004694cd6647aa9734da4efa01bee4190213f89f02044660da265177cb4"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/iron_mesh/sand.json"
+hash = "1e9da95e7e0b0aeec648709e13a1bd6c6096ce69dc88a73c9288dafde89100d8"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/iron_mesh/silt.json"
+hash = "0142b1cd44b4ebce7070564ecb43effaa7a3ff1932d2f6d841fb4d3b05f1fe5e"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/netherite_mesh/crushed_andesite.json"
+hash = "4344def90ce866f5282e6e207f9a32920f6787922a6628ed52b61ebd8d7873cb"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/netherite_mesh/crushed_calcite.json"
+hash = "c5a1d3ca51491558e52a402350c31672922aba271480fa80b2cd45843e4ecbfb"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/netherite_mesh/crushed_diorite.json"
+hash = "876aacd87e43bda40ca87d4ffcbdc16cde751ce51bbe0ef984d3ddccb6ec26c3"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/netherite_mesh/crushed_end_stone.json"
+hash = "7b5f3f3ae95f45e39f1a481963d44ef16ff335f2408dd854e65bf2cd60ef3ca1"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/netherite_mesh/crushed_granite.json"
+hash = "7af91272be79753b06a8056df8442479368ca6d0aa69cbefd7cfa625d355f6b2"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/netherite_mesh/dust.json"
+hash = "dfdfa5f155fa87f782716cd826f365aa3d83da69aeca6cfdd74e412e2a16d1ce"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/netherite_mesh/gravel.json"
+hash = "8972dc1fd029ee7dd2d2a80687d7b18cf0af552f7e31cf01ba520ccc2d5e8ce4"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/netherite_mesh/gravel_waterlogged.json"
+hash = "69fd25e3d113632dc3f1c244ca3f91559e08823b45abaa71189a6d58d12d15b8"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/netherite_mesh/red_sand.json"
+hash = "a752d6144f06d064b71c94d4070d201b429635941ca0e2f7f8507d8dd6ab268e"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/netherite_mesh/sand.json"
+hash = "2122752aa281459254aa97c3ed38a4d7eab194f97de828f8340ccf74afcddac1"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/netherite_mesh/silt.json"
+hash = "c17f04e79ef5a5b107a9eb1fa80bbcbc911cc3e09f4532400e5f219994b5bd42"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/netherite_mesh/soul_sand.json"
+hash = "526a57ea7437992a7c5009c55d8b6eaa515e21bf9909dd104fdc49dd7e8e9fb8"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/sand_andesite_mesh.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/sand_brass_mesh.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/sand_string_mesh.json"
+hash = "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/sand_zinc_mesh.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/string_mesh/coarse_dirt.json"
+hash = "560cb8fcf02ce361e84f0532f0984568875cc820b07c512d5e894a54b1aa3d5c"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/string_mesh/crushed_netherrack.json"
+hash = "49ff9f916b58d419ede629a64bb8e6d07e05ea8746002b402d0d31f74a7f75bb"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/string_mesh/dirt.json"
+hash = "cfcccb8d190f67f32a57b9d81cc7200349eb90d94f4d63869de8504b649dd5a8"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/string_mesh/dust.json"
+hash = "5e6429b1c172ae79f8b2de8cd6842a5fccb39ae32d6861a98204b6a4f5d82146"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/string_mesh/gravel.json"
+hash = "47d98e54d8a88d7e0f02b138015dfec07bb206e3c37b4a007e6a7fd891c228c8"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/string_mesh/sand.json"
+hash = "69a6043461327fd35c0be68ab474e0c6be4f0bc545f127d64669422db45cc562"
+
+[[files]]
+file = "config/createsifter/recipes/sifting/string_mesh/soul_sand.json"
+hash = "2b1adac5b608fb031863ad4d565a24933aadb884543bf8c3a167b94a7e7306ec"
+
+[[files]]
+file = "config/createsifter/recipes/string_mesh.json"
+hash = "7784d5f86b4958c7d11c7102aa5cb158a444a3ffcbbf43cf8e59bf0f7fb0c1fb"
+
+[[files]]
+file = "config/createsifter/recipes/zinc_mesh.json"
+hash = "4e91b4c07a93b318e140733f7f13dc5f632186a9908f0311c81d4ecf71740699"
+
+[[files]]
 file = "config/croparia/croparia.json"
 hash = "ea4e827600035d4e98f0421ea23db9449511b88c6ab603004bc94786e0838885"
 
@@ -1446,111 +1946,111 @@ hash = "a71d41c58b95146679e3d8cc7219b619dc4a5f795eb453190298d29b524a0499"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/adventurer.snbt"
-hash = "3a4ed6e43487115adbc29d6edd5b5bdc32dfbd66d04cfa7501a359900f8459b8"
+hash = "0350de94847cf5a1accdb197311d5cd3c8b948f80ab842efee2d170448d474b8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/agriculture.snbt"
-hash = "54380be7653b1c25480b0e28f96d454dab979ecc9fa24697f12f6827d27ac9ff"
+hash = "db32df64d6a976ee444d797546a4461efe2935500a04e2d68f22b646176253fc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "98cc7ffbab172988754024ac71db665d015de5466bc9dec510cb56e04804ca4c"
+hash = "4e3a751410082e80da01ef4ac54caa8193b4b5867838e9cedbf857c67b5820a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arcanus.snbt"
-hash = "62631b05940f8295c3e0738f8cc31bfec06dd32e8f12a937dd08829f0d166fcf"
+hash = "a375e5575be91b4d34e7be8961c600e606526e146e130df41d3c90e6762ecbb9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/automatedtasksandtriggers.snbt"
-hash = "5f8ac7bb1b7dbf4a0f11158951567ce39c5d30100157f8ee7176faa2497b062c"
+hash = "9d17d460c9c478acb35ab5fd46246cff3751cf40528120d9ea789ce3bc412cc9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bewitchment.snbt"
-hash = "e56e7600bcb4ce6231d4a2d61a88f2e97427981a7177737ea2154cb8df9161d1"
+hash = "8d70a85e6fb6ffd84d9c30cd52ed88495d330bd23ebf4b565b0760183aa411ab"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/botania.snbt"
-hash = "3bbfe9a72916278bc9a44eb9a3094625bd1c902d097ad1de81dc6b1204f5cc82"
+hash = "10e79c0feb5cf031a9aeb9ad3cd40ab1ff0be0ff9ead7ed26e1ce5a60bd4e58c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/conjuring.snbt"
-hash = "a13e4d9e61ed1efe2474c48c0d5ade7542f2b560502af0994ec66af630aacb56"
+hash = "6ed5499c548676179700483bae297287467f05bf574df2366062ee0f87cf5765"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deep_mob_learning.snbt"
-hash = "f8f01b04df2936247ae7e990f913bc534271984de7fca0396e1c59940894d065"
+hash = "93ee9efcd981cb7ed3b6a5d8d799d7f25f1ce37a09f5d5806e9cdd295e9d44a3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity_age.snbt"
-hash = "ce0bb51b58b20b18423c1f1c16b3ed70340d8357bfc095f0fbf724dd72208d40"
+hash = "4a3a243ec9815b300f030255e981cf9757eb7367a35e5b45811ec61f08fdc14f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/endgame.snbt"
-hash = "0b13603a8e8739ed67b073346bcae7042a659145183fff65f19a07e72a2b937a"
+hash = "a313233fe3219c2ffabda34fe91b8884b9f7a03a5592466722741a2662006d27"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gadgets.snbt"
-hash = "25cf13889eb97ec188d0e790bc49003e0270c1bd1ade946f2dd9b105e20c3eaf"
+hash = "4dcfa2c9076e68860e141a7b3e3298556a71ad2288cd6e939a18eac18b68c70f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
-hash = "3edd520c4d05e9d2f9a81ad2d65fa2232cde5f74a6a51532dede44f4b08c5555"
+hash = "2f93fdc0bc4e61f93a484b1ddcf54b3447e7dfaa5ac6c2916873a8190684ba2b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_revolution.snbt"
-hash = "a78ed59e445166a534cfd6a37e1e659f39924b332ae4475fe945ae260653982b"
+hash = "8dc8ca17a89f8c3a5a54cfbd9902ada766ae151046b5941300e80cd5bad2fa47"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/infinity.snbt"
-hash = "602785da61a5e5d64d9f7c6af786013b511d88d6f0aaaac4eef69077df250b1b"
+hash = "c4bdafaa515cbdf4dae92cde6b496c316bc930114ea79d24801a587e000d0423"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kibe.snbt"
-hash = "3fe6cbaf9bea2ef068c4b8f51b1abba79f6b4e2d2fd70b6865be0689dfd09baa"
+hash = "17007fdb1774e73b6504e325982c8226345815c15b64bcc0f088d1b1d596906c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mechanical_age.snbt"
-hash = "303c99ec30a4d86428a799d4ffc43f03937312350ab57f3ad8b70438b58c50ca"
+hash = "ea768a8e32661ec523c26945228fe02fe9d91486c1b33b6d7faf0ef4d1ead8d3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modern_industrialization.snbt"
-hash = "46221426ae383dcb64ecc07a259fc226fc4480f7859e3d5b5c25c22e30d01f36"
+hash = "fc700d74d833d21e7ddc89aa261751e722f7995783cf30d00d171c4f51941799"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resourceful_ways.snbt"
-hash = "1f90c9cd949618a6a3be630527710cbda58db7029411e539cb037d24f4bfb748"
+hash = "69498a99136505cccff256ea6da0acb7b10585d0e2fef2bef5c1c612e0719e48"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simple_storage_network.snbt"
-hash = "4681ba016b85d1d1dbe9de27b776889d6bf46e32d932317c01a514a3163cbedf"
+hash = "98538aa54d452606b451c733aaa2437ad0cc5de1ed86f10c5583debb5e2163c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spatial_harvesters.snbt"
-hash = "bc3d4eea4e3506b41f051c21254a292f4fbda0b30581f7ee0539681eb4096045"
+hash = "cb656427e46b7bc855f07e0dd9ac058392704fe7e1de005692e5ed0b2b8fa44a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spectrum.snbt"
-hash = "e865505b40d638c7f3f440482f0903a264e13eb178ce2242fb06aee58a73c575"
+hash = "dbd336dde10da0cfc2da817b796ba213424c709dc8ef5382de56e9132c298d55"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spectrum_unlock_progress.snbt"
-hash = "7c05d74016992f12b7ab79d9252cbdcf47afeef88a8c0a396da340e3fb1d7139"
+hash = "baf6d940012ecced754724ce5d04b02ab93a5ca137ae8a4f23b1b4812a80682f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
-hash = "b0f04ac21d3f96858748e70c611eb3b851f2bc6302739e010b956d665003c876"
+hash = "4ee300129cd143a8613aa042bf8755f7bbc838cee9b659d502cb893c7d1c4099"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tech_reborn.snbt"
-hash = "5b92a28c40a6d6965fd8a7a22e0f174b3782a1d197fe8edf68f30bd2657f38e4"
+hash = "35087e1573ad495c103b4fde56c4e26c84f75c9cb40ef3cf7e3f48b8d0d51793"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_beginning.snbt"
-hash = "eab896f12807287ac8750bd743c003829a58eefd6c086ff7505d8e2faf2f26e2"
+hash = "48d3338d87c3cef845807182afb2ae25fcbfc459473159c337c3bb2436c43dc2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tools_and_armor.snbt"
-hash = "fa867ac7d0b00cb1f703f5368d264d12d32b5f0d6a7ca672179e41681b7fc0e5"
+hash = "a1837f6b4ecf7d9b3c52fb58cf8e64cb2af14dddcd86641e749175ef65c1c2be"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -2617,6 +3117,54 @@ file = "kubejs/assets/cacao/lang/en_us.json"
 hash = "3ce536b0305935cdad13e1a434abe1a6b92bce4ce4ed2ddf50dbbee1e70454fe"
 
 [[files]]
+file = "kubejs/assets/createsifter/lang/en_us.json"
+hash = "5ef133368157762a6aaa15b997c123d861b2671461f64ed34dfa9e03a9529f26"
+
+[[files]]
+file = "kubejs/assets/createsifter/textures/item/andesite_mesh.png"
+hash = "a5a6ad017a04ae1b036fd69bcca9d0c337a04562b132529ffd6041e3fa404701"
+
+[[files]]
+file = "kubejs/assets/createsifter/textures/item/base_mesh.xcf"
+hash = "968d325d335b5657a5641e5422f9ebeaf8cc3ab2959199a61dac764ff93609b7"
+
+[[files]]
+file = "kubejs/assets/createsifter/textures/item/brass_mesh.png"
+hash = "e12f962d054fe2869a3a2743e5ce4592eda338318634e4a2c2dce0dd02deb72a"
+
+[[files]]
+file = "kubejs/assets/createsifter/textures/item/carbon_mesh.png"
+hash = "927a4103726e9360ba27b531e7dd73c92fff93e359028222f3fb10330de94278"
+
+[[files]]
+file = "kubejs/assets/createsifter/textures/item/copper_mesh.png"
+hash = "e03c50406785285b2ac61c11f1fec95e6c8fe12e93006fd64a33ba2975595564"
+
+[[files]]
+file = "kubejs/assets/createsifter/textures/item/custom_mesh.png"
+hash = "927a4103726e9360ba27b531e7dd73c92fff93e359028222f3fb10330de94278"
+
+[[files]]
+file = "kubejs/assets/createsifter/textures/item/diamond_mesh.png"
+hash = "56ae70934c868a1a034eb53150b94637dbca2b35e21c07f9bf664de7b5579e05"
+
+[[files]]
+file = "kubejs/assets/createsifter/textures/item/emerald_mesh.png"
+hash = "052eadbeaa5bea823d91c052126f3bf17773d728d8ceda3fcc383ea29e5f861f"
+
+[[files]]
+file = "kubejs/assets/createsifter/textures/item/netherite_mesh.png"
+hash = "317533dd7a5321f536f9e4d8278f6f4f98d8bf3ec05c9e954437139d18f1ce66"
+
+[[files]]
+file = "kubejs/assets/createsifter/textures/item/string_mesh.png"
+hash = "35db61de460aa43f1411e29935e589770e915cefa205e20ae3565aa9535d7c8c"
+
+[[files]]
+file = "kubejs/assets/createsifter/textures/item/zinc_mesh.png"
+hash = "b7ecef1da502a344dc814034bf087a31793b8c5c663b0025d51a5550829175ca"
+
+[[files]]
 file = "kubejs/assets/fabricaeexnihilo/lang/en_us.json"
 hash = "ec2dc932c2b6268eabc78a6227706cb0d1a0e61f0ee38cb355ebdbfa1af24bd2"
 
@@ -2702,7 +3250,7 @@ hash = "a441b7095783e20abcc99704cc57520b57a6d463857579fa660d22be604e2f27"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "c25d96f3be768a79147a9d85e4923ca23cae2bc4c7f9990dd5337b05d5773d40"
+hash = "1e58709b9d42deebc439abbb588134a40525e5a9fb1bf906850cf6f0310b7345"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/crystal_matrix.json"
@@ -2873,6 +3421,26 @@ file = "kubejs/assets/kubejs/textures/block/block_gaia.png"
 hash = "56e2c3f58bb0525c4820bcafb5c780d142e925c3874afd1c2aa39d4bb684352e"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/compressed_quartz_block_1.png"
+hash = "ea5dd4c47956882284d3119ee1e93dd6f39d65bd9952f32d49393e9ab44fafe6"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/compressed_quartz_block_2.png"
+hash = "debc17e266116d72f955ea050f227b226015322bf8317719edb4d2a35d0fd41b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/compressed_quartz_block_3.png"
+hash = "f6f0ac29d68d2b46122c8366c106357b9f80ebbe04a18c22611e969692854107"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/compressed_quartz_block_4.png"
+hash = "8adc43c95f5b0e765caeae5c9a00de863aff51736c15ba91f26d2ec6b739a619"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/compressed_quartz_block_5.png"
+hash = "a1ca546e2eef662542a35c86dcba716f2cb344c9ed2e6f5c3acd2dd73e94f70a"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/crystal_matrix.png"
 hash = "40382ba28333bd51fa16f56b1a49d2b894f00bfdcd6f1196e6b96786b13e233b"
 
@@ -3019,6 +3587,10 @@ hash = "7cfd3b94eafbaa436a53038ae31fb5200b8b76d30f65ca34cae73ce7028cad06"
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/Podzol.png"
 hash = "a0115fce5a2ad01a0344d5fe954d7b0b306fce91a08f6624e495efa3b3bb6fad"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/alloy_forge.png"
+hash = "e56e1bb308af6e5a2c3ffe63758722bd25a955dc5417f70bb42d14d7d494955a"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/base.png"
@@ -3393,12 +3965,16 @@ file = "kubejs/assets/minecraft/textures/gui/widgets.png"
 hash = "d57addac0c5a574ca8bf7813aa0578d872f59a8c66019ad98046d9a076637d1e"
 
 [[files]]
+file = "kubejs/assets/questsadditions/textures/structure_icons/alloy_forge_s.png"
+hash = "e56e1bb308af6e5a2c3ffe63758722bd25a955dc5417f70bb42d14d7d494955a"
+
+[[files]]
 file = "kubejs/assets/spectrum/lang/en_us.json"
-hash = "6e3cff383a3538945e82703d593d2723a3265fac1aeb743d0f1df838104d8053"
+hash = "61a975d06586414403c04731f72396ebaa392bebbb99dc36fcfa00e9cb2b5de6"
 
 [[files]]
 file = "kubejs/assets/tconstruct/lang/en_us.json"
-hash = "64cefee64cdc154337b5f9f591338773d0a4097f33c4ffccbbce0418907db6d6"
+hash = "e5953c9b49f1b74e69a6d0e8413e5637bbaf83f509580e57be12fc7f7cd73054"
 
 [[files]]
 file = "kubejs/assets/tconstruct/textures/item/tool/armor/plate/boot_modifiers/tconstruct_embellishment_broken_tconstruct_aluminum.png"
@@ -8746,7 +9322,7 @@ hash = "a87d7d9d6b4a87b65396e7ea5c3e581f24a1dfcce14017f07be6e0cde47f1ceb"
 
 [[files]]
 file = "kubejs/assets/techreborn/lang/en_us.json"
-hash = "91a43be4b9024e5eeafd409d3f02e836241f615d4cdd8380a4603d16bdd81ba3"
+hash = "c888d8c7a00431c569e05d98ca704109573ef50d73d35d0a18a0d635a78d7866"
 
 [[files]]
 file = "kubejs/client_scripts/rei_removal_script.js"
@@ -8758,7 +9334,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "0c49ed3dc61900fe9fd5d305f0538ba828c728d9fbe3dff63abb16d88d21c130"
+hash = "f74a3776684dbb5d746cb2fa30e175555091497aae4b3f4ff09afaf061c8595c"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -8901,6 +9477,78 @@ file = "kubejs/data/alloy_forgery/recipes/bronze_ingot.json"
 hash = "5dbb3e3d99ad1486f2615d9766843df261ed621978c449e507de068a7812856b"
 
 [[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/brass_from_ingots.json"
+hash = "5aa3a07c504e38a4aa46acccd61be63a1084cc23771a2d281e573f3479c88605"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/brass_from_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/brass_from_raw_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/bronze_from_ingots.json"
+hash = "835ae5f3f78887ecb3f1dea79b0b8fc545ebda3ec20b586a844971689c0d947f"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/bronze_from_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/bronze_from_raw_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/electrum_from_ingots.json"
+hash = "cb6368c62b07fb87df681838cd7b2c4ca41dd73664933ab3104b9a3282139d3b"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/electrum_from_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/electrum_from_raw_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/invar_from_ingots.json"
+hash = "9c4d0dac7491eba63a061c6816fc3923df9bcec976a4613da68ae04cc546da68"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/invar_from_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/invar_from_raw_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/steel_from_ingots.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/steel_from_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/alloys/steel_from_raw_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/aluminum_ingot_from_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/antimony_ingot_from_ores.json"
+hash = "9e73654d6a42e30215651e9a1754c029b7ce12e51f169251ff3a383222e15ad6"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/antimony_ingot_from_raw_ores.json"
+hash = "8be992f2a7d195c881c469f306fa99dd2e7fb401920b2b286db92b34e693bba8"
+
+[[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/iridium_ingot_from_ores.json"
 hash = "64b1c7783b1787645974af11ee132a21e0aa45fab08e9d2c0cbe778f013f3c2f"
 
@@ -8917,12 +9565,28 @@ file = "kubejs/data/alloy_forgery/recipes/compat/lead_ingot_from_raw_ores.json"
 hash = "c5fafde58f33de4f76c2cfa10f29af4a204ef7fa4ff89f5f64c6276e6fbda7ea"
 
 [[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/manganese_ingot_from_ores.json"
+hash = "3922e28a7209086454f1b8ec6e6dc834e4ea816d425466123c9788584a582a85"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/manganese_ingot_from_raw_ores.json"
+hash = "560d1e6d5eb0cc562ab9c819c3ddd46e32f4f76d2990fa6819fd6fa0c0e55945"
+
+[[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/nickel_ingot_from_ores.json"
 hash = "aa9890ab4e548bd0751c5d31583a991b6afc5ffd5ffe8928ec28799310a0b545"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/nickel_ingot_from_raw_ores.json"
 hash = "bbd0a288844cdd21f879a7967c10733afd9d67c2b286f5fb07b8120ba92b163a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/platinum_ingot_from_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/platinum_ingot_from_raw_ores.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/silver_ingot_from_ores.json"
@@ -8957,8 +9621,44 @@ file = "kubejs/data/alloy_forgery/recipes/compat/tungsten_ingot_from_raw_ores.js
 hash = "4584d4d7f945a368a5b1f497e11d5147270d2ee2c03baf46f5724e297b01f50c"
 
 [[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/zinc_ingot_from_ores.json"
+hash = "dea468ca41d497b6b19b87bcf7521858d4ae7db5a2d5398105140a1c09f124a9"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/compat/zinc_ingot_from_raw_ores.json"
+hash = "4c4ef21477902ef64975e27bf40acd2c70564a68bbc61c778b1c4f3e51bcdc02"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/copper_from_ores.json"
+hash = "72088f112517c1f2ecef6f05244df0ee02ec3246cf20f06d0930f0992dd3f162"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/copper_from_raw_ores.json"
+hash = "b418ea056101d3700a5a2932fe4583c4f552a7a3b8af20d89ebde94b6d9eb2df"
+
+[[files]]
 file = "kubejs/data/alloy_forgery/recipes/electrum_ingot.json"
 hash = "6a1f09b35f5812e8b8ab28604236b185f72ca55cd00a11fc9f4244173b4542cc"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/gold_from_ores.json"
+hash = "bd20c4f4f83cf41a6c40141d5eaeebe1aa7cc8d866a158ee4bc146d3a774c630"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/gold_from_raw_ores.json"
+hash = "4ff88b4dc0e690d01b31c9588b39af0aa7bffbf7500bacc116c808087ca08fad"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/iron_from_ores.json"
+hash = "320af98d0b686eb6bcb7b4bb2a04d5b999a93e6b708f22877a3ba0f56c52d329"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/iron_from_raw_ores.json"
+hash = "1130cd70df567f636fcf0d5b9f9ee6375bfcd3f05432501f28b28dff5fc1d843"
+
+[[files]]
+file = "kubejs/data/alloy_forgery/recipes/netherite_from_gold_and_scrap.json"
+hash = "62ba773656e32a918558cba7b190e38091ac6486646c31e36fbdd80dcadf65fe"
 
 [[files]]
 file = "kubejs/data/appliedenergistics2/recipes/decorative/quartz_glass.json"
@@ -9311,6 +10011,506 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "kubejs/data/createplus/recipes/modern_industrialization/mixer/limestone.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/andesite_mesh.json"
+hash = "6ac9f2ec763d4c74a6d2a697400f8503f94952d7d841157e1d504fbf0fda7c83"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/brass_mesh.json"
+hash = "97fd5fdb0cf963af86b96410780d87829460d0a524e05ee6df4d0e1f7fa00820"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifter.json"
+hash = "7a494be015a34dacf749151e81eb591adc5c3a9869e659f841a41e414063cd7e"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/carbon_mesh/crushed_end_stone.json"
+hash = "96f52190952a70ee3c9fdfc2625b0f752e692244306500e9e2b5365f9ed71da8"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/carbon_mesh/crushed_prismarine.json"
+hash = "c5dfa016c79df67b4efa33f2b918fca7fac9eec98d784901bf47858417d84f71"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/carbon_mesh/red_sand.json"
+hash = "74b89697d275de54ee387980df660897be00e5f001821232a668845e832ea8a9"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/acacia_leaves.json"
+hash = "ac67bcf4dbfa3446e8e35cfdba4f0b6f6e271fd1122bb53640b8c9b395b381a3"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/birch_leaves.json"
+hash = "19ad4a69abc3bc81ebf2fe5ce34f57b4bf7ad133cfaccd617ebcbb1309d85797"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/coarse_dirt.json"
+hash = "4439de1e0d42c255de5e249f6af42815f61fca36c0c0822057b5b502cbf9d61f"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/crushed_end_stone.json"
+hash = "de099b406d353e3e0813ae5be34f22b873c967e3165363a98072d39f52896a20"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/crushed_prismarine_waterlogged.json"
+hash = "1d719532d27e8960227ee254ea1e592d511ba5bb0ce63579760e94138b0396f3"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/dark_oak_leaves.json"
+hash = "73d5be26ae2bbbe9433ae736998234148ed2aa6e8fe326699853cbbe30b8df72"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/dirt.json"
+hash = "2b5e385637be604b3ab0bde4ff51ce2d2917c8fc6193b316380658072e6ea52f"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/dust.json"
+hash = "4d5f92f1af36b0911067635203efe573303d76eadc55d5b86cfa854d5b474ab0"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/jungle_leaves.json"
+hash = "a74f378578e006df935d7031fa937ce4d7022ab3b48802cb815797322bd73a25"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/oak_leaves.json"
+hash = "4fbc47e8530fd2ee057f318bb7db3c5a36c57a098ac0cd634bcc2c6ad69fbbc5"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/red_sand.json"
+hash = "7dcfaba02d46c78060f00ce4c81dd3b7a94fe5b612d08c6b6be85c2b952d82d1"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/sand.json"
+hash = "833e1a35d19a7e5ef65a121134b129239c48ff8a70cffacf4398feee51a85f8f"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/sand_waterlogged.json"
+hash = "aa7f01b2e73b54526e44726e124457a2e4ff1fd24a458e5caa227b1622807102"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/silt_waterlogged.json"
+hash = "8a96e09ac1590980668a4212b0a8506d75c370201b5da093b534d1b9fc77dc82"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/soul_sand.json"
+hash = "4aed82c10033acd9fb4dbb783652e900e83fef0868f2ae21c88a28dffd61124e"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/copper_mesh/spruce_leaves.json"
+hash = "faf8343f7a4218628eeadf66bf12f4998732e4b06cbdcd042f7fdbe5b1194bff"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/diamond_mesh/crushed_andesite.json"
+hash = "39c4e20d39f9e4e3e3303e8aa08e29dd8ebd440650ff13d29ebd4fe6dd048ab4"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/diamond_mesh/crushed_calcite.json"
+hash = "db18988602ef1898992e1870bea0721111b57595c92082e6defbab421ca8f06a"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/diamond_mesh/crushed_end_stone.json"
+hash = "303db4fec3de5b72246b6142753b26b170df9cbdeeef53b65323981b33c1f81c"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/diamond_mesh/crushed_granite.json"
+hash = "4d7fb759869bab2859b528043ba7d77d5ddfb25c87e24be2904369164b5346c4"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/diamond_mesh/dust.json"
+hash = "fa4e12411a5b5370aa35294afd9baa0db8649eba42449cbf291db789c1c57635"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/diamond_mesh/gravel.json"
+hash = "00d269f1179b713e41ef93246f51148ec19aa6705b912c8dec61bda156ce627f"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/diamond_mesh/gravel_waterlogged.json"
+hash = "4e18ef497ff3a2f1492360733fd48c80315a7cc24f09c168adefb7681cabfef8"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/diamond_mesh/red_sand.json"
+hash = "a66a4b1571d93cb2ee07bb7688a753c0141f8e10174947fe846905275a9ed523"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/diamond_mesh/sand.json"
+hash = "c4ed8e9e95181f20530e3a972555f1f4ba92d4abd18bb1c8d070ddb98a57153c"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/diamond_mesh/silt.json"
+hash = "ab1d5b93348ee92bab17da93cee744cf6600da8bdd5dfeffef4fadbf52b67bd0"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/diamond_mesh/soul_sand.json"
+hash = "53f37940572cd25d41379393eef07144dd2a2900ce3dc7dd90305721aa6ced90"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/dirt_strig_mesh_waterlogged.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/acacia_leaves.json"
+hash = "5c5c781ffaf1e47558dedbcf1ce9baae7c01310f180ba387b421d42e4ec3dbc0"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/birch_leaves.json"
+hash = "be3981f8fe490d2cbf726f5e5799c80e9fced4df962c9176b16f3c3d1913e7fe"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/coarse_dirt.json"
+hash = "04a9410bab5153969e215a9e5c40049e7c0593aa03cb0de4279b09f63c991345"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/crushed_end_stone.json"
+hash = "1df9098b63355fb301f47d3c149a83ea74c5a225e9540b8c445c6f7d7198ca56"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/crushed_prismarine.json"
+hash = "6145f108afa341ca80e33923b5aa4227a369318d6799415030a150225dcd0518"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/crushed_prismarine_waterlogged.json"
+hash = "9c60f2103a6e9e5ecb06892f81b36bd640b2496f844186fd08e2305c3b2ad189"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/dark_oak_leaves.json"
+hash = "5fe28af6660cebfb0dd86c24f7bd4213bdcc2ecaa1346fc94a49fd4754a2bfce"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/dirt.json"
+hash = "292daad4a3369f0f0efa09dcdeb7f83d1048534ca7861d1102ccd21da63e9002"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/dust.json"
+hash = "d22ad352604e13de76907aa97fe8804ea0905fc138e068c2c3b6353e2e57a258"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/jungle_leaves.json"
+hash = "398a521c388f85e923ef7a4b4e5051c03e2dee351751bcea1b47ee574098d5e3"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/oak_leaves.json"
+hash = "e8719eacbd7e9678d153789dc1911fcd32183d6fb4d42e49e093d9b11d28368e"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/red_sand.json"
+hash = "83c70aa198d99c2a434b9c2a7015c862fbe3e3b58c598c8d7e846a3e00cc22e4"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/sand.json"
+hash = "6172bca89968c1c26e6c4df969d3f582ef6c769433db72f098d673523351e730"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/sand_waterlogged.json"
+hash = "2900c15340a0a72a79f4145c37e916e495356d74097745752319460c8b452a15"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/silt_waterlogged.json"
+hash = "b3738e13e6626c193df49ba02511aba433d9e2cff72390d48117e49782773bd6"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/soul_sand.json"
+hash = "ce14f3b9073cc1c8632df3cbcb26791102620dc0ae0abc203d298d5282c0af43"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/emerald_mesh/spruce_leaves.json"
+hash = "a6fb04fd4af6299a21f3aeaf1650ffc7dcccf0d4202ca9e635bead3165e67c22"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/acacia_leaves.json"
+hash = "7c74447d605ade1d60feb2226228c9d27cc93e6b3177d4939c7a5fde33d98974"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/birch_leaves.json"
+hash = "675b33e668b96d67248547f6c21b1c2e7e3f99901146a81949d0ed8cceee0607"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/coarse_dirt.json"
+hash = "9fd65ac77908310a6f33c1596b1d3fbf963f57da5b51b3f0b60a3a0322f2c120"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/crushed_calcite.json"
+hash = "867b047274f61ac5c99f2115d2b462d6826b11c7cb9ea329b332573182c1fa5f"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/crushed_granite.json"
+hash = "23e289120fc9bed8e5e3486b1e6640f9553ebca32e3930dab9fff2f5592c3735"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/crushed_netherrack.json"
+hash = "b40a88e9f95ed309d2d181c08f042038454a02ece6d68f547ddf8ff50c4e5ecc"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/dark_oak_leaves.json"
+hash = "12a365282da2a8ce4e668ba0dd9e538093239f7e6f874ce356a0fa34b97a4f89"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/dirt.json"
+hash = "d31a5c067cd2d100f60a9ec1777d7a894b16414e63253a659ad29c55e81ae892"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/dust.json"
+hash = "d53b4faf5d758fa777b4ccbb52786af0cb8bf47e2adb642b39e3610b7639dd58"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/gravel.json"
+hash = "a9731d05b5cf4c89593c7152916478e23399019975d47b4683c261c05177064e"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/jungle_leaves.json"
+hash = "d166025c881c05f063462ae2845caba36746197bdbbbe2adf57fd450e5610e70"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/oak_leaves.json"
+hash = "339e917592e0b12251db1467e6b02ce939f93b2443703ba873fe6c9871261eeb"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/red_sand.json"
+hash = "8a67cba3c90805f86689f895c0a91adc664430832deda8ccc3660a919201dc0f"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/sand.json"
+hash = "5e62d17eafdde458d7cd390b40b295c90f470b8311b5c91c7a54491ee17796c3"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/sand_waterlogged.json"
+hash = "5dd4fa0a79d4456064ace6bbff196cbdc63c2ab349abb42fa5d230317c840c4e"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/silt.json"
+hash = "59761ef13f6bd7cb1f0f6e5fd62d30ec6ffa5491e4930059e68cf1b44845f308"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/silt_waterlogged.json"
+hash = "dcfd96470df6552cb3a6117d6d38fd498cede41250b9733674e56a9185938225"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/soul_sand.json"
+hash = "99608b9566e7d33588d883d4eb8befa5a52e86b19bcac3d61272572ee56d2a8c"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/flint_mesh/spruce_leaves.json"
+hash = "feeff469e0a46341d0d2aef91eb8d25301c4d9f94f5d767e9fe134b79c9ec1f2"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/acacia_leaves.json"
+hash = "6224459fd6ce9c785b13493dbd65ee8d0de3f6dc2053f7ace745baef399ab979"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/birch_leaves.json"
+hash = "daa42981432060af0efcfb51f4a221eba7578bb4c76a0a3d465975431c77eb76"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/coarse_dirt.json"
+hash = "6e17dc3246062fe9641328013d34bb66bf4ed7f1b335869aea15f7a8cd5f21aa"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/crushed_end_stone.json"
+hash = "6fb140d004a8570573d9e55926d0086ccbf869f462eebfc76ead739865318e40"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/crushed_prismarine.json"
+hash = "726949ba6ee8dc8c39fc537be8ca5540d6aa44d7feb7a3b9cc7b0abae09ba8e5"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/crushed_prismarine_waterlogged.json"
+hash = "2397d64aee38eb4492bbe317cbf1d2aab0edb94bfcbe7bfb1536bc0677f3e91b"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/dark_oak_leaves.json"
+hash = "99a8eeaef2d94be7a25ce54fd2390b1e850762356247f467c5aa3776f2d717d8"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/dirt.json"
+hash = "e527c4782bcbae276166fe9a09b6579f74528ddaf383f63912ee629b91ab0604"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/dust.json"
+hash = "0918687bb5a5612e143740800cc4461155604e64c09cc2fb2f79dbb15c1cbac1"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/jungle_leaves.json"
+hash = "d03c58e9c6b77a9d6ec34863cc47b7e4e728258f4683293ae51b96f970c88cdc"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/oak_leaves.json"
+hash = "c8a1681d3b2f4dc912d8b8ce2e462527ed62cf585baa08db2173d31d2061c304"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/red_sand.json"
+hash = "83af77382fcb84c9c29cc8dc85e790745617b9ebae864d419c891654132d50fd"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/sand.json"
+hash = "ab807d7bf28f37cebcd0f0758ec79da7a5034412098e0c282e6ba264d5e4346a"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/sand_waterlogged.json"
+hash = "f576b9dc821d46e3eeb06a26458af8e6b224ddccbea7cccfc9e865277fa472a4"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/silt_waterlogged.json"
+hash = "2d35d01c03365d38f184b2ad08ad9409c430dd81de9d9c27a21c658cba01d864"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/soul_sand.json"
+hash = "e5c2e6d47d433ed7c0c63a0d4439ceb7ba9a4a1e47086ade8f23170f550132f2"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gold_mesh/spruce_leaves.json"
+hash = "d0c5a9f51b50e126f4cbf6ee3763a4b8ede03c3da512d0b48cd5527826c9d531"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gravel_andesite_mesh.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gravel_brass_mesh.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/gravel_zinc_mesh.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/iron_mesh/crushed_andesite.json"
+hash = "d6f10865670ccd8faac34fc9a54604693b5ae5fd3c09240495372ba23b58a3e9"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/iron_mesh/crushed_calcite.json"
+hash = "6c88bf6ca8bdaa74c382f2800cf18c4062edf11b32fd42c736664bb7bdd34fcc"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/iron_mesh/crushed_end_stone.json"
+hash = "def6e8d5c2bb8df0b2eba1d27394dceed15921b091cf25cc7e85f359c4654e79"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/iron_mesh/crushed_granite.json"
+hash = "c35c9c83a8860077fa229c2051d47bdeab24ba76a69798218f0fba848c67553a"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/iron_mesh/dust.json"
+hash = "0260524e53819a06025894bc41a38048ccf2b68a2657d9d65633a11ef0710ada"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/iron_mesh/gravel.json"
+hash = "09bf9983ce6b212b2ebd8d9e6afca28035b3110d9e8e16ed29759f25ed6a8736"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/iron_mesh/gravel_waterlogged.json"
+hash = "25fa642f4fc5c578517a952b8a2166245a689fe5bf00aaf9a5087db260c2cffa"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/iron_mesh/red_sand.json"
+hash = "b704c004694cd6647aa9734da4efa01bee4190213f89f02044660da265177cb4"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/iron_mesh/sand.json"
+hash = "1e9da95e7e0b0aeec648709e13a1bd6c6096ce69dc88a73c9288dafde89100d8"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/iron_mesh/silt.json"
+hash = "0142b1cd44b4ebce7070564ecb43effaa7a3ff1932d2f6d841fb4d3b05f1fe5e"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/netherite_mesh/crushed_andesite.json"
+hash = "4344def90ce866f5282e6e207f9a32920f6787922a6628ed52b61ebd8d7873cb"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/netherite_mesh/crushed_calcite.json"
+hash = "c5a1d3ca51491558e52a402350c31672922aba271480fa80b2cd45843e4ecbfb"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/netherite_mesh/crushed_diorite.json"
+hash = "876aacd87e43bda40ca87d4ffcbdc16cde751ce51bbe0ef984d3ddccb6ec26c3"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/netherite_mesh/crushed_end_stone.json"
+hash = "7b5f3f3ae95f45e39f1a481963d44ef16ff335f2408dd854e65bf2cd60ef3ca1"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/netherite_mesh/crushed_granite.json"
+hash = "7af91272be79753b06a8056df8442479368ca6d0aa69cbefd7cfa625d355f6b2"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/netherite_mesh/dust.json"
+hash = "dfdfa5f155fa87f782716cd826f365aa3d83da69aeca6cfdd74e412e2a16d1ce"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/netherite_mesh/gravel.json"
+hash = "8972dc1fd029ee7dd2d2a80687d7b18cf0af552f7e31cf01ba520ccc2d5e8ce4"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/netherite_mesh/gravel_waterlogged.json"
+hash = "69fd25e3d113632dc3f1c244ca3f91559e08823b45abaa71189a6d58d12d15b8"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/netherite_mesh/red_sand.json"
+hash = "a752d6144f06d064b71c94d4070d201b429635941ca0e2f7f8507d8dd6ab268e"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/netherite_mesh/sand.json"
+hash = "2122752aa281459254aa97c3ed38a4d7eab194f97de828f8340ccf74afcddac1"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/netherite_mesh/silt.json"
+hash = "c17f04e79ef5a5b107a9eb1fa80bbcbc911cc3e09f4532400e5f219994b5bd42"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/netherite_mesh/soul_sand.json"
+hash = "526a57ea7437992a7c5009c55d8b6eaa515e21bf9909dd104fdc49dd7e8e9fb8"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/sand_andesite_mesh.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/sand_brass_mesh.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/sand_string_mesh.json"
+hash = "2e38e77b22c314a449e91fafed92a43826ac6aa403ae6a8acb6cf58239fbaf5d"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/sand_zinc_mesh.json"
+hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/string_mesh/coarse_dirt.json"
+hash = "560cb8fcf02ce361e84f0532f0984568875cc820b07c512d5e894a54b1aa3d5c"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/string_mesh/crushed_netherrack.json"
+hash = "49ff9f916b58d419ede629a64bb8e6d07e05ea8746002b402d0d31f74a7f75bb"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/string_mesh/dirt.json"
+hash = "cfcccb8d190f67f32a57b9d81cc7200349eb90d94f4d63869de8504b649dd5a8"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/string_mesh/dust.json"
+hash = "5e6429b1c172ae79f8b2de8cd6842a5fccb39ae32d6861a98204b6a4f5d82146"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/string_mesh/gravel.json"
+hash = "47d98e54d8a88d7e0f02b138015dfec07bb206e3c37b4a007e6a7fd891c228c8"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/string_mesh/sand.json"
+hash = "69a6043461327fd35c0be68ab474e0c6be4f0bc545f127d64669422db45cc562"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/sifting/string_mesh/soul_sand.json"
+hash = "2b1adac5b608fb031863ad4d565a24933aadb884543bf8c3a167b94a7e7306ec"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/string_mesh.json"
+hash = "7784d5f86b4958c7d11c7102aa5cb158a444a3ffcbbf43cf8e59bf0f7fb0c1fb"
+
+[[files]]
+file = "kubejs/data/createsifter/recipes/zinc_mesh.json"
+hash = "4e91b4c07a93b318e140733f7f13dc5f632186a9908f0311c81d4ecf71740699"
 
 [[files]]
 file = "kubejs/data/croparia/recipes/diamond_knife.json"
@@ -9995,6 +11195,10 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "kubejs/data/gardenofglass/recipes/end_portal_frame.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/gardenofglass/tags/blocks/pebble_sources.json"
+hash = "6d2afa2b51a5ae0e6f8941f860c68d6fbe2a17cacc1022cf37a2152ea20b882d"
 
 [[files]]
 file = "kubejs/data/gofish/loot_tables/gameplay/fishing/astral_crate.json"
@@ -11173,6 +12377,10 @@ file = "kubejs/data/kubejs/recipes/avaritia/implosion_compressor/lapis.json"
 hash = "e5f0f0bce9597e19e23b482aebc8b319a8f1ee43a77108571d2d9c8bbb5f772b"
 
 [[files]]
+file = "kubejs/data/kubejs/recipes/avaritia/implosion_compressor/quartz.json"
+hash = "dc90c7936004f4f2c88d25a78f3017973ff3dbb4283e9eda323b389ce0487e79"
+
+[[files]]
 file = "kubejs/data/kubejs/recipes/avaritia/implosion_compressor/redstone.json"
 hash = "7293cb6525ebe6a4930e4f684a218bc837c2d1b6a19026b46bf6d7c6f0d633aa"
 
@@ -11653,6 +12861,22 @@ file = "kubejs/data/spatialharvesters/recipes/loot_core.json"
 hash = "4b4c585ccf47d63130459124388d8275aa123e7745b8f47b90db96a728b8656d"
 
 [[files]]
+file = "kubejs/data/spectrum/advancements/collect_mermaids_gem.json"
+hash = "0e8d9845b651bce90412839c563387e282f6cdda7c0d35db1df157488f1f3e15"
+
+[[files]]
+file = "kubejs/data/spectrum/advancements/collect_quitoxic_reeds.json"
+hash = "8b5eb272fe8ed83ed83e4acd073831a2d1903a1b3ffb877dde4b30e164b7a1fb"
+
+[[files]]
+file = "kubejs/data/spectrum/advancements/milestones/reveal_mermaids_brush.json"
+hash = "8169d9cdc1f36bea67f6fe90d363d2c96958064771a23f83e2967e822d67b300"
+
+[[files]]
+file = "kubejs/data/spectrum/advancements/milestones/reveal_quitoxic_reeds.json"
+hash = "66e951f7380d4c9b8e3d493c46abb7b7d5ab737ddae36738e3d681097b77a1b2"
+
+[[files]]
 file = "kubejs/data/spectrum/dimension/deeper_down_dimension.json"
 hash = "d8ab99c6ddda9a68f865eae15e2d9cf2d993fde9d3fb616ef108e10b1ab97933"
 
@@ -11954,11 +13178,11 @@ hash = "c674364173d2368a3b6be16ab868542f6a8bab6bec0700fc24b3257481dfedfe"
 
 [[files]]
 file = "kubejs/data/tconstruct/tinkering/materials/traits/fiery.json"
-hash = "d8f2b95a6f0f40b4b7262ee2da06510f337a138bd4bbd4ad63103d58c8088b89"
+hash = "f02ef4a204d6b1c9527a280f1b048585bec1252d6f3d32856d28f272c0825166"
 
 [[files]]
 file = "kubejs/data/tconstruct/tinkering/materials/traits/knightmetal.json"
-hash = "70512c830085d21d7480cccfe41f4c7e80882322b9d40e7057edcf659e98dcd2"
+hash = "a1c6f8a13e59ef976ab1b1a0b1e6b839737889947b1b23e93fb50801451ff647"
 
 [[files]]
 file = "kubejs/data/tconstruct/tinkering/materials/traits/neutronium.json"
@@ -11966,7 +13190,7 @@ hash = "a433e43eb3211c8dee2147257c860545c80858ad8e5ccb7af1c367d555c6a0aa"
 
 [[files]]
 file = "kubejs/data/tconstruct/tinkering/materials/traits/steeleaf.json"
-hash = "bf36fa25c0824a9e0af03df3c4871e58027684d5ee314c21e460eed73ab65b06"
+hash = "70fd444a80845cc1b06f0bb65cb0595ab3055aefa6595f1888ee32a678f80c9a"
 
 [[files]]
 file = "kubejs/data/tconstruct/tinkering/modifiers/step_up.json"
@@ -12014,11 +13238,11 @@ hash = "29649e7f8bd25eb57df9a085696c60837a53b67be754a56bf47b7a8247a1dd03"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/exnihilo/dust.json"
-hash = "2df003d211e04cd37e37b0a4419eb989c4acb8d6a89c3135c80b4959fd70c44a"
+hash = "7834ca80bf9a5cb45b56f989bc093aef274568b2aecd19fc055a8568054be977"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/exnihilo/silt.json"
-hash = "d184cc3137aefae37302490cbdc8e2b397807d0429e32c900e17ceae3edd1c28"
+hash = "f9c09f1b2cc3967601660bb9e30b9c445d1321cbed87634652f06589c7388c62"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/andesite.json"
@@ -12066,7 +13290,7 @@ hash = "40008624c097a3a3d1cb86733bf304ea5ca5eae13ec0835a43f84db399bc4fa8"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/netherrack.json"
-hash = "bbd5586eacd17c4089fc47db42b73998f5ce2b690beac184e13997aa548732b8"
+hash = "462d9ba37cd04e1ef2afdf4fc28d25fb9df1c77f7751037594b98107ba8b8416"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/minecraft/sand.json"
@@ -12437,8 +13661,12 @@ file = "kubejs/server_scripts/recipes/kibe/shaped.js"
 hash = "8d36197d88d5005838ee52870e6ab3ed6ad2428792047a91abc698f24ef1eb99"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/meshes_exnihilo2sifter.js"
+hash = "638e6016408775b046df863d5196065d08f0b5f8349090d889118bf82087a7ad"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/recipes.js"
-hash = "b5a720552a2814ea8254049c9d0c2cd3b49dc4845d3429334b040c25c69a4d8e"
+hash = "708d9da159e0e4baac7dc65a0e2ac26a9634a1c9c9cb438edb0a6d310b963490"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/techreborn/shaped.js"
@@ -12446,7 +13674,7 @@ hash = "e82fff37ec8f7e6039b3e246fa2cb1d7226c9409e6ed0d31f36d84a0eb25a503"
 
 [[files]]
 file = "kubejs/server_scripts/tags/general_tags.js"
-hash = "9ea4ef8738909a370a4b29d49e10ff7baa8df21f0ad2c9e9e4b68a931f2af151"
+hash = "866dabd03a7873beea5a56c169779d162c01055371a0ef815e1ba9ad02ed0812"
 
 [[files]]
 file = "kubejs/server_scripts/tags/mambience_bows.js"
@@ -12469,8 +13697,16 @@ file = "kubejs/server_scripts/tags/replicator_blacklist.js"
 hash = "3c9dd10a6b0769f1023d7192eb9950073fb8b3dbf7e02f7b486c2a96ae1652e8"
 
 [[files]]
+file = "kubejs/server_scripts/tags/sieves.js"
+hash = "0162eae97104e17e5934814cbee59ce004c7c3b0b0eca69777cb21b49fd56a00"
+
+[[files]]
 file = "kubejs/server_scripts/tags/ultimine_blacklist.js"
 hash = "2107186c71fbe196504b4cb9a0cbe843b24d4415257d9e4f95811a96ec13eb6e"
+
+[[files]]
+file = "kubejs/server_scripts/tconstruct_hacks.js"
+hash = "c769228eebb779319221ed52e0447ec3bc61d95d87635008df96e2b71504fc52"
 
 [[files]]
 file = "kubejs/server_scripts/twilightforest_fixes.js"
@@ -12490,11 +13726,15 @@ hash = "dbad91b4cbfa8cd2004d3e4007d08c075247bf21827705bc854defeb42ca4b83"
 
 [[files]]
 file = "kubejs/startup_scripts/blocks.js"
-hash = "71bef5b7cdfa3ef1a5a28c5bf113c53b0d02817d51f1c88d887ccab884f39594"
+hash = "d1b7982d9dcc583c84988b00b19e1731a06944e8920b45d94092c164af72dde5"
+
+[[files]]
+file = "kubejs/startup_scripts/item_modification.js"
+hash = "21be0ddb04c2cd9aaf1f1f3af0ef2488bc445bd6b8428be83e7123ec45e7a7dd"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "c2d71348f9754224db6af6facf890fad608ef5ff783722a64c8eb15a541683fb"
+hash = "e2321e1547041f7b983fa6f348b48ec38ef5da1a736afb233e4a7b137181e17b"
 
 [[files]]
 file = "kubejs/startup_scripts/script.js"
@@ -14067,6 +15307,10 @@ metafile = true
 file = "mods/yungs-extras-fabric.pw.toml"
 hash = "43def9ff7e9948695c694d2395f21254fa857d50a4f8bd6f8c40ebd96655769e"
 metafile = true
+
+[[files]]
+file = "quests_structures/alloy_forge_s.nbt"
+hash = "0001f2673dfed35e75ce48336867d0e24d9a34efd35e9fd5cd9fc5c127250e9d"
 
 [[files]]
 file = "sf3_changelog.txt"
