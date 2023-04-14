@@ -1,13 +1,13 @@
 name = "Suggestion Tweaker"
-filename = "suggestion-tweaker-1.18.2-1.4.0-fabric.jar"
+filename = "suggestion-tweaker-1.18.2-1.4.1-fabric.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "07d39c486dd7760b14966a8e43dd07b29838d158"
+hash = "4d98f3483d6f29f8b74b3afec98bc5f2b54d4daf"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4484580
+file-id = 4489990
 project-id = 615242
