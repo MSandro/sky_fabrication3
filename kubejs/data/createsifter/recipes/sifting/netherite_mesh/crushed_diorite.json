@@ -1,0 +1,18 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:netherite_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:crushed_diorite"
+    }
+  ],
+  "results": [
+    {
+      "item": "powah:uraninite",
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 500
+}

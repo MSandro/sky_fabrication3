@@ -13,7 +13,7 @@
 			y: 1.0d
 			description: [
 				"Connects all of the touching inventories into one."
-				"Closer inventories ale prioritised both on insert and extract."
+				"Closer inventories are prioritised both on insert and extract."
 			]
 			size: 1.5d
 			id: "7C76A579439D4EA9"
@@ -174,7 +174,7 @@
 			x: -2.5d
 			y: -0.5d
 			description: [
-				"Emits a redstone signal based on Inventory System contents."
+				"Emits a redstone signal based on Inventory Network contents."
 				""
 				"Very similar to AE2 Device with the same name."
 			]

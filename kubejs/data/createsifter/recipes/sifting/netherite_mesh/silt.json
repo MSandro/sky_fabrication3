@@ -1,0 +1,22 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:netherite_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:silt"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:lapis_lazuli",
+      "chance": 1
+    },
+    {
+      "item": "minecraft:lapis_lazuli",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 500
+}

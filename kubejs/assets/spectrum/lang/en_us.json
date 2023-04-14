@@ -1,5 +1,7 @@
 {
   "fluid.spectrum.liquid_crystal": "Liquid Crystal",
   "fluid.spectrum.mud": "Mud",
-  "fluid.spectrum.midnight_solution": "Midnight Solution"
+  "fluid.spectrum.midnight_solution": "Midnight Solution",
+  
+  "advancements.spectrum.collect_quitoxic_reeds.description": "Craft some Quitoxic Reeds"
 }

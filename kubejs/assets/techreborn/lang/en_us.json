@@ -33,5 +33,7 @@
   "fluid.techreborn.sulfuric_acid": "Sulfuric Acid",
   "fluid.techreborn.tritium": "Tritium",
   "fluid.techreborn.wolframium": "Wolframium",
-  "fluid.techreborn.biofuel": "Bio Fuel"
+  "fluid.techreborn.biofuel": "Bio Fuel",
+  
+  "item.techreborn.glowstone_small_dust": "Shroomlight Dust"
 }

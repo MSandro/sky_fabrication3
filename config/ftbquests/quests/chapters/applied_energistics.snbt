@@ -758,7 +758,7 @@
 				"2 cards - 32 items at once,"
 				"3 cards - 64 items at once,"
 				"4 cards - 96 items at once."
-				"> Crafting Card - the Export Bus will automatically request crafting until the container is filled. You can choose whether to you want to extract items already in stock first or not."
+				"> Crafting Card - the Export Bus will automatically request crafting until the container is filled. You can choose whether you want to extract items already in stock first or not."
 			]
 			dependencies: ["2BE8127E1180DA21"]
 			min_width: 300
@@ -863,9 +863,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Any Wireless Terminal\"}"
-						}
 						items: [
 							{
 								id: "ae2:wireless_terminal"
@@ -888,6 +885,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Any Wireless Terminal\"}"
+						}
 					}
 				}
 			}]

@@ -1,0 +1,22 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:diamond_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:crushed_granite"
+    }
+  ],
+  "results": [
+    {
+      "item": "fabricaeexnihilo:raw_iron_piece",
+      "chance": 1
+    },
+    {
+      "item": "fabricaeexnihilo:raw_iron_piece",
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 500
+}

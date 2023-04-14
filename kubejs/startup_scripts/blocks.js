@@ -6,6 +6,13 @@ onEvent('block.registry', event => {
   event.create('unknown').material('stone').hardness(10.0).displayName('Unknown Block').unbreakable();
   event.create('end_portal_locked').material('metal').hardness(10.0).displayName('Locked End Portal').unbreakable().transparent(true).renderType('cutout').defaultCutout().notSolid();
   event.create('island_marker').material('metal').hardness(10.0).displayName('Island Marker').unbreakable().transparent(true).noCollision().noItem().transparent(true).renderType('cutout').defaultCutout().notSolid();
+  // Compressed Quartz Blocks
+  event.create('compressed_quartz_block_1').material('stone').hardness(0.8).displayName('Compressed Block of Quartz (x1)').tagBlock('minecraft:mineable/pickaxe');
+  event.create('compressed_quartz_block_2').material('stone').hardness(0.8).displayName('Compressed Block of Quartz (x2)').tagBlock('minecraft:mineable/pickaxe');
+  event.create('compressed_quartz_block_3').material('stone').hardness(0.8).displayName('Compressed Block of Quartz (x3)').tagBlock('minecraft:mineable/pickaxe');
+  event.create('compressed_quartz_block_4').material('stone').hardness(0.8).displayName('Compressed Block of Quartz (x4)').tagBlock('minecraft:mineable/pickaxe');
+  event.create('compressed_quartz_block_5').material('stone').hardness(0.8).displayName('Compressed Block of Quartz (x5)').tagBlock('minecraft:mineable/pickaxe')
+
 })
 
 function tick(random, type, r) {

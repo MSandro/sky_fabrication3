@@ -1,0 +1,22 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:string_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:gunpowder",
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:bone_meal",
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 500
+}

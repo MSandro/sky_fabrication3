@@ -1,0 +1,18 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:emerald_mesh"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:nether_wart",
+      "chance": 0.55
+    }
+  ],
+  "processingTime": 500
+}

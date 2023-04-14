@@ -1,0 +1,19 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:emerald_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:crushed_prismarine"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:prismarine_crystals",
+      "chance": 0.85
+    }
+  ],
+  "processingTime": 500,
+  "waterlogged": true
+}

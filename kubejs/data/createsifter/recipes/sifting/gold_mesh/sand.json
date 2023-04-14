@@ -1,0 +1,18 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:cocoa_beans",
+      "chance": 0.45
+    }
+  ],
+  "processingTime": 500
+}

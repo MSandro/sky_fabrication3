@@ -1,0 +1,118 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:andesite_mesh"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:pumpkin_seeds",
+      "chance": 0.2
+    },
+    {
+      "item": "fabricaeexnihilo:stone_pebble",
+      "chance": 1.0,
+      "count": 3
+    },
+    {
+      "item": "fabricaeexnihilo:stone_pebble",
+      "chance": 0.09
+    },
+    {
+      "item": "techreborn:rubber_sapling",
+      "chance": 0.04
+    },
+    {
+      "item": "minecraft:sweet_berries",
+      "chance": 0.06
+    },
+    {
+      "item": "fabricaeexnihilo:rose_bush_seeds",
+      "chance": 0.08
+    },
+    {
+      "item": "fabricaeexnihilo:sunflower_seeds",
+      "chance": 0.08
+    },
+    {
+      "item": "fabricaeexnihilo:diorite_pebble",
+      "chance": 1.0,
+      "count": 2
+    },
+    {
+      "item": "minecraft:wheat_seeds",
+      "chance": 0.3
+    },
+    {
+      "item": "fabricaeexnihilo:grass_seeds",
+      "chance": 0.08
+    },
+    {
+      "item": "fabricaeexnihilo:mycelium_seeds",
+      "chance": 0.04
+    },
+    {
+      "item": "minecraft:spruce_sapling",
+      "chance": 0.08
+    },
+    {
+      "item": "minecraft:carrot",
+      "chance": 0.08
+    },
+    {
+      "item": "minecraft:birch_sapling",
+      "chance": 0.08
+    },
+    {
+      "item": "minecraft:oak_sapling",
+      "chance": 0.08
+    },
+    {
+      "item": "fabricaeexnihilo:granite_pebble",
+      "chance": 1.0,
+      "count": 2
+    },
+    {
+      "item": "minecraft:dark_oak_sapling",
+      "chance": 0.08
+    },
+    {
+      "item": "minecraft:potato",
+      "chance": 0.08
+    },
+    {
+      "item": "minecraft:beetroot_seeds",
+      "chance": 0.4
+    },
+    {
+      "item": "fabricaeexnihilo:peony_seeds",
+      "chance": 0.08
+    },
+    {
+      "item": "minecraft:jungle_sapling",
+      "chance": 0.08
+    },
+    {
+      "item": "fabricaeexnihilo:cactus_seeds",
+      "chance": 0.08
+    },
+    {
+      "item": "minecraft:melon_seeds",
+      "chance": 0.2
+    },
+    {
+      "item": "fabricaeexnihilo:lilac_seeds",
+      "chance": 0.08
+    },
+    {
+      "item": "fabricaeexnihilo:andesite_pebble",
+      "chance": 1.0,
+      "count": 2
+    }
+  ],
+  "processingTime": 500
+}

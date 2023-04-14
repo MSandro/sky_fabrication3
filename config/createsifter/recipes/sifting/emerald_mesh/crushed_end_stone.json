@@ -1,0 +1,22 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:emerald_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:crushed_endstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:ender_pearl",
+      "chance": 0.04
+    },
+    {
+      "item": "fabricaeexnihilo:chorus_seeds",
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 500
+}

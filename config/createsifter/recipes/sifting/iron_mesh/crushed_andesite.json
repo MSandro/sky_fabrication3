@@ -1,0 +1,26 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:zinc_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:crushed_andesite"
+    }
+  ],
+  "results": [
+    {
+      "item": "fabricaeexnihilo:raw_lead_piece",
+      "chance": 0.2
+    },
+    {
+      "item": "create:crushed_zinc_ore",
+      "chance": 0.1
+    },
+    {
+      "item": "fabricaeexnihilo:raw_nickel_piece",
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 500
+}

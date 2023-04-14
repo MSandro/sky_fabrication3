@@ -134,10 +134,12 @@ onEvent('tags.items', event => {
   event.add('fabric:swords', 'tconstruct:sword')
   event.add('fabric:swords', 'tconstruct:cleaver')
   
+  // Diesel superheats Blaze Burners
+  event.add('create:blaze_burner_fuel/special', ['modern_industrialization:bucket_diesel', 'modern_industrialization:bucket_boosted_diesel', 'techreborn:diesel_bucket', 'techreborn:nitro_diesel_bucket'])
+  
   // Because for some reason, if the file that would override Spectrum's tags controlling "Not available in Survival Yet" tooltips, it would remove ALL of those tooltips, here are removals of this tag for Moonstone-related stuff. And a spawner too, since it is craftable due to Conjuring integration.
   
   event.remove("spectrum:coming_soon_tooltip", ['spectrum:moonstone_block', 'spectrum:budding_moonstone', 'spectrum:small_moonstone_bud', 'spectrum:medium_moonstone_bud', 'spectrum:large_moonstone_bud', 'spectrum:moonstone_cluster', 'spectrum:moonstone_powder', 'spectrum:moonstone_shard', 'spectrum:moonstone_sugar_stick', 'spectrum:moonstone_storage_block', 'spectrum:spawner'])
-  
 });
 
 // Tags required for Knightmetal and Fiery melting recipes to function.

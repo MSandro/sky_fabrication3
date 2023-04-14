@@ -1,0 +1,60 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:string_mesh"
+    },
+    {
+      "item": "minecraft:dirt"
+    }
+  ],
+  "results": [
+
+    {
+      "item": "fabricaeexnihilo:stone_pebble",
+      "chance": 1.0,
+      "count": 2
+    },
+    {
+      "item": "fabricaeexnihilo:stone_pebble",
+      "chance": 0.08
+    },
+    {
+      "item": "minecraft:sweet_berries",
+      "chance": 0.02
+    },
+    {
+      "item": "fabricaeexnihilo:diorite_pebble",
+      "chance": 1.0
+    },
+    {
+      "item": "fabricaeexnihilo:diorite_pebble",
+      "chance": 0.78
+    },
+    {
+      "item": "fabricaeexnihilo:granite_pebble",
+      "chance": 1.0
+    },
+    {
+      "item": "fabricaeexnihilo:granite_pebble",
+      "chance": 0.78
+    },
+    {
+      "item": "minecraft:beetroot_seeds",
+      "chance": 0.35
+    },
+    {
+      "item": "fabricaeexnihilo:grass_seeds",
+      "chance": 0.08
+    },
+    {
+      "item": "fabricaeexnihilo:andesite_pebble",
+      "chance": 1.0
+    },
+    {
+      "item": "fabricaeexnihilo:andesite_pebble",
+      "chance": 0.78
+    }
+  ],
+  "processingTime": 500
+}

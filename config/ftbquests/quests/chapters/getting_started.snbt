@@ -252,7 +252,7 @@
 			icon: "mcwtrpdoors:metal_warning_trapdoor"
 			x: 7.5d
 			y: 0.0d
-			subtitle: "Use the /emergency command in case you lost your only sapling/bamboo/fishing rod, depending on chosen island."
+			subtitle: "Use the §f§n/emergency§r command in case you lost your only sapling/bamboo/fishing rod, depending on chosen island."
 			dependencies: ["175F5611FB7716A4"]
 			min_width: 300
 			id: "27C275CE408D4506"
