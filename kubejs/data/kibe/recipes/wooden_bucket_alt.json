@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#B#",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "twigs:stripped_bamboo_planks"
+      },
+      "B": {
+        "item": "fabricaeexnihilo:rubber_barrel"
+      }
+    },
+    "result": {
+      "item": "kibe:wooden_bucket",
+      "count": 1
+    }
+  }

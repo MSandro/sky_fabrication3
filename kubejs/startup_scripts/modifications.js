@@ -25,5 +25,5 @@ onEvent('block.modification', event => {
     block.material = "bone",
     block.requiresTool = true,
     block.hardness = 2
-  })
+    })
 })

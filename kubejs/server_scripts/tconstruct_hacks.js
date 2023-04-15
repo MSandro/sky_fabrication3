@@ -1,18 +1,4 @@
 //@ts-check
-function getMethods(obj) {
-  var result = [];
-  for (var id in obj) {
-    try {
-      if (typeof (obj[id]) == "function") {
-        result.push(id + ": " + obj[id].toString() + '\n');
-      }
-    } catch (err) {
-      result.push(id + ": inaccessible");
-    }
-  }
-  return result;
-}
-
 onEvent("player.tick", event => {
   if (event.player.mainHandItem.nbt) { //Can't do cleanly because else it errors.
     if (event.player.mainHandItem.nbt.tic_modifiers) { // If a tool has tic_modifiers tag, aka if it's a Tinker's tool

@@ -1,0 +1,7 @@
+{
+    "type": "fabricaeexnihilo:crucible",
+    "input": "twigs:bamboo_thatch",
+    "amount": 16200,
+    "fluid": "minecraft:water",
+    "requiresFireproofCrucible": false
+}
