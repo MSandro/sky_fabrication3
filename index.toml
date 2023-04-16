@@ -11429,6 +11429,10 @@ file = "kubejs/data/indrev/recipes/fluid_infusing/zinc_purified_ore.json"
 hash = "11aef31cb8b6d87dabfd23916d532c9a0284520dd65cbd6f7b1e1abba9e64c82"
 
 [[files]]
+file = "kubejs/data/indrev/recipes/pulverizer/aluminum_dust.json"
+hash = "59972f68aa604c461ef13f10bcee7dfcf94d27b008997ab342b8ba33d2006181"
+
+[[files]]
 file = "kubejs/data/indrev/recipes/pulverizer/copper_dust_from_chunk.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -11467,6 +11471,14 @@ hash = "b0ce8f9302b0e1a77f0328012ce703bd8eab0751a34567d4e3e6231fd2510508"
 [[files]]
 file = "kubejs/data/indrev/recipes/pulverizer/netherite_dust_from_chunk.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/indrev/recipes/pulverizer/nickel_dust.json"
+hash = "662e545a420aab5b63711cd44a929d07692cb6cbe08bb587ee294dbd9e6cfbba"
+
+[[files]]
+file = "kubejs/data/indrev/recipes/pulverizer/quartz_dust.json"
+hash = "eb281326029a5cf37e7e22396653181b179c8cb744b1d729bd6b73522731c51b"
 
 [[files]]
 file = "kubejs/data/indrev/recipes/pulverizer/silver_dust_from_chunk.json"
@@ -13815,7 +13827,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "48c63876b9f5de8963ba88f34fd46588c130989dec588955318782ce7fbeedcf"
+hash = "3f0450c2bd26c5185be65c9676dcb5034d3d5341df5cad7ed22a036a22ce9c9f"
 metafile = true
 
 [[files]]
@@ -14565,7 +14577,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "c2826f23f5d5df569f19dbe0517d65233ca3c889ebfdd3e5b5e8b786e3b68703"
+hash = "7f544f416e23ec03ed210a7cae66e25b7d0a01e57e523501748a5fc18444de9b"
 metafile = true
 
 [[files]]
@@ -14875,7 +14887,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "4ec2035b74f68cc4ae96d4d95dd4d629cbac396d29183517c49a778e8b7c490a"
+hash = "a674b3691edb8664f598244fd07d76510a8481b8be3ad9af4428ab14b405307a"
 metafile = true
 
 [[files]]

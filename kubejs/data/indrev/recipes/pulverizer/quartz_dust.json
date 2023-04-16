@@ -1,0 +1,11 @@
+{
+  "type": "indrev:pulverize",
+  "ingredients": {
+    "item": "minecraft:quartz"
+  },
+  "output": {
+    "item": "modern_industrialization:quartz_dust",
+    "count": 1
+  },
+  "processTime": 200
+}
