@@ -1,0 +1,13 @@
+name = "Iris & Oculus Flywheel Compat"
+filename = "iris-flywheel-compat-1.18.2-0.1.9-BETA.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "10d8a4913a49749bcaa0a4f7b4852a8edcc56cb1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4421322
+project-id = 659897

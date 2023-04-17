@@ -11029,6 +11029,10 @@ file = "kubejs/data/dark-enchanting/recipes/table_upgrade.json"
 hash = "83924f9c7f817bacf766f1817bdb7e02d556c75f4ebe653a90a89d74d4717b0e"
 
 [[files]]
+file = "kubejs/data/dmlsimulacrum/recipes/transmute/transmutes1_hellish/blaze_head.json"
+hash = "24da25aa7ae64d7feb3b10e3cefc0326fca28f3c964c8457e62a262a44cb5cd2"
+
+[[files]]
 file = "kubejs/data/dmlsimulacrum/recipes/transmute/transmutes2_extraterrestrial/nether_star.json"
 hash = "99e80c1c20b3723cbc9b0169bb3690a707a73f1d2d9b5f9b925c93ec16841836"
 
@@ -12785,6 +12789,10 @@ file = "kubejs/data/modern_industrialization/recipes/packer/paper_block.json"
 hash = "934c3b42ca0dbcc4db3af3c59e3e9743e2a03d8d866252c67a9d5886727f0dc5"
 
 [[files]]
+file = "kubejs/data/modern_industrialization/recipes/quarry/bronze.json"
+hash = "374ce7a6651b18371922def06a824dea6a0ebdb5640412481e0f425b1b8e568b"
+
+[[files]]
 file = "kubejs/data/modern_industrialization/recipes/quarry/gold.json"
 hash = "ab8ec981fb58e15a44720de3e6b61fdcae391adb81df3cf21b58a1fd6ac8b3b0"
 
@@ -13227,6 +13235,10 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "kubejs/data/techreborn/recipes/crafting_table/small_dust/zinc_small_dust_from_dust.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/techreborn/recipes/industrial_electrolyzer/ruby_dust.json"
+hash = "20fb5c4b26f5c43fc0b686871e72ca79b748a405438ff648f245009a53b5c6ae"
 
 [[files]]
 file = "kubejs/data/techreborn/recipes/scrapbox/auto/chrome_small_dust.json"
@@ -14576,6 +14588,11 @@ hash = "53d676cb098f77c9c84750b04ee3c384cc04a55bc92dc2c6e4cc0c31c31f00bf"
 metafile = true
 
 [[files]]
+file = "mods/iris-flywheel-compat.pw.toml"
+hash = "01c7458f0cf74259032c55f3e03505f5cd72d7aad13a6b8ff4c59a6edfdea996"
+metafile = true
+
+[[files]]
 file = "mods/irisshaders.pw.toml"
 hash = "7f544f416e23ec03ed210a7cae66e25b7d0a01e57e523501748a5fc18444de9b"
 metafile = true
@@ -15257,7 +15274,7 @@ metafile = true
 
 [[files]]
 file = "mods/wi-zoom.pw.toml"
-hash = "5b86ed8f035b711fa105ec18ae2ab6865f25e44793cbec7801464958b0cd6f67"
+hash = "55a4099926caf253ab57e40c10e75f86b348de589c5c0ff885f9969944855d37"
 metafile = true
 
 [[files]]
