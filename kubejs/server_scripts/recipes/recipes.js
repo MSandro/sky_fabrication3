@@ -129,6 +129,37 @@ onEvent('recipes', (event) => {
   // The Osseous Bricks are still craftable using a Stonecutter.
   event.remove({output: "architects_palette:osseous_bricks", type: 'minecraft:crafting_shaped'});
 
+  event.remove({id: "createplus:ae2/sequenced_assembly/mixing/calculation_processor"});
+  event.remove({id: "createplus:ae2/sequenced_assembly/mixing/logic_processor"});
+  event.remove({id: "createplus:ae2/sequenced_assembly/mixing/engineering_processor"});
+
+  let inter = 'kubejs:incomplete_logic_processor';
+  event.recipes.createSequencedAssembly(
+    "ae2:logic_processor",
+    "ae2:printed_silicon",[
+		event.recipes.createDeploying(inter,[inter,"ae2:printed_logic_processor"]),
+		event.recipes.createDeploying(inter,[inter,'minecraft:redstone']),
+		event.recipes.createPressing(inter, inter)
+	]).transitionalItem(inter).loops(1);
+
+  inter = 'kubejs:incomplete_engineering_processor';
+  event.recipes.createSequencedAssembly(
+    "ae2:engineering_processor",
+    "ae2:printed_silicon",[
+		event.recipes.createDeploying(inter,[inter,"ae2:printed_engineering_processor"]),
+		event.recipes.createDeploying(inter,[inter,'minecraft:redstone']),
+		event.recipes.createPressing(inter, inter)
+	]).transitionalItem(inter).loops(1);
+
+  inter = 'kubejs:incomplete_calculation_processor';
+  event.recipes.createSequencedAssembly(
+    "ae2:calculation_processor",
+    "ae2:printed_silicon",[
+		event.recipes.createDeploying(inter,[inter,"ae2:printed_calculation_processor"]),
+		event.recipes.createDeploying(inter,[inter,'minecraft:redstone']),
+		event.recipes.createPressing(inter, inter)
+	]).transitionalItem(inter).loops(1);
+
   // Yeet the impossible Create Mixer recipe for the Infinity Catalyst
   event.custom({
     "type": "artis:big_bench_shapeless",

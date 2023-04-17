@@ -38,6 +38,10 @@ onEvent('item.registry', event => {
   event.create('copper_mesh','createsifter:mesh').displayName('Copper Mesh').parentModel("createsifter:block/meshes/custom_mesh").texture("1","createsifter:item/copper_mesh").texture("0","minecraft:block/oak_planks");
   event.create('carbon_mesh','createsifter:mesh').displayName('Carbon Mesh').parentModel("createsifter:block/meshes/custom_mesh").texture("1","createsifter:item/carbon_mesh").texture("0","minecraft:block/oak_planks");
 
+  event.create('incomplete_logic_processor').displayName('Incomplete Logic Processor').texture("ae2:item/printed_silicon");
+  event.create('incomplete_engineering_processor').displayName('Incomplete Engineering Processor').texture("ae2:item/printed_silicon");
+  event.create('incomplete_calculation_processor').displayName('Incomplete Calculation Processor').texture("ae2:item/printed_silicon");
+
   // Food
   event.create('fish_and_chips').displayName('Ultimate Fish and Chips').food(foodBuilder => {foodBuilder.hunger(15).saturation(15.0).alwaysEdible()});
   event.create('cosmic_meatballs').displayName('Cosmic Meatballs').food(food => {
