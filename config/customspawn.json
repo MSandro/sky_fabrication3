@@ -11,9 +11,9 @@
   "creatureGroup": {
     "capacity": 10,
     "peaceful": true,
-    "rare": true,
-    "immediateDespawnRange": 128,
-    "despawnStartRange": 32
+    "rare": false,
+    "immediateDespawnRange": 256,
+    "despawnStartRange": 64
   },
   "ambientGroup": {
     "capacity": 15,

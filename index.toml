@@ -14173,6 +14173,11 @@ hash = "1496f7934e3cb4a0ad45bdffe5b79c1c53e858cd8a6fb148c15b944d6ed919a0"
 metafile = true
 
 [[files]]
+file = "mods/custom-spawns.pw.toml"
+hash = "41d92d892f80c777642d5509943fa7b9d7aefb7266153efa67b9bad920657bc1"
+metafile = true
+
+[[files]]
 file = "mods/dank-storage-fabric.pw.toml"
 hash = "62e3a9f4ddce9b502b8f86ede89b3582b709e2e35569f0920b51a59c4d51d62d"
 metafile = true
