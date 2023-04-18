@@ -946,7 +946,7 @@ hash = "737ec4627c464368f54abc5bcaf7dd8732613576df2b6bc3739d3d5d03c64eae"
 
 [[files]]
 file = "config/customspawn.json"
-hash = "239808838bd882146e5936dda2dd2d881624c34beda6af72e5ec7157c6dd4e79"
+hash = "6737bf00136dc0007cae5a9eb6a012ab1f550170760c7f13ef3c5d0d231ed4ae"
 
 [[files]]
 file = "config/dark-enchanting-v1.json5"
@@ -14469,7 +14469,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-fabric.pw.toml"
-hash = "a6dbf8e1339508ca3dedd5bc2a346616bbb7c17f18def665ed4d3a2fcec70b1e"
+hash = "45796fa5f49fa7be9719db811a5c07c14a04a4873d4d8e3a433068343590818e"
 metafile = true
 
 [[files]]
