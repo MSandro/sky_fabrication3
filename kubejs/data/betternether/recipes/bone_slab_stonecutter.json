@@ -1,8 +1,8 @@
 {
-    "type": "minecraft:stonecutting",
-    "ingredient": {
-      "item": "betternether:bone_block"
-    },
-    "result": "betternether:bone_slab",
-    "count": 2
-  }
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "betternether:bone_block"
+  },
+  "result": "betternether:bone_slab",
+  "count": 2
+}

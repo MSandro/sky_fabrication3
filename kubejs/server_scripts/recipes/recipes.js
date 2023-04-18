@@ -1,15 +1,15 @@
 onEvent('recipes', (event) => {
-  // Chunk Loaders
+  // Chunk Loaders removals
   event.remove({output: 'spatialharvesters:chunk_loader'});
   event.remove({output: 'techreborn:chunk_loader'})
   event.remove({output: 'kibe:chunk_loader'})
 
-  // Create
+  // Create removals
   event.remove({output: 'create:andesite_alloy', type: 'minecraft:crafting_shaped'});
   event.remove({output: 'minecraft:black_dye', type: 'create:milling'});
   event.remove({output: 'minecraft:bone_meal', type: 'create:milling'});
 
-  // KIBE
+  // KIBE - Aluminum Tanks in place of Kibe Tanks
   event.replaceInput({type: 'minecraft:crafting_shaped'}, "kibe:tank", "modern_industrialization:aluminum_tank")
 
   // CONFLICTS
@@ -18,7 +18,7 @@ onEvent('recipes', (event) => {
   event.remove({output: 'blockus:legacy_stonecutter'});
   event.shapeless('blockus:legacy_stonecutter', ['minecraft:stonecutter']);
 
-  // FabricaeExNihilo
+  // FabricaeExNihilo removals
   event.remove({output: 'indrev:nikolite_dust', type: 'fabricaeexnihilo:sieve'});
   event.remove({output: 'modern_industrialization:platinum_tiny_dust', type: 'fabricaeexnihilo:sieve'});
   event.remove({output: 'techreborn:yellow_garnet_gem', type: 'fabricaeexnihilo:sieve'});
@@ -30,7 +30,7 @@ onEvent('recipes', (event) => {
   event.remove({output: 'fabricaeexnihilo:raw_gold_piece', type: 'fabricaeexnihilo:sieve'});
   event.remove({output: 'techreborn:platinum_small_dust', type: 'fabricaeexnihilo:sieve'});
 
-  // COMPRESS
+  // COMPRESSEM removals
   const DelCompressem = [
     "compress:bundle_of_sticks",
     "compress:bag_with_blaze_rods",
@@ -64,7 +64,8 @@ onEvent('recipes', (event) => {
   event.remove({output: 'modern_industrialization:bronze_tiny_dust', type: 'minecraft:crafting_shapeless'})
   event.remove({output: 'modern_industrialization:raw_tungsten', type: 'minecraft:crafting_shapeless'})
   event.remove({output: 'modern_industrialization:tungsten_dust', type: 'minecraft:crafting_shaped'})
-  event.shapeless('modern_industrialization:tungsten_dust', ['modern_industrialization:tungsten_tiny_dust', 'modern_industrialization:tungsten_tiny_dust', 'modern_industrialization:tungsten_tiny_dust', 'modern_industrialization:tungsten_tiny_dust']);
+  event.shapeless('modern_industrialization:tungsten_dust', ['modern_industrialization:tungsten_tiny_dust', 'modern_industrialization:tungsten_tiny_dust',
+  'modern_industrialization:tungsten_tiny_dust', 'modern_industrialization:tungsten_tiny_dust']);
   event.remove({output: 'modern_industrialization:tungsten_tiny_dust', type: 'minecraft:crafting_shaped'})
   event.shapeless('4x modern_industrialization:tungsten_tiny_dust', ['modern_industrialization:tungsten_dust']);
 
@@ -112,8 +113,45 @@ onEvent('recipes', (event) => {
   event.remove({output: "improved-stations:crafting_station_slab"});
   event.shapeless('2x improved-stations:crafting_station_slab', ['#tconstruct:tables']);
 
+  // Tinkers' Construct (Hephaestus)
+  event.remove({id: "tconstruct:smeltery/casting/scorched/polished_from_magma"});
+  event.remove({id: "tconstruct:smeltery/casting/scorched/brick_composite"});
+  event.remove({id: "tconstruct:smeltery/casting/scorched/stone_from_magma"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/cobble/block"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/cobble/slab"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/cobble/stairs"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/cobble/wall"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/cobble/block"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/stone/block_from_clay"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/stone/slab"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/stone/stairs"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/bricks/block"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/bricks/slab"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/bricks/stairs"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/bricks/wall"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/brick_composite"});
+  event.remove({id: "tconstruct:smeltery/casting/seared/grout"});
+  event.remove({id: "tconstruct:smeltery/seared/seared_brick_kiln"});
+
+  // Create Sifter removals
+  let toRemove = ["dirt_strig_mesh_waterlogged", "gravel_andesite_mesh", "gravel_brass_mesh", "gravel_zinc_mesh", "sand_andesite_mesh", "sand_brass_mesh", "sand_string_mesh", "sand_zinc_mesh"];
+  toRemove.forEach(item => {
+    event.remove({id: `createsifter:sifting/${item}`});
+  })
+
+  // Alloy Forgery removals
+  toRemove = ["aluminium_ingot_from_ores", "platinum_ingot_from_ores", "platinum_ingot_from_raw_ores"]
+  toRemove.forEach(item => {
+    event.remove({id: `alloy_forgery:compat/${item}`});
+  })
+  toRemove = ["brass_from_ores", "brass_from_raw_ores", "bronze_from_ores", "bronze_from_raw_ores", "electrum_from_ores", "electrum_from_raw_ores",
+  "invar_from_ores", "invar_from_raw_ores", "steel_from_ingots", "steel_from_ores", "steel_from_raw_ores"]
+  toRemove.forEach(item => {
+    event.remove({id: `alloy_forgery:compat/alloys/${item}`});
+  })
   // Nether Quartz Compressing
-  const compressed_quartz = ["kubejs:compressed_quartz_block_1", "kubejs:compressed_quartz_block_2", "kubejs:compressed_quartz_block_3", "kubejs:compressed_quartz_block_4", "kubejs:compressed_quartz_block_5"];
+  const compressed_quartz = ["kubejs:compressed_quartz_block_1", "kubejs:compressed_quartz_block_2", "kubejs:compressed_quartz_block_3",
+  "kubejs:compressed_quartz_block_4", "kubejs:compressed_quartz_block_5"];
   compressed_quartz.forEach((block, i) => {
     event.shaped(block, [
       "BBB",
@@ -129,6 +167,7 @@ onEvent('recipes', (event) => {
   // The Osseous Bricks are still craftable using a Stonecutter.
   event.remove({output: "architects_palette:osseous_bricks", type: 'minecraft:crafting_shaped'});
 
+  // CreatePlus AE2 compat recipe fix + remove random salvage from processors
   event.remove({id: "createplus:ae2/sequenced_assembly/mixing/calculation_processor"});
   event.remove({id: "createplus:ae2/sequenced_assembly/mixing/logic_processor"});
   event.remove({id: "createplus:ae2/sequenced_assembly/mixing/engineering_processor"});

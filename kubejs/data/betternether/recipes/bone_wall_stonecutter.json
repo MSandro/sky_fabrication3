@@ -3,5 +3,6 @@
     "ingredient": {
       "item": "betternether:bone_block"
     },
-    "result": "betternether:bone_wall"
+    "result": "betternether:bone_wall",
+    "count": 1
   }
