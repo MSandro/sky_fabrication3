@@ -1,0 +1,32 @@
+{
+  "type": "techreborn:industrial_electrolyzer",
+  "power": 60,
+  "time": 500,
+  "ingredients": [
+    {
+      "count": 3,
+      "tag": "c:ruby_dusts"
+    },
+    {
+      "item": "techreborn:cell",
+      "count": 3,
+      "nbt": "empty"
+    }
+  ],
+  "results": [
+    {
+      "item": "modern_industrialization:aluminum_dust",
+      "count": 2
+    },
+    {
+      "item": "modern_industrialization:chromium_dust"
+    },
+    {
+      "item": "techreborn:cell",
+      "count": 3,
+      "nbt": {
+        "fluid": "techreborn:compressed_air"
+      }
+    }
+  ]
+}
