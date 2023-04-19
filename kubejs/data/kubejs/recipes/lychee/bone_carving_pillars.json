@@ -1,0 +1,19 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "kubejs:bone_knife"
+    },
+    "block_in": "fabricaeexnihilo:rubber_crucible",
+    "contextual": {
+        "type": "is_sneaking"
+    },
+    "post": [
+        {
+            "type": "place",
+            "block": "kubejs:bone_pillars"
+        },
+        {
+            "type": "damage_item"
+        }
+    ]
+ }

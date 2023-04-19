@@ -1,0 +1,13 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "fabricaeexnihilo:string_mesh"
+    },
+    "block_in": "kubejs:bone_pillars",
+    "post": [
+        {
+            "type": "place",
+            "block": "fabricaeexnihilo:rubber_strainer"
+        }
+    ]
+ }

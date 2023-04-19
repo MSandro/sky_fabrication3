@@ -11,8 +11,9 @@ onEvent('block.registry', event => {
   event.create('compressed_quartz_block_2').material('stone').hardness(0.8).displayName('Compressed Block of Quartz (x2)').tagBlock('minecraft:mineable/pickaxe');
   event.create('compressed_quartz_block_3').material('stone').hardness(0.8).displayName('Compressed Block of Quartz (x3)').tagBlock('minecraft:mineable/pickaxe');
   event.create('compressed_quartz_block_4').material('stone').hardness(0.8).displayName('Compressed Block of Quartz (x4)').tagBlock('minecraft:mineable/pickaxe');
-  event.create('compressed_quartz_block_5').material('stone').hardness(0.8).displayName('Compressed Block of Quartz (x5)').tagBlock('minecraft:mineable/pickaxe')
+  event.create('compressed_quartz_block_5').material('stone').hardness(0.8).displayName('Compressed Block of Quartz (x5)').tagBlock('minecraft:mineable/pickaxe');
 
+  event.create('bone_pillars').material('bone').hardness(2.0).displayName('Bone Pillars').model('kubejs:block/bone_pillars').transparent(true).requiresTool(true).noValidSpawns(true).renderType('cutout').defaultCutout().box(14, 0, 0, 16, 16, 2, true).box(14, 0, 14, 16, 16, 16, true).box(0, 0, 14, 2, 16, 16, true).box(0, 0, 0, 2, 16, 2, true)
 })
 
 function tick(random, type, r) {

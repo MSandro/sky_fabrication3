@@ -134,6 +134,9 @@ onEvent('tags.items', event => {
   event.add('fabric:swords', 'tconstruct:sword')
   event.add('fabric:swords', 'tconstruct:cleaver')
   
+  event.add('farmersdelight:straw_harvesters', 'kubejs:bone_knife')
+  event.add('c:tools/knives', 'kubejs:bone_knife')
+
   // Diesel superheats Blaze Burners
   event.add('create:blaze_burner_fuel/special', ['modern_industrialization:bucket_diesel', 'modern_industrialization:bucket_boosted_diesel', 'techreborn:diesel_bucket', 'techreborn:nitro_diesel_bucket'])
   

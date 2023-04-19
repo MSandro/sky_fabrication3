@@ -3,7 +3,9 @@ function pulverize(event, output, input) {
   if (input.includes("#")) {
     var json = {
       type: "indrev:pulverize",
-      ingredients: Item.of(input.substring(1)).toJson(),
+      ingredients: {
+        tag: (input == '#c:concrete_powders') ? "c:concrete_powder" : input.substring(1)
+      },
       output: output,
       processTime: 150
     };

@@ -1,0 +1,16 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "kubejs:bone_knife"
+    },
+    "block_in": "minecraft:bone_block",
+    "post": [
+        {
+            "type": "place",
+            "block": "fabricaeexnihilo:rubber_crucible"
+        },
+        {
+            "type": "damage_item"
+        }
+    ]
+ }

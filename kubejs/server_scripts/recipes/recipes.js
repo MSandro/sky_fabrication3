@@ -29,6 +29,8 @@ onEvent('recipes', (event) => {
   event.remove({output: 'fabricaeexnihilo:raw_iridium_piece', type: 'fabricaeexnihilo:sieve'});
   event.remove({output: 'fabricaeexnihilo:raw_gold_piece', type: 'fabricaeexnihilo:sieve'});
   event.remove({output: 'techreborn:platinum_small_dust', type: 'fabricaeexnihilo:sieve'});
+  event.remove({id: "fabricaeexnihilo:compat/techreborn/rubber_crucible"});
+  event.remove({id: "fabricaeexnihilo:compat/techreborn/rubber_strainer"});
 
   // COMPRESSEM removals
   const DelCompressem = [
@@ -79,6 +81,8 @@ onEvent('recipes', (event) => {
   // Advanced Reborn
   event.remove({input: 'advanced_reborn:advanced_forge_hammer', type: 'minecraft:crafting_shapeless'});
   event.remove({input: 'advanced_reborn:forge_hammer', type: 'minecraft:crafting_shapeless'});
+  event.remove({output: 'advanced_reborn:forge_hammer'})
+  event.remove({output: 'advanced_reborn:advanced_forge_hammer'})
 
   // Alloy Forgery
   event.remove({output: 'alloy_forgery:bricks_forge_controller'})
@@ -133,6 +137,9 @@ onEvent('recipes', (event) => {
   event.remove({id: "tconstruct:smeltery/casting/seared/grout"});
   event.remove({id: "tconstruct:smeltery/seared/seared_brick_kiln"});
 
+  // IndRev
+  event.remove({output: 'indrev:hammer'})
+
   // Create Sifter removals
   let toRemove = ["dirt_strig_mesh_waterlogged", "gravel_andesite_mesh", "gravel_brass_mesh", "gravel_zinc_mesh", "sand_andesite_mesh", "sand_brass_mesh", "sand_string_mesh", "sand_zinc_mesh"];
   toRemove.forEach(item => {
@@ -166,6 +173,14 @@ onEvent('recipes', (event) => {
   // Remove Osseous Bricks shaped crafting recipe because it conflicts with Full Bone Block recipe.
   // The Osseous Bricks are still craftable using a Stonecutter.
   event.remove({output: "architects_palette:osseous_bricks", type: 'minecraft:crafting_shaped'});
+
+  event.shaped("kubejs:bone_knife", [
+    "B",
+    "S"
+  ], {
+    S: "minecraft:stick",
+    B: 'minecraft:bone'
+  });
 
   // CreatePlus AE2 compat recipe fix + remove random salvage from processors
   event.remove({id: "createplus:ae2/sequenced_assembly/mixing/calculation_processor"});
