@@ -13,11 +13,11 @@
       "item": "techreborn:iridium_alloy_plate"
     },
     "R": {
-      "item": "modern_industrialization:basic_machine_hull"
+      "item": "modern_industrialization:turbo_machine_hull"
     }
   },
   "result": {
-    "item": "upc:upc",
+    "item": "upc:upc_hv",
     "count": 1
   }
 }

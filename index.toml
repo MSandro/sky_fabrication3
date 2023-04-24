@@ -9877,6 +9877,10 @@ file = "kubejs/data/create/recipes/cutting/copper_bolt.json"
 hash = "49a66c2b1c7b6a24175a9483bd8ed1186649ae69bfccc5552519813b07499c5a"
 
 [[files]]
+file = "kubejs/data/create/recipes/emptying/experience_bottle_emptying.json"
+hash = "1f96efd111b4e368b8db19157fdd974ca6061559080dce8f376559f5f9adeaf2"
+
+[[files]]
 file = "kubejs/data/create/recipes/milling/andesite.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -9927,6 +9931,18 @@ hash = "d6e97e708a8f07dac676a408776c24072d9d687629234343fd9471ab6ab2ba24"
 [[files]]
 file = "kubejs/data/create/recipes/milling/silt.json"
 hash = "d685e8ea2328bf11d6ac48cf4cc9dbda2c3b551f5f5c56bdb058c07f02b09030"
+
+[[files]]
+file = "kubejs/data/create/recipes/mixing/experience_nugget_mixing.json"
+hash = "6fdb2246f2127bd6e5ce1d1d2627dcabedc163d19c8be15c1399ec3b75bffcad"
+
+[[files]]
+file = "kubejs/data/create/recipes/mixing/xp_berries_mixing.json"
+hash = "965a9b0e11c29384632bb6a4af9c2764bffcbcc651a47cde7b365ae47264f86f"
+
+[[files]]
+file = "kubejs/data/create/recipes/mixing/xp_berries_seeds_mixing.json"
+hash = "ce5dbdafe0be602cdb3c21b5d83747fb114e2389c20bc9df6f3b8e55484f56b0"
 
 [[files]]
 file = "kubejs/data/createaddition/recipes/compat/jeed/shocking.json"
@@ -11027,6 +11043,18 @@ hash = "47924a20b5e558616cb5d5e8020aeaed6ebeff5c065224ed7d522cbde61594b3"
 [[files]]
 file = "kubejs/data/dark-enchanting/recipes/table_upgrade.json"
 hash = "83924f9c7f817bacf766f1817bdb7e02d556c75f4ebe653a90a89d74d4717b0e"
+
+[[files]]
+file = "kubejs/data/dmlsimulacrum/recipes/extraterrestrial_matter_to_xp_nugget.json"
+hash = "cfb470a33bc26a897620133a436c21da85bb956b2e4acc9d1b2b976266bba0da"
+
+[[files]]
+file = "kubejs/data/dmlsimulacrum/recipes/hellish_matter_to_xp_nugget.json"
+hash = "dae6e562c005252e4720ac3c7da916c4c8fc2d1d5c02ecd0614b89db456c9071"
+
+[[files]]
+file = "kubejs/data/dmlsimulacrum/recipes/overworld_matter_to_xp_nugget.json"
+hash = "da6fdabefe9cdaef2cbc946902e00c18562daeda5f37d53f3d4f0017e27d6a82"
 
 [[files]]
 file = "kubejs/data/dmlsimulacrum/recipes/transmute/transmutes1_hellish/blaze_head.json"
@@ -13618,7 +13646,19 @@ hash = "2e38acb79f2d5c6748c9aafda00b36e9c481f9da1ec30b927a3773642cd912ea"
 
 [[files]]
 file = "kubejs/data/upc/recipes/upc.json"
-hash = "65198e37cb7495a52e264f6e43b4c0d0e0d603d022bab773dccd86162e73c86c"
+hash = "8f28340511a71d6cdebc01b918931897287867730f823963ee394a6ee508934c"
+
+[[files]]
+file = "kubejs/data/upc/recipes/upc_ev.json"
+hash = "30306db2b822c54ea24446dadae2f0d017c8bcc550266790aaf4326acd40d2dd"
+
+[[files]]
+file = "kubejs/data/upc/recipes/upc_hv.json"
+hash = "03d0e6a6b08e43df6a1fee4c46935c1022af1002f2ea312a4eb1946eb27e09b2"
+
+[[files]]
+file = "kubejs/data/upc/recipes/upc_mv.json"
+hash = "2186a1350573b2bde896f086a3de2e8cf68cf58094bb7642282285df2c22e5cf"
 
 [[files]]
 file = "kubejs/data/yigd/recipes/death_scroll.json"
@@ -14254,7 +14294,7 @@ metafile = true
 
 [[files]]
 file = "mods/drippy-loading-screen-fabric.pw.toml"
-hash = "9710216016ba6554638f53e7d21a229247481edd746eaec5d1e14a5d668d4e9f"
+hash = "d276106d99b2349c0b8164edaf38c9b711cde6b0daf1e72db7521dac222113d6"
 metafile = true
 
 [[files]]
@@ -14394,7 +14434,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu-fabric.pw.toml"
-hash = "616af603a7b3a4a4dcd09c934bbaa7173277bbf63be582cd4ab6dadca73465fa"
+hash = "4777045fdfef40fa5c9de2c867b99e69e7bbc29db23b75d868aef287ad765bb3"
 metafile = true
 
 [[files]]
@@ -14414,7 +14454,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastload.pw.toml"
-hash = "d98ae64442c9c171ba733c378d94583c332d526d043c17d6952218b7a4b5b705"
+hash = "246f48761d5626cd377e4fa68f958a2cebb1b205d864550c2798bb9b02ccaf8f"
 metafile = true
 
 [[files]]
@@ -14769,7 +14809,7 @@ metafile = true
 
 [[files]]
 file = "mods/merequester.pw.toml"
-hash = "976f85a8b64736dd8e77a3c28f39f809a5e29e305547568f19eeac15bf7594e4"
+hash = "cc9dfb16c3781b77a55d40a3f2a5728e3e6df85dfde48a0159d01ff7c1791986"
 metafile = true
 
 [[files]]
@@ -15239,7 +15279,7 @@ metafile = true
 
 [[files]]
 file = "mods/travelers-backpack-fabric.pw.toml"
-hash = "00bf766506ec8065851f3c2b6034e7dd502970b9c7935f3ac5648965f41a0a4d"
+hash = "a86f5217e40ff6828137b49ce373980a333042a0319f1bf896bd25ca99b4eb89"
 metafile = true
 
 [[files]]
@@ -15314,7 +15354,7 @@ metafile = true
 
 [[files]]
 file = "mods/youre-in-grave-danger.pw.toml"
-hash = "de1f029315b79c2c57a888d43669c5c79069ab9ab99c4de8d4fd43f8ac718428"
+hash = "c956132dc425de1d66fd0257b658416204fd23cf2d9ed3979c750943f447c888"
 metafile = true
 
 [[files]]
