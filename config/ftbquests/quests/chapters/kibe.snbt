@@ -708,7 +708,7 @@
 			tasks: [{
 				id: "7F9BE20A484C8715"
 				type: "checkmark"
-				title: "Kibe Mob Farm Method"
+				title: "Kibe Mob Farm Utilities"
 			}]
 		}
 		{
@@ -737,7 +737,6 @@
 			x: 12.0d
 			y: -6.0d
 			subtitle: "Cannot be destroyed by the wither boss."
-			description: ["Be aware that a Wither can destroy witherproof blocks (even Bedrock), after defeating the first Wither."]
 			dependencies: ["5EDF1BBEEBED927F"]
 			id: "06E66DB0079C1C33"
 			tasks: [{
@@ -755,7 +754,6 @@
 			x: 12.5d
 			y: -3.5d
 			subtitle: "Cannot be destroyed by the wither boss."
-			description: ["Be aware that a Wither can destroy witherproof blocks (even Bedrock), after defeating the first Wither."]
 			dependencies: ["5EDF1BBEEBED927F"]
 			id: "32223B3C4D82A24B"
 			tasks: [{
@@ -773,7 +771,6 @@
 			x: 13.5d
 			y: -7.0d
 			subtitle: "Cannot be destroyed by the wither boss."
-			description: ["Be aware that a Wither can destroy witherproof blocks (even Bedrock), after defeating the first Wither."]
 			dependencies: ["5EDF1BBEEBED927F"]
 			id: "5006788393F2C549"
 			tasks: [{
@@ -791,7 +788,6 @@
 			x: 14.5d
 			y: -3.5d
 			subtitle: "Activated by a redstone signal, will summon a wither if there's enough building material in its inventory and available space in front of it."
-			description: ["Be aware that a Wither can destroy witherproof blocks (even Bedrock), after defeating the first Wither."]
 			dependencies: ["5EDF1BBEEBED927F"]
 			id: "38447A3B73A23497"
 			tasks: [{
@@ -809,7 +805,6 @@
 			x: 15.0d
 			y: -6.0d
 			subtitle: "Cannot be destroyed by the wither boss."
-			description: ["Be aware that a Wither can destroy witherproof blocks (even Bedrock), after defeating the first Wither."]
 			dependencies: ["5EDF1BBEEBED927F"]
 			id: "425EE3501EE44BFC"
 			tasks: [{
@@ -824,11 +819,11 @@
 			}]
 		}
 		{
-			title: "Wither Machine"
+			title: "Automate Wither building and killing"
 			x: 13.5d
 			y: -5.0d
 			shape: "hexagon"
-			description: ["Use the following to create an automatic wither machine."]
+			description: ["Use the following to create an automatic Wither-slaying machine."]
 			id: "5EDF1BBEEBED927F"
 			tasks: [{
 				id: "24A1862F0308DA6E"

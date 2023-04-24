@@ -1,19 +1,27 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "WLW",
-    "SSS",
-    "XSY"
+  "type": "modern_industrialization:implosion_compressor",
+  "eu": 128,
+  "duration": 2400,
+  "item_inputs": [
+    {
+      "item": "minecraft:soul_sand",
+      "amount": 4
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "amount": 3
+    },
+    {
+      "item": "dmlsimulacrum:extraterrestrial_matter",
+      "amount": 16
+    },
+    {
+      "item": "modern_industrialization:industrial_tnt",
+      "amount": 16
+    }
   ],
-  "key": {
-    "L": { "item": "dmlsimulacrum:extraterrestrial_matter" },
-    "S": { "item": "minecraft:soul_sand" },
-    "W": { "item": "minecraft:wither_skeleton_skull" },
-    "X": { "item": "botania:spawner_claw" },
-    "Y": { "item": "conjuring:soul_slice" }
-  },
-  "result": {
+  "item_outputs": {
     "item": "minecraft:nether_star",
-    "count": 1
+    "amount": 1
   }
 }

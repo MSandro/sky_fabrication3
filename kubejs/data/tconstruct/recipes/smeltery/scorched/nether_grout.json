@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "tag": "c:soul_ground"
+    },
+    {
+      "item": "fabricaeexnihilo:crushed_netherrack"
+    }
+  ],
+  "results": [
+    {
+      "item": "tconstruct:nether_grout",
+      "count": 2
+    }
+  ],
+  "heatRequirement": "heated"
+}

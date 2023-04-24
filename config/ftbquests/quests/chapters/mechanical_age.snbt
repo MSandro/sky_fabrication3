@@ -1803,8 +1803,8 @@
 			y: 1.5d
 			subtitle: "Crank it up!"
 			description: [
-				"Hand Cranks generate 256 su at 16 RPM when spun manually. It uses hunger to do so."
-				"The Valves give out 128 su at 8 RPM, but they look stylish on Fluid Valves!"
+				"Hand Cranks generate 256 su at 32 RPM when spun manually. It uses hunger to do so."
+				"The Valves give out 128 su at 16 RPM, but they look stylish on Fluid Valves!"
 			]
 			dependencies: ["15C5FE720715D50F"]
 			min_required_tasks: 1
