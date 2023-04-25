@@ -402,7 +402,7 @@ hash = "8830d327f96393c7952f119a69679025a5f1f21cffa278356503021d55d861b2"
 
 [[files]]
 file = "config/create-client.toml"
-hash = "feeaf26fda1db2fc1f61c4a75eec890747520f432e48903c782d9dfc0a8a13cc"
+hash = "2279f08adadfd663a7e5603ee736dab5429707327d1ee15dfc8a56ae03e24642"
 
 [[files]]
 file = "config/create-common.toml"
@@ -1037,8 +1037,12 @@ file = "config/dragonloot.json5"
 hash = "95d52e27337544de3ab9ebfac856517fb894db33596788e212104d8fe360278b"
 
 [[files]]
+file = "config/dramaticdoors-fabric.properties"
+hash = "30cf4309677eb1b7ba5738f8f5ca61c82a7000c1f828e7d9544fe137d4589f15"
+
+[[files]]
 file = "config/drippyloadingscreen/config.cfg"
-hash = "713d71d1bab277eac2195c4d929b5e77c0175590e0451062c15b43e7a734d219"
+hash = "b9a9956e2ad94100a2150b4467f144aae5311766761cbab67733896d7f29e92a"
 
 [[files]]
 file = "config/dusk.json"
@@ -1750,7 +1754,7 @@ hash = "14eb4e8cd105c580403c4e5bc6bba831c81aedcf4e6e04485c74e9d3f253689f"
 
 [[files]]
 file = "config/fabrication/features.ini"
-hash = "654e89a5e1d93a0743f11824bb682871d21f4e0244991fc26223acd8d05e4247"
+hash = "7b4a3baeb160dc948dc8071bdcc1bcc88a4e9684849324ad461bc9960bcbce46"
 
 [[files]]
 file = "config/fabrication/fscript.ini"
@@ -1778,7 +1782,7 @@ hash = "e18e29ac5cc4b0afc918054806d179554d2297d2c41d75c9605e2e0bff378b70"
 
 [[files]]
 file = "config/fancymenu/config.txt"
-hash = "55e0fbf9d6982f2595a178878cc3a95f42c3085f896a3e573f523202ebe25526"
+hash = "3bb6c905e5e24f8b4f674481f1db8a9bfee45e0145a1c4ada442ba83680bd908"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
@@ -1941,6 +1945,10 @@ file = "config/fpsreducer.json"
 hash = "94860f1433e6124b52ba84b46ffac245f839fbd467202ba844cdf072534ac723"
 
 [[files]]
+file = "config/ftbbackups2.json"
+hash = "a2982f5db600519b801ce5557cb1eaca306e9cbab58ac154cfbf10a5a8d8273f"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "a71d41c58b95146679e3d8cc7219b619dc4a5f795eb453190298d29b524a0499"
 
@@ -2067,6 +2075,10 @@ hash = "047dd4b91fc96f6936723c9672e2eada0449547f16de10585f6677635bc4e30c"
 [[files]]
 file = "config/furc.json5"
 hash = "d9c6310b819fe043a36945a5545e36449e8e5318079a8359ab871149551bd3cd"
+
+[[files]]
+file = "config/fwaystones/config.json"
+hash = "c12d5ce78c74f0f9f153030e8b7af16342fdc4a791bbb59d4c0e9003efbb91cd"
 
 [[files]]
 file = "config/global_data_and_resourcepacks.toml"
@@ -2333,6 +2345,10 @@ file = "config/mambience/config.json"
 hash = "4db599084ebc4a77acda816af1bc889722d932b4403f901f28fab963954d6b36"
 
 [[files]]
+file = "config/mcpitanlibarch/blacklist.json"
+hash = "27fd182b858501cd172a1fb966876b4c850f1ea5760c5aa30aa198453f159b0f"
+
+[[files]]
 file = "config/merequester.json"
 hash = "badd9bf46e2aa26dbe294d6d77b97aba659ea08fe7bfdb907b1327fa8e24b06e"
 
@@ -2407,6 +2423,10 @@ hash = "d19a18e4682cfe4c5f2f81592fceb45a619e8500d4448b4fe962e0b90ad3c249"
 [[files]]
 file = "config/mystical_index.json5"
 hash = "d3110c55db00ea101259d53f0ab45cfa3766e3c8d60cf904ef1aa0ce103de231"
+
+[[files]]
+file = "config/naturescompass.json"
+hash = "a6a872fbce46949e96a433d5a088084d77c30e388b6da1542ffd8b773e682b4c"
 
 [[files]]
 file = "config/ngroklan.json5"
@@ -2646,7 +2666,7 @@ hash = "555c4c061d99ec683600fb585e2eefb90e5bafc823e454f6d3ffbe1e035b031d"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "d6c2d04ff664076418f53c900f4155a558aa0f9da467bbef16dd7f356b6fba86"
+hash = "5bfba3c7ca6694c5e0cee0c00c8efaab2982b1cb8aa848deae6b633b6b1b91a3"
 
 [[files]]
 file = "config/sodium-extra.properties"
@@ -2662,15 +2682,15 @@ hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
 
 [[files]]
 file = "config/sound_physics_remastered/occlusion.properties"
-hash = "e31acf5277d0a91fd033da3f11805b7bb0501b4980535f7133abff7dd22f8793"
+hash = "78a82ab45f7e7df2d4d20ebb7908035f614202666599edd4dbee195d2acb2d0c"
 
 [[files]]
 file = "config/sound_physics_remastered/reflectivity.properties"
-hash = "1bbabb7e016d6b049b849995aa8325525c5b3d6bdd317ed10b27d00feb06967c"
+hash = "6cdfc87fe1715ccdeadb1072f17f28a0027e2780d9fbc26b14a5675bece34f64"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
-hash = "482429701ef8c024ad3b55daa87145c7c8d764c8334625d94d3d777455e070d2"
+hash = "2aca1f372c6d27456e1b6ab342c1e7e757ff43ba3fe85afd31ee1da185993276"
 
 [[files]]
 file = "config/spatialharvesters.conf"
@@ -2687,6 +2707,10 @@ hash = "db172d2253fe40b044c85b14ddce86fb2982cf47f08d95f5bf0afca1d4bc3c6b"
 [[files]]
 file = "config/structure_floaters.json5"
 hash = "2c2a85304027c0dfd17d8e75ab037cb91745444e29c63a8bcdd2c9cfb9d9a8a8"
+
+[[files]]
+file = "config/structures_compass.json"
+hash = "1a86e2996012e615691f9e7cfe34ff4b03770fb0d4855975ec8f409a0783159a"
 
 [[files]]
 file = "config/suggestion-tweaker.json5"
@@ -2730,11 +2754,11 @@ hash = "2e0bf58cee7c1913964b47a40ba360667018c6fa94c153da5f8ebf68d1cbdbfa"
 
 [[files]]
 file = "config/theoneprobe-client.toml"
-hash = "d522cc96d9a77b11c5d110eedb34c93e0a4f6109e68cf82d5c54e97c5507b59b"
+hash = "43180a5f7feb34d02846b76a8b43006780ab56af317c4ca0e3c9502a4d4a3f04"
 
 [[files]]
 file = "config/theoneprobe-common.toml"
-hash = "8e3f94a700dbc76ea9016e0dbb7045d2c3b4cb8b64dd75b134b77b85cc29db51"
+hash = "4ad9c581e0cd44b7c4e0c4025de2e244918274cac82c01a966a93e765ac588a8"
 
 [[files]]
 file = "config/things.json5"
@@ -2782,7 +2806,7 @@ hash = "60e74d659627f134db8f4822af124968e289082c70bb238560981e5201e0a7c9"
 
 [[files]]
 file = "config/twilightforest-common.toml"
-hash = "92b0bac6507f3a1c9f02666594e5f8aa12d174fdb72bb317bb6a86fb17d1f758"
+hash = "cde35075ee1f8dbf3ed675d1f26010f2a217e797cf8c9eaee727f684681bd582"
 
 [[files]]
 file = "config/voidtotem.toml"
@@ -2810,7 +2834,7 @@ hash = "394fd25489dc101edf130055d1cdbddb9fb62ae3a455aeec5c42bd9b14d22007"
 
 [[files]]
 file = "config/wands.json"
-hash = "dd4ed14bc63ff680550e0df6b2c56d54d285ceb9ce6b6b73ac6431f16d6d7191"
+hash = "139430021ac124986f7a92bc66261d8adc8c051d2846e5473a26cdcbd5b8347d"
 
 [[files]]
 file = "config/yigd.toml"
