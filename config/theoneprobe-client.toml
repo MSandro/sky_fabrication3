@@ -112,3 +112,4 @@ harvestStyleVanilla = true
 	Info = "white"
 	#Text style. Use a comma delimited list with colors like: 'red', 'green', 'blue', ... or style codes like 'underline', 'bold', 'italic', 'strikethrough', ..."
 	Name = "white"
+

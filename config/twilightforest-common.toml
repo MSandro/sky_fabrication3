@@ -83,3 +83,4 @@ skull_candles = false
 	#The amount of ticks after raising a shield that makes it OK to parry a thrown item.
 	#Range: > 0
 	shieldParryTicksThrowable = 40
+

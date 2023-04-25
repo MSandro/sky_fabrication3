@@ -1,13 +1,13 @@
 name = "spark"
-filename = "spark-1.9.11-fabric.jar"
+filename = "spark-1.10.38-fabric.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f3e6578c000c4bf8d9ae3f1d3753b8c55477b590"
+hash = "cc2fe75502dbfc47fafc11cbdbff899f7ca9b5fe"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3824949
+file-id = 4505374
 project-id = 361579
