@@ -11177,6 +11177,10 @@ file = "kubejs/data/fabricaeexnihilo/recipes/mesh/netherite_mesh.json"
 hash = "4b625322b8f28b7ab2ed7758188a91a20d40462b7d1ce23393cba9e53a7d70e7"
 
 [[files]]
+file = "kubejs/data/fabricaeexnihilo/recipes/milking/cow.json"
+hash = "3fea7dcaa11d3fa6b286967918c81d0b4ed04d96c0e1b6bb27df9b3c6fe6b9c3"
+
+[[files]]
 file = "kubejs/data/fabricaeexnihilo/recipes/sieve/end_seed_from_crushed_endstone.json"
 hash = "6e4d9963f3551838718d8312154a312c63d365703e4f9e323b3d927fb6ec7eef"
 
@@ -11279,6 +11283,14 @@ hash = "42790e192fda89adea9be8714e6a0231c9eb2d3b3493a3a1688e7845aca7ed90"
 [[files]]
 file = "kubejs/data/indrev/loot_tables/blocks/silver_ore.json"
 hash = "ef2c7f1dc5027b6ea5142f109d0ff2688af0c41c7c02d67adfcb9019fc701809"
+
+[[files]]
+file = "kubejs/data/indrev/recipes/compressing/iridium_alloy_plate_from_compressor.json"
+hash = "48d2b613ae1f0660770b6d5a359a8c80f64d9b370c33e97fe011d314bebaec13"
+
+[[files]]
+file = "kubejs/data/indrev/recipes/compressing/iridium_plate_from_compressor.json"
+hash = "8e84583f4fb15f55ac2b3c4b67ec6cdf6ad7ed20b4ee955a289707ae9ee66ec8"
 
 [[files]]
 file = "kubejs/data/indrev/recipes/condensing/copper_chunk_from_molten_copper.json"
@@ -13406,7 +13418,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/spectrum/rainbow_asphalt.json"
-hash = "e98b5ac57478da9b6d0cf8506ac8f1482b3f7b90b83ab1a2d3ee5389bbb43c33"
+hash = "4559bfa9afc9c247c8ae4e005dc16b1276db6c771af39e9df3908e81a6382841"
 
 [[files]]
 file = "kubejs/data/the_extractinator/output/supported_blocks/the_extractinator/silt.json"
@@ -14189,7 +14201,7 @@ metafile = true
 
 [[files]]
 file = "mods/cosmetics.pw.toml"
-hash = "5cd7b9e410df5320a994a5a2367af319fabb3ef5282d04fbaec39b2b57fae0bd"
+hash = "8e237bb74b5f99baff5e854260a5acb4b9a93d91099d90183925c76920a6dde3"
 metafile = true
 
 [[files]]
@@ -14214,7 +14226,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-fabric.pw.toml"
-hash = "e6463553198770c9e070e2903ad644f6260761aef51e79cef06038a471a2d599"
+hash = "52dd7de706aaf245018507ad17149b683838e63feb29cdcb2bbcd554b5a08369"
 metafile = true
 
 [[files]]
@@ -14994,7 +15006,7 @@ metafile = true
 
 [[files]]
 file = "mods/peripheralium.pw.toml"
-hash = "f4a4db4d9d31fe328e9feade7609f328ba79640902a2861b69bbc64ee74ead0b"
+hash = "5ad508883ddd3bdf193ecceeba299a548275f1a3ee0ae84d2cc37ef1caf38a38"
 metafile = true
 
 [[files]]
@@ -15329,7 +15341,7 @@ metafile = true
 
 [[files]]
 file = "mods/turtlematic.pw.toml"
-hash = "ad5ffd4d7afd30d9e0b26980b36c256481521c5ff54d3773fc15d3e8b40d6d7f"
+hash = "5adde16fd45748869b29e40efd42f477c04d8ace950545d89770e543a4efa458"
 metafile = true
 
 [[files]]
