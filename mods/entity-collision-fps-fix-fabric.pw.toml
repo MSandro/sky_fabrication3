@@ -1,0 +1,13 @@
+name = "Entity Collision FPS Fix Refabricated"
+filename = "Entity_Collision_FPS_Fix-fabric-1.18.2-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "65d904b4cb1934a5775a36525d02391db7044221"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3808965
+project-id = 628761

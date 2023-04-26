@@ -14265,6 +14265,16 @@ hash = "1496f7934e3cb4a0ad45bdffe5b79c1c53e858cd8a6fb148c15b944d6ed919a0"
 metafile = true
 
 [[files]]
+file = "mods/cull-less-leaves.pw.toml"
+hash = "119967d6984daefc2dda4e34e9f2fd3edb4ee48abb3edf8ce8edd460e6e680be"
+metafile = true
+
+[[files]]
+file = "mods/cullclouds.pw.toml"
+hash = "6bb6d1c058b7b5efa5d2de8ba9255bf96597a9b49cd8d8cde42a2d2d9dcf8584"
+metafile = true
+
+[[files]]
 file = "mods/custom-spawns.pw.toml"
 hash = "41d92d892f80c777642d5509943fa7b9d7aefb7266153efa67b9bad920657bc1"
 metafile = true
@@ -14385,8 +14395,23 @@ hash = "32d8c813e2b6d92d718cb39f7008fd0fb16093aab6d16d807ae9dc0e913a085f"
 metafile = true
 
 [[files]]
+file = "mods/enhanced-block-entities.pw.toml"
+hash = "26fc1b6eed34ae6c622682efd66c82c99e22027750c31853709255ed3d672902"
+metafile = true
+
+[[files]]
 file = "mods/enhanced-celestials-fabric.pw.toml"
 hash = "cfc773aa6f2529550bed64d00827f8fc1a11694b3a092da4a9142863f705f035"
+metafile = true
+
+[[files]]
+file = "mods/entity-collision-fps-fix-fabric.pw.toml"
+hash = "ba23411d4fa6b8f25953c4aa6e88f49cb5f67fa29f2ac36348cb36fc42ac91e6"
+metafile = true
+
+[[files]]
+file = "mods/entityculling.pw.toml"
+hash = "b7eff661448c0025e3160a025e0f92db66d4a8d18e0b9ce77a7c8c22cc737850"
 metafile = true
 
 [[files]]
