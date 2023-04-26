@@ -14265,6 +14265,16 @@ hash = "1496f7934e3cb4a0ad45bdffe5b79c1c53e858cd8a6fb148c15b944d6ed919a0"
 metafile = true
 
 [[files]]
+file = "mods/cull-less-leaves.pw.toml"
+hash = "119967d6984daefc2dda4e34e9f2fd3edb4ee48abb3edf8ce8edd460e6e680be"
+metafile = true
+
+[[files]]
+file = "mods/cullclouds.pw.toml"
+hash = "6bb6d1c058b7b5efa5d2de8ba9255bf96597a9b49cd8d8cde42a2d2d9dcf8584"
+metafile = true
+
+[[files]]
 file = "mods/custom-spawns.pw.toml"
 hash = "41d92d892f80c777642d5509943fa7b9d7aefb7266153efa67b9bad920657bc1"
 metafile = true
