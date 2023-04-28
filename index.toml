@@ -12905,16 +12905,8 @@ file = "kubejs/data/remote_controlled/recipes/energy_remote_control.json"
 hash = "6a70500e01621132244720f18e7f70ecb204444f1cf9925e83402fa3f28e415c"
 
 [[files]]
-file = "kubejs/data/sf3/dimension/skygrid.json"
-hash = "259072c621ecf7fb517ee3dad6b5c4dcb086143b43df7c3691325ceec4f94ec3"
-
-[[files]]
 file = "kubejs/data/sf3/dimension/void.json"
 hash = "869413303cbce67b32ab3af242044288fa129a5eefba438c01f5f2eea8e999ef"
-
-[[files]]
-file = "kubejs/data/sf3/dimension_type/skygrid.json"
-hash = "2800a85c45d1db546dec3181e140d403d9104bcf67a409cb651a15f6defb86f0"
 
 [[files]]
 file = "kubejs/data/sf3/dimension_type/void.json"
@@ -14930,11 +14922,6 @@ hash = "9cc9717685bfd7f39d3941ec95f4418fa8af4e1befcf626b11640f218083ee74"
 metafile = true
 
 [[files]]
-file = "mods/moreculling.pw.toml"
-hash = "b8ec851b95dfd5ac306cb1e271b8e29a33803ac573f2f8409e985024925c7872"
-metafile = true
-
-[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "d448b3da16213a9f807b86aad22bdf9d81eb331dc2c01a95834740a6fb7f6865"
 metafile = true
@@ -15197,11 +15184,6 @@ metafile = true
 [[files]]
 file = "mods/sky-island-generator-fabric.pw.toml"
 hash = "fc4100f6a88f4de3f196d673723c6315619c7fea64960a0952b0b85c4c89a620"
-metafile = true
-
-[[files]]
-file = "mods/skygrid.pw.toml"
-hash = "a8ac8f6ad9c4b20a40912f41eb550da86df44cdc5cf5eac8e9740d870c8d79cd"
 metafile = true
 
 [[files]]
