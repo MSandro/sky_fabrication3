@@ -134,8 +134,8 @@ onEvent('recipes', (event) => {
   event.remove({id: "tconstruct:smeltery/casting/seared/bricks/stairs"});
   event.remove({id: "tconstruct:smeltery/casting/seared/bricks/wall"});
   event.remove({id: "tconstruct:smeltery/casting/seared/brick_composite"});
-  event.remove({id: "tconstruct:smeltery/casting/seared/grout"});
   event.remove({id: "tconstruct:smeltery/seared/seared_brick_kiln"});
+  event.remove({id: "tconstruct:smeltery/seared/grout"});
 
   // IndRev
   event.remove({output: 'indrev:hammer'})
