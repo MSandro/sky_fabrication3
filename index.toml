@@ -2693,10 +2693,6 @@ file = "config/sound_physics_remastered/soundphysics.properties"
 hash = "2aca1f372c6d27456e1b6ab342c1e7e757ff43ba3fe85afd31ee1da185993276"
 
 [[files]]
-file = "config/spatialharvesters.conf"
-hash = "bfbf48e82c15baf5de738ace78a5a43b26d4c9c5b076b6b9dc489ea8929c6d0f"
-
-[[files]]
 file = "config/stoneholm.json5"
 hash = "38dfd2d9bb5286298bd0fc9bb43782319e0c6f9519b890c31e4a554c32b15d84"
 
@@ -13938,7 +13934,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "e0917e3b5febe243fef9f8353440137bfa3f5bddc3f383a4538160f00b1434b4"
+hash = "1cf4751c388f6739b9ecde4b398d5ca2b601c23c7e8a34efb2fdfc54b47f5fba"
 metafile = true
 
 [[files]]
@@ -14208,7 +14204,7 @@ metafile = true
 
 [[files]]
 file = "mods/crafting-tweaks-fabric.pw.toml"
-hash = "c402b155310434f100d39f0486ea88e36fabb37e864b6d0529d73078e3719bf0"
+hash = "18b4dcb1457219f58c230bb03f45daa27b62932e827d63865861108fe38e92e6"
 metafile = true
 
 [[files]]
@@ -14413,7 +14409,7 @@ metafile = true
 
 [[files]]
 file = "mods/essential-commands.pw.toml"
-hash = "b5dfd51b7114f26e41e3cba980aa7cc04410a75ea062311ea613d34f09fb0a44"
+hash = "ea867fd0fab15d145f7e3449e9a4d64b18851e67a8bd56690ec7d731932e98cf"
 metafile = true
 
 [[files]]
@@ -14493,7 +14489,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "422f048e173c9320f09265d5ea679511cc941efd72f80125f4b1f321e5669cbf"
+hash = "b9155fb8b92d2308dec6263db7ce3ee4f09fb31ae9856be04f6793e38fdc4e51"
 metafile = true
 
 [[files]]
@@ -14748,7 +14744,7 @@ metafile = true
 
 [[files]]
 file = "mods/konkrete-fabric.pw.toml"
-hash = "7b89e64defee8ce3fcbfa3effdea0f7651fd3dd1ae5d35adc2f017c3b277a261"
+hash = "14096650b4020297ad9d5b71520bc1e6343bc0cdd68682da09a27cc262d3fb5d"
 metafile = true
 
 [[files]]

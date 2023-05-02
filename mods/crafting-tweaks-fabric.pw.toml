@@ -1,13 +1,13 @@
 name = "Crafting Tweaks (Fabric Edition)"
-filename = "craftingtweaks-fabric-1.18.2-14.0.4.jar"
+filename = "craftingtweaks-fabric-1.18.2-14.0.7.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c6ba73e427d24a12d24a93fa4f52597161e459ef"
+hash = "72c9f179c61badd5f6808baff8300da93dd541a0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4412617
+file-id = 4513980
 project-id = 502516
