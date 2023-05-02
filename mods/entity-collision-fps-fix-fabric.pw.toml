@@ -1,6 +1,6 @@
 name = "Entity Collision FPS Fix Refabricated"
 filename = "Entity_Collision_FPS_Fix-fabric-1.18.2-1.0.0.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

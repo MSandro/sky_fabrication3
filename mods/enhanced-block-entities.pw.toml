@@ -1,6 +1,6 @@
 name = "Enhanced Block Entities"
 filename = "enhancedblockentities-0.7.1+1.18.2.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
