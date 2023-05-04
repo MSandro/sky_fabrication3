@@ -13297,6 +13297,10 @@ file = "kubejs/data/techreborn/recipes/crafting_table/dust/zinc_dust_from_small.
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "kubejs/data/techreborn/recipes/crafting_table/parts/helium_coolant_cell_60k.json"
+hash = "fc7f1f30166729ecde903f89dd5ada5e4621307d776764e074fc492ab07f1af9"
+
+[[files]]
 file = "kubejs/data/techreborn/recipes/crafting_table/small_dust/chrome_small_dust_from_dust.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -14523,7 +14527,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastload.pw.toml"
-hash = "00e48fe95ddf8c3b9cbdba769890827e1919f1fa0faf7e9c68a676ce1508c10c"
+hash = "41850b618156f9bd79bc245901a022244b0020c9de3136277514f5447ba23f0d"
 metafile = true
 
 [[files]]
@@ -14728,7 +14732,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "b54a10557b38ffa5f0c83a98603dfd4a4bc53aaf39f0f5d069dd6ac5b43d82a2"
+hash = "e8ec9fed2df3181b19a4436d41208bb4c6095762a3babd6bf10ae4e56a65e129"
 metafile = true
 
 [[files]]
@@ -15313,7 +15317,7 @@ metafile = true
 
 [[files]]
 file = "mods/toms-storage-fabric.pw.toml"
-hash = "4590466e68431ac1f4bf496df59d194579a4f183838d5b8dd24cbd8023786535"
+hash = "ea8d952e525d224467f9be40d8b0a639194fde47e3972530c98c917c7f83dafb"
 metafile = true
 
 [[files]]
@@ -15452,4 +15456,4 @@ hash = "0001f2673dfed35e75ce48336867d0e24d9a34efd35e9fd5cd9fc5c127250e9d"
 
 [[files]]
 file = "sf3_changelog.txt"
-hash = "b60b9bdd668ef2435a46914b201bf3f8f76cdd55f8d54222f3e0710913adda7e"
+hash = "7756cf900a2f571669bf12625d08e0307ed2a12e8cc0cf2eefa384a27a5060ce"

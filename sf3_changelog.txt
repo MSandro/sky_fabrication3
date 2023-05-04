@@ -45,11 +45,15 @@ Changes by MSandro:
 * Raids are now working in Sky Islands Dimension (might need a Dim-Reset to take effect)
 * Fixed many KubeJS Warnings
 * Reworked Extractinator Outputs
+* Spatial Harvester Outputs changed (tried to respect to the ore unification)
 
 Changes by Itplays (many thanks for your help)
 * added some Expert Mode Recipes and tweaks
 
 Added:
+* Cull Less Leaves
+* Cull Clouds
+* Enhanced Block Entities
 * Nature & Structure Compass
 * Advanced & Gear Reborn
 
@@ -59,5 +63,6 @@ Removed:
 * Simple Void World (not needed)
 * Progressive Bosses (caused some issues)
 * Auto-Clicker Mod
+* SkyGrid
 
 Updated: all available mod updates
