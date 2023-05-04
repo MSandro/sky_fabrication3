@@ -75,9 +75,24 @@ const $Item = java('net.minecraft.world.item.Item')
 const $CreativeModeTab = java('net.minecraft.world.item.CreativeModeTab')
 const $Registry = java('net.minecraft.core.Registry')
 const $KnifeItem = java('com.nhoryzon.mc.farmersdelight.item.KnifeItem')
+const $UpgradeItem = java('io.github.mattidragon.extendeddrawers.item.UpgradeItem')
+const $Identifier = java('net.minecraft.class_2960')
+const $FabricItemSettings = java('net.fabricmc.fabric.api.item.v1.FabricItemSettings')
 
 let ITEMS = $DeferredRegister.create('kubejs', $Registry.ITEM_REGISTRY)
 ITEMS['register(net.minecraft.class_2960,java.util.function.Supplier)']('kubejs:bone_knife', () => {
   return new $KnifeItem($Tiers.STONE)
+})
+ITEMS['register(net.minecraft.class_2960,java.util.function.Supplier)']('kubejs:s1_upgrade', () => {
+  return new $UpgradeItem(new $FabricItemSettings(), $Identifier('kubejs', 'item/s1_upgrade'), 32)
+})
+ITEMS['register(net.minecraft.class_2960,java.util.function.Supplier)']('kubejs:s2_upgrade', () => {
+  return new $UpgradeItem(new $FabricItemSettings(), $Identifier('kubejs', 'item/s2_upgrade'), 256)
+})
+ITEMS['register(net.minecraft.class_2960,java.util.function.Supplier)']('kubejs:s3_upgrade', () => {
+  return new $UpgradeItem(new $FabricItemSettings(), $Identifier('kubejs', 'item/s3_upgrade'), 512)
+})
+ITEMS['register(net.minecraft.class_2960,java.util.function.Supplier)']('kubejs:s4_upgrade', () => {
+  return new $UpgradeItem(new $FabricItemSettings(), $Identifier('kubejs', 'item/s4_upgrade'), 2097152)
 })
 ITEMS.register()

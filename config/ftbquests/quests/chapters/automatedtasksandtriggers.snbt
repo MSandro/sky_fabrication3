@@ -26,7 +26,7 @@
 		{
 			x: -3.0d
 			y: -0.5d
-			subtitle: "Similar easy but different early-game!"
+			subtitle: "A different, more challenging early-game!"
 			description: ["You will build your island from just a bamboo and a block of podzol. You can craft Wood from bamboo. Wood is the basis for everything."]
 			hide: true
 			dependency_requirement: "one_completed"

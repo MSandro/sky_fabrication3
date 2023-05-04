@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EUE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "modern_industrialization:electrum_plate"
+    },
+    "U": {
+      "item": "extended_drawers:t3_upgrade"
+    }
+  },
+  "result": {
+    "item": "extended_drawers:t4_upgrade"
+  }
+}

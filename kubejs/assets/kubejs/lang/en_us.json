@@ -40,6 +40,10 @@
   "ups:ups": "UPS",
 
   "item.kubejs.bone_knife": "Bone Knife",
+  "item.kubejs.s1_upgrade": "Aluminum Drawer Upgrade",
+  "item.kubejs.s2_upgrade": "Stainless Steel Drawer Upgrade",
+  "item.kubejs.s3_upgrade": "Titanium Drawer Upgrade",
+  "item.kubejs.s4_upgrade": "Deep Storage Drawer Upgrade",
 
   "fluid.modern_industrialization.acrylic_acid": "Acrylic Acid",
   "fluid.modern_industrialization.acrylic_glue": "Acrylic Glue",

@@ -8,12 +8,12 @@
   ],
   "output": {
     "id": "minecraft:copper_ingot",
-    "count": 3
+    "count": 2
   },
   "overrides": {
     "2+": {
       "id": "minecraft:copper_ingot",
-      "count": 4
+      "count": 3
     }
   },
   "min_forge_tier": 1,

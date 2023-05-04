@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BMB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "modern_industrialization:bronze_plate"
+    },
+    "M": {
+      "item": "extended_drawers:upgrade_frame"
+    }
+  },
+  "result": {
+    "item": "extended_drawers:t1_upgrade"
+  }
+}

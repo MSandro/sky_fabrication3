@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " U ",
+    "UQU",
+    " U "
+  ],
+  "key": {
+    "Q": {
+      "item": "techreborn:quantum_storage_unit"
+    },
+    "U": {
+      "item": "kubejs:s3_upgrade"
+    }
+  },
+  "result": {
+    "item": "kubejs:s4_upgrade"
+  }
+}

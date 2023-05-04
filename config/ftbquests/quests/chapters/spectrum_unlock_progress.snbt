@@ -1329,15 +1329,15 @@
 					Count: 1b
 					tag: {
 						CustomPotionColor: 13565951
+						Potion: "spectrum:pigment_potion"
 						CustomPotionEffects: [{
 							ShowParticles: 1b
-							Id: 25b
-							Duration: 200
 							ShowIcon: 1b
-							Amplifier: 0b
+							Duration: 200
+							Id: 25b
 							Ambient: 1b
+							Amplifier: 0b
 						}]
-						Potion: "spectrum:pigment_potion"
 					}
 				}
 				advancement: "spectrum:progression/potions/unlock_levitation_potion"
@@ -1357,15 +1357,15 @@
 					Count: 1b
 					tag: {
 						CustomPotionColor: 3381504
+						Potion: "spectrum:pigment_potion"
 						CustomPotionEffects: [{
 							ShowParticles: 1b
-							Id: 26b
-							Duration: 6000
 							ShowIcon: 1b
-							Amplifier: 0b
+							Duration: 6000
+							Id: 26b
 							Ambient: 1b
+							Amplifier: 0b
 						}]
-						Potion: "spectrum:pigment_potion"
 					}
 				}
 				advancement: "spectrum:progression/potions/unlock_luck_potion"
@@ -1385,15 +1385,15 @@
 					Count: 1b
 					tag: {
 						CustomPotionColor: 3484199
+						Potion: "spectrum:pigment_potion"
 						CustomPotionEffects: [{
 							ShowParticles: 1b
-							Id: 20b
-							Duration: 400
 							ShowIcon: 1b
-							Amplifier: 0b
+							Duration: 400
+							Id: 20b
 							Ambient: 1b
+							Amplifier: 0b
 						}]
-						Potion: "spectrum:pigment_potion"
 					}
 				}
 				advancement: "spectrum:progression/potions/unlock_wither_potion"
@@ -2200,17 +2200,17 @@
 					id: "spectrum:infused_beverage"
 					Count: 1b
 					tag: {
-						Variant: "gin"
-						Color: 16437201
-						AgeDays: 72L
 						CustomPotionEffects: [{
 							ShowParticles: 1b
-							ShowIcon: 1b
-							Duration: 9600
 							Id: 26b
-							Ambient: 0b
+							Duration: 9600
+							ShowIcon: 1b
 							Amplifier: 0b
+							Ambient: 0b
 						}]
+						Color: 16437201
+						AgeDays: 72L
+						Variant: "gin"
 						Thickness: 1.0f
 						AlcPercent: 33
 					}
@@ -2797,51 +2797,51 @@
 					id: "spectrum:infused_beverage"
 					Count: 1b
 					tag: {
-						Variant: "rabbit_poison"
-						Color: 9518003
-						AgeDays: 72L
 						CustomPotionEffects: [
 							{
 								ShowParticles: 1b
-								ShowIcon: 1b
-								Duration: 3600
 								Id: 115b
-								Ambient: 0b
-								Amplifier: 0b
-							}
-							{
-								ShowParticles: 1b
-								ShowIcon: 1b
-								Duration: 40
-								Id: 15b
-								Ambient: 0b
-								Amplifier: 0b
-							}
-							{
-								ShowParticles: 1b
-								ShowIcon: 1b
 								Duration: 3600
+								ShowIcon: 1b
+								Amplifier: 0b
+								Ambient: 0b
+							}
+							{
+								ShowParticles: 1b
+								Id: 15b
+								Duration: 40
+								ShowIcon: 1b
+								Amplifier: 0b
+								Ambient: 0b
+							}
+							{
+								ShowParticles: 1b
 								Id: 19b
-								Ambient: 0b
+								Duration: 3600
+								ShowIcon: 1b
 								Amplifier: 0b
+								Ambient: 0b
 							}
 							{
 								ShowParticles: 1b
-								ShowIcon: 1b
-								Duration: 2400
 								Id: 1b
-								Ambient: 0b
+								Duration: 2400
+								ShowIcon: 1b
 								Amplifier: 1b
+								Ambient: 0b
 							}
 							{
 								ShowParticles: 1b
-								ShowIcon: 1b
-								Duration: 300
 								Id: 9b
-								Ambient: 0b
+								Duration: 300
+								ShowIcon: 1b
 								Amplifier: 0b
+								Ambient: 0b
 							}
 						]
+						Color: 9518003
+						AgeDays: 72L
+						Variant: "rabbit_poison"
 						Thickness: 1.0f
 						AlcPercent: 5
 					}
@@ -3309,15 +3309,15 @@
 					Count: 1b
 					tag: {
 						CustomPotionColor: 10044730
+						Potion: "spectrum:pigment_potion"
 						CustomPotionEffects: [{
 							ShowParticles: 1b
-							Id: 11b
-							Duration: 1800
 							ShowIcon: 1b
-							Amplifier: 1b
+							Duration: 1800
+							Id: 11b
 							Ambient: 1b
+							Amplifier: 1b
 						}]
-						Potion: "spectrum:pigment_potion"
 					}
 				}
 				advancement: "spectrum:progression/potions/unlock_resistance_potion"

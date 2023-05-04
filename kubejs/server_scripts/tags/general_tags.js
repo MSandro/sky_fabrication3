@@ -137,6 +137,15 @@ onEvent('tags.items', event => {
   event.add('farmersdelight:straw_harvesters', 'kubejs:bone_knife')
   event.add('c:tools/knives', 'kubejs:bone_knife')
 
+  const barrels = ["betternether:stalagnate_barrel", "betternether:willow_barrel", "betternether:rubeus_barrel", "betternether:nether_reed_barrel",
+    "betternether:wart_barrel", "betternether:mushroom_fir_barrel", "betternether:nether_mushroom_barrel", "betternether:anchor_tree_barrel",
+    "betternether:nether_sakura_barrel", "betterend:mossy_glowshroom_barrel", "betterend:pythadendron_barrel", "betterend:end_lotus_barrel",
+    "betterend:lacugrove_barrel", "betterend:dragon_tree_barrel", "betterend:tenanea_barrel", "betterend:helix_tree_barrel", "betterend:umbrella_tree_barrel",
+    "betterend:jellyshroom_barrel", "betterend:lucernia_barrel"]
+  barrels.forEach(barrel => {
+    event.add('charm:barrels', barrel)
+  })
+
   // Diesel superheats Blaze Burners
   event.add('create:blaze_burner_fuel/special', ['modern_industrialization:bucket_diesel', 'modern_industrialization:bucket_boosted_diesel', 'techreborn:diesel_bucket', 'techreborn:nitro_diesel_bucket'])
   

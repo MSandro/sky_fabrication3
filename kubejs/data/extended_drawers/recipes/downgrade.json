@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    "FUF",
+    " F "
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "U": {
+      "item": "extended_drawers:upgrade_frame"
+    }
+  },
+  "result": {
+    "item": "extended_drawers:downgrade"
+  }
+}

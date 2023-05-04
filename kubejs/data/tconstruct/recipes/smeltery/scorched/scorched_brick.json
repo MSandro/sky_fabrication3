@@ -9,5 +9,5 @@
     "id": "tconstruct:scorched_brick"
   },
   "min_forge_tier": 2,
-  "fuel_per_tick": 100
+  "fuel_per_tick": 20
 }

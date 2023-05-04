@@ -262,9 +262,9 @@
 			}]
 		}
 		{
-			x: -1.5d
+			x: -3.0d
 			y: -5.5d
-			dependencies: ["1F057C3C6AA5FD22"]
+			dependencies: ["63A774E246F91DB1"]
 			id: "29B095943AD26EA9"
 			tasks: [{
 				id: "55237905F174FAA7"
@@ -280,7 +280,7 @@
 		}
 		{
 			x: -3.0d
-			y: -5.5d
+			y: -4.0d
 			dependencies: [
 				"29B095943AD26EA9"
 				"6B39422421203401"
@@ -316,8 +316,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -5.5d
+			x: -3.0d
+			y: -2.5d
 			description: [
 				"To get Ancient Debris for Netherite, you can use:"
 				"> Botania's Orechid Ignem,"
@@ -1025,7 +1025,7 @@
 		{
 			title: "What do do with my Andesite?"
 			icon: "create:andesite_alloy"
-			x: -1.5d
+			x: -3.0d
 			y: -8.5d
 			shape: "gear"
 			subtitle: "Andesite and Iron open you the door to the Mechanical Age!"
@@ -1056,7 +1056,7 @@
 		{
 			title: "Alloy Forge"
 			icon: "alloy_forgery:prismarine_bricks_forge_controller"
-			x: -1.5d
+			x: -3.0d
 			y: -7.0d
 			subtitle: "Expensive but it's your first choice to smelt alloys."
 			description: ["{image:kubejs:textures/item/alloy_forge.png width:144 height:144 align:1}"]
@@ -1214,6 +1214,8 @@
 						id: "tconstruct:hand_axe"
 						Count: 1b
 						tag: {
+							tic_multipliers: { }
+							Damage: 0
 							tic_stats: {
 								"tconstruct:attack_damage": 6.0f
 								"tconstruct:harvest_tier": "minecraft:wood"
@@ -1221,9 +1223,11 @@
 								"tconstruct:mining_speed": 2.0f
 								"tconstruct:attack_speed": 0.9f
 							}
-							Damage: 0
-							tic_multipliers: { }
-							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:wood#bamboo"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
 							tic_modifiers: [
 								{
 									name: "tconstruct:cultivated"
@@ -1242,11 +1246,7 @@
 									level: 1s
 								}
 							]
-							tic_materials: [
-								"tconstruct:wood#bamboo"
-								"tconstruct:wood"
-								"tconstruct:wood"
-							]
+							tic_broken: 0b
 							tic_persistent_data: {
 								upgrades: 3
 								abilities: 1
@@ -1331,8 +1331,8 @@
 		}
 		{
 			title: "How to obtain Gold?"
-			x: -1.5d
-			y: -4.0d
+			x: -4.5d
+			y: -5.5d
 			description: [
 				"The Quest Book will not tell you how to get each material."
 				"Instead, you have to find your own way. By using REI you should be able to find the answers."
@@ -1552,7 +1552,11 @@
 					id: "tconstruct:dagger"
 					Count: 1b
 					tag: {
-						Damage: 0
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.75f
+							"tconstruct:durability": 0.75f
+							"tconstruct:attack_damage": 0.65f
+						}
 						tic_stats: {
 							"tconstruct:attack_damage": 3.7537498f
 							"tconstruct:harvest_tier": "minecraft:iron"
@@ -1560,11 +1564,7 @@
 							"tconstruct:mining_speed": 4.125f
 							"tconstruct:attack_speed": 2.0f
 						}
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.75f
-							"tconstruct:durability": 0.75f
-							"tconstruct:attack_damage": 0.65f
-						}
+						Damage: 0
 						tic_upgrades: [
 							{
 								name: "tconstruct:bane_of_sssss"
@@ -1575,7 +1575,10 @@
 								level: 1s
 							}
 						]
-						tic_broken: 0b
+						tic_materials: [
+							"tconstruct:silver"
+							"tconstruct:flint"
+						]
 						tic_modifiers: [
 							{
 								name: "tconstruct:bane_of_sssss"
@@ -1606,15 +1609,12 @@
 								level: 1s
 							}
 						]
-						tic_materials: [
-							"tconstruct:silver"
-							"tconstruct:flint"
-						]
-						tic_volatile_data: {
-							"tconstruct:duel_wielding": 1b
-						}
+						tic_broken: 0b
 						display: {
 							Name: "{\"text\":\"Bane of Spiders\",\"italic\":\"false\"}"
+						}
+						tic_volatile_data: {
+							"tconstruct:duel_wielding": 1b
 						}
 						tic_persistent_data: {
 							upgrades: 2
@@ -1798,7 +1798,7 @@
 			title: "Spooky Scary Skeletons"
 			x: 5.5d
 			y: -8.5d
-			subtitle: "Bones are suprisingly hard."
+			subtitle: "You need something harder than elastic bamboo."
 			description: ["You will need some Bones for the Bone Crucible."]
 			dependencies: ["07C525ED6A1C8B22"]
 			optional: true
@@ -1817,11 +1817,15 @@
 			}]
 		}
 		{
-			x: 7.0d
+			x: 8.5d
 			y: -8.5d
 			subtitle: "Suprisingly, Bone Crucible can't hold lava."
-			description: ["But nevertheless, you can use some of your Bamboo Leaves to make water."]
-			dependencies: ["4B15A50AD9828B4C"]
+			description: [
+				"But nevertheless, you can use some of your Bamboo Leaves to make water."
+				""
+				"To make a Bone Crucible, Right-Click on a Bone Block with a Bone Knife in hand."
+			]
+			dependencies: ["01041F039FFA6116"]
 			optional: true
 			id: "5502B4F2C6D7AEBD"
 			tasks: [
@@ -1981,6 +1985,55 @@
 				id: "0953C826B90897C4"
 				type: "item"
 				item: "coxinhautilities:wooden_hopper"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.5d
+			subtitle: "A carving tool."
+			description: [
+				"The Bone Knife can be used to carve out a Crucible from a Bone Block."
+				""
+				"It can also be used as a rudimentary weapon."
+			]
+			dependencies: ["4B15A50AD9828B4C"]
+			id: "01041F039FFA6116"
+			tasks: [{
+				id: "408868EB051FB2B0"
+				type: "item"
+				item: {
+					id: "kubejs:bone_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.5d
+			subtitle: "You will need some Nether Quartz for your next mesh."
+			description: [
+				"It can be obtained by sieving Soul Sand through a Flint Mesh."
+				""
+				"But how do you get Soul Sand?"
+				""
+				"The answer is: Witchwater!"
+			]
+			dependencies: ["1F057C3C6AA5FD22"]
+			id: "63A774E246F91DB1"
+			tasks: [{
+				id: "148D892C95260DC2"
+				type: "item"
+				item: "minecraft:quartz"
+				count: 2L
+			}]
+			rewards: [{
+				id: "56FC12BBC617F56D"
+				type: "item"
+				item: "minecraft:soul_sand"
+				count: 8
 			}]
 		}
 	]
