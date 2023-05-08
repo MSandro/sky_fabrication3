@@ -1962,23 +1962,23 @@ hash = "db32df64d6a976ee444d797546a4461efe2935500a04e2d68f22b646176253fc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics.snbt"
-hash = "4e3a751410082e80da01ef4ac54caa8193b4b5867838e9cedbf857c67b5820a7"
+hash = "9fc89ec9d9ad0cf1bbe6c7664142860e3e810c66e255ef0e70785cec86d3af65"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/arcanus.snbt"
-hash = "a375e5575be91b4d34e7be8961c600e606526e146e130df41d3c90e6762ecbb9"
+hash = "651bec28695eb743851cd8f9877ce61e773a741195444f168fefda48a788fa45"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/automatedtasksandtriggers.snbt"
-hash = "bd452283652738a97c1d14814ca62d52f5de3cbc382f1fe1dd6b5b986945d6c7"
+hash = "1089398751bf5e9d91a5b1c74daec93fb83a5ff0033b63047f01512329bbafae"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bewitchment.snbt"
-hash = "8d70a85e6fb6ffd84d9c30cd52ed88495d330bd23ebf4b565b0760183aa411ab"
+hash = "f05e9999d334405d7491496bbdb48bd5069a9c4bd97c9bda2642b25187e0e738"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/botania.snbt"
-hash = "10e79c0feb5cf031a9aeb9ad3cd40ab1ff0be0ff9ead7ed26e1ce5a60bd4e58c"
+hash = "3bbfe9a72916278bc9a44eb9a3094625bd1c902d097ad1de81dc6b1204f5cc82"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/conjuring.snbt"
@@ -1986,7 +1986,7 @@ hash = "6ed5499c548676179700483bae297287467f05bf574df2366062ee0f87cf5765"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/deep_mob_learning.snbt"
-hash = "93ee9efcd981cb7ed3b6a5d8d799d7f25f1ce37a09f5d5806e9cdd295e9d44a3"
+hash = "d23d57c204dc355b710cb66dac1c62b5320bdb3bdb41afbf622d2066bb413419"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity_age.snbt"
@@ -1998,7 +1998,7 @@ hash = "a313233fe3219c2ffabda34fe91b8884b9f7a03a5592466722741a2662006d27"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gadgets.snbt"
-hash = "4dcfa2c9076e68860e141a7b3e3298556a71ad2288cd6e939a18eac18b68c70f"
+hash = "01d520a04ef7cbcdf874d7ce8edc3a77f93c48b981ba2657331db1a3b4dc2af3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/getting_started.snbt"
@@ -2006,7 +2006,7 @@ hash = "2f93fdc0bc4e61f93a484b1ddcf54b3447e7dfaa5ac6c2916873a8190684ba2b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/industrial_revolution.snbt"
-hash = "8dc8ca17a89f8c3a5a54cfbd9902ada766ae151046b5941300e80cd5bad2fa47"
+hash = "a78ed59e445166a534cfd6a37e1e659f39924b332ae4475fe945ae260653982b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/infinity.snbt"
@@ -2014,11 +2014,11 @@ hash = "c4bdafaa515cbdf4dae92cde6b496c316bc930114ea79d24801a587e000d0423"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/kibe.snbt"
-hash = "8f4059241b5df0ef6a2a29271867fa59246e6dad22d7be4477f12d9023167b77"
+hash = "d839c7a8ab8feadbf517aff6b5209bb0c54085b95c7a0021cc799b1227086dd1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mechanical_age.snbt"
-hash = "03ab98c4521ae8623a7a11f76e3b9938460940dc2434ae77855024f70c26942d"
+hash = "3d825af13dccc7d9659ed24410e91350c04fade6ce9e5ff4cf427fc64e82f71b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/modern_industrialization.snbt"
@@ -2026,7 +2026,7 @@ hash = "fc700d74d833d21e7ddc89aa261751e722f7995783cf30d00d171c4f51941799"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/resourceful_ways.snbt"
-hash = "69498a99136505cccff256ea6da0acb7b10585d0e2fef2bef5c1c612e0719e48"
+hash = "4c978d8a5e2812828758bb0ca0ff11c3925d5f282665d41426fdb3d999a6ac50"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/simple_storage_network.snbt"
@@ -2042,11 +2042,11 @@ hash = "1c7d951f5d660b194db584ad2faf81004f1be34cd2c39d8e6ea6d8defc602aca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spectrum_unlock_progress.snbt"
-hash = "baf6d940012ecced754724ce5d04b02ab93a5ca137ae8a4f23b1b4812a80682f"
+hash = "d8016485c7d0d4095fb67c09c5963e3996fd193a7b756363e8cc18651821437c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage.snbt"
-hash = "4ee300129cd143a8613aa042bf8755f7bbc838cee9b659d502cb893c7d1c4099"
+hash = "b484021bf0a5b2b6e7d39f6bae1494f7cc7c4c14ceabc4d01bf37fcabdeaaa59"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tech_reborn.snbt"
@@ -2054,7 +2054,7 @@ hash = "35087e1573ad495c103b4fde56c4e26c84f75c9cb40ef3cf7e3f48b8d0d51793"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_beginning.snbt"
-hash = "1d314d174542f64153cb9d35c3ebf3a07a5cf98e3e74ca18fcf66328d3eb0756"
+hash = "304fb2c36d3acb8659ebe2519848e7179e6c23237c6088dde8b3f639e589f0a6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tools_and_armor.snbt"
@@ -3189,6 +3189,34 @@ file = "kubejs/assets/createsifter/textures/item/zinc_mesh.png"
 hash = "b7ecef1da502a344dc814034bf087a31793b8c5c663b0025d51a5550829175ca"
 
 [[files]]
+file = "kubejs/assets/extended_drawers/lang/en_us.json"
+hash = "af4469a93b42d6a6c9cbd00fae8603e6af119d1331eee69c799b66a9d30e82ea"
+
+[[files]]
+file = "kubejs/assets/extended_drawers/textures/item/creative_upgrade.png"
+hash = "da8f777c3b6d25828faec06ff33b9b3689027197fa1db03427bfbea79d986a22"
+
+[[files]]
+file = "kubejs/assets/extended_drawers/textures/item/downgrade.png"
+hash = "4e907c664415f6277a3715e03f649746b28d994d441604beba3aeb8860e62b79"
+
+[[files]]
+file = "kubejs/assets/extended_drawers/textures/item/t1_upgrade.png"
+hash = "4dc8cebf3e8f40e4b3bae3dff0e02c3d62816e0aaaf2dfe1d41210a248fff799"
+
+[[files]]
+file = "kubejs/assets/extended_drawers/textures/item/t2_upgrade.png"
+hash = "aa6b41c590745f8cf2463ec10294d0bcfaddf08b071a69b77a0c8732b5d8ac0c"
+
+[[files]]
+file = "kubejs/assets/extended_drawers/textures/item/t3_upgrade.png"
+hash = "f09e0e51c261d1f827beaa07284263b12badae7136ca5242b85c4c9a50599a55"
+
+[[files]]
+file = "kubejs/assets/extended_drawers/textures/item/t4_upgrade.png"
+hash = "598c3af18dbdea9728490c8a48736fcc50a8076294cb69e307137ff9c44162bc"
+
+[[files]]
 file = "kubejs/assets/fabricaeexnihilo/lang/en_us.json"
 hash = "9579e6d59b84550eeba75fdf14da63a0742f5291e60f0fef55911a4c10630549"
 
@@ -3211,10 +3239,6 @@ hash = "c469e52c48a826ea9bb28c041ab6e7ca74cc9bfad63256e19e606fe23634c2a5"
 [[files]]
 file = "kubejs/assets/indrev/lang/en_us.json"
 hash = "681b9102175a10a856640b613a2131eba54029560b9e08b1d1d47ed0e4ac7e0c"
-
-[[files]]
-file = "kubejs/assets/indrev/models/item/lazuli_flux_container_mk1.json"
-hash = "c89e3a2b24b49ea5c7a48955a940d3d49a324b93e98a412db39b638396dd8c1f"
 
 [[files]]
 file = "kubejs/assets/indrev/textures/item/lead_purified_ore.png"
@@ -3290,7 +3314,7 @@ hash = "a441b7095783e20abcc99704cc57520b57a6d463857579fa660d22be604e2f27"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "32b587d83e5b4bbb4ab33e6ef07cbc31d42baf87987d420ba99d1803a9661cb6"
+hash = "ce11587922cebba0617501d7c2ec412ff8aacb04270d67e21514be91e6056d25"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/bone_pillars.json"
@@ -3463,6 +3487,22 @@ hash = "879b411803428181427b7596ec3d116f279cb62089ced124e355182565360258"
 [[files]]
 file = "kubejs/assets/kubejs/models/item/redstone_singularity.json"
 hash = "5a94586f0d60bbd8a303022472560f738cd608b6e593a34111ce7dc43451b3d8"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/s1_upgrade.json"
+hash = "8f490be539d22fff54d5d58cc13449c7b6d859757b5b99c6ba11007ba2e13547"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/s2_upgrade.json"
+hash = "b80d15d574b7ce156a0c9c6e0d370e630778289fba2f32fdd00c8fc3074e7ea9"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/s3_upgrade.json"
+hash = "7830605d84c44f84a38d16447483a59107cae68e81aab8af1b1d24b060084680"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/s4_upgrade.json"
+hash = "e10a90d22f4955a14e5c148cfb76fefd92b8e3920862360811fc0b44e147d689"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/item/ultimate_stew.json"
@@ -3917,6 +3957,22 @@ file = "kubejs/assets/kubejs/textures/item/ritual_tier2.png"
 hash = "f10c4062e38526fc3a02c27412616c90b3195c74458355b638a7a4e95f36d1df"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/s1_upgrade.png"
+hash = "6a9e43a981b555ca50193c0143883cfed42fb9954d7146c67cf5cc6805d06465"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/s2_upgrade.png"
+hash = "0a738acd32cf09fb795fe9e32392d38435d46d1fabaccfe84b2102bf9bd0d507"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/s3_upgrade.png"
+hash = "ea9bdb43f61ea0ae69d34c1c9128ca2d8d1922f83a7d64ffc1787f74f09c3de2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/s4_upgrade.png"
+hash = "31351c0010eb229aa8dba240fc65e8ccbe9cdfe575181020efc1778a84af4db4"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/shovel.png"
 hash = "6621153561be94d45b4ac77f5ccca9fb1e90b42ed768cf9bc9973f7ce47963e8"
 
@@ -4023,6 +4079,518 @@ hash = "d57addac0c5a574ca8bf7813aa0578d872f59a8c66019ad98046d9a076637d1e"
 [[files]]
 file = "kubejs/assets/questsadditions/textures/structure_icons/alloy_forge_s.png"
 hash = "e56e1bb308af6e5a2c3ffe63758722bd25a955dc5417f70bb42d14d7d494955a"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/absorption_activator.json"
+hash = "7199b626a5ebb1101124ad5154abd9153dd4039b3fe938dbae5ce7a3bf6bcf9d"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/bio_harvester_1.json"
+hash = "472b9a7b3246def95527378fad52615a82db5498f3ce8ce6dadd535080eea45e"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/bio_harvester_2.json"
+hash = "66d4587235bcea4ac2fcf7c9787ea49e158f7d5db657a1d49e7155b30247abfc"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/bio_harvester_3.json"
+hash = "f10d4f770775145b9e05d136f05f0a5fe5873d781a5125b892b416bc2c175f2c"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/bio_harvester_4.json"
+hash = "d0c912a61021a56ad8a113d85ceb4c8461d048ef8c33bd1f5eafcef0ccebc88b"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/bio_harvester_5.json"
+hash = "e767c18a035cc14b607782190cc1c342d3ac488e394f4da12f2f5f6a08ddf41f"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/bio_harvester_6.json"
+hash = "6c6238cdb7565f211a70f23c80ac9cb680b4e1d69d35346c600334c727699afa"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/bio_harvester_7.json"
+hash = "58dddef8b47aa5c5e2699e1315b7b4aa5ce3bab0ecca9f3d9b225c4b625c757f"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/bio_harvester_8.json"
+hash = "326a718c840d94db5ebe5c6141496bfae717305155a416b8341efe4954443b01"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/casing.json"
+hash = "d1f66d83b7387a8018067df0d3bfacbb082b2a9c6dcce2c7e5c6183abd83cde9"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/chunk_loader.json"
+hash = "3499c263eacd25035751da2bc61074f11682a57329ca515e2ee24df702c8a2b6"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/dark_mob_harvester.json"
+hash = "0b526363117572f4598551abd964788a964c8e863fb57322fe7c639905c0e4e7"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/dimensional_applicator.json"
+hash = "28f556088d515e28594a477aad5bbcf03aa1e28587ddac161ad0f07a888c957b"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/haste_activator.json"
+hash = "2c7fa5bb754db71f8c18f3e12f6a7294bb162336fe87745981b53b5beb10c3f5"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/heat_generator_active.json"
+hash = "83dc57565b87d7bc70172c54d7e5ccad2279bc2f6e1975dbe2989e52730fecb6"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/heat_generator_inactive.json"
+hash = "3a4d30016a6254310018a1313a8f238cc4f19a9fad25cae7ba6c89e95669da9a"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/invisibility_activator.json"
+hash = "cb7ee1ae7b885b16e7f103fb772bfde8f54ed04b196276340bec4fefb7db48c6"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/jump_boost_activator.json"
+hash = "1a2fd881f909052be875c1ec2f717007feb5959aae2c4ba48249a8438d5ee1f1"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/loot_harvester.json"
+hash = "da1b178c733fd6c4743fcd3a2c7827dbb191221d65ce34d003da8e14f1973a66"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/night_vision_activator.json"
+hash = "99c3b5d757d81080e2bfd8220dad901d8dffb27e9f268fffadb9434395a94216"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/ore_harvester_1.json"
+hash = "7e87b29fbc72ad956b582cc28f865442c435a9893ee64286eea1ed9bb66307aa"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/ore_harvester_2.json"
+hash = "b8c1dee805166f020748b2a1c6f17cbd66bc2e49a8f1382ffe3787e69cde37cf"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/ore_harvester_3.json"
+hash = "c7a66825a59eee1bda17905f2e24faa2143ce84d45da15e615c77ebf50279591"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/ore_harvester_4.json"
+hash = "7d7cfb550ff360dcaf5cfded46fd3b6c3758ed91455b3ccc7bce6a8c9c82f52c"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/ore_harvester_5.json"
+hash = "462fe25eebf741809a23f4ee6ae01b6e5bdbb04d4965dde40df7f3e14bacc1bb"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/ore_harvester_6.json"
+hash = "f367d7735e590bd49cb33606a352e125e96a1333f2877842b90179a73b538e28"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/ore_harvester_7.json"
+hash = "24bcefbd01a1339955b0d06a798b5dd5c8c65b117e314e34a095d79dc2f9155f"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/ore_harvester_8.json"
+hash = "ec9d004a03d21a0aaeb4f4fced49b97d6d250afcc618d6901d800893ef8346e6"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/regeneration_activator.json"
+hash = "bbf2e9bb5a037fbd3005d2145d35f880fc1be83cc5f39f89ae1fafafb9d88642"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/resistance_activator.json"
+hash = "d78626c297629bb9088f7c63faafcfc86235b6e9814a7e69582748d090da67ca"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/soil_harvester_1.json"
+hash = "de596309589ce7fbfb922d92b0446a357dcece6e205c49a624fd12d41fbfbeaf"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/soil_harvester_2.json"
+hash = "2dab4a83e4ef1f7ff629e43f41243273cb997f654e0c6cb2cdee93a30a10b325"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/soil_harvester_3.json"
+hash = "477356652bcdd90d869ca01d91ac4a4284f650d6a5a3163dcd7ad5cd304ecbce"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/soil_harvester_4.json"
+hash = "ecbec3a809184b4f8668be6da7c0d0d598773be3cc666642a13e891e6409d711"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/soil_harvester_5.json"
+hash = "568442cc0745b64b291a6f373cee57f4196d74cec4e7a043e06c9cedac6ee8de"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/soil_harvester_6.json"
+hash = "46b11d6549cfc55f2e8bb08b4185bb0877abd196b647f39a9fec897f9edecb4e"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/soil_harvester_7.json"
+hash = "e43240ec7f6802b0eb28c9d12cf8a3cb6b011a8bc677e12489659c3d0f534ec1"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/soil_harvester_8.json"
+hash = "0491257c87b9c43986694c8e795e5fc55b926ea067da9c0cb330e57a1d14e70e"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/space_ripper.json"
+hash = "f4fdfb2c256d47f8a4616857a02d19a08e64c692bd42ae4ddf877e6d4aa84c30"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/specific_mob_harvester.json"
+hash = "539b5e53a7d51558ae16a00c878891f4f191202b6e2909faa664ca808c725ff2"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/speed_activator.json"
+hash = "e681930b75ea481199b8aa28dc6b81e272d03ed0cc9ac6d677ede5e0e7f89928"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/stone_harvester_1.json"
+hash = "a7045e4912fc6a87530c0e41c3d26f18df900d6dbe1cb5e388bce58157ce58e7"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/stone_harvester_2.json"
+hash = "83e14130bf51f40b3308fa3b3ab84d6742f2ab8efb5dcc16d841e2e97063cc89"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/stone_harvester_3.json"
+hash = "e7b1d6426af84bd46fd90e1d8aea33a6d8e128d8cd7f0e6061c44e082c2f1381"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/stone_harvester_4.json"
+hash = "fd75a1ff3d52deaaf1e06888c9df80a8e427600de02fdc794a7c3d5865763456"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/stone_harvester_5.json"
+hash = "69fc63a2e090ccdafdfb1d98fd60b73ed6c389ff3d3ddf5fe7e459d3b244e227"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/stone_harvester_6.json"
+hash = "3ff9ec1c00e7a6d6d379acfb3b01e003105ad6df77e69ba08f13af3a3349c2b7"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/stone_harvester_7.json"
+hash = "23355bd088e97664148debd83b719f95a2179bf58b2e5f430d7b821446a1a7e3"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/stone_harvester_8.json"
+hash = "c7603b94d64b4cdf5591ebb67fb42acc77c055172c9534aa866d3845f6e83fa3"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/block/strength_activator.json"
+hash = "5c4aae57bd54a6ebe92d2e6664585f9eabbb9b8d20e4b8cf7a83cbcf3e73e38f"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/absorption_activator.json"
+hash = "1e8af08ab39145ed7fb730b483b84f16519cf1b885952ef0a0e47bfafadcc0b8"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/base_powder.json"
+hash = "874f70c9525450529c336040c57cd84bc4c16182fdc1aa8edc6f406f14e535eb"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/bio_core.json"
+hash = "db304bc2b7557204e01fc2a90faf40d6244773fe47cb5f516d3970d29ac4290d"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/bio_harvester_1.json"
+hash = "8525f4fd2c1b5a027dd9eae0ceda5c36af58e1bca24bddc71c62b9f604518ec9"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/bio_harvester_2.json"
+hash = "7cc5b104e0729847c8f38ccca52f6a7f5bf9f2992d815a937c2422954f7020b5"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/bio_harvester_3.json"
+hash = "18b7f93e0796cb70a39562c3c2b89f3b0436f8b8b00a581856613a3b524e5392"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/bio_harvester_4.json"
+hash = "2ece8971ed6fddc072fb0d02f4ac9c37e1aafc286922daf53a9413f7a3b37277"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/bio_harvester_5.json"
+hash = "a730c07ce82df3d42ce9d2078e61dac450d6cdc3c0c28b49ef197d92d85cbf85"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/bio_harvester_6.json"
+hash = "6e0559952223bcea70eed8720ec370eb1eec09d7615a2296fb9e7669aa1c2160"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/bio_harvester_7.json"
+hash = "b370a5e5aad8ae534b81fde3f4c8fc24f3ee82c1bfd4c0da8c898cedc0d1c086"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/bio_harvester_8.json"
+hash = "de08c6dac5b5f3333d344bdd143198b4d3acb013b04adb6971c20825694ab5bb"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/casing.json"
+hash = "9cc42cee04ed63d627c0fddcba5c39642098776223b670135a56d1f89a13ad86"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/chunk_loader.json"
+hash = "71513f5261a0ab64b7cf3a80e1e3a3687a5b5cc0b2d3d17ef1bf4cddb5fd8586"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/crystal_1.json"
+hash = "bc6ef8874d6193117513dfaa9c28c518874bb2ce5ba68857d02d8bc40405fdb6"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/crystal_2.json"
+hash = "ed20b5f4d539afd553745199d2af6aa4b9e5191a5564d0dcaa9819cc13754bf1"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/crystal_3.json"
+hash = "1a2acb21a36c48eef4f976292323be163107d4a5aa785ab0c60b5ea9a8f56f90"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/crystal_4.json"
+hash = "aee74dbb2a5c4972e640fbf0b2b9d63270afbb20a313415bb4946706fd15440b"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/crystal_5.json"
+hash = "d701e437fb2b0e32b2f8d66f81bbee271cd2897ee12c4236aea8ef8738339555"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/crystal_6.json"
+hash = "2380ec3c9911b564ba4487550b4c77e68dc7c36a1b4502b81e48f9e7d796a267"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/crystal_7.json"
+hash = "347b1b3fd619fcf9cbbb598143444879c31f2bb72e77ee9a4ae9b7bb34281cd9"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/dark_mob_core.json"
+hash = "22d8f74d09d20fb797ee706f9567c26d3d5e1980887c228fd5091bb49abd1c8c"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/dark_mob_harvester.json"
+hash = "0752c2e9b8ada0f71a62b95c443c9b77ad9fa92abad7ea5e395c540548fdfc09"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/dimensional_applicator.json"
+hash = "35df460e0bfdf8e612c9de5751a1e6f0e6f1c57a5addedbe76870d97c195ea96"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/effect_key.json"
+hash = "5bcc9184ac90f7b54ed56fc6e83bd62b5b4185259a4a7d8eb61e4af4f40f09d1"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/haste_activator.json"
+hash = "45ca333e9e8301626dd27605ca2ae094139f74f5280e1299831f0333b2546b9e"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/heat_generator.json"
+hash = "c48ce39b4e4b42df577bd690bb618932fc65921bfcd66881101d54619c076b8f"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/invisibility_activator.json"
+hash = "77157eb93777d9d34f5be890cda4771fa9acc0217e95fe9235ade3c5c97507e8"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/jump_boost_activator.json"
+hash = "c716e9a1c22425545a3b014d5119eb6a2b239fa7f74cb19d0ef8ac7bfd2c548f"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/loot_core.json"
+hash = "075598a5a2a442424face309c8d761d5ee71d61a2f4ecc57f7165208beb8a01c"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/loot_harvester.json"
+hash = "5f9dcb46664fbb72246ace7a4cf6e86e1d385d54cfa01e67093530739ed9b109"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/mob_core.json"
+hash = "60eae6729cbd37414f5812f2690391e97869e0bcd014eb7e6c0f2ffe47159924"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/mob_crystal.json"
+hash = "c1c1f3934aedb1a2b627bde70b5f3a24105f0bbaa60fa06b48b355e21dae7735"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/mob_key.json"
+hash = "555dd65b242a0f65400a29088b8a80f208d16a9501e703a7447d98a5170099d9"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/mob_shard.json"
+hash = "ab42396f83cf2c51c5ec73be7663bb8ef6834cb9f9a59e898652449b689535fb"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/night_vision_activator.json"
+hash = "a18aa53476d40717769395cfcec9ad2acf6612119d86e5e9d1b3f012fbe18356"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/ore_core.json"
+hash = "8e156ba75e3714ff9ba6f3aaca4bd2adc54e050db399066a1ef4388025262f1e"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/ore_harvester_1.json"
+hash = "9039f59787c2ee6fbc655617205407606d12bd93e28cad703d30beb9e43986ec"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/ore_harvester_2.json"
+hash = "205f909ddf82f7878813836c0b87f7e0b32e4a334dcaf53f334030983e439302"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/ore_harvester_3.json"
+hash = "60a2233282bfe4683cc191edf035a894c19ed24e5d7c0be3ca3b28732c6f18b9"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/ore_harvester_4.json"
+hash = "02fa07a03251549513816d3a3631657b3a8ff6f54a3ca7bbfb09aa2ccc4345ed"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/ore_harvester_5.json"
+hash = "bb5cf3774b5930be02498060ab9d87117b19e20028fb678bc4920a610ad5f684"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/ore_harvester_6.json"
+hash = "6925401391bec1e3f37edcbd0b5c59f6e421b91744a83baa464ba9898767ef6a"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/ore_harvester_7.json"
+hash = "fe25401a6fd63f311f181bef327f6e671c394da4a4af44275a19a2be8aee520a"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/ore_harvester_8.json"
+hash = "0606759d3d278e34d922dbe535d3f2ef8660202e985a0d087a6f150d78aad0ba"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/player_key.json"
+hash = "fa3689a7be1d2dced6cf8110427a70a698790d35af6a220c687e393b6dc38df2"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/regeneration_activator.json"
+hash = "c5278757c041e33d120e0c922136574e2d58cf78be782482dcb3d17216ad0ea4"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/resistance_activator.json"
+hash = "1a7a9049cf97039007cfbcb15419aafacef879b742a831a2554855434747de8c"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/resource_disabler_key.json"
+hash = "05bf2c87352f1cb52445022c7eccca119d5b9b6ed6b34bef8c0a75bb4b44b36f"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/shard_1.json"
+hash = "86d1548395748d223907135fb9df2383e0b94a4f0296aa2851223293a76868d2"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/shard_2.json"
+hash = "e9605d26fff7ee2a48d955897eb3e3e0fff8a79661865a418b6da131c4e8bd71"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/shard_3.json"
+hash = "3597073e838e850a32fdeb0307bc66301177a30c59febfb49d3457ef9f7a7314"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/shard_4.json"
+hash = "442275250b6b3eb0a0e9c1cd8591f5514672c1d93182a361c8d0f39ab0f3bb30"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/shard_5.json"
+hash = "4adb209af2bf862ce9a7ec2a1d962bc6db18e13be2931c7db21a263667c2e395"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/shard_6.json"
+hash = "21a492a9938c3eefb0183e66ee53c160e29b7e1be8fed89990537351b1247780"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/shard_7.json"
+hash = "4a6a8f63a1cb389f36de4d0c437f2bc1eb7e6fd9d27e679442f6f03954a58068"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/soil_core.json"
+hash = "46c4c32501cfa6020356b1e117debf65d5076cbdd7153e3750b70216d5456e0e"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/soil_harvester_1.json"
+hash = "af594225ad1679ab663213e95884950ffd4b923a1ef7c3e2828d14d9b87b55b4"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/soil_harvester_2.json"
+hash = "c7ddca6e2f466e79b2d3141073c31c186a457330f34ae0e7a6c5c77da68b19f3"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/soil_harvester_3.json"
+hash = "ec0f6bc5a8e862a976190da8ec580ae7eb0d88e2334fb5647194fce8f055e33d"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/soil_harvester_4.json"
+hash = "03eb1678dcc4d447c4784375fbc2b57f091cd8e8a20e7b4764afc4d8bd9c425d"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/soil_harvester_5.json"
+hash = "9c7f6ef715fa25bb4aa3d600ebdf02306558b00c6e099affb3ea2ae9565f4237"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/soil_harvester_6.json"
+hash = "0d4f025f536c3c07580e766149ed51f3dbf0ddce82702c67db8f005ed1eb3c8c"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/soil_harvester_7.json"
+hash = "08b895fe5dea6d176bc11d314ffdbd1e32c89f2c06b3656b258300acf7506532"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/soil_harvester_8.json"
+hash = "14c81790c256e20c9e1cc20a1387704248e2597096b6a9fc758b4bf963279865"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/space_ripper.json"
+hash = "c0f05be7445aa988169f44a01db420b59f274c345c3169b6c4626995bf2d9a0a"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/specific_mob_harvester.json"
+hash = "bda95a03ab512c1c41d733410557c6ab37d6729aa57ed14056046266aa70fc9e"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/speed_activator.json"
+hash = "dc42da2e688223a8086bd31725a3812fceb4fb0470d3ad080002fd522a4d94f4"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/stone_core.json"
+hash = "a154e7f8348b8b6cd98ccb907b2a78f079aefb43991127b291334a34e9a6554c"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/stone_harvester_1.json"
+hash = "0c89057de7cee14e0f4acd37c4226025fc88841c06af3c8fcf1925033a63256c"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/stone_harvester_2.json"
+hash = "ed8d831db0b801ad8ed5ed5b58dd2f7e7027d1a15de8555ea879c298722d3ecd"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/stone_harvester_3.json"
+hash = "6659bcaedb16c9c3dc55d56b0461be17315ab8490f506f27e0d2a0db2ffb079c"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/stone_harvester_4.json"
+hash = "14990e9d6a67e096fbd4f9743104114856d590828a978313665e966e8fcf6973"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/stone_harvester_5.json"
+hash = "ca8d7ca38d9761e5f3f06021340618487f9d909c532ddbf4015053a982f3e5d2"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/stone_harvester_6.json"
+hash = "8c45c8c6c9b6abaddafcacb6a8c9ef04666ff6a400f0010d1d6466bbd50ee15f"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/stone_harvester_7.json"
+hash = "21cb45a9365f7a9bf695b3e7e19dc4328433191c96b56e6d3aa06f88c2c60234"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/stone_harvester_8.json"
+hash = "8bc4a06298c41d9565010d13ea573e48329f6d09e16a0f31faddf79cabdf5867"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/strength_activator.json"
+hash = "d3878673f46ffd9161d320b7e0113d1f8ed5bb8fbb9681c195e0721b1bee6c83"
+
+[[files]]
+file = "kubejs/assets/spatialharvesters/models/item/weapon_key.json"
+hash = "377d54a10c84dda3fcea84bd8ef65027f7e966fce3d089f069fdd04e4b56e094"
 
 [[files]]
 file = "kubejs/assets/spectrum/lang/en_us.json"
@@ -9390,7 +9958,7 @@ hash = "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "f74a3776684dbb5d746cb2fa30e175555091497aae4b3f4ff09afaf061c8595c"
+hash = "90cfefc0d8b3938a15e599946bb4652515a45e051485733c03f31e3fb0332c87"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -9554,7 +10122,7 @@ hash = "9e73654d6a42e30215651e9a1754c029b7ce12e51f169251ff3a383222e15ad6"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/antimony_ingot_from_raw_ores.json"
-hash = "8be992f2a7d195c881c469f306fa99dd2e7fb401920b2b286db92b34e693bba8"
+hash = "8f967e68bac965d38ad12c3977fcca9023627236513d0ea0a42d7c16aee16580"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/iridium_ingot_from_ores.json"
@@ -9570,7 +10138,7 @@ hash = "65f660b1faec8b8f74d469964d1ebc3bfd4436faf670864bfd46ed0b8a311680"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/lead_ingot_from_raw_ores.json"
-hash = "c5fafde58f33de4f76c2cfa10f29af4a204ef7fa4ff89f5f64c6276e6fbda7ea"
+hash = "27b27c119e3c737d47c99381ad5c542fa5c37da54be56cbcaf814f7cbee02d2c"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/manganese_ingot_from_ores.json"
@@ -9578,7 +10146,7 @@ hash = "3922e28a7209086454f1b8ec6e6dc834e4ea816d425466123c9788584a582a85"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/manganese_ingot_from_raw_ores.json"
-hash = "560d1e6d5eb0cc562ab9c819c3ddd46e32f4f76d2990fa6819fd6fa0c0e55945"
+hash = "577a474126a68d72920c5a09199b7f8f7b4d98dbdd34f9b606893bde5ca1766b"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/nickel_ingot_from_ores.json"
@@ -9586,7 +10154,7 @@ hash = "aa9890ab4e548bd0751c5d31583a991b6afc5ffd5ffe8928ec28799310a0b545"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/nickel_ingot_from_raw_ores.json"
-hash = "bbd0a288844cdd21f879a7967c10733afd9d67c2b286f5fb07b8120ba92b163a"
+hash = "e1c880e436db4857ef50a3a808497b1dc58d955bc365f0d7e71d954b710ce192"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/silver_ingot_from_ores.json"
@@ -9594,7 +10162,7 @@ hash = "b9a2f06d35b31bc5ad88279b6517624c88232a6fc7a97ec9ed85a8ad00c1fdb4"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/silver_ingot_from_raw_ores.json"
-hash = "9dae5bec2d9f7f28d0af256e49c9dc06dc42baf4672b38e5ec175ec61390d952"
+hash = "8edc6d94b18baef63c0a187207c18ba9b3ca1000cb7dd16624e7755da4337e77"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/tin_ingot_from_ores.json"
@@ -9602,7 +10170,7 @@ hash = "6e0ec035cfcb83b010e696d2867899df576ed90fad483c3de54e895a91be3060"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/tin_ingot_from_raw_ores.json"
-hash = "1455b224c576295d1d8f9d913205111778f9201977afba17927a7c696613d374"
+hash = "399e8a441a46f6db0928b041abbed86ffb96d2e2d671e1bf7def0c9256cf728b"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/titanium_ingot_from_ores.json"
@@ -9626,7 +10194,7 @@ hash = "dea468ca41d497b6b19b87bcf7521858d4ae7db5a2d5398105140a1c09f124a9"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/compat/zinc_ingot_from_raw_ores.json"
-hash = "4c4ef21477902ef64975e27bf40acd2c70564a68bbc61c778b1c4f3e51bcdc02"
+hash = "422a0b9672f2f1ad8c8a28fc76537c0f3eabb8229ec963b4ac2ca54cb1587ae2"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/copper_from_ores.json"
@@ -9634,7 +10202,7 @@ hash = "72088f112517c1f2ecef6f05244df0ee02ec3246cf20f06d0930f0992dd3f162"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/copper_from_raw_ores.json"
-hash = "b418ea056101d3700a5a2932fe4583c4f552a7a3b8af20d89ebde94b6d9eb2df"
+hash = "3fb3be11125de894683da589ded4cfab482ac5fabb29031637625c26b84b3f3f"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/electrum_ingot.json"
@@ -9646,7 +10214,7 @@ hash = "bd20c4f4f83cf41a6c40141d5eaeebe1aa7cc8d866a158ee4bc146d3a774c630"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/gold_from_raw_ores.json"
-hash = "4ff88b4dc0e690d01b31c9588b39af0aa7bffbf7500bacc116c808087ca08fad"
+hash = "8e9c8ba1b0d7991332b3c969cf714544f8427048733f7c433c5335a5e7ae9ff2"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/iron_from_ores.json"
@@ -9654,7 +10222,7 @@ hash = "320af98d0b686eb6bcb7b4bb2a04d5b999a93e6b708f22877a3ba0f56c52d329"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/iron_from_raw_ores.json"
-hash = "1130cd70df567f636fcf0d5b9f9ee6375bfcd3f05432501f28b28dff5fc1d843"
+hash = "b1c1911fbc13dff3233ee362fe8fdab146c00b64be1d95d16b9efaecd27dab91"
 
 [[files]]
 file = "kubejs/data/alloy_forgery/recipes/netherite_from_gold_and_scrap.json"
@@ -11073,8 +11641,44 @@ file = "kubejs/data/enchanted-vertical-slabs/recipes/vertical_mud_brick_slab.jso
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "kubejs/data/extended_drawers/recipes/access_point.json"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+file = "kubejs/data/extended_drawers/recipes/creative_upgrade.json"
+hash = "79836cac950e03827e9b20c1ec6e2c77f139f7271be44122b768ee22f7b3014d"
+
+[[files]]
+file = "kubejs/data/extended_drawers/recipes/downgrade.json"
+hash = "6d828609f74b514afc8af87983828221fd35d05f3c3247c8fb32420b937367a7"
+
+[[files]]
+file = "kubejs/data/extended_drawers/recipes/s1_upgrade.json"
+hash = "2c8040224a2686eee7080ed1633837276c57734083040467e81f80934130bc5e"
+
+[[files]]
+file = "kubejs/data/extended_drawers/recipes/s2_upgrade.json"
+hash = "261fbe99de705784aacc296c74bd2e43d9bd1344bd2e4b3fd22c394c9b2cec8c"
+
+[[files]]
+file = "kubejs/data/extended_drawers/recipes/s3_upgrade.json"
+hash = "6901595d322ebf2e1d527d62750c289f2368517fcd2ec946278dbe9e48cc6136"
+
+[[files]]
+file = "kubejs/data/extended_drawers/recipes/s4_upgrade.json"
+hash = "d59ef913968cc2b7be25090da30be12fd17fd556243935f12aa577fc1f12c0f7"
+
+[[files]]
+file = "kubejs/data/extended_drawers/recipes/t1_upgrade.json"
+hash = "8b3c99531c426c439109c13b393eedfae6a5547edfe86bca253b9f59a76ccaf0"
+
+[[files]]
+file = "kubejs/data/extended_drawers/recipes/t2_upgrade.json"
+hash = "f6f80db214a559a6f5aaea5485a6d6eda535c0c9bf84c82b0d8d3a227c14eb5b"
+
+[[files]]
+file = "kubejs/data/extended_drawers/recipes/t3_upgrade.json"
+hash = "a2b63151d8d3046597f92219d3efd58fb692f6f77f1647c4b3dec2cc4f174761"
+
+[[files]]
+file = "kubejs/data/extended_drawers/recipes/t4_upgrade.json"
+hash = "0c89374a139bcf2fed5517e6af796775e1bca5d1d30908788c2265106f5ec2ae"
 
 [[files]]
 file = "kubejs/data/extragenerators/item_generators/withered.json"
@@ -13150,7 +13754,7 @@ hash = "f8def87e780829d354ba4dc3fc2ab6fe464bdc2a980e6df53550b2da1819fb3c"
 
 [[files]]
 file = "kubejs/data/tconstruct/recipes/smeltery/scorched/scorched_brick.json"
-hash = "9a5a14ebda8fd139a405239508e30e00d61ff1e396b85f87a646750093847881"
+hash = "bed531b48f83beadfba7aec6fae7ecc3d4552d45117270e474e78e8e095eb391"
 
 [[files]]
 file = "kubejs/data/tconstruct/recipes/smeltery/scorched/scorched_brick_kiln.json"
@@ -13166,7 +13770,7 @@ hash = "ec038cb302587ebeef11be03ff2e9db8ddbe014f4e389c7453cbf5c91ad7757f"
 
 [[files]]
 file = "kubejs/data/tconstruct/recipes/smeltery/seared/seared_brick.json"
-hash = "628cb49cf3f78934cf7c0bcfd2901ce98109b70096a2d994b72405a72c2961a0"
+hash = "d5fb7ab300b7725c5796736491e023c4ca1f420f321ecac366def56a83ca9135"
 
 [[files]]
 file = "kubejs/data/tconstruct/recipes/smeltery/seared/seared_brick_kiln.json"
@@ -13721,6 +14325,10 @@ file = "kubejs/server_scripts/commands.js"
 hash = "e80c477bd73e5e587570d4a3e0494d327bc8b2975228d380449654862ad7bc44"
 
 [[files]]
+file = "kubejs/server_scripts/custom_filters.js"
+hash = "2982b950e3ab6e222ee38000294434a99d8999c87f06067ebc1173e9f1b19086"
+
+[[files]]
 file = "kubejs/server_scripts/drops.js"
 hash = "a24b7ca9a0e01180f12cb6da71782e24843e2537b2a45bd0c00157b8909a3b14"
 
@@ -13774,7 +14382,7 @@ hash = "638e6016408775b046df863d5196065d08f0b5f8349090d889118bf82087a7ad"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/recipes.js"
-hash = "d5d503cd5452909430c93a012e9067963231cf3adf87bd4d3e407996942fb864"
+hash = "66553cb1e1507486ad3dc7ec4e6ac0bd98b6da90047ae8762279ce474f68077d"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/techreborn/shaped.js"
@@ -13782,7 +14390,7 @@ hash = "e82fff37ec8f7e6039b3e246fa2cb1d7226c9409e6ed0d31f36d84a0eb25a503"
 
 [[files]]
 file = "kubejs/server_scripts/tags/general_tags.js"
-hash = "c8b6e7c08ddb88b3c9e474cceac3ad0d3d48c614ccb029d6aef4f16d73d54c95"
+hash = "a7d6d801d19d3231508791f80aaedd9ca02527e81773302d60f94a62930c9ac5"
 
 [[files]]
 file = "kubejs/server_scripts/tags/mambience_bows.js"
@@ -13842,7 +14450,7 @@ hash = "118d6193b903d4a50dc44687d2524f8d45806428737e63abc15e059d94827873"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "f25a41bfbea92b0fa9a757c2a941ba33ca65597daf24ff0feba7d1f825ac9ac8"
+hash = "cedd48463689621fa7f3b94af9703682e4f5846b387b26cb68abb52cdedbe8d6"
 
 [[files]]
 file = "kubejs/startup_scripts/modifications.js"
