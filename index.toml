@@ -13942,7 +13942,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "1cf4751c388f6739b9ecde4b398d5ca2b601c23c7e8a34efb2fdfc54b47f5fba"
+hash = "3b39d3a2bea559be8777c65db90a2f15377d6656e17cbc3400be746c5ec0ebc0"
 metafile = true
 
 [[files]]
@@ -14497,7 +14497,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabrication.pw.toml"
-hash = "b9155fb8b92d2308dec6263db7ce3ee4f09fb31ae9856be04f6793e38fdc4e51"
+hash = "29c040466e570e329fb387476041c1d79a531a7f915c90901346ead4d6d92111"
 metafile = true
 
 [[files]]
@@ -15057,7 +15057,7 @@ metafile = true
 
 [[files]]
 file = "mods/powah-rearchitected.pw.toml"
-hash = "5f9eebd74fc355e1b269d253405e18ba6e7e93f425c028bd2bff8cf146843481"
+hash = "8aec8d6f115a93929c78710bfff4acb400e578e7698c338f77a1048e2d3a37a3"
 metafile = true
 
 [[files]]
