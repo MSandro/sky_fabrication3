@@ -20,11 +20,11 @@
       "techreborn:zinc_ingot"
     ],
     "default": "c:zinc_ingots",
-    "count": 3
+    "count": 2
   },
   "overrides": {
     "2+": {
-      "count": 4
+      "count": 3
     }
   },
   "min_forge_tier": 1,

@@ -9,5 +9,5 @@
     "id": "tconstruct:seared_brick"
   },
   "min_forge_tier": 2,
-  "fuel_per_tick": 50
+  "fuel_per_tick": 10
 }

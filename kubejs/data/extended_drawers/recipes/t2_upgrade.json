@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BUB",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "U": {
+      "item": "extended_drawers:t1_upgrade"
+    }
+  },
+  "result": {
+    "item": "extended_drawers:t2_upgrade"
+  }
+}

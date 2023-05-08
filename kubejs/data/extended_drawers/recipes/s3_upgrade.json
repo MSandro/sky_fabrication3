@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TUT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "modern_industrialization:titanium_plate"
+    },
+    "U": {
+      "item": "kubejs:s2_upgrade"
+    }
+  },
+  "result": {
+    "item": "kubejs:s3_upgrade"
+  }
+}

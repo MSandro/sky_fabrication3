@@ -858,7 +858,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 0.5d
 			y: -5.0d
 			subtitle: "Single item, mass storage devices with an inventory count on the face."
 			id: "54065F780CDDB84C"
@@ -869,8 +869,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -3.5d
+			x: 0.5d
+			y: -3.0d
 			subtitle: "Comes in three flavors: Single, Double and Quad."
 			description: [
 				"(Single) Drawer holds 1024 Items."
@@ -886,6 +886,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Drawers\"}"
+						}
 						items: [
 							{
 								id: "extended_drawers:single_drawer"
@@ -900,16 +903,13 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Drawers\"}"
-						}
 					}
 				}
 			}]
 		}
 		{
-			x: 3.0d
-			y: -2.5d
+			x: 0.5d
+			y: -2.0d
 			subtitle: "Doubles maximum storage capacity."
 			description: ["Note, that upgrades are installed *per slot*, not per drawer!"]
 			dependencies: ["0A7BD337DC8ADBCB"]
@@ -921,10 +921,10 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: -0.5d
 			y: -1.5d
 			subtitle: "Quadruples maximum storage capacity. (4x)"
-			dependencies: ["0A7BD337DC8ADBCB"]
+			dependencies: ["27BA62770DC82F9B"]
 			id: "0E31BC8C0E47FF79"
 			tasks: [{
 				id: "775C7D205FDCF869"
@@ -933,7 +933,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: -1.0d
 			y: -0.5d
 			subtitle: "Octuples maximum storage capacity. (8x)"
 			dependencies: ["0E31BC8C0E47FF79"]
@@ -945,7 +945,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: -0.5d
 			y: 0.5d
 			subtitle: "Sexdecuples maximum storage capacity. (16x)"
 			dependencies: ["4950B4335A61C04E"]
@@ -957,10 +957,10 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.5d
+			x: -1.0d
+			y: -2.5d
 			subtitle: "Reduces maximum storage to a single stack. Useful for small, lockable buffers!"
-			dependencies: ["54065F780CDDB84C"]
+			dependencies: ["0A7BD337DC8ADBCB"]
 			id: "0F5BE8087A25E091"
 			tasks: [{
 				id: "62FC56011CAA7DE1"
@@ -969,15 +969,106 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 2.5d
+			x: 2.0d
+			y: -2.5d
 			subtitle: "Connects Drawers together."
-			dependencies: ["54065F780CDDB84C"]
+			dependencies: ["0A7BD337DC8ADBCB"]
 			id: "65995D6871EBAAB7"
 			tasks: [{
 				id: "4A3F35AEC4C33EA7"
 				type: "item"
 				item: "extended_drawers:controller"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			dependencies: ["6414628E793DC1B2"]
+			id: "6C93BF9FB6925110"
+			tasks: [{
+				id: "34B4CB7EE9AF4A71"
+				type: "item"
+				item: "kubejs:s1_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["6C93BF9FB6925110"]
+			id: "4E3C22290C818BE6"
+			tasks: [{
+				id: "1A59808BA7F955B4"
+				type: "item"
+				item: "kubejs:s2_upgrade"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["4E3C22290C818BE6"]
+			id: "0D264AE4AFEA97CE"
+			tasks: [{
+				id: "5D5C764B08DB8489"
+				type: "item"
+				item: "kubejs:s3_upgrade"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["0D264AE4AFEA97CE"]
+			id: "6D8576C4FB205222"
+			tasks: [{
+				id: "4E61F6C5F0B89900"
+				type: "item"
+				item: "kubejs:s4_upgrade"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			shape: "circle"
+			dependencies: ["6D8576C4FB205222"]
+			size: 1.5d
+			id: "1808B3BBC5EDD537"
+			tasks: [{
+				id: "74D9D8F035A01D3D"
+				type: "item"
+				item: "extended_drawers:creative_upgrade"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			subtitle: "Acts as a dummy drawer for linking Drawers with the Drawer Access point."
+			description: ["Useful as a lag-less solution for extending the Access Point's range!"]
+			dependencies: ["0A7BD337DC8ADBCB"]
+			id: "0D7391372DD8F434"
+			tasks: [{
+				id: "650A9DCB215FDB6F"
+				type: "item"
+				item: "extended_drawers:connector"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			subtitle: "Acts like a \"proxy\" for your drawers!"
+			description: [
+				"Let's suppose you have 3 drawers with 64 Stone each."
+				""
+				"Place a Shadow Drawer next to these drawers, and set it to Stone."
+				""
+				"It will then show all Stone in all connected drawers."
+				""
+				"You can insert and extract items like you would do on a normal drawer, but the items will be extracted from/inserted to normal drawers."
+			]
+			dependencies: ["0A7BD337DC8ADBCB"]
+			id: "4198BC6C45F3B486"
+			tasks: [{
+				id: "51521BD4F865307D"
+				type: "item"
+				item: "extended_drawers:shadow_drawer"
 			}]
 		}
 	]

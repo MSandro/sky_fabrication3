@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SUS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "modern_industrialization:stainless_steel_plate"
+    },
+    "U": {
+      "item": "kubejs:s1_upgrade"
+    }
+  },
+  "result": {
+    "item": "kubejs:s2_upgrade"
+  }
+}

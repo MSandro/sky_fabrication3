@@ -84,9 +84,89 @@ onEvent('item.tooltip', tooltip => {
     needWaterlog.forEach(item => {
         tooltip.add(item, Text.gray('§9Requires a §bWaterlogged§9 sieve to obtain.§r'))
     })
-    
+
     tooltip.add('minecraft:prismarine_crystals', Text.gray('§9Better rates with a §bWaterlogged§9 sieve.§r'))
     
+	function getCapacity(upgrade, drawerSlots) {
+		switch (upgrade) {
+			case "extended_drawers:downgrade": return '64';
+			case "minecraft:air": return (1024/drawerSlots).toString();
+   			case "extended_drawers:t1_upgrade": return (2*1024/drawerSlots).toString();
+			case "extended_drawers:t2_upgrade": return (4*1024/drawerSlots).toString();
+			case "extended_drawers:t3_upgrade": return (8*1024/drawerSlots).toString();
+			case "extended_drawers:t4_upgrade": return (16*1024/drawerSlots).toString();
+			case "kubejs:s1_upgrade": return (32*1024/drawerSlots).toString();
+			case "kubejs:s2_upgrade": return (256*1024/drawerSlots).toString();
+			case "kubejs:s3_upgrade": return (512*1024/drawerSlots).toString();
+			case "kubejs:s4_upgrade": return ((2**21)*1024/drawerSlots).toString();
+			case "extended_drawers:creative_upgrade": return '9223372036854775807';
+   			default: return('Invalid upgrade!');
+		}
+	}
+
+	const drawerUpgrades = ['extended_drawers:t1_upgrade', 'extended_drawers:t2_upgrade', 'extended_drawers:t3_upgrade', 'extended_drawers:t4_upgrade',
+		'kubejs:s1_upgrade', 'kubejs:s2_upgrade', 'kubejs:s3_upgrade', 'kubejs:s4_upgrade']
+	const capacities = ['2', '4', '8', '16', '32', '256', '512', '2²¹']
+
+	tooltip.addAdvanced(["extended_drawers:single_drawer", "extended_drawers:double_drawer", "extended_drawers:quad_drawer"], (item, advanced, text) => {
+		if (item.nbt?.BlockEntityTag?.items) {
+			let numItems = 0
+			let slots = item.nbt?.BlockEntityTag?.items.length
+			item.nbt?.BlockEntityTag?.items.forEach(item => {
+				if (item.item.item != "minecraft:air") numItems++;
+			})
+			if (numItems != 0) {
+				for(let i = 0; i < numItems + 1; i++) {
+				text.remove(1)
+			}
+			}
+			
+			for(let i = 0; i < slots; i++) {
+				text.add(1 + 2*i, Text.white('')
+				.append(Text.gray((slots == 1) ? '' : (i+1).toString()))
+				.append(Text.gray((slots == 1) ? '' : ': '))
+				.append((item.nbt.BlockEntityTag.items[i].item.item != "minecraft:air") ? Text.white('')
+				.append(Text.translate(Item.of(item.nbt.BlockEntityTag.items[i].item.item).item.descriptionId).gray())
+				.append(Text.gray(': '))
+				.append(item.nbt.BlockEntityTag.items[i].amount)
+				.append(Text.gray('/'))
+				.append(getCapacity(item.nbt.BlockEntityTag.items[i].upgrade,slots)) : Text.gray('Empty')))
+				
+				text.add(2 + 2*i, Text.white('')
+				.append((item.nbt.BlockEntityTag.items[i].upgrade != "minecraft:air") ? Text.translate(Item.of(item.nbt.BlockEntityTag.items[i].upgrade).item.descriptionId) : 	Text.gray('No upgrade'))
+				.append(item.nbt.BlockEntityTag.items[i].locked ? Text.gray(', ').append(Text.yellow('Locked')) : Text.darkGray(''))
+				.append(item.nbt.BlockEntityTag.items[i].hidden ? Text.gray(', ').append(Text.darkGray('Hidden')) : Text.darkGray(''))
+				.append(item.nbt.BlockEntityTag.items[i].voiding ? Text.gray(', ').append(Text.red('Voiding')) : Text.darkGray(''))
+				)
+				}
+		} else {
+			let slots = (item == "extended_drawers:single_drawer") ? 1 : (item == "extended_drawers:double_drawer") ? 2 : 4
+			text.add(1, Text.gray('Capacity: ')
+			.append(Text.white((1024/slots).toString()))
+			.append(Text.white(' items'))
+			.append(Text.gray((item == "extended_drawers:single_drawer") ? '' : ' per slot'))
+			)
+		}
+	})
+
+	drawerUpgrades.forEach((upgrade, index) => {
+		const capacity = capacities[index];
+		tooltip.add([upgrade], Text.gray(`Drawer Capacity: ${capacity}x`))
+	});
+
+	tooltip.add(['extended_drawers:downgrade'], Text.gray('Decreases storage capacity to 64.'))
+
+	tooltip.addAdvanced('extended_drawers:creative_upgrade', (item, advanced, text) => {
+		text.add(1, Text.gray('Increases storage capacity to: §fAlmost infinite!§r'))
+		if (!tooltip.shift) {
+			text.add(2, Text.gray('§8Hold [§7Shift§8] for extra info.§r'))
+		} else {
+            text.add(2, Text.gray('§8Hold [§fShift§8] for extra info.§r'))
+            text.add(3, Text.gray(''))
+			text.add(4, Text.gray("Actually, it's a very large number: §f9,223,372,036,854,775,807§r"))
+		}
+	})
+
     const toContain = [
 		"Looting", "Luck"
 	] 

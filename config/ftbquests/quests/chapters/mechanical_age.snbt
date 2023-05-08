@@ -216,6 +216,9 @@
 						id: "itemfilters:or"
 						Count: 1b
 						tag: {
+							display: {
+								Name: "{\"text\":\"Depot or Basin\"}"
+							}
 							items: [
 								{
 									id: "create:depot"
@@ -226,9 +229,6 @@
 									Count: 1b
 								}
 							]
-							display: {
-								Name: "{\"text\":\"Depot or Basin\"}"
-							}
 						}
 					}
 				}
@@ -289,6 +289,9 @@
 						id: "itemfilters:or"
 						Count: 1b
 						tag: {
+							display: {
+								Name: "{\"text\":\"Other Fluid Maniuplation\"}"
+							}
 							items: [
 								{
 									id: "create:portable_fluid_interface"
@@ -303,9 +306,6 @@
 									Count: 1b
 								}
 							]
-							display: {
-								Name: "{\"text\":\"Other Fluid Maniuplation\"}"
-							}
 						}
 					}
 				}
@@ -1641,6 +1641,7 @@
 				"> Seats - you can sit on these on Contraptions."
 			]
 			dependencies: ["472797892FBE6911"]
+			min_width: 300
 			min_required_tasks: 1
 			id: "56247605846B8F5B"
 			tasks: [
@@ -1879,6 +1880,9 @@
 						id: "itemfilters:or"
 						Count: 1b
 						tag: {
+							display: {
+								Name: "{\"text\":\"Blaze Burner or a passive Heat Source\"}"
+							}
 							items: [
 								{
 									id: "create:blaze_burner"
@@ -1901,9 +1905,6 @@
 									Count: 1b
 								}
 							]
-							display: {
-								Name: "{\"text\":\"Blaze Burner or a passive Heat Source\"}"
-							}
 						}
 					}
 				}
@@ -2007,6 +2008,9 @@
 						id: "itemfilters:or"
 						Count: 1b
 						tag: {
+							display: {
+								Name: "{\"text\":\"Sail-like Blocks\"}"
+							}
 							items: [
 								{
 									id: "create:white_sail"
@@ -2021,9 +2025,6 @@
 									Count: 1b
 								}
 							]
-							display: {
-								Name: "{\"text\":\"Sail-like Blocks\"}"
-							}
 						}
 					}
 					count: 8L
