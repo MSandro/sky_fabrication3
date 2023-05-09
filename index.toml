@@ -14294,7 +14294,7 @@ hash = "2e38acb79f2d5c6748c9aafda00b36e9c481f9da1ec30b927a3773642cd912ea"
 
 [[files]]
 file = "kubejs/data/upc/recipes/upc.json"
-hash = "8f28340511a71d6cdebc01b918931897287867730f823963ee394a6ee508934c"
+hash = "1bda6fb4b30804ba37fa5cc165699e9f4017c8b8f4e8e402131ce7328025aa3e"
 
 [[files]]
 file = "kubejs/data/upc/recipes/upc_ev.json"
@@ -14302,11 +14302,11 @@ hash = "30306db2b822c54ea24446dadae2f0d017c8bcc550266790aaf4326acd40d2dd"
 
 [[files]]
 file = "kubejs/data/upc/recipes/upc_hv.json"
-hash = "03d0e6a6b08e43df6a1fee4c46935c1022af1002f2ea312a4eb1946eb27e09b2"
+hash = "a6e677f2a15ae7d0f89b7c97e7da9974e48cab06a8550c292aeffd34285cf6f3"
 
 [[files]]
 file = "kubejs/data/upc/recipes/upc_mv.json"
-hash = "2186a1350573b2bde896f086a3de2e8cf68cf58094bb7642282285df2c22e5cf"
+hash = "31a24aad3e26c7d0411790d55ed56ee059960c8b5d763186066ad2fc3c6fd1f8"
 
 [[files]]
 file = "kubejs/data/yigd/recipes/death_scroll.json"
@@ -14634,6 +14634,11 @@ hash = "d0d66f65922d4d0b4421c3edeea3bb352a3d567458c0c5ff293e2fbcd588e0e5"
 metafile = true
 
 [[files]]
+file = "mods/better-upcs.pw.toml"
+hash = "7b264704819736fe2ffd18ce63d0877d68693c98ec9b11f8eecd2fc936f1b05b"
+metafile = true
+
+[[files]]
 file = "mods/betteranimalsplus.pw.toml"
 hash = "f0cc2c89283265812873e01b65d5603fc5b525230259eb8993da0b41e7e3341a"
 metafile = true
@@ -14840,7 +14845,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
-hash = "537f69a40435666979111f250398ee856bd0fd9c0a1a7a98392e996c01d20e12"
+hash = "11837b0a7b6c32efb98dd80e8ce37e3b52e29570b6b2c4397c0767f57a01cdd8"
 metafile = true
 
 [[files]]
@@ -15981,11 +15986,6 @@ metafile = true
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
 hash = "2d0b5d93a7333a5b61d10fc688ec57ca36d623e6cdf38c7b4812f37db2311f44"
-metafile = true
-
-[[files]]
-file = "mods/upc.pw.toml"
-hash = "b3e43c94bee9073ca501f84fc0d31f1fd292808e1e3e2b97df4378c9a7162fb0"
 metafile = true
 
 [[files]]
