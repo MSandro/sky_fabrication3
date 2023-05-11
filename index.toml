@@ -15319,16 +15319,6 @@ hash = "53d676cb098f77c9c84750b04ee3c384cc04a55bc92dc2c6e4cc0c31c31f00bf"
 metafile = true
 
 [[files]]
-file = "mods/iris-flywheel-compat.pw.toml"
-hash = "01c7458f0cf74259032c55f3e03505f5cd72d7aad13a6b8ff4c59a6edfdea996"
-metafile = true
-
-[[files]]
-file = "mods/irisshaders.pw.toml"
-hash = "7f544f416e23ec03ed210a7cae66e25b7d0a01e57e523501748a5fc18444de9b"
-metafile = true
-
-[[files]]
 file = "mods/iron-jetpacks-fabric.pw.toml"
 hash = "86a400ba8e043c0a45a825fd0c3e5dbce8cf51925309978fc6cf3c526d672fb5"
 metafile = true
