@@ -1,5 +1,7 @@
 SF3 0.6.0 Changelog
 
+This Update contains a lot of QoL and balancing changes.
+
 Changes by KonSola5 (many thanks for your great work):
 * New /emergency command, gives an emergency item, has a 5 minute cooldown.
 * Many Questbook edits, including a redesigned Create chapter, corrections and updates for some of the quests, 2 new Endgame Quest Chapters: Spatial Harvesters and Endgame.
@@ -34,7 +36,13 @@ Changes by KonSola5 (many thanks for your great work):
 * Spectrum's Stratine Ore and Hephaestus' Cobalt Ore are now obtainable using a Gold Drill.
 * Fixed Spectrum's Ancient Ruins are now spawning reliable in the Sky Islands Dimension
 * Added the ability to craft some large table Endgame crafting recipes using large Mechanical Crafting recipes (Crafting ingredients only).
-  REI does not feel good about rendering 9x9 recipes correctly...
+* Early Game improvements: quest and recipe changes and much more
+* Overhauled the way that the drawer upgrades are crafted
+* Nerfed the output of smelting raw ores in Alloy Forge from 2x to 1.5x.
+* Reduced fuel usage of smelting Grout in Alloy Forge.
+* Added a quest that hints the player how to get Nether Quartz for the Iron Mesh.
+* new Nether star Recipe for DeepMobLearning
+* implemented recipes and meshes for the Create Sifter mod
 
 Changes by MSandro:
 * Expert Mode is now available with the first few yeet_recipes
@@ -44,8 +52,10 @@ Changes by MSandro:
 * ExpandedStorage is now working again with Carrier
 * Raids are now working in Sky Islands Dimension (might need a Dim-Reset to take effect)
 * Fixed many KubeJS Warnings
-* Reworked Extractinator Outputs
 * Spatial Harvester Outputs changed (tried to respect to the ore unification)
+* Reworked Extractinator Outputs
+* added CustomSpawns again to fix some broken behaviours
+* switched from Phosphor to Starlight to fix and improve Lightengine
 
 Changes by Itplays (many thanks for your help)
 * added some Expert Mode Recipes and tweaks
@@ -53,9 +63,13 @@ Changes by Itplays (many thanks for your help)
 Added:
 * Cull Less Leaves
 * Cull Clouds
+* Create Sifter
 * Enhanced Block Entities
 * Nature & Structure Compass
 * Advanced & Gear Reborn
+* ModernFix
+* CustomSpawns
+* Starlight
 
 Removed:
 * Space Dimension (might be replaced by Ad Astra in future updates)
@@ -64,5 +78,11 @@ Removed:
 * Progressive Bosses (caused some issues)
 * Auto-Clicker Mod
 * SkyGrid
+* Phosphor
+
+Known Issues:
+* Joining Server worlds does not work if you did not join a SP World first
+* Spatial Harvesters are having some problems with TechReborn Energy Cables or other Sources, use e.g. Power Cables instead
+if you find other issues please report them
 
 Updated: all available mod updates
