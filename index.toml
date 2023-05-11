@@ -14729,11 +14729,6 @@ hash = "46f44c0c96b8e50a2815d08aca9d212ec9d9f1dfce46c3629fe76aefc035388a"
 metafile = true
 
 [[files]]
-file = "mods/celib.pw.toml"
-hash = "8811518696e1ce157580cbb4b7188f03ebe9ad4b69db972a18f5ca27f7af464b"
-metafile = true
-
-[[files]]
 file = "mods/charm.pw.toml"
 hash = "45086e2baab1c96f628e8faed67373ee06f36396eaf00f8db1d6c66b72c03a8b"
 metafile = true
@@ -15714,11 +15709,6 @@ hash = "cdc3e10d0171482c2c9285e3b425d44c5953ad0f67e588b8ff9f3bf55e5bc6a0"
 metafile = true
 
 [[files]]
-file = "mods/refabricated-slabs.pw.toml"
-hash = "de09c1238edb113656e3ef747bbe48913a21158cb3666c8122ac23193654dcdf"
-metafile = true
-
-[[files]]
 file = "mods/regrowth.pw.toml"
 hash = "4d91b85575d5ce5e5eca1493a96266e4c5c0a4de2fa158777a89785a3d4b6414"
 metafile = true
@@ -15726,11 +15716,6 @@ metafile = true
 [[files]]
 file = "mods/repurposed-structures-fabric.pw.toml"
 hash = "2a3e59e6c7d3c87985979d01cffb6b0d0bf89d9c71c176ec4e3bcc4f978ea978"
-metafile = true
-
-[[files]]
-file = "mods/respro.pw.toml"
-hash = "4bb29d246f58ae9c2b8c0da37013eb9e7811d9e7eb42635be208d02540c0284d"
 metafile = true
 
 [[files]]
