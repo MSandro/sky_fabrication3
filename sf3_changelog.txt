@@ -1,6 +1,7 @@
 SF3 0.6.0 Changelog
 
 This Update contains a lot of QoL and balancing changes.
+Iris was removed because new versions are not uploaded to CurseForge anymore, install it by your own if you would like to continue using shaders.
 
 Changes by KonSola5 (many thanks for your great work):
 * New /emergency command, gives an emergency item, has a 5 minute cooldown.
@@ -72,6 +73,8 @@ Added:
 * Starlight
 
 Removed:
+* Iris Shaders
+* Iris-Flywheel-Compat
 * Space Dimension (might be replaced by Ad Astra in future updates)
 * Wireless Networks (use Powah instead)
 * Simple Void World (not needed)
