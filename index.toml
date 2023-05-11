@@ -15919,6 +15919,11 @@ hash = "a7920758ba7d3987f5217f35845040b88bf998941295c2fad6cff4a3b67fc6f9"
 metafile = true
 
 [[files]]
+file = "mods/tooltip-scroll-fabric.pw.toml"
+hash = "c7ce5b0deb0459a480cd9bdb1e5c0c7903c40b84eb4ec901c7d2e3f7acdd14b0"
+metafile = true
+
+[[files]]
 file = "mods/tooltipfix.pw.toml"
 hash = "69214e78788c8db0b1b2e9fa48deff5fdb090dd590ced6898ac5b4286aa370b2"
 metafile = true
@@ -16044,4 +16049,4 @@ hash = "0001f2673dfed35e75ce48336867d0e24d9a34efd35e9fd5cd9fc5c127250e9d"
 
 [[files]]
 file = "sf3_changelog.txt"
-hash = "19ecb061c30e7162f0a3d68810f0b2854f957ca226339f9411f6a6afecafe3c2"
+hash = "a339982aa4cecc69f2336f8ee5bb96df4c85233ef521a8fa40f55e9fc009eaa8"

@@ -82,6 +82,7 @@ Removed:
 * Auto-Clicker Mod
 * SkyGrid
 * Phosphor
+* Refabricated Slabs
 
 Known Issues:
 * Joining Server worlds does not work if you did not join a SP World first
