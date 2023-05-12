@@ -14469,10 +14469,6 @@ file = "kubejs/startup_scripts/seeds.js"
 hash = "7c8ad61a191b4a1b508c0337474aed0d86a16c9e2ed7418534f9a506dc1bd298"
 
 [[files]]
-file = "mode.json"
-hash = "64e976baa8f3824079b259bd0e3905430e900f4c257f1a1808ae237828110ec6"
-
-[[files]]
 file = "mods/accurate-block-placement.pw.toml"
 hash = "9ba46690ca57a051174473b215349909e14945d715b4af3651012126be9895bd"
 metafile = true
