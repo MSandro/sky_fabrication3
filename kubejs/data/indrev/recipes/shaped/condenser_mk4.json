@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NCN",
+    "HMH",
+    "BIB"
+  ],
+  "key": {
+    "M": {
+      "item": "indrev:machine_block"
+    },
+    "C": {
+      "item": "indrev:circuit_mk4"
+    },
+    "N": {
+      "item": "indrev:enriched_nikolite_ingot"
+    },
+    "H": {
+      "item": "indrev:heatsink"
+    },
+    "B": {
+      "item": "indrev:battery"
+    },
+	"I": {
+	  "item": "tconstruct:ingot_cast"
+	}
+  },
+  "result": {
+    "item": "indrev:condenser_mk4"
+  }
+}

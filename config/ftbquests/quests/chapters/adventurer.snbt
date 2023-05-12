@@ -91,17 +91,17 @@
 			title: "Waystones"
 			x: 0.5d
 			y: 0.5d
-			subtitle: "Discover your first Waystone, can be found in villages."
-			description: ["You can break the waystones and use them for creative ways of teleportation."]
+			subtitle: "Craft your first Waystone!"
+			description: ["You can use them for interdimensional teleportation between Waystones. Costs 1 XP Level to teleport."]
 			dependencies: ["6EC4700B21DB617B"]
 			id: "23C3589FAFB40AD5"
 			tasks: [{
 				id: "73C759A163CEAEE8"
 				type: "observation"
-				icon: "waystones:waystone"
+				icon: "fwaystones:waystone"
 				timer: 0L
 				observe_type: 0
-				to_observe: "waystones:waystone"
+				to_observe: "fwaystones:waystone"
 			}]
 			rewards: [{
 				id: "7E79E623D0CD9F54"
@@ -145,10 +145,7 @@
 				"To build portal you need 12 waxed copper blocks, 12 waxed cut copper stairs, 4 block of amethyst, 4 amethyst clusters, 1 gold block and 1 flint and steel. To make portal you need to recreate structure from picture below, and to activate it you need to fire central gold block with flint and steel."
 				"{image:kubejs:textures/item/eden_portal.png width:100 height:100 align:1}"
 			]
-			dependencies: [
-				"6EC4700B21DB617B"
-				"75936E139587B1B5"
-			]
+			dependencies: ["6EC4700B21DB617B"]
 			id: "07C43FD476A6AB1C"
 			tasks: [{
 				id: "62E94367F808EC8B"
@@ -217,7 +214,7 @@
 			y: -2.5d
 			description: [
 				"Most Twilight Bosses spawn a chest after defeating them."
-				"if there is no floor under the boss, make sure to fly down to the bottom of the world, maybe you can find the chest there."
+				"If there is no floor under the boss, make sure to fly down to the bottom of the world, maybe you can find the chest there."
 			]
 			dependencies: ["36D37A1AFFC1B369"]
 			id: "6FA54248C69DFAB2"
@@ -228,7 +225,7 @@
 			}]
 		}
 		{
-			title: "Trophys"
+			title: "Twilight Trophies"
 			x: -1.5d
 			y: -2.5d
 			dependencies: ["36D37A1AFFC1B369"]

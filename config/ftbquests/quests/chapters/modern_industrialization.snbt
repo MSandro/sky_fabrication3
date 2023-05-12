@@ -54,11 +54,9 @@
 			y: -1.5d
 			subtitle: "Welcome to the Steam Age!"
 			description: [
-				"First, you need to make copper and tin (tiny) dusts by hammering copper and tin ingots (nuggets) in the forge hammer."
+				"First, you need to make Bronze Ingots in either a Heated Create Mixer (more efficient) or in the Alloy Forge (less efficient)."
 				""
-				"You can then combine copper and tin (tiny) dusts to make bronze (tiny) dust."
-				""
-				"This process is more efficient in a Mixer."
+				"Once you get a Bronze Mixer on your hands, this process will be much easier, because you can then mix dusts directly."
 				""
 				"Always remember that 9 tiny dusts are one dust."
 				""
@@ -79,24 +77,11 @@
 				item: "modern_industrialization:bronze_ingot"
 				count: 32L
 			}]
-			rewards: [
-				{
-					id: "3E441C535BFEFCAD"
-					type: "item"
-					item: "modern_industrialization:bucket_steam"
-				}
-				{
-					id: "0F3A0CFB0F279107"
-					type: "item"
-					item: {
-						id: "modern_industrialization:iron_hammer"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "3E441C535BFEFCAD"
+				type: "item"
+				item: "modern_industrialization:bucket_steam"
+			}]
 		}
 		{
 			x: -9.5d
@@ -129,11 +114,11 @@
 				""
 				"You can also smelt water buckets into steam buckets. Make your first Bronze Compressor before the boiler to save a lot on the plates!"
 				""
-				"It probably looks expensive to you right now, but don't forget that you can triple ores with the Forge Hammer. Also, as soon as you will have your first two machines, it will become more than twice less expensive!"
+				"It probably looks expensive to you right now, but as soon as you will have your first two machines, it will become more than twice less expensive!"
 				""
-				"The boiler will automatically produce and send steam to adjacent machines, up to 8 millibuckets per tick."
+				"The boiler will automatically produce and send steam to adjacent machines, up to 8 mB/t."
 				""
-				"Bronze machines can only process recipes up to 2 EU/t, meaning that the recipe will use 2 Energy Units per Tick. As 1 millibucket of steam = 1 EU, a boiler at max temperature can power 4 machines simultaneously!"
+				"Bronze machines can only process recipes up to 2 EU/t, meaning that the recipe will use 2 Energy Units per Tick. As 1 mB of steam = 1 EU, a boiler at max temperature can power 4 machines simultaneously!"
 			]
 			dependencies: ["4661838E492BDE53"]
 			id: "0BAB52BE15CE157F"
@@ -153,7 +138,7 @@
 			icon: "modern_industrialization:steam_blast_furnace"
 			x: -5.5d
 			y: -1.5d
-			subtitle: "One doesnt seems enough"
+			subtitle: "One doesn't seem enough"
 			description: [
 				"The Blast Furnace's structure is the same as the Coke Oven's, with Bricks replaced by Fire Clay Bricks and one extra hollow layer on top."
 				""
@@ -161,11 +146,7 @@
 				""
 				"Craft the controller, 29 Fire Clay Bricks and the same three hatches as the Coke Oven."
 			]
-			dependencies: [
-				"748D2241F66FF644"
-				"0DD703B94D202B68"
-				"4AD93229344EA0BE"
-			]
+			dependencies: ["748D2241F66FF644"]
 			id: "586CB8FEAA0A50C6"
 			tasks: [
 				{
@@ -206,8 +187,8 @@
 			y: 1.5d
 			subtitle: "Ore hemiquadrupling for the win!"
 			description: [
-				"The Macerator will turn 3 crushed dusts/raw ores into 4.5 dusts."
-				"Make sure to not grind your precious gem ores"
+				"The Macerator will turn 1 ore into 3 crushed dusts/raw ores, which can be later processed into 4.5 dusts at average."
+				"Make sure to not grind your precious gem ores!"
 				""
 				"It can also recycle all kinds of materials by turning them into dust."
 			]
@@ -281,9 +262,9 @@
 			description: [
 				"To make fire clay bricks, you will need to cook fire clay dusts and in order to craft these, you will need brick dusts."
 				""
-				"To make some, place bricks in the Forge Hammer."
+				"To make some, throw some Bricks between Crushing Wheels."
 				""
-				"The process efficiency can be improved in steam machines or with a Hammer."
+				"The process efficiency can be improved in steam machines."
 			]
 			dependencies: ["4661838E492BDE53"]
 			id: "39FADF9C0442304F"
@@ -415,7 +396,7 @@
 		}
 		{
 			x: -8.0d
-			y: -0.5d
+			y: 0.5d
 			subtitle: "Your personal bucketer!"
 			description: [
 				"You may have been wondering if perhaps there was a way to insert water into the boiler automatically? There is!"
@@ -428,10 +409,7 @@
 				""
 				"The Bronze Water Pump will produce 1/8th of a bucket of water for every adjacent water source every 5 seconds, for a max output of 1 bucket / 5 seconds."
 			]
-			dependencies: [
-				"0BAB52BE15CE157F"
-				"43A9178862F68414"
-			]
+			dependencies: ["0BAB52BE15CE157F"]
 			id: "0DD703B94D202B68"
 			tasks: [{
 				id: "510DB26BFE950469"
@@ -507,7 +485,7 @@
 			title: "Lignite coal"
 			x: -13.5d
 			y: -3.0d
-			subtitle: "It's brown coal. Great fuel to be used with the Steam Mining Drill."
+			subtitle: "It's brown coal. Great source of Sulfur."
 			dependencies: ["6F6196A606D3A8EF"]
 			id: "0D10B5E838DF9196"
 			tasks: [{
@@ -588,7 +566,7 @@
 			}]
 		}
 		{
-			title: "Bronze drill"
+			title: "Bronze Drill"
 			x: -3.5d
 			y: -6.5d
 			subtitle: "Used in the quarry. Check REI for outputs."
@@ -661,9 +639,9 @@
 				""
 				"By default, whitelist mode is enabled, so no items will be inserted or extracted directly."
 				""
-				"Item pipes will insert items into higher priorities first, and they will transfer 16 items every few seconds."
+				"Item pipes will insert items into higher priorities first, and they will transfer 16 items every 3 seconds."
 				""
-				"They can be upgraded with motors."
+				"They can be upgraded later on with motors."
 			]
 			dependencies: ["7C5C1CA5A7954896"]
 			id: "38F9192F665742BA"
@@ -683,13 +661,14 @@
 		{
 			x: -12.0d
 			y: -3.0d
-			subtitle: "Is it a monkey or a wrench?"
+			subtitle: "Is this GregTech?"
 			description: [
 				"Using a wrench, you can rotate any machine by right-clicking."
 				""
 				"You can rotate the output side by sneaking while you shift-click."
 				""
-				"Note that breaking a machine with the wrench will not drop it. Use a pickaxe for that!"
+				"And no, this isn't GregTech, so don't try to break your machines using wrenches, because they will not drop. Use a pickaxe for that!"
+				"Also, machines won't explode."
 			]
 			dependencies: ["4661838E492BDE53"]
 			id: "2DB9C3C383C91BC0"
@@ -780,6 +759,55 @@
 				id: "2ABA2304997809DD"
 				type: "loot"
 				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Copper Spools craftable!"
+			icon: "createaddition:copper_spool"
+			x: -1.0d
+			y: -3.0d
+			subtitle: "Copper Spools are now craftable! Check out the \"Mechanical Age\" tab!"
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "04DA0052406282E1"
+			tasks: [{
+				id: "65CF2A9E8F2B113C"
+				type: "item"
+				title: "Copper Spool Unlocked"
+				icon: "createaddition:copper_spool"
+				item: "modern_industrialization:steel_wiremill"
+			}]
+		}
+		{
+			title: "Machine Speedup!"
+			x: -8.0d
+			y: -0.5d
+			subtitle: "Right-Clicking a Steam Machine with Gunpowder doubles its speed for 2 minutes per Gunpowder!"
+			dependencies: ["0BAB52BE15CE157F"]
+			id: "2695042EA3E73DDB"
+			tasks: [{
+				id: "75F710EAB970AF8F"
+				type: "item"
+				item: "minecraft:gunpowder"
+			}]
+			rewards: [{
+				id: "321E4D4CDDD5B635"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			shape: "gear"
+			subtitle: "After crafting your first Analog circuit, the gate to LV technology is opened."
+			dependencies: ["43F43FB0B9ED0818"]
+			size: 1.5d
+			id: "24A168D8221DCA7D"
+			tasks: [{
+				id: "47461CBAEBDC4EE1"
+				type: "item"
+				item: "modern_industrialization:analog_circuit"
 			}]
 		}
 	]

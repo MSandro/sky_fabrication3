@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "twilightforest:fiery_chestplate"
+  },
+  "result": {
+    "fluid": "twilightforest:molten_fiery",
+    "amount": 72000,
+    "unit_size": 1000
+  },
+  "temperature": 950,
+  "time": 180
+}

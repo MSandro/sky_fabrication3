@@ -1,0 +1,12 @@
+{
+  "type": "indrev:condenser",
+  "output": {
+    "item": "tconstruct:queens_slime_ingot",
+    "count": 1
+  },
+  "fluidInput": {
+    "fluid": "tconstruct:molten_queens_slime",
+    "amount": 9000
+  },
+  "processTime": 284
+}

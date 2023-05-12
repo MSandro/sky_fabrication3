@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "tconstruct:cobalt_block"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_cobalt",
+    "amount": 81000
+  },
+  "processTime": 728
+}

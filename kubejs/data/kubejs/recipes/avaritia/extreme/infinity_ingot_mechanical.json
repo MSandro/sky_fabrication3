@@ -1,0 +1,25 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+		"ccccccccc",
+		"cCXXCXXCc",
+		"cXCCXCCXc",
+		"cCXXCXXCc",
+		"ccccccccc"
+  ],
+  "key": {
+	"C": {
+		"item": "kubejs:crystal_matrix_ingot"
+	},
+	"c": {
+		"item": "kubejs:neutronium_ingot"
+	},
+	"X": {
+		"item": "kubejs:infinity_catalyst"
+	}
+  },
+  "result": {
+    "item": "kubejs:infinity_ingot"
+  },
+  "acceptMirrored": false
+}

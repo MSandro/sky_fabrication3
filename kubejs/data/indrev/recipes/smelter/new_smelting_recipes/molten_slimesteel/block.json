@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "tconstruct:slimesteel_block"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_slimesteel",
+    "amount": 81000
+  },
+  "processTime": 760
+}

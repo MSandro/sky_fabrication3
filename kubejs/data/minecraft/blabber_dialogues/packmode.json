@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ladysnake.github.io/wiki/blabber/dialogue.schema.json",
+  "start_at": "choseIsland",
+  "unskippable": true,
+  "states": {
+    "choseIsland": {
+      "text": "Chose a Packmode:",
+      "choices": [
+        { "text": "Normal Mode", "next": "normal" },
+        { "text": "Expert Mode (WIP)", "next": "expert" }
+      ]
+    },
+    "normal": {
+      "type": "end_dialogue",
+      "action": { "type": "blabber:command", "value": "/kubejs custom_command normal" }
+    },
+    "expert": {
+      "type": "end_dialogue",
+      "action": { "type": "blabber:command", "value": "/kubejs custom_command expert" }
+    }
+  }
+}

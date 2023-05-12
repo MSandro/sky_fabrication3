@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NCN",
+    "HMH",
+    "BSB"
+  ],
+  "key": {
+    "M": {
+      "item": "indrev:machine_block"
+    },
+    "C": {
+      "item": "indrev:circuit_mk4"
+    },
+    "N": {
+      "item": "indrev:enriched_nikolite_ingot"
+    },
+    "H": {
+      "item": "indrev:heat_coil"
+    },
+    "B": {
+      "item": "indrev:battery"
+    },
+	"S": {
+	  "item": "tconstruct:smeltery_controller"
+	}
+  },
+  "result": {
+    "item": "indrev:smelter_mk4"
+  }
+}

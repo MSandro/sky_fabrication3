@@ -1,0 +1,30 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "kubejs:diamond_mesh"
+    },
+    {
+      "item": "minecraft:sand"
+    }
+  ],
+  "results": [
+    {
+      "item": "fabricaeexnihilo:raw_iron_piece",
+      "chance": 0.5
+    },
+    {
+      "item": "modern_industrialization:lignite_coal",
+      "chance": 0.1
+    },
+    {
+      "item": "minecraft:coal",
+      "chance": 0.1
+    },
+    {
+      "item": "fabricaeexnihilo:raw_copper_piece",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 500
+}

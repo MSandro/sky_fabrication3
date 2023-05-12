@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "modern_industrialization:tin_rod"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_tin",
+    "amount": 4500
+  },
+  "processTime": 32
+}

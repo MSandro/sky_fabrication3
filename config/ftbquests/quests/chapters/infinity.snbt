@@ -169,13 +169,6 @@
 			id: "1F0EE1298663FE88"
 			tasks: [
 				{
-					id: "0DB7AADBA2D37802"
-					type: "kill"
-					icon: "terrarianslimes:slime_crown"
-					entity: "terrarianslimes:king_slime"
-					value: 1L
-				}
-				{
 					id: "6E33DDB7EF109050"
 					type: "kill"
 					icon: "adventurez:stone_golem_heart"

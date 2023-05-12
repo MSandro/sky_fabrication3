@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "tconstruct:amethyst_bronze_block"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_amethyst_bronze",
+    "amount": 81000
+  },
+  "processTime": 728
+}

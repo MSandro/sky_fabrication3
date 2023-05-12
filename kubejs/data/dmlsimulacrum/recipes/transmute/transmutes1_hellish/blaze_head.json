@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "XAY",
+    "BCB"
+  ],
+  "key": {
+    "A": { "item": "minecraft:wither_skeleton_skull" },
+    "B": { "item": "powah:crystal_blazing" },
+    "C": { "item": "create:blaze_cake" },
+    "X": { "item": "dmlsimulacrum:extraterrestrial_matter" },
+    "Y": { "item": "dmlsimulacrum:hellish_matter" }
+  },
+  "result": {
+    "item": "tconstruct:blaze_head",
+    "count": 1
+  }
+}

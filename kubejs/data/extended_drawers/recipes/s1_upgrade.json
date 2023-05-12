@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AUA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "item": "modern_industrialization:aluminum_plate"
+    },
+    "U": {
+      "item": "extended_drawers:t4_upgrade"
+    }
+  },
+  "result": {
+    "item": "kubejs:s1_upgrade"
+  }
+}

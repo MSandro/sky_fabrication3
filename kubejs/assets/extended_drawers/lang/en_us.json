@@ -1,0 +1,9 @@
+{
+  "item.extended_drawers.t1_upgrade": "Bronze Drawer Upgrade",
+  "item.extended_drawers.t2_upgrade": "Brass Drawer Upgrade",
+  "item.extended_drawers.t3_upgrade": "Steel Drawer Upgrade",
+  "item.extended_drawers.t4_upgrade": "Electrum Drawer Upgrade",
+  "item.extended_drawers.downgrade": "Drawer Downgrade",
+  "item.extended_drawers.creative_upgrade": "Quantum Drawer Upgrade",
+  "item.extended_drawers.upgrade_frame": "Upgrade Frame"
+}

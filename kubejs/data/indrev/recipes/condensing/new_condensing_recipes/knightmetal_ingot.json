@@ -1,0 +1,12 @@
+{
+  "type": "indrev:condenser",
+  "output": {
+    "item": "twilightforest:knightmetal_ingot",
+    "count": 1
+  },
+  "fluidInput": {
+    "fluid": "twilightforest:molten_knightmetal",
+    "amount": 9000
+  },
+  "processTime": 240
+}

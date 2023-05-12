@@ -1,13 +1,13 @@
 name = "Immersive Weathering [FABRIC]"
-filename = "immersive_weathering-1.18.2-3.0.2-fabric.jar"
+filename = "immersive_weathering-1.18.2-3.0.3-fabric.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "c4a31890215fea8272247c9f9752983b3798eeb1"
+hash = "780c14cda9a1c15068cf73373dfc5bea542ce7db"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4021622
+file-id = 4432691
 project-id = 571035

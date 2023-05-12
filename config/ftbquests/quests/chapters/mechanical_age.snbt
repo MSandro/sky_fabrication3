@@ -9,8 +9,9 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -22.0d
-			y: -1.0d
+			x: -24.0d
+			y: 3.0d
+			subtitle: "The base ingredient for the Create mod."
 			dependencies: ["725237684B3596F1"]
 			size: 1.5d
 			id: "126ACAE113ADC877"
@@ -21,14 +22,17 @@
 				count: 16L
 			}]
 			rewards: [{
-				id: "54A376553CB6D956"
+				id: "4021A7365FAFC40E"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -19.0d
-			y: -1.0d
+			x: -22.0d
+			y: 3.0d
+			shape: "square"
+			subtitle: "Used to transfer Rotational Force."
 			dependencies: ["126ACAE113ADC877"]
 			id: "4200194006454664"
 			tasks: [{
@@ -37,49 +41,54 @@
 				item: "create:shaft"
 			}]
 			rewards: [{
-				id: "446E6B785FF52396"
+				id: "200779CDFCF569AF"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -16.0d
-			y: -1.0d
+			title: "Cogwheels"
+			x: -20.0d
+			y: 3.0d
+			shape: "square"
+			description: [
+				"Placing a Cogwheel diagonally to a powered Large Cogwheel will double the rotational speed."
+				"In reverse case, it will halve the rotational speed."
+				""
+				"The speed cannot exceed 256 RPM, else the cogwheels will break!"
+			]
 			dependencies: ["4200194006454664"]
 			id: "160951F6A70A85ED"
-			tasks: [{
-				id: "570F6703D5CB1C86"
-				type: "item"
-				item: "create:cogwheel"
-			}]
+			tasks: [
+				{
+					id: "570F6703D5CB1C86"
+					type: "item"
+					item: "create:cogwheel"
+				}
+				{
+					id: "5CB6BD0D49FCBEA9"
+					type: "item"
+					item: "create:large_cogwheel"
+				}
+			]
 			rewards: [{
-				id: "604F5CE2E89F536A"
+				id: "6608A7E4E47B0BFF"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			title: "Your first Energy!"
-			x: -16.0d
-			y: -3.0d
-			dependencies: ["160951F6A70A85ED"]
-			id: "1A4329CA0DB50D81"
-			tasks: [{
-				id: "1723C5EAAF7D2BD8"
-				type: "item"
-				item: "create:hand_crank"
-			}]
-			rewards: [{
-				id: "3797D3B6AB5B2F4D"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -24.0d
-			y: -1.0d
-			subtitle: "connect your shafts together"
-			dependencies: ["126ACAE113ADC877"]
+			x: -21.0d
+			y: 9.0d
+			subtitle: "Item transportation!"
+			description: [
+				"Right-click on a Shaft to start placing a Belt."
+				"Right-Click on the other Shaft to place it."
+				"Belts can be horizontal, diagonal (upwards 45°) or vertical."
+			]
+			dependencies: ["28533D71EED27C29"]
 			id: "08E0C40F00BA45B0"
 			tasks: [{
 				id: "01ED017765F2E1B0"
@@ -87,16 +96,18 @@
 				item: "create:belt_connector"
 			}]
 			rewards: [{
-				id: "71F408C96F14F0A6"
+				id: "609E77743AE18E1A"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -13.5d
-			y: -1.0d
-			subtitle: "relay your rotational force"
-			dependencies: ["160951F6A70A85ED"]
+			x: -16.5d
+			y: 0.0d
+			subtitle: "Used to relay the rotational force to other directions."
+			description: ["You can put it into the Crafting Table to turn it into the Vertical Gearbox, and vice versa."]
+			dependencies: ["5715F503D92DEE95"]
 			id: "1F1EC128BCC3144E"
 			tasks: [{
 				id: "72ADAE4755D6B8F1"
@@ -104,68 +115,25 @@
 				item: "create:gearbox"
 			}]
 			rewards: [{
-				id: "0D3A2474F28B6E49"
+				id: "47BA5581E7AF6DFB"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -15.0d
-			y: -4.0d
-			dependencies: ["1A4329CA0DB50D81"]
-			id: "0F181B7E5EDB31DB"
-			tasks: [{
-				id: "13677731142E0EC1"
-				type: "item"
-				item: "create:water_wheel"
-			}]
-			rewards: [{
-				id: "3FEE69661BDAE844"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -16.0d
-			y: -4.5d
-			dependencies: ["1A4329CA0DB50D81"]
-			id: "1C1EDE7DE60C08C4"
-			tasks: [{
-				id: "4F7E4661054AAB2D"
-				type: "item"
-				item: "create:windmill_bearing"
-			}]
-			rewards: [{
-				id: "4B900CAA57EFA2BE"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -17.0d
-			y: -4.0d
-			dependencies: ["1A4329CA0DB50D81"]
-			id: "106E37EA03E3388C"
-			tasks: [{
-				id: "746E1462BED87C0F"
-				type: "item"
-				item: "create:flywheel"
-			}]
-			rewards: [{
-				id: "145121C78ECFF3AD"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -17.5d
-			y: -3.0d
+			x: -19.0d
+			y: 4.0d
+			subtitle: "I'm a big fan of this!"
 			description: [
-				"this Device can be used for generating a low amount of SU, but you will be able to use it for processing too."
+				"Blows or sucks air in front of itself, depending on rotation."
 				""
-				"place it upside down on top of a heat source to produce energy."
+				"Can be used for bulk processes."
+				"Be aware that the fan speed only increases blowing/sucking strength and distance, NOT processing speed!"
+				""
+				"Consult its Ponder Scene for more information."
 			]
-			dependencies: ["1A4329CA0DB50D81"]
+			dependencies: ["18E391B45D935712"]
 			id: "3ECCC092EB52FE86"
 			tasks: [{
 				id: "22136FF9A6E5D613"
@@ -173,16 +141,17 @@
 				item: "create:encased_fan"
 			}]
 			rewards: [{
-				id: "6577985309940F02"
+				id: "42DAAEE757463DAB"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -15.5d
-			y: 0.5d
-			subtitle: "Now after you understand, how useful a machine can be, you should try the bigger ones"
-			dependencies: ["160951F6A70A85ED"]
+			x: -16.0d
+			y: 6.0d
+			subtitle: "Can mill some items, when tossed on top or pushed by automation."
+			dependencies: ["18E391B45D935712"]
 			id: "513640F0E05D9804"
 			tasks: [{
 				id: "4A39BB22B1377F74"
@@ -190,15 +159,24 @@
 				item: "create:millstone"
 			}]
 			rewards: [{
-				id: "56C1392A733C878A"
+				id: "677E90A202DD810F"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -6.0d
-			y: 2.0d
-			dependencies: ["626D5BD796C10F29"]
+			x: -15.5d
+			y: 4.5d
+			subtitle: "Mix it!"
+			description: [
+				"Powered by cogwheels, this machine can mix different items cointained in the Basin below."
+				""
+				"Some recipes (for example Brass) require an active Blaze Burner underneath the Mixer."
+				""
+				"The Mixer can also automatically craft shapeless recipes and potions."
+			]
+			dependencies: ["18E391B45D935712"]
 			id: "7C76819CB83F2D93"
 			tasks: [{
 				id: "75A0FA05575C117E"
@@ -206,47 +184,66 @@
 				item: "create:mechanical_mixer"
 			}]
 			rewards: [{
-				id: "62025547C353BC69"
+				id: "4B6965C63551044F"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -8.5d
-			y: -1.0d
-			dependencies: ["5BD6894758A1A9B9"]
+			icon: "create:mechanical_press"
+			x: -14.5d
+			y: 3.0d
+			shape: "octagon"
+			description: [
+				"To get your first Plates, you need to press the Ingots using the Mechanical Press."
+				"You can either toss them on the ground, put them on a Depot, or being automatically provided by Belts."
+				"You will need a Basin, if you want to automatically compress items into blocks."
+			]
+			dependencies: ["18E391B45D935712"]
+			size: 1.5d
 			id: "30CFBDB612551DE7"
-			tasks: [{
-				id: "1DC90473D1312566"
-				type: "item"
-				item: "create:mechanical_press"
-			}]
+			tasks: [
+				{
+					id: "1DC90473D1312566"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "2B9983C9D0241A6A"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Depot or Basin\"}"
+							}
+							items: [
+								{
+									id: "create:depot"
+									Count: 1b
+								}
+								{
+									id: "create:basin"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
 			rewards: [{
-				id: "68C4D33BCA9A35A3"
+				id: "60ECAFF032A5C3EE"
 				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -11.0d
-			y: -1.0d
-			dependencies: ["1F1EC128BCC3144E"]
-			id: "5BD6894758A1A9B9"
-			tasks: [{
-				id: "70185AB6AFE65EB0"
-				type: "item"
-				item: "create:basin"
-			}]
-			rewards: [{
-				id: "633387470D0C8B1F"
-				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
 			title: "Blaze Burner"
-			x: -11.0d
-			y: 2.0d
+			x: -10.0d
+			y: 0.5d
 			subtitle: "Can you capture a Blaze in it?"
 			description: ["Feed it with burnable material to heat it up."]
 			dependencies: ["626D5BD796C10F29"]
@@ -264,48 +261,95 @@
 				}
 			]
 			rewards: [{
-				id: "34F2460E564FE720"
+				id: "6EEF554E630C6CF2"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -25.0d
-			y: -2.0d
-			subtitle: "Stationary Belt Elements"
-			dependencies: ["08E0C40F00BA45B0"]
-			id: "5BFFFC906B9BB5C3"
-			tasks: [{
-				id: "06E71ABB78BA5663"
-				type: "item"
-				item: "create:depot"
-			}]
-			rewards: [{
-				id: "1BAB46320190302E"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -10.5d
-			y: -4.5d
-			dependencies: ["5FE72794BF29DCC4"]
+			x: -13.5d
+			y: -1.0d
+			description: [
+				"Portable Fluid Interfaces can interact with Contraptions, extracting from or loading into the Contraption."
+				""
+				"Spouts can automatically fill up Buckets and Bottles with fluid."
+				""
+				"Item Drains drain fluids from Fluid containing items."
+				"Basins can also auto-output fluids to a diagonally down Item Drain!"
+			]
+			dependencies: ["34B606914797FB12"]
+			min_required_tasks: 1
 			id: "62A78C1DEB1B231A"
-			tasks: [{
-				id: "1F3A92127194A218"
-				type: "item"
-				item: "create:spout"
-			}]
+			tasks: [
+				{
+					id: "1F3A92127194A218"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Other Fluid Maniuplation\"}"
+							}
+							items: [
+								{
+									id: "create:portable_fluid_interface"
+									Count: 1b
+								}
+								{
+									id: "create:spout"
+									Count: 1b
+								}
+								{
+									id: "create:item_drain"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "4CB68006CB22EFFB"
+					type: "item"
+					item: "create:portable_fluid_interface"
+				}
+				{
+					id: "410F167D8CD836DF"
+					type: "item"
+					item: "create:spout"
+				}
+				{
+					id: "23FFE171B3F26FBF"
+					type: "item"
+					item: "create:item_drain"
+				}
+			]
 			rewards: [{
-				id: "057A4FCE0B3437F2"
+				id: "5B80A9B31877D3E8"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -3.5d
-			y: 5.5d
-			dependencies: ["3568FE880980DB5D"]
+			title: "Sequenced Assembly"
+			x: -12.5d
+			y: 6.0d
+			shape: "gear"
+			subtitle: "Some assembly required"
+			description: [
+				"Some Items, like a Precision Mechanism or a Bronze Boiler, require a seqence of operations for output."
+				""
+				"Use various machines, like Deployers, Mechanical Presses, Mechanical Saws depending on the process."
+				""
+				"Check REI \"Recipe Sequence\" recipes for more information."
+			]
+			dependencies: [
+				"3568FE880980DB5D"
+				"22D1C5AA8F750CC1"
+			]
+			size: 1.5d
 			id: "6B39422421203401"
 			tasks: [{
 				id: "2876B04225348D12"
@@ -313,30 +357,22 @@
 				item: "create:deployer"
 			}]
 			rewards: [{
-				id: "79CBA82E0912A230"
+				id: "6A3B73BC46D1FE1D"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -7.5d
-			y: -5.0d
-			dependencies: ["34B606914797FB12"]
-			id: "15158616A0DE0064"
-			tasks: [{
-				id: "1E6ED346614CC754"
-				type: "item"
-				item: "create:item_drain"
-			}]
-			rewards: [{
-				id: "0E220986B802D5C9"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -12.5d
-			y: 0.5d
+			x: -8.5d
+			y: 8.0d
+			subtitle: "Don't get crushed!"
+			description: [
+				"One of them are the Crushing Wheels."
+				"Place them next to each other."
+				"When spinning in the opposite directions, it can crush items in bulk."
+				"Speed depends on rotational speed."
+			]
 			dependencies: ["12A116542970EECB"]
 			id: "25786BA1415B9756"
 			tasks: [{
@@ -345,15 +381,26 @@
 				item: "create:crushing_wheel"
 			}]
 			rewards: [{
-				id: "5F52DD1568C90E75"
+				id: "33795860A2A98296"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -8.0d
-			y: 3.5d
-			dependencies: ["626D5BD796C10F29"]
+			x: -18.0d
+			y: 6.0d
+			subtitle: "How much wood would a woodchuck chuck, if a woodchuck could chuck wood?"
+			description: [
+				"Has 2 modes of operation:"
+				"1. When placed on the side, applying Rotational Force will automatically cut down trees in front of it."
+				"2. When placed flat on ground, it will automatically cut its own set of recipes and Stonecutter recipes."
+				"Setting up a Filter is recommended, if you don't want unwanted Hollow Logs from appearing in your automation."
+				""
+				"If you want to use it on a belt line, it must spin in opposite direction to the belt."
+			]
+			hide_dependency_lines: false
+			dependencies: ["18E391B45D935712"]
 			id: "4E258638E399B7EC"
 			tasks: [{
 				id: "0A589D4398A0C5D7"
@@ -361,31 +408,21 @@
 				item: "create:mechanical_saw"
 			}]
 			rewards: [{
-				id: "22FD188AD43F5D2E"
+				id: "14C7A1BAB6542D47"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -6.0d
-			y: 3.0d
-			dependencies: ["626D5BD796C10F29"]
-			id: "12F9E140FBA70F3A"
-			tasks: [{
-				id: "400D8401B9E6811C"
-				type: "item"
-				item: "create:encased_fan"
-			}]
-			rewards: [{
-				id: "18C65646F88E5F54"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -10.0d
-			y: 3.5d
-			dependencies: ["626D5BD796C10F29"]
+			x: -17.0d
+			y: 7.5d
+			shape: "gear"
+			subtitle: "A step into Steam Age!"
+			description: ["It can automatically curve Plates and make Rods from Ingots!"]
+			hide_dependency_lines: false
+			dependencies: ["18E391B45D935712"]
+			size: 1.5d
 			id: "116FC0E7285D0BF4"
 			tasks: [{
 				id: "37550D1B57DCBAEE"
@@ -393,15 +430,25 @@
 				item: "createaddition:rolling_mill"
 			}]
 			rewards: [{
-				id: "38619A7515A44D4F"
+				id: "26F4C7B346B848AB"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -13.5d
-			y: 0.5d
-			dependencies: ["0E4D3F62160BA382"]
+			x: -7.5d
+			y: 6.0d
+			subtitle: "First Autocrafting!"
+			description: [
+				"It can automate crafting recipes, small and big."
+				""
+				"They are required for some recipes."
+			]
+			dependencies: [
+				"0E4D3F62160BA382"
+				"3E3F2A0D09B1C534"
+			]
 			id: "12A116542970EECB"
 			tasks: [{
 				id: "4E84B144567CAD32"
@@ -409,16 +456,24 @@
 				item: "create:mechanical_crafter"
 			}]
 			rewards: [{
-				id: "7C9077A4531F4E0A"
+				id: "1551BB81E6F12C39"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -10.0d
-			y: 6.0d
-			subtitle: "create electricity"
-			dependencies: ["71B164CE2086EBB0"]
+			x: -4.5d
+			y: 5.0d
+			subtitle: "The first Energy source!"
+			description: [
+				"(the Tech Reborn one, to be exact.)"
+				"When powered by kinetics, generates Energy."
+			]
+			dependencies: [
+				"71B164CE2086EBB0"
+				"12A116542970EECB"
+			]
 			id: "3F02A6EB74C47752"
 			tasks: [{
 				id: "6105D9F5C53D01D0"
@@ -426,20 +481,21 @@
 				item: "createaddition:alternator"
 			}]
 			rewards: [{
-				id: "3841809DE4D3E8C5"
+				id: "62F06C7E8B9150FC"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -10.0d
-			y: 5.0d
-			subtitle: "transmit electricity"
-			description: ["You have to craft the Steel Wiremill to continue here."]
-			dependencies: [
-				"116FC0E7285D0BF4"
-				"43F43FB0B9ED0818"
+			x: -3.5d
+			y: 6.0d
+			subtitle: "Wires that can transmit Energy."
+			description: [
+				"Right-Click on a Connector with a Spool in hand."
+				"These wires do not electrocute you, and can pass through walls."
 			]
+			dependencies: ["64623A40FA9ED518"]
 			id: "71B164CE2086EBB0"
 			tasks: [
 				{
@@ -454,16 +510,23 @@
 				}
 			]
 			rewards: [{
-				id: "377BBED907B3B137"
+				id: "024BE09CCE515B20"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -9.0d
-			y: 5.0d
-			subtitle: "generating rotational force"
-			dependencies: ["71B164CE2086EBB0"]
+			x: -21.0d
+			y: 0.5d
+			subtitle: "Generates rotational force from energy."
+			description: [
+				"You can adjust the speed just like you would do on a Creative Motor."
+				"The higher the speed of the Motor, the more energy it needs to operate."
+				""
+				"Bonus: It can be used as a ComputerCraft peripheral!"
+			]
+			dependencies: ["15C5FE720715D50F"]
 			id: "78EE2AD247E2123F"
 			tasks: [{
 				id: "66DB9069AFE1B840"
@@ -471,16 +534,20 @@
 				item: "createaddition:electric_motor"
 			}]
 			rewards: [{
-				id: "3830BAF4D52F9710"
+				id: "347B4D6B479141EA"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -11.0d
-			y: 5.0d
-			subtitle: "charge items"
-			dependencies: ["71B164CE2086EBB0"]
+			x: -4.5d
+			y: 6.0d
+			subtitle: "It can charge items or damage mobs in an area."
+			dependencies: [
+				"71B164CE2086EBB0"
+				"12A116542970EECB"
+			]
 			id: "288BAAECAEC8C241"
 			tasks: [{
 				id: "62CBA67DA84BC287"
@@ -488,15 +555,22 @@
 				item: "createaddition:tesla_coil"
 			}]
 			rewards: [{
-				id: "528888A6B002459E"
+				id: "7D94E08B60AA6CE8"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -16.5d
-			y: 0.5d
-			dependencies: ["160951F6A70A85ED"]
+			x: -11.5d
+			y: 3.5d
+			subtitle: "An Engineer's friend."
+			description: [
+				"Can instantly dismantle certain Minecraft and Create Blocks."
+				""
+				"It can also rotate Create Machines and configure the range of various Chassis."
+			]
+			dependencies: ["30CFBDB612551DE7"]
 			id: "777F0AFE1186E482"
 			tasks: [{
 				id: "014EAC5BB3388961"
@@ -504,15 +578,20 @@
 				item: "create:wrench"
 			}]
 			rewards: [{
-				id: "29FF1746B9095840"
+				id: "7C61B6E5525B5D6C"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -4.5d
+			x: -7.5d
 			y: 8.0d
-			dependencies: ["5CD46451E8E482DE"]
+			subtitle: "Increases your Reach while in offhand."
+			dependencies: [
+				"12A116542970EECB"
+				"5CD46451E8E482DE"
+			]
 			id: "5BC223157F0F95B7"
 			tasks: [{
 				id: "64A14FB7838D53B6"
@@ -526,15 +605,23 @@
 				}
 			}]
 			rewards: [{
-				id: "6D9E3D09A7C63FEB"
+				id: "5D1F36A294C3384D"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -2.0d
-			y: 7.0d
-			dependencies: ["5CD46451E8E482DE"]
+			x: -5.5d
+			y: 8.0d
+			subtitle: "Perfectly Symmetrical."
+			description: [
+				"Use it on the ground to place a mirror."
+				"Shift-Right Click to open a GUI in which you can change a symmetry mode."
+				""
+				"Every action made (breaking/placing blocks) will be reflected across configured Planes."
+			]
+			dependencies: ["12A116542970EECB"]
 			id: "02275F76722E63CB"
 			tasks: [{
 				id: "0E42DD1D623CB639"
@@ -542,15 +629,20 @@
 				item: "create:wand_of_symmetry"
 			}]
 			rewards: [{
-				id: "74554D40FA4099D8"
+				id: "2DDB668B725E3095"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -5.0d
-			y: 7.0d
-			dependencies: ["5CD46451E8E482DE"]
+			x: -6.5d
+			y: 8.0d
+			subtitle: "Shoots a variety of vegetables as ammo."
+			dependencies: [
+				"12A116542970EECB"
+				"5CD46451E8E482DE"
+			]
 			id: "5F35AFB3825D5087"
 			tasks: [{
 				id: "7D2DAA841F051B2F"
@@ -564,15 +656,16 @@
 				}
 			}]
 			rewards: [{
-				id: "3813241DCA52CC56"
+				id: "34949FEF6F7AF5D5"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -2.5d
-			y: 3.0d
-			dependencies: ["3568FE880980DB5D"]
+			x: -7.5d
+			y: 2.5d
+			dependencies: ["4D59FB0ACC00C03E"]
 			id: "1AE5C3C8ABCEA03C"
 			tasks: [{
 				id: "04C2E4C61E9B2702"
@@ -580,14 +673,16 @@
 				item: "create:peculiar_bell"
 			}]
 			rewards: [{
-				id: "4F9A56D9E2C62AF6"
+				id: "5BA8403316389BF4"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -1.5d
-			y: 3.0d
+			x: -8.5d
+			y: 2.5d
+			subtitle: "The cooler F7."
 			dependencies: ["1AE5C3C8ABCEA03C"]
 			id: "532595E68952CD9B"
 			tasks: [{
@@ -596,15 +691,16 @@
 				item: "create:haunted_bell"
 			}]
 			rewards: [{
-				id: "2BA1202480C62F8E"
+				id: "42B7528894D6FAEC"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
 			title: "Diving Equipment"
-			x: -19.5d
-			y: -3.5d
+			x: -5.5d
+			y: 1.5d
 			dependencies: ["3A20A7BE25BB48A0"]
 			id: "1C5C658FD5A5D276"
 			tasks: [
@@ -632,37 +728,22 @@
 				}
 			]
 			rewards: [{
-				id: "55BF0D1169BDA406"
+				id: "39942F3BFDC28406"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -19.0d
-			y: 1.5d
-			dependencies: ["1E568C5D889EB6D2"]
-			id: "6ED4F0E2F54F68CF"
-			tasks: [{
-				id: "785C379514D53E47"
-				type: "item"
-				item: {
-					id: "create:super_glue"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4C00A31EADC59A09"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -19.5d
-			y: -2.5d
-			dependencies: ["4200194006454664"]
+			x: -5.5d
+			y: 2.5d
+			subtitle: "Contains pressurized air."
+			description: [
+				"Place it on the ground and apply Rotational Force to fill it with air."
+				""
+				"Can be enchanted with Capacity to increase its air capacity."
+			]
+			dependencies: ["4D59FB0ACC00C03E"]
 			id: "3A20A7BE25BB48A0"
 			tasks: [{
 				id: "76020106E2A481BF"
@@ -676,14 +757,16 @@
 				}
 			}]
 			rewards: [{
-				id: "0769286E7F84417C"
+				id: "2A12CE21093CFF06"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -3.5d
-			y: 8.5d
+			x: -9.5d
+			y: 8.0d
+			subtitle: "Allows printing Schematics into the world."
 			dependencies: ["5CD46451E8E482DE"]
 			id: "72DE0448AFC8A7C8"
 			tasks: [
@@ -699,63 +782,72 @@
 				}
 			]
 			rewards: [{
-				id: "4EA60819671EFFB1"
+				id: "7A553B8F67E40BDD"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -7.5d
-			y: -3.5d
+			title: "Pipes"
+			x: -13.5d
+			y: 0.5d
+			subtitle: "Fluid Transport!"
+			description: [
+				"Pipes transfer fluids. The fluid contained can spill out if the fluid is pumped into the open pipe!"
+				"They can be encased with Copper Casings - this will lock connections, so putting new pipes won't interrupt the encased Pipe."
+				"You can also toggle a window using a Wrench - windowed pipes can't bend."
+				""
+				"Smart Fluid Pipes only lets through fluids specified by the filter."
+				""
+				"Fluid Valves can block fluid transfer when Rotational Force is applied."
+				"Pairs nicely with Valve Handles!"
+				""
+				"Fluid Pumps, when powered by a Cogwheel, pumps fluids."
+				"It can transfer fluid up from 15 blocks back to 15 blocks forward."
+			]
 			dependencies: ["749FDD2830BBF0F2"]
+			min_required_tasks: 1
 			id: "4C75EAA98DA35CBC"
-			tasks: [{
-				id: "46AD69CB72B9F79F"
-				type: "item"
-				item: "create:fluid_pipe"
-			}]
+			tasks: [
+				{
+					id: "4ED217851B7DA1E7"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "11CFF49430CE1240"
+					type: "item"
+					item: "create:smart_fluid_pipe"
+				}
+				{
+					id: "51E98DD9760D20CF"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+				{
+					id: "6E33181BA76AE8CD"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+			]
 			rewards: [{
-				id: "282A3ECEABB2A5AB"
+				id: "4EF59763916D4F4B"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -6.0d
-			y: -3.5d
-			dependencies: ["4C75EAA98DA35CBC"]
-			id: "43A9178862F68414"
-			tasks: [{
-				id: "3FA86F6C4EDC1C30"
-				type: "item"
-				item: "create:smart_fluid_pipe"
-			}]
-			rewards: [{
-				id: "2FBA9B52F97FC7E3"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -6.5d
-			y: -4.5d
-			dependencies: ["4C75EAA98DA35CBC"]
-			id: "783D9AA10815B2AA"
-			tasks: [{
-				id: "1BFBC79F9B81EBBA"
-				type: "item"
-				item: "create:fluid_valve"
-			}]
-			rewards: [{
-				id: "347B78A1248A1737"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.5d
-			y: -3.5d
-			dependencies: ["749FDD2830BBF0F2"]
+			x: -11.5d
+			y: -1.0d
+			subtitle: "Not used for war."
+			description: [
+				"Each Fluid Tank can hold 8 buckets of fluid, and can form multiblocks with a base of 1x1, 2x2 or 3x3."
+				""
+				"Fluids can be insterted and extracted only by automation."
+			]
+			dependencies: ["34B606914797FB12"]
 			id: "5FE72794BF29DCC4"
 			tasks: [{
 				id: "3F3F4F75B680C53F"
@@ -763,78 +855,21 @@
 				item: "create:fluid_tank"
 			}]
 			rewards: [{
-				id: "3ACD85164FD67E61"
+				id: "01175EADF638F4A1"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -8.5d
-			y: -5.5d
-			dependencies: ["34B606914797FB12"]
-			id: "2E8A54DA8D05A62C"
-			tasks: [{
-				id: "26EE54D025576DE4"
-				type: "item"
-				item: "create:portable_fluid_interface"
-			}]
-			rewards: [{
-				id: "14351522724AAFDA"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -6.5d
-			y: -2.5d
-			dependencies: ["4C75EAA98DA35CBC"]
-			id: "20CE8954C532F954"
-			tasks: [{
-				id: "5F44D4B0F20D571C"
-				type: "item"
-				item: "create:mechanical_pump"
-			}]
-			rewards: [{
-				id: "778205E13381765B"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -6.5d
-			y: 4.5d
-			dependencies: ["095AAF8D09D4421A"]
-			id: "71B8002D43706C41"
-			tasks: [{
-				id: "15BD835F28512A31"
-				type: "item"
-				item: "create:portable_storage_interface"
-			}]
-			rewards: [{
-				id: "7BFC90ED7528E901"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.5d
-			y: -2.0d
-			dependencies: ["749FDD2830BBF0F2"]
-			id: "66D529E7CB348864"
-			tasks: [{
-				id: "1479394A2A703287"
-				type: "item"
-				item: "create:copper_valve_handle"
-			}]
-			rewards: [{
-				id: "2460E08F90EE0718"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.5d
-			y: -5.0d
+			x: -12.5d
+			y: -1.0d
+			subtitle: "Slurping Machine."
+			description: [
+				"It can flood an area with fluid or pull from a pool of fluid."
+				""
+				"If a body of water or lava contains more than 10,000 buckets of fluid, it will be considered infinite!"
+			]
 			dependencies: ["34B606914797FB12"]
 			id: "430CCC837C1A9E84"
 			tasks: [{
@@ -843,184 +878,48 @@
 				item: "create:hose_pulley"
 			}]
 			rewards: [{
-				id: "7A249B395A132D93"
+				id: "62CE3465DBECB70C"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -11.0d
-			y: 3.0d
-			dependencies: ["626D5BD796C10F29"]
-			id: "6D08895510516D69"
-			tasks: [{
-				id: "2F473EB7FFB251DA"
-				type: "item"
-				item: "create:rope_pulley"
-			}]
-			rewards: [{
-				id: "631A4A17244E8C0F"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -18.5d
-			y: -2.5d
-			dependencies: ["4200194006454664"]
-			id: "363B9B5C54A1F8B2"
-			tasks: [{
-				id: "785292CEA29FF03B"
-				type: "item"
-				item: "create:speedometer"
-			}]
-			rewards: [{
-				id: "2D07B191DC2867F9"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -18.5d
-			y: -3.5d
-			dependencies: ["363B9B5C54A1F8B2"]
-			id: "29C654FC753FDDFC"
-			tasks: [{
-				id: "50F5DD2DF3B8BDB8"
-				type: "item"
-				item: "create:stressometer"
-			}]
-			rewards: [{
-				id: "7D7C7C29BCED6021"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -7.0d
+			x: -5.0d
 			y: 3.5d
-			dependencies: ["626D5BD796C10F29"]
-			id: "095AAF8D09D4421A"
-			tasks: [{
-				id: "619E0E5E763C339A"
-				type: "item"
-				item: "create:chute"
-			}]
-			rewards: [{
-				id: "3C9A331183C90C83"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -7.5d
-			y: 4.5d
-			dependencies: ["095AAF8D09D4421A"]
-			id: "344FA535FCDECF80"
-			tasks: [{
-				id: "384811ACE4BCDB00"
-				type: "item"
-				item: "create:smart_chute"
-			}]
-			rewards: [{
-				id: "23D146AE933AD09A"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -4.5d
-			y: 0.0d
-			dependencies: ["234612F78EFE056E"]
-			id: "45C531398BACCB35"
-			tasks: [{
-				id: "294FDCFD6AE7CA18"
-				type: "item"
-				item: {
-					id: "create:filter"
-					Count: 1b
-					tag: {
-						Items: { }
-					}
+			subtitle: "Can measure statistics, such as rotation speed or network stress."
+			dependencies: ["4D59FB0ACC00C03E"]
+			id: "29C654FC753FDDFC"
+			tasks: [
+				{
+					id: "50F5DD2DF3B8BDB8"
+					type: "item"
+					item: "create:speedometer"
 				}
-			}]
-			rewards: [{
-				id: "7295385D92CBA8D9"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -3.5d
-			y: 0.0d
-			dependencies: ["234612F78EFE056E"]
-			id: "675CB88932A26E56"
-			tasks: [{
-				id: "010B3F69C1AA48C2"
-				type: "item"
-				item: {
-					id: "create:attribute_filter"
-					Count: 1b
-					tag: { }
+				{
+					id: "02BDA4686E2EAD9A"
+					type: "item"
+					item: "create:stressometer"
 				}
-			}]
+			]
 			rewards: [{
-				id: "7C9BCBE51435C3E5"
+				id: "67D630E80D55C53D"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -7.5d
-			y: 0.5d
-			dependencies: ["626D5BD796C10F29"]
-			id: "5EF0FB045421FE95"
-			tasks: [{
-				id: "37F606210DADFBAB"
-				type: "item"
-				item: "create:mechanical_harvester"
-			}]
-			rewards: [{
-				id: "2138BDD64E4CF0A2"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -9.5d
-			y: 0.5d
-			dependencies: ["626D5BD796C10F29"]
-			id: "2A3AA5D514C0ECCD"
-			tasks: [{
-				id: "563664D8F5597027"
-				type: "item"
-				item: "create:mechanical_plough"
-			}]
-			rewards: [{
-				id: "64965351458E9012"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -6.5d
-			y: 1.0d
-			dependencies: ["626D5BD796C10F29"]
-			id: "4C9F0125106D0C14"
-			tasks: [{
-				id: "3A752BBCE603F05D"
-				type: "item"
-				item: "create:mechanical_drill"
-			}]
-			rewards: [{
-				id: "02D64DABC2A16E81"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -2.5d
+			x: -11.5d
 			y: 8.0d
+			subtitle: "Full Control!"
+			description: [
+				"Allows you to choose a speed that will be relayed."
+				"If you power a controller block, the speed will be relayed to the Large Cogwheel above."
+				"If you power the Large Cogwheel, the speed will be relayed to the Rotation Speed Controller."
+				""
+				"Consult its Ponder Scene for more information."
+			]
 			dependencies: ["5CD46451E8E482DE"]
 			id: "1C3E78573A6CD0BB"
 			tasks: [{
@@ -1029,102 +928,21 @@
 				item: "create:rotation_speed_controller"
 			}]
 			rewards: [{
-				id: "2B9D20942520C2F6"
+				id: "378833AE259CFF51"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -15.0d
-			y: -2.0d
-			dependencies: ["160951F6A70A85ED"]
-			id: "1F19EC079788639D"
-			tasks: [
-				{
-					id: "0E8B76FA5CB464A5"
-					type: "item"
-					item: "create:mechanical_piston"
-				}
-				{
-					id: "23BAEE9116061494"
-					type: "item"
-					item: "create:sticky_mechanical_piston"
-				}
+			x: -5.5d
+			y: 0.0d
+			subtitle: "Wireless Redstone."
+			description: [
+				"Right-Click it with a Wrench to switch it to the \"Reciever Mode\"."
+				"You can set the frequency by placing items in the frequency slots."
 			]
-			rewards: [{
-				id: "71ABDBA13BDDB06C"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -14.0d
-			y: -2.0d
-			dependencies: ["1F19EC079788639D"]
-			id: "5D45322B6DB77BBA"
-			tasks: [{
-				id: "1C64C2F2BB0E072E"
-				type: "item"
-				item: "create:piston_extension_pole"
-			}]
-			rewards: [{
-				id: "29A00DF23AB3D174"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -22.0d
-			y: -2.5d
-			dependencies: ["126ACAE113ADC877"]
-			id: "5B288AF7D7D7F042"
-			tasks: [{
-				id: "0B0B80C79D4DCF6E"
-				type: "item"
-				item: "create:linear_chassis"
-			}]
-			rewards: [{
-				id: "1BCEF1D6A396A694"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -22.0d
-			y: -3.5d
-			dependencies: ["5B288AF7D7D7F042"]
-			id: "5904D5FEB5CA4C48"
-			tasks: [{
-				id: "47F98557F53958B7"
-				type: "item"
-				item: "create:secondary_linear_chassis"
-			}]
-			rewards: [{
-				id: "3AC25468486C0E11"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -23.0d
-			y: -2.5d
-			dependencies: ["126ACAE113ADC877"]
-			id: "1F1B5F96D9732731"
-			tasks: [{
-				id: "2A743EEB09E9B975"
-				type: "item"
-				item: "create:radial_chassis"
-			}]
-			rewards: [{
-				id: "6A88540E36A23A9B"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -2.5d
-			y: 4.0d
-			dependencies: ["3568FE880980DB5D"]
+			dependencies: ["09C258CD619B2B88"]
 			id: "3F30A44F874A5161"
 			tasks: [{
 				id: "3F73EA7553A12682"
@@ -1132,62 +950,17 @@
 				item: "create:redstone_link"
 			}]
 			rewards: [{
-				id: "65F9CF1C773B546A"
+				id: "5CBB460460137A89"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -21.0d
-			y: -2.5d
-			dependencies: ["126ACAE113ADC877"]
-			id: "4ED31C08BC66D261"
-			tasks: [{
-				id: "506DAF16CC93CC05"
-				type: "item"
-				item: "create:cart_assembler"
-			}]
-			rewards: [{
-				id: "239D9EC9F3A39A48"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -19.0d
-			y: 0.5d
-			dependencies: ["4200194006454664"]
-			id: "1E568C5D889EB6D2"
-			tasks: [{
-				id: "7F9222F990860F5A"
-				type: "item"
-				item: "create:mechanical_bearing"
-			}]
-			rewards: [{
-				id: "710F03EC8B396032"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -14.5d
-			y: 1.5d
-			dependencies: ["0E4D3F62160BA382"]
-			id: "4EC4B2E13088E64F"
-			tasks: [{
-				id: "52A2D624880666CF"
-				type: "item"
-				item: "create:clockwork_bearing"
-			}]
-			rewards: [{
-				id: "652C41C059708974"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -25.5d
-			y: -1.0d
+			x: -21.5d
+			y: 10.5d
+			subtitle: "Can extract or insert items, one at the time."
+			description: ["Cannot be filtered."]
 			dependencies: ["08E0C40F00BA45B0"]
 			id: "39ABA3673A5A8CD7"
 			tasks: [{
@@ -1196,15 +969,17 @@
 				item: "create:andesite_funnel"
 			}]
 			rewards: [{
-				id: "1F77BB3ECBE915BB"
+				id: "7138540609F55C89"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -4.0d
-			y: 1.0d
-			dependencies: ["4E76A136735F7D0D"]
+			x: -21.5d
+			y: 11.5d
+			description: ["Bras Funnels have a configurable input/output rate, are filterable and can be blocked by redstone."]
+			dependencies: ["08E0C40F00BA45B0"]
 			id: "234612F78EFE056E"
 			tasks: [{
 				id: "05E5C93DDA12E3A4"
@@ -1212,15 +987,21 @@
 				item: "create:brass_funnel"
 			}]
 			rewards: [{
-				id: "6C74EDD3E908F05C"
+				id: "4B697C3A2332AB55"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -25.0d
-			y: 0.0d
-			subtitle: "Item Splitter"
+			x: -20.5d
+			y: 10.5d
+			subtitle: "Can cover Belts or split single items."
+			description: [
+				"If a Tunnel is placed on an intersection between two belts, it will place 1 item on the perpendicular belt."
+				""
+				"Cannot be filtered."
+			]
 			dependencies: ["08E0C40F00BA45B0"]
 			id: "37EB5A80EB20E6A3"
 			tasks: [{
@@ -1229,15 +1010,17 @@
 				item: "create:andesite_tunnel"
 			}]
 			rewards: [{
-				id: "1ECABBE28CCA77D4"
+				id: "246AD390A73F9FF3"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -3.0d
-			y: 1.0d
-			dependencies: ["4E76A136735F7D0D"]
+			x: -20.5d
+			y: 11.5d
+			description: ["If a Brass Tunnel is placed on an intersection between two belts, it will place a stack of items on the perpendicular belt if the filter matches."]
+			dependencies: ["08E0C40F00BA45B0"]
 			id: "071583B5D4CC582E"
 			tasks: [{
 				id: "4031102D9AABE84D"
@@ -1245,15 +1028,18 @@
 				item: "create:brass_tunnel"
 			}]
 			rewards: [{
-				id: "0C22E20EBD97A09A"
+				id: "1950626DE2B73200"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -20.0d
-			y: 0.5d
-			dependencies: ["4200194006454664"]
+			x: -18.0d
+			y: 1.0d
+			subtitle: "Phew. That was close!"
+			description: ["It can stop Rotation using a redstone signal."]
+			dependencies: ["5715F503D92DEE95"]
 			id: "48EE84396682C6C1"
 			tasks: [{
 				id: "2528CA79F746C090"
@@ -1261,95 +1047,82 @@
 				item: "create:clutch"
 			}]
 			rewards: [{
-				id: "1710648CA3F91200"
+				id: "2AFB19D43E80A424"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -17.0d
-			y: -2.0d
-			dependencies: ["160951F6A70A85ED"]
-			id: "43AD4C293E97E9B3"
-			tasks: [{
-				id: "24CEAAF16B6A5E50"
-				type: "item"
-				item: "create:gearshift"
-			}]
-			rewards: [{
-				id: "6A345E1AC8B12B16"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -18.0d
-			y: 0.5d
-			dependencies: ["4200194006454664"]
-			id: "65735D82B3728A8C"
-			tasks: [{
-				id: "3F92B9EE7CB6CA5B"
-				type: "item"
-				item: "create:encased_chain_drive"
-			}]
-			rewards: [{
-				id: "4E15567E2C21F78F"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -18.0d
-			y: 1.5d
-			dependencies: ["65735D82B3728A8C"]
-			id: "00F8D0C20574DC55"
-			tasks: [{
-				id: "6CBC700977E41D69"
-				type: "item"
-				item: "create:adjustable_chain_gearshift"
-			}]
-			rewards: [{
-				id: "0EE2861C205E9495"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
+			title: "Gearshifts"
 			x: -16.0d
-			y: 1.5d
-			dependencies: ["160951F6A70A85ED"]
+			y: 1.0d
+			subtitle: "Reverse!"
+			description: [
+				"A regular Gearshift can reverse rotation when powered by redstone."
+				""
+				"Sequenced Gearshifts can hold 5 different instructions which are executed on redstone pulse."
+			]
+			dependencies: ["5715F503D92DEE95"]
+			min_required_tasks: 1
+			id: "43AD4C293E97E9B3"
+			tasks: [
+				{
+					id: "108555FCE260FDFC"
+					type: "item"
+					item: "create:gearshift"
+				}
+				{
+					id: "3961DFC4A779CDBF"
+					type: "item"
+					item: "create:sequenced_gearshift"
+				}
+			]
+			rewards: [{
+				id: "3CC4C41E4F0B9A8E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Toolboxes"
+			x: -6.5d
+			y: 2.0d
+			subtitle: "Helps in inventory management."
+			description: [
+				"Simply put them on the ground!"
+				"By pressing [Alt - by default], you can access nearby Toolboxes."
+				"When an item is selected, the Toolbox will automatically stock items into your inventory."
+			]
+			dependencies: ["4D59FB0ACC00C03E"]
 			id: "18392B26224F9EF2"
 			tasks: [{
 				id: "1C2BE7A5452A1934"
 				type: "item"
-				item: "create:brown_toolbox"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "create:toolboxes"
+						display: {
+							Name: "{\"text\":\"Any Toolbox\"}"
+						}
+					}
+				}
 			}]
 			rewards: [{
-				id: "706E53BB41A28495"
+				id: "02B5131C181B1EEF"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -10.5d
-			y: 1.0d
-			dependencies: ["626D5BD796C10F29"]
-			id: "1562D285186B2CCF"
-			tasks: [{
-				id: "33892705794001F9"
-				type: "item"
-				item: "create:redstone_contact"
-			}]
-			rewards: [{
-				id: "32379E23CC4E0D89"
-				type: "random"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: -22.0d
+			x: -6.5d
 			y: 0.5d
-			dependencies: ["126ACAE113ADC877"]
+			subtitle: "Changes output state on redstone pulse."
+			dependencies: ["09C258CD619B2B88"]
 			id: "25411C841A50AA4B"
 			tasks: [
 				{
@@ -1364,15 +1137,24 @@
 				}
 			]
 			rewards: [{
-				id: "70C75CA62C5F2952"
+				id: "14AB6AB7A0DDAE5E"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -9.0d
-			y: 3.5d
-			dependencies: ["626D5BD796C10F29"]
+			x: -19.5d
+			y: 9.0d
+			subtitle: "Mass Item Storage."
+			description: [
+				"Stores 20 stacks of Items per one Item Vault block."
+				""
+				"The Item Vault can be placed in a 1x1x3, 2x2x6 or 3x3x9 multiblocks."
+				""
+				"Items can be inserted and extracted only by automation."
+			]
+			dependencies: ["28533D71EED27C29"]
 			id: "7F5E02EC685422BC"
 			tasks: [{
 				id: "15FF95A044C91807"
@@ -1380,15 +1162,17 @@
 				item: "create:item_vault"
 			}]
 			rewards: [{
-				id: "414B61E8514ADB97"
+				id: "6727F9220106BF99"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -4.5d
-			y: 3.0d
-			dependencies: ["3568FE880980DB5D"]
+			x: -8.0d
+			y: -1.0d
+			subtitle: "On redstone pulse, it will repeat that pulse after a configured amount of time."
+			dependencies: ["09C258CD619B2B88"]
 			id: "1BD6976E5D728365"
 			tasks: [{
 				id: "358F68E24488DCB1"
@@ -1396,15 +1180,17 @@
 				item: "create:pulse_repeater"
 			}]
 			rewards: [{
-				id: "6D93BA6279BA0E79"
+				id: "3081067E87375831"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -4.5d
-			y: 4.0d
-			dependencies: ["3568FE880980DB5D"]
+			x: -7.5d
+			y: 0.0d
+			subtitle: "On redstone pulse, it will emit redstone signal for a configured amount of time."
+			dependencies: ["09C258CD619B2B88"]
 			id: "1E7315E648C21711"
 			tasks: [{
 				id: "35A54224DCABD3AC"
@@ -1412,14 +1198,16 @@
 				item: "create:pulse_extender"
 			}]
 			rewards: [{
-				id: "4D8AEAAA3F709EEA"
+				id: "7B29F68AC0DE591D"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -3.5d
-			y: 7.0d
+			x: -10.5d
+			y: 6.5d
+			subtitle: "An important ingredient for very advanced Create Machines."
 			dependencies: ["6B39422421203401"]
 			id: "5CD46451E8E482DE"
 			tasks: [{
@@ -1428,14 +1216,16 @@
 				item: "create:precision_mechanism"
 			}]
 			rewards: [{
-				id: "6EEB2ABC1128D85D"
+				id: "2283120C65B8D359"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -8.5d
-			y: -4.0d
+			x: -12.5d
+			y: 0.5d
+			subtitle: "The Casing for fluid-related Create Machines."
 			dependencies: ["749FDD2830BBF0F2"]
 			id: "34B606914797FB12"
 			tasks: [{
@@ -1444,14 +1234,17 @@
 				item: "create:copper_casing"
 			}]
 			rewards: [{
-				id: "66CC603DCC1F3F9E"
+				id: "3543F0223E9A896A"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -8.5d
-			y: -2.5d
+			x: -13.0d
+			y: 1.5d
+			shape: "square"
+			subtitle: "An important ingredient for Fluid Transportation blocks."
 			dependencies: ["30CFBDB612551DE7"]
 			id: "749FDD2830BBF0F2"
 			tasks: [{
@@ -1461,15 +1254,18 @@
 				count: 16L
 			}]
 			rewards: [{
-				id: "70D955E3E30934A4"
+				id: "14E4AEA58D8DCBA2"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -14.5d
-			y: 0.5d
-			dependencies: ["513640F0E05D9804"]
+			x: -10.5d
+			y: 5.5d
+			subtitle: "Sequenced Assembly makes it easier!"
+			description: ["Now you don't need to rely on Shroomlights anymore!"]
+			dependencies: ["6B39422421203401"]
 			id: "0E4D3F62160BA382"
 			tasks: [{
 				id: "7EAA95B108E610B9"
@@ -1477,14 +1273,17 @@
 				item: "create:electron_tube"
 			}]
 			rewards: [{
-				id: "4F2CDEE46407F4EC"
+				id: "67821783DB6CAA34"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -8.5d
-			y: 2.0d
+			x: -11.5d
+			y: 1.5d
+			shape: "square"
+			subtitle: "An important ingredient for various Create Machines and the Steam Age."
 			dependencies: ["30CFBDB612551DE7"]
 			id: "626D5BD796C10F29"
 			tasks: [{
@@ -1494,18 +1293,19 @@
 				count: 16L
 			}]
 			rewards: [{
-				id: "1214EF25FDAF93DA"
+				id: "08B79ACA4373885F"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -3.5d
-			y: 2.0d
+			x: -14.0d
+			y: 4.5d
 			subtitle: "Copper + Zinc = Brass"
 			description: [
 				"But where to get Zinc?"
-				"Use at least a Iron Mesh to sieve some Crushed Andesit. This will give you the chance to get some crushed Zinc Ore."
+				"Use at least a Iron Mesh to sieve some Crushed Andesite. This will give you the chance to get some crushed Zinc Ore."
 			]
 			dependencies: ["7C76819CB83F2D93"]
 			id: "4E76A136735F7D0D"
@@ -1516,15 +1316,26 @@
 				count: 16L
 			}]
 			rewards: [{
-				id: "3EA78AD541278AD7"
+				id: "0569A87387CD7099"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -1.5d
-			y: 4.0d
-			dependencies: ["3F30A44F874A5161"]
+			x: -5.0d
+			y: -1.0d
+			subtitle: "An NES Controller???"
+			description: [
+				"Shift-Right Click to open a GUI, in which you can setup six different frequencies to which Redstone Links can react."
+				""
+				"To use it, right-click with the Linked Controller in hand."
+				"Then, you can use movement keys to activate Redstone Links."
+			]
+			dependencies: [
+				"3F30A44F874A5161"
+				"09C258CD619B2B88"
+			]
 			id: "3911DC5F9D11D139"
 			tasks: [{
 				id: "4F69D9ECB8523058"
@@ -1532,14 +1343,16 @@
 				item: "create:linked_controller"
 			}]
 			rewards: [{
-				id: "3057AC2D6375241B"
+				id: "7319326F13B9356D"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -3.5d
-			y: 3.5d
+			x: -14.0d
+			y: 6.0d
+			subtitle: "An important ingredient for advanced Create Machines."
 			dependencies: ["4E76A136735F7D0D"]
 			id: "3568FE880980DB5D"
 			tasks: [{
@@ -1549,14 +1362,18 @@
 				count: 16L
 			}]
 			rewards: [{
-				id: "0135A21D044C1305"
+				id: "6FAC72BCAF17AA69"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -7.0d
-			y: -1.0d
+			x: -11.5d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "I can see now!"
+			description: ["Wear it as a helmet or in the \"Face\" Trinket Slot to get precise readouts on your Create Machines!"]
 			dependencies: ["30CFBDB612551DE7"]
 			id: "3DC7E2ED2D626251"
 			tasks: [{
@@ -1564,11 +1381,18 @@
 				type: "item"
 				item: "create:goggles"
 			}]
+			rewards: [{
+				id: "3B72C4E58A7F23D5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 		{
 			title: "Super Heated"
-			x: -12.5d
-			y: 2.0d
+			x: -10.0d
+			y: -1.0d
+			subtitle: "Feed it to the Blaze Burner to make it Super-Heated!"
 			dependencies: ["5212BF6AA5940CA1"]
 			id: "1297718C59DC86E0"
 			tasks: [{
@@ -1577,14 +1401,16 @@
 				item: "create:blaze_cake"
 			}]
 			rewards: [{
-				id: "5769C45D21BCA60F"
+				id: "0FA3F1B721DA034C"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -2.0d
-			y: 5.5d
+			x: -12.5d
+			y: 7.5d
+			subtitle: "Tracks for your trains!"
 			dependencies: ["6B39422421203401"]
 			id: "4EB081E5673A5787"
 			tasks: [{
@@ -1593,14 +1419,16 @@
 				item: "create:track"
 			}]
 			rewards: [{
-				id: "5141B7FD3B6F517E"
+				id: "3AF77354B3412C06"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -0.5d
-			y: 5.5d
+			x: -12.5d
+			y: 8.5d
+			subtitle: "A Casing for Train-related things."
 			dependencies: ["4EB081E5673A5787"]
 			id: "7A7255A547D710A2"
 			tasks: [{
@@ -1609,14 +1437,16 @@
 				item: "create:railway_casing"
 			}]
 			rewards: [{
-				id: "6D8CFEBCC8592EA5"
+				id: "340212AEABD012E8"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: 1.0d
-			y: 5.5d
+			x: -12.0d
+			y: 9.5d
+			subtitle: "A Station. Nessecary for assembling Trains and scheduled departures."
 			dependencies: ["7A7255A547D710A2"]
 			id: "66DBB273A2D2556A"
 			tasks: [{
@@ -1625,15 +1455,22 @@
 				item: "create:track_station"
 			}]
 			rewards: [{
-				id: "0CEE26A7ABDCD8DA"
+				id: "0EC124D903DB6CBC"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -4.5d
-			y: 6.0d
-			dependencies: ["5CD46451E8E482DE"]
+			x: -13.0d
+			y: 9.5d
+			subtitle: "When on a Carriage, you can Right-Click it to control a train."
+			description: [
+				"You can also add a conductor (a Blaze Burner or any mob seating in front of the Train Controls) to automate train departures."
+				""
+				"Automatically departed trains are ⁴/₃x faster than manually-controlled trains."
+			]
+			dependencies: ["7A7255A547D710A2"]
 			id: "191C01687DBD75A6"
 			tasks: [{
 				id: "71E7A0E92C88BAC1"
@@ -1641,26 +1478,844 @@
 				item: "create:controls"
 			}]
 			rewards: [{
-				id: "79BA7746C7D5E881"
+				id: "079C3B69D41B3B57"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
 		}
 		{
-			x: -14.5d
-			y: -3.0d
-			description: ["Advanced Energy Source"]
-			dependencies: ["1A4329CA0DB50D81"]
-			id: "48B8C6A58BE6A0FA"
+			x: -22.0d
+			y: 4.5d
+			dependencies: ["4200194006454664"]
+			id: "472797892FBE6911"
 			tasks: [{
-				id: "74633B09D62708DB"
+				id: "645A8C6858AF261A"
+				type: "checkmark"
+				title: "Contraption Blocks"
+			}]
+		}
+		{
+			title: "Linking Contraption Blocks together"
+			x: -23.5d
+			y: 4.5d
+			subtitle: "Consult the Ponder Scenes of those blocks/items for more info."
+			description: ["(Craft one of these to complete this Quest.)"]
+			dependencies: ["472797892FBE6911"]
+			min_required_tasks: 1
+			id: "66384691DD260C9B"
+			tasks: [
+				{
+					id: "44392B70E46B1BE3"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+				{
+					id: "376E31F1539CCFC3"
+					type: "item"
+					item: "create:secondary_linear_chassis"
+				}
+				{
+					id: "123F6F9F048C798D"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+				{
+					id: "3469677878920BCA"
+					type: "item"
+					item: {
+						id: "create:super_glue"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "36ACE68156E75E43"
+					type: "item"
+					item: "minecraft:slime_block"
+				}
+				{
+					id: "29331E04487D9E0C"
+					type: "item"
+					item: "minecraft:honey_block"
+				}
+				{
+					id: "0AAA6129FD9188BB"
+					type: "item"
+					item: "create:sticker"
+				}
+			]
+			rewards: [{
+				id: "7E1D8D8D7F312DFF"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Contraption Anchors"
+			x: -22.0d
+			y: 6.0d
+			subtitle: "You can build contraptions using these blocks as a base."
+			description: [
+				"Consult their respective Ponder Scenes for more information."
+				""
+				"(Craft one of these to complete this Quest.)"
+			]
+			dependencies: ["472797892FBE6911"]
+			min_required_tasks: 1
+			id: "31E1C09A9BDE34E8"
+			tasks: [
+				{
+					id: "2ED40A9EED52EBEC"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "2C44B224A00C5EF3"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "6C6F9E42156AE32D"
+					type: "item"
+					item: "create:clockwork_bearing"
+				}
+				{
+					id: "1231B6948EA9EB16"
+					type: "item"
+					item: "create:cart_assembler"
+				}
+				{
+					id: "11A0445CBC62A85C"
+					type: "item"
+					item: "create:mechanical_piston"
+				}
+				{
+					id: "4519D46F62579E1C"
+					type: "item"
+					item: "create:sticky_mechanical_piston"
+				}
+				{
+					id: "15071CDDFA06FAEC"
+					type: "item"
+					item: "create:gantry_carriage"
+				}
+				{
+					id: "0DC01FF2C4F68F50"
+					type: "item"
+					item: "create:rope_pulley"
+				}
+				{
+					id: "10537CE98F555BA8"
+					type: "item"
+					item: "create:track_station"
+				}
+			]
+			rewards: [{
+				id: "0DEA803D6A23C86E"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Contraption Actors"
+			x: -20.5d
+			y: 4.5d
+			subtitle: "Functional on active Contraptions."
+			description: [
+				"> Chutes, Funnels: Pick up or drop items."
+				"> Chests, Barrels, Shulker Boxes, Item Vaults - valid inventories for Contraptions."
+				"> Basin - when upside down, dumps its storage into Basins below."
+				"> Deployer - places/uses items from the Contraption's internal inventory."
+				"> Mechanical Drill, Saw, Plough, Harvester - Mines, cuts, tills, harvests various blocks. Breaking speed depends on the speed of the Contraption."
+				"> Dispensers and Droppers - dispenses automatically items depending on the speed of the Contraption, or every 1 second if the Contraption is stationary."
+				"> Mechanical Bearing - the Contraption placed on it will stay level no matter how the parent Contraption moves."
+				"> Fluid Tank (Create) - valid fluid storage for Contraptions."
+				"> Portable Item/Fluid Interface - The Contraption will stop for a while to transfer items between the Contraption and another Portable Interface."
+				"After the transfer is done, the Contraption starts moving again."
+				"> Redstone Contact - when contacts with the Redstone Contact outside of the Contraption, that Contact will emit a redstone signal."
+				"> Seats - you can sit on these on Contraptions."
+			]
+			dependencies: ["472797892FBE6911"]
+			min_width: 300
+			min_required_tasks: 1
+			id: "56247605846B8F5B"
+			tasks: [
+				{
+					id: "15C969A2182EA462"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+				{
+					id: "6B7005F6A6024499"
+					type: "item"
+					item: "create:brass_funnel"
+				}
+				{
+					id: "73154BE9E8DEB735"
+					type: "item"
+					item: "minecraft:chest"
+				}
+				{
+					id: "46D27CCF83D3735F"
+					type: "item"
+					item: "minecraft:barrel"
+				}
+				{
+					id: "63A43AF8EE151048"
+					type: "item"
+					item: "minecraft:shulker_box"
+				}
+				{
+					id: "7D0CD8993F28877C"
+					type: "item"
+					item: "create:item_vault"
+				}
+				{
+					id: "6FFA3B65DA823DAA"
+					type: "item"
+					item: "create:basin"
+				}
+				{
+					id: "272F7C6CE0E9BC87"
+					type: "item"
+					item: "create:deployer"
+				}
+				{
+					id: "063E6E93F202409F"
+					type: "item"
+					item: "minecraft:dispenser"
+				}
+				{
+					id: "0A843CD8AFF9E9C3"
+					type: "item"
+					item: "minecraft:dropper"
+				}
+				{
+					id: "1AFAADC38A6DD31D"
+					type: "item"
+					item: "create:fluid_tank"
+				}
+				{
+					id: "6494C1C9B6D9A890"
+					type: "item"
+					item: "create:mechanical_drill"
+				}
+				{
+					id: "1A1A1AAEF2C5F826"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+				{
+					id: "4A03A806CC2CBB46"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "5E5A2AB1D4BA2ABB"
+					type: "item"
+					item: "create:mechanical_harvester"
+				}
+				{
+					id: "13C6BD8C469B3BAF"
+					type: "item"
+					item: "create:mechanical_plough"
+				}
+				{
+					id: "7E92AD2006406F06"
+					type: "item"
+					item: "create:portable_storage_interface"
+				}
+				{
+					id: "64C9966E2A4DAD26"
+					type: "item"
+					item: "create:portable_fluid_interface"
+				}
+				{
+					id: "7908AC3F1A9E2BA4"
+					type: "item"
+					item: "create:redstone_contact"
+				}
+				{
+					id: "44023D234F04EBA9"
+					type: "item"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "create:seats"
+							display: {
+								Name: "{\"text\":\"Any Seat\"}"
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4FD800F45C3AFE81"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			disable_toast: true
+			x: -22.0d
+			y: 1.5d
+			subtitle: "These blocks generate Stress Units (su). Stress Units are required to power Create's Machines."
+			dependencies: ["4200194006454664"]
+			id: "15C5FE720715D50F"
+			tasks: [{
+				id: "3AC98D2979AD6206"
+				type: "checkmark"
+				title: "Stress Generators"
+			}]
+		}
+		{
+			x: -23.5d
+			y: 1.5d
+			subtitle: "Water Power!"
+			description: [
+				"A Water Wheel can generate between 6 and 20 RPM (96-320 su), depending on how the water flows."
+				"It is most effective, when the water is flowing against the blades, on all 4 sides."
+				"If you plan to use them vertically, consider using Soul Sand for an upward stream of Water."
+			]
+			dependencies: ["15C5FE720715D50F"]
+			id: "483FA9CD5FE385ED"
+			tasks: [{
+				id: "16290740D20DDAA9"
 				type: "item"
-				item: "create:steam_engine"
+				item: "create:water_wheel"
 			}]
 			rewards: [{
-				id: "05A64841F2D8E688"
+				id: "46F707D02B086EB7"
 				type: "random"
+				exclude_from_claim_all: true
 				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Manual Cranking"
+			x: -20.5d
+			y: 1.5d
+			subtitle: "Crank it up!"
+			description: [
+				"Hand Cranks generate 256 su at 32 RPM when spun manually. It uses hunger to do so."
+				"The Valves give out 128 su at 16 RPM, but they look stylish on Fluid Valves!"
+			]
+			dependencies: ["15C5FE720715D50F"]
+			min_required_tasks: 1
+			id: "23920EF54F04FC89"
+			tasks: [
+				{
+					id: "0CF7112C1709D0B1"
+					type: "item"
+					item: "create:hand_crank"
+				}
+				{
+					id: "00F6BCCE4CEFA248"
+					type: "item"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "create:valve_handles"
+							display: {
+								Name: "{\"text\":\"Any Valve Handle\"}"
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "114148C46D9C4A18"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			icon: "create:steam_engine"
+			x: -22.0d
+			y: 0.0d
+			subtitle: "Full Power!"
+			description: [
+				"Steam Engines must be built from at least 4 Fluid Tanks, 1 Heat Source and 1 Steam Boiler."
+				""
+				"It will generate Stress Units dependent on:"
+				"- Size of Fluid Tank,"
+				"- how fast you can pump Water into the Tank,"
+				"- Heat, whether its passive or powered by a Blaze Burner."
+				""
+				"Passively heated Boiler will always generate 2,048 su no matter how big the tank is or how much passive Heat Sources there are under the Tank."
+				""
+				"A Boiler heated by active Blaze Burners will generate 16,384 su per level."
+				""
+				"1 active Blaze Burner counts as 1 level towards heat. "
+				""
+				"If the Blaze Burner is Super-Heated, it counts as 2 levels towards heat."
+			]
+			dependencies: ["15C5FE720715D50F"]
+			id: "1A8F9F5DF74394D5"
+			tasks: [
+				{
+					id: "40F347300E427A24"
+					type: "item"
+					item: "create:steam_engine"
+				}
+				{
+					id: "15DD5922957B5548"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 4L
+				}
+				{
+					id: "453468A508155F80"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Blaze Burner or a passive Heat Source\"}"
+							}
+							items: [
+								{
+									id: "create:blaze_burner"
+									Count: 1b
+								}
+								{
+									id: "minecraft:lava_bucket"
+									Count: 1b
+								}
+								{
+									id: "minecraft:campfire"
+									Count: 1b
+								}
+								{
+									id: "minecraft:soul_campfire"
+									Count: 1b
+								}
+								{
+									id: "minecraft:magma_block"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5845E3E73C51179F"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Rotation Relayers"
+			disable_toast: true
+			x: -17.0d
+			y: 1.5d
+			dependencies: ["18E391B45D935712"]
+			id: "5715F503D92DEE95"
+			tasks: [{
+				id: "353D0CE4C3478865"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Chain Drives"
+			x: -17.5d
+			y: 0.0d
+			subtitle: "- Better Flavor Text Here -"
+			description: [
+				"Consult their respective Ponder Scenes for more information."
+				""
+				"Bonus fact:"
+				"Adjustable Chain Gearshifts can just fine connect to regular Chain Drives."
+			]
+			dependencies: ["5715F503D92DEE95"]
+			min_required_tasks: 1
+			id: "7F5147ADA288F917"
+			tasks: [
+				{
+					id: "1C906663F8E19FBC"
+					type: "item"
+					item: "create:encased_chain_drive"
+				}
+				{
+					id: "46C0908AA7780065"
+					type: "item"
+					item: "create:adjustable_chain_gearshift"
+				}
+			]
+			rewards: [{
+				id: "3DCA4BD43DC9DB4D"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -17.0d
+			y: 3.0d
+			shape: "square"
+			subtitle: "The Casing for basic Create Machines."
+			description: [
+				"You can encase your Shafts, Cogwheels and Belts with this!"
+				"Encasing does not use up Casings."
+			]
+			dependencies: ["160951F6A70A85ED"]
+			id: "18E391B45D935712"
+			tasks: [{
+				id: "4C048F1AF0E8982A"
+				type: "item"
+				item: "create:andesite_casing"
+			}]
+			rewards: [{
+				id: "2D19293EA8629064"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -23.0d
+			y: 0.5d
+			subtitle: "Wind Power!"
+			description: [
+				"A Windmill Bearing can attach a Contraption containing Wool or Sails."
+				"8 Sail-like Blocks are required on the Contraption to start spinning."
+				"It rotates at 1 RPM (giving 512 su) per 8 Sail-like Blocks on the Contraption, and maxes out at 128 Sail-like blocks."
+			]
+			dependencies: ["15C5FE720715D50F"]
+			id: "37802EBEFD9CF876"
+			tasks: [
+				{
+					id: "54270B557FC5C5EF"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "21EE9961B4D17AFD"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Sail-like Blocks\"}"
+							}
+							items: [
+								{
+									id: "create:white_sail"
+									Count: 1b
+								}
+								{
+									id: "create:sail_frame"
+									Count: 1b
+								}
+								{
+									id: "minecraft:white_wool"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "7C61FF3BDE17059C"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -18.5d
+			y: 5.0d
+			subtitle: "A Tunnel Bore."
+			description: [
+				"It automatically breaks blocks in front of it."
+				"The faster it spins, the faster it breaks blocks."
+			]
+			hide_dependency_lines: false
+			dependencies: ["18E391B45D935712"]
+			id: "341519818567FD32"
+			tasks: [{
+				id: "04B4419DE4674075"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "5135E256435971D4"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			disable_toast: true
+			x: -21.0d
+			y: 7.5d
+			dependencies: ["725237684B3596F1"]
+			id: "28533D71EED27C29"
+			tasks: [{
+				id: "538727A1D7D5E1C1"
+				type: "checkmark"
+				title: "Item Transportation"
+			}]
+		}
+		{
+			title: "Item Filters"
+			x: -22.5d
+			y: 7.5d
+			description: [
+				"Filters can filter items based on their contents."
+				"They have an allow- and block-list options and NBT sensitivity option."
+				""
+				"Attribute Filters can filter items based on their properties!"
+				""
+				"The filters can be nested inside of each other, so don't worry about the lack of slots."
+			]
+			dependencies: ["28533D71EED27C29"]
+			min_required_tasks: 1
+			id: "0AF538D54BE1CFFA"
+			tasks: [
+				{
+					id: "208FD2A264FABE04"
+					type: "item"
+					item: {
+						id: "create:filter"
+						Count: 1b
+						tag: {
+							Items: { }
+						}
+					}
+				}
+				{
+					id: "18CD8EE6BD42E347"
+					type: "item"
+					item: {
+						id: "create:attribute_filter"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "3B698C3C9BF546E6"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			title: "Chutes"
+			x: -19.5d
+			y: 7.5d
+			subtitle: "The Cooler Hopper."
+			description: [
+				"Regular Chutes can collect or transfer items from above, up to 16 items at the time."
+				""
+				"Smart Chutes have a configurable input rate, are filterable and can be blocked by redstone."
+			]
+			dependencies: ["28533D71EED27C29"]
+			min_required_tasks: 1
+			id: "1D45E3B9943DDC9A"
+			tasks: [
+				{
+					id: "4E8ED2122EBCE0AE"
+					type: "item"
+					item: "create:chute"
+				}
+				{
+					id: "11FE14E6DF4CFA89"
+					type: "item"
+					item: "create:smart_chute"
+				}
+			]
+			rewards: [{
+				id: "1B566E461C61A2EC"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			subtitle: "The Casing for advanced Create Machines."
+			dependencies: ["4E76A136735F7D0D"]
+			id: "3E3F2A0D09B1C534"
+			tasks: [{
+				id: "1BC15AD70247FFEB"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+			rewards: [{
+				id: "311A90837B6C4F2B"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 7.0d
+			subtitle: "It can store energy."
+			description: ["And it's quite a large accumulator - it can store 4.2M Energy!"]
+			dependencies: [
+				"71B164CE2086EBB0"
+				"12A116542970EECB"
+			]
+			id: "43224CE65782120C"
+			tasks: [{
+				id: "608FDE13BBD80D2E"
+				type: "item"
+				item: "createaddition:accumulator"
+			}]
+			rewards: [{
+				id: "2E3D9EE8F3507097"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			icon: "minecraft:redstone"
+			disable_toast: true
+			x: -6.5d
+			y: -1.0d
+			dependencies: ["725237684B3596F1"]
+			id: "09C258CD619B2B88"
+			tasks: [{
+				id: "322AE9C596D8935D"
+				type: "checkmark"
+				title: "Redstone Utilities"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -6.5d
+			y: 3.5d
+			dependencies: ["725237684B3596F1"]
+			id: "4D59FB0ACC00C03E"
+			tasks: [{
+				id: "381405D90A57FB3D"
+				type: "checkmark"
+				title: "Other goodies"
+			}]
+		}
+		{
+			disable_toast: true
+			x: -2.5d
+			y: 6.0d
+			subtitle: "Craft a Steel Wiremill. Copper Spools require Copper Fine Wires, which are craftable there."
+			dependencies: ["43F43FB0B9ED0818"]
+			id: "64623A40FA9ED518"
+			tasks: [{
+				id: "022FAC5C08365D67"
+				type: "item"
+				item: "modern_industrialization:steel_wiremill"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 8.0d
+			subtitle: "Busy hand."
+			description: [
+				"With the Mechanical Arm in hand, Right Click on your desired inputs and outputs to program the Mechanical Arm."
+				""
+				"It will then distribute items accordingly."
+				""
+				"Useful for automatic item filtering (with Brass Funnels), or to feed your Blaze Burners (Works with Lava Buckets!)."
+			]
+			dependencies: ["5CD46451E8E482DE"]
+			id: "3497F54E743F9B2E"
+			tasks: [{
+				id: "2C798A1FDDF3B4BB"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "70485344CDA06FEA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.5d
+			subtitle: "*slurp*"
+			description: [
+				"Right-Click a Blaze Burner with the Straw in hand."
+				"It will then accept fluids as fuel:"
+				"> Seed Oil - 1 bucket lasts for 1 minute,"
+				"> Bioethanol - 1 bucket lasts for 4 minutes,"
+				"> Lava - 1 bucket lasts for 16m 40s."
+			]
+			dependencies: ["5212BF6AA5940CA1"]
+			min_width: 250
+			id: "01F494CB9517D433"
+			tasks: [{
+				id: "2FD848C7153EF50C"
+				type: "item"
+				item: "createaddition:straw"
+			}]
+			rewards: [{
+				id: "3E3573F18C9A92DA"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
+		}
+		{
+			x: -14.0d
+			y: 7.5d
+			subtitle: "Crafted with primitive Nether Technology."
+			dependencies: [
+				"7C849186AE44FAE5"
+				"40A2DD1A3BC48568"
+			]
+			id: "22D1C5AA8F750CC1"
+			tasks: [{
+				id: "16D0474278311DB5"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+		}
+		{
+			x: -15.5d
+			y: 7.5d
+			subtitle: "Mill your Shroomlights using a Millstone."
+			dependencies: [
+				"513640F0E05D9804"
+				"5CB1E23795D87A85"
+			]
+			id: "7C849186AE44FAE5"
+			tasks: [{
+				id: "6DA3A2BC79E2403D"
+				type: "item"
+				item: "techreborn:glowstone_small_dust"
+			}]
+		}
+		{
+			x: -14.0d
+			y: 9.0d
+			subtitle: "Polish some Rose Quartz using a Sand Paper."
+			id: "40A2DD1A3BC48568"
+			tasks: [{
+				id: "2E0E9A08B6A20D0F"
+				type: "item"
+				item: "create:polished_rose_quartz"
 			}]
 		}
 	]

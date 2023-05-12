@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "tag": "tconstruct:casts/single_use/ingot"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "c:molten_tin",
+    "amount": 9000
+  },
+  "result": {
+    "item": "modern_industrialization:tin_ingot"
+  },
+  "cooling_time": 65
+}

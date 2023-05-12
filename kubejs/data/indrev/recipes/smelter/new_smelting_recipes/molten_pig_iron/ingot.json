@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "tconstruct:pig_iron_ingot"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_pig_iron",
+    "amount": 9000
+  },
+  "processTime": 240
+}

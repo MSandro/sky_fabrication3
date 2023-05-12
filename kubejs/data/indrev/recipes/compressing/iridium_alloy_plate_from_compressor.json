@@ -1,0 +1,11 @@
+{
+  "type": "indrev:compress",
+  "ingredients": {
+    "item": "techreborn:iridium_alloy_ingot"
+  },
+  "output": {
+    "item": "techreborn:iridium_alloy_plate",
+    "count": 1
+  },
+  "processTime": 800
+}

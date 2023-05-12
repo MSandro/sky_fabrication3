@@ -1,0 +1,42 @@
+{
+  "default": [
+    {
+      "name": "twilightforest:twilit",
+      "level": 1
+    },
+    {
+      "name": "tconstruct:solar_powered",
+      "level": 1
+    }
+  ],
+  "perStat": {
+    "tconstruct:extra": [
+      {
+        "name": "twilightforest:twilit",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:fortune",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:solar_powered",
+        "level": 1
+      }
+    ],
+    "tconstruct:handle": [
+      {
+        "name": "twilightforest:twilit",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:looting",
+        "level": 1
+      },
+      {
+        "name": "tconstruct:solar_powered",
+        "level": 1
+      }
+    ]
+  }
+}

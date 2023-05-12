@@ -1,0 +1,11 @@
+{
+  "type": "indrev:pulverize",
+  "ingredients": {
+    "item": "indrev:iron_purified_ore"
+  },
+  "output": {
+    "item": "modern_industrialization:iron_dust",
+    "count": 1
+  },
+  "processTime": 200
+}

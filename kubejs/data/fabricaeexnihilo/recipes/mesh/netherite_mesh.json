@@ -1,29 +1,15 @@
 {
-  "type": "modern_industrialization:assembler",
-  "eu": 8,
-  "duration": 200,
-  "item_inputs": [
-    {
-      "item": "fabricaeexnihilo:diamond_mesh",
-      "amount": 1
-    },
-    {
-      "item": "indrev:netherite_scrap_chunk",
-      "amount": 2
-    },
-    {
-      "item": "indrev:netherite_scrap_purified_ore",
-      "amount": 2
-    },
-    {
-      "item": "spectrum:midnight_aberration",
-      "amount": 1
-    }
-  ],
-  "item_outputs": [
-    {
-      "item": "fabricaeexnihilo:netherite_mesh",
-      "amount": 1
-    }
-  ]
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "fabricaeexnihilo:diamond_mesh"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "tconstruct:molten_netherite",
+    "amount": 27000
+  },
+  "result": {
+    "item": "fabricaeexnihilo:netherite_mesh"
+  },
+  "cooling_time": 200
 }

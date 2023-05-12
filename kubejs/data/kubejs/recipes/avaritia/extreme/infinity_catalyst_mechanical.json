@@ -1,0 +1,66 @@
+{
+	"type": "create:mechanical_crafting",
+	"result": {
+		"item": "kubejs:infinity_catalyst"
+	},
+	"pattern": [
+		"ABCDE",
+		"FGHIJ",
+		"KLMNO",
+		"PQ   "
+	],
+	"key": {
+		"A": {
+			"item":"kubejs:diamond_lattice"
+		},
+		"B": {
+			"item":"kubejs:crystal_matrix_ingot"
+		},
+		"C": {
+			"item":"kubejs:neutronium_ingot"
+		},
+		"D": {
+			"item":"kubejs:ultimate_stew"
+		},
+		"E": {
+			"item":"kubejs:cosmic_meatballs"
+		},
+		"F": {
+			"item":"kubejs:fish_and_chips"
+		},
+		"G": {
+			"item":"kubejs:endest_pearl"
+		},
+		"H": {
+			"item":"kubejs:record_fragment"
+		},
+		"I": {
+			"item":"kubejs:iron_singularity"
+		},
+		"J": {
+			"item":"kubejs:golden_singularity"
+		},
+		"K": {
+			"item":"kubejs:lapis_singularity"
+		},
+		"L": {
+			"item":"kubejs:redstone_singularity"
+		},
+		"M": {
+			"item":"kubejs:diamond_singularity"
+		},
+		"N": {
+			"item":"kubejs:emerald_singularity"
+		},
+		"O": {
+			"item":"kubejs:nether_quartz_singularity"
+		},
+		"P": {
+			"item":"spectrum:germinated_jade_vine_seeds"
+		},
+		"Q": {
+			"item":"dml-refabricated:glitch_ingot"
+		}
+	},
+	"acceptMirrored": false
+}

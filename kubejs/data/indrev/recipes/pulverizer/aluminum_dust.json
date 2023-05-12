@@ -1,0 +1,11 @@
+{
+  "type": "indrev:pulverize",
+  "ingredients": {
+    "item": "modern_industrialization:aluminum_ingot"
+  },
+  "output": {
+    "item": "modern_industrialization:aluminum_dust",
+    "count": 1
+  },
+  "processTime": 200
+}

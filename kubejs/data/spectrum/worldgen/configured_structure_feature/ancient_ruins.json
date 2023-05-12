@@ -2,8 +2,8 @@
   "type": "spectrum:underground_structures",
   "config": {
     "start_pool": "spectrum:ancient_ruins",
-    "min_y": 0,
-    "max_y": 256,
+    "min_y": 10,
+    "max_y": 96,
     "size": 1
   },
   "biomes": "#spectrum:has_structure/underground_structures",

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "twilightforest:fiery_vial"
+  },
+  "result": {
+    "fluid": "twilightforest:fiery_essence",
+    "amount": 8100
+  },
+  "temperature": 800,
+  "time": 30
+}

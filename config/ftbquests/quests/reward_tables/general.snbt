@@ -39,7 +39,9 @@
 			item: {
 				id: "kibe:white_glider"
 				Count: 1b
-				tag: { }
+				tag: {
+					Damage: 0
+				}
 			}
 		}
 		{ item: "minecraft:leather", count: 2, random_bonus: 4 }
@@ -471,10 +473,6 @@
 			}
 		}
 		{ item: "xps:xp_dust", count: 2, random_bonus: 3 }
-		{ item: "terrarianslimes:dirt_bomb", count: 8 }
-		{ item: "terrarianslimes:glowstick", count: 16 }
-		{ item: "terrarianslimes:slime_crown" }
-		{ item: "terrarianslimes:gold_crown" }
 		{ item: "modern_industrialization:analog_circuit" }
 		{ item: "modern_industrialization:cupronickel_wire_magnetic", count: 2, random_bonus: 2 }
 		{ item: "modern_industrialization:electronic_circuit" }
@@ -943,13 +941,12 @@
 		{ item: "kibe:fluid_hopper" }
 		{ item: "kibe:void_bucket" }
 		{ item: "kibe:torch_sling" }
-		{ item: "waystones:waystone", count: 2 }
+		{ item: "fwaystones:waystone", count: 2 }
 		{ item: "ae2:wireless_booster" }
 		{ item: "ae2:printed_logic_processor" }
 		{ item: "ae2:printed_calculation_processor" }
 		{ item: "ae2:printed_engineering_processor" }
 		{ item: "minecraft:leather", count: 6, random_bonus: 6 }
-		{ item: "terrarianslimes:royal_gel" }
 		{ item: "expandedstorage:iron_chest" }
 		{
 			item: {

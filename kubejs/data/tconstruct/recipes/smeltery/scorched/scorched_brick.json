@@ -1,0 +1,13 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "item": "tconstruct:nether_grout"
+    }
+  ],
+  "output": {
+    "id": "tconstruct:scorched_brick"
+  },
+  "min_forge_tier": 2,
+  "fuel_per_tick": 20
+}

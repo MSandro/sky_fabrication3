@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "modern_industrialization:uranium_block"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_uranium",
+    "amount": 81000
+  },
+  "processTime": 732
+}

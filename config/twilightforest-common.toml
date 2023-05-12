@@ -58,7 +58,7 @@ skull_candles = false
 	#Here, you can disable all items from certain mods from being uncrafted.
 	#Input a valid mod id to disable all uncrafting recipes from that mod.
 	#Example: "twilightforest" will disable all uncrafting recipes from this mod.
-	blacklistedUncraftingModIds = ["spectrum"]
+	blacklistedUncraftingModIds = ["spectrum", "modern_industrialization"]
 	#If you don't want to disable uncrafting altogether, and would rather disable certain recipes, this is for you.
 	#To add a recipe, add the mod id followed by the name of the recipe. You can check this in things like JEI.
 	#Example: "twilightforest:moonworm_queen" will disable uncrafting the moonworm queen into itself and 3 torchberries.

@@ -19,7 +19,7 @@
 				"Thanks for playing Sky FABRICation 3."
 				""
 				""
-				"In this version you have the choice how to start the modpack. Check and Claim one of the following 3 Quests to start."
+				"In this version you have the choice how to start the modpack. You will also have to chose your Origin!"
 			]
 			size: 1.5d
 			id: "175F5611FB7716A4"
@@ -80,12 +80,12 @@
 		{
 			title: "Where to start?"
 			icon: "techreborn:wrench"
-			x: 6.5d
+			x: 6.0d
 			y: 0.5d
 			subtitle: "Follow the Progression Guide to continue!"
 			description: [
-				"Mods are split into 4 categories:"
-				""
+				"Mods are split into 5 categories:"
+				"- Progression"
 				"- Technology"
 				"- Magic"
 				"- Utilities"
@@ -182,7 +182,7 @@
 			title: "Where are my Trinkets Slots?"
 			x: 7.5d
 			y: 4.0d
-			subtitle: "use the switch in the upper right of your inventory!"
+			subtitle: "Use the switch in the upper right of your inventory!"
 			description: [
 				"Inventorio was installed to improve the inventory."
 				""
@@ -228,7 +228,7 @@
 			}]
 		}
 		{
-			x: 8.5d
+			x: 9.0d
 			y: 0.5d
 			subtitle: "Structures are not disabled!"
 			description: [
@@ -245,6 +245,20 @@
 				type: "checkmark"
 				title: "Where are the Structures?"
 				icon: "minecraft:end_portal_frame"
+			}]
+		}
+		{
+			title: "In case of Emergency"
+			icon: "mcwtrpdoors:metal_warning_trapdoor"
+			x: 7.5d
+			y: 0.0d
+			subtitle: "Use the §f§n/emergency§r command in case you lost your only sapling/bamboo/fishing rod, depending on chosen island."
+			dependencies: ["175F5611FB7716A4"]
+			min_width: 300
+			id: "27C275CE408D4506"
+			tasks: [{
+				id: "4B8FE859920F7A18"
+				type: "checkmark"
 			}]
 		}
 	]

@@ -1,0 +1,13 @@
+name = "Better UPCs"
+filename = "upc-0.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bf08e94b2a3161886a0b39ee5b1cef26afc3c04e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4528618
+project-id = 859643

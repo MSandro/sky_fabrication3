@@ -12,8 +12,5 @@ onEvent('block.break', event => {
 		if(event.block.id == "chiselsandbits:chiseled_printer" ){
 			event.server.runCommandSilent(`summon item ${event.block.x} ${event.block.y+0.7} ${event.block.z} {Item:{id:"chiselsandbits:chiseled_printer",Count:1b}}`);
 		}
-		if(event.block.id == "upc:upc" ){
-			event.server.runCommandSilent(`summon item ${event.block.x} ${event.block.y+0.7} ${event.block.z} {Item:{id:"upc:upc",Count:1b}}`);
-		}
   }
 });

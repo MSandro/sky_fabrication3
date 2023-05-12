@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "create:raw_zinc"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_zinc",
+    "amount": 12000
+  },
+  "processTime": 280
+}

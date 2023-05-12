@@ -1,0 +1,11 @@
+{
+  "type": "indrev:pulverize",
+  "ingredients": {
+    "item": "indrev:tungsten_purified_ore"
+  },
+  "output": {
+    "item": "modern_industrialization:tungsten_dust",
+    "count": 1
+  },
+  "processTime": 200
+}

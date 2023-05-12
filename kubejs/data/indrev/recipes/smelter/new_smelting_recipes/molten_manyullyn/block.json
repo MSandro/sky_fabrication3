@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "tconstruct:manyullyn_block"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_manyullyn",
+    "amount": 81000
+  },
+  "processTime": 864
+}

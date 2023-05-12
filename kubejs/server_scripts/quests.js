@@ -3,4 +3,5 @@ onEvent('ftbquests.custom_reward.71DCA33AC06D25FB', event => {
   if (!event.player.getTags().contains('island')) {
     event.server.runCommandSilent(`blabber dialogue start minecraft:islands ${event.player.name.text}`);
   }
+  event.server.runCommandSilent(`origin gui ${event.player.name.text}`);
 })

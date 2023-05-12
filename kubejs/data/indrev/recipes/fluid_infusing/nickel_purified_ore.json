@@ -1,0 +1,21 @@
+{
+  "type": "indrev:fluid_infuse",
+  "ingredients": [
+    {
+      "tag": "c:raw_nickel_ores"
+    }
+  ],
+  "fluidInput": {
+    "fluid": "modern_industrialization:sulfuric_acid",
+    "amount": 4050
+  },
+  "fluidOutput": {
+    "fluid": "indrev:toxic_mud_still",
+    "amount": 810
+  },
+  "output": {
+    "item": "kubejs:nickel_purified_ore",
+    "count": 1
+  },
+  "processTime": 200
+}

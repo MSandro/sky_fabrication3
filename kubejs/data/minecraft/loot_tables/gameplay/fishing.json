@@ -22,7 +22,12 @@
         {
           "type": "minecraft:item",
           "weight": 10,
-          "name": "minecraft:oak_sapling"
+          "name": "minecraft:oak_planks"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:oak_log"
         },
         {
           "type": "minecraft:loot_table",

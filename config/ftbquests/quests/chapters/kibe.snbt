@@ -452,9 +452,9 @@
 				title: "Kibe and Rings"
 			}]
 			rewards: [{
-				id: "5EC9036E96573500"
-				type: "xp_levels"
-				xp_levels: 60
+				id: "2C01628132B04859"
+				type: "xp"
+				xp: 60
 			}]
 		}
 		{
@@ -708,7 +708,7 @@
 			tasks: [{
 				id: "7F9BE20A484C8715"
 				type: "checkmark"
-				title: "Kibe Mob Farm Method"
+				title: "Kibe Mob Farm Utilities"
 			}]
 		}
 		{
@@ -819,11 +819,11 @@
 			}]
 		}
 		{
-			title: "Wither Machine"
+			title: "Automate Wither building and killing"
 			x: 13.5d
 			y: -5.0d
 			shape: "hexagon"
-			description: ["Use the following to create an automatic wither machine."]
+			description: ["Use the following to create an automatic Wither-slaying machine."]
 			id: "5EDF1BBEEBED927F"
 			tasks: [{
 				id: "24A1862F0308DA6E"
@@ -874,6 +874,7 @@
 			x: 7.5d
 			y: -4.0d
 			subtitle: "It does what a magnet does, magnetize items towards you."
+			description: ["Solegnolia won't prevent magnetizing by this magnet, so be aware!"]
 			dependencies: ["168F737F6246967F"]
 			id: "1043B10D063173A3"
 			tasks: [{
@@ -892,7 +893,7 @@
 			}]
 		}
 		{
-			title: "Sleeping bag"
+			title: "Sleeping Bag"
 			x: 8.5d
 			y: -5.0d
 			dependencies: ["168F737F6246967F"]
@@ -943,11 +944,11 @@
 								Count: 1b
 							}
 							{
-								id: "kibe:sleeping_bag"
+								id: "kibe:cyan_sleeping_bag"
 								Count: 1b
 							}
 							{
-								id: "kibe:cyan_sleeping_bag"
+								id: "kibe:sleeping_bag"
 								Count: 1b
 							}
 							{
@@ -971,6 +972,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Any Sleeping Bag\"}"
+						}
 					}
 				}
 			}]
@@ -1054,7 +1058,9 @@
 				icon: {
 					id: "kibe:white_glider"
 					Count: 1b
-					tag: { }
+					tag: {
+						Damage: 0
+					}
 				}
 				item: {
 					id: "itemfilters:or"
@@ -1319,7 +1325,7 @@
 		{
 			x: 8.5d
 			y: -6.0d
-			subtitle: "Cancels any mob spawning that requires no light in a configurable area. Useful to protect your base and to clean caves and dungeons."
+			subtitle: "Cancels any mob spawning that requires no light in a configurable area. Useful to protect your base!"
 			dependencies: ["168F737F6246967F"]
 			id: "15D2E510EC4863F0"
 			tasks: [{

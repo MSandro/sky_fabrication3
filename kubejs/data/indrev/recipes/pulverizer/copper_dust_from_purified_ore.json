@@ -1,0 +1,11 @@
+{
+  "type": "indrev:pulverize",
+  "ingredients": {
+    "item": "indrev:copper_purified_ore"
+  },
+  "output": {
+    "item": "modern_industrialization:copper_dust",
+    "count": 1
+  },
+  "processTime": 200
+}

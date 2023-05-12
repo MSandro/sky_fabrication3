@@ -11,6 +11,8 @@
     "create",
     "moderndynamics",
     "compactmachines",
-    "expandedstorage"
+    "ae2:cable_bus",
+    "coxinhautilities:cardboard_box",
+	  "modern_industrialization"
   ]
 }

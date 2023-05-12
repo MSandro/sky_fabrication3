@@ -18,6 +18,12 @@
     "id": "modern_industrialization:bronze_ingot",
     "count": 3
   },
+  "overrides": {
+    "3+": {
+      "id": "modern_industrialization:bronze_ingot",
+      "count": 4
+    }
+  },
   "min_forge_tier": 2,
   "fuel_per_tick": 50
 }

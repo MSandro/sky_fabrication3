@@ -19,7 +19,9 @@
 				""
 				"You can use REI to view the recipes for the electric version of the machines you are already familiar with."
 				""
-				"We strongly suggest that you automate Machine Hull, Analog Circuits, Motors, Pistons, Robot Arms and Conveyor Belts using Assemblers as soon as possible, that will make crafting electric machines basically free!"
+				"You will surely need to automate Machine Hulls, Analog Circuits, Motors, Pistons, Robot Arms and Conveyor Belts using Assemblers for reduced grind!"
+				""
+				"But Assemblers are very expensive at first, so bulk-crafting is key!"
 			]
 			dependencies: ["43F43FB0B9ED0818"]
 			size: 1.5d
@@ -296,10 +298,9 @@
 				""
 				"Don't forget to activate it using the (V) keybind."
 				""
+				"> Diesel Mining Drills and Chainsaws are a nice alternative to your usual tools. Fill them with powerful fuels for fast mining speeds!"
 				""
-				"- This Mining Drill can finally replace your Pickaxes and Shovels. Fill it with powerful fuel for the best speed!"
-				""
-				"Toggle between Silk Touch and Fortune III with shift right-click."
+				"With the Diesel Mining Drill, you can toggle between §eSilk Touch§r and §9Fortune III§r with shift right-click."
 			]
 			dependencies: ["036292964BDE4944"]
 			id: "6D0310EF6A259AC8"
@@ -405,7 +406,7 @@
 		{
 			x: -4.5d
 			y: 0.0d
-			subtitle: "Can make items and fluids react with eachother."
+			subtitle: "Can make items and fluids react with each other."
 			dependencies: ["6BEB4461CA08633F"]
 			id: "6B11B8A209763B36"
 			tasks: [{
@@ -471,7 +472,13 @@
 			x: 3.5d
 			y: -4.5d
 			subtitle: "You can use a Heat Exchanger to recover the HP water for another cycle."
-			description: ["Remember that pressurizing water into HP water costs a lot of energy, but the turbine will not give it back!"]
+			description: [
+				"Remember that pressurizing water into HP water costs a lot of energy, but the turbine will not give it back!"
+				""
+				"You can also use this to cheese easy energy from your lava production - one of these can produce 7200 EU/t worth of Steam!"
+				""
+				"Just make sure the turbines powering the Heat Exchanger have higher priority than your main power generator."
+			]
 			dependencies: ["7CE18D246F01445D"]
 			id: "7F41EEF87B3A8B84"
 			tasks: [{
@@ -537,7 +544,11 @@
 			x: -4.5d
 			y: 2.0d
 			subtitle: "Splits items by spinning them very fast."
-			description: ["You can use it to make carbon dust and unlock better recipes for steel and silicon."]
+			description: [
+				"You can use it to make carbon dust and unlock better recipes for steel and silicon."
+				""
+				"Before you can get your hands on Upgrades, you should make multiple of these, because Carbon production is slow."
+			]
 			dependencies: ["6BEB4461CA08633F"]
 			id: "693E05A909195578"
 			tasks: [{
@@ -598,6 +609,11 @@
 			x: -7.0d
 			y: -3.0d
 			subtitle: "Used in the quarry. Check REI for outputs."
+			description: [
+				"Made from gold, it's quite fragile."
+				""
+				"But you can use this to obtain Ancient Debris automatically!"
+			]
 			dependencies: ["3DC21B6F47A253E4"]
 			id: "381693770EF21108"
 			tasks: [{
@@ -650,10 +666,7 @@
 			x: -1.5d
 			y: -4.5d
 			subtitle: "You are almost Prepared!"
-			description: [
-				""
-				"Now that your Into the Start of MV, you can start working on your oil processing and start working on Basic Upgrades that you can easily then turn into Advanced Upgrades!"
-			]
+			description: ["Now that your Into the Start of MV, you can start working on your oil processing and start working on Basic Upgrades that you can easily then turn into Advanced Upgrades!"]
 			dependencies: ["036292964BDE4944"]
 			id: "6B522DC6845DB558"
 			tasks: [{
@@ -704,7 +717,7 @@
 		{
 			x: 1.5d
 			y: -4.5d
-			subtitle: "Keep in mind you can use a Turbo Diesel Generator for compat HV power generation."
+			subtitle: "Keep in mind you can use a Turbo Diesel Generator for compact HV power generation."
 			description: [
 				"As you might expect, it produces up to 512 EU/t."
 				""
@@ -859,6 +872,7 @@
 		{
 			x: 7.5d
 			y: 0.0d
+			subtitle: "Obtain this using an Electric Quarry with Titanium Drills or an Extractinator."
 			dependencies: ["7D3D156BE9C9E150"]
 			id: "6B05C72FF31E104D"
 			tasks: [{
@@ -1031,7 +1045,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 12.0d
 			y: -1.0d
 			subtitle: "The most powerful machine upgrade ever. Have a look for yourself."
 			dependencies: ["363455215C23E84E"]
@@ -1112,73 +1126,6 @@
 			]
 			rewards: [{
 				id: "62C30F884D4BFEED"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 12.0d
-			y: -2.5d
-			subtitle: "With 100 mB of UU Matter, the replicator can duplicate (almost) any item in the game!"
-			description: ["Congratulations, it is now Yourcraft."]
-			dependencies: ["4847BA675A04852F"]
-			id: "2DD7A176E38F67AD"
-			tasks: [{
-				id: "65573E368D0A8C59"
-				type: "item"
-				item: "modern_industrialization:replicator"
-			}]
-			rewards: [{
-				id: "248F0A4526643230"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Quantum Physics"
-			x: 13.0d
-			y: -2.5d
-			subtitle: "Unstoppable!"
-			description: [
-				"- Quantum Sword"
-				""
-				"Uses the raw power of the Schrödinger equation to instantly vaporize any foe (or friend!) you hit with it."
-				""
-				"- Quantum Armor"
-				""
-				"Through the gravitational effect of the Heisenberg uncertainty principle, the full Quantum Armor set makes you immune to all damage and grants you creative flight. Each new piece of armour increases by 25% the likelihood of nullifying any damage taken."
-			]
-			dependencies: ["4847BA675A04852F"]
-			id: "6C6FFF91F7E49E1D"
-			tasks: [
-				{
-					id: "0684EF2F47C7A5DF"
-					type: "item"
-					item: "modern_industrialization:quantum_helmet"
-				}
-				{
-					id: "27517665764C7AA0"
-					type: "item"
-					item: "modern_industrialization:quantum_chestplate"
-				}
-				{
-					id: "79941F20E6B0249D"
-					type: "item"
-					item: "modern_industrialization:quantum_leggings"
-				}
-				{
-					id: "4499514AF8A6B84B"
-					type: "item"
-					item: "modern_industrialization:quantum_boots"
-				}
-				{
-					id: "0CDD142D3CF0E152"
-					type: "item"
-					item: "modern_industrialization:quantum_sword"
-				}
-			]
-			rewards: [{
-				id: "6FE1BA3464183B72"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
@@ -1277,31 +1224,6 @@
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
-		}
-		{
-			x: 15.5d
-			y: 1.5d
-			subtitle: "UwU Matter"
-			description: ["With a suitable Electrolyzer setup and a Singularity, large amounts of energy can be turned through Quantum Hawnking Radiation,  into Universally Useable Matter also known as UU Matter, the very fabric of the universe."]
-			dependencies: ["6314525E36DEA54B"]
-			id: "79802A9D4A83E757"
-			tasks: [{
-				id: "15325EFF41DA3891"
-				type: "item"
-				item: "modern_industrialization:bucket_uu_matter"
-			}]
-			rewards: [
-				{
-					id: "5B72A41410DB60FF"
-					type: "item"
-					item: "minecraft:flint"
-				}
-				{
-					id: "527FADF1DB02BCCC"
-					type: "loot"
-					table_id: 13756307348121783L
-				}
-			]
 		}
 		{
 			x: 4.0d
@@ -1428,6 +1350,12 @@
 		{
 			x: -6.0d
 			y: 3.5d
+			subtitle: "It's self-explainatory."
+			description: [
+				"Pump items from above or side, get outputs from below!"
+				""
+				"Check REI for compatible blocks which Extractinator can process."
+			]
 			dependencies: ["6BEB4461CA08633F"]
 			id: "1116AFB4A0475F4F"
 			tasks: [{
@@ -1444,11 +1372,9 @@
 		{
 			x: -11.5d
 			y: 2.5d
-			subtitle: "You may want to consider making a Steam Mining Drill to obtain the ores directly without needing a Silk Touch pickaxe."
+			subtitle: "Early-game 3x3 §eSilk Touch§r Drill."
 			description: [
-				"The Steam Mining Drill can mine 3x3 blocks at the time, perfect for your early game mining needs!"
-				""
-				"It also has Silk Touch which combines well with the Forge Hammer."
+				"The Steam Mining Drill can mine 3x3 blocks at the time, perfect as an early-game AoE Tool!"
 				""
 				"The Steam Mining Drill requires both water and solid fuel (for example coal)."
 				""
@@ -1476,6 +1402,91 @@
 					count: 16
 				}
 			]
+		}
+		{
+			x: -10.0d
+			y: 1.5d
+			subtitle: "A Gate to other Tech Mods opens up!"
+			description: [
+				"Using an Assembler, you can make your first Basic Machine Frames!"
+				""
+				"These are integral for tech mods such as Tech Reborn, Industrial Revolution and power generation Mods."
+			]
+			dependencies: ["79F4B68189C05A25"]
+			id: "70BA43AC7648FF65"
+			tasks: [{
+				id: "726E8850C01D0A5C"
+				type: "item"
+				item: "techreborn:basic_machine_frame"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			subtitle: "Either use Extractinator or get it from Mozanite Processing."
+			description: ["A necessary component for Cadmium Batteries!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"1116AFB4A0475F4F"
+				"01BBE636EBB71416"
+			]
+			dependency_requirement: "one_completed"
+			id: "69DC40B24C76B53A"
+			tasks: [{
+				id: "5A1D6009D16EC896"
+				type: "item"
+				item: "modern_industrialization:cadmium_dust"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			subtitle: "With the Cadmium Batteries, you can craft Building Gadgets and EV Machine Hulls."
+			dependencies: ["69DC40B24C76B53A"]
+			id: "6D844CA6CF326DFC"
+			tasks: [{
+				id: "0E0BD01A03DB74D9"
+				type: "item"
+				item: "modern_industrialization:cadmium_battery"
+			}]
+		}
+		{
+			title: "Spatial Harvesters Available!"
+			x: 13.0d
+			y: -1.0d
+			subtitle: "A Gate to Spatial Harvesters is now open!"
+			dependencies: ["363455215C23E84E"]
+			id: "02B84C908EA803E5"
+			tasks: [{
+				id: "6272FE87544B5F72"
+				type: "item"
+				title: "Spatial Harvesters"
+				icon: "spatialharvesters:casing"
+				item: "modern_industrialization:quantum_circuit"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			subtitle: "EU through ME Network!"
+			description: [
+				"You can *only* connect Superconductor Cables to this tunnel."
+				""
+				"Just like Energy P2P Tunnel, the ME Network will draw 5% tax on transfered energy."
+			]
+			dependencies: ["18949581A0F3E28B"]
+			id: "39D6CB2B3FDC4936"
+			tasks: [{
+				id: "46A9180718528137"
+				type: "item"
+				item: "modern_industrialization:energy_p2p_tunnel"
+			}]
+			rewards: [{
+				id: "2BC555284DC13BA9"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 		}
 	]
 	quest_links: [ ]

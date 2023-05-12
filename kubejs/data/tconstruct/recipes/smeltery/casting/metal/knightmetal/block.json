@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "c:molten_knightmetal",
+    "amount": 81000
+  },
+  "result": {
+    "item": "twilightforest:knightmetal_block"
+  },
+  "cooling_time": 194
+}

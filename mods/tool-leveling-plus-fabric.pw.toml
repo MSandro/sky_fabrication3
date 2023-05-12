@@ -1,13 +1,13 @@
 name = "Tool Leveling+ [Fabric]"
-filename = "toolleveling-fabric-1.18.2-1.4.4.jar"
+filename = "toolleveling-fabric-1.18.2-1.4.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "b5f51617a82e942c503bb9d7169510d198472750"
+hash = "354a4aaa59e55ca00dc6bc6f543667972355a620"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4226681
+file-id = 4466220
 project-id = 565322

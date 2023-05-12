@@ -1,13 +1,13 @@
 name = "Artis-Recrafted"
-filename = "artis-recrafted-2.4.1+1.18.2.jar"
+filename = "artis-recrafted-3.0.1+1.18.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "fbd415f53dd27e578ddd06d0eb01ea381ef5998b"
+hash = "0b49874201cceb10972b5bfaae040936d6398aa9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3777451
+file-id = 4451973
 project-id = 574404

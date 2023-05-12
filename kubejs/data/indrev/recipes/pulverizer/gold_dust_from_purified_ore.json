@@ -1,0 +1,11 @@
+{
+  "type": "indrev:pulverize",
+  "ingredients": {
+    "item": "indrev:gold_purified_ore"
+  },
+  "output": {
+    "item": "modern_industrialization:gold_dust",
+    "count": 1
+  },
+  "processTime": 200
+}

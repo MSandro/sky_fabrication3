@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "modern_industrialization:invar_block"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_invar",
+    "amount": 81000
+  },
+  "processTime": 760
+}

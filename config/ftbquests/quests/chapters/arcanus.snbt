@@ -212,6 +212,10 @@
 		{
 			x: -2.0d
 			y: 2.0d
+			description: [
+				"Lunges you forward."
+				"Costs 5 Mana to cast."
+			]
 			dependencies: ["756D7FADB9841FA5"]
 			id: "4E0B2BC595E5C2D2"
 			tasks: [{
@@ -238,6 +242,10 @@
 		{
 			x: 4.0d
 			y: 2.0d
+			description: [
+				"Warps you back to your Spawnpoint."
+				"Costs 15 Mana to cast."
+			]
 			dependencies: ["756D7FADB9841FA5"]
 			id: "335A800C1EFCCD3F"
 			tasks: [{
@@ -263,6 +271,10 @@
 		{
 			x: 4.0d
 			y: 1.0d
+			description: [
+				"Summons a magic missile that deals 7 damage."
+				"Costs 3 Mana to cast."
+			]
 			dependencies: ["756D7FADB9841FA5"]
 			id: "669C1B2C2A01DB9C"
 			tasks: [{
@@ -289,6 +301,10 @@
 		{
 			x: 4.0d
 			y: 0.0d
+			description: [
+				"Knocks the hit enemy back."
+				"Costs 4 Mana to cast."
+			]
 			dependencies: ["756D7FADB9841FA5"]
 			id: "7D56E6051F60B00F"
 			tasks: [{
@@ -309,6 +325,10 @@
 		{
 			x: -2.0d
 			y: 1.0d
+			description: [
+				"Restores 10 Health points."
+				"Costs 10 Mana to cast."
+			]
 			dependencies: ["756D7FADB9841FA5"]
 			id: "4C5214B3519865DF"
 			tasks: [{
@@ -334,6 +354,7 @@
 		{
 			x: -2.0d
 			y: -1.0d
+			description: ["Costs 10 Mana to cast."]
 			dependencies: ["756D7FADB9841FA5"]
 			id: "5EDA0D094D24D820"
 			tasks: [{
@@ -359,6 +380,10 @@
 		{
 			x: 4.0d
 			y: -1.0d
+			description: [
+				"Summons a powerful Solar Strike that damages mobs on impact."
+				"Costs 20 Mana to cast."
+			]
 			dependencies: ["756D7FADB9841FA5"]
 			id: "16C3CDC79927B81E"
 			tasks: [{
@@ -385,6 +410,10 @@
 		{
 			x: -2.0d
 			y: 0.0d
+			description: [
+				"Summons a 3-block tall barrier."
+				"Costs 4 Mana to cast."
+			]
 			dependencies: ["756D7FADB9841FA5"]
 			id: "1AA763E8C46B95A2"
 			tasks: [{

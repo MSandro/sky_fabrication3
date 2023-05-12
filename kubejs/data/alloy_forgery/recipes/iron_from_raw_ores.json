@@ -1,0 +1,21 @@
+{
+  "type": "alloy_forgery:forging",
+  "inputs": [
+    {
+      "tag": "c:raw_iron_ores",
+      "count": 2
+    }
+  ],
+  "output": {
+    "id": "minecraft:iron_ingot",
+    "count": 2
+  },
+  "overrides": {
+    "2+": {
+      "id": "minecraft:iron_ingot",
+      "count": 3
+    }
+  },
+  "min_forge_tier": 1,
+  "fuel_per_tick": 5
+}

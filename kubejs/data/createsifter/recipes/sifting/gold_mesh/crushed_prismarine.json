@@ -1,0 +1,18 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:crushed_prismarine"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:prismarine_crystals",
+      "chance": 0.01
+    }
+  ],
+  "processingTime": 500
+}

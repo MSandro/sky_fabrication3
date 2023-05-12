@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "modern_industrialization:raw_tin_block"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_tin",
+    "amount": 108000
+  },
+  "processTime": 936
+}

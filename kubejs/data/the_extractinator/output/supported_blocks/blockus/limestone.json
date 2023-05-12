@@ -1,0 +1,17 @@
+{
+  "name": "blockus:limestone",
+  "tier": 2,
+  "yield": 20,
+  "additional_drops": [
+    {
+      "name": "techreborn:calcite_dust",
+      "min": 1,
+      "max": 3,
+      "rarity": "uncommon",
+      "conditional_mods": [
+        "techreborn"
+      ]
+    }
+  ],
+  "disabled_drops": []
+}

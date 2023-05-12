@@ -1,0 +1,28 @@
+{
+  "group": "tools",
+  "type": "minecraft:crafting_shaped",
+  "condition": "normal",
+  "pattern": [
+    "CBC",
+    "B4B",
+    "CMC"
+  ],
+  "key": {
+    "C": {
+      "tag": "structures_compass:dead_coral"
+    },
+    "B": {
+      "item": "twilightforest:castle_brick"
+    },
+    "M": {
+      "item": "twilightforest:maze_map_focus"
+    },
+    "4": {
+      "item": "naturescompass:naturescompass"
+    }
+  },
+  "result": {
+    "item": "structures_compass:structures_compass",
+    "count": 1
+  }
+}

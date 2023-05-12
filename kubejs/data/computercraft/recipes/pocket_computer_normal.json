@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "#G#"
+  ],
+  "key": {
+    "#": {
+      "item": "techreborn:refined_iron_plate"
+    },
+    "A": {
+      "item": "techreborn:electronic_circuit"
+    },
+    "G": {
+      "tag": "c:glass_panes"
+    }
+  },
+  "result": {
+    "item": "computercraft:pocket_computer_normal"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "modern_industrialization:implosion_compressor",
+  "eu": 128,
+  "duration": 2400,
+  "item_inputs": [
+    {
+      "item": "minecraft:soul_sand",
+      "amount": 4
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull",
+      "amount": 3
+    },
+    {
+      "item": "dmlsimulacrum:extraterrestrial_matter",
+      "amount": 16
+    },
+    {
+      "item": "modern_industrialization:industrial_tnt",
+      "amount": 16
+    }
+  ],
+  "item_outputs": {
+    "item": "minecraft:nether_star",
+    "amount": 1
+  }
+}

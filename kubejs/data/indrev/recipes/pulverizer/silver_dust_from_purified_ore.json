@@ -1,0 +1,11 @@
+{
+  "type": "indrev:pulverize",
+  "ingredients": {
+    "item": "indrev:silver_purified_ore"
+  },
+  "output": {
+    "item": "modern_industrialization:silver_dust",
+    "count": 1
+  },
+  "processTime": 200
+}

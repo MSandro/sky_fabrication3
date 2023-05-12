@@ -1,0 +1,14 @@
+{
+  "type": "modern_industrialization:centrifuge",
+  "eu": 8,
+  "duration": 100,
+  "item_inputs": {
+    "item": "croparia:seed_crop_honeycomb",
+    "amount": 1
+  },
+  "item_outputs": {
+    "item": "croparia:fruit_honeycomb",
+    "amount": 1,
+	"probability": 0.33
+  }
+}

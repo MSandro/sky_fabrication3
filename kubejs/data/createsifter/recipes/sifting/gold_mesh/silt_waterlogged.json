@@ -1,0 +1,19 @@
+{
+  "type": "createsifter:sifting",
+  "ingredients": [
+    {
+      "item": "createsifter:brass_mesh"
+    },
+    {
+      "item": "fabricaeexnihilo:silt"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:lily_pad",
+      "chance": 0.2
+    }
+  ],
+  "processingTime": 500,
+  "waterlogged": true
+}

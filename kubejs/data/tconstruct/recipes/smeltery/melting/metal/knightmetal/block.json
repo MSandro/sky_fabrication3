@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "twilightforest:knightmetal_block"
+  },
+  "result": {
+    "fluid": "twilightforest:molten_knightmetal",
+    "amount": 81000
+  },
+  "temperature": 950,
+  "time": 194
+}

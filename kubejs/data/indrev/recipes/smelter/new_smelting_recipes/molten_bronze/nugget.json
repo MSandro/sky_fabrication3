@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "modern_industrialization:bronze_nugget"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_bronze",
+    "amount": 1000
+  },
+  "processTime": 76
+}

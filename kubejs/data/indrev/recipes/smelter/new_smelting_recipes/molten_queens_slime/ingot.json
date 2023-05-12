@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "tconstruct:queens_slime_ingot"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_queens_slime",
+    "amount": 9000
+  },
+  "processTime": 284
+}

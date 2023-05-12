@@ -1,0 +1,15 @@
+{
+  "name": "minecraft:sand",
+  "tier": 2,
+  "yield": 25,
+  "additional_drops": [
+    {
+      "name": "minecraft:quartz",
+      "rarity": "rare",
+      "incompatible_mods": [
+        "techreborn"
+      ]
+    }
+  ],
+  "disabled_drops": []
+}

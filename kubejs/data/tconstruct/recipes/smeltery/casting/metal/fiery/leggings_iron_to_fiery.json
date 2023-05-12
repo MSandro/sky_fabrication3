@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "minecraft:iron_leggings"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "c:fiery_essence",
+    "amount": 56700
+  },
+  "result": {
+    "item": "twilightforest:fiery_leggings"
+  },
+  "cooling_time": 60
+}

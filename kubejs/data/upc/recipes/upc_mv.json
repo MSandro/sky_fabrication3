@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "CRC",
+    "ICI"
+  ],
+  "key": {
+    "C": {
+      "item": "indrev:cable_mk2"
+    },
+    "I": {
+      "item": "techreborn:iridium_alloy_plate"
+    },
+    "R": {
+      "item": "modern_industrialization:advanced_machine_hull"
+    }
+  },
+  "result": {
+    "item": "upc:upc_mv",
+    "count": 1
+  }
+}

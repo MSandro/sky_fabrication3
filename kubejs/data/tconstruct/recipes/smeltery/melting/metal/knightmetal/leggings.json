@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "ingredient": {
+    "item": "twilightforest:knightmetal_leggings"
+  },
+  "result": {
+    "fluid": "twilightforest:molten_knightmetal",
+    "amount": 63000,
+    "unit_size": 1000
+  },
+  "temperature": 950,
+  "time": 165
+}

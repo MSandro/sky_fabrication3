@@ -1,0 +1,7 @@
+{
+    "type": "fabricaeexnihilo:crucible",
+    "input": "twigs:bamboo_leaves",
+    "amount": 4050,
+    "fluid": "minecraft:water",
+    "requiresFireproofCrucible": false
+}

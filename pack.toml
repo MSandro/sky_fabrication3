@@ -1,13 +1,13 @@
 name = "Sky FABRICation 3"
 author = "MSandro"
-version = "0.5.7a"
+version = "0.6.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b6fb8de344b45b670ebdf97135cd70c5295aa0ded5a16cfe86a9c13e8d5f7e01"
+hash = "6c9c45810e4db8401804406c4985d3718c32ec2ec093c91b23bd49bfdfac7b7a"
 
 [versions]
-fabric = "0.14.12"
+fabric = "0.14.19"
 minecraft = "1.18.2"

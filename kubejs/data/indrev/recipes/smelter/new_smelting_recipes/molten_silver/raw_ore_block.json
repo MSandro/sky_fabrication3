@@ -1,0 +1,11 @@
+{
+  "type": "indrev:smelter",
+  "ingredients": {
+    "item": "modern_industrialization:raw_silver_block"
+  },
+  "fluidOutput": {
+    "fluid": "tconstruct:molten_silver",
+    "amount": 108000
+  },
+  "processTime": 1436
+}

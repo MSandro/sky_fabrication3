@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " U ",
+    "UQU",
+    " U "
+  ],
+  "key": {
+    "Q": {
+      "item": "modern_industrialization:quantum_barrel"
+    },
+    "U": {
+      "item": "kubejs:s4_upgrade"
+    }
+  },
+  "result": {
+    "item": "extended_drawers:creative_upgrade"
+  }
+}
