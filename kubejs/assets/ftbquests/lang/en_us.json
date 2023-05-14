@@ -1,0 +1,264 @@
+{
+    "getting_started.welcome.title": "Welcome to Sky FABRICation 3",
+    "getting_started.welcome.subtitle": "A Whole New Void!",
+    "getting_started.welcome.text.1": "Thanks for playing Sky FABRICation 3.",
+    "getting_started.welcome.text.2": "In this version you have the choice how to start the modpack. You will also have to choose your Origin!",
+    "getting_started.welcome.unlock_inventory": "Unlock Inventory",
+    
+    "getting_started.trinkets.title": "Where are my Trinkets Slots?",
+    "getting_started.trinkets.checkmark": "Inventory Upgrade",
+    "getting_started.trinkets.subtitle": "Use the switch in the upper right of your inventory!",
+    "getting_started.trinkets.text.1": "Inventorio was installed to improve the inventory.",
+    "getting_started.trinkets.text.2": "By default you have a tool-belt and 4 off-hand slots.",
+    "getting_started.trinkets.text.3": "You can switch back to the default inventory by using the switch in the upper right.",
+    "getting_started.trinkets.text.4": "Please give feedback in the Discord Server.",
+    
+    "getting_started.recipe.title": "Recipe Wizardry",
+    "getting_started.recipe.checkmark": "I know how to use U and R",
+    "getting_started.recipe.subtitle": "A recipe is a story that ends with a good meal.",
+    "getting_started.recipe.text.1": "How to use an item? Hover over the item in REI and press \"U\" this will show you the uses, pay attention to the tabs.",
+    "getting_started.recipe.text.2": "Dont know how to craft an item? Hover over the item and press \"R\".",
+    "getting_started.recipe.text.3": "Sometimes you have to start out processing a nugget, instead of an ingot or a block.",
+    "getting_started.recipe.text.4": "You may need to look at the recipes for the material's respective nugget or sometimes even powders.",
+    
+    "getting_started.excavate.title": "Excavate",
+    "getting_started.excavate.checkmark": "Excavate",
+    "getting_started.excavate.subtitle": "Ores Be Gone!",
+    "getting_started.excavate.text.1": "Excavate is by default bound to keybind \"Grave\"",
+    "getting_started.excavate.text.2": "You can change this keybind by going into options and change the FTB Ultimine keybinds.",
+    
+    "getting_started.structures.title": "Where are the Structures?",
+    "getting_started.structures.checkmark": "Where are the Structures?",
+    "getting_started.structures.subtitle": "Structures are not disabled!",
+    "getting_started.structures.text.1": "The Overworld is completely empty, you will not find any structures here.",
+    "getting_started.structures.text.2": "The Nether and some dimensions like the Sky Islands Dimension or the End are full of common and rare structures to discover.",
+    "getting_started.structures.text.3": "Take a look at the Adventurer chapter to find out more detailed information.",
+    
+    "getting_started.emergency.title": "In case of Emergency",
+    "getting_started.emergency.checkmark": "In case of Emergency",
+    "getting_started.emergency.subtitle": "Use the §f§n/emergency§r command in case you lost your only sapling/bamboo/fishing rod, depending on chosen island.",
+    
+    "getting_started.start.title": "Where to start?",
+    "getting_started.start.checkmark": "Learning Mods",
+    "getting_started.start.subtitle": "Follow the Progression Guide to continue!",
+    "getting_started.start.text.1": "Mods are split into 5 categories:",
+    "getting_started.start.text.2": "- Progression\n- Technology\n- Magic\n- Utilities\n- Logistics",
+    "getting_started.start.text.3": "Respectively, each chapter will guide you through progression.",
+    "getting_started.start.text.4": "Certain chapters will have tips and tricks on how to ease your adventures with useful trinkets and gadgets.",
+    
+    "getting_started.void.title": "Fall into the Void",
+    "getting_started.void.checkmark": "Fall into the Void",
+    "getting_started.void.subtitle": "If you fall into the void you will be teleported to the top of the world.",
+    
+    "getting_started.crafting.title": "Crafting on the go",
+    "getting_started.crafting.checkmark": "Crafting on the go",
+    "getting_started.crafting.subtitle": "Only 0.0001 BTC",
+    "getting_started.crafting.text.1": "Tired of having to put that crafting table of yours down any time your tool breaks when mining? Look no more!",
+    "getting_started.crafting.text.2": "Make the Crafting Table On A Stick!",
+    "getting_started.crafting.text.3": "There's also one for the following:",
+    "getting_started.crafting.text.4": "- Anvil\n- Cartography\n- Grindstone\n- Loom\n- Smithing\n- Stonecutter",
+    
+    "the_beginning.tree_island.wood.title": "Collect Wood",
+    "the_beginning.tree_island.wood.subtitle": "Harvest a tree!",
+    
+    "the_beginning.tree_island.water.title": "Water... Need water...",
+    "the_beginning.tree_island.water.subtitle": "Here you will get your water!",
+    "the_beginning.tree_island.water.text.1": "Use this to create water from plant materials.",
+    "the_beginning.tree_island.water.text.2": "Saplings or apples would be a good idea.",
+    
+    "the_beginning.tree_island.barrel.title": "Barrels of Fun",
+    "the_beginning.tree_island.barrel.subtitle": "",
+    "the_beginning.tree_island.barrel.text.1": "At first you should insert some organic materials, this will produce dirt.",
+    "the_beginning.tree_island.barrel.text.2": "Because this barrel is made out of planks, it can leak fluids into a block below.",
+    
+    "the_beginning.tree_island.crook.title": "I am not a crook! Oh wait...",
+    "the_beginning.tree_island.crook.subtitle": "",
+    "the_beginning.tree_island.crook.text.1": "Wooden crooks are a staple to getting silk worms and higher chance for saplings from all trees.",
+    "the_beginning.tree_island.crook.text.2": "There are many crooks with varying durability.",
+    
+    "the_beginning.tree_island.silkworm.title": "There is an infestation!",
+    "the_beginning.tree_island.silkworm.subtitle": "",
+    "the_beginning.tree_island.silkworm.text.1": "Silkworms drop from leaves broken using a crook.",
+    "the_beginning.tree_island.silkworm.text.2": "Can be cooked for food, or used on leaves to infest them.",
+    "the_beginning.tree_island.silkworm.text.3": "Infested leaves will drop strings, but not saplings.",
+    
+    "the_beginning.fishing_island.fishing.title": "Fishing and Chill",
+    
+    "the_beginning.fishing_island.driftwood.title": "Driftwood",
+    "the_beginning.fishing_island.driftwood.subtitle": "You can sometimes fish up some Oak Logs, Oak Planks and Dirt.",
+    
+    "the_beginning.fishing_island.fishing_rod.title": "In case your Fishing Rod broke",
+    "the_beginning.fishing_island.fishing_rod.subtitle": "",
+    "the_beginning.fishing_island.fishing_rod.text.1": "This quest is repeatable - meaning that you can always get a new Fishing Rod every 5 XP Levels gained!",
+    
+    "the_beginning.bamboo_island.bamboo.title": "Bamboozled",
+    "the_beginning.bamboo_island.bamboo.subtitle": "",
+    "the_beginning.bamboo_island.bamboo.text.1": "Spam the sneak key to make your bamboo grow faster.",
+    
+    "the_beginning.bamboo_island.axe.subtitle": "You can strip Bamboo by right clicking with a axe.",
+    "the_beginning.bamboo_island.axe.text.1": "Craft one of these to complete this quest.\n(TiC tools do not need to be assembled like in the task.)",
+    "the_beginning.bamboo_island.axe.text.2": "If the quest doesn't complete, throw the item on the ground and pick it up, or move it around in the inventory.",
+    
+    "the_beginning.bamboo_island.stripped_bamboo.subtitle": "You will need some Stripped Bamboo for making barrels and sieves.",
+    
+    "the_beginning.bamboo_island.barrel.title": "Tiki Barrel",
+    "the_beginning.bamboo_island.barrel.subtitle": "",
+    "the_beginning.bamboo_island.barrel.text.1": "You farmed so much compost, why not use some to obtain more Dirt?",
+    
+    "the_beginning.bamboo_island.skeletons.title": "Spooky Scary Skeletons",
+    "the_beginning.bamboo_island.skeletons.subtitle": "You need something harder than elastic bamboo.",
+    "the_beginning.bamboo_island.skeletons.text.1": "You will need some Bones for the Bone Crucible.",
+    
+    "the_beginning.bamboo_island.bone_knife.subtitle": "Peace was never an option.",
+    "the_beginning.bamboo_island.bone_knife.text.1": "The Bone Knife can be used to carve out a Crucible from a Bone Block.",
+    "the_beginning.bamboo_island.bone_knife.text.2": "It can also be used as a rudimentary weapon.",
+    
+    "the_beginning.bamboo_island.water.subtitle": "Suprisingly, Bone Crucible can't hold lava.",
+    "the_beginning.bamboo_island.water.text.1": "But nevertheless, you can use some of your Bamboo Leaves to make water.",
+    "the_beginning.bamboo_island.water.text.2": "To make a Bone Crucible, Right-Click on a Bone Block with a Bone Knife in hand.",
+    
+    "the_beginning.wooden_hopper.title": "Early Automation",
+    
+    "the_beginning.crafting.title": "Crafting",
+    "the_beginning.crafting.subtitle": "Necessary to craft 3x3 recipes.",
+    "the_beginning.crafting.text.1": "Crafting Stations can hold items inside, and can utilize items from the inventory next to it!",
+    
+    "the_beginning.spiders.title": "Those pesky arthopods!",
+    "the_beginning.spiders.subtitle": "",
+    "the_beginning.spiders.text.1": "You probably feared them at least once.\n\nHere, you need to kill those pesky Spiders to obtain some String.",
+    
+    "the_beginning.string.title": "Strung for Strings",
+    "the_beginning.string.subtitle": "",
+    "the_beginning.string.text.1": "Quite important to make a White bed early, especially with those Phant0ms out there.",
+    
+    "the_beginning.sieve.title": "To get more materials",
+    "the_beginning.sieve.subtitle": "",
+    "the_beginning.sieve.text.1": "This is your basic way to get materials, insert mesh, sieve a valid material and get resources, its that simple!",
+    "the_beginning.sieve.text.2": "Putting multiple sieves side by side acts as a multiblock structure, letting you sieve in bulk, up to 25 Sieves at once! (in a 5x5 square).",
+    "the_beginning.sieve.text.3": "Later you will be able to use a Deployer or a Click Machine to automate it.\nNote that it can be tricky - because fake players can also unequip Meshes from the Sieve, which breaks the whole automation!",
+    "the_beginning.sieve.text.4": "A Sieve can be water-logged.",
+    
+    "the_beginning.dirt_sieve.title": "A Dirt-y idea.",
+    "the_beginning.dirt_sieve.subtitle": "",
+    "the_beginning.dirt_sieve.text.1": "These seeds can be obtained by sieving dirt or sand.",
+    "the_beginning.dirt_sieve.text.2": "Ancient Spores will turn Dirt to Mycelium.\nGrass Seed will turn Dirt to a Grass Block.",
+    
+    "the_beginning.witchwater.title": "Fluid Transformation",
+    "the_beginning.witchwater.subtitle": "",
+    "the_beginning.witchwater.text.1": "Fluid Transformation is required to receive some resources.",
+    "the_beginning.witchwater.text.2": "This quest will explain how to get those fluids. Later quests will explain what they can do.",
+    "the_beginning.witchwater.text.3": "To get Witchwater, you can do one of the following:\n- Right-Click a barrel full of water with some Ancient Spores in hand - instant transformation,\n- Insert water into a barrel placed above Mycelium - this will slowly transform water into Witchwater.",
+    
+    "the_beginning.dolls.title": "Summoning and Transforming mobs",
+    "the_beginning.dolls.subtitle": "",
+    "the_beginning.dolls.text.1": "Summoning and Transforming mobs is a feature of FabricaeExNihilo!",
+    "the_beginning.dolls.text.2": "Using Witchwater, you can transform mobs into scarier, stonger variants:",
+    "the_beginning.dolls.text.3": "- Villagers -> Witches,\n- Creepers -> Charged Creepers,\n- Squids -> Ghasts,\n- Skeletons -> Wither Skeletons.",
+    "the_beginning.dolls.text.4": "You can also use dolls to summon mobs using barrels.\nYou can see the required fluid in the barrel in the \"Alchemy\" section in REI - just right-click the doll in REI or press \"U\" while hovering over it!",
+    
+    "the_beginning.dirt_farm.title": "A Dirt Farm?",
+    "the_beginning.dirt_farm.subtitle": "",
+    "the_beginning.dirt_farm.text.1": "You can use Witchwater to generate infinite Dirt.\nBy using Witchwater and regular Water in the configuration below, it will generate Dirt and sometimes Podzol!",
+    
+    "the_beginning.create_sifter.subtitle": "Automated Sieving!",
+    "the_beginning.create_sifter.text.1": "It will automatically sieve items inserted into it.\n\nMechanically similar to a Millstone.\n\nFabricaeExNihilo Meshes won't work here - using Crafting you can switch between FabricaeExNihilo and Create Sifter variants of meshes.\n\nPlease Note: You need some sort of a blacklistable item extraction (like Brass Funnels or Smart Chutes), because without filtering it will extract currently sieved items!\n\nA huge advantage of the Sifter is the fact that it will not automatically unequip meshes nor it will spill out items into the world.\n\nThe Sifter can also be Waterlogged to process certain recipes.",
+    
+    "the_beginning.cobblestone.title": "Simply Cobble",
+    "the_beginning.cobblestone.subtitle": "Sieving for Pebbles!",
+    "the_beginning.cobblestone.text.1": "Cobblestone, the most basic, and useful block for Skyblock since it's beginning.",
+    "the_beginning.cobblestone.text.2": "You can put 4 pebbles in the crafting table to get cobblestone or other stones like andesite, diorite, granite and much more.",
+    
+    "the_beginning.stone_barrel.subtitle": "A barrel made out of solid stone.",
+    "the_beginning.stone_barrel.text.1": "This barrel can withstand lava!",
+    "the_beginning.stone_barrel.text.2": "You will surely find it useful when automating Obsidian or Stone.",
+    
+    "the_beginning.blood.title": "Barrel Enchanting",
+    "the_beginning.blood.subtitle": "",
+    "the_beginning.blood.text.1": "Once you get your hands on an Enchantment Table, you can try to enchant a Barrel with Thorns.",
+    "the_beginning.blood.text.2": "If you stand on it, it will produce blood while damaging you.\nIt works with mobs as well.",
+    
+    "the_beginning.stone_hammer.title": "Time to Grind",
+    "the_beginning.stone_hammer.subtitle": "",
+    "the_beginning.stone_hammer.text.1": "To get the next 3 sieving materials, you have to hammer them.\n\nSimply place the block down and break them with the hammer.\n\nREI will show the blocks that can be broken.\n\nCobble > Gravel > Sand > Silt > Dust",
+    
+    "the_beginning.salt_brine.title": "Time to Grind",
+    "the_beginning.salt_brine.subtitle": "Use a bottle on a Sand block to get Salt.",
+    
+    "the_beginning.dust.title": "This is not even my final form!",
+    "the_beginning.dust.subtitle": "",
+    "the_beginning.dust.text.1": "The only way to transform dust beyond, is to either sieve into materials, or turn it into clay.\n\nYou could also made it into lava... but compared to cobblestone, dust gives 1/5 the amount of lava. So not a wise choice.",
+    
+    "the_beginning.crucible.title": "Crucial Crucible",
+    "the_beginning.crucible.subtitle": "",
+    "the_beginning.crucible.text.1": "Crucible are the tip of the iceberg (or in this case volcano) when it comes to lava production.\n\nIt needs a heat source under it to function.\n\nTorch, Fire, Lava, and some blocks provide their own level of heat.",
+    "the_beginning.crucible.text.2": "Once heated you can put or pump materials into the crucible(s), some materials provide more lava then others.\n\nThis can potentionally be use as a power free AFK lava generator.",
+    
+    "the_beginning.heat_sources.title": "Heat Sources",
+    "the_beginning.heat_sources.subtitle": "",
+    "the_beginning.heat_sources.text.1": "Heat Sources can be seen from pressing U while hovering your mouse over a crucible.",
+    
+    "the_beginning.lava.title": "Blocks for Lava?",
+    "the_beginning.lava.subtitle": "",
+    "the_beginning.lava.text.1": "Lava production not only needs heat, but also needs blocks for production.\n\nPressing U while hovering over the crucible in the inventory, will show what it can take.",
+    "the_beginning.lava.text.2": "Cobblestone is the most common use in the past that produces 1/4 bucket per block of lava.\n\nBut Obsidian and Netherrack makes a whole bucket of lava.",
+    
+    "the_beginning.breaker.text.1": "This Block Breaker can be used to hammer e.g. cobblestone to gravel.",
+    
+    "the_beginning.cobblegen.title": "All the cobble gens!",
+    "the_beginning.cobblegen.subtitle": "",
+    "the_beginning.cobblegen.text.1": "There are many cobble generators in this modpack.\n\nFrom Vanilla, to Kibe's Cobble Gens.\n\nFeel free to choose what you like.",
+    
+    "the_beginning.nether.title": "We need to go deeper!",
+    "the_beginning.nether.subtitle": "",
+    "the_beginning.nether.text.1": "Other Dimensions like the Nether are not empty. You can discover some structures there.",
+    
+    "the_beginning.nether_fungi.title": "Nether Fungi",
+    "the_beginning.nether_fungi.subtitle_nether": "You will need these to get Shroomlights.",
+    "the_beginning.nether_fungi.subtitle_mesh": "Obtain a Nether Fungus!",
+    "the_beginning.nether_fungi.text.1_nether": "Obtain one of these items to complete this quest.",
+    "the_beginning.nether_fungi.text.1_mesh": "You can use Bone Meal on the Netherrack next to a Crimson/Warped Nylium to spread it to that Netherrack block.\n\nYou can apply Bone Meal onto Crimson/Warped Nylium to get various Nether vegetation, including Nether fungi.",
+    
+    "the_beginning.hephaestus.title": "I am Grout!",
+    "the_beginning.hephaestus.subtitle": "Hephaestus is here (Fabric port of TConstruct, BETA)",
+    "the_beginning.hephaestus.text.1": "Hephaestus - the ancient Greek god of Smithing.\n\nFeel free to try out Hephaestus, the Tinkers Construct port for Fabric.\nIts not fully included in the modpack, so some recipes are currently missing.",
+    
+    "the_beginning.saplings.title": "Saplings!",
+    "the_beginning.saplings.subtitle": "Collect them all!",
+    
+    "the_beginning.crook2.title": "Am I a crook?",
+    "the_beginning.crook2.subtitle": "No Sapling yet?",
+    "the_beginning.crook2.text.1": "By sieving Dirt, you can finally get a Sapling.",
+    "the_beginning.crook2.text.2": "Break leaves using Crooks to get Silkworms. You will also get more saplings than you would get by breaking by hand!",
+    
+    "the_beginning.string_mesh.subtitle": "",
+    "the_beginning.string_mesh.text.1": "Meshes have been given an upgrade since we last encountered them, now going up to Netherite!",
+    "the_beginning.string_mesh.text.2": "Note that Emerald mesh won't upgrade to Netherite.",
+    
+    "the_beginning.quartz.subtitle": "You will need some Nether Quartz for your next mesh.",
+    "the_beginning.quartz.text.1": "It can be obtained by sieving Soul Sand through a Flint Mesh.",
+    "the_beginning.quartz.text.2": "But how do you get Soul Sand?\n\nThe answer is: Witchwater!",
+    
+    "the_beginning.netherite_mesh.subtitle": "",
+    "the_beginning.netherite_mesh.text.1": "To get Ancient Debris for Netherite, you can use:\n> Botania's Orechid Ignem,\n> Modern Industrialization's Electric Quarry with Golden Drills,\nor you can plunder chests found in Nether Structures, especially Bastions and Nether \"End Ships\".",
+    "the_beginning.netherite_mesh.text.2": "After you collect a stack of Ancient Debris, you can make an IndRev Mining Rig to provide you with unlimited Ancient Debris!\n\nUsed to get Uraninite for Powah!. And only for that.",
+    
+    "the_beginning.gold.title": "How to obtain Gold?",
+    "the_beginning.gold.subtitle": "",
+    "the_beginning.gold.text.1": "The Quest Book will not tell you how to get each material.\nInstead, you have to find your own way. By using REI you should be able to find the answers.",
+    "the_beginning.gold.text.2": "Some materials like gold can be obtained in multiple ways.\nGold can be found in the Nether, but later you should build a automated gold production with the Create mod.",
+    
+    "the_beginning.alloy_forge.title": "Alloy Forge",
+    "the_beginning.alloy_forge.subtitle": "Expensive, but it's your first choice to smelt alloys.",
+    "the_beginning.alloy_forge.controller": "Prismarine or End Stone Forge Controller",
+    "the_beginning.alloy_forge.build": "Build a Prismarine Alloy Forge",
+    
+    "the_beginning.andesite_alloy.title": "What do I do with my Andesite?",
+    "the_beginning.andesite_alloy.subtitle": "Andesite and Iron open you the door to the Mechanical Age!",
+    
+    "the_beginning.shroomlight.subtitle": "You will need this later for Mechanical Age progression.",
+    
+    "the_beginning.spores.title": "Spores",
+    "the_beginning.spores.subtitle": "Bring a part of The Nether to your home island.",
+    "the_beginning.spores.text.1": "Use one of these on the Netherrack Block to turn it into Crimson/Warped Nylium.",
+    "the_beginning.spores.text.2": "Obtain Crimson or Warped Spores to complete this quest."
+}

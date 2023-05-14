@@ -1,30 +1,15 @@
 {
-	id: "6C99EC6E1599B728"
-	group: "38633DD49534BFCD"
-	order_index: 0
-	filename: "the_beginning"
-	title: "The Beginning"
-	icon: "fabricaeexnihilo:oak_sieve"
-	default_quest_shape: ""
+	quest_links: [ ]
 	default_hide_dependency_lines: false
+	group: "38633DD49534BFCD"
+	id: "6C99EC6E1599B728"
+	filename: "the_beginning"
+	default_quest_shape: ""
+	icon: "fabricaeexnihilo:oak_sieve"
+	title: "The Beginning"
+	order_index: 0
 	quests: [
 		{
-			title: "To get more materials"
-			x: 3.0d
-			y: -5.5d
-			description: [
-				"This is your basic way to get materials, insert mesh, sieve a valid material and get resources, its that simple!"
-				""
-				"Putting multiple sieves side by side acts as a multiblock structure, letting you sieve in bulk, up to 25 Sieves at once! (in a 5x5 square)."
-				""
-				"Later you will be able to use a Deployer or a Click Machine to automate it."
-				"Note that it can be tricky - because fake players can also unequip Meshes from the Sieve, which breaks the whole automation!"
-				""
-				"A Sieve can be water-logged."
-			]
-			dependencies: ["76B1B19B5D3949F5"]
-			min_required_tasks: 1
-			id: "2587A593554DBC4A"
 			tasks: [
 				{
 					id: "78082A8F71778128"
@@ -37,58 +22,64 @@
 					item: "fabricaeexnihilo:rubber_sieve"
 				}
 			]
+			description: [
+				"{the_beginning.sieve.text.1}"
+				""
+				"{the_beginning.sieve.text.2}"
+				""
+				"{the_beginning.sieve.text.3}"
+				""
+				"{the_beginning.sieve.text.4}"
+			]
+			id: "2587A593554DBC4A"
+			x: 3.0d
+			y: -5.5d
+			title: "{the_beginning.sieve.title}"
 			rewards: [{
 				id: "57AA7DEFD0892E4A"
 				type: "item"
 				item: "fabricaeexnihilo:raw_iron_piece"
 				count: 3
 			}]
+			subtitle: "{the_beginning.sieve.subtitle}"
+			dependencies: ["76B1B19B5D3949F5"]
+			min_required_tasks: 1
 		}
 		{
-			title: "Crucial Crucible"
-			x: 9.0d
-			y: -2.5d
-			description: [
-				"Crucible are the tip of the iceberg (or in this case volcano) when it comes to lava production."
-				""
-				"It needs a heat source under it to function."
-				""
-				"Torch, Fire, Lava, and some blocks provide their own level of heat."
-				""
-				"Once heated you can put or pump materials into the crucible(s), some materials provide more lava then others."
-				""
-				"This can potentionally be use as a power free AFK lava generator."
-			]
-			dependencies: ["1A9719BED12BDFC3"]
-			id: "5C106B6E6409EF22"
 			tasks: [{
 				id: "44E83B5E77B733F3"
 				type: "item"
 				item: "fabricaeexnihilo:porcelain_crucible"
 			}]
+			description: [
+				"{the_beginning.crucible.text.1}"
+				""
+				"{the_beginning.crucible.text.2}"
+			]
+			id: "5C106B6E6409EF22"
+			x: 9.0d
+			y: -2.5d
+			title: "{the_beginning.crucible.title}"
 			rewards: [{
 				id: "024BCCEE84F2B0FD"
 				type: "item"
 				item: "fabricaeexnihilo:stone_barrel"
 			}]
+			subtitle: "{the_beginning.crucible.subtitle}"
+			dependencies: ["1A9719BED12BDFC3"]
 		}
 		{
-			title: "This is not even my final form!"
-			x: 9.0d
-			y: -5.5d
-			description: [
-				"The only way to transform dust beyond, is to either sieve into materials, or turn it into clay."
-				""
-				"You could also made it into lava... but compared to cobblestone, dust gives 1/5 the amount of lava. So not a wise choice."
-			]
-			dependencies: ["1A9719BED12BDFC3"]
-			id: "276560C7054D7131"
 			tasks: [{
 				id: "3500358743E5638B"
 				type: "item"
 				item: "fabricaeexnihilo:dust"
 				count: 4L
 			}]
+			description: ["{the_beginning.dust.text.1}"]
+			id: "276560C7054D7131"
+			x: 9.0d
+			y: -5.5d
+			title: "{the_beginning.dust.title}"
 			rewards: [{
 				id: "49A1927E7B45852C"
 				type: "item"
@@ -116,18 +107,20 @@
 					}
 				}
 			}]
+			subtitle: "{the_beginning.dust.subtitle}"
+			dependencies: ["1A9719BED12BDFC3"]
 		}
 		{
-			x: 6.0d
-			y: -4.0d
-			dependencies: ["0BF9B63E286A7C1B"]
-			id: "1B3743770E4CCF42"
 			tasks: [{
 				id: "7765D4065719538A"
 				type: "item"
 				item: "minecraft:gravel"
 				count: 4L
 			}]
+			dependencies: ["0BF9B63E286A7C1B"]
+			id: "1B3743770E4CCF42"
+			y: -4.0d
+			x: 6.0d
 			rewards: [{
 				id: "15B361E7C3BFD1C1"
 				type: "item"
@@ -136,16 +129,16 @@
 			}]
 		}
 		{
-			x: 7.5d
-			y: -4.0d
-			dependencies: ["1B3743770E4CCF42"]
-			id: "508DEEE11F45E4F3"
 			tasks: [{
 				id: "415B428282916C73"
 				type: "item"
 				item: "minecraft:sand"
 				count: 4L
 			}]
+			dependencies: ["1B3743770E4CCF42"]
+			id: "508DEEE11F45E4F3"
+			y: -4.0d
+			x: 7.5d
 			rewards: [{
 				id: "1000EDC63EA5144F"
 				type: "item"
@@ -153,19 +146,6 @@
 			}]
 		}
 		{
-			title: "I am not a crook! Oh wait..."
-			x: 2.0d
-			y: -11.5d
-			description: [
-				"Wooden crooks are a staple to getting silk worms and higher chance for saplings from all trees."
-				""
-				"There are many crooks with varying durability."
-			]
-			dependencies: ["6D9CF1D77D05C2D4"]
-			hide: true
-			dependency_requirement: "one_completed"
-			optional: true
-			id: "458A8414A5189198"
 			tasks: [{
 				id: "217AF1AB5935DE87"
 				type: "item"
@@ -177,6 +157,11 @@
 					}
 				}
 			}]
+			description: [
+				"{the_beginning.tree_island.crook.text.1}"
+				""
+				"{the_beginning.tree_island.crook.text.2}"
+			]
 			rewards: [{
 				id: "04E6F9A92D8612E4"
 				type: "item"
@@ -188,22 +173,17 @@
 					}
 				}
 			}]
+			id: "458A8414A5189198"
+			x: 2.0d
+			y: -11.5d
+			title: "{the_beginning.tree_island.crook.title}"
+			dependency_requirement: "one_completed"
+			subtitle: "{the_beginning.tree_island.crook.subtitle}"
+			dependencies: ["6D9CF1D77D05C2D4"]
+			optional: true
+			hide: true
 		}
 		{
-			title: "Time to Grind"
-			x: 4.5d
-			y: -4.0d
-			description: [
-				"To get the next 3 sieving materials, you have to hammer them."
-				""
-				"Simply place the block down and break them with the hammer."
-				""
-				"REI will show the blocks that can be broken."
-				""
-				"Cobble > Gravel > Sand > Silt -> Dust"
-			]
-			dependencies: ["0B87D8D5CC3AF30D"]
-			id: "0BF9B63E286A7C1B"
 			tasks: [{
 				id: "00FA96B88F642341"
 				type: "item"
@@ -215,45 +195,53 @@
 					}
 				}
 			}]
+			description: ["{the_beginning.stone_hammer.text.1}"]
+			id: "0BF9B63E286A7C1B"
+			x: 4.5d
+			y: -4.0d
+			title: "{the_beginning.stone_hammer.title}"
 			rewards: [{
 				id: "1F9CE2440C50F885"
 				type: "item"
 				item: "minecraft:cobblestone"
 				count: 4
 			}]
+			subtitle: "{the_beginning.stone_hammer.subtitle}"
+			dependencies: ["0B87D8D5CC3AF30D"]
 		}
 		{
-			x: 1.5d
-			y: -5.5d
-			description: [
-				"Meshes have been given an upgrade since we last encountered them, now going up to Netherite!"
-				""
-				"Note that Emerald mesh won't upgrade to Netherite."
-			]
-			dependencies: ["2587A593554DBC4A"]
-			id: "4AA6039937E51455"
 			tasks: [{
 				id: "553618FD48D28A65"
 				type: "item"
 				item: "fabricaeexnihilo:string_mesh"
 			}]
+			description: [
+				"{the_beginning.string_mesh.text.1}"
+				""
+				"{the_beginning.string_mesh.text.2}"
+			]
+			id: "4AA6039937E51455"
+			x: 1.5d
+			y: -5.5d
 			rewards: [{
 				id: "0A384F8C95C0B783"
 				type: "item"
 				item: "fabricaeexnihilo:stone_pebble"
 				count: 15
 			}]
+			subtitle: "{the_beginning.string_mesh.subtitle}"
+			dependencies: ["2587A593554DBC4A"]
 		}
 		{
-			x: 0.0d
-			y: -5.5d
-			dependencies: ["4AA6039937E51455"]
-			id: "1F057C3C6AA5FD22"
 			tasks: [{
 				id: "7AEABEE2664D85EE"
 				type: "item"
 				item: "fabricaeexnihilo:flint_mesh"
 			}]
+			dependencies: ["4AA6039937E51455"]
+			id: "1F057C3C6AA5FD22"
+			y: -5.5d
+			x: 0.0d
 			rewards: [{
 				id: "1EE62537749C587E"
 				type: "item"
@@ -262,15 +250,15 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -5.5d
-			dependencies: ["63A774E246F91DB1"]
-			id: "29B095943AD26EA9"
 			tasks: [{
 				id: "55237905F174FAA7"
 				type: "item"
 				item: "fabricaeexnihilo:iron_mesh"
 			}]
+			dependencies: ["63A774E246F91DB1"]
+			id: "29B095943AD26EA9"
+			y: -5.5d
+			x: -3.0d
 			rewards: [{
 				id: "4E10859DBBAC8890"
 				type: "item"
@@ -279,35 +267,35 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -4.0d
-			dependencies: [
-				"29B095943AD26EA9"
-				"6B39422421203401"
-			]
-			dependency_requirement: "one_completed"
-			id: "42387D579F777B5E"
 			tasks: [{
 				id: "10A3924D160CC2B2"
 				type: "item"
 				item: "fabricaeexnihilo:diamond_mesh"
 			}]
+			id: "42387D579F777B5E"
+			x: -3.0d
+			y: -4.0d
 			rewards: [{
 				id: "1B8DA21CDFBBA8F1"
 				type: "random"
 				table_id: 13756307348121783L
 			}]
+			dependencies: [
+				"29B095943AD26EA9"
+				"6B39422421203401"
+			]
+			dependency_requirement: "one_completed"
 		}
 		{
-			x: 0.0d
-			y: -1.0d
-			dependencies: ["4138CA5A7F768170"]
-			id: "3375606B7B481265"
 			tasks: [{
 				id: "5BD2F4D3D78D3E00"
 				type: "item"
 				item: "fabricaeexnihilo:emerald_mesh"
 			}]
+			dependencies: ["4138CA5A7F768170"]
+			id: "3375606B7B481265"
+			y: -1.0d
+			x: 0.0d
 			rewards: [{
 				id: "6263E09ADF263035"
 				type: "item"
@@ -316,72 +304,56 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: -2.5d
-			description: [
-				"To get Ancient Debris for Netherite, you can use:"
-				"> Botania's Orechid Ignem,"
-				"> Modern Industrialization's Electric Quarry with Golden Drills,"
-				"or you can plunder chests found in Nether Structures, especially Bastions and Nether \"End Ships\"."
-				""
-				"After you collect a stack of Ancient Debris, you can make an IndRev Mining Rig to provide you with unlimited Ancient Debris!"
-				""
-				"Used to get Uraninite for Powah!. And only for that."
-			]
-			dependencies: ["42387D579F777B5E"]
-			id: "5E9F6228BBC60FFC"
 			tasks: [{
 				id: "692A1A67A3A43BAD"
 				type: "item"
 				item: "fabricaeexnihilo:netherite_mesh"
 			}]
+			description: [
+				"{the_beginning.netherite_mesh.text.1}"
+				""
+				"{the_beginning.netherite_mesh.text.2}"
+			]
+			id: "5E9F6228BBC60FFC"
+			x: -3.0d
+			y: -2.5d
 			rewards: [{
 				id: "594F84A51ADF373C"
 				type: "item"
 				item: "expandedstorage:wood_to_netherite_conversion_kit"
 			}]
+			subtitle: "{the_beginning.netherite_mesh.subtitle}"
+			dependencies: ["42387D579F777B5E"]
 		}
 		{
-			title: "There is an infestation!"
-			x: 2.0d
-			y: -8.5d
-			description: [
-				"Silkworms drop from leaves broken using a crook."
-				""
-				"Can be cooked for food, or used on leaves to infest them."
-				""
-				"Infested leaves will drop strings, but not saplings."
-			]
-			dependencies: ["458A8414A5189198"]
-			hide: true
-			optional: true
-			id: "564263E35EFCAD21"
 			tasks: [{
 				id: "5F37DF3800A01F53"
 				type: "item"
 				item: "fabricaeexnihilo:raw_silkworm"
 			}]
+			description: [
+				"{the_beginning.tree_island.silkworm.text.1}"
+				""
+				"{the_beginning.tree_island.silkworm.text.2}"
+				""
+				"{the_beginning.tree_island.silkworm.text.3}"
+			]
+			id: "564263E35EFCAD21"
+			x: 2.0d
+			y: -8.5d
+			title: "{the_beginning.tree_island.silkworm.title}"
 			rewards: [{
 				id: "681B44C761EB49C5"
 				type: "item"
 				item: "fabricaeexnihilo:cooked_silkworm"
 				count: 8
 			}]
+			subtitle: "{the_beginning.tree_island.silkworm.subtitle}"
+			dependencies: ["458A8414A5189198"]
+			optional: true
+			hide: true
 		}
 		{
-			title: "A Dirt-y idea."
-			icon: "minecraft:mycelium"
-			x: 4.5d
-			y: -5.5d
-			description: [
-				"These seeds are from sieving dirt or sand."
-				""
-				"- Ancient spores will turn dirt to Mycelium"
-				"- Grass seed turns dirt to grass."
-				""
-			]
-			dependencies: ["2587A593554DBC4A"]
-			id: "046D86775F6FF8D3"
 			tasks: [
 				{
 					id: "0ED2CEF487048036"
@@ -404,28 +376,26 @@
 					item: "fabricaeexnihilo:kelp_seeds"
 				}
 			]
+			description: [
+				"{the_beginning.dirt_sieve.text.1}"
+				""
+				"{the_beginning.dirt_sieve.text.2}"
+			]
+			id: "046D86775F6FF8D3"
+			icon: "minecraft:mycelium"
+			x: 4.5d
+			y: -5.5d
+			title: "{the_beginning.dirt_sieve.title}"
 			rewards: [{
 				id: "7B346AC46945E8C5"
 				type: "item"
 				item: "minecraft:beetroot_seeds"
 				count: 4
 			}]
+			subtitle: "{the_beginning.dirt_sieve.subtitle}"
+			dependencies: ["2587A593554DBC4A"]
 		}
 		{
-			title: "All the cobble gens!"
-			icon: "kibe:cobblestone_generator_mk1"
-			x: 10.5d
-			y: -1.0d
-			description: [
-				"There are many cobble generators in this modpack."
-				""
-				"From Vanilla, to Kibe's Cobble Gens."
-				""
-				"Feel free to choose what you like."
-				""
-			]
-			dependencies: ["153C83AD044BF76A"]
-			id: "1D137ABA27562E47"
 			tasks: [
 				{
 					id: "329574D79C45D26F"
@@ -438,24 +408,21 @@
 					item: "kibe:basalt_generator_mk1"
 				}
 			]
+			description: ["{the_beginning.cobblegen.text.1}"]
+			id: "1D137ABA27562E47"
+			icon: "kibe:cobblestone_generator_mk1"
+			x: 10.5d
+			y: -1.0d
+			title: "{the_beginning.cobblegen.title}"
 			rewards: [{
 				id: "50DE23B26B05CB51"
 				type: "item"
 				item: "compress:compressed_cobblestone_3"
 			}]
+			subtitle: "{the_beginning.cobblegen.subtitle}"
+			dependencies: ["153C83AD044BF76A"]
 		}
 		{
-			title: "Strung for Strings"
-			x: 3.0d
-			y: -7.0d
-			description: ["Quite important to make a White bed early, especially with those Phant0ms out there."]
-			min_required_dependencies: 1
-			dependencies: [
-				"564263E35EFCAD21"
-				"5BDA39AF551851EA"
-			]
-			min_required_tasks: 1
-			id: "76B1B19B5D3949F5"
 			tasks: [
 				{
 					id: "061D03A3DC2E464E"
@@ -468,30 +435,40 @@
 					item: "kibe:white_sleeping_bag"
 				}
 			]
+			description: ["{the_beginning.string.text.1}"]
+			min_required_dependencies: 1
+			id: "76B1B19B5D3949F5"
+			x: 3.0d
+			y: -7.0d
+			title: "{the_beginning.string.title}"
 			rewards: [{
 				id: "1A015A83C001FDD1"
 				type: "item"
 				item: "minecraft:string"
 				count: 4
 			}]
+			subtitle: "{the_beginning.string.subtitle}"
+			dependencies: [
+				"564263E35EFCAD21"
+				"5BDA39AF551851EA"
+			]
+			min_required_tasks: 1
 		}
 		{
-			title: "Simply Cobble"
-			x: 3.0d
-			y: -4.0d
-			subtitle: "Sieving for Pebbles!"
-			description: [
-				"Cobblestone, the most basic, and useful block for Skyblock since it's beginning."
-				""
-				"You can put 4 pebbles in the crafting table to get cobblestone or other stones like andesite, diorite, granite and much more."
-			]
-			dependencies: ["2587A593554DBC4A"]
-			id: "0B87D8D5CC3AF30D"
 			tasks: [{
 				id: "387C9E265EF2BFE0"
 				type: "item"
 				item: "minecraft:cobblestone"
 			}]
+			description: [
+				"{the_beginning.cobblestone.text.1}"
+				""
+				"{the_beginning.cobblestone.text.2}"
+			]
+			id: "0B87D8D5CC3AF30D"
+			x: 3.0d
+			y: -4.0d
+			title: "{the_beginning.cobblestone.title}"
 			rewards: [{
 				id: "3E13878CF5AF3F18"
 				type: "item"
@@ -503,20 +480,10 @@
 					}
 				}
 			}]
+			subtitle: "{the_beginning.cobblestone.subtitle}"
+			dependencies: ["2587A593554DBC4A"]
 		}
 		{
-			title: "Barrels of Fun"
-			x: 0.0d
-			y: -13.0d
-			description: [
-				"At first you should insert some organic materials, this will produce dirt."
-				""
-				"Stone Barrels can be used for both hot and cold liquids."
-			]
-			dependencies: ["6D9CF1D77D05C2D4"]
-			hide: true
-			optional: true
-			id: "5E67AA32C8260EFE"
 			tasks: [
 				{
 					id: "3E0D5CE550B290BB"
@@ -562,30 +529,27 @@
 					count: 4L
 				}
 			]
+			description: [
+				"{the_beginning.tree_island.barrel.text.1}"
+				""
+				"{the_beginning.tree_island.barrel.text.2}"
+			]
+			id: "5E67AA32C8260EFE"
+			x: 0.0d
+			y: -13.0d
+			title: "{the_beginning.tree_island.barrel.title}"
 			rewards: [{
 				id: "042B8977BF062957"
 				type: "item"
 				item: "minecraft:oak_sapling"
 				count: 16
 			}]
+			subtitle: "{the_beginning.tree_island.barrel.subtitle}"
+			dependencies: ["6D9CF1D77D05C2D4"]
+			optional: true
+			hide: true
 		}
 		{
-			title: "Heat Sources"
-			icon: {
-				id: "minecraft:flint_and_steel"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 10.5d
-			y: -2.5d
-			description: [
-				"Heat Sources can be seen from pressing U while hovering your mouse over a crucible."
-				""
-			]
-			dependencies: ["5C106B6E6409EF22"]
-			id: "7F58FDC48A15959F"
 			tasks: [
 				{
 					id: "6BC1EAC25E4E1035"
@@ -604,81 +568,75 @@
 					item: "minecraft:netherrack"
 				}
 			]
+			description: ["{the_beginning.heat_sources.text.1}"]
+			id: "7F58FDC48A15959F"
+			icon: {
+				id: "minecraft:flint_and_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 10.5d
+			y: -2.5d
+			title: "{the_beginning.heat_sources.title}"
 			rewards: [{
 				id: "73AFD3F476EF15E8"
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "{the_beginning.heat_sources.subtitle}"
+			dependencies: ["5C106B6E6409EF22"]
 		}
 		{
-			title: "Blocks for Lava?"
-			x: 9.0d
-			y: -1.0d
-			description: [
-				"Lava production not only needs heat, but also needs blocks for production."
-				""
-				"Pressing U while hovering over the crucible in the inventory, will show what it can take."
-				""
-				"Cobblestone is the most common use in the past that produces 1/4 bucket per block of lava."
-				""
-				"But Obsidian and Netherrack makes a whole bucket of lava."
-			]
-			dependencies: ["5C106B6E6409EF22"]
-			id: "153C83AD044BF76A"
 			tasks: [{
 				id: "2E6269CE4D1B1B91"
 				type: "item"
 				item: "minecraft:lava_bucket"
 			}]
+			description: [
+				"{the_beginning.lava.text.1}"
+				""
+				"{the_beginning.lava.text.2}"
+			]
+			id: "153C83AD044BF76A"
+			x: 9.0d
+			y: -1.0d
+			title: "{the_beginning.lava.title}"
 			rewards: [{
 				id: "05A9612A2B359215"
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "{the_beginning.lava.subtitle}"
+			dependencies: ["5C106B6E6409EF22"]
 		}
 		{
-			title: "Fluid Transformation"
-			x: 6.0d
-			y: -5.5d
-			description: [
-				"Fluid Transformation is required to receive some resources."
-				""
-				"For this quest, I will explain how to get those fluids, as for the next quests, will explain what it can do."
-				""
-				"To get Witch Water, your barrel full of water must be clicked with a Ancient Spore to convert the fluid."
-			]
-			dependencies: ["046D86775F6FF8D3"]
-			id: "2F61617F7194D76A"
 			tasks: [{
 				id: "640D84EDC3A54A91"
 				type: "item"
 				item: "fabricaeexnihilo:witchwater_bucket"
 			}]
+			description: [
+				"{the_beginning.witchwater.text.1}"
+				""
+				"{the_beginning.witchwater.text.2}"
+				""
+				"{the_beginning.witchwater.text.3}"
+			]
+			id: "2F61617F7194D76A"
+			x: 6.0d
+			y: -5.5d
+			title: "{the_beginning.witchwater.title}"
 			rewards: [{
 				id: "017186D7A2FE497E"
 				type: "item"
 				item: "fabricaeexnihilo:mycelium_seeds"
 			}]
+			subtitle: "{the_beginning.witchwater.subtitle}"
+			dependencies: ["046D86775F6FF8D3"]
 		}
 		{
-			title: "Mob Summoning and Changing"
-			icon: "minecraft:wither_skeleton_skull"
-			x: 6.0d
-			y: -7.0d
-			description: [
-				"Mob spawning and changing is a bonus from the Ex Nihilo mod."
-				""
-				"Mobs can be transformed when doused, mainly by witch water:"
-				""
-				" - Villagers -> Witches"
-				" - Creepers -> Charged Creepers"
-				" - Squids -> Ghasts"
-				" - Skeletons -> Wither Skeletons"
-				""
-				"You can also use dolls, to summon mobs from barrels. The dolls required does give you what you need to summon them in their info when you hover your mouse over the item."
-			]
-			dependencies: ["2F61617F7194D76A"]
-			id: "0202FA0848EBB3CC"
 			tasks: [
 				{
 					id: "706CBF8F52B19BA1"
@@ -701,6 +659,20 @@
 					item: "fabricaeexnihilo:doll_enderman"
 				}
 			]
+			description: [
+				"{the_beginning.dolls.text.1}"
+				""
+				"{the_beginning.dolls.text.2}"
+				""
+				"{the_beginning.dolls.text.3}"
+				""
+				"{the_beginning.dolls.text.4}"
+			]
+			id: "0202FA0848EBB3CC"
+			icon: "minecraft:wither_skeleton_skull"
+			x: 6.0d
+			y: -7.0d
+			title: "{the_beginning.dolls.title}"
 			rewards: [
 				{
 					id: "528B65308C4E4E87"
@@ -743,18 +715,20 @@
 					item: "minecraft:gunpowder"
 				}
 			]
+			subtitle: "{the_beginning.dolls.subtitle}"
+			dependencies: ["2F61617F7194D76A"]
 		}
 		{
-			x: 9.0d
-			y: -4.0d
-			dependencies: ["508DEEE11F45E4F3"]
-			id: "1A9719BED12BDFC3"
 			tasks: [{
 				id: "11FB1D860C8E27FF"
 				type: "item"
 				item: "fabricaeexnihilo:silt"
 				count: 4L
 			}]
+			dependencies: ["508DEEE11F45E4F3"]
+			id: "1A9719BED12BDFC3"
+			y: -4.0d
+			x: 9.0d
 			rewards: [{
 				id: "0F97B790FB409BA6"
 				type: "item"
@@ -763,15 +737,15 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -4.0d
-			dependencies: ["1F057C3C6AA5FD22"]
-			id: "2F7CB28E05E32B6B"
 			tasks: [{
 				id: "48A60E3716538891"
 				type: "item"
 				item: "fabricaeexnihilo:copper_mesh"
 			}]
+			dependencies: ["1F057C3C6AA5FD22"]
+			id: "2F7CB28E05E32B6B"
+			y: -4.0d
+			x: 0.0d
 			rewards: [{
 				id: "5F2E5E24D5FDE717"
 				type: "item"
@@ -780,15 +754,15 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.5d
-			dependencies: ["2F7CB28E05E32B6B"]
-			id: "4138CA5A7F768170"
 			tasks: [{
 				id: "5148C22DD7A60C5E"
 				type: "item"
 				item: "fabricaeexnihilo:gold_mesh"
 			}]
+			dependencies: ["2F7CB28E05E32B6B"]
+			id: "4138CA5A7F768170"
+			y: -2.5d
+			x: 0.0d
 			rewards: [
 				{
 					id: "1418E45E0BD850C2"
@@ -803,12 +777,6 @@
 			]
 		}
 		{
-			title: "Salt and Brine"
-			x: 7.5d
-			y: -5.5d
-			subtitle: "Use a bottle on a Sand block."
-			dependencies: ["508DEEE11F45E4F3"]
-			id: "6A8F984980E9BB6B"
 			tasks: [
 				{
 					id: "69D302AF9669B873"
@@ -821,6 +789,10 @@
 					item: "fabricaeexnihilo:brine_bucket"
 				}
 			]
+			id: "6A8F984980E9BB6B"
+			x: 7.5d
+			y: -5.5d
+			title: "{the_beginning.salt_brine.title}"
 			rewards: [
 				{
 					id: "555EC7766EB956CD"
@@ -835,21 +807,10 @@
 					count: 2
 				}
 			]
+			subtitle: "{the_beginning.salt_brine.subtitle}"
+			dependencies: ["508DEEE11F45E4F3"]
 		}
 		{
-			title: "Water... Need water..."
-			x: 0.0d
-			y: -10.0d
-			subtitle: "Here you will get your water!"
-			description: [
-				"Use this to create water from plant materials."
-				""
-				"Saplings or apples would be a good idea."
-			]
-			dependencies: ["6D9CF1D77D05C2D4"]
-			hide: true
-			optional: true
-			id: "500132095BEC908B"
 			tasks: [
 				{
 					id: "2C886BA482CAFA8C"
@@ -902,48 +863,54 @@
 					}
 				}
 			]
+			description: [
+				"{the_beginning.tree_island.water.text.1}"
+				""
+				"{the_beginning.tree_island.water.text.2}"
+			]
+			id: "500132095BEC908B"
+			x: 0.0d
+			y: -10.0d
+			title: "{the_beginning.tree_island.water.title}"
 			rewards: [{
 				id: "1E59BD239846CAE4"
 				type: "item"
 				item: "kibe:water_wooden_bucket"
 			}]
+			subtitle: "{the_beginning.tree_island.water.subtitle}"
+			dependencies: ["6D9CF1D77D05C2D4"]
+			optional: true
+			hide: true
 		}
 		{
-			title: "Fishing and Chill"
+			size: 1.5d
+			id: "6D7B9D15C87A8C57"
 			x: 4.0d
 			y: -11.5d
 			shape: "octagon"
-			dependencies: ["7849BD01ACBFAC3A"]
-			hide: true
-			size: 1.5d
-			optional: true
-			id: "6D7B9D15C87A8C57"
-			tasks: [{
-				id: "2BC3C87D4FB25699"
-				type: "advancement"
-				advancement: "minecraft:husbandry/fishy_business"
-				criterion: ""
-			}]
+			title: "{the_beginning.fishing_island.fishing.title}"
 			rewards: [{
 				id: "3A6C8AA39673CD47"
 				type: "item"
 				item: "minecraft:cooked_cod"
 				count: 4
 			}]
+			dependencies: ["7849BD01ACBFAC3A"]
+			tasks: [{
+				id: "2BC3C87D4FB25699"
+				type: "advancement"
+				advancement: "minecraft:husbandry/fishy_business"
+				criterion: ""
+			}]
+			optional: true
+			hide: true
 		}
 		{
-			title: "Collect Wood"
-			icon: "minecraft:oak_log"
-			x: 0.0d
-			y: -11.5d
-			shape: "octagon"
-			subtitle: "Harvest a tree!"
-			dependencies: ["3AC0329506E80AA4"]
-			hide: true
-			dependency_requirement: "one_completed"
 			size: 1.5d
+			x: 0.0d
+			icon: "minecraft:oak_log"
+			subtitle: "{the_beginning.tree_island.wood.subtitle}"
 			optional: true
-			id: "6D9CF1D77D05C2D4"
 			tasks: [
 				{
 					id: "47F436AB4E34C9D7"
@@ -964,43 +931,55 @@
 					count: 8L
 				}
 			]
+			id: "6D9CF1D77D05C2D4"
+			shape: "octagon"
+			y: -11.5d
+			title: "{the_beginning.tree_island.wood.title}"
 			rewards: [{
 				id: "11D10F5D00323832"
 				type: "item"
 				item: "minecraft:apple"
 				count: 4
 			}]
+			dependencies: ["3AC0329506E80AA4"]
+			dependency_requirement: "one_completed"
+			hide: true
 		}
 		{
-			x: 5.5d
-			y: -10.0d
-			dependencies: ["41EEA2C5F1D6B3E1"]
-			hide: false
-			optional: true
-			id: "07C525ED6A1C8B22"
 			tasks: [{
 				id: "37E3C7894097D2AB"
 				type: "item"
 				item: "blockus:bamboo_planks"
 				count: 16L
 			}]
+			id: "07C525ED6A1C8B22"
+			x: 5.5d
+			y: -10.0d
 			rewards: [{
 				id: "13D9AB456BAE40E2"
 				type: "item"
 				item: "blockus:bamboo_slab"
 				count: 16
 			}]
+			dependencies: ["41EEA2C5F1D6B3E1"]
+			hide: false
+			optional: true
 		}
 		{
+			size: 1.5d
+			id: "41EEA2C5F1D6B3E1"
 			x: 7.0d
 			y: -10.0d
 			shape: "octagon"
-			subtitle: "Spam the sneak key to make your bamboo grow faster."
+			title: "{the_beginning.bamboo_island.bamboo.title}"
+			rewards: [{
+				id: "6EACCC9718873B57"
+				type: "item"
+				item: "minecraft:apple"
+				count: 4
+			}]
+			subtitle: "{the_beginning.bamboo_island.bamboo.subtitle}"
 			dependencies: ["329CC4079DB5DABE"]
-			hide: true
-			size: 1.5d
-			optional: true
-			id: "41EEA2C5F1D6B3E1"
 			tasks: [
 				{
 					id: "71099467AADBD0FC"
@@ -1015,23 +994,25 @@
 					count: 16L
 				}
 			]
-			rewards: [{
-				id: "6EACCC9718873B57"
-				type: "item"
-				item: "minecraft:apple"
-				count: 4
-			}]
+			optional: true
+			hide: true
 		}
 		{
-			title: "What do do with my Andesite?"
+			size: 1.5d
+			id: "725237684B3596F1"
 			icon: "create:andesite_alloy"
 			x: -3.0d
 			y: -8.5d
 			shape: "gear"
-			subtitle: "Andesite and Iron open you the door to the Mechanical Age!"
+			title: "{the_beginning.andesite_alloy.title}"
+			rewards: [{
+				id: "29E611CC13BF7524"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 4
+			}]
+			subtitle: "{the_beginning.andesite_alloy.subtitle}"
 			dependencies: ["47A493E81814E139"]
-			size: 1.5d
-			id: "725237684B3596F1"
 			tasks: [
 				{
 					id: "185B7F11820BB31E"
@@ -1046,27 +1027,13 @@
 					count: 16L
 				}
 			]
-			rewards: [{
-				id: "29E611CC13BF7524"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 4
-			}]
 		}
 		{
-			title: "Alloy Forge"
-			icon: "alloy_forgery:prismarine_bricks_forge_controller"
-			x: -3.0d
-			y: -7.0d
-			subtitle: "Expensive but it's your first choice to smelt alloys."
-			description: ["{image:kubejs:textures/item/alloy_forge.png width:144 height:144 align:1}"]
-			dependencies: ["29B095943AD26EA9"]
-			id: "47A493E81814E139"
 			tasks: [
 				{
 					id: "426134A2D5A9FA7B"
 					type: "item"
-					title: "Prismarine or End Stone Forge Controller"
+					title: "{the_beginning.alloy_forge.controller}"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1085,33 +1052,41 @@
 					}
 				}
 				{
-					id: "4E153986EF85E27F"
 					type: "questsadditions:structure"
-					title: "Build a Prismarine Alloy Forge"
-					name: "alloy_forge_s"
-					hasCustomPicture: true
-					layer: true
-					ignoreState: true
+					id: "4E153986EF85E27F"
 					rightclick: true
+					hasCustomPicture: true
+					title: "{the_beginning.alloy_forge.build}"
+					ignoreState: true
+					layer: true
+					name: "alloy_forge_s"
 				}
 			]
+			description: ["{image:kubejs:textures/item/alloy_forge.png width:144 height:144 align:1}"]
+			id: "47A493E81814E139"
+			icon: "alloy_forgery:prismarine_bricks_forge_controller"
+			x: -3.0d
+			y: -7.0d
+			title: "{the_beginning.alloy_forge.title}"
 			rewards: [{
 				id: "756BC280D38C7C77"
 				type: "item"
 				item: "minecraft:prismarine_bricks"
 				count: 4
 			}]
+			subtitle: "{the_beginning.alloy_forge.subtitle}"
+			dependencies: ["29B095943AD26EA9"]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
-			dependencies: ["3375606B7B481265"]
-			id: "783F26A53348A06A"
 			tasks: [{
 				id: "078C8870B269CA1B"
 				type: "item"
 				item: "fabricaeexnihilo:carbon_mesh"
 			}]
+			dependencies: ["3375606B7B481265"]
+			id: "783F26A53348A06A"
+			y: -1.0d
+			x: 1.5d
 			rewards: [{
 				id: "4F5A23FF64DBF006"
 				type: "item"
@@ -1120,22 +1095,20 @@
 			}]
 		}
 		{
-			title: "Barrel Enchanting"
-			x: 6.0d
-			y: -2.5d
-			description: [
-				"Once you have a Enchantment Table, you can try to enchant a Barrel with Thorns."
-				"If you stand on it, it will produce blood while damaging you."
-				"It works with mobs as well."
-			]
-			dependencies: ["5C8FB8F9E44FFE55"]
-			optional: true
-			id: "1A249C63F49FEE11"
 			tasks: [{
 				id: "6D6841B598803A76"
 				type: "item"
 				item: "fabricaeexnihilo:blood_bucket"
 			}]
+			description: [
+				"{the_beginning.blood.text.1}"
+				""
+				"{the_beginning.blood.text.2}"
+			]
+			id: "1A249C63F49FEE11"
+			x: 6.0d
+			y: -2.5d
+			title: "{the_beginning.blood.title}"
 			rewards: [{
 				id: "0CB77E96D48C5F00"
 				type: "item"
@@ -1150,22 +1123,17 @@
 					}
 				}
 			}]
+			subtitle: "{the_beginning.blood.subtitle}"
+			dependencies: ["5C8FB8F9E44FFE55"]
+			optional: true
 		}
 		{
-			title: "In case your Fishing Rod broke"
+			can_repeat: true
+			description: ["{the_beginning.fishing_island.fishing_rod.text.1}"]
+			id: "722E4F3BB0855CE8"
 			x: 4.0d
 			y: -13.0d
-			description: ["This quest is repeatable - meaning that you can always get a new Fishing Rod every 5 XP Levels gained!"]
-			dependencies: ["6D7B9D15C87A8C57"]
-			optional: true
-			can_repeat: true
-			id: "722E4F3BB0855CE8"
-			tasks: [{
-				id: "515A874CDEC88BBC"
-				type: "xp"
-				value: 5L
-				points: false
-			}]
+			title: "{the_beginning.fishing_island.fishing_rod.title}"
 			rewards: [{
 				id: "5F15360BCD7E5FBB"
 				type: "item"
@@ -1178,23 +1146,17 @@
 					}
 				}
 			}]
+			subtitle: "{the_beginning.fishing_island.fishing_rod.subtitle}"
+			dependencies: ["6D7B9D15C87A8C57"]
+			tasks: [{
+				id: "515A874CDEC88BBC"
+				type: "xp"
+				value: 5L
+				points: false
+			}]
+			optional: true
 		}
 		{
-			x: 5.5d
-			y: -13.0d
-			subtitle: "You can strip Bamboo by right clicking with a axe."
-			description: [
-				"Craft one of these to complete this quest."
-				"(TiC tools do not need to be assembled like in the task.)"
-				""
-				"If the quest doesn't complete, throw the item on the ground and pick it up."
-			]
-			dependencies: ["69E4F9F9ED4EB259"]
-			hide: false
-			optional: true
-			min_width: 250
-			min_required_tasks: 1
-			id: "4F5F0B705FCB602F"
 			tasks: [
 				{
 					id: "7C1BB2BF43F96CAC"
@@ -1214,8 +1176,6 @@
 						id: "tconstruct:hand_axe"
 						Count: 1b
 						tag: {
-							tic_multipliers: { }
-							Damage: 0
 							tic_stats: {
 								"tconstruct:attack_damage": 6.0f
 								"tconstruct:harvest_tier": "minecraft:wood"
@@ -1223,6 +1183,8 @@
 								"tconstruct:mining_speed": 2.0f
 								"tconstruct:attack_speed": 0.9f
 							}
+							Damage: 0
+							tic_multipliers: { }
 							tic_materials: [
 								"tconstruct:wood#bamboo"
 								"tconstruct:wood"
@@ -1256,24 +1218,37 @@
 					match_nbt: false
 				}
 			]
+			description: [
+				"{the_beginning.bamboo_island.axe.text.1}"
+				""
+				"{the_beginning.bamboo_island.axe.text.2}"
+			]
+			id: "4F5F0B705FCB602F"
+			x: 5.5d
+			y: -13.0d
 			rewards: [{
 				id: "7387A4FC77792F74"
 				type: "item"
 				item: "minecraft:bamboo"
 				count: 8
 			}]
+			min_width: 250
+			subtitle: "{the_beginning.bamboo_island.axe.subtitle}"
+			dependencies: ["69E4F9F9ED4EB259"]
+			min_required_tasks: 1
+			hide: false
+			optional: true
 		}
 		{
-			x: 9.0d
-			y: 0.5d
-			description: ["This Block Breaker can be used to hammer e.g. cobblestone to gravel."]
-			dependencies: ["153C83AD044BF76A"]
-			id: "3D079061CE0AD33F"
 			tasks: [{
 				id: "2E3581C01BE20963"
 				type: "item"
 				item: "redstonebits:breaker"
 			}]
+			description: ["{the_beginning.breaker.text.1}"]
+			id: "3D079061CE0AD33F"
+			x: 9.0d
+			y: 0.5d
 			rewards: [{
 				id: "7CDBDCBA1A776FD7"
 				type: "item"
@@ -1285,54 +1260,52 @@
 					}
 				}
 			}]
+			dependencies: ["153C83AD044BF76A"]
 		}
 		{
-			title: "Early Automation"
-			x: -1.5d
-			y: -13.0d
-			dependencies: ["5E67AA32C8260EFE"]
-			hide: true
-			optional: true
-			id: "5C5EDCED67B705ED"
 			tasks: [{
 				id: "7934FEB9E0C04811"
 				type: "item"
 				item: "coxinhautilities:wooden_hopper"
 			}]
+			id: "5C5EDCED67B705ED"
+			x: -1.5d
+			y: -13.0d
+			title: "{the_beginning.wooden_hopper.title}"
 			rewards: [{
 				id: "07E02A468549CFA6"
 				type: "item"
 				item: "coxinhautilities:wooden_hopper"
 			}]
+			dependencies: ["5E67AA32C8260EFE"]
+			hide: true
+			optional: true
 		}
 		{
-			title: "I am Grout!"
-			x: 7.5d
-			y: -2.5d
-			subtitle: "Hephaestus is here (Fabric port of TConstruct, BETA)"
-			description: [
-				"Hephaestus - the ancient Greek god of Smithing."
-				""
-				"Feel free to try out Hephaestus, the Tinkers Construct port for Fabric."
-				"Its not fully included in the modpack, so some recipes are currently missing."
-			]
-			dependencies: ["508DEEE11F45E4F3"]
-			id: "5F6BD70DF6342770"
 			tasks: [{
 				id: "7276E4698718F7F0"
 				type: "item"
 				item: "tconstruct:grout"
 			}]
+			description: ["{the_beginning.hephaestus.text.1}"]
+			id: "5F6BD70DF6342770"
+			x: 7.5d
+			y: -2.5d
+			title: "{the_beginning.hephaestus.title}"
 			rewards: [{
 				id: "15CFCF83FDF834E2"
 				type: "item"
 				item: "tconstruct:materials_and_you"
 			}]
+			subtitle: "{the_beginning.hephaestus.subtitle}"
+			dependencies: ["508DEEE11F45E4F3"]
 		}
 		{
-			title: "How to obtain Gold?"
-			x: -4.5d
-			y: -5.5d
+			tasks: [{
+				id: "7E16990520EE91F9"
+				type: "item"
+				item: "minecraft:gold_ingot"
+			}]
 			description: [
 				"The Quest Book will not tell you how to get each material."
 				"Instead, you have to find your own way. By using REI you should be able to find the answers."
@@ -1340,98 +1313,72 @@
 				"Some materials like gold can be obtained in multiple ways."
 				"Gold can be found in the nether, but later you should build a automated gold production with the Create mod."
 			]
-			dependencies: ["29B095943AD26EA9"]
 			id: "2E9E67B123FB86ED"
-			tasks: [{
-				id: "7E16990520EE91F9"
-				type: "item"
-				item: "minecraft:gold_ingot"
-			}]
+			x: -4.5d
+			y: -5.5d
+			title: "How to obtain Gold?"
 			rewards: [{
 				id: "76716B49566C77F1"
 				type: "item"
 				item: "minecraft:gold_nugget"
 				count: 7
 			}]
+			dependencies: ["29B095943AD26EA9"]
 		}
 		{
-			title: "We need to go Deeper!"
-			x: 7.5d
-			y: -1.0d
-			description: ["Other Dimensions like the Nether are not empty. You can discover some structures there."]
-			dependencies: ["153C83AD044BF76A"]
-			id: "3AB25EAB4F16C5A5"
 			tasks: [{
 				id: "5712A76C98E70614"
 				type: "dimension"
 				dimension: "minecraft:the_nether"
 			}]
+			description: ["{the_beginning.nether.text.1}"]
+			id: "3AB25EAB4F16C5A5"
+			x: 7.5d
+			y: -1.0d
+			title: "{the_beginning.nether.title}"
 			rewards: [{
 				id: "054B8B47F8122CAA"
 				type: "item"
 				item: "minecraft:nether_brick"
 				count: 8
 			}]
+			subtitle: "{the_beginning.nether.subtitle}"
+			dependencies: ["153C83AD044BF76A"]
 		}
 		{
-			title: "A Dirt Farm?"
-			icon: "minecraft:dirt"
-			x: 7.5d
-			y: -7.0d
-			description: [
-				"You can use Witchwater to generate infinite Dirt. By using Witchwater and regular Water in the configuration below, it will generate Dirt and sometimes Podzol!"
-				""
-				"{image:kubejs:textures/item/Podzol.png width:150 height:75 align:1}"
-			]
-			dependencies: ["2F61617F7194D76A"]
-			id: "767A2CF2A68BE797"
 			tasks: [{
 				id: "14A86499B880A4F1"
 				type: "checkmark"
 			}]
+			description: [
+				"You can use Witchwater to generate infinite Dirt. By using Witchwater and regular Water in the configuration below, it will generate Dirt and sometimes Podzol!"
+				""
+				"{image:kubejs:textures/item/podzol.png width:150 height:75 align:1}"
+			]
+			icon: "minecraft:dirt"
+			id: "767A2CF2A68BE797"
+			x: 7.5d
+			y: -7.0d
+			title: "A Dirt Farm?"
+			dependencies: ["2F61617F7194D76A"]
 		}
 		{
-			x: 1.5d
-			y: -4.0d
-			subtitle: "Automated Sieving!"
-			description: [
-				"It will automatically sieve items inserted into it."
-				""
-				"Mechanically similar to a Millstone."
-				""
-				"FabricaeExNihilo Meshes won't work here - using Crafting you can switch between FabricaeExNihilo and Create Sifter variants of meshes."
-				""
-				"Please Note: You need some sort of a blacklistable item extraction (like Brass Funnels or Smart Chutes), because without filtering it will extract currently sieved items!"
-				""
-				"A huge advantage of the Sifter is the fact that it will not automatically unequip meshes nor it will spill out items into the world."
-				""
-				"The Sifter can also be Waterlogged to process certain recipes."
-			]
-			dependencies: [
-				"2587A593554DBC4A"
-				"18E391B45D935712"
-			]
-			id: "2EEFE657598AC91C"
 			tasks: [{
 				id: "4BAC6F40786AAF4D"
 				type: "item"
 				item: "createsifter:sifter"
 			}]
+			description: ["{the_beginning.create_sifter.text.1}"]
+			id: "2EEFE657598AC91C"
+			x: 1.5d
+			y: -4.0d
+			subtitle: "{the_beginning.create_sifter.subtitle}"
+			dependencies: [
+				"2587A593554DBC4A"
+				"18E391B45D935712"
+			]
 		}
 		{
-			title: "Spores"
-			x: 1.5d
-			y: -2.5d
-			subtitle: "Bring a part of The Nether to your home island."
-			description: [
-				"Use one of these on the Netherrack Block to turn it into Crimson/Warped Nylium."
-				""
-				"Obtain Crimson or Warped Spores to complete this quest."
-			]
-			dependencies: ["4138CA5A7F768170"]
-			optional: true
-			min_required_tasks: 1
-			id: "43F6C6DF46FFB83F"
 			tasks: [
 				{
 					id: "1FC3AE3301F98620"
@@ -1444,17 +1391,21 @@
 					item: "fabricaeexnihilo:crimson_seeds"
 				}
 			]
+			description: [
+				"{the_beginning.spores.text.1}"
+				""
+				"{the_beginning.spores.text.2}"
+			]
+			id: "43F6C6DF46FFB83F"
+			x: 1.5d
+			y: -2.5d
+			title: "{the_beginning.spores.title}"
+			subtitle: "{the_beginning.spores.subtitle}"
+			dependencies: ["4138CA5A7F768170"]
+			min_required_tasks: 1
+			optional: true
 		}
 		{
-			title: "Nether Fungi"
-			x: 6.0d
-			y: -1.0d
-			subtitle: "You will need these to get Shroomlights."
-			description: ["Obtain one of these items to complete this quest."]
-			dependencies: ["3AB25EAB4F16C5A5"]
-			optional: true
-			min_required_tasks: 1
-			id: "02D7E339C4A7FF1F"
 			tasks: [
 				{
 					id: "77B63079F69D0EAD"
@@ -1477,19 +1428,28 @@
 					item: "minecraft:warped_fungus"
 				}
 			]
+			description: ["{the_beginning.nether_fungi.text.1_nether}"]
+			id: "02D7E339C4A7FF1F"
+			x: 6.0d
+			y: -1.0d
+			title: "{the_beginning.nether_fungi.title}"
+			subtitle: "{the_beginning.nether_fungi.subtitle_nether}"
+			dependencies: ["3AB25EAB4F16C5A5"]
+			min_required_tasks: 1
+			optional: true
 		}
 		{
+			size: 1.5d
+			id: "5CB1E23795D87A85"
+			min_required_dependencies: 1
 			x: 3.0d
 			y: -1.0d
 			shape: "hexagon"
-			subtitle: "You will need this later for Mechanical Age progression."
-			min_required_dependencies: 1
+			subtitle: "{the_beginning.shroomlight.subtitle}"
 			dependencies: [
 				"02D7E339C4A7FF1F"
 				"6DA2C8BFE79F273F"
 			]
-			size: 1.5d
-			id: "5CB1E23795D87A85"
 			tasks: [{
 				id: "3B4531A384C255F6"
 				type: "item"
@@ -1497,19 +1457,6 @@
 			}]
 		}
 		{
-			title: "Nether Fungi"
-			x: 3.0d
-			y: -2.5d
-			subtitle: "Obtain a Nether Fungus!"
-			description: [
-				"You can use Bone Meal on the Netherrack next to a Crimson/Warped Nylium to spread it to that Netherrack block."
-				""
-				"You can apply Bone Meal onto Crimson/Warped Nylium to get various Nether vegetation, including Nether fungi."
-			]
-			dependencies: ["43F6C6DF46FFB83F"]
-			optional: true
-			min_required_tasks: 1
-			id: "6DA2C8BFE79F273F"
 			tasks: [
 				{
 					id: "0D750B031DA6FA88"
@@ -1522,29 +1469,29 @@
 					item: "minecraft:warped_fungus"
 				}
 			]
+			description: ["{the_beginning.nether_fungi.text.1_mesh}"]
+			id: "6DA2C8BFE79F273F"
+			x: 3.0d
+			y: -2.5d
+			title: "{the_beginning.nether_fungi.title}"
+			subtitle: "{the_beginning.nether_fungi.subtitle_mesh}"
+			dependencies: ["43F6C6DF46FFB83F"]
+			min_required_tasks: 1
+			optional: true
 		}
 		{
-			title: "Those pesky arthopods!"
-			x: 4.0d
-			y: -8.5d
-			description: [
-				"You probably feared them at least once."
-				""
-				"Here, you need to kill those pesky Spiders to obtain some String."
-			]
-			min_required_dependencies: 1
-			dependencies: [
-				"357A6C703275C8F9"
-				"07C525ED6A1C8B22"
-			]
-			optional: true
-			id: "5BDA39AF551851EA"
 			tasks: [{
 				id: "76C0785D3ABB197C"
 				type: "kill"
 				entity: "minecraft:spider"
 				value: 5L
 			}]
+			description: ["{the_beginning.spiders.text.1}"]
+			min_required_dependencies: 1
+			id: "5BDA39AF551851EA"
+			x: 4.0d
+			y: -8.5d
+			title: "{the_beginning.spiders.title}"
 			rewards: [{
 				id: "3D9BDF957A41D8BC"
 				type: "item"
@@ -1552,11 +1499,7 @@
 					id: "tconstruct:dagger"
 					Count: 1b
 					tag: {
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.75f
-							"tconstruct:durability": 0.75f
-							"tconstruct:attack_damage": 0.65f
-						}
+						Damage: 0
 						tic_stats: {
 							"tconstruct:attack_damage": 3.7537498f
 							"tconstruct:harvest_tier": "minecraft:iron"
@@ -1564,7 +1507,11 @@
 							"tconstruct:mining_speed": 4.125f
 							"tconstruct:attack_speed": 2.0f
 						}
-						Damage: 0
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.65f
+							"tconstruct:mining_speed": 0.75f
+							"tconstruct:durability": 0.75f
+						}
 						tic_upgrades: [
 							{
 								name: "tconstruct:bane_of_sssss"
@@ -1623,14 +1570,14 @@
 					}
 				}
 			}]
+			subtitle: "{the_beginning.spiders.subtitle}"
+			dependencies: [
+				"357A6C703275C8F9"
+				"07C525ED6A1C8B22"
+			]
+			optional: true
 		}
 		{
-			title: "Saplings!"
-			x: 0.0d
-			y: -7.0d
-			subtitle: "Collect them all!"
-			dependencies: ["1F057C3C6AA5FD22"]
-			id: "1C4F6F5E175CD13B"
 			tasks: [
 				{
 					id: "42CA23DFD4C4664F"
@@ -1668,6 +1615,10 @@
 					item: "techreborn:rubber_sapling"
 				}
 			]
+			id: "1C4F6F5E175CD13B"
+			x: 0.0d
+			y: -7.0d
+			title: "{the_beginning.saplings.title}"
 			rewards: [
 				{
 					id: "0211DFB060E55A28"
@@ -1688,15 +1639,10 @@
 					table_id: 13756307348121783L
 				}
 			]
+			subtitle: "{the_beginning.saplings.subtitle}"
+			dependencies: ["1F057C3C6AA5FD22"]
 		}
 		{
-			title: "Driftwood"
-			x: 4.0d
-			y: -10.0d
-			subtitle: "You can sometimes fish up some Oak Logs, Oak Planks and Dirt."
-			dependencies: ["6D7B9D15C87A8C57"]
-			optional: true
-			id: "357A6C703275C8F9"
 			tasks: [
 				{
 					id: "76E38854366C6262"
@@ -1717,6 +1663,10 @@
 					count: 4L
 				}
 			]
+			id: "357A6C703275C8F9"
+			x: 4.0d
+			y: -10.0d
+			title: "{the_beginning.fishing_island.driftwood.title}"
 			rewards: [
 				{
 					id: "65B7ABC3DDA7E2FA"
@@ -1742,27 +1692,16 @@
 					table_id: 13756307348121783L
 				}
 			]
+			subtitle: "{the_beginning.fishing_island.driftwood.subtitle}"
+			dependencies: ["6D7B9D15C87A8C57"]
+			optional: true
 		}
 		{
-			title: "Am I a crook?"
-			x: 1.5d
-			y: -7.0d
-			subtitle: "No Sapling yet?"
-			description: [
-				"By sieving Dirt, you can finally get a Sapling."
-				""
-				"Break leaves using Crooks to get Silkworms. You will also get more saplings than you would get by breaking by hand!"
-			]
-			min_required_dependencies: 2
-			dependencies: [
-				"329CC4079DB5DABE"
-				"7849BD01ACBFAC3A"
-				"1F057C3C6AA5FD22"
-			]
-			hide: true
-			optional: true
 			incompatible: ["3AC0329506E80AA4"]
-			id: "5B5416C89BAB64DC"
+			min_required_dependencies: 2
+			x: 1.5d
+			subtitle: "{the_beginning.crook2.subtitle}"
+			optional: true
 			tasks: [
 				{
 					id: "7EDD8B7A7D8D38AB"
@@ -1782,6 +1721,14 @@
 					count: 16L
 				}
 			]
+			description: [
+				"{the_beginning.crook2.text.1}"
+				""
+				"{the_beginning.crook2.text.2}"
+			]
+			id: "5B5416C89BAB64DC"
+			y: -7.0d
+			title: "{the_beginning.crook2.title}"
 			rewards: [{
 				id: "4A4633315E69BE00"
 				type: "item"
@@ -1793,41 +1740,36 @@
 					}
 				}
 			}]
+			dependencies: [
+				"329CC4079DB5DABE"
+				"7849BD01ACBFAC3A"
+				"1F057C3C6AA5FD22"
+			]
+			hide: true
 		}
 		{
-			title: "Spooky Scary Skeletons"
-			x: 5.5d
-			y: -8.5d
-			subtitle: "You need something harder than elastic bamboo."
-			description: ["You will need some Bones for the Bone Crucible."]
-			dependencies: ["07C525ED6A1C8B22"]
-			optional: true
-			id: "4B15A50AD9828B4C"
 			tasks: [{
 				id: "44D12DEA0F77F01C"
 				type: "kill"
 				entity: "minecraft:skeleton"
 				value: 5L
 			}]
+			description: ["{the_beginning.bamboo_island.skeletons.text.1}"]
+			id: "4B15A50AD9828B4C"
+			x: 5.5d
+			y: -8.5d
+			title: "{the_beginning.bamboo_island.skeletons.title}"
 			rewards: [{
 				id: "3BD7F2658434F743"
 				type: "item"
 				item: "minecraft:bone_block"
 				count: 2
 			}]
+			subtitle: "{the_beginning.bamboo_island.skeletons.subtitle}"
+			dependencies: ["07C525ED6A1C8B22"]
+			optional: true
 		}
 		{
-			x: 8.5d
-			y: -8.5d
-			subtitle: "Suprisingly, Bone Crucible can't hold lava."
-			description: [
-				"But nevertheless, you can use some of your Bamboo Leaves to make water."
-				""
-				"To make a Bone Crucible, Right-Click on a Bone Block with a Bone Knife in hand."
-			]
-			dependencies: ["01041F039FFA6116"]
-			optional: true
-			id: "5502B4F2C6D7AEBD"
 			tasks: [
 				{
 					id: "2E43C772FA202E01"
@@ -1840,22 +1782,24 @@
 					item: "kibe:wooden_bucket"
 				}
 			]
+			description: [
+				"{the_beginning.bamboo_island.water.text.1}"
+				""
+				"{the_beginning.bamboo_island.water.text.2}"
+			]
+			id: "5502B4F2C6D7AEBD"
+			x: 8.5d
+			y: -8.5d
 			rewards: [{
 				id: "04E226EC389B5FD2"
 				type: "item"
 				item: "kibe:water_wooden_bucket"
 			}]
+			subtitle: "{the_beginning.bamboo_island.water.subtitle}"
+			dependencies: ["01041F039FFA6116"]
+			optional: true
 		}
 		{
-			title: "Crafting"
-			x: -1.5d
-			y: -11.5d
-			subtitle: "Necessary to craft 3x3 recipes."
-			description: ["Crafting Stations can hold items inside, and can utilize items from the inventory next to it!"]
-			dependencies: ["6D9CF1D77D05C2D4"]
-			hide: true
-			optional: true
-			id: "36E40D909C6AA3EC"
 			tasks: [
 				{
 					id: "298018EC28C9637C"
@@ -1873,51 +1817,53 @@
 					match_nbt: false
 				}
 			]
+			description: ["{the_beginning.crafting.text.1}"]
+			id: "36E40D909C6AA3EC"
+			x: -1.5d
+			y: -11.5d
+			title: "{the_beginning.crafting.title}"
 			rewards: [{
 				id: "5CABD60033F350EC"
 				type: "item"
 				item: "minecraft:stick"
 				count: 16
 			}]
+			subtitle: "{the_beginning.crafting.subtitle}"
+			dependencies: ["6D9CF1D77D05C2D4"]
+			optional: true
+			hide: true
 		}
 		{
-			x: 4.5d
-			y: -2.5d
-			subtitle: "A barrel made out of solid stone."
-			description: [
-				"This barrel can withstand lava!"
-				""
-				"You will surely find it useful when automating Obsidian or Stone."
-			]
-			dependencies: ["0B87D8D5CC3AF30D"]
-			id: "5C8FB8F9E44FFE55"
 			tasks: [{
 				id: "2A62C3281D7C30BC"
 				type: "item"
 				item: "fabricaeexnihilo:stone_barrel"
 			}]
+			description: [
+				"{the_beginning.stone_barrel.text.1}"
+				""
+				"{the_beginning.stone_barrel.text.2}"
+			]
+			id: "5C8FB8F9E44FFE55"
+			x: 4.5d
+			y: -2.5d
+			subtitle: "{the_beginning.stone_barrel.subtitle}"
+			dependencies: ["0B87D8D5CC3AF30D"]
 		}
 		{
-			x: 7.0d
-			y: -13.0d
-			subtitle: "You will need some Stripped Bamboo for making barrels and sieves."
-			dependencies: ["4F5F0B705FCB602F"]
-			optional: true
-			id: "33881CD4182D25C1"
 			tasks: [{
 				id: "501FAE2B5F222516"
 				type: "item"
 				item: "twigs:stripped_bamboo"
 			}]
+			id: "33881CD4182D25C1"
+			x: 7.0d
+			y: -13.0d
+			subtitle: "{the_beginning.bamboo_island.stripped_bamboo.subtitle}"
+			dependencies: ["4F5F0B705FCB602F"]
+			optional: true
 		}
 		{
-			title: "Tiki Barrel"
-			x: 8.5d
-			y: -13.0d
-			description: ["You farmed so much compost, why not use some to obtain more Dirt?"]
-			dependencies: ["33881CD4182D25C1"]
-			optional: true
-			id: "600ED0945BC3C5F8"
 			tasks: [
 				{
 					id: "6D1DB99457A5A025"
@@ -1931,20 +1877,21 @@
 					count: 4L
 				}
 			]
+			description: ["You farmed so much compost, why not use some to obtain more Dirt?"]
+			id: "600ED0945BC3C5F8"
+			x: 8.5d
+			y: -13.0d
+			title: "Tiki Barrel"
 			rewards: [{
 				id: "53C16FEE15E4ADD2"
 				type: "item"
 				item: "mcwlights:bamboo_tiki_torch"
 				count: 64
 			}]
+			dependencies: ["33881CD4182D25C1"]
+			optional: true
 		}
 		{
-			x: 5.5d
-			y: -11.5d
-			dependencies: ["07C525ED6A1C8B22"]
-			optional: true
-			min_required_tasks: 1
-			id: "69E4F9F9ED4EB259"
 			tasks: [
 				{
 					id: "288F0FE2DA859050"
@@ -1962,42 +1909,41 @@
 					match_nbt: false
 				}
 			]
+			description: ["{the_beginning.crafting.text.1}"]
+			id: "69E4F9F9ED4EB259"
+			x: 5.5d
+			y: -11.5d
+			title: "{the_beginning.crafting.title}"
 			rewards: [{
 				id: "27ECAD6E9F23E1C1"
 				type: "item"
 				item: "minecraft:bamboo"
 				count: 32
 			}]
+			subtitle: "{the_beginning.crafting.subtitle}"
+			dependencies: ["07C525ED6A1C8B22"]
+			min_required_tasks: 1
+			optional: true
 		}
 		{
-			title: "Early Automation"
-			x: 8.5d
-			y: -11.5d
-			dependencies: ["600ED0945BC3C5F8"]
-			optional: true
-			id: "334A9C425F38F44E"
 			tasks: [{
 				id: "54BB666089C59717"
 				type: "item"
 				item: "coxinhautilities:wooden_hopper"
 			}]
+			id: "334A9C425F38F44E"
+			x: 8.5d
+			y: -11.5d
+			title: "{the_beginning.wooden_hopper.title}"
 			rewards: [{
 				id: "0953C826B90897C4"
 				type: "item"
 				item: "coxinhautilities:wooden_hopper"
 			}]
+			dependencies: ["600ED0945BC3C5F8"]
+			optional: true
 		}
 		{
-			x: 7.0d
-			y: -8.5d
-			subtitle: "A carving tool."
-			description: [
-				"The Bone Knife can be used to carve out a Crucible from a Bone Block."
-				""
-				"It can also be used as a rudimentary weapon."
-			]
-			dependencies: ["4B15A50AD9828B4C"]
-			id: "01041F039FFA6116"
 			tasks: [{
 				id: "408868EB051FB2B0"
 				type: "item"
@@ -2009,33 +1955,40 @@
 					}
 				}
 			}]
+			description: [
+				"{the_beginning.bamboo_island.bone_knife.text.1}"
+				""
+				"{the_beginning.bamboo_island.bone_knife.text.2}"
+			]
+			id: "01041F039FFA6116"
+			x: 7.0d
+			y: -8.5d
+			subtitle: "{the_beginning.bamboo_island.bone_knife.subtitle}"
+			dependencies: ["4B15A50AD9828B4C"]
 		}
 		{
-			x: -1.5d
-			y: -5.5d
-			subtitle: "You will need some Nether Quartz for your next mesh."
-			description: [
-				"It can be obtained by sieving Soul Sand through a Flint Mesh."
-				""
-				"But how do you get Soul Sand?"
-				""
-				"The answer is: Witchwater!"
-			]
-			dependencies: ["1F057C3C6AA5FD22"]
-			id: "63A774E246F91DB1"
 			tasks: [{
 				id: "148D892C95260DC2"
 				type: "item"
 				item: "minecraft:quartz"
 				count: 2L
 			}]
+			description: [
+				"{the_beginning.quartz.text.1}"
+				""
+				"{the_beginning.quartz.text.2}"
+			]
+			id: "63A774E246F91DB1"
+			x: -1.5d
+			y: -5.5d
 			rewards: [{
 				id: "56FC12BBC617F56D"
 				type: "item"
 				item: "minecraft:soul_sand"
 				count: 8
 			}]
+			subtitle: "{the_beginning.quartz.subtitle}"
+			dependencies: ["1F057C3C6AA5FD22"]
 		}
 	]
-	quest_links: [ ]
 }

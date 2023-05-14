@@ -1,9 +1,10 @@
 {
-	id: "19424F3F4D7521A2"
+	quest_links: [ ]
+	default_hide_dependency_lines: false
 	group: "76C22988F9A7C9CE"
-	order_index: 0
+	id: "19424F3F4D7521A2"
 	filename: "gadgets"
-	title: "Building"
+	default_quest_shape: ""
 	icon: {
 		id: "indrev:hammer"
 		Count: 1b
@@ -11,13 +12,15 @@
 			Damage: 0
 		}
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	title: "Building"
+	order_index: 0
 	quests: [
 		{
-			x: 0.0d
-			y: 1.5d
-			subtitle: "You can dream, create, design, and build the most wonderful place in the world."
+			tasks: [{
+				id: "0AE0962EF2F84060"
+				type: "checkmark"
+				title: "Your every day toolbelt"
+			}]
 			dependencies: [
 				"57A128EE5135A494"
 				"4EC49EFF4B139771"
@@ -36,20 +39,12 @@
 				"72D41352FD2B752C"
 				"009320766602EAAF"
 			]
+			subtitle: "You can dream, create, design, and build the most wonderful place in the world."
 			id: "341C7D2C93742900"
-			tasks: [{
-				id: "0AE0962EF2F84060"
-				type: "checkmark"
-				title: "Your every day toolbelt"
-			}]
+			y: 1.5d
+			x: 0.0d
 		}
 		{
-			x: 0.5d
-			y: -1.5d
-			subtitle: "Allows you to build structures using a set of different Building Modes."
-			description: ["Cadmium Batteries are required to craft this item."]
-			dependencies: ["6D844CA6CF326DFC"]
-			id: "45472C7319EC2261"
 			tasks: [{
 				id: "33686463964EEAED"
 				type: "item"
@@ -68,19 +63,19 @@
 					}
 				}
 			}]
+			description: ["Cadmium Batteries are required to craft this item."]
+			id: "45472C7319EC2261"
+			x: 0.5d
+			y: -1.5d
 			rewards: [{
 				id: "5EA1ECBEFF608B9C"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Allows you to build structures using a set of different Building Modes."
+			dependencies: ["6D844CA6CF326DFC"]
 		}
 		{
-			x: -0.5d
-			y: -1.5d
-			subtitle: "Provides basic exchanging abilities using a set of different Exchanging Modes."
-			description: ["Cadmium Batteries are required to craft this item."]
-			dependencies: ["6D844CA6CF326DFC"]
-			id: "72D473E1810E45D7"
 			tasks: [{
 				id: "4278655EFD94DBF1"
 				type: "item"
@@ -99,19 +94,19 @@
 					}
 				}
 			}]
+			description: ["Cadmium Batteries are required to craft this item."]
+			id: "72D473E1810E45D7"
+			x: -0.5d
+			y: -1.5d
 			rewards: [{
 				id: "33177193670A70BC"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Provides basic exchanging abilities using a set of different Exchanging Modes."
+			dependencies: ["6D844CA6CF326DFC"]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
-			subtitle: "Allows you to select a large radius to copy and paste in a different location."
-			description: ["Cadmium Batteries are required to craft this item."]
-			dependencies: ["6D844CA6CF326DFC"]
-			id: "0232F82465ACC551"
 			tasks: [{
 				id: "77BB53C023067B54"
 				type: "item"
@@ -131,22 +126,28 @@
 					}
 				}
 			}]
+			description: ["Cadmium Batteries are required to craft this item."]
+			id: "0232F82465ACC551"
+			x: 1.5d
+			y: -1.0d
 			rewards: [{
 				id: "77136482EFE2C8EA"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Allows you to select a large radius to copy and paste in a different location."
+			dependencies: ["6D844CA6CF326DFC"]
 		}
 		{
-			x: -2.5d
-			y: -0.5d
-			subtitle: "Right-click and put your block of choice in slot. Choose the variant that suits you."
-			id: "5D5E53BCC9686BEB"
 			tasks: [{
 				id: "2A15AF7129E1D209"
 				type: "item"
 				item: "chisel:chisel"
 			}]
+			subtitle: "Right-click and put your block of choice in slot. Choose the variant that suits you."
+			id: "5D5E53BCC9686BEB"
+			y: -0.5d
+			x: -2.5d
 			rewards: [{
 				id: "274486AF5C53B027"
 				type: "loot"
@@ -154,16 +155,6 @@
 			}]
 		}
 		{
-			title: "Bits and Chisels"
-			x: 2.5d
-			y: -0.5d
-			subtitle: "Sculpture the world!"
-			description: [
-				"Remove small bits from blocks using chisels."
-				""
-				"You can use these bits to build detailed decorations or whatever else you want."
-			]
-			id: "1503EBD099C0444B"
 			tasks: [{
 				id: "5C9D9AF921A12ED1"
 				type: "item"
@@ -175,19 +166,23 @@
 					}
 				}
 			}]
+			description: [
+				"Remove small bits from blocks using chisels."
+				""
+				"You can use these bits to build detailed decorations or whatever else you want."
+			]
+			id: "1503EBD099C0444B"
+			x: 2.5d
+			y: -0.5d
+			title: "Bits and Chisels"
 			rewards: [{
 				id: "567C37D50BB09667"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Sculpture the world!"
 		}
 		{
-			x: -1.5d
-			y: -1.0d
-			subtitle: "Allows you to void a large area."
-			description: ["Cadmium Batteries are required to craft this item."]
-			dependencies: ["6D844CA6CF326DFC"]
-			id: "454C6A0D83B852C7"
 			tasks: [{
 				id: "5E7623ACE78AD0E5"
 				type: "item"
@@ -201,18 +196,19 @@
 					}
 				}
 			}]
+			description: ["Cadmium Batteries are required to craft this item."]
+			id: "454C6A0D83B852C7"
+			x: -1.5d
+			y: -1.0d
 			rewards: [{
 				id: "5D4DEF0828F97584"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Allows you to void a large area."
+			dependencies: ["6D844CA6CF326DFC"]
 		}
 		{
-			x: -1.5d
-			y: 4.0d
-			subtitle: "Used to speed up building and block placement."
-			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
-			id: "4EC49EFF4B139771"
 			tasks: [{
 				id: "2F2DA7D863BC327A"
 				type: "item"
@@ -224,18 +220,18 @@
 					}
 				}
 			}]
+			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
+			id: "4EC49EFF4B139771"
+			x: -1.5d
+			y: 4.0d
 			rewards: [{
 				id: "051478D507A6B7E3"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Used to speed up building and block placement."
 		}
 		{
-			x: -0.5d
-			y: 4.5d
-			subtitle: "Used to speed up building and block placement."
-			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
-			id: "424D1FF456C5309D"
 			tasks: [{
 				id: "2310EE65434E176F"
 				type: "item"
@@ -247,18 +243,18 @@
 					}
 				}
 			}]
+			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
+			id: "424D1FF456C5309D"
+			x: -0.5d
+			y: 4.5d
 			rewards: [{
 				id: "6485B3F9E55938C3"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Used to speed up building and block placement."
 		}
 		{
-			x: 0.5d
-			y: 4.5d
-			subtitle: "Used to speed up building and block placement."
-			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
-			id: "4AD1DD230664681D"
 			tasks: [{
 				id: "7D5B4820134A5ACF"
 				type: "item"
@@ -270,18 +266,18 @@
 					}
 				}
 			}]
+			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
+			id: "4AD1DD230664681D"
+			x: 0.5d
+			y: 4.5d
 			rewards: [{
 				id: "7BE7724358457022"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Used to speed up building and block placement."
 		}
 		{
-			x: 1.5d
-			y: 4.0d
-			subtitle: "Used to speed up building and block placement."
-			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
-			id: "661F9C730DFEA05C"
 			tasks: [{
 				id: "0944E8C92FD41166"
 				type: "item"
@@ -293,6 +289,10 @@
 					}
 				}
 			}]
+			description: ["- Holding a staff will show a placement range (but a range will only be displayed if you have the required items in your inventory)."]
+			id: "661F9C730DFEA05C"
+			x: 1.5d
+			y: 4.0d
 			rewards: [
 				{
 					id: "2F8B7273C24A94ED"
@@ -337,17 +337,18 @@
 					count: 64
 				}
 			]
+			subtitle: "Used to speed up building and block placement."
 		}
 		{
-			x: 3.0d
-			y: 0.5d
-			subtitle: "Dirty Stick"
-			id: "1A7AF56567D80ECB"
 			tasks: [{
 				id: "3AA7A6C9CA235353"
 				type: "item"
 				item: "botania:dirt_rod"
 			}]
+			subtitle: "Dirty Stick"
+			id: "1A7AF56567D80ECB"
+			y: 0.5d
+			x: 3.0d
 			rewards: [{
 				id: "60008B7651F96325"
 				type: "random"
@@ -355,32 +356,32 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 1.5d
-			subtitle: "Dirty Stick MK II"
-			description: ["Functions the same as the Rod of the Lands, except it can place Dirt Block in midair!"]
-			id: "6CFB83CA3C41D891"
 			tasks: [{
 				id: "07E070E14442B2D5"
 				type: "item"
 				item: "botania:skydirt_rod"
 			}]
+			description: ["Functions the same as the Rod of the Lands, except it can place Dirt Block in midair!"]
+			id: "6CFB83CA3C41D891"
+			x: 3.5d
+			y: 1.5d
 			rewards: [{
 				id: "4E850F618F4B07BC"
 				type: "random"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Dirty Stick MK II"
 		}
 		{
-			x: 3.0d
-			y: 2.5d
-			description: ["It can terraform by adding Dirt Blocks or removing terrain blocks to flatten the terrain."]
-			id: "503DD3CEEFE78FFF"
 			tasks: [{
 				id: "6E7765039271CC78"
 				type: "item"
 				item: "botania:terraform_rod"
 			}]
+			description: ["It can terraform by adding Dirt Blocks or removing terrain blocks to flatten the terrain."]
+			id: "503DD3CEEFE78FFF"
+			y: 2.5d
+			x: 3.0d
 			rewards: [{
 				id: "1ED31F8DA461B54B"
 				type: "random"
@@ -388,15 +389,15 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 1.5d
-			subtitle: "It's cobbling time!"
-			id: "009320766602EAAF"
 			tasks: [{
 				id: "5B3866A5E0AD8DCF"
 				type: "item"
 				item: "botania:cobble_rod"
 			}]
+			subtitle: "It's cobbling time!"
+			id: "009320766602EAAF"
+			y: 1.5d
+			x: -3.5d
 			rewards: [{
 				id: "1CE5C30DD79A7098"
 				type: "random"
@@ -404,39 +405,38 @@
 			}]
 		}
 		{
-			x: -3.0d
-			y: 0.5d
-			subtitle: "Keep the ocean clean!"
-			description: ["Places Water at the cost of a bit of Mana."]
-			id: "72D41352FD2B752C"
 			tasks: [{
 				id: "69CE55AF68F39797"
 				type: "item"
 				item: "botania:water_rod"
 			}]
+			description: ["Places Water at the cost of a bit of Mana."]
+			id: "72D41352FD2B752C"
+			x: -3.0d
+			y: 0.5d
 			rewards: [{
 				id: "1A8308C8DEE71022"
 				type: "random"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Keep the ocean clean!"
 		}
 		{
-			x: -3.0d
-			y: 2.5d
-			subtitle: "Shift your block of choice."
-			description: ["Aluminium Rods are required to craft this item."]
-			id: "57A128EE5135A494"
 			tasks: [{
 				id: "5F10EB7947E7C1CB"
 				type: "item"
 				item: "botania:exchange_rod"
 			}]
+			description: ["Aluminium Rods are required to craft this item."]
+			id: "57A128EE5135A494"
+			x: -3.0d
+			y: 2.5d
 			rewards: [{
 				id: "4E2062F5C1DBE105"
 				type: "random"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Shift your block of choice."
 		}
 	]
-	quest_links: [ ]
 }

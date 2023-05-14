@@ -1,39 +1,40 @@
 {
-	id: "6486CFAD73CBEFBA"
+	quest_links: [ ]
+	default_hide_dependency_lines: false
 	group: "76C22988F9A7C9CE"
-	order_index: 6
+	id: "6486CFAD73CBEFBA"
 	filename: "conjuring"
-	title: "Conjuring"
+	default_quest_shape: "square"
 	icon: {
 		id: "conjuring:enchiridion"
 		Count: 1b
 		tag: { }
 	}
-	default_quest_shape: "square"
-	default_hide_dependency_lines: false
+	title: "Conjuring"
 	images: [{
-		x: -10.5d
-		y: -1.0d
-		width: 3.0d
-		height: 3.0d
 		rotation: 0.0d
 		image: "conjuring:textures/item/enchiridion.png"
-		hover: [ ]
+		width: 3.0d
 		click: ""
-		dev: false
+		hover: [ ]
+		x: -10.5d
+		y: -1.0d
 		corner: false
+		dev: false
+		height: 3.0d
 	}]
+	order_index: 6
 	quests: [
 		{
-			x: -2.5d
-			y: -1.0d
-			dependencies: ["61DB1ACC5AB23AFA"]
-			id: "04B7A90A9A260CC3"
 			tasks: [{
 				id: "5AD216578C6CD5BE"
 				type: "item"
 				item: "conjuring:gem_socket"
 			}]
+			dependencies: ["61DB1ACC5AB23AFA"]
+			id: "04B7A90A9A260CC3"
+			y: -1.0d
+			x: -2.5d
 			rewards: [{
 				id: "633AF0EF5C55D78F"
 				type: "loot"
@@ -41,9 +42,11 @@
 			}]
 		}
 		{
-			title: "Basic Gem Tinkering"
-			x: -3.0d
-			y: -2.5d
+			tasks: [{
+				id: "763861624BBCCEC6"
+				type: "item"
+				item: "conjuring:gem_tinkerer"
+			}]
 			description: [
 				"The different charm aspects will influence a Conjurer in the following ways:"
 				""
@@ -55,41 +58,45 @@
 				""
 				"Ignorance: Increases the amount of creatures in close vicinity the Conjurer ignores when judging how many new ones to summon."
 			]
-			dependencies: ["12153697CC677412"]
 			id: "61DB1ACC5AB23AFA"
-			tasks: [{
-				id: "763861624BBCCEC6"
-				type: "item"
-				item: "conjuring:gem_tinkerer"
-			}]
+			x: -3.0d
+			y: -2.5d
+			title: "Basic Gem Tinkering"
 			rewards: [{
 				id: "732CB90B4CC399F6"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			dependencies: ["12153697CC677412"]
 		}
 		{
-			x: -7.5d
-			y: -4.0d
-			subtitle: "Craft a Soulfire Forge."
-			description: ["The first piece of equipment one shall create is the Soulfire Forge, required to form the elementary Soul Composite Materials."]
-			dependencies: ["00E561B037BFF9B4"]
-			id: "0E908723F937FD89"
 			tasks: [{
 				id: "1A6A427027AF0958"
 				type: "item"
 				item: "conjuring:soulfire_forge"
 			}]
+			description: ["The first piece of equipment one shall create is the Soulfire Forge, required to form the elementary Soul Composite Materials."]
+			id: "0E908723F937FD89"
+			x: -7.5d
+			y: -4.0d
 			rewards: [{
 				id: "6418BC43F10BD732"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Craft a Soulfire Forge."
+			dependencies: ["00E561B037BFF9B4"]
 		}
 		{
-			x: -9.0d
-			y: -4.0d
-			subtitle: "The practice of conjuration."
+			tasks: [{
+				id: "1CC8E36B0C6BE2DF"
+				type: "item"
+				item: {
+					id: "conjuring:enchiridion"
+					Count: 1b
+					tag: { }
+				}
+			}]
 			description: [
 				"To start out in the practice of conjuration, a basic supply of Netherite Scrap and some Conjuration Essence is required."
 				""
@@ -106,31 +113,12 @@
 				"These prestigious instruments can be enhanced through Advanced Gem Tinkering."
 				"Crafting them however, requires the Ritual of Weaving to be carried out."
 			]
+			subtitle: "The practice of conjuration."
 			id: "00E561B037BFF9B4"
-			tasks: [{
-				id: "1CC8E36B0C6BE2DF"
-				type: "item"
-				item: {
-					id: "conjuring:enchiridion"
-					Count: 1b
-					tag: { }
-				}
-			}]
+			y: -4.0d
+			x: -9.0d
 		}
 		{
-			x: -6.0d
-			y: -8.5d
-			description: [
-				"A Stabilized Conjuring Focus which is reinforced with Soul Slices is exponentially more powerful."
-				""
-				"Once inserted into a Conjurer, it will start mimicking a player's presence, practically allowing for perpetual summoning."
-				""
-				"Considering how expensive a Stabilized Focus is, cleaning and reusing it might seen practical."
-				""
-				"To accomplish this, one can utilize Distilled Spirit."
-			]
-			dependencies: ["645B10BF6FCDE303"]
-			id: "5AC0C2202D65449C"
 			tasks: [{
 				id: "507901397293C1E6"
 				type: "item"
@@ -140,56 +128,78 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"A Stabilized Conjuring Focus which is reinforced with Soul Slices is exponentially more powerful."
+				""
+				"Once inserted into a Conjurer, it will start mimicking a player's presence, practically allowing for perpetual summoning."
+				""
+				"Considering how expensive a Stabilized Focus is, cleaning and reusing it might seen practical."
+				""
+				"To accomplish this, one can utilize Distilled Spirit."
+			]
+			id: "5AC0C2202D65449C"
+			x: -6.0d
+			y: -8.5d
 			rewards: [{
 				id: "0CFCF3549FA644E5"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			dependencies: ["645B10BF6FCDE303"]
 		}
 		{
-			x: -6.0d
-			y: -4.0d
-			subtitle: "Vitally important in any and all endeavours involving summoning."
-			description: ["Being composed mostly of basic metals it is quite sturdy and could also prove handy in the creation of tools."]
-			dependencies: ["0E908723F937FD89"]
-			id: "0F91A0EC16EBBBBB"
 			tasks: [{
 				id: "68E63E56E52EA132"
 				type: "item"
 				item: "conjuring:soul_alloy"
 			}]
+			description: ["Being composed mostly of basic metals it is quite sturdy and could also prove handy in the creation of tools."]
+			id: "0F91A0EC16EBBBBB"
+			x: -6.0d
+			y: -4.0d
 			rewards: [{
 				id: "788B845CAF39216D"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Vitally important in any and all endeavours involving summoning."
+			dependencies: ["0E908723F937FD89"]
 		}
 		{
-			x: -6.0d
-			y: -7.0d
-			subtitle: "Extraordinary powers facilitate the creation of ever stronger instruments."
-			description: [
-				"A blend of Conjuration Essence and Iron Ingots adorned with a Nether Star the Soul Slice is a formidable material."
-				""
-				"Its extraordinary powers facilitate the creation of ever stronger instruments, like the Stabilized Conjuring Focus."
-			]
-			dependencies: ["123117C7D38E3ED8"]
-			id: "645B10BF6FCDE303"
 			tasks: [{
 				id: "7665D64C554FEF12"
 				type: "item"
 				item: "conjuring:soul_slice"
 			}]
+			description: [
+				"A blend of Conjuration Essence and Iron Ingots adorned with a Nether Star the Soul Slice is a formidable material."
+				""
+				"Its extraordinary powers facilitate the creation of ever stronger instruments, like the Stabilized Conjuring Focus."
+			]
+			id: "645B10BF6FCDE303"
+			x: -6.0d
+			y: -7.0d
 			rewards: [{
 				id: "5AB2151A2D120123"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Extraordinary powers facilitate the creation of ever stronger instruments."
+			dependencies: ["123117C7D38E3ED8"]
 		}
 		{
-			x: 1.5d
-			y: -1.0d
-			subtitle: "The Soul Alloy Sword is a contribution to the warrior who possess it."
+			tasks: [{
+				id: "2591D7BB6E0558AD"
+				type: "item"
+				item: {
+					id: "conjuring:soul_alloy_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Modifiers: { }
+					}
+				}
+			}]
 			description: [
 				"It's ability launches five beams, which normally deal 20% of that sword's attack damage each."
 				""
@@ -203,13 +213,23 @@
 				""
 				"Ignorance: Ignores a specific amount of armor per gem fitted."
 			]
-			dependencies: ["482E9E6D0DBEDA9F"]
 			id: "389463636AC92D4A"
+			x: 1.5d
+			y: -1.0d
+			rewards: [{
+				id: "3002B2E585C3347B"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+			subtitle: "The Soul Alloy Sword is a contribution to the warrior who possess it."
+			dependencies: ["482E9E6D0DBEDA9F"]
+		}
+		{
 			tasks: [{
-				id: "2591D7BB6E0558AD"
+				id: "1F46AEE4412AF0ED"
 				type: "item"
 				item: {
-					id: "conjuring:soul_alloy_sword"
+					id: "conjuring:soul_alloy_pickaxe"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -217,16 +237,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "3002B2E585C3347B"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 0.5d
-			y: -1.0d
-			subtitle: "The perilous pickaxe of choice."
 			description: [
 				"Right-clicking will coerce it to send out a beam which vein-mines any ores it touches."
 				""
@@ -240,13 +250,23 @@
 				""
 				"Ignorance: Ignores a small amount of durability loss when using the tool. Stacks with Unbreaking."
 			]
-			dependencies: ["482E9E6D0DBEDA9F"]
 			id: "3D6141DCD667189D"
+			x: 0.5d
+			y: -1.0d
+			rewards: [{
+				id: "3740E294EF2C744D"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+			subtitle: "The perilous pickaxe of choice."
+			dependencies: ["482E9E6D0DBEDA9F"]
+		}
+		{
 			tasks: [{
-				id: "1F46AEE4412AF0ED"
+				id: "7508FC98B04197D9"
 				type: "item"
 				item: {
-					id: "conjuring:soul_alloy_pickaxe"
+					id: "conjuring:soul_alloy_hatchet"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -254,16 +274,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "3740E294EF2C744D"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 2.5d
-			y: -1.0d
-			subtitle: "A powerful tool, both in damage and the Soul Feller ability."
 			description: [
 				"Upon right-clicking, a destructive beam is emitted that will obliterate any logs on contact."
 				""
@@ -277,13 +287,23 @@
 				""
 				"Ignorance: Ignores a small amount of durability loss when using the tool. Stacks with Unbreaking."
 			]
-			dependencies: ["482E9E6D0DBEDA9F"]
 			id: "5CD85868465A7E9B"
+			x: 2.5d
+			y: -1.0d
+			rewards: [{
+				id: "3E2773F64CB289B4"
+				type: "loot"
+				table_id: 13756307348121783L
+			}]
+			subtitle: "A powerful tool, both in damage and the Soul Feller ability."
+			dependencies: ["482E9E6D0DBEDA9F"]
+		}
+		{
 			tasks: [{
-				id: "7508FC98B04197D9"
+				id: "30C4673B6D235BDE"
 				type: "item"
 				item: {
-					id: "conjuring:soul_alloy_hatchet"
+					id: "conjuring:soul_alloy_shovel"
 					Count: 1b
 					tag: {
 						Damage: 0
@@ -291,16 +311,6 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "3E2773F64CB289B4"
-				type: "loot"
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			x: 3.5d
-			y: -1.0d
-			subtitle: "While the shovel sees little use normally, the ability of it is likely to become a good friend."
 			description: [
 				"When used it will seek out any items around and bring them back to it's caller."
 				""
@@ -314,30 +324,23 @@
 				""
 				"Ignorance: Ignores a small amount of durability loss when using the tool. Stacks with Unbreaking."
 			]
-			dependencies: ["482E9E6D0DBEDA9F"]
 			id: "765F6E10ED3E1A1F"
-			tasks: [{
-				id: "30C4673B6D235BDE"
-				type: "item"
-				item: {
-					id: "conjuring:soul_alloy_shovel"
-					Count: 1b
-					tag: {
-						Damage: 0
-						Modifiers: { }
-					}
-				}
-			}]
+			x: 3.5d
+			y: -1.0d
 			rewards: [{
 				id: "0F59C9A2142B0DE1"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "While the shovel sees little use normally, the ability of it is likely to become a good friend."
+			dependencies: ["482E9E6D0DBEDA9F"]
 		}
 		{
-			x: -6.0d
-			y: -5.5d
-			subtitle: "Basic substance involved in summoning."
+			tasks: [{
+				id: "714CBC4CB6DB728A"
+				type: "item"
+				item: "conjuring:conjuration_essence"
+			}]
 			description: [
 				"While being the most basic substance involved in summoning, is still of utmost importance."
 				""
@@ -345,63 +348,63 @@
 				""
 				"One can obtain some essence of their own from breaking ordinary spawners as well as plundering chests."
 			]
-			dependencies: ["0E908723F937FD89"]
 			id: "123117C7D38E3ED8"
-			tasks: [{
-				id: "714CBC4CB6DB728A"
-				type: "item"
-				item: "conjuring:conjuration_essence"
-			}]
+			x: -6.0d
+			y: -5.5d
 			rewards: [{
 				id: "6944EA4B397D995C"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Basic substance involved in summoning."
+			dependencies: ["0E908723F937FD89"]
 		}
 		{
-			x: -3.0d
-			y: -4.0d
-			subtitle: "Smash Conjuration Essence on stone for 4 pieces of Lesser Conjuration Essence."
-			description: ["For when a less concentrated material is required, simply right-clicking some essence on any stone-like surface smashes it into 4 pieces of Lesser Conjuration Essence."]
-			dependencies: ["43304C008E8A700B"]
-			id: "12153697CC677412"
 			tasks: [{
 				id: "5D56B9D6B720A4DE"
 				type: "item"
 				item: "conjuring:lesser_conjuration_essence"
 			}]
+			description: ["For when a less concentrated material is required, simply right-clicking some essence on any stone-like surface smashes it into 4 pieces of Lesser Conjuration Essence."]
+			id: "12153697CC677412"
+			x: -3.0d
+			y: -4.0d
 			rewards: [{
 				id: "6AAD9611B759D03A"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Smash Conjuration Essence on stone for 4 pieces of Lesser Conjuration Essence."
+			dependencies: ["43304C008E8A700B"]
 		}
 		{
-			x: -6.0d
-			y: -2.5d
-			subtitle: "Commanding the powerful contraptions involved in conjuration."
-			description: [
-				"Commanding the powerful contraptions involved in conjuration is no easy task and as such, the Conjuring Scepter is required to interact with most of them."
-				""
-				"The very basic act of mounting a Nether Star on a Blaze Rod has apparently greatly improved their magical abilities, making the usage of most runic machinery a breeze."
-			]
-			dependencies: ["0E908723F937FD89"]
-			id: "55FE66A0CBE3C520"
 			tasks: [{
 				id: "21FA46FF3840E447"
 				type: "item"
 				item: "conjuring:conjuring_scepter"
 			}]
+			description: [
+				"Commanding the powerful contraptions involved in conjuration is no easy task and as such, the Conjuring Scepter is required to interact with most of them."
+				""
+				"The very basic act of mounting a Nether Star on a Blaze Rod has apparently greatly improved their magical abilities, making the usage of most runic machinery a breeze."
+			]
+			id: "55FE66A0CBE3C520"
+			x: -6.0d
+			y: -2.5d
 			rewards: [{
 				id: "4A98520164393F60"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Commanding the powerful contraptions involved in conjuration."
+			dependencies: ["0E908723F937FD89"]
 		}
 		{
-			x: -6.0d
-			y: 0.5d
-			subtitle: "A reliable long-term solution for Conjuration Essence."
+			tasks: [{
+				id: "6B73E673A80B0705"
+				type: "item"
+				item: "conjuring:superior_conjuring_scepter"
+			}]
 			description: [
 				"There may come a point at which one runs out of Conjuration Essence. "
 				""
@@ -413,23 +416,23 @@
 				""
 				"Additionally, the scepter is capable of instantly finishing any process in the Soulfire Forge by right-clicking."
 			]
-			dependencies: ["651E1703E4D6A7F3"]
 			id: "7CB1A19C567DE84C"
-			tasks: [{
-				id: "6B73E673A80B0705"
-				type: "item"
-				item: "conjuring:superior_conjuring_scepter"
-			}]
+			x: -6.0d
+			y: 0.5d
 			rewards: [{
 				id: "5B2E49E9BB27216C"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "A reliable long-term solution for Conjuration Essence."
+			dependencies: ["651E1703E4D6A7F3"]
 		}
 		{
-			title: "Ritual of Extraction"
-			x: 1.5d
-			y: -4.5d
+			tasks: [{
+				id: "3666880CAA50A00D"
+				type: "item"
+				item: "conjuring:soul_funnel"
+			}]
 			description: [
 				"Knowing how to perform the Ritual of Extraction is easily one of the most important skills involved in summoning."
 				""
@@ -447,23 +450,23 @@
 				""
 				"This will make it possible to commence the ritual by right-clicking the Soul Funnel with a Conjuring Scepter. "
 			]
-			dependencies: ["1866FF6B9D5AE777"]
 			id: "147BCF7E6F4944A2"
-			tasks: [{
-				id: "3666880CAA50A00D"
-				type: "item"
-				item: "conjuring:soul_funnel"
-			}]
+			x: 1.5d
+			y: -4.5d
+			title: "Ritual of Extraction"
 			rewards: [{
 				id: "78A79979DB967D26"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			dependencies: ["1866FF6B9D5AE777"]
 		}
 		{
-			title: "Ritual of Weaving"
-			x: 1.5d
-			y: -3.5d
+			tasks: [{
+				id: "2AEE7687908351FC"
+				type: "item"
+				item: "conjuring:soul_weaver"
+			}]
 			description: [
 				"Some crafting processes, like those involved in fabricating Soul Alloy Tools, can be very involved and consequently require the Ritual of Weaving to be carried out."
 				""
@@ -473,23 +476,23 @@
 				""
 				"In the final step, the Soul Weaver has to be loaded with Conjuration Essence and subsequently right-clicked with a Conjuration Scepter to commence the ritual."
 			]
-			dependencies: ["1866FF6B9D5AE777"]
 			id: "482E9E6D0DBEDA9F"
-			tasks: [{
-				id: "2AEE7687908351FC"
-				type: "item"
-				item: "conjuring:soul_weaver"
-			}]
+			x: 1.5d
+			y: -3.5d
+			title: "Ritual of Weaving"
 			rewards: [{
 				id: "32178DCACFFBAEA4"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			dependencies: ["1866FF6B9D5AE777"]
 		}
 		{
-			x: -4.5d
-			y: -4.0d
-			subtitle: "Mob spawner in red disguise?"
+			tasks: [{
+				id: "513F4BFBDB849D3F"
+				type: "item"
+				item: "conjuring:conjurer"
+			}]
 			description: [
 				"To the untrained eye, a Conjurer may look remarkably similar to a normal monster spawner."
 				""
@@ -503,26 +506,27 @@
 				""
 				"A final feature of the Conjurer one should keep in mind is that, when confronted with a redstone signal, it will promptly seize operation."
 			]
-			dependencies: [
-				"0F91A0EC16EBBBBB"
-				"123117C7D38E3ED8"
-				"55FE66A0CBE3C520"
-			]
 			id: "43304C008E8A700B"
-			tasks: [{
-				id: "513F4BFBDB849D3F"
-				type: "item"
-				item: "conjuring:conjurer"
-			}]
+			x: -4.5d
+			y: -4.0d
 			rewards: [{
 				id: "365F4B31BC3B4063"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Mob spawner in red disguise?"
+			dependencies: [
+				"0F91A0EC16EBBBBB"
+				"123117C7D38E3ED8"
+				"55FE66A0CBE3C520"
+			]
 		}
 		{
-			x: -0.5d
-			y: -1.0d
+			tasks: [{
+				id: "26EDCAA58BEDC06A"
+				type: "item"
+				item: "conjuring:distilled_spirit"
+			}]
 			description: [
 				"This freakish fluid is obtained by imbuing four pieces of Conjuration Essence into a plain old glass bottle using a Soul Weaver."
 				""
@@ -530,25 +534,17 @@
 				""
 				"Finally, a simple right-click with a Conjuring Scepter will suffice to extract the soul."
 			]
-			dependencies: ["482E9E6D0DBEDA9F"]
 			id: "01B6FAE48DFC7B5D"
-			tasks: [{
-				id: "26EDCAA58BEDC06A"
-				type: "item"
-				item: "conjuring:distilled_spirit"
-			}]
+			x: -0.5d
+			y: -1.0d
 			rewards: [{
 				id: "05B2E1661FE80B9F"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			dependencies: ["482E9E6D0DBEDA9F"]
 		}
 		{
-			title: "Aspect Gems"
-			x: -3.5d
-			y: -1.0d
-			dependencies: ["61DB1ACC5AB23AFA"]
-			id: "4D12C2B99A11FC06"
 			tasks: [
 				{
 					id: "124E9000EEF740C3"
@@ -571,21 +567,18 @@
 					item: "conjuring:scope_gem"
 				}
 			]
+			id: "4D12C2B99A11FC06"
+			x: -3.5d
+			y: -1.0d
+			title: "Aspect Gems"
 			rewards: [{
 				id: "758AA3DA9243E6CE"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			dependencies: ["61DB1ACC5AB23AFA"]
 		}
 		{
-			title: "Charms"
-			x: -3.0d
-			y: 0.5d
-			dependencies: [
-				"4D12C2B99A11FC06"
-				"04B7A90A9A260CC3"
-			]
-			id: "52ED7FEFB4862043"
 			tasks: [
 				{
 					id: "098643AC49423F55"
@@ -608,16 +601,30 @@
 					item: "conjuring:scope_charm"
 				}
 			]
+			id: "52ED7FEFB4862043"
+			x: -3.0d
+			y: 0.5d
+			title: "Charms"
 			rewards: [{
 				id: "5870FEAC800943C7"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			dependencies: [
+				"4D12C2B99A11FC06"
+				"04B7A90A9A260CC3"
+			]
 		}
 		{
-			x: -1.5d
-			y: -4.0d
-			subtitle: "Safely contain the inner construct of a certain soul type."
+			tasks: [{
+				id: "4F87EE41560AB292"
+				type: "item"
+				item: {
+					id: "conjuring:conjuring_focus"
+					Count: 1b
+					tag: { }
+				}
+			}]
 			description: [
 				"Souls are complex entities and therefore containing them is certainly no easy task."
 				""
@@ -629,27 +636,24 @@
 				""
 				"To trap a soul inside a focus, one shall seek to perform a Ritual of Extraction."
 			]
-			dependencies: ["12153697CC677412"]
 			id: "6AEEA39ABC54E7C4"
-			tasks: [{
-				id: "4F87EE41560AB292"
-				type: "item"
-				item: {
-					id: "conjuring:conjuring_focus"
-					Count: 1b
-					tag: { }
-				}
-			}]
+			x: -1.5d
+			y: -4.0d
 			rewards: [{
 				id: "14EC64E36638B743"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Safely contain the inner construct of a certain soul type."
+			dependencies: ["12153697CC677412"]
 		}
 		{
-			title: "Ritual Basics"
-			x: 0.0d
-			y: -4.0d
+			tasks: [{
+				id: "0E36C158AEC8A73A"
+				type: "item"
+				item: "conjuring:blackstone_pedestal"
+				count: 4L
+			}]
 			description: [
 				"Seeing as Gilded Blackstone has some peculiar magical properties, it seems perfectly reasonable to construct a pedestal out of it."
 				""
@@ -659,30 +663,27 @@
 				""
 				"This is accomplished by right-clicking first a pedestal and then the corresponding ritual core, all while wielding a Conjuring Scepter of any kind."
 			]
-			dependencies: ["6AEEA39ABC54E7C4"]
 			id: "1866FF6B9D5AE777"
-			tasks: [{
-				id: "0E36C158AEC8A73A"
-				type: "item"
-				item: "conjuring:blackstone_pedestal"
-				count: 4L
-			}]
+			x: 0.0d
+			y: -4.0d
+			title: "Ritual Basics"
 			rewards: [{
 				id: "29C9136D229DD029"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			dependencies: ["6AEEA39ABC54E7C4"]
 		}
 		{
-			x: -6.0d
-			y: -1.0d
-			dependencies: ["55FE66A0CBE3C520"]
-			id: "651E1703E4D6A7F3"
 			tasks: [{
 				id: "65CC3667BE68F75F"
 				type: "item"
 				item: "conjuring:soul_rod"
 			}]
+			dependencies: ["55FE66A0CBE3C520"]
+			id: "651E1703E4D6A7F3"
+			y: -1.0d
+			x: -6.0d
 			rewards: [{
 				id: "1E740640A0415092"
 				type: "loot"
@@ -690,5 +691,4 @@
 			}]
 		}
 	]
-	quest_links: [ ]
 }
