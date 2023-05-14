@@ -168,8 +168,16 @@ onEvent('item.tooltip', tooltip => {
 	})
 
     const toContain = [
-		"Looting", "Luck"
-	] 
+		Text.translate("enchantment.minecraft.looting").getString(),
+		Text.translate("modifier.tconstruct.luck.1").getString(),
+		Text.translate("modifier.tconstruct.luck.2").getString(),
+		Text.translate("modifier.tconstruct.luck.3").getString()
+	]
+
+	if (Text.translate("enchantment.minecraft.looting").getString() != Text.translate("modifier.tconstruct.looting").getString()) {
+		toContain.push(Text.translate("modifier.tconstruct.looting").getString())
+	}
+	
 	onEvent('item.tooltip', event => {
 		event.addAdvanced(/^tconstruct:.*/, (stack, a, text) => {
 			let del_indexes = [];
@@ -180,7 +188,7 @@ onEvent('item.tooltip', tooltip => {
 				toContain.forEach(e => {
 					if(k.contains(e)) {
 						matches++;
-						if (e == "Looting") {del_indexes.push(i);}
+						if (e == Text.translate("enchantment.minecraft.looting").getString() || e == Text.translate("modifier.tconstruct.looting").getString()) {del_indexes.push(i);}
 				}
 				});
 			}

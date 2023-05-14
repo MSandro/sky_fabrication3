@@ -1,9 +1,10 @@
 {
-	id: "292065E5EB368449"
+	quest_links: [ ]
+	default_hide_dependency_lines: false
 	group: "1039AC171AB01709"
-	order_index: 0
+	id: "292065E5EB368449"
 	filename: "arcanus"
-	title: "Arcanus"
+	default_quest_shape: ""
 	icon: {
 		id: "arcanus:master_wand"
 		Count: 1b
@@ -11,32 +12,22 @@
 			arcanus: { }
 		}
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	title: "Arcanus"
 	images: [{
-		x: 1.0d
-		y: -9.5d
-		width: 2.0d
-		height: 2.0d
 		rotation: 0.0d
 		image: "arcanus:textures/item/initiate_wand.png"
-		hover: ["One of our favorite simple yet effective magic mods from a great dev. We hope you enjoy it."]
+		width: 2.0d
 		click: ""
-		dev: false
+		hover: ["One of our favorite simple yet effective magic mods from a great dev. We hope you enjoy it."]
+		x: 1.0d
+		y: -9.5d
 		corner: false
+		dev: false
+		height: 2.0d
 	}]
+	order_index: 0
 	quests: [
 		{
-			title: "Welcome to Arcanus"
-			x: 1.0d
-			y: 0.5d
-			subtitle: "You're a wizard, Harry!"
-			description: [
-				"A simple spell based mod. Using Amethyst to create mana and a single wand."
-				""
-				"The spells are found in loot from dungeons."
-			]
-			id: "756D7FADB9841FA5"
 			tasks: [
 				{
 					id: "686A5004ACD6FFD0"
@@ -48,19 +39,23 @@
 					item: "minecraft:amethyst_shard"
 				}
 			]
+			description: [
+				"A simple spell based mod. Using Amethyst to create mana and a single wand."
+				""
+				"The spells are found in loot from dungeons."
+			]
+			id: "756D7FADB9841FA5"
+			x: 1.0d
+			y: 0.5d
+			title: "Welcome to Arcanus"
 			rewards: [{
 				id: "7135AEF7BAE4E236"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "You're a wizard, Harry!"
 		}
 		{
-			x: 1.0d
-			y: -3.0d
-			subtitle: "Mic check, Mic check. Is this thing on?"
-			description: ["Remember to use R in REI to look at the recipe."]
-			dependencies: ["3B0E9B2A366C6574"]
-			id: "3575FEA5A4C605B0"
 			tasks: [{
 				id: "3579AF788DF77E8B"
 				type: "item"
@@ -72,6 +67,10 @@
 					}
 				}
 			}]
+			description: ["Remember to use R in REI to look at the recipe."]
+			id: "3575FEA5A4C605B0"
+			x: 1.0d
+			y: -3.0d
 			rewards: [
 				{
 					id: "478D95294735B6BC"
@@ -85,13 +84,10 @@
 					table_id: 13756307348121783L
 				}
 			]
+			subtitle: "Mic check, Mic check. Is this thing on?"
+			dependencies: ["3B0E9B2A366C6574"]
 		}
 		{
-			x: 1.0d
-			y: -4.5d
-			subtitle: "The more you use your wand, the more XP it gains. Get enough XP and your wand will upgrade itself."
-			dependencies: ["3575FEA5A4C605B0"]
-			id: "23919FDE0D10E077"
 			tasks: [{
 				id: "762251340AF9A8F2"
 				type: "item"
@@ -103,18 +99,18 @@
 					}
 				}
 			}]
+			id: "23919FDE0D10E077"
+			x: 1.0d
+			y: -4.5d
 			rewards: [{
 				id: "3FD04EDE2F0A0B84"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "The more you use your wand, the more XP it gains. Get enough XP and your wand will upgrade itself."
+			dependencies: ["3575FEA5A4C605B0"]
 		}
 		{
-			x: 1.0d
-			y: -6.0d
-			subtitle: "Use your wand enough to get to this level and you truely are a magic master."
-			dependencies: ["23919FDE0D10E077"]
-			id: "77C1E1E5BA31AE01"
 			tasks: [{
 				id: "1CB9E7004495D24B"
 				type: "item"
@@ -126,22 +122,18 @@
 					}
 				}
 			}]
+			id: "77C1E1E5BA31AE01"
+			x: 1.0d
+			y: -6.0d
 			rewards: [{
 				id: "03AF315E665983C5"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Use your wand enough to get to this level and you truely are a magic master."
+			dependencies: ["23919FDE0D10E077"]
 		}
 		{
-			x: 1.0d
-			y: -1.5d
-			description: [
-				"Amethyst and a mana flask is all you need to get this item."
-				""
-				"You need to fill the mana flask to complete this quest."
-			]
-			dependencies: ["756D7FADB9841FA5"]
-			id: "3B0E9B2A366C6574"
 			tasks: [{
 				id: "624C9A1DE570923E"
 				type: "item"
@@ -155,47 +147,54 @@
 					}
 				}
 			}]
+			description: [
+				"Amethyst and a mana flask is all you need to get this item."
+				""
+				"You need to fill the mana flask to complete this quest."
+			]
+			id: "3B0E9B2A366C6574"
+			x: 1.0d
+			y: -1.5d
 			rewards: [{
 				id: "7BB090CC49CBDFDB"
 				type: "loot"
 				table_id: 13756307348121783L
 			}]
+			dependencies: ["756D7FADB9841FA5"]
 		}
 		{
-			x: 2.5d
-			y: -4.0d
-			subtitle: "Store your spell books here."
-			description: ["Also the textures look cool, the more you add or remove books."]
-			dependencies: ["3575FEA5A4C605B0"]
-			id: "3C7CCACADEC2A3AC"
 			tasks: [{
 				id: "783F238DEE18AF29"
 				type: "item"
 				item: "arcanus:fillable_bookshelf"
 			}]
+			description: ["Also the textures look cool, the more you add or remove books."]
+			id: "3C7CCACADEC2A3AC"
+			x: 2.5d
+			y: -4.0d
 			rewards: [{
 				id: "59CF3FE369C4A623"
 				type: "item"
 				item: "minecraft:book"
 				count: 6
 			}]
+			subtitle: "Store your spell books here."
+			dependencies: ["3575FEA5A4C605B0"]
 		}
 		{
-			x: -0.5d
-			y: -4.0d
-			subtitle: "Protect the goods."
-			description: [
-				"Or just show it off."
-				""
-				"Get a spyglass to give to the haters. So they can admire from a far."
-			]
-			dependencies: ["3575FEA5A4C605B0"]
-			id: "7B72273FBB8B70DD"
 			tasks: [{
 				id: "3BF8F2AE1D1B98AA"
 				type: "item"
 				item: "arcanus:display_case"
 			}]
+			description: [
+				"Or just show it off."
+				""
+				"Get a spyglass to give to the haters. So they can admire from a far."
+			]
+			id: "7B72273FBB8B70DD"
+			x: -0.5d
+			y: -4.0d
 			rewards: [
 				{
 					id: "247E7CA7B4803333"
@@ -208,16 +207,10 @@
 					table_id: 13756307348121783L
 				}
 			]
+			subtitle: "Protect the goods."
+			dependencies: ["3575FEA5A4C605B0"]
 		}
 		{
-			x: -2.0d
-			y: 2.0d
-			description: [
-				"Lunges you forward."
-				"Costs 5 Mana to cast."
-			]
-			dependencies: ["756D7FADB9841FA5"]
-			id: "4E0B2BC595E5C2D2"
 			tasks: [{
 				id: "1EEA90CD59064665"
 				type: "item"
@@ -232,22 +225,22 @@
 					}
 				}
 			}]
+			description: [
+				"Lunges you forward."
+				"Costs 5 Mana to cast."
+			]
+			id: "4E0B2BC595E5C2D2"
+			x: -2.0d
+			y: 2.0d
 			rewards: [{
 				id: "7A64DCC9DD2E3518"
 				type: "item"
 				item: "minecraft:stick"
 				count: 12
 			}]
+			dependencies: ["756D7FADB9841FA5"]
 		}
 		{
-			x: 4.0d
-			y: 2.0d
-			description: [
-				"Warps you back to your Spawnpoint."
-				"Costs 15 Mana to cast."
-			]
-			dependencies: ["756D7FADB9841FA5"]
-			id: "335A800C1EFCCD3F"
 			tasks: [{
 				id: "0E9E5F9690FB177B"
 				type: "item"
@@ -262,21 +255,21 @@
 					}
 				}
 			}]
+			description: [
+				"Warps you back to your Spawnpoint."
+				"Costs 15 Mana to cast."
+			]
+			id: "335A800C1EFCCD3F"
+			x: 4.0d
+			y: 2.0d
 			rewards: [{
 				id: "43F44E33EA7A4810"
 				type: "item"
 				item: "minecraft:cyan_bed"
 			}]
+			dependencies: ["756D7FADB9841FA5"]
 		}
 		{
-			x: 4.0d
-			y: 1.0d
-			description: [
-				"Summons a magic missile that deals 7 damage."
-				"Costs 3 Mana to cast."
-			]
-			dependencies: ["756D7FADB9841FA5"]
-			id: "669C1B2C2A01DB9C"
 			tasks: [{
 				id: "2F8FCFBB1480FC0E"
 				type: "item"
@@ -291,22 +284,22 @@
 					}
 				}
 			}]
+			description: [
+				"Summons a magic missile that deals 7 damage."
+				"Costs 3 Mana to cast."
+			]
+			id: "669C1B2C2A01DB9C"
+			x: 4.0d
+			y: 1.0d
 			rewards: [{
 				id: "6D9F72597619D747"
 				type: "item"
 				item: "minecraft:arrow"
 				count: 12
 			}]
+			dependencies: ["756D7FADB9841FA5"]
 		}
 		{
-			x: 4.0d
-			y: 0.0d
-			description: [
-				"Knocks the hit enemy back."
-				"Costs 4 Mana to cast."
-			]
-			dependencies: ["756D7FADB9841FA5"]
-			id: "7D56E6051F60B00F"
 			tasks: [{
 				id: "2AD6F90758713D4F"
 				type: "item"
@@ -321,16 +314,16 @@
 					}
 				}
 			}]
-		}
-		{
-			x: -2.0d
-			y: 1.0d
 			description: [
-				"Restores 10 Health points."
-				"Costs 10 Mana to cast."
+				"Knocks the hit enemy back."
+				"Costs 4 Mana to cast."
 			]
 			dependencies: ["756D7FADB9841FA5"]
-			id: "4C5214B3519865DF"
+			id: "7D56E6051F60B00F"
+			y: 0.0d
+			x: 4.0d
+		}
+		{
 			tasks: [{
 				id: "6D01618D0A06ECEC"
 				type: "item"
@@ -345,18 +338,21 @@
 					}
 				}
 			}]
+			description: [
+				"Restores 10 Health points."
+				"Costs 10 Mana to cast."
+			]
+			id: "4C5214B3519865DF"
+			x: -2.0d
+			y: 1.0d
 			rewards: [{
 				id: "29AA802DC1085B29"
 				type: "item"
 				item: "minecraft:glow_berries"
 			}]
+			dependencies: ["756D7FADB9841FA5"]
 		}
 		{
-			x: -2.0d
-			y: -1.0d
-			description: ["Costs 10 Mana to cast."]
-			dependencies: ["756D7FADB9841FA5"]
-			id: "5EDA0D094D24D820"
 			tasks: [{
 				id: "6FEA2CA6455D67F0"
 				type: "item"
@@ -371,21 +367,18 @@
 					}
 				}
 			}]
+			description: ["Costs 10 Mana to cast."]
+			id: "5EDA0D094D24D820"
+			x: -2.0d
+			y: -1.0d
 			rewards: [{
 				id: "796C666CFAFB0EDC"
 				type: "item"
 				item: "minecraft:glass"
 			}]
+			dependencies: ["756D7FADB9841FA5"]
 		}
 		{
-			x: 4.0d
-			y: -1.0d
-			description: [
-				"Summons a powerful Solar Strike that damages mobs on impact."
-				"Costs 20 Mana to cast."
-			]
-			dependencies: ["756D7FADB9841FA5"]
-			id: "16C3CDC79927B81E"
 			tasks: [{
 				id: "0ADD6ED8F76BD871"
 				type: "item"
@@ -400,22 +393,22 @@
 					}
 				}
 			}]
+			description: [
+				"Summons a powerful Solar Strike that damages mobs on impact."
+				"Costs 20 Mana to cast."
+			]
+			id: "16C3CDC79927B81E"
+			x: 4.0d
+			y: -1.0d
 			rewards: [{
 				id: "09D276D5A1CD31FB"
 				type: "item"
 				item: "minecraft:sunflower"
 				count: 12
 			}]
+			dependencies: ["756D7FADB9841FA5"]
 		}
 		{
-			x: -2.0d
-			y: 0.0d
-			description: [
-				"Summons a 3-block tall barrier."
-				"Costs 4 Mana to cast."
-			]
-			dependencies: ["756D7FADB9841FA5"]
-			id: "1AA763E8C46B95A2"
 			tasks: [{
 				id: "285939FC28874007"
 				type: "item"
@@ -430,24 +423,30 @@
 					}
 				}
 			}]
+			description: [
+				"Summons a 3-block tall barrier."
+				"Costs 4 Mana to cast."
+			]
+			id: "1AA763E8C46B95A2"
+			x: -2.0d
+			y: 0.0d
 			rewards: [{
 				id: "044FB7EDC89183A8"
 				type: "item"
 				item: "blockus:rainbow_brick_wall"
 			}]
+			dependencies: ["756D7FADB9841FA5"]
 		}
 		{
-			icon: "minecraft:amethyst_cluster"
-			x: 1.0d
-			y: -7.5d
-			subtitle: "It feels good to be an adventurer."
-			dependencies: ["77C1E1E5BA31AE01"]
-			id: "3935DB54BD9C5E4E"
 			tasks: [{
 				id: "78C59C1613C26A83"
 				type: "checkmark"
 				title: "Arcanus Champ"
 			}]
+			icon: "minecraft:amethyst_cluster"
+			id: "3935DB54BD9C5E4E"
+			x: 1.0d
+			y: -7.5d
 			rewards: [
 				{
 					id: "04E73FB23BC62C52"
@@ -460,7 +459,8 @@
 					table_id: 13756307348121783L
 				}
 			]
+			subtitle: "It feels good to be an adventurer."
+			dependencies: ["77C1E1E5BA31AE01"]
 		}
 	]
-	quest_links: [ ]
 }

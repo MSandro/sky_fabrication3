@@ -1,58 +1,59 @@
 {
-	id: "3FA09F995A9C2E78"
+	quest_links: [ ]
+	default_hide_dependency_lines: false
 	group: "5A79AA7D1974C9A9"
-	order_index: 0
+	id: "3FA09F995A9C2E78"
 	filename: "spatial_harvesters"
-	title: "Spatial Harvesters"
+	default_quest_shape: ""
 	icon: {
 		id: "spatialharvesters:ore_harvester_8"
 		Count: 1b
 		tag: { }
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	title: "Spatial Harvesters"
+	order_index: 0
 	quests: [
 		{
-			x: -1.0d
-			y: -3.5d
-			subtitle: "Required to make Spatial Harvesters."
-			dependencies: ["432F1A4732E73037"]
 			size: 1.5d
 			id: "45A82DB03F64C6F3"
-			tasks: [{
-				id: "65407A0EEBAE9906"
-				type: "item"
-				item: "spatialharvesters:casing"
-			}]
+			x: -1.0d
+			y: -3.5d
 			rewards: [{
 				id: "5B2C76810F0CBC27"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Required to make Spatial Harvesters."
+			dependencies: ["432F1A4732E73037"]
+			tasks: [{
+				id: "65407A0EEBAE9906"
+				type: "item"
+				item: "spatialharvesters:casing"
+			}]
 		}
 		{
-			disable_toast: true
-			x: -1.0d
-			y: -5.0d
-			subtitle: "A Quantum Circuit is required to assemble Spatial Harvesters' Casings."
-			dependencies: ["363455215C23E84E"]
-			id: "432F1A4732E73037"
 			tasks: [{
 				id: "66B1060C4701D323"
 				type: "item"
 				item: "modern_industrialization:quantum_circuit"
 			}]
+			x: -1.0d
+			id: "432F1A4732E73037"
+			disable_toast: true
+			y: -5.0d
+			subtitle: "A Quantum Circuit is required to assemble Spatial Harvesters' Casings."
+			dependencies: ["363455215C23E84E"]
 		}
 		{
-			x: -2.0d
-			y: -2.0d
-			id: "4CEF6567080ACA79"
 			tasks: [{
 				id: "5C82AA2461ECFD37"
 				type: "item"
 				item: "spatialharvesters:ore_core"
 			}]
+			id: "4CEF6567080ACA79"
+			y: -2.0d
+			x: -2.0d
 			rewards: [{
 				id: "2A2FA497FB86B0C0"
 				type: "random"
@@ -61,14 +62,14 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -2.0d
-			id: "5CEEEA572C7370C8"
 			tasks: [{
 				id: "22BC9F4808E1F444"
 				type: "item"
 				item: "spatialharvesters:bio_core"
 			}]
+			id: "5CEEEA572C7370C8"
+			y: -2.0d
+			x: -1.0d
 			rewards: [{
 				id: "5F5074065CA3329F"
 				type: "random"
@@ -77,14 +78,14 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.0d
-			id: "3527AC6DD13A51B3"
 			tasks: [{
 				id: "77846F29AA8E858F"
 				type: "item"
 				item: "spatialharvesters:stone_core"
 			}]
+			id: "3527AC6DD13A51B3"
+			y: -2.0d
+			x: 0.0d
 			rewards: [{
 				id: "22ABFF4A574F326F"
 				type: "random"
@@ -93,14 +94,14 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -2.0d
-			id: "0007683B85C5D429"
 			tasks: [{
 				id: "1EA45163E7771181"
 				type: "item"
 				item: "spatialharvesters:soil_core"
 			}]
+			id: "0007683B85C5D429"
+			y: -2.0d
+			x: 1.0d
 			rewards: [{
 				id: "7DEA891CE1F48C20"
 				type: "random"
@@ -109,15 +110,15 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.5d
-			subtitle: "A Neutronium Nugget is required to craft this item."
-			id: "3E17651799AF2546"
 			tasks: [{
 				id: "72A113FAD8AB99EE"
 				type: "item"
 				item: "spatialharvesters:loot_core"
 			}]
+			subtitle: "A Neutronium Nugget is required to craft this item."
+			id: "3E17651799AF2546"
+			y: 3.5d
+			x: 2.5d
 			rewards: [{
 				id: "5059C09741004BC0"
 				type: "random"
@@ -126,14 +127,14 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: -2.0d
-			id: "69DD3E95BDB5E400"
 			tasks: [{
 				id: "7AE921BE2184E25A"
 				type: "item"
 				item: "spatialharvesters:mob_core"
 			}]
+			id: "69DD3E95BDB5E400"
+			y: -2.0d
+			x: 2.5d
 			rewards: [{
 				id: "4EC074449E66AE93"
 				type: "random"
@@ -142,14 +143,14 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 2.0d
-			id: "279BF2C329E9D9DF"
 			tasks: [{
 				id: "3FD913361865C11B"
 				type: "item"
 				item: "spatialharvesters:dark_mob_core"
 			}]
+			id: "279BF2C329E9D9DF"
+			y: 2.0d
+			x: 3.5d
 			rewards: [{
 				id: "404B93501F55ADB1"
 				type: "random"
@@ -158,18 +159,6 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -1.0d
-			subtitle: "Generates every ore in the game!"
-			description: [
-				"Generates every 400 ticks (or 20 seconds)."
-				""
-				"Uses 400 E per generated item."
-				""
-				"Average consumption: 1 E/t."
-			]
-			dependencies: ["4CEF6567080ACA79"]
-			id: "6402400F5F40CF37"
 			tasks: [{
 				id: "569004595B937E91"
 				type: "item"
@@ -179,29 +168,26 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 400 ticks (or 20 seconds)."
+				""
+				"Uses 400 E per generated item."
+				""
+				"Average consumption: 1 E/t."
+			]
+			id: "6402400F5F40CF37"
+			x: -2.0d
+			y: -1.0d
 			rewards: [{
 				id: "7D14AA205D3F62C3"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates every ore in the game!"
+			dependencies: ["4CEF6567080ACA79"]
 		}
 		{
-			x: -2.0d
-			y: 0.0d
-			subtitle: "Generates every ore in the game!"
-			description: [
-				"Generates every 350 ticks (or 17.5 seconds)."
-				""
-				"Uses 600 E per generated item."
-				""
-				"Average consumption: 1.71 E/t."
-			]
-			dependencies: [
-				"6402400F5F40CF37"
-				"2B2FFD6B5333EAF3"
-			]
-			id: "0E53685ECFC4C1CF"
 			tasks: [{
 				id: "216727C0B03800FC"
 				type: "item"
@@ -211,29 +197,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 350 ticks (or 17.5 seconds)."
+				""
+				"Uses 600 E per generated item."
+				""
+				"Average consumption: 1.71 E/t."
+			]
+			id: "0E53685ECFC4C1CF"
+			x: -2.0d
+			y: 0.0d
 			rewards: [{
 				id: "50EB606362FD3D19"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates every ore in the game!"
+			dependencies: [
+				"6402400F5F40CF37"
+				"2B2FFD6B5333EAF3"
+			]
 		}
 		{
-			x: -2.0d
-			y: 1.0d
-			subtitle: "Generates every ore in the game!"
-			description: [
-				"Generates every 300 ticks (or 15 seconds)."
-				""
-				"Uses 1000 E per generated item."
-				""
-				"Average consumption: 3.33 E/t."
-			]
-			dependencies: [
-				"0E53685ECFC4C1CF"
-				"29C1E30A9260BC71"
-			]
-			id: "3E04366C15960FDC"
 			tasks: [{
 				id: "256279E38D0A4B96"
 				type: "item"
@@ -243,29 +229,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 300 ticks (or 15 seconds)."
+				""
+				"Uses 1000 E per generated item."
+				""
+				"Average consumption: 3.33 E/t."
+			]
+			id: "3E04366C15960FDC"
+			x: -2.0d
+			y: 1.0d
 			rewards: [{
 				id: "56034C21A47211B3"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates every ore in the game!"
+			dependencies: [
+				"0E53685ECFC4C1CF"
+				"29C1E30A9260BC71"
+			]
 		}
 		{
-			x: -2.0d
-			y: 2.0d
-			subtitle: "Generates every ore in the game!"
-			description: [
-				"Generates every 250 ticks (or 12.5 seconds)."
-				""
-				"Uses 1500 E per generated item."
-				""
-				"Average consumption: 6 E/t."
-			]
-			dependencies: [
-				"3E04366C15960FDC"
-				"58226D1F08683EB5"
-			]
-			id: "7336B45C0EB22709"
 			tasks: [{
 				id: "0085CB977C5B7CEB"
 				type: "item"
@@ -275,29 +261,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 250 ticks (or 12.5 seconds)."
+				""
+				"Uses 1500 E per generated item."
+				""
+				"Average consumption: 6 E/t."
+			]
+			id: "7336B45C0EB22709"
+			x: -2.0d
+			y: 2.0d
 			rewards: [{
 				id: "7C9B4DD874FD5356"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates every ore in the game!"
+			dependencies: [
+				"3E04366C15960FDC"
+				"58226D1F08683EB5"
+			]
 		}
 		{
-			x: -2.0d
-			y: 3.0d
-			subtitle: "Generates every ore in the game!"
-			description: [
-				"Generates every 200 ticks (or 10 seconds)."
-				""
-				"Uses 4000 E per generated item."
-				""
-				"Average consumption: 20 E/t."
-			]
-			dependencies: [
-				"7336B45C0EB22709"
-				"446A5E8AAB0DE2AE"
-			]
-			id: "2F744D5C38C727F0"
 			tasks: [{
 				id: "35FAD285CD4428D8"
 				type: "item"
@@ -307,29 +293,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 200 ticks (or 10 seconds)."
+				""
+				"Uses 4000 E per generated item."
+				""
+				"Average consumption: 20 E/t."
+			]
+			id: "2F744D5C38C727F0"
+			x: -2.0d
+			y: 3.0d
 			rewards: [{
 				id: "07A0F319259B96F3"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates every ore in the game!"
+			dependencies: [
+				"7336B45C0EB22709"
+				"446A5E8AAB0DE2AE"
+			]
 		}
 		{
-			x: -2.0d
-			y: 4.0d
-			subtitle: "Generates every ore in the game!"
-			description: [
-				"Generates every 150 ticks (or 7.5 seconds)."
-				""
-				"Uses 7000 E per generated item."
-				""
-				"Average consumption: 46.67 E/t."
-			]
-			dependencies: [
-				"2F744D5C38C727F0"
-				"3443B551C3A65130"
-			]
-			id: "392518EDE405BF33"
 			tasks: [{
 				id: "1BAD38D580E892AF"
 				type: "item"
@@ -339,29 +325,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 150 ticks (or 7.5 seconds)."
+				""
+				"Uses 7000 E per generated item."
+				""
+				"Average consumption: 46.67 E/t."
+			]
+			id: "392518EDE405BF33"
+			x: -2.0d
+			y: 4.0d
 			rewards: [{
 				id: "27016FF351E17354"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates every ore in the game!"
+			dependencies: [
+				"2F744D5C38C727F0"
+				"3443B551C3A65130"
+			]
 		}
 		{
-			x: -2.0d
-			y: 5.0d
-			subtitle: "Generates every ore in the game!"
-			description: [
-				"Generates every 100 ticks (or 5 seconds)."
-				""
-				"Uses 7500 E per generated item."
-				""
-				"Average consumption: 75 E/t."
-			]
-			dependencies: [
-				"392518EDE405BF33"
-				"75B77AC8911A5A57"
-			]
-			id: "553E973F8A8E6889"
 			tasks: [{
 				id: "5B57BF5D7E3B440B"
 				type: "item"
@@ -371,29 +357,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 100 ticks (or 5 seconds)."
+				""
+				"Uses 7500 E per generated item."
+				""
+				"Average consumption: 75 E/t."
+			]
+			id: "553E973F8A8E6889"
+			x: -2.0d
+			y: 5.0d
 			rewards: [{
 				id: "36BB5E359D8E2663"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates every ore in the game!"
+			dependencies: [
+				"392518EDE405BF33"
+				"75B77AC8911A5A57"
+			]
 		}
 		{
-			x: -2.0d
-			y: 6.0d
-			subtitle: "Generates every ore in the game!"
-			description: [
-				"Generates every 5 ticks (or 0.25 seconds)."
-				""
-				"Uses 8000 E per generated item."
-				""
-				"Average consumption: 1600 E/t."
-			]
-			dependencies: [
-				"553E973F8A8E6889"
-				"1D64053A738C877A"
-			]
-			id: "66C4872AD36B57DE"
 			tasks: [{
 				id: "30E063440C4C4C58"
 				type: "item"
@@ -403,17 +389,38 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 5 ticks (or 0.25 seconds)."
+				""
+				"Uses 8000 E per generated item."
+				""
+				"Average consumption: 1600 E/t."
+			]
+			id: "66C4872AD36B57DE"
+			x: -2.0d
+			y: 6.0d
 			rewards: [{
 				id: "07DCB7E12D935058"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates every ore in the game!"
+			dependencies: [
+				"553E973F8A8E6889"
+				"1D64053A738C877A"
+			]
 		}
 		{
-			x: -1.0d
-			y: -1.0d
-			subtitle: "Generates various organic items."
+			tasks: [{
+				id: "276120D3428C84DF"
+				type: "item"
+				item: {
+					id: "spatialharvesters:bio_harvester_1"
+					Count: 1b
+					tag: { }
+				}
+			}]
 			description: [
 				"Generates:"
 				""
@@ -437,39 +444,19 @@
 				""
 				"Average consumption: 1 E/t."
 			]
-			dependencies: ["5CEEEA572C7370C8"]
 			id: "7441BC53B18AF8F0"
-			tasks: [{
-				id: "276120D3428C84DF"
-				type: "item"
-				item: {
-					id: "spatialharvesters:bio_harvester_1"
-					Count: 1b
-					tag: { }
-				}
-			}]
+			x: -1.0d
+			y: -1.0d
 			rewards: [{
 				id: "28699EED5C5492CA"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates various organic items."
+			dependencies: ["5CEEEA572C7370C8"]
 		}
 		{
-			x: -1.0d
-			y: 0.0d
-			subtitle: "Generates various organic items."
-			description: [
-				"Generates every 350 ticks (or 17.5 seconds)."
-				""
-				"Uses 600 E per generated item."
-				"Average consumption: 1.71 E/t."
-			]
-			dependencies: [
-				"7441BC53B18AF8F0"
-				"2B2FFD6B5333EAF3"
-			]
-			id: "567F0904EC32FC46"
 			tasks: [{
 				id: "3A09C3EB0C1DB263"
 				type: "item"
@@ -479,29 +466,28 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 350 ticks (or 17.5 seconds)."
+				""
+				"Uses 600 E per generated item."
+				"Average consumption: 1.71 E/t."
+			]
+			id: "567F0904EC32FC46"
+			x: -1.0d
+			y: 0.0d
 			rewards: [{
 				id: "2CC4D2D8A872A89D"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates various organic items."
+			dependencies: [
+				"7441BC53B18AF8F0"
+				"2B2FFD6B5333EAF3"
+			]
 		}
 		{
-			x: -1.0d
-			y: 1.0d
-			subtitle: "Generates various organic items."
-			description: [
-				"Generates every 300 ticks (or 15 seconds)."
-				""
-				"Uses 1000 E per generated item."
-				""
-				"Average consumption: 3.33 E/t."
-			]
-			dependencies: [
-				"567F0904EC32FC46"
-				"29C1E30A9260BC71"
-			]
-			id: "549CCCB73B700D04"
 			tasks: [{
 				id: "4C93E24CD96B2CC3"
 				type: "item"
@@ -511,29 +497,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 300 ticks (or 15 seconds)."
+				""
+				"Uses 1000 E per generated item."
+				""
+				"Average consumption: 3.33 E/t."
+			]
+			id: "549CCCB73B700D04"
+			x: -1.0d
+			y: 1.0d
 			rewards: [{
 				id: "4ECD479DE68A4824"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates various organic items."
+			dependencies: [
+				"567F0904EC32FC46"
+				"29C1E30A9260BC71"
+			]
 		}
 		{
-			x: -1.0d
-			y: 2.0d
-			subtitle: "Generates various organic items."
-			description: [
-				"Generates every 250 ticks (or 12.5 seconds)."
-				""
-				"Uses 1500 E per generated item."
-				""
-				"Average consumption: 6 E/t."
-			]
-			dependencies: [
-				"549CCCB73B700D04"
-				"58226D1F08683EB5"
-			]
-			id: "364280C8FE027ED4"
 			tasks: [{
 				id: "770C7E1A907D6440"
 				type: "item"
@@ -543,29 +529,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 250 ticks (or 12.5 seconds)."
+				""
+				"Uses 1500 E per generated item."
+				""
+				"Average consumption: 6 E/t."
+			]
+			id: "364280C8FE027ED4"
+			x: -1.0d
+			y: 2.0d
 			rewards: [{
 				id: "70436C9824717586"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates various organic items."
+			dependencies: [
+				"549CCCB73B700D04"
+				"58226D1F08683EB5"
+			]
 		}
 		{
-			x: -1.0d
-			y: 3.0d
-			subtitle: "Generates various organic items."
-			description: [
-				"Generates every 200 ticks (or 10 seconds)."
-				""
-				"Uses 4000 E per generated item."
-				""
-				"Average consumption: 20 E/t."
-			]
-			dependencies: [
-				"364280C8FE027ED4"
-				"446A5E8AAB0DE2AE"
-			]
-			id: "5C6F3AE8D028BA2A"
 			tasks: [{
 				id: "0A726C64FCEE88E9"
 				type: "item"
@@ -575,29 +561,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 200 ticks (or 10 seconds)."
+				""
+				"Uses 4000 E per generated item."
+				""
+				"Average consumption: 20 E/t."
+			]
+			id: "5C6F3AE8D028BA2A"
+			x: -1.0d
+			y: 3.0d
 			rewards: [{
 				id: "67461E61C7347421"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates various organic items."
+			dependencies: [
+				"364280C8FE027ED4"
+				"446A5E8AAB0DE2AE"
+			]
 		}
 		{
-			x: -1.0d
-			y: 4.0d
-			subtitle: "Generates various organic items."
-			description: [
-				"Generates every 150 ticks (or 7.5 seconds)."
-				""
-				"Uses 7000 E per generated item."
-				""
-				"Average consumption: 46.67 E/t."
-			]
-			dependencies: [
-				"5C6F3AE8D028BA2A"
-				"3443B551C3A65130"
-			]
-			id: "3B57275DF8614D64"
 			tasks: [{
 				id: "766DE3E6EF4E02D5"
 				type: "item"
@@ -607,29 +593,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 150 ticks (or 7.5 seconds)."
+				""
+				"Uses 7000 E per generated item."
+				""
+				"Average consumption: 46.67 E/t."
+			]
+			id: "3B57275DF8614D64"
+			x: -1.0d
+			y: 4.0d
 			rewards: [{
 				id: "519F8F0E7D04FF43"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates various organic items."
+			dependencies: [
+				"5C6F3AE8D028BA2A"
+				"3443B551C3A65130"
+			]
 		}
 		{
-			x: -1.0d
-			y: 5.0d
-			subtitle: "Generates various organic items."
-			description: [
-				"Generates every 100 ticks (or 5 seconds)."
-				""
-				"Uses 7500 E per generated item."
-				""
-				"Average consumption: 75 E/t."
-			]
-			dependencies: [
-				"3B57275DF8614D64"
-				"75B77AC8911A5A57"
-			]
-			id: "5C2995E356239D8B"
 			tasks: [{
 				id: "7BED190E6106AC72"
 				type: "item"
@@ -639,29 +625,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 100 ticks (or 5 seconds)."
+				""
+				"Uses 7500 E per generated item."
+				""
+				"Average consumption: 75 E/t."
+			]
+			id: "5C2995E356239D8B"
+			x: -1.0d
+			y: 5.0d
 			rewards: [{
 				id: "433A16E7E5969532"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates various organic items."
+			dependencies: [
+				"3B57275DF8614D64"
+				"75B77AC8911A5A57"
+			]
 		}
 		{
-			x: -1.0d
-			y: 6.0d
-			subtitle: "Generates various organic items."
-			description: [
-				"Generates every 5 ticks (or 0.25 seconds)."
-				""
-				"Uses 8000 E per generated item."
-				""
-				"Average consumption: 1600 E/t."
-			]
-			dependencies: [
-				"5C2995E356239D8B"
-				"1D64053A738C877A"
-			]
-			id: "0626A214491254DD"
 			tasks: [{
 				id: "22FB0AA63D1F6AF9"
 				type: "item"
@@ -671,26 +657,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 5 ticks (or 0.25 seconds)."
+				""
+				"Uses 8000 E per generated item."
+				""
+				"Average consumption: 1600 E/t."
+			]
+			id: "0626A214491254DD"
+			x: -1.0d
+			y: 6.0d
 			rewards: [{
 				id: "363970EB39E4B220"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates various organic items."
+			dependencies: [
+				"5C2995E356239D8B"
+				"1D64053A738C877A"
+			]
 		}
 		{
-			x: 0.0d
-			y: -1.0d
-			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
-			description: [
-				"Generates every 400 ticks (or 20 seconds)."
-				""
-				"Uses 400 E per generated item."
-				""
-				"Average consumption: 1 E/t."
-			]
-			dependencies: ["3527AC6DD13A51B3"]
-			id: "12866716DDB31F3D"
 			tasks: [{
 				id: "453F63569AFACB9B"
 				type: "item"
@@ -700,29 +689,26 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 400 ticks (or 20 seconds)."
+				""
+				"Uses 400 E per generated item."
+				""
+				"Average consumption: 1 E/t."
+			]
+			id: "12866716DDB31F3D"
+			x: 0.0d
+			y: -1.0d
 			rewards: [{
 				id: "7D51A5FA49C66700"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
+			dependencies: ["3527AC6DD13A51B3"]
 		}
 		{
-			x: 0.0d
-			y: 0.0d
-			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
-			description: [
-				"Generates every 350 ticks (or 17.5 seconds)."
-				""
-				"Uses 600 E per generated item."
-				""
-				"Average consumption: 1.71 E/t."
-			]
-			dependencies: [
-				"12866716DDB31F3D"
-				"2B2FFD6B5333EAF3"
-			]
-			id: "229E25830538A686"
 			tasks: [{
 				id: "53DC6F71F156BFFA"
 				type: "item"
@@ -732,29 +718,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 350 ticks (or 17.5 seconds)."
+				""
+				"Uses 600 E per generated item."
+				""
+				"Average consumption: 1.71 E/t."
+			]
+			id: "229E25830538A686"
+			x: 0.0d
+			y: 0.0d
 			rewards: [{
 				id: "754E4DA4EB80CE66"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
+			dependencies: [
+				"12866716DDB31F3D"
+				"2B2FFD6B5333EAF3"
+			]
 		}
 		{
-			x: 0.0d
-			y: 1.0d
-			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
-			description: [
-				"Generates every 300 ticks (or 15 seconds)."
-				""
-				"Uses 1000 E per generated item."
-				""
-				"Average consumption: 3.33 E/t."
-			]
-			dependencies: [
-				"229E25830538A686"
-				"29C1E30A9260BC71"
-			]
-			id: "682E67ED3061BC66"
 			tasks: [{
 				id: "33102AECB0272DDA"
 				type: "item"
@@ -764,29 +750,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 300 ticks (or 15 seconds)."
+				""
+				"Uses 1000 E per generated item."
+				""
+				"Average consumption: 3.33 E/t."
+			]
+			id: "682E67ED3061BC66"
+			x: 0.0d
+			y: 1.0d
 			rewards: [{
 				id: "77ABA5515DBD9604"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
+			dependencies: [
+				"229E25830538A686"
+				"29C1E30A9260BC71"
+			]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
-			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
-			description: [
-				"Generates every 250 ticks (or 12.5 seconds)."
-				""
-				"Uses 1500 E per generated item."
-				""
-				"Average consumption: 6 E/t."
-			]
-			dependencies: [
-				"682E67ED3061BC66"
-				"58226D1F08683EB5"
-			]
-			id: "0974E1AC3971B5AD"
 			tasks: [{
 				id: "273654540DA2B9E8"
 				type: "item"
@@ -796,29 +782,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 250 ticks (or 12.5 seconds)."
+				""
+				"Uses 1500 E per generated item."
+				""
+				"Average consumption: 6 E/t."
+			]
+			id: "0974E1AC3971B5AD"
+			x: 0.0d
+			y: 2.0d
 			rewards: [{
 				id: "1C05712836D31D1D"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
+			dependencies: [
+				"682E67ED3061BC66"
+				"58226D1F08683EB5"
+			]
 		}
 		{
-			x: 0.0d
-			y: 3.0d
-			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
-			description: [
-				"Generates every 200 ticks (or 10 seconds)."
-				""
-				"Uses 4000 E per generated item."
-				""
-				"Average consumption: 20 E/t."
-			]
-			dependencies: [
-				"0974E1AC3971B5AD"
-				"446A5E8AAB0DE2AE"
-			]
-			id: "4F7D37E42D87709D"
 			tasks: [{
 				id: "26B46C01A358D6DA"
 				type: "item"
@@ -828,29 +814,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 200 ticks (or 10 seconds)."
+				""
+				"Uses 4000 E per generated item."
+				""
+				"Average consumption: 20 E/t."
+			]
+			id: "4F7D37E42D87709D"
+			x: 0.0d
+			y: 3.0d
 			rewards: [{
 				id: "4921730EDED51C48"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
+			dependencies: [
+				"0974E1AC3971B5AD"
+				"446A5E8AAB0DE2AE"
+			]
 		}
 		{
-			x: 0.0d
-			y: 4.0d
-			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
-			description: [
-				"Generates every 150 ticks (or 7.5 seconds)."
-				""
-				"Uses 7000 E per generated item."
-				""
-				"Average consumption: 46.67 E/t."
-			]
-			dependencies: [
-				"4F7D37E42D87709D"
-				"3443B551C3A65130"
-			]
-			id: "1FF684D69AF9A8E8"
 			tasks: [{
 				id: "3FB0C689AA1FF2F9"
 				type: "item"
@@ -860,29 +846,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 150 ticks (or 7.5 seconds)."
+				""
+				"Uses 7000 E per generated item."
+				""
+				"Average consumption: 46.67 E/t."
+			]
+			id: "1FF684D69AF9A8E8"
+			x: 0.0d
+			y: 4.0d
 			rewards: [{
 				id: "20C517C95D241A2F"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
+			dependencies: [
+				"4F7D37E42D87709D"
+				"3443B551C3A65130"
+			]
 		}
 		{
-			x: 0.0d
-			y: 5.0d
-			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
-			description: [
-				"Generates every 100 ticks (or 5 seconds)."
-				""
-				"Uses 7500 E per generated item."
-				""
-				"Average consumption: 75 E/t."
-			]
-			dependencies: [
-				"1FF684D69AF9A8E8"
-				"75B77AC8911A5A57"
-			]
-			id: "50A96EDA711681EF"
 			tasks: [{
 				id: "1543343758B2A707"
 				type: "item"
@@ -892,29 +878,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 100 ticks (or 5 seconds)."
+				""
+				"Uses 7500 E per generated item."
+				""
+				"Average consumption: 75 E/t."
+			]
+			id: "50A96EDA711681EF"
+			x: 0.0d
+			y: 5.0d
 			rewards: [{
 				id: "3C561DC431C9D2A5"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
+			dependencies: [
+				"1FF684D69AF9A8E8"
+				"75B77AC8911A5A57"
+			]
 		}
 		{
-			x: 0.0d
-			y: 6.0d
-			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
-			description: [
-				"Generates every 5 ticks (or 0.25 seconds)."
-				""
-				"Uses 8000 E per generated item."
-				""
-				"Average consumption: 1600 E/t."
-			]
-			dependencies: [
-				"50A96EDA711681EF"
-				"1D64053A738C877A"
-			]
-			id: "63D7E4101B7E304A"
 			tasks: [{
 				id: "5DA7B7C92795958F"
 				type: "item"
@@ -924,26 +910,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 5 ticks (or 0.25 seconds)."
+				""
+				"Uses 8000 E per generated item."
+				""
+				"Average consumption: 1600 E/t."
+			]
+			id: "63D7E4101B7E304A"
+			x: 0.0d
+			y: 6.0d
 			rewards: [{
 				id: "19FDFDCD1377EED1"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Cobblestone, Sandstone, End Stone and Netherrack."
+			dependencies: [
+				"50A96EDA711681EF"
+				"1D64053A738C877A"
+			]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
-			subtitle: "Generates Dirt, Sand and Gravel."
-			description: [
-				"Generates every 400 ticks (or 20 seconds)."
-				""
-				"Uses 400 E per generated item."
-				""
-				"Average consumption: 1 E/t."
-			]
-			dependencies: ["0007683B85C5D429"]
-			id: "40C204D921B2D3A5"
 			tasks: [{
 				id: "51F834FCF16A77CB"
 				type: "item"
@@ -953,29 +942,26 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 400 ticks (or 20 seconds)."
+				""
+				"Uses 400 E per generated item."
+				""
+				"Average consumption: 1 E/t."
+			]
+			id: "40C204D921B2D3A5"
+			x: 1.0d
+			y: -1.0d
 			rewards: [{
 				id: "3C5A5C9E43885DF0"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Dirt, Sand and Gravel."
+			dependencies: ["0007683B85C5D429"]
 		}
 		{
-			x: 1.0d
-			y: 0.0d
-			subtitle: "Generates Dirt, Sand and Gravel."
-			description: [
-				"Generates every 350 ticks (or 17.5 seconds)."
-				""
-				"Uses 600 E per generated item."
-				""
-				"Average consumption: 1.71 E/t."
-			]
-			dependencies: [
-				"40C204D921B2D3A5"
-				"2B2FFD6B5333EAF3"
-			]
-			id: "7E24BD2D97F8D1DB"
 			tasks: [{
 				id: "0D6EA11B6EE54472"
 				type: "item"
@@ -985,29 +971,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 350 ticks (or 17.5 seconds)."
+				""
+				"Uses 600 E per generated item."
+				""
+				"Average consumption: 1.71 E/t."
+			]
+			id: "7E24BD2D97F8D1DB"
+			x: 1.0d
+			y: 0.0d
 			rewards: [{
 				id: "17EA9FAA6F23E224"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Dirt, Sand and Gravel."
+			dependencies: [
+				"40C204D921B2D3A5"
+				"2B2FFD6B5333EAF3"
+			]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
-			subtitle: "Generates Dirt, Sand and Gravel."
-			description: [
-				"Generates every 300 ticks (or 15 seconds)."
-				""
-				"Uses 1000 E per generated item."
-				""
-				"Average consumption: 3.33 E/t."
-			]
-			dependencies: [
-				"7E24BD2D97F8D1DB"
-				"29C1E30A9260BC71"
-			]
-			id: "1BD7BC07DC0D0485"
 			tasks: [{
 				id: "0B827BA51228656B"
 				type: "item"
@@ -1017,29 +1003,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 300 ticks (or 15 seconds)."
+				""
+				"Uses 1000 E per generated item."
+				""
+				"Average consumption: 3.33 E/t."
+			]
+			id: "1BD7BC07DC0D0485"
+			x: 1.0d
+			y: 1.0d
 			rewards: [{
 				id: "05C7E8E396AAFE83"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Dirt, Sand and Gravel."
+			dependencies: [
+				"7E24BD2D97F8D1DB"
+				"29C1E30A9260BC71"
+			]
 		}
 		{
-			x: 1.0d
-			y: 2.0d
-			subtitle: "Generates Dirt, Sand and Gravel."
-			description: [
-				"Generates every 250 ticks (or 12.5 seconds)."
-				""
-				"Uses 1500 E per generated item."
-				""
-				"Average consumption: 6 E/t."
-			]
-			dependencies: [
-				"1BD7BC07DC0D0485"
-				"58226D1F08683EB5"
-			]
-			id: "7648FD025997ABD4"
 			tasks: [{
 				id: "2E9D646EA43AD3E6"
 				type: "item"
@@ -1049,29 +1035,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 250 ticks (or 12.5 seconds)."
+				""
+				"Uses 1500 E per generated item."
+				""
+				"Average consumption: 6 E/t."
+			]
+			id: "7648FD025997ABD4"
+			x: 1.0d
+			y: 2.0d
 			rewards: [{
 				id: "3338FCB11ED6E2F3"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Dirt, Sand and Gravel."
+			dependencies: [
+				"1BD7BC07DC0D0485"
+				"58226D1F08683EB5"
+			]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
-			subtitle: "Generates Dirt, Sand and Gravel."
-			description: [
-				"Generates every 200 ticks (or 10 seconds)."
-				""
-				"Uses 4000 E per generated item."
-				""
-				"Average consumption: 20 E/t."
-			]
-			dependencies: [
-				"7648FD025997ABD4"
-				"446A5E8AAB0DE2AE"
-			]
-			id: "2DF4C83B865B3AA0"
 			tasks: [{
 				id: "0171BADD2E9CF12D"
 				type: "item"
@@ -1081,29 +1067,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 200 ticks (or 10 seconds)."
+				""
+				"Uses 4000 E per generated item."
+				""
+				"Average consumption: 20 E/t."
+			]
+			id: "2DF4C83B865B3AA0"
+			x: 1.0d
+			y: 3.0d
 			rewards: [{
 				id: "58CBB1D2951D4F4D"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Dirt, Sand and Gravel."
+			dependencies: [
+				"7648FD025997ABD4"
+				"446A5E8AAB0DE2AE"
+			]
 		}
 		{
-			x: 1.0d
-			y: 4.0d
-			subtitle: "Generates Dirt, Sand and Gravel."
-			description: [
-				"Generates every 150 ticks (or 7.5 seconds)."
-				""
-				"Uses 7000 E per generated item."
-				""
-				"Average consumption: 46.67 E/t."
-			]
-			dependencies: [
-				"2DF4C83B865B3AA0"
-				"3443B551C3A65130"
-			]
-			id: "05834C835E7B4FC0"
 			tasks: [{
 				id: "39B2DE351F0EB811"
 				type: "item"
@@ -1113,29 +1099,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 150 ticks (or 7.5 seconds)."
+				""
+				"Uses 7000 E per generated item."
+				""
+				"Average consumption: 46.67 E/t."
+			]
+			id: "05834C835E7B4FC0"
+			x: 1.0d
+			y: 4.0d
 			rewards: [{
 				id: "1D12E32EB52DEC5E"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Dirt, Sand and Gravel."
+			dependencies: [
+				"2DF4C83B865B3AA0"
+				"3443B551C3A65130"
+			]
 		}
 		{
-			x: 1.0d
-			y: 5.0d
-			subtitle: "Generates Dirt, Sand and Gravel."
-			description: [
-				"Generates every 100 ticks (or 5 seconds)."
-				""
-				"Uses 7500 E per generated item."
-				""
-				"Average consumption: 75 E/t."
-			]
-			dependencies: [
-				"05834C835E7B4FC0"
-				"75B77AC8911A5A57"
-			]
-			id: "27DCC8521DD68F65"
 			tasks: [{
 				id: "6D647D9AE8DD1AB2"
 				type: "item"
@@ -1145,29 +1131,29 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 100 ticks (or 5 seconds)."
+				""
+				"Uses 7500 E per generated item."
+				""
+				"Average consumption: 75 E/t."
+			]
+			id: "27DCC8521DD68F65"
+			x: 1.0d
+			y: 5.0d
 			rewards: [{
 				id: "726DC5344ED18A05"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Dirt, Sand and Gravel."
+			dependencies: [
+				"05834C835E7B4FC0"
+				"75B77AC8911A5A57"
+			]
 		}
 		{
-			x: 1.0d
-			y: 6.0d
-			subtitle: "Generates Dirt, Sand and Gravel."
-			description: [
-				"Generates every 5 ticks (or 0.25 seconds)."
-				""
-				"Uses 8000 E per generated item."
-				""
-				"Average consumption: 1600 E/t."
-			]
-			dependencies: [
-				"27DCC8521DD68F65"
-				"1D64053A738C877A"
-			]
-			id: "414AF14A64CA58FF"
 			tasks: [{
 				id: "24E23ABF0152F198"
 				type: "item"
@@ -1177,17 +1163,38 @@
 					tag: { }
 				}
 			}]
+			description: [
+				"Generates every 5 ticks (or 0.25 seconds)."
+				""
+				"Uses 8000 E per generated item."
+				""
+				"Average consumption: 1600 E/t."
+			]
+			id: "414AF14A64CA58FF"
+			x: 1.0d
+			y: 6.0d
 			rewards: [{
 				id: "6C6ECA15B77D4676"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates Dirt, Sand and Gravel."
+			dependencies: [
+				"27DCC8521DD68F65"
+				"1D64053A738C877A"
+			]
 		}
 		{
-			x: 2.5d
-			y: 4.5d
-			subtitle: "Generates loot from vanilla dungeons."
+			tasks: [{
+				id: "39C274746F2D206A"
+				type: "item"
+				item: {
+					id: "spatialharvesters:loot_harvester"
+					Count: 1b
+					tag: { }
+				}
+			}]
 			description: [
 				"Generates loot from:"
 				"> Classic dungeons."
@@ -1210,56 +1217,19 @@
 				""
 				"Average consumption: 160 E/t."
 			]
-			dependencies: ["3E17651799AF2546"]
 			id: "3A7FA48714800BCF"
-			tasks: [{
-				id: "39C274746F2D206A"
-				type: "item"
-				item: {
-					id: "spatialharvesters:loot_harvester"
-					Count: 1b
-					tag: { }
-				}
-			}]
+			x: 2.5d
+			y: 4.5d
 			rewards: [{
 				id: "128AEF4EAD1DB851"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates loot from vanilla dungeons."
+			dependencies: ["3E17651799AF2546"]
 		}
 		{
-			icon: {
-				id: "spatialharvesters:specific_mob_harvester"
-				Count: 1b
-				tag: { }
-			}
-			x: 2.5d
-			y: -1.0d
-			subtitle: "Generates mob loot of a specific mob."
-			description: [
-				"Attack a Mob with a Mob Key, *while sneaking* to bind a mob to the key."
-				""
-				"Choose a weapon with the Weapon Key by breaking any block while sneaking, holding a Weapon Key and having the desired weapon in off-hand."
-				""
-				"Then, you can bind those to the Specific Mob Harvester to start generating mob loot and Mob Shards."
-				""
-				"The Harvester will simulate player kills on the mob using a chosen weapon."
-				""
-				"WARNING - Do not place this Harvester after it was broken once, entering the world will crash the game!"
-				""
-				"Generates loot every 50 ticks (or 2.5 seconds)."
-				""
-				"Consumes 8000 E per generation."
-				""
-				"Average consumption: 160 E/t."
-			]
-			hide_dependency_lines: true
-			dependencies: [
-				"69DD3E95BDB5E400"
-				"1D64053A738C877A"
-			]
-			id: "6B24C01CCDEB34AE"
 			tasks: [
 				{
 					id: "33CBEF3C8C2CF36A"
@@ -1281,21 +1251,45 @@
 					item: "spatialharvesters:weapon_key"
 				}
 			]
+			description: [
+				"Attack a Mob with a Mob Key, *while sneaking* to bind a mob to the key."
+				""
+				"Choose a weapon with the Weapon Key by breaking any block while sneaking, holding a Weapon Key and having the desired weapon in off-hand."
+				""
+				"Then, you can bind those to the Specific Mob Harvester to start generating mob loot and Mob Shards."
+				""
+				"The Harvester will simulate player kills on the mob using a chosen weapon."
+				""
+				"WARNING - Do not place this Harvester after it was broken once, entering the world will crash the game!"
+				""
+				"Generates loot every 50 ticks (or 2.5 seconds)."
+				""
+				"Consumes 8000 E per generation."
+				""
+				"Average consumption: 160 E/t."
+			]
+			id: "6B24C01CCDEB34AE"
+			icon: {
+				id: "spatialharvesters:specific_mob_harvester"
+				Count: 1b
+				tag: { }
+			}
+			x: 2.5d
+			y: -1.0d
 			rewards: [{
 				id: "57712B75D9A347BD"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generates mob loot of a specific mob."
+			dependencies: [
+				"69DD3E95BDB5E400"
+				"1D64053A738C877A"
+			]
+			hide_dependency_lines: true
 		}
 		{
-			x: 2.5d
-			y: 2.0d
-			dependencies: [
-				"279BF2C329E9D9DF"
-				"18456F744DD7127E"
-			]
-			id: "648F6CB66DF70EE8"
 			tasks: [{
 				id: "69A626EE4B32EC11"
 				type: "item"
@@ -1305,6 +1299,13 @@
 					tag: { }
 				}
 			}]
+			dependencies: [
+				"279BF2C329E9D9DF"
+				"18456F744DD7127E"
+			]
+			id: "648F6CB66DF70EE8"
+			y: 2.0d
+			x: 2.5d
 			rewards: [{
 				id: "06620C3101304C17"
 				type: "random"
@@ -1313,10 +1314,21 @@
 			}]
 		}
 		{
+			tasks: [{
+				id: "0645106F77599F05"
+				type: "item"
+				item: "spatialharvesters:shard_1"
+			}]
+			id: "02E2B5FEAC3EE174"
 			x: -4.0d
 			y: 0.0d
+			rewards: [{
+				id: "508D500B0C9A8346"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 13756307348121783L
+			}]
 			subtitle: "Generated by any Tier 1 Spatial Harvester."
-			hide_dependency_lines: true
 			dependencies: [
 				"7441BC53B18AF8F0"
 				"6402400F5F40CF37"
@@ -1324,24 +1336,24 @@
 				"12866716DDB31F3D"
 			]
 			dependency_requirement: "one_completed"
-			id: "02E2B5FEAC3EE174"
+			hide_dependency_lines: true
+		}
+		{
 			tasks: [{
-				id: "0645106F77599F05"
+				id: "5C25492E636CBE33"
 				type: "item"
-				item: "spatialharvesters:shard_1"
+				item: "spatialharvesters:shard_2"
 			}]
+			id: "505AEF6A159C9254"
+			x: -4.0d
+			y: 1.0d
 			rewards: [{
-				id: "508D500B0C9A8346"
+				id: "03EED9C05286AC2A"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
-		}
-		{
-			x: -4.0d
-			y: 1.0d
 			subtitle: "Generated by any Tier 2 Spatial Harvester."
-			hide_dependency_lines: true
 			dependencies: [
 				"229E25830538A686"
 				"0E53685ECFC4C1CF"
@@ -1349,24 +1361,24 @@
 				"567F0904EC32FC46"
 			]
 			dependency_requirement: "one_completed"
-			id: "505AEF6A159C9254"
+			hide_dependency_lines: true
+		}
+		{
 			tasks: [{
-				id: "5C25492E636CBE33"
+				id: "7534A8B3B2DA013B"
 				type: "item"
-				item: "spatialharvesters:shard_2"
+				item: "spatialharvesters:shard_3"
 			}]
+			id: "6F1D69E6792E587A"
+			x: -4.0d
+			y: 2.0d
 			rewards: [{
-				id: "03EED9C05286AC2A"
+				id: "44E527EE0FDB6BD4"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
-		}
-		{
-			x: -4.0d
-			y: 2.0d
 			subtitle: "Generated by any Tier 3 Spatial Harvester."
-			hide_dependency_lines: true
 			dependencies: [
 				"3E04366C15960FDC"
 				"682E67ED3061BC66"
@@ -1374,24 +1386,24 @@
 				"549CCCB73B700D04"
 			]
 			dependency_requirement: "one_completed"
-			id: "6F1D69E6792E587A"
+			hide_dependency_lines: true
+		}
+		{
 			tasks: [{
-				id: "7534A8B3B2DA013B"
+				id: "4AE81F341A6672DA"
 				type: "item"
-				item: "spatialharvesters:shard_3"
+				item: "spatialharvesters:shard_4"
 			}]
+			id: "3C3A8D80081464C8"
+			x: -4.0d
+			y: 3.0d
 			rewards: [{
-				id: "44E527EE0FDB6BD4"
+				id: "1DE0CB3D694C33A4"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
-		}
-		{
-			x: -4.0d
-			y: 3.0d
 			subtitle: "Generated by any Tier 4 Spatial Harvester."
-			hide_dependency_lines: true
 			dependencies: [
 				"7336B45C0EB22709"
 				"0974E1AC3971B5AD"
@@ -1399,24 +1411,24 @@
 				"364280C8FE027ED4"
 			]
 			dependency_requirement: "one_completed"
-			id: "3C3A8D80081464C8"
+			hide_dependency_lines: true
+		}
+		{
 			tasks: [{
-				id: "4AE81F341A6672DA"
+				id: "7C2683F2E9B668A4"
 				type: "item"
-				item: "spatialharvesters:shard_4"
+				item: "spatialharvesters:shard_5"
 			}]
+			id: "3353203ED87C181E"
+			x: -4.0d
+			y: 4.0d
 			rewards: [{
-				id: "1DE0CB3D694C33A4"
+				id: "470C7F96F4D4AE97"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
-		}
-		{
-			x: -4.0d
-			y: 4.0d
 			subtitle: "Generated by any Tier 5 Spatial Harvester."
-			hide_dependency_lines: true
 			dependencies: [
 				"4F7D37E42D87709D"
 				"2DF4C83B865B3AA0"
@@ -1424,24 +1436,24 @@
 				"2F744D5C38C727F0"
 			]
 			dependency_requirement: "one_completed"
-			id: "3353203ED87C181E"
+			hide_dependency_lines: true
+		}
+		{
 			tasks: [{
-				id: "7C2683F2E9B668A4"
+				id: "43D6BAEE1BC72B04"
 				type: "item"
-				item: "spatialharvesters:shard_5"
+				item: "spatialharvesters:shard_6"
 			}]
+			id: "42708FDB4E844CFC"
+			x: -4.0d
+			y: 5.0d
 			rewards: [{
-				id: "470C7F96F4D4AE97"
+				id: "4460547F0E83E379"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
-		}
-		{
-			x: -4.0d
-			y: 5.0d
 			subtitle: "Generated by any Tier 6 Spatial Harvester."
-			hide_dependency_lines: true
 			dependencies: [
 				"1FF684D69AF9A8E8"
 				"05834C835E7B4FC0"
@@ -1449,24 +1461,24 @@
 				"3B57275DF8614D64"
 			]
 			dependency_requirement: "one_completed"
-			id: "42708FDB4E844CFC"
+			hide_dependency_lines: true
+		}
+		{
 			tasks: [{
-				id: "43D6BAEE1BC72B04"
+				id: "1301337635E4EF3F"
 				type: "item"
-				item: "spatialharvesters:shard_6"
+				item: "spatialharvesters:shard_7"
 			}]
+			id: "1E0002CCB05CC67B"
+			x: -4.0d
+			y: 6.0d
 			rewards: [{
-				id: "4460547F0E83E379"
+				id: "5E4264D3F9C4FF8A"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
-		}
-		{
-			x: -4.0d
-			y: 6.0d
 			subtitle: "Generated by any Tier 7 Spatial Harvester."
-			hide_dependency_lines: true
 			dependencies: [
 				"5C2995E356239D8B"
 				"553E973F8A8E6889"
@@ -1474,226 +1486,191 @@
 				"27DCC8521DD68F65"
 			]
 			dependency_requirement: "one_completed"
-			id: "1E0002CCB05CC67B"
-			tasks: [{
-				id: "1301337635E4EF3F"
-				type: "item"
-				item: "spatialharvesters:shard_7"
-			}]
-			rewards: [{
-				id: "5E4264D3F9C4FF8A"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
+			hide_dependency_lines: true
 		}
 		{
+			size: 1.5d
+			description: ["Place this on top of the Spatial Harvester."]
+			id: "40F365EB887E31C8"
 			x: 0.5d
 			y: -3.5d
-			subtitle: "Rips the Space-Time itself. Required for Spatial Harvesters to function."
-			description: ["Place this on top of the Spatial Harvester."]
-			dependencies: ["45A82DB03F64C6F3"]
-			size: 1.5d
-			id: "40F365EB887E31C8"
-			tasks: [{
-				id: "2CF4E714B41F317B"
-				type: "item"
-				item: "spatialharvesters:space_ripper"
-			}]
 			rewards: [{
 				id: "078C7C7FF3DC2FE7"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Rips the Space-Time itself. Required for Spatial Harvesters to function."
+			dependencies: ["45A82DB03F64C6F3"]
+			tasks: [{
+				id: "2CF4E714B41F317B"
+				type: "item"
+				item: "spatialharvesters:space_ripper"
+			}]
 		}
 		{
-			x: -3.0d
-			y: 0.0d
-			subtitle: "Crafted from 9 Tier 1 Shards."
-			dependencies: ["02E2B5FEAC3EE174"]
-			id: "2B2FFD6B5333EAF3"
 			tasks: [{
 				id: "54891FE6F01FEE7C"
 				type: "item"
 				item: "spatialharvesters:crystal_1"
 			}]
+			id: "2B2FFD6B5333EAF3"
+			x: -3.0d
+			y: 0.0d
 			rewards: [{
 				id: "6A3902F2090A2778"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Crafted from 9 Tier 1 Shards."
+			dependencies: ["02E2B5FEAC3EE174"]
 		}
 		{
-			x: -3.0d
-			y: 1.0d
-			subtitle: "Crafted from 9 Tier 2 Shards."
-			dependencies: ["505AEF6A159C9254"]
-			id: "29C1E30A9260BC71"
 			tasks: [{
 				id: "223B7A5BCD5239A7"
 				type: "item"
 				item: "spatialharvesters:crystal_2"
 			}]
+			id: "29C1E30A9260BC71"
+			x: -3.0d
+			y: 1.0d
 			rewards: [{
 				id: "7887BF0114CF86EE"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Crafted from 9 Tier 2 Shards."
+			dependencies: ["505AEF6A159C9254"]
 		}
 		{
-			x: -3.0d
-			y: 2.0d
-			subtitle: "Crafted from 9 Tier 3 Shards."
-			dependencies: ["6F1D69E6792E587A"]
-			id: "58226D1F08683EB5"
 			tasks: [{
 				id: "0F86892334DEE98E"
 				type: "item"
 				item: "spatialharvesters:crystal_3"
 			}]
+			id: "58226D1F08683EB5"
+			x: -3.0d
+			y: 2.0d
 			rewards: [{
 				id: "3BA43711FD7D418C"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Crafted from 9 Tier 3 Shards."
+			dependencies: ["6F1D69E6792E587A"]
 		}
 		{
-			x: -3.0d
-			y: 3.0d
-			subtitle: "Crafted from 9 Tier 4 Shards."
-			dependencies: ["3C3A8D80081464C8"]
-			id: "446A5E8AAB0DE2AE"
 			tasks: [{
 				id: "1287CD7B0B43C15F"
 				type: "item"
 				item: "spatialharvesters:crystal_4"
 			}]
+			id: "446A5E8AAB0DE2AE"
+			x: -3.0d
+			y: 3.0d
 			rewards: [{
 				id: "6CE6E678B7C7B5FD"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Crafted from 9 Tier 4 Shards."
+			dependencies: ["3C3A8D80081464C8"]
 		}
 		{
-			x: -3.0d
-			y: 4.0d
-			subtitle: "Crafted from 9 Tier 5 Shards."
-			dependencies: ["3353203ED87C181E"]
-			id: "3443B551C3A65130"
 			tasks: [{
 				id: "42FB95B2E42685AF"
 				type: "item"
 				item: "spatialharvesters:crystal_5"
 			}]
+			id: "3443B551C3A65130"
+			x: -3.0d
+			y: 4.0d
 			rewards: [{
 				id: "218FEEC0F1E4B414"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Crafted from 9 Tier 5 Shards."
+			dependencies: ["3353203ED87C181E"]
 		}
 		{
-			x: -3.0d
-			y: 5.0d
-			subtitle: "Crafted from 9 Tier 6 Shards."
-			dependencies: ["42708FDB4E844CFC"]
-			id: "75B77AC8911A5A57"
 			tasks: [{
 				id: "64028E5A88B3AEF7"
 				type: "item"
 				item: "spatialharvesters:crystal_6"
 			}]
+			id: "75B77AC8911A5A57"
+			x: -3.0d
+			y: 5.0d
 			rewards: [{
 				id: "26AAE5F2E606D7DF"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Crafted from 9 Tier 6 Shards."
+			dependencies: ["42708FDB4E844CFC"]
 		}
 		{
-			x: -3.0d
-			y: 6.0d
-			subtitle: "Crafted from 9 Tier 7 Shards."
-			dependencies: ["1E0002CCB05CC67B"]
-			id: "1D64053A738C877A"
 			tasks: [{
 				id: "0A9441F8A9215C4E"
 				type: "item"
 				item: "spatialharvesters:crystal_7"
 			}]
+			id: "1D64053A738C877A"
+			x: -3.0d
+			y: 6.0d
 			rewards: [{
 				id: "144F81EC4336667D"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Crafted from 9 Tier 7 Shards."
+			dependencies: ["1E0002CCB05CC67B"]
 		}
 		{
-			x: 2.5d
-			y: 1.0d
-			subtitle: "Crafted from 9 Mob Shards."
-			dependencies: ["4C8C3F0C30EAD052"]
-			id: "18456F744DD7127E"
 			tasks: [{
 				id: "04082B74BDD7187B"
 				type: "item"
 				item: "spatialharvesters:mob_crystal"
 			}]
+			id: "18456F744DD7127E"
+			x: 2.5d
+			y: 1.0d
 			rewards: [{
 				id: "5DA3BABB23010C08"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Crafted from 9 Mob Shards."
+			dependencies: ["4C8C3F0C30EAD052"]
 		}
 		{
-			x: 2.5d
-			y: 0.0d
-			subtitle: "Generated by Mob Harvesters."
-			dependencies: ["6B24C01CCDEB34AE"]
-			id: "4C8C3F0C30EAD052"
 			tasks: [{
 				id: "7A4FDA3DE004CB72"
 				type: "item"
 				item: "spatialharvesters:mob_shard"
 			}]
+			id: "4C8C3F0C30EAD052"
+			x: 2.5d
+			y: 0.0d
 			rewards: [{
 				id: "427AB858EE52344D"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "Generated by Mob Harvesters."
+			dependencies: ["6B24C01CCDEB34AE"]
 		}
 		{
-			icon: {
-				id: "spatialharvesters:dimensional_applicator"
-				Count: 1b
-				tag: { }
-			}
-			x: 2.5d
-			y: 6.0d
-			subtitle: "An Interdimensional Beacon!"
-			description: [
-				"Will supply you continually with potion effects."
-				""
-				"To bind the Dimensional Applicator to yourself, Right-Click it with a Player Key in hand."
-				""
-				"Then, you can specify effects you want to apply by either:"
-				""
-				"1. Placing Effect Activators on any side of the Applicator."
-				""
-				"2. Right-Clicking a Harvester with the Effect Key while under the effect of desired potions."
-				""
-				"It will then continually apply chosen effects on level 2."
-			]
-			hide_dependency_lines: true
-			dependencies: ["1E0002CCB05CC67B"]
-			id: "4092ED97F4417228"
 			tasks: [
 				{
 					id: "1297C29E5CCBB54F"
@@ -1715,13 +1692,36 @@
 					item: "spatialharvesters:effect_key"
 				}
 			]
+			description: [
+				"Will supply you continually with potion effects."
+				""
+				"To bind the Dimensional Applicator to yourself, Right-Click it with a Player Key in hand."
+				""
+				"Then, you can specify effects you want to apply by either:"
+				""
+				"1. Placing Effect Activators on any side of the Applicator."
+				""
+				"2. Right-Clicking a Harvester with the Effect Key while under the effect of desired potions."
+				""
+				"It will then continually apply chosen effects on level 2."
+			]
+			id: "4092ED97F4417228"
+			icon: {
+				id: "spatialharvesters:dimensional_applicator"
+				Count: 1b
+				tag: { }
+			}
+			x: 2.5d
+			y: 6.0d
 			rewards: [{
 				id: "0A860EE6DDE15B02"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
 			}]
+			subtitle: "An Interdimensional Beacon!"
+			dependencies: ["1E0002CCB05CC67B"]
+			hide_dependency_lines: true
 		}
 	]
-	quest_links: [ ]
 }

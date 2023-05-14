@@ -9,6 +9,7 @@ var firstJoinMessage = "Welcome to Sky FABRICation 3, open the Quest-Book and cl
 
 onEvent('player.logged_in', event => {
   console.log("login script started ...");
+  event.player.runCommandSilent('kubejs reload client_scripts')
   if (!event.player.getTags().contains('first_login'))
   {
   	// Add the gamestage

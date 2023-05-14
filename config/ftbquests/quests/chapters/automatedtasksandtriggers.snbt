@@ -1,57 +1,45 @@
 {
-	id: "014DBB8A0BF57DC7"
-	group: ""
-	order_index: 1
-	filename: "automatedtasksandtriggers"
-	title: "AutomatedTasksAndTriggers"
 	always_invisible: true
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	group: ""
+	id: "014DBB8A0BF57DC7"
+	filename: "automatedtasksandtriggers"
+	default_quest_shape: ""
+	title: "AutomatedTasksAndTriggers"
+	order_index: 1
 	quests: [
 		{
-			x: -3.0d
-			y: -1.5d
-			subtitle: "Well known simple early game!"
-			description: ["Basic Sky Block, you will start on a oak tree."]
-			hide: true
-			invisible: true
-			id: "3AC0329506E80AA4"
 			tasks: [{
 				id: "5DB597A4B3A2F623"
 				type: "custom"
 				title: "Simple Tree Island"
 				icon: "minecraft:oak_sapling"
 			}]
+			description: ["Basic Sky Block, you will start on a oak tree."]
+			id: "3AC0329506E80AA4"
+			x: -3.0d
+			y: -1.5d
+			invisible: true
+			subtitle: "Well known simple early game!"
+			hide: true
 		}
 		{
-			x: -3.0d
-			y: -0.5d
-			subtitle: "A different, more challenging early-game!"
-			description: ["You will build your island from just a bamboo and a block of podzol. You can craft Wood from bamboo. Wood is the basis for everything."]
-			hide: true
-			dependency_requirement: "one_completed"
-			invisible: true
-			id: "329CC4079DB5DABE"
 			tasks: [{
 				id: "56B5556B44C046F2"
 				type: "custom"
 				title: "Bamboo Island"
 				icon: "minecraft:bamboo"
 			}]
+			description: ["You will build your island from just a bamboo and a block of podzol. You can craft Wood from bamboo. Wood is the basis for everything."]
+			id: "329CC4079DB5DABE"
+			x: -3.0d
+			y: -0.5d
+			invisible: true
+			subtitle: "A different, more challenging early-game!"
+			dependency_requirement: "one_completed"
+			hide: true
 		}
 		{
-			x: -3.0d
-			y: 0.5d
-			subtitle: "Very time intensive early-game!"
-			description: [
-				"Just try to get a sapling and a soil block. This is the most difficult mode but you will be rewarded. Good Luck. "
-				""
-				"Origin Challenge: this island type is the only choice if you would like to play as the Merling Origin."
-			]
-			hide: true
-			dependency_requirement: "one_completed"
-			invisible: true
-			id: "7849BD01ACBFAC3A"
 			tasks: [{
 				id: "251CD869A0906B24"
 				type: "custom"
@@ -64,6 +52,18 @@
 					}
 				}
 			}]
+			description: [
+				"Just try to get a sapling and a soil block. This is the most difficult mode but you will be rewarded. Good Luck. "
+				""
+				"Origin Challenge: this island type is the only choice if you would like to play as the Merling Origin."
+			]
+			id: "7849BD01ACBFAC3A"
+			x: -3.0d
+			y: 0.5d
+			invisible: true
+			subtitle: "Very time intensive early-game!"
+			dependency_requirement: "one_completed"
+			hide: true
 		}
 	]
 	quest_links: [ ]

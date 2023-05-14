@@ -1,317 +1,317 @@
 {
-	id: "46E31DEF8626C677"
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	group: "1FCC565F739A4207"
-	order_index: 1
+	id: "46E31DEF8626C677"
 	filename: "spectrum_unlock_progress"
-	title: "Spectrum Unlocks"
 	icon: "extended_drawers:lock"
+	title: "Spectrum Unlocks"
 	subtitle: [
 		"A list of unlocks for Spectrum's mostly side content."
 		"These are advancements located in \"spectrum/progression\" invisible tree."
 	]
-	always_invisible: true
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	order_index: 1
 	quests: [
 		{
 			x: -2.0d
 			y: -1.5d
 			id: "5603849F2BCF0982"
 			tasks: [{
-				id: "236F0AE48ECDDA32"
 				type: "advancement"
-				title: "Unlock Weather Detector"
-				icon: "spectrum:weather_detector"
 				advancement: "spectrum:progression/detectors/unlock_weather_detector"
 				criterion: ""
+				id: "236F0AE48ECDDA32"
+				icon: "spectrum:weather_detector"
+				title: "Unlock Weather Detector"
 			}]
 		}
 		{
-			icon: "blockus:rainbow_lamp_lit"
-			x: -7.0d
-			y: -3.5d
-			id: "723ACD270A56B1FB"
 			tasks: [{
-				id: "0DB76EAA2824DCA1"
 				type: "advancement"
-				title: "Unlock Any Colored Lamp"
-				icon: "blockus:rainbow_lamp_lit"
 				advancement: "spectrum:progression/colored_lamps/unlock_any_colored_lamp"
 				criterion: ""
+				id: "0DB76EAA2824DCA1"
+				icon: "blockus:rainbow_lamp_lit"
+				title: "Unlock Any Colored Lamp"
 			}]
+			id: "723ACD270A56B1FB"
+			y: -3.5d
+			x: -7.0d
+			icon: "blockus:rainbow_lamp_lit"
 		}
 		{
-			icon: "spectrum:black_lamp"
-			x: -6.0d
-			y: -3.5d
-			id: "72DFA71D876EFC92"
 			tasks: [{
-				id: "0404A5530147AD4B"
 				type: "advancement"
-				title: "Unlock Black Lamp"
-				icon: "spectrum:black_lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_black_lamp"
 				criterion: ""
+				id: "0404A5530147AD4B"
+				icon: "spectrum:black_lamp"
+				title: "Unlock Black Lamp"
 			}]
+			id: "72DFA71D876EFC92"
+			y: -3.5d
+			x: -6.0d
+			icon: "spectrum:black_lamp"
 		}
 		{
-			icon: "spectrum:blue_lamp"
-			x: -5.0d
-			y: -3.5d
-			id: "14C1A497833A77F9"
 			tasks: [{
-				id: "1F6E849C0D209796"
 				type: "advancement"
-				title: "Unlock Blue Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_blue_lamp"
 				criterion: ""
+				id: "1F6E849C0D209796"
+				title: "Unlock Blue Lamp"
 			}]
+			id: "14C1A497833A77F9"
+			y: -3.5d
+			x: -5.0d
+			icon: "spectrum:blue_lamp"
 		}
 		{
-			icon: "spectrum:brown_lamp"
-			x: -4.0d
-			y: -3.5d
-			id: "259A308ACD6ED3DE"
 			tasks: [{
-				id: "2B2C90C8A793ED30"
 				type: "advancement"
-				title: "Unlock Brown Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_brown_lamp"
 				criterion: ""
+				id: "2B2C90C8A793ED30"
+				title: "Unlock Brown Lamp"
 			}]
+			id: "259A308ACD6ED3DE"
+			y: -3.5d
+			x: -4.0d
+			icon: "spectrum:brown_lamp"
 		}
 		{
-			icon: "spectrum:cyan_lamp"
-			x: -3.0d
-			y: -3.5d
-			id: "074ED5C5A6D5D5DE"
 			tasks: [{
-				id: "29AC34ABC63E6F81"
 				type: "advancement"
-				title: "Unlock Cyan Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_cyan_lamp"
 				criterion: ""
+				id: "29AC34ABC63E6F81"
+				title: "Unlock Cyan Lamp"
 			}]
+			id: "074ED5C5A6D5D5DE"
+			y: -3.5d
+			x: -3.0d
+			icon: "spectrum:cyan_lamp"
 		}
 		{
-			icon: "spectrum:gray_lamp"
-			x: -2.0d
-			y: -3.5d
-			id: "332655A44F40CCDC"
 			tasks: [{
-				id: "0BBA81EA9D5F2036"
 				type: "advancement"
-				title: "Unlock Gray Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_gray_lamp"
 				criterion: ""
+				id: "0BBA81EA9D5F2036"
+				title: "Unlock Gray Lamp"
 			}]
+			id: "332655A44F40CCDC"
+			y: -3.5d
+			x: -2.0d
+			icon: "spectrum:gray_lamp"
 		}
 		{
-			icon: "spectrum:green_lamp"
-			x: -1.0d
-			y: -3.5d
-			id: "4209ED40E4B0A561"
 			tasks: [{
-				id: "3512A96C237348DD"
 				type: "advancement"
-				title: "Unlock Green Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_green_lamp"
 				criterion: ""
+				id: "3512A96C237348DD"
+				title: "Unlock Green Lamp"
 			}]
+			id: "4209ED40E4B0A561"
+			y: -3.5d
+			x: -1.0d
+			icon: "spectrum:green_lamp"
 		}
 		{
-			icon: "spectrum:light_blue_lamp"
-			x: 0.0d
-			y: -3.5d
-			id: "7BAD8D883F52E835"
 			tasks: [{
-				id: "1437499864716F52"
 				type: "advancement"
-				title: "Unlock Light Blue Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_light_blue_lamp"
 				criterion: ""
+				id: "1437499864716F52"
+				title: "Unlock Light Blue Lamp"
 			}]
+			id: "7BAD8D883F52E835"
+			y: -3.5d
+			x: 0.0d
+			icon: "spectrum:light_blue_lamp"
 		}
 		{
-			icon: "spectrum:light_gray_lamp"
-			x: 1.0d
-			y: -3.5d
-			id: "26C74BD9A9577A50"
 			tasks: [{
-				id: "72218A997AB8DEC7"
 				type: "advancement"
-				title: "Unlock Light Gray Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_light_gray_lamp"
 				criterion: ""
+				id: "72218A997AB8DEC7"
+				title: "Unlock Light Gray Lamp"
 			}]
+			id: "26C74BD9A9577A50"
+			y: -3.5d
+			x: 1.0d
+			icon: "spectrum:light_gray_lamp"
 		}
 		{
-			icon: "spectrum:lime_lamp"
-			x: 2.0d
-			y: -3.5d
-			id: "4A52584FA39A89C0"
 			tasks: [{
-				id: "3D4E4348C5D2A30E"
 				type: "advancement"
-				title: "Unlock Lime Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_lime_lamp"
 				criterion: ""
+				id: "3D4E4348C5D2A30E"
+				title: "Unlock Lime Lamp"
 			}]
+			id: "4A52584FA39A89C0"
+			y: -3.5d
+			x: 2.0d
+			icon: "spectrum:lime_lamp"
 		}
 		{
-			icon: "spectrum:magenta_lamp"
-			x: 3.0d
-			y: -3.5d
-			id: "33EA98C627457B47"
 			tasks: [{
-				id: "614719B652200387"
 				type: "advancement"
-				title: "Unlock Magenta Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_magenta_lamp"
 				criterion: ""
+				id: "614719B652200387"
+				title: "Unlock Magenta Lamp"
 			}]
+			id: "33EA98C627457B47"
+			y: -3.5d
+			x: 3.0d
+			icon: "spectrum:magenta_lamp"
 		}
 		{
-			icon: "spectrum:orange_lamp"
-			x: 4.0d
-			y: -3.5d
-			id: "4D30F3AE2382CB21"
 			tasks: [{
-				id: "1ADEB5701BF9F5E6"
 				type: "advancement"
-				title: "Unlock Orange Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_orange_lamp"
 				criterion: ""
+				id: "1ADEB5701BF9F5E6"
+				title: "Unlock Orange Lamp"
 			}]
+			id: "4D30F3AE2382CB21"
+			y: -3.5d
+			x: 4.0d
+			icon: "spectrum:orange_lamp"
 		}
 		{
-			icon: "spectrum:pink_lamp"
-			x: 5.0d
-			y: -3.5d
-			id: "7ABFC140641ABCB5"
 			tasks: [{
-				id: "51413A98CF2B24AB"
 				type: "advancement"
-				title: "Unlock Pink Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_pink_lamp"
 				criterion: ""
+				id: "51413A98CF2B24AB"
+				title: "Unlock Pink Lamp"
 			}]
+			id: "7ABFC140641ABCB5"
+			y: -3.5d
+			x: 5.0d
+			icon: "spectrum:pink_lamp"
 		}
 		{
-			icon: "spectrum:purple_lamp"
-			x: 6.0d
-			y: -3.5d
-			id: "2D2BE19E19A87203"
 			tasks: [{
-				id: "3B84F85E9822186E"
 				type: "advancement"
-				title: "Unlock Purple Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_purple_lamp"
 				criterion: ""
+				id: "3B84F85E9822186E"
+				title: "Unlock Purple Lamp"
 			}]
+			id: "2D2BE19E19A87203"
+			y: -3.5d
+			x: 6.0d
+			icon: "spectrum:purple_lamp"
 		}
 		{
-			icon: "spectrum:red_lamp"
-			x: 7.0d
-			y: -3.5d
-			id: "05983E77E1B511AA"
 			tasks: [{
-				id: "1B9157CAFB06FE29"
 				type: "advancement"
-				title: "Unlock Red Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_red_lamp"
 				criterion: ""
+				id: "1B9157CAFB06FE29"
+				title: "Unlock Red Lamp"
 			}]
+			id: "05983E77E1B511AA"
+			y: -3.5d
+			x: 7.0d
+			icon: "spectrum:red_lamp"
 		}
 		{
-			icon: "spectrum:white_lamp"
-			x: 8.0d
-			y: -3.5d
-			id: "1D25127DD30F1BD9"
 			tasks: [{
-				id: "204D4ECFFDF25FCA"
 				type: "advancement"
-				title: "Unlock White Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_white_lamp"
 				criterion: ""
+				id: "204D4ECFFDF25FCA"
+				title: "Unlock White Lamp"
 			}]
+			id: "1D25127DD30F1BD9"
+			y: -3.5d
+			x: 8.0d
+			icon: "spectrum:white_lamp"
 		}
 		{
-			icon: "spectrum:yellow_lamp"
-			x: -7.0d
-			y: -2.5d
-			id: "778FAFE4DA07E117"
 			tasks: [{
-				id: "331F2F32BF26721F"
 				type: "advancement"
-				title: "Unlock Yellow Lamp"
 				advancement: "spectrum:progression/colored_lamps/unlock_yellow_lamp"
 				criterion: ""
+				id: "331F2F32BF26721F"
+				title: "Unlock Yellow Lamp"
 			}]
+			id: "778FAFE4DA07E117"
+			y: -2.5d
+			x: -7.0d
+			icon: "spectrum:yellow_lamp"
 		}
 		{
-			icon: "spectrum:black_sapling"
-			x: -6.0d
-			y: -2.5d
-			id: "25F7F1FA1D1171AE"
 			tasks: [{
-				id: "09B94E5E20AF4434"
 				type: "advancement"
-				title: "Unlock Black Sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_black_sapling"
 				criterion: ""
+				id: "09B94E5E20AF4434"
+				title: "Unlock Black Sapling"
 			}]
+			id: "25F7F1FA1D1171AE"
+			y: -2.5d
+			x: -6.0d
+			icon: "spectrum:black_sapling"
 		}
 		{
-			icon: "spectrum:blue_sapling"
-			x: -5.0d
-			y: -2.5d
-			id: "62C2801DBCFFAB71"
 			tasks: [{
-				id: "70EA9E6EA7E75DA5"
 				type: "advancement"
-				title: "Unlock Blue Sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_blue_sapling"
 				criterion: ""
+				id: "70EA9E6EA7E75DA5"
+				title: "Unlock Blue Sapling"
 			}]
+			id: "62C2801DBCFFAB71"
+			y: -2.5d
+			x: -5.0d
+			icon: "spectrum:blue_sapling"
 		}
 		{
-			icon: "spectrum:brown_sapling"
-			x: -4.0d
-			y: -2.5d
-			id: "48553A90F633B6E8"
 			tasks: [{
-				id: "5BD9D809ED8C2F79"
 				type: "advancement"
-				title: "Unlock Brown Sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_brown_sapling"
 				criterion: ""
+				id: "5BD9D809ED8C2F79"
+				title: "Unlock Brown Sapling"
 			}]
+			id: "48553A90F633B6E8"
+			y: -2.5d
+			x: -4.0d
+			icon: "spectrum:brown_sapling"
 		}
 		{
-			icon: "spectrum:cyan_sapling"
-			x: -3.0d
-			y: -2.5d
-			id: "19BD837EAAF94506"
 			tasks: [{
-				id: "2BF072054C78B9D5"
 				type: "advancement"
-				title: "Unlock Cyan Sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_cyan_sapling"
 				criterion: ""
+				id: "2BF072054C78B9D5"
+				title: "Unlock Cyan Sapling"
 			}]
+			id: "19BD837EAAF94506"
+			y: -2.5d
+			x: -3.0d
+			icon: "spectrum:cyan_sapling"
 		}
 		{
 			x: -2.0d
 			y: -2.5d
 			id: "14A805BCA7806818"
 			tasks: [{
-				id: "117FA0B5E7F89B7C"
 				type: "advancement"
-				title: "Unlock Gray Sapling"
-				icon: "spectrum:gray_sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_gray_sapling"
 				criterion: ""
+				id: "117FA0B5E7F89B7C"
+				icon: "spectrum:gray_sapling"
+				title: "Unlock Gray Sapling"
 			}]
 		}
 		{
@@ -319,12 +319,12 @@
 			y: -2.5d
 			id: "44C6BFDF3EB4DD7D"
 			tasks: [{
-				id: "6C9E3586CF7D6632"
 				type: "advancement"
-				title: "Unlock Green Sapling"
-				icon: "spectrum:green_sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_green_sapling"
 				criterion: ""
+				id: "6C9E3586CF7D6632"
+				icon: "spectrum:green_sapling"
+				title: "Unlock Green Sapling"
 			}]
 		}
 		{
@@ -332,12 +332,12 @@
 			y: -2.5d
 			id: "5E11EC2D91648F7D"
 			tasks: [{
-				id: "0B3BB65301FD7F4E"
 				type: "advancement"
-				title: "Unlock Light Blue Sapling"
-				icon: "spectrum:light_blue_sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_light_blue_sapling"
 				criterion: ""
+				id: "0B3BB65301FD7F4E"
+				icon: "spectrum:light_blue_sapling"
+				title: "Unlock Light Blue Sapling"
 			}]
 		}
 		{
@@ -345,12 +345,12 @@
 			y: -2.5d
 			id: "6B54BDF275EA6C87"
 			tasks: [{
-				id: "3CB44D915E91FEBF"
 				type: "advancement"
-				title: "Unlock Light Gray Sapling"
-				icon: "spectrum:light_gray_sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_light_gray_sapling"
 				criterion: ""
+				id: "3CB44D915E91FEBF"
+				icon: "spectrum:light_gray_sapling"
+				title: "Unlock Light Gray Sapling"
 			}]
 		}
 		{
@@ -358,12 +358,12 @@
 			y: -2.5d
 			id: "13AC9345601D4682"
 			tasks: [{
-				id: "196E0918842814A5"
 				type: "advancement"
-				title: "Unlock Lime Sapling"
-				icon: "spectrum:lime_sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_lime_sapling"
 				criterion: ""
+				id: "196E0918842814A5"
+				icon: "spectrum:lime_sapling"
+				title: "Unlock Lime Sapling"
 			}]
 		}
 		{
@@ -371,12 +371,12 @@
 			y: -2.5d
 			id: "0765F465A520329F"
 			tasks: [{
-				id: "1F3F6FED43036A7F"
 				type: "advancement"
-				title: "Unlock Magenta Sapling"
-				icon: "spectrum:magenta_sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_magenta_sapling"
 				criterion: ""
+				id: "1F3F6FED43036A7F"
+				icon: "spectrum:magenta_sapling"
+				title: "Unlock Magenta Sapling"
 			}]
 		}
 		{
@@ -384,12 +384,12 @@
 			y: -2.5d
 			id: "68D5ED9919AD6BE0"
 			tasks: [{
-				id: "63EFE28BF932D872"
 				type: "advancement"
-				title: "Unlock Orange Sapling"
-				icon: "spectrum:orange_sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_orange_sapling"
 				criterion: ""
+				id: "63EFE28BF932D872"
+				icon: "spectrum:orange_sapling"
+				title: "Unlock Orange Sapling"
 			}]
 		}
 		{
@@ -397,12 +397,12 @@
 			y: -2.5d
 			id: "7AD2EE44AF21D857"
 			tasks: [{
-				id: "5521CA7154856F6B"
 				type: "advancement"
-				title: "Unlock Pink Sapling"
-				icon: "spectrum:pink_sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_pink_sapling"
 				criterion: ""
+				id: "5521CA7154856F6B"
+				icon: "spectrum:pink_sapling"
+				title: "Unlock Pink Sapling"
 			}]
 		}
 		{
@@ -410,12 +410,12 @@
 			y: -2.5d
 			id: "42912D485546E28F"
 			tasks: [{
-				id: "41F79088140A08B6"
 				type: "advancement"
-				title: "Unlock Purple Sapling"
-				icon: "spectrum:purple_sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_purple_sapling"
 				criterion: ""
+				id: "41F79088140A08B6"
+				icon: "spectrum:purple_sapling"
+				title: "Unlock Purple Sapling"
 			}]
 		}
 		{
@@ -423,12 +423,12 @@
 			y: -2.5d
 			id: "5B5D06BAB4133473"
 			tasks: [{
-				id: "07BEC84901F60B0C"
 				type: "advancement"
-				title: "Unlock Red Sapling"
-				icon: "spectrum:red_sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_red_sapling"
 				criterion: ""
+				id: "07BEC84901F60B0C"
+				icon: "spectrum:red_sapling"
+				title: "Unlock Red Sapling"
 			}]
 		}
 		{
@@ -436,12 +436,12 @@
 			y: -2.5d
 			id: "4352B0E2126C0D65"
 			tasks: [{
-				id: "4C3CC64574D122C4"
 				type: "advancement"
-				title: "Unlock White Sapling"
-				icon: "spectrum:white_sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_white_sapling"
 				criterion: ""
+				id: "4C3CC64574D122C4"
+				icon: "spectrum:white_sapling"
+				title: "Unlock White Sapling"
 			}]
 		}
 		{
@@ -449,39 +449,39 @@
 			y: -1.5d
 			id: "7A71DCD716C04065"
 			tasks: [{
-				id: "3DD09A0287DFAC49"
 				type: "advancement"
-				title: "Unlock Yellow Sapling"
-				icon: "spectrum:yellow_sapling"
 				advancement: "spectrum:progression/colored_saplings/unlock_yellow_sapling"
 				criterion: ""
+				id: "3DD09A0287DFAC49"
+				icon: "spectrum:yellow_sapling"
+				title: "Unlock Yellow Sapling"
 			}]
 		}
 		{
-			icon: "spectrum:entity_detector"
-			x: -6.0d
-			y: -1.5d
-			id: "006A136682466EF9"
 			tasks: [{
-				id: "28723DBFB6D52D8B"
 				type: "advancement"
-				title: "Unlock Creature Detector"
-				icon: "spectrum:entity_detector"
 				advancement: "spectrum:progression/detectors/unlock_entity_detector"
 				criterion: ""
+				id: "28723DBFB6D52D8B"
+				icon: "spectrum:entity_detector"
+				title: "Unlock Creature Detector"
 			}]
+			id: "006A136682466EF9"
+			y: -1.5d
+			x: -6.0d
+			icon: "spectrum:entity_detector"
 		}
 		{
 			x: -5.0d
 			y: -1.5d
 			id: "6E03AD76AB457B71"
 			tasks: [{
-				id: "6EA0447ED3C49DB7"
 				type: "advancement"
-				title: "Unlock Item Detector"
-				icon: "spectrum:item_detector"
 				advancement: "spectrum:progression/detectors/unlock_item_detector"
 				criterion: ""
+				id: "6EA0447ED3C49DB7"
+				icon: "spectrum:item_detector"
+				title: "Unlock Item Detector"
 			}]
 		}
 		{
@@ -489,38 +489,38 @@
 			y: -1.5d
 			id: "1791A2D41004968A"
 			tasks: [{
-				id: "2CD0A52FCFE51582"
 				type: "advancement"
-				title: "Unlock Block Light Detector"
-				icon: "spectrum:light_level_detector"
 				advancement: "spectrum:progression/detectors/unlock_light_level_detector"
 				criterion: ""
+				id: "2CD0A52FCFE51582"
+				icon: "spectrum:light_level_detector"
+				title: "Unlock Block Light Detector"
 			}]
 		}
 		{
-			icon: "spectrum:player_detector"
-			x: -3.0d
-			y: -1.5d
-			id: "210315462D910C68"
 			tasks: [{
-				id: "5685C2D3C14D7241"
 				type: "advancement"
-				title: "Unlock Player Detector"
 				advancement: "spectrum:progression/detectors/unlock_player_detector"
 				criterion: ""
+				id: "5685C2D3C14D7241"
+				title: "Unlock Player Detector"
 			}]
+			id: "210315462D910C68"
+			y: -1.5d
+			x: -3.0d
+			icon: "spectrum:player_detector"
 		}
 		{
 			x: -1.0d
 			y: -1.5d
 			id: "50B761ABAFF6ED46"
 			tasks: [{
-				id: "021C8E6CFBD733AF"
 				type: "advancement"
-				title: "Enchantment: §eAutosmelt§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/autosmelt"
 				criterion: ""
+				id: "021C8E6CFBD733AF"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eAutosmelt§r"
 			}]
 		}
 		{
@@ -528,12 +528,12 @@
 			y: -1.5d
 			id: "03D73F832CB3FA4F"
 			tasks: [{
-				id: "3161858B30FB8C88"
 				type: "advancement"
-				title: "Enchantment: §eBig Catch§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/big_catch"
 				criterion: ""
+				id: "3161858B30FB8C88"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eBig Catch§r"
 			}]
 		}
 		{
@@ -541,12 +541,12 @@
 			y: -1.5d
 			id: "2108D821B819EC58"
 			tasks: [{
-				id: "191F8752582766BE"
 				type: "advancement"
-				title: "Enchantment: §eClover's Favor§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/clovers_favor"
 				criterion: ""
+				id: "191F8752582766BE"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eClover's Favor§r"
 			}]
 		}
 		{
@@ -554,12 +554,12 @@
 			y: -1.5d
 			id: "371863F8BA489EFE"
 			tasks: [{
-				id: "36BCF45C059548F7"
 				type: "advancement"
-				title: "Enchantment: §eDisarming§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/disarming"
 				criterion: ""
+				id: "36BCF45C059548F7"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eDisarming§r"
 			}]
 		}
 		{
@@ -567,12 +567,12 @@
 			y: -1.5d
 			id: "7F6E7EEA7523F2A6"
 			tasks: [{
-				id: "371D5FFB93FC96EA"
 				type: "advancement"
-				title: "Enchantment: §eExuberance§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/exuberance"
 				criterion: ""
+				id: "371D5FFB93FC96EA"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eExuberance§r"
 			}]
 		}
 		{
@@ -580,12 +580,12 @@
 			y: -1.5d
 			id: "1BE502080CF3F983"
 			tasks: [{
-				id: "033F2E959A473FCE"
 				type: "advancement"
-				title: "Enchantment: §eFirst Strike§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/first_strike"
 				criterion: ""
+				id: "033F2E959A473FCE"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eFirst Strike§r"
 			}]
 		}
 		{
@@ -593,12 +593,12 @@
 			y: -1.5d
 			id: "1E8A530A0FDE5B45"
 			tasks: [{
-				id: "36B53CDF08D6E135"
 				type: "advancement"
-				title: "Enchantment: §eImproved Critical§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/improved_critical"
 				criterion: ""
+				id: "36B53CDF08D6E135"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eImproved Critical§r"
 			}]
 		}
 		{
@@ -606,12 +606,12 @@
 			y: -1.5d
 			id: "175BA9DF117544AC"
 			tasks: [{
-				id: "486EC65B6265D4C4"
 				type: "advancement"
-				title: "Enchantment: §eIndestructible§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/indestructible"
 				criterion: ""
+				id: "486EC65B6265D4C4"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eIndestructible§r"
 			}]
 		}
 		{
@@ -619,12 +619,12 @@
 			y: -1.5d
 			id: "238F42025EA0FD21"
 			tasks: [{
-				id: "37C0CC7A7EE8EBAD"
 				type: "advancement"
-				title: "Enchantment: §eInertia§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/inertia"
 				criterion: ""
+				id: "37C0CC7A7EE8EBAD"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eInertia§r"
 			}]
 		}
 		{
@@ -632,12 +632,12 @@
 			y: -1.5d
 			id: "49A9D6712581C8C0"
 			tasks: [{
-				id: "4C9228913124B8DC"
 				type: "advancement"
-				title: "Enchantment: §eInventory Insertion§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/inventory_insertion"
 				criterion: ""
+				id: "4C9228913124B8DC"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eInventory Insertion§r"
 			}]
 		}
 		{
@@ -645,12 +645,12 @@
 			y: -0.5d
 			id: "30F5DEEB8E574039"
 			tasks: [{
-				id: "5ADB33A0B35A5351"
 				type: "advancement"
-				title: "Enchantment: §ePest Control§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/pest_control"
 				criterion: ""
+				id: "5ADB33A0B35A5351"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §ePest Control§r"
 			}]
 		}
 		{
@@ -658,12 +658,12 @@
 			y: -0.5d
 			id: "21F2FE0BF95A6A09"
 			tasks: [{
-				id: "0818B37D38160B34"
 				type: "advancement"
-				title: "Enchantment: §eResonance§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/resonance"
 				criterion: ""
+				id: "0818B37D38160B34"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eResonance§r"
 			}]
 		}
 		{
@@ -671,12 +671,12 @@
 			y: -0.5d
 			id: "6B50A34A4A597C31"
 			tasks: [{
-				id: "336B47B0B94A46B9"
 				type: "advancement"
-				title: "Enchantment: §eSniper§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/sniper"
 				criterion: ""
+				id: "336B47B0B94A46B9"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eSniper§r"
 			}]
 		}
 		{
@@ -684,12 +684,12 @@
 			y: -0.5d
 			id: "7D31CA63A5910EFD"
 			tasks: [{
-				id: "2C803F29B4FEEB36"
 				type: "advancement"
-				title: "Enchantment: §eSteadfast§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/steadfast"
 				criterion: ""
+				id: "2C803F29B4FEEB36"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eSteadfast§r"
 			}]
 		}
 		{
@@ -697,12 +697,12 @@
 			y: -0.5d
 			id: "0660DC8D510599EF"
 			tasks: [{
-				id: "39812B6C32A147BA"
 				type: "advancement"
-				title: "Enchantment: §eTight Grip§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/tight_grip"
 				criterion: ""
+				id: "39812B6C32A147BA"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eTight Grip§r"
 			}]
 		}
 		{
@@ -710,12 +710,12 @@
 			y: -0.5d
 			id: "165CD9FEEF62BC8D"
 			tasks: [{
-				id: "3900AB8B82005640"
 				type: "advancement"
-				title: "Enchantment: §eTreasure Hunter§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/treasure_hunter"
 				criterion: ""
+				id: "3900AB8B82005640"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eTreasure Hunter§r"
 			}]
 		}
 		{
@@ -723,12 +723,12 @@
 			y: -0.5d
 			id: "7AD143A367A97469"
 			tasks: [{
-				id: "7396F6FC7567F3A5"
 				type: "advancement"
-				title: "§cVanilla Curses§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_curses"
 				criterion: ""
+				id: "7396F6FC7567F3A5"
+				icon: "minecraft:enchanted_book"
+				title: "§cVanilla Curses§r"
 			}]
 		}
 		{
@@ -736,12 +736,12 @@
 			y: -0.5d
 			id: "523BA7CC77911A6E"
 			tasks: [{
-				id: "3D7A782EF2BF4EE2"
 				type: "advancement"
-				title: "Enchantment: §eSharpness§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_damage"
 				criterion: ""
+				id: "3D7A782EF2BF4EE2"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eSharpness§r"
 			}]
 		}
 		{
@@ -749,12 +749,12 @@
 			y: -0.5d
 			id: "77266C7664638BE1"
 			tasks: [{
-				id: "1B1A42E8FB809477"
 				type: "advancement"
-				title: "Enchantment: §eLooting and Fortune§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_luck"
 				criterion: ""
+				id: "1B1A42E8FB809477"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eLooting and Fortune§r"
 			}]
 		}
 		{
@@ -762,12 +762,12 @@
 			y: -0.5d
 			id: "4D352BF23E0EB30A"
 			tasks: [{
-				id: "1E9ED0D7CA5BC685"
 				type: "advancement"
-				title: "Enchantment: §ePower§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_projectile"
 				criterion: ""
+				id: "1E9ED0D7CA5BC685"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §ePower§r"
 			}]
 		}
 		{
@@ -775,12 +775,12 @@
 			y: -0.5d
 			id: "1468A96DF6DDE364"
 			tasks: [{
-				id: "5C553E41878D63F4"
 				type: "advancement"
-				title: "Enchantment: §eInfinity§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_projectile_infinity"
 				criterion: ""
+				id: "5C553E41878D63F4"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eInfinity§r"
 			}]
 		}
 		{
@@ -788,12 +788,12 @@
 			y: -0.5d
 			id: "509F7B2DAF9ACF78"
 			tasks: [{
-				id: "5B9A51B5D81BFB98"
 				type: "advancement"
-				title: "Enchantment: §eProtection§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_protection"
 				criterion: ""
+				id: "5B9A51B5D81BFB98"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eProtection§r"
 			}]
 		}
 		{
@@ -801,12 +801,12 @@
 			y: -0.5d
 			id: "7A292112E488F1B5"
 			tasks: [{
-				id: "6D03A04834018B4D"
 				type: "advancement"
-				title: "Enchantment: §eQuitoxic???§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_quitoxic"
 				criterion: ""
+				id: "6D03A04834018B4D"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eQuitoxic???§r"
 			}]
 		}
 		{
@@ -814,12 +814,12 @@
 			y: -0.5d
 			id: "4D0FA199B705AE6B"
 			tasks: [{
-				id: "290D7147C745B01B"
 				type: "advancement"
-				title: "Enchantment: §eSilk Touch§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_silk_touch"
 				criterion: ""
+				id: "290D7147C745B01B"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eSilk Touch§r"
 			}]
 		}
 		{
@@ -827,12 +827,12 @@
 			y: -0.5d
 			id: "1E2FB92D19909245"
 			tasks: [{
-				id: "70AA3622411C78A1"
 				type: "advancement"
-				title: "Enchantment: §eMending, Frost Walker§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_treasure"
 				criterion: ""
+				id: "70AA3622411C78A1"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eMending, Frost Walker§r"
 			}]
 		}
 		{
@@ -840,12 +840,12 @@
 			y: -0.5d
 			id: "41C0AC21C2AF21FF"
 			tasks: [{
-				id: "0B4AEA3A0682FD99"
 				type: "advancement"
-				title: "Enchantment: §eRiptide, Impaling§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_trident"
 				criterion: ""
+				id: "0B4AEA3A0682FD99"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eRiptide, Impaling§r"
 			}]
 		}
 		{
@@ -853,12 +853,12 @@
 			y: 0.5d
 			id: "061CDC06CE8F61D9"
 			tasks: [{
-				id: "7BD4C8F89E35D77D"
 				type: "advancement"
-				title: "Enchantment: §eChanelling§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_trident_channeling"
 				criterion: ""
+				id: "7BD4C8F89E35D77D"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eChanelling§r"
 			}]
 		}
 		{
@@ -866,12 +866,12 @@
 			y: 0.5d
 			id: "404D3B9110FADFA5"
 			tasks: [{
-				id: "73986A1CF2A06CFD"
 				type: "advancement"
-				title: "Enchantment: §eUnbreaking§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_unbreaking"
 				criterion: ""
+				id: "73986A1CF2A06CFD"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eUnbreaking§r"
 			}]
 		}
 		{
@@ -879,12 +879,12 @@
 			y: 0.5d
 			id: "38519A47957AEB35"
 			tasks: [{
-				id: "46DE88DD39E81559"
 				type: "advancement"
-				title: "Enchantment: §eAqua Affinity, Respiration§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_water"
 				criterion: ""
+				id: "46DE88DD39E81559"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eAqua Affinity, Respiration§r"
 			}]
 		}
 		{
@@ -892,12 +892,12 @@
 			y: 0.5d
 			id: "7A538C663A67B933"
 			tasks: [{
-				id: "21A866B08D29740D"
 				type: "advancement"
-				title: "Enchantment: §eLuck of the Sea§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/vanilla_water_luck"
 				criterion: ""
+				id: "21A866B08D29740D"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eLuck of the Sea§r"
 			}]
 		}
 		{
@@ -905,12 +905,12 @@
 			y: 0.5d
 			id: "43FBC49DAFAA12D0"
 			tasks: [{
-				id: "5124D00E5ABF891F"
 				type: "advancement"
-				title: "Enchantment: §eVoiding§r"
-				icon: "minecraft:enchanted_book"
 				advancement: "spectrum:progression/enchantments/voiding"
 				criterion: ""
+				id: "5124D00E5ABF891F"
+				icon: "minecraft:enchanted_book"
+				title: "Enchantment: §eVoiding§r"
 			}]
 		}
 		{
@@ -918,12 +918,12 @@
 			y: 0.5d
 			id: "378669A7C6863B46"
 			tasks: [{
-				id: "05778016C5E6943D"
 				type: "advancement"
-				title: "Unlock Any Chime"
-				icon: "spectrum:moonstone_chime"
 				advancement: "spectrum:progression/gemstone_chimes/unlock_any_chime"
 				criterion: ""
+				id: "05778016C5E6943D"
+				icon: "spectrum:moonstone_chime"
+				title: "Unlock Any Chime"
 			}]
 		}
 		{
@@ -931,12 +931,12 @@
 			y: 0.5d
 			id: "3D7B97C4CC44E6AD"
 			tasks: [{
-				id: "1E2DF2F2AEA7630A"
 				type: "advancement"
-				title: "Unlock Amethyst Chime"
-				icon: "spectrum:amethyst_chime"
 				advancement: "spectrum:progression/gemstone_chimes/unlock_amethyst_chime"
 				criterion: ""
+				id: "1E2DF2F2AEA7630A"
+				icon: "spectrum:amethyst_chime"
+				title: "Unlock Amethyst Chime"
 			}]
 		}
 		{
@@ -944,12 +944,12 @@
 			y: 0.5d
 			id: "511AC1120B2B89DF"
 			tasks: [{
-				id: "275CE0E55F0BA5CE"
 				type: "advancement"
-				title: "Unlock Citrine Chime"
-				icon: "spectrum:citrine_chime"
 				advancement: "spectrum:progression/gemstone_chimes/unlock_citrine_chime"
 				criterion: ""
+				id: "275CE0E55F0BA5CE"
+				icon: "spectrum:citrine_chime"
+				title: "Unlock Citrine Chime"
 			}]
 		}
 		{
@@ -957,12 +957,12 @@
 			y: 0.5d
 			id: "24A15B51A8476E1D"
 			tasks: [{
-				id: "4EA71F694B1BFCD7"
 				type: "advancement"
-				title: "Unlock Moonstone Chime"
-				icon: "spectrum:moonstone_chime"
 				advancement: "spectrum:progression/gemstone_chimes/unlock_moonstone_chime"
 				criterion: ""
+				id: "4EA71F694B1BFCD7"
+				icon: "spectrum:moonstone_chime"
+				title: "Unlock Moonstone Chime"
 			}]
 		}
 		{
@@ -970,12 +970,12 @@
 			y: 0.5d
 			id: "1281DDC3D8D05DAA"
 			tasks: [{
-				id: "0985681882C074C6"
 				type: "advancement"
-				title: "Unlock Onyx Chime"
-				icon: "spectrum:onyx_chime"
 				advancement: "spectrum:progression/gemstone_chimes/unlock_onyx_chime"
 				criterion: ""
+				id: "0985681882C074C6"
+				icon: "spectrum:onyx_chime"
+				title: "Unlock Onyx Chime"
 			}]
 		}
 		{
@@ -983,12 +983,12 @@
 			y: 0.5d
 			id: "29A426616EB0AE3E"
 			tasks: [{
-				id: "46B05326E3919FDF"
 				type: "advancement"
-				title: "Unlock Topaz Chime"
-				icon: "spectrum:topaz_chime"
 				advancement: "spectrum:progression/gemstone_chimes/unlock_topaz_chime"
 				criterion: ""
+				id: "46B05326E3919FDF"
+				icon: "spectrum:topaz_chime"
+				title: "Unlock Topaz Chime"
 			}]
 		}
 		{
@@ -996,12 +996,12 @@
 			y: 0.5d
 			id: "3EC79D03E2FBAE72"
 			tasks: [{
-				id: "2798E56D33563C53"
 				type: "advancement"
-				title: "Unlock Any Gemstone Lamp"
-				icon: "spectrum:moonstone_calcite_lamp"
 				advancement: "spectrum:progression/gemstone_lamps/unlock_any_gemstone_lamp"
 				criterion: ""
+				id: "2798E56D33563C53"
+				icon: "spectrum:moonstone_calcite_lamp"
+				title: "Unlock Any Gemstone Lamp"
 			}]
 		}
 		{
@@ -1009,12 +1009,12 @@
 			y: 0.5d
 			id: "1D9E30DC81874887"
 			tasks: [{
-				id: "2C3C6F8B491EC39A"
 				type: "advancement"
-				title: "Unlock Amethyst Lamps"
-				icon: "spectrum:amethyst_basalt_lamp"
 				advancement: "spectrum:progression/gemstone_lamps/unlock_amethyst_lamps"
 				criterion: ""
+				id: "2C3C6F8B491EC39A"
+				icon: "spectrum:amethyst_basalt_lamp"
+				title: "Unlock Amethyst Lamps"
 			}]
 		}
 		{
@@ -1022,12 +1022,12 @@
 			y: 0.5d
 			id: "7180551E3EECE689"
 			tasks: [{
-				id: "0D97DB7F84653771"
 				type: "advancement"
-				title: "Unlock Citrine Lamps"
-				icon: "spectrum:citrine_basalt_lamp"
 				advancement: "spectrum:progression/gemstone_lamps/unlock_citrine_lamps"
 				criterion: ""
+				id: "0D97DB7F84653771"
+				icon: "spectrum:citrine_basalt_lamp"
+				title: "Unlock Citrine Lamps"
 			}]
 		}
 		{
@@ -1035,12 +1035,12 @@
 			y: 0.5d
 			id: "371A7D4D7BF15CE8"
 			tasks: [{
-				id: "6A5945885A7210B9"
 				type: "advancement"
-				title: "Unlock Moonstone Lamps"
-				icon: "spectrum:moonstone_basalt_lamp"
 				advancement: "spectrum:progression/gemstone_lamps/unlock_moonstone_lamps"
 				criterion: ""
+				id: "6A5945885A7210B9"
+				icon: "spectrum:moonstone_basalt_lamp"
+				title: "Unlock Moonstone Lamps"
 			}]
 		}
 		{
@@ -1048,12 +1048,12 @@
 			y: 0.5d
 			id: "4C0D91438F1DB975"
 			tasks: [{
-				id: "7D066C584D36FF94"
 				type: "advancement"
-				title: "Unlock Onyx Lamps"
-				icon: "spectrum:onyx_basalt_lamp"
 				advancement: "spectrum:progression/gemstone_lamps/unlock_onyx_lamps"
 				criterion: ""
+				id: "7D066C584D36FF94"
+				icon: "spectrum:onyx_basalt_lamp"
+				title: "Unlock Onyx Lamps"
 			}]
 		}
 		{
@@ -1061,12 +1061,12 @@
 			y: 1.5d
 			id: "1D9C7634D56C3213"
 			tasks: [{
-				id: "4C835035D4BB871D"
 				type: "advancement"
-				title: "Unlock Topaz Lamps"
-				icon: "spectrum:topaz_basalt_lamp"
 				advancement: "spectrum:progression/gemstone_lamps/unlock_topaz_lamps"
 				criterion: ""
+				id: "4C835035D4BB871D"
+				icon: "spectrum:topaz_basalt_lamp"
+				title: "Unlock Topaz Lamps"
 			}]
 		}
 		{
@@ -1074,12 +1074,12 @@
 			y: 1.5d
 			id: "10BAA3EEAD48CAAD"
 			tasks: [{
-				id: "6742C8EEA2295BE6"
 				type: "advancement"
-				title: "Unlock Any Glowblock"
-				icon: "blockus:rainbow_colored_tiles"
 				advancement: "spectrum:progression/glowblocks/unlock_any_glowblock"
 				criterion: ""
+				id: "6742C8EEA2295BE6"
+				icon: "blockus:rainbow_colored_tiles"
+				title: "Unlock Any Glowblock"
 			}]
 		}
 		{
@@ -1087,12 +1087,12 @@
 			y: 1.5d
 			id: "18184A5F5121E66A"
 			tasks: [{
-				id: "38D383D84908D613"
 				type: "advancement"
-				title: "Unlock Black Glowblock"
-				icon: "spectrum:black_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_black_glowblock"
 				criterion: ""
+				id: "38D383D84908D613"
+				icon: "spectrum:black_glowblock"
+				title: "Unlock Black Glowblock"
 			}]
 		}
 		{
@@ -1100,12 +1100,12 @@
 			y: 1.5d
 			id: "047334A7DE2BC7E1"
 			tasks: [{
-				id: "00CD5A2B35C33A71"
 				type: "advancement"
-				title: "Unlock Blue Glowblock"
-				icon: "spectrum:blue_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_blue_glowblock"
 				criterion: ""
+				id: "00CD5A2B35C33A71"
+				icon: "spectrum:blue_glowblock"
+				title: "Unlock Blue Glowblock"
 			}]
 		}
 		{
@@ -1113,12 +1113,12 @@
 			y: 1.5d
 			id: "5CF7736A19FF39FB"
 			tasks: [{
-				id: "0FDBA709AFA7E612"
 				type: "advancement"
-				title: "Unlock Brown Glowblock"
-				icon: "spectrum:brown_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_brown_glowblock"
 				criterion: ""
+				id: "0FDBA709AFA7E612"
+				icon: "spectrum:brown_glowblock"
+				title: "Unlock Brown Glowblock"
 			}]
 		}
 		{
@@ -1126,12 +1126,12 @@
 			y: 1.5d
 			id: "3DBC9A00C6ED0B55"
 			tasks: [{
-				id: "736E70F49AC4D908"
 				type: "advancement"
-				title: "Unlock Cyan Glowblock"
-				icon: "spectrum:cyan_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_cyan_glowblock"
 				criterion: ""
+				id: "736E70F49AC4D908"
+				icon: "spectrum:cyan_glowblock"
+				title: "Unlock Cyan Glowblock"
 			}]
 		}
 		{
@@ -1139,12 +1139,12 @@
 			y: 1.5d
 			id: "7612CFD3895832D2"
 			tasks: [{
-				id: "11B3C247CB0C5240"
 				type: "advancement"
-				title: "Unlock Gray Glowblock"
-				icon: "spectrum:gray_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_gray_glowblock"
 				criterion: ""
+				id: "11B3C247CB0C5240"
+				icon: "spectrum:gray_glowblock"
+				title: "Unlock Gray Glowblock"
 			}]
 		}
 		{
@@ -1152,12 +1152,12 @@
 			y: 1.5d
 			id: "4B7A3727EC66F2A6"
 			tasks: [{
-				id: "53398B79691E1CA7"
 				type: "advancement"
-				title: "Unlock Green Glowblock"
-				icon: "spectrum:green_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_green_glowblock"
 				criterion: ""
+				id: "53398B79691E1CA7"
+				icon: "spectrum:green_glowblock"
+				title: "Unlock Green Glowblock"
 			}]
 		}
 		{
@@ -1165,12 +1165,12 @@
 			y: 1.5d
 			id: "0DFD9576C870FAE3"
 			tasks: [{
-				id: "5A75FF667D5A91EC"
 				type: "advancement"
-				title: "Unlock Light Blue Glowblock"
-				icon: "spectrum:light_blue_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_light_blue_glowblock"
 				criterion: ""
+				id: "5A75FF667D5A91EC"
+				icon: "spectrum:light_blue_glowblock"
+				title: "Unlock Light Blue Glowblock"
 			}]
 		}
 		{
@@ -1178,12 +1178,12 @@
 			y: 1.5d
 			id: "06E044A73371E1A8"
 			tasks: [{
-				id: "7A6055E049B7247A"
 				type: "advancement"
-				title: "Unlock Light Gray Glowblock"
-				icon: "spectrum:light_gray_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_light_gray_glowblock"
 				criterion: ""
+				id: "7A6055E049B7247A"
+				icon: "spectrum:light_gray_glowblock"
+				title: "Unlock Light Gray Glowblock"
 			}]
 		}
 		{
@@ -1191,12 +1191,12 @@
 			y: 1.5d
 			id: "38A059B0CE7C8CA9"
 			tasks: [{
-				id: "547906EA42612DEC"
 				type: "advancement"
-				title: "Unlock Lime Glowblock"
-				icon: "spectrum:lime_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_lime_glowblock"
 				criterion: ""
+				id: "547906EA42612DEC"
+				icon: "spectrum:lime_glowblock"
+				title: "Unlock Lime Glowblock"
 			}]
 		}
 		{
@@ -1204,12 +1204,12 @@
 			y: 1.5d
 			id: "76B18CDDB9A4287E"
 			tasks: [{
-				id: "10FB2312343A3F34"
 				type: "advancement"
-				title: "Unlock Magenta Glowblock"
-				icon: "spectrum:magenta_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_magenta_glowblock"
 				criterion: ""
+				id: "10FB2312343A3F34"
+				icon: "spectrum:magenta_glowblock"
+				title: "Unlock Magenta Glowblock"
 			}]
 		}
 		{
@@ -1217,12 +1217,12 @@
 			y: 1.5d
 			id: "7989FD6E36E88D8F"
 			tasks: [{
-				id: "44C87A6834757EDF"
 				type: "advancement"
-				title: "Unlock Orange Glowblock"
-				icon: "spectrum:orange_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_orange_glowblock"
 				criterion: ""
+				id: "44C87A6834757EDF"
+				icon: "spectrum:orange_glowblock"
+				title: "Unlock Orange Glowblock"
 			}]
 		}
 		{
@@ -1230,12 +1230,12 @@
 			y: 1.5d
 			id: "280F27BA835CDF38"
 			tasks: [{
-				id: "0C8F2BBED724629F"
 				type: "advancement"
-				title: "Unlock Pink Glowblock"
-				icon: "spectrum:pink_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_pink_glowblock"
 				criterion: ""
+				id: "0C8F2BBED724629F"
+				icon: "spectrum:pink_glowblock"
+				title: "Unlock Pink Glowblock"
 			}]
 		}
 		{
@@ -1243,12 +1243,12 @@
 			y: 1.5d
 			id: "24E8C35E9FA9F1B5"
 			tasks: [{
-				id: "696B51BB855482DE"
 				type: "advancement"
-				title: "Unlock Purple Glowblock"
-				icon: "spectrum:purple_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_purple_glowblock"
 				criterion: ""
+				id: "696B51BB855482DE"
+				icon: "spectrum:purple_glowblock"
+				title: "Unlock Purple Glowblock"
 			}]
 		}
 		{
@@ -1256,12 +1256,12 @@
 			y: 1.5d
 			id: "06FF1F1DBA931FA4"
 			tasks: [{
-				id: "763B65F8C7798BAC"
 				type: "advancement"
-				title: "Unlock Red Glowblock"
-				icon: "spectrum:red_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_red_glowblock"
 				criterion: ""
+				id: "763B65F8C7798BAC"
+				icon: "spectrum:red_glowblock"
+				title: "Unlock Red Glowblock"
 			}]
 		}
 		{
@@ -1269,12 +1269,12 @@
 			y: 2.5d
 			id: "0FC025E02D7EC9B4"
 			tasks: [{
-				id: "6CE0410F80E3EC23"
 				type: "advancement"
-				title: "Unlock White Glowblock"
-				icon: "spectrum:white_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_white_glowblock"
 				criterion: ""
+				id: "6CE0410F80E3EC23"
+				icon: "spectrum:white_glowblock"
+				title: "Unlock White Glowblock"
 			}]
 		}
 		{
@@ -1282,12 +1282,12 @@
 			y: 2.5d
 			id: "7D21954BA7A74452"
 			tasks: [{
-				id: "03AD379EA6A16965"
 				type: "advancement"
-				title: "Unlock Yellow Glowblock"
-				icon: "spectrum:yellow_glowblock"
 				advancement: "spectrum:progression/glowblocks/unlock_yellow_glowblock"
 				criterion: ""
+				id: "03AD379EA6A16965"
+				icon: "spectrum:yellow_glowblock"
+				title: "Unlock Yellow Glowblock"
 			}]
 		}
 		{
@@ -1295,12 +1295,12 @@
 			y: 2.5d
 			id: "57132B38DE3CF6AF"
 			tasks: [{
-				id: "5B9DE58DBBD285BD"
 				type: "advancement"
-				title: "Unlock Basic Pastel Network Nodes"
-				icon: "spectrum:storage_node"
 				advancement: "spectrum:progression/pastel_network/unlock_basic_nodes"
 				criterion: ""
+				id: "5B9DE58DBBD285BD"
+				icon: "spectrum:storage_node"
+				title: "Unlock Basic Pastel Network Nodes"
 			}]
 		}
 		{
@@ -1308,12 +1308,12 @@
 			y: 2.5d
 			id: "7D7833DDEFF53835"
 			tasks: [{
-				id: "657330568B91687C"
 				type: "advancement"
-				title: "Unlock Pastel Network Interaction Node"
-				icon: "spectrum:interaction_node"
 				advancement: "spectrum:progression/pastel_network/unlock_interaction_node"
 				criterion: ""
+				id: "657330568B91687C"
+				icon: "spectrum:interaction_node"
+				title: "Unlock Pastel Network Interaction Node"
 			}]
 		}
 		{
@@ -1321,9 +1321,10 @@
 			y: 2.5d
 			id: "5DC93E6646A9170E"
 			tasks: [{
-				id: "0CB4166462CAA566"
 				type: "advancement"
-				title: "Unlock Levitation Potion"
+				advancement: "spectrum:progression/potions/unlock_levitation_potion"
+				criterion: ""
+				id: "0CB4166462CAA566"
 				icon: {
 					id: "minecraft:potion"
 					Count: 1b
@@ -1340,8 +1341,7 @@
 						}]
 					}
 				}
-				advancement: "spectrum:progression/potions/unlock_levitation_potion"
-				criterion: ""
+				title: "Unlock Levitation Potion"
 			}]
 		}
 		{
@@ -1349,9 +1349,10 @@
 			y: 2.5d
 			id: "0A6800C96DA96F78"
 			tasks: [{
-				id: "1C8FECAA54E52DB1"
 				type: "advancement"
-				title: "Unlock Luck Potion"
+				advancement: "spectrum:progression/potions/unlock_luck_potion"
+				criterion: ""
+				id: "1C8FECAA54E52DB1"
 				icon: {
 					id: "minecraft:potion"
 					Count: 1b
@@ -1368,8 +1369,7 @@
 						}]
 					}
 				}
-				advancement: "spectrum:progression/potions/unlock_luck_potion"
-				criterion: ""
+				title: "Unlock Luck Potion"
 			}]
 		}
 		{
@@ -1377,9 +1377,10 @@
 			y: 2.5d
 			id: "16E4E2719320F868"
 			tasks: [{
-				id: "77C7EF8C2F3EA708"
 				type: "advancement"
-				title: "Unlock Wither Potion"
+				advancement: "spectrum:progression/potions/unlock_wither_potion"
+				criterion: ""
+				id: "77C7EF8C2F3EA708"
 				icon: {
 					id: "minecraft:potion"
 					Count: 1b
@@ -1396,8 +1397,7 @@
 						}]
 					}
 				}
-				advancement: "spectrum:progression/potions/unlock_wither_potion"
-				criterion: ""
+				title: "Unlock Wither Potion"
 			}]
 		}
 		{
@@ -1405,9 +1405,10 @@
 			y: 2.5d
 			id: "3FBD02BB01B8B53F"
 			tasks: [{
-				id: "238AE676524FA27F"
 				type: "advancement"
-				title: "Unlock Any Preenchanted Tool"
+				advancement: "spectrum:progression/tools/unlock_any_preenchanted_tool"
+				criterion: ""
+				id: "238AE676524FA27F"
 				icon: {
 					id: "minecraft:diamond_pickaxe"
 					Count: 1b
@@ -1419,8 +1420,7 @@
 						}]
 					}
 				}
-				advancement: "spectrum:progression/tools/unlock_any_preenchanted_tool"
-				criterion: ""
+				title: "Unlock Any Preenchanted Tool"
 			}]
 		}
 		{
@@ -1428,9 +1428,10 @@
 			y: 2.5d
 			id: "643D98379B5E53AF"
 			tasks: [{
-				id: "40968333E465D078"
 				type: "advancement"
-				title: "Unlock Lucky Pickaxe"
+				advancement: "spectrum:progression/tools/unlock_fortune_pickaxe"
+				criterion: ""
+				id: "40968333E465D078"
 				icon: {
 					id: "spectrum:fortune_pickaxe"
 					Count: 1b
@@ -1442,8 +1443,7 @@
 						}]
 					}
 				}
-				advancement: "spectrum:progression/tools/unlock_fortune_pickaxe"
-				criterion: ""
+				title: "Unlock Lucky Pickaxe"
 			}]
 		}
 		{
@@ -1451,9 +1451,10 @@
 			y: 2.5d
 			id: "7EEAE70F78021C42"
 			tasks: [{
-				id: "1C7F0A1406AD99A0"
 				type: "advancement"
-				title: "Unlock Razor Falchion"
+				advancement: "spectrum:progression/tools/unlock_looting_falchion"
+				criterion: ""
+				id: "1C7F0A1406AD99A0"
 				icon: {
 					id: "spectrum:looting_falchion"
 					Count: 1b
@@ -1465,8 +1466,7 @@
 						}]
 					}
 				}
-				advancement: "spectrum:progression/tools/unlock_looting_falchion"
-				criterion: ""
+				title: "Unlock Razor Falchion"
 			}]
 		}
 		{
@@ -1474,9 +1474,10 @@
 			y: 2.5d
 			id: "45AE9AE47679A29B"
 			tasks: [{
-				id: "47C3FE34DBF6CEA6"
 				type: "advancement"
-				title: "Unlock Resonant Pickaxe"
+				advancement: "spectrum:progression/tools/unlock_resonant_pickaxe"
+				criterion: ""
+				id: "47C3FE34DBF6CEA6"
 				icon: {
 					id: "spectrum:resonant_pickaxe"
 					Count: 1b
@@ -1488,8 +1489,7 @@
 						}]
 					}
 				}
-				advancement: "spectrum:progression/tools/unlock_resonant_pickaxe"
-				criterion: ""
+				title: "Unlock Resonant Pickaxe"
 			}]
 		}
 		{
@@ -1497,9 +1497,10 @@
 			y: 2.5d
 			id: "569E295FEADD6C12"
 			tasks: [{
-				id: "66ACAC86A57BDBB7"
 				type: "advancement"
-				title: "Unlock Tender Pickaxe"
+				advancement: "spectrum:progression/tools/unlock_silker_pickaxe"
+				criterion: ""
+				id: "66ACAC86A57BDBB7"
 				icon: {
 					id: "spectrum:silker_pickaxe"
 					Count: 1b
@@ -1511,8 +1512,7 @@
 						}]
 					}
 				}
-				advancement: "spectrum:progression/tools/unlock_silker_pickaxe"
-				criterion: ""
+				title: "Unlock Tender Pickaxe"
 			}]
 		}
 		{
@@ -1520,9 +1520,10 @@
 			y: 2.5d
 			id: "5B81FC73A73F78B1"
 			tasks: [{
-				id: "3B39AF618CD08E25"
 				type: "advancement"
-				title: "Unlock Oblivion Pickaxe"
+				advancement: "spectrum:progression/tools/unlock_voiding_pickaxe"
+				criterion: ""
+				id: "3B39AF618CD08E25"
 				icon: {
 					id: "spectrum:voiding_pickaxe"
 					Count: 1b
@@ -1534,8 +1535,7 @@
 						}]
 					}
 				}
-				advancement: "spectrum:progression/tools/unlock_voiding_pickaxe"
-				criterion: ""
+				title: "Unlock Oblivion Pickaxe"
 			}]
 		}
 		{
@@ -1543,12 +1543,12 @@
 			y: 2.5d
 			id: "021B721D42F25D93"
 			tasks: [{
-				id: "10384B334BD01230"
 				type: "advancement"
-				title: "Unlock Any Azure Dike Equipment"
-				icon: "spectrum:azure_dike_ring"
 				advancement: "spectrum:progression/unlock_any_azure_dike_equipment"
 				criterion: ""
+				id: "10384B334BD01230"
+				icon: "spectrum:azure_dike_ring"
+				title: "Unlock Any Azure Dike Equipment"
 			}]
 		}
 		{
@@ -1556,12 +1556,12 @@
 			y: 2.5d
 			id: "20E5E569098497AD"
 			tasks: [{
-				id: "17FF342F770CA6A6"
 				type: "advancement"
-				title: "Unlock Any Base Trinket"
-				icon: "spectrum:fanciful_stone_ring"
 				advancement: "spectrum:progression/unlock_any_base_trinket"
 				criterion: ""
+				id: "17FF342F770CA6A6"
+				icon: "spectrum:fanciful_stone_ring"
+				title: "Unlock Any Base Trinket"
 			}]
 		}
 		{
@@ -1569,12 +1569,12 @@
 			y: 3.5d
 			id: "3441D4F97AEA17F7"
 			tasks: [{
-				id: "36DFEF896699C318"
 				type: "advancement"
-				title: "Unlock Artist's Palette"
-				icon: "spectrum:artists_palette"
 				advancement: "spectrum:progression/unlock_artists_palette"
 				criterion: ""
+				id: "36DFEF896699C318"
+				icon: "spectrum:artists_palette"
+				title: "Unlock Artist's Palette"
 			}]
 		}
 		{
@@ -1582,12 +1582,12 @@
 			y: 3.5d
 			id: "2F7F6147016201FC"
 			tasks: [{
-				id: "4DE282F362EC3384"
 				type: "advancement"
-				title: "Unlock Ashen Circlet"
-				icon: "spectrum:ashen_circlet"
 				advancement: "spectrum:progression/unlock_ashen_circlet"
 				criterion: ""
+				id: "4DE282F362EC3384"
+				icon: "spectrum:ashen_circlet"
+				title: "Unlock Ashen Circlet"
 			}]
 		}
 		{
@@ -1595,12 +1595,12 @@
 			y: 3.5d
 			id: "102D56159E02862F"
 			tasks: [{
-				id: "4D7E3006F496CC1D"
 				type: "advancement"
-				title: "Unlock Shieldgrasp Amulet"
-				icon: "spectrum:shieldgrasp_amulet"
 				advancement: "spectrum:progression/unlock_azure_dike_amulet"
 				criterion: ""
+				id: "4D7E3006F496CC1D"
+				icon: "spectrum:shieldgrasp_amulet"
+				title: "Unlock Shieldgrasp Amulet"
 			}]
 		}
 		{
@@ -1608,12 +1608,12 @@
 			y: 3.5d
 			id: "30DA3B190DF0DD43"
 			tasks: [{
-				id: "683AD4056ED53667"
 				type: "advancement"
-				title: "Unlock Azure Dike Belt"
-				icon: "spectrum:azure_dike_belt"
 				advancement: "spectrum:progression/unlock_azure_dike_belt"
 				criterion: ""
+				id: "683AD4056ED53667"
+				icon: "spectrum:azure_dike_belt"
+				title: "Unlock Azure Dike Belt"
 			}]
 		}
 		{
@@ -1621,12 +1621,12 @@
 			y: 3.5d
 			id: "251FB09351DD23B1"
 			tasks: [{
-				id: "0988060970E95A6C"
 				type: "advancement"
-				title: "Unlock Azure Dike Ring"
-				icon: "spectrum:azure_dike_ring"
 				advancement: "spectrum:progression/unlock_azure_dike_ring"
 				criterion: ""
+				id: "0988060970E95A6C"
+				icon: "spectrum:azure_dike_ring"
+				title: "Unlock Azure Dike Ring"
 			}]
 		}
 		{
@@ -1634,9 +1634,10 @@
 			y: 3.5d
 			id: "29B816165E4FDB2A"
 			tasks: [{
-				id: "6E8D676697CBE939"
 				type: "advancement"
-				title: "Unlock Bedrock Tools"
+				advancement: "spectrum:progression/unlock_bedrock_tools"
+				criterion: ""
+				id: "6E8D676697CBE939"
 				icon: {
 					id: "spectrum:bedrock_pickaxe"
 					Count: 1b
@@ -1647,8 +1648,7 @@
 						}]
 					}
 				}
-				advancement: "spectrum:progression/unlock_bedrock_tools"
-				criterion: ""
+				title: "Unlock Bedrock Tools"
 			}]
 		}
 		{
@@ -1656,12 +1656,12 @@
 			y: 3.5d
 			id: "18DCF3C08FAE6A70"
 			tasks: [{
-				id: "537E12CD48E2F85A"
 				type: "advancement"
-				title: "Unlock Block Flooder"
-				icon: "spectrum:block_flooder"
 				advancement: "spectrum:progression/unlock_block_flooder"
 				criterion: ""
+				id: "537E12CD48E2F85A"
+				icon: "spectrum:block_flooder"
+				title: "Unlock Block Flooder"
 			}]
 		}
 		{
@@ -1669,12 +1669,12 @@
 			y: 3.5d
 			id: "100072B38201D3BF"
 			tasks: [{
-				id: "0DE960ADED9F6221"
 				type: "advancement"
-				title: "Unlock Block Placer"
-				icon: "spectrum:block_placer"
 				advancement: "spectrum:progression/unlock_block_placer"
 				criterion: ""
+				id: "0DE960ADED9F6221"
+				icon: "spectrum:block_placer"
+				title: "Unlock Block Placer"
 			}]
 		}
 		{
@@ -1682,12 +1682,12 @@
 			y: 3.5d
 			id: "6033AC1AD2FEDCD5"
 			tasks: [{
-				id: "401C9A73A0A7DBFF"
 				type: "advancement"
-				title: "Unlock Blood Orchid"
-				icon: "spectrum:blood_orchid"
 				advancement: "spectrum:progression/unlock_blood_orchid"
 				criterion: ""
+				id: "401C9A73A0A7DBFF"
+				icon: "spectrum:blood_orchid"
+				title: "Unlock Blood Orchid"
 			}]
 		}
 		{
@@ -1695,12 +1695,12 @@
 			y: 3.5d
 			id: "4490F9D5524FF1C3"
 			tasks: [{
-				id: "511E775BF5AC9A6B"
 				type: "advancement"
-				title: "Unlock Bodacious Berry Bar"
-				icon: "spectrum:bodacious_berry_bar"
 				advancement: "spectrum:progression/unlock_bodacious_berry_bar"
 				criterion: ""
+				id: "511E775BF5AC9A6B"
+				icon: "spectrum:bodacious_berry_bar"
+				title: "Unlock Bodacious Berry Bar"
 			}]
 		}
 		{
@@ -1708,12 +1708,12 @@
 			y: 3.5d
 			id: "3031E4DB5B8CDB59"
 			tasks: [{
-				id: "3E5A63FF47838B3A"
 				type: "advancement"
-				title: "Unlock Bottle of Decay Away"
-				icon: "spectrum:bottle_of_decay_away"
 				advancement: "spectrum:progression/unlock_bottle_of_decay_away"
 				criterion: ""
+				id: "3E5A63FF47838B3A"
+				icon: "spectrum:bottle_of_decay_away"
+				title: "Unlock Bottle of Decay Away"
 			}]
 		}
 		{
@@ -1721,12 +1721,12 @@
 			y: 3.5d
 			id: "19FCD59E0B1040CE"
 			tasks: [{
-				id: "25082C09C58C0D69"
 				type: "advancement"
-				title: "Unlock Bottle of Fading"
-				icon: "spectrum:bottle_of_fading"
 				advancement: "spectrum:progression/unlock_bottle_of_fading"
 				criterion: ""
+				id: "25082C09C58C0D69"
+				icon: "spectrum:bottle_of_fading"
+				title: "Unlock Bottle of Fading"
 			}]
 		}
 		{
@@ -1734,12 +1734,12 @@
 			y: 3.5d
 			id: "0AF7C374B4ADD9FF"
 			tasks: [{
-				id: "28315D1D9ACEBD2C"
 				type: "advancement"
-				title: "Unlock Bottle of Failing"
-				icon: "spectrum:bottle_of_failing"
 				advancement: "spectrum:progression/unlock_bottle_of_failing"
 				criterion: ""
+				id: "28315D1D9ACEBD2C"
+				icon: "spectrum:bottle_of_failing"
+				title: "Unlock Bottle of Failing"
 			}]
 		}
 		{
@@ -1747,12 +1747,12 @@
 			y: 3.5d
 			id: "7A03C4C30F50A489"
 			tasks: [{
-				id: "03CA41EE9419114D"
 				type: "advancement"
-				title: "Unlock Bottle of Ruin"
-				icon: "spectrum:bottle_of_ruin"
 				advancement: "spectrum:progression/unlock_bottle_of_ruin"
 				criterion: ""
+				id: "03CA41EE9419114D"
+				icon: "spectrum:bottle_of_ruin"
+				title: "Unlock Bottle of Ruin"
 			}]
 		}
 		{
@@ -1760,12 +1760,12 @@
 			y: 3.5d
 			id: "510DECE53B6F3A29"
 			tasks: [{
-				id: "17FB3A6371B0B91C"
 				type: "advancement"
-				title: "Unlock Bottle of Terror"
-				icon: "spectrum:bottle_of_terror"
 				advancement: "spectrum:progression/unlock_bottle_of_terror"
 				criterion: ""
+				id: "17FB3A6371B0B91C"
+				icon: "spectrum:bottle_of_terror"
+				title: "Unlock Bottle of Terror"
 			}]
 		}
 		{
@@ -1773,12 +1773,12 @@
 			y: 3.5d
 			id: "1B7EA5E4A7B62A4E"
 			tasks: [{
-				id: "72FBDA0FF6180DE0"
 				type: "advancement"
-				title: "Unlock Budding Onyx"
-				icon: "spectrum:budding_onyx"
 				advancement: "spectrum:progression/unlock_budding_onyx"
 				criterion: ""
+				id: "72FBDA0FF6180DE0"
+				icon: "spectrum:budding_onyx"
+				title: "Unlock Budding Onyx"
 			}]
 		}
 		{
@@ -1786,12 +1786,12 @@
 			y: 4.5d
 			id: "0C753FC6D3A86584"
 			tasks: [{
-				id: "31D6D6E3268D6CDD"
 				type: "advancement"
-				title: "Unlock Celestial Pocketwatch"
-				icon: "spectrum:celestial_pocketwatch"
 				advancement: "spectrum:progression/unlock_celestial_pocketwatch"
 				criterion: ""
+				id: "31D6D6E3268D6CDD"
+				icon: "spectrum:celestial_pocketwatch"
+				title: "Unlock Celestial Pocketwatch"
 			}]
 		}
 		{
@@ -1799,12 +1799,12 @@
 			y: 4.5d
 			id: "7D2E215513B40BD4"
 			tasks: [{
-				id: "05135BFF41FF0AD2"
 				type: "advancement"
-				title: "Unlock Cinderhearth"
-				icon: "spectrum:cinderhearth"
 				advancement: "spectrum:progression/unlock_cinderhearth"
 				criterion: ""
+				id: "05135BFF41FF0AD2"
+				icon: "spectrum:cinderhearth"
+				title: "Unlock Cinderhearth"
 			}]
 		}
 		{
@@ -1812,12 +1812,12 @@
 			y: 4.5d
 			id: "321D43F7AABE2795"
 			tasks: [{
-				id: "6BBBDB7582F1E47D"
 				type: "advancement"
-				title: "Unlock CMY Pedestal"
-				icon: "spectrum:pedestal_all_basic"
 				advancement: "spectrum:progression/unlock_cmy_pedestal"
 				criterion: ""
+				id: "6BBBDB7582F1E47D"
+				icon: "spectrum:pedestal_all_basic"
+				title: "Unlock CMY Pedestal"
 			}]
 		}
 		{
@@ -1825,12 +1825,12 @@
 			y: 4.5d
 			id: "5BCDB83BE2259B65"
 			tasks: [{
-				id: "76C246FF11DBE4CF"
 				type: "advancement"
-				title: "Unlock Color Picker"
-				icon: "spectrum:color_picker"
 				advancement: "spectrum:progression/unlock_color_picker"
 				criterion: ""
+				id: "76C246FF11DBE4CF"
+				icon: "spectrum:color_picker"
+				title: "Unlock Color Picker"
 			}]
 		}
 		{
@@ -1838,12 +1838,12 @@
 			y: 4.5d
 			id: "5A4300428C3BF9AB"
 			tasks: [{
-				id: "05C8B67386128596"
 				type: "advancement"
-				title: "Unlock Colored Spore Blossoms"
-				icon: "spectrum:red_spore_blossom"
 				advancement: "spectrum:progression/unlock_colored_spore_blossoms"
 				criterion: ""
+				id: "05C8B67386128596"
+				icon: "spectrum:red_spore_blossom"
+				title: "Unlock Colored Spore Blossoms"
 			}]
 		}
 		{
@@ -1851,12 +1851,12 @@
 			y: 4.5d
 			id: "478DCBC5E4FB62F1"
 			tasks: [{
-				id: "71A8AFD2DCAE9952"
 				type: "advancement"
-				title: "Unlock Compacting Chest"
-				icon: "spectrum:compacting_chest"
 				advancement: "spectrum:progression/unlock_compacting_chest"
 				criterion: ""
+				id: "71A8AFD2DCAE9952"
+				icon: "spectrum:compacting_chest"
+				title: "Unlock Compacting Chest"
 			}]
 		}
 		{
@@ -1864,12 +1864,12 @@
 			y: 4.5d
 			id: "4FE47757F7704104"
 			tasks: [{
-				id: "0B7ADB1A5153ABE7"
 				type: "advancement"
-				title: "Unlock Crafting Tablet"
-				icon: "spectrum:crafting_tablet"
 				advancement: "spectrum:progression/unlock_crafting_tablet"
 				criterion: ""
+				id: "0B7ADB1A5153ABE7"
+				icon: "spectrum:crafting_tablet"
+				title: "Unlock Crafting Tablet"
 			}]
 		}
 		{
@@ -1877,12 +1877,12 @@
 			y: 4.5d
 			id: "59297EFB142A39FA"
 			tasks: [{
-				id: "1FAB295DB092324B"
 				type: "advancement"
-				title: "Unlock Crescent Clock"
-				icon: "spectrum:crescent_clock"
 				advancement: "spectrum:progression/unlock_crescent_clock"
 				criterion: ""
+				id: "1FAB295DB092324B"
+				icon: "spectrum:crescent_clock"
+				title: "Unlock Crescent Clock"
 			}]
 		}
 		{
@@ -1890,12 +1890,12 @@
 			y: 4.5d
 			id: "2D9CE3180B811E56"
 			tasks: [{
-				id: "45A84BC1F83BB766"
 				type: "advancement"
-				title: "Unlock Crystal Apothecary"
-				icon: "spectrum:crystal_apothecary"
 				advancement: "spectrum:progression/unlock_crystal_apothecary"
 				criterion: ""
+				id: "45A84BC1F83BB766"
+				icon: "spectrum:crystal_apothecary"
+				title: "Unlock Crystal Apothecary"
 			}]
 		}
 		{
@@ -1903,12 +1903,12 @@
 			y: 4.5d
 			id: "4447908F3DC18E5E"
 			tasks: [{
-				id: "5B778ED4BB965754"
 				type: "advancement"
-				title: "Unlock Crystallarieum"
-				icon: "spectrum:crystallarieum"
 				advancement: "spectrum:progression/unlock_crystallarieum"
 				criterion: ""
+				id: "5B778ED4BB965754"
+				icon: "spectrum:crystallarieum"
+				title: "Unlock Crystallarieum"
 			}]
 		}
 		{
@@ -1916,12 +1916,12 @@
 			y: 4.5d
 			id: "099851DC2AD744C7"
 			tasks: [{
-				id: "63417BD6A2DAA3C6"
 				type: "advancement"
-				title: "Unlock Demon Tea"
-				icon: "spectrum:demon_tea"
 				advancement: "spectrum:progression/unlock_demon_tea"
 				criterion: ""
+				id: "63417BD6A2DAA3C6"
+				icon: "spectrum:demon_tea"
+				title: "Unlock Demon Tea"
 			}]
 		}
 		{
@@ -1929,12 +1929,12 @@
 			y: 4.5d
 			id: "2F194B45527710CF"
 			tasks: [{
-				id: "45515217C7DE9AA6"
 				type: "advancement"
-				title: "Unlock Demon Trifle"
-				icon: "spectrum:demon_trifle"
 				advancement: "spectrum:progression/unlock_demon_trifle"
 				criterion: ""
+				id: "45515217C7DE9AA6"
+				icon: "spectrum:demon_trifle"
+				title: "Unlock Demon Trifle"
 			}]
 		}
 		{
@@ -1942,9 +1942,10 @@
 			y: 4.5d
 			id: "55FF3F222F9AAC09"
 			tasks: [{
-				id: "32407D8DED883214"
 				type: "advancement"
-				title: "Unlock Dreamflayer"
+				advancement: "spectrum:progression/unlock_dreamflayer"
+				criterion: ""
+				id: "32407D8DED883214"
 				icon: {
 					id: "spectrum:dreamflayer"
 					Count: 1b
@@ -1952,8 +1953,7 @@
 						Damage: 0
 					}
 				}
-				advancement: "spectrum:progression/unlock_dreamflayer"
-				criterion: ""
+				title: "Unlock Dreamflayer"
 			}]
 		}
 		{
@@ -1961,12 +1961,12 @@
 			y: 4.5d
 			id: "7FED41BD59277F38"
 			tasks: [{
-				id: "6E9E5E19786191F6"
 				type: "advancement"
-				title: "Unlock Egg Laying Wooly Pig Head"
-				icon: "spectrum:egg_laying_wooly_pig_head"
 				advancement: "spectrum:progression/unlock_egg_laying_wooly_pig_head"
 				criterion: ""
+				id: "6E9E5E19786191F6"
+				icon: "spectrum:egg_laying_wooly_pig_head"
+				title: "Unlock Egg Laying Wooly Pig Head"
 			}]
 		}
 		{
@@ -1974,12 +1974,12 @@
 			y: 4.5d
 			id: "594A52DE69AD93CA"
 			tasks: [{
-				id: "41C8194397A83E85"
 				type: "advancement"
-				title: "Unlock Enchanter"
-				icon: "spectrum:enchanter"
 				advancement: "spectrum:progression/unlock_enchanter"
 				criterion: ""
+				id: "41C8194397A83E85"
+				icon: "spectrum:enchanter"
+				title: "Unlock Enchanter"
 			}]
 		}
 		{
@@ -1987,12 +1987,12 @@
 			y: 4.5d
 			id: "6C51EC561DD7376E"
 			tasks: [{
-				id: "6DCCFB9EC9DDABCA"
 				type: "advancement"
-				title: "Unlock Enchantment Canvas"
-				icon: "spectrum:enchantment_canvas"
 				advancement: "spectrum:progression/unlock_enchantment_canvas"
 				criterion: ""
+				id: "6DCCFB9EC9DDABCA"
+				icon: "spectrum:enchantment_canvas"
+				title: "Unlock Enchantment Canvas"
 			}]
 		}
 		{
@@ -2000,12 +2000,12 @@
 			y: 5.5d
 			id: "5A03CC71A99DF1BB"
 			tasks: [{
-				id: "21D8BCFD6DD4344E"
 				type: "advancement"
-				title: "Unlock End Portal Cracker"
-				icon: "spectrum:end_portal_cracker"
 				advancement: "spectrum:progression/unlock_end_portal_cracker"
 				criterion: ""
+				id: "21D8BCFD6DD4344E"
+				icon: "spectrum:end_portal_cracker"
+				title: "Unlock End Portal Cracker"
 			}]
 		}
 		{
@@ -2013,12 +2013,12 @@
 			y: 5.5d
 			id: "5CEF944A274DF983"
 			tasks: [{
-				id: "0F1FC9D58EBA7E87"
 				type: "advancement"
-				title: "Unlock Ender Blocks"
-				icon: "spectrum:ender_hopper"
 				advancement: "spectrum:progression/unlock_ender_blocks"
 				criterion: ""
+				id: "0F1FC9D58EBA7E87"
+				icon: "spectrum:ender_hopper"
+				title: "Unlock Ender Blocks"
 			}]
 		}
 		{
@@ -2026,12 +2026,12 @@
 			y: 5.5d
 			id: "756AE5E6D2BA0D61"
 			tasks: [{
-				id: "43515967465FE6D5"
 				type: "advancement"
-				title: "Unlock Ender Glass"
-				icon: "spectrum:ender_glass"
 				advancement: "spectrum:progression/unlock_ender_glass"
 				criterion: ""
+				id: "43515967465FE6D5"
+				icon: "spectrum:ender_glass"
+				title: "Unlock Ender Glass"
 			}]
 		}
 		{
@@ -2039,12 +2039,12 @@
 			y: 5.5d
 			id: "54A9DF1CDD398DA8"
 			tasks: [{
-				id: "6469F639FCDC4DB6"
 				type: "advancement"
-				title: "Unlock Ender Splice"
-				icon: "spectrum:ender_splice"
 				advancement: "spectrum:progression/unlock_ender_splice"
 				criterion: ""
+				id: "6469F639FCDC4DB6"
+				icon: "spectrum:ender_splice"
+				title: "Unlock Ender Splice"
 			}]
 		}
 		{
@@ -2052,12 +2052,12 @@
 			y: 5.5d
 			id: "3F6A68A21516A58B"
 			tasks: [{
-				id: "0826D98F29E1D144"
 				type: "advancement"
-				title: "Unlock Ethereal Platform"
-				icon: "spectrum:ethereal_platform"
 				advancement: "spectrum:progression/unlock_ethereal_platform"
 				criterion: ""
+				id: "0826D98F29E1D144"
+				icon: "spectrum:ethereal_platform"
+				title: "Unlock Ethereal Platform"
 			}]
 		}
 		{
@@ -2065,16 +2065,16 @@
 			y: 5.5d
 			id: "1C2A6D6E9452CC84"
 			tasks: [{
-				id: "027693AABE6E67BB"
 				type: "advancement"
-				title: "Unlock Exchanging Staff"
+				advancement: "spectrum:progression/unlock_exchange_staff"
+				criterion: ""
+				id: "027693AABE6E67BB"
 				icon: {
 					id: "spectrum:exchange_staff"
 					Count: 1b
 					tag: { }
 				}
-				advancement: "spectrum:progression/unlock_exchange_staff"
-				criterion: ""
+				title: "Unlock Exchanging Staff"
 			}]
 		}
 		{
@@ -2082,12 +2082,12 @@
 			y: 5.5d
 			id: "2B706ABFD6BE1023"
 			tasks: [{
-				id: "39FA97FB8DD20DB7"
 				type: "advancement"
-				title: "Unlock Fanciful Belt"
-				icon: "spectrum:fanciful_belt"
 				advancement: "spectrum:progression/unlock_fanciful_belt"
 				criterion: ""
+				id: "39FA97FB8DD20DB7"
+				icon: "spectrum:fanciful_belt"
+				title: "Unlock Fanciful Belt"
 			}]
 		}
 		{
@@ -2095,12 +2095,12 @@
 			y: 5.5d
 			id: "05E745BE7FE332D2"
 			tasks: [{
-				id: "2C05DE244FC7553A"
 				type: "advancement"
-				title: "Unlock Fanciful Circlet"
-				icon: "spectrum:fanciful_circlet"
 				advancement: "spectrum:progression/unlock_fanciful_circlet"
 				criterion: ""
+				id: "2C05DE244FC7553A"
+				icon: "spectrum:fanciful_circlet"
+				title: "Unlock Fanciful Circlet"
 			}]
 		}
 		{
@@ -2108,12 +2108,12 @@
 			y: 5.5d
 			id: "27189002E5B7D5FD"
 			tasks: [{
-				id: "2D42179748C56110"
 				type: "advancement"
-				title: "Unlock Fanciful Gloves"
-				icon: "spectrum:fanciful_gloves"
 				advancement: "spectrum:progression/unlock_fanciful_gloves"
 				criterion: ""
+				id: "2D42179748C56110"
+				icon: "spectrum:fanciful_gloves"
+				title: "Unlock Fanciful Gloves"
 			}]
 		}
 		{
@@ -2121,12 +2121,12 @@
 			y: 5.5d
 			id: "2B1172A39AAA22C1"
 			tasks: [{
-				id: "41A2DD06B1B154FC"
 				type: "advancement"
-				title: "Unlock Fanciful Pendant"
-				icon: "spectrum:fanciful_pendant"
 				advancement: "spectrum:progression/unlock_fanciful_pendant"
 				criterion: ""
+				id: "41A2DD06B1B154FC"
+				icon: "spectrum:fanciful_pendant"
+				title: "Unlock Fanciful Pendant"
 			}]
 		}
 		{
@@ -2134,36 +2134,37 @@
 			y: 5.5d
 			id: "5A3CC5725513C9E2"
 			tasks: [{
-				id: "212CD934CF4680C4"
 				type: "advancement"
-				title: "Unlock Fanciful Stone Ring"
-				icon: "spectrum:fanciful_stone_ring"
 				advancement: "spectrum:progression/unlock_fanciful_stone_ring"
 				criterion: ""
+				id: "212CD934CF4680C4"
+				icon: "spectrum:fanciful_stone_ring"
+				title: "Unlock Fanciful Stone Ring"
 			}]
 		}
 		{
-			icon: "spectrum:freigeist"
-			x: 4.0d
-			y: 5.5d
-			id: "7D30D67D64C88F02"
 			tasks: [{
-				id: "3202EFA3B8761C6B"
 				type: "advancement"
-				title: "Unlock Freigeist"
-				icon: "spectrum:freigeist"
 				advancement: "spectrum:progression/unlock_freigeist"
 				criterion: ""
+				id: "3202EFA3B8761C6B"
+				icon: "spectrum:freigeist"
+				title: "Unlock Freigeist"
 			}]
+			id: "7D30D67D64C88F02"
+			y: 5.5d
+			x: 4.0d
+			icon: "spectrum:freigeist"
 		}
 		{
 			x: 5.0d
 			y: 5.5d
 			id: "0EEC5A277FDA2CF0"
 			tasks: [{
-				id: "0D628FBBF258C94A"
 				type: "advancement"
-				title: "Unlock Gemstone Armor"
+				advancement: "spectrum:progression/unlock_gemstone_armor_category"
+				criterion: ""
+				id: "0D628FBBF258C94A"
 				icon: {
 					id: "spectrum:emergency_chestplate"
 					Count: 1b
@@ -2171,8 +2172,7 @@
 						Damage: 0
 					}
 				}
-				advancement: "spectrum:progression/unlock_gemstone_armor_category"
-				criterion: ""
+				title: "Unlock Gemstone Armor"
 			}]
 		}
 		{
@@ -2180,12 +2180,12 @@
 			y: 5.5d
 			id: "69DF665C21942E02"
 			tasks: [{
-				id: "130274DD545AE895"
 				type: "advancement"
-				title: "Unlock Gilded Book"
-				icon: "spectrum:gilded_book"
 				advancement: "spectrum:progression/unlock_gilded_book"
 				criterion: ""
+				id: "130274DD545AE895"
+				icon: "spectrum:gilded_book"
+				title: "Unlock Gilded Book"
 			}]
 		}
 		{
@@ -2193,9 +2193,10 @@
 			y: 5.5d
 			id: "1106EE465C8087B6"
 			tasks: [{
-				id: "605945AEF1D1FD4C"
 				type: "advancement"
-				title: "Unlock Gin"
+				advancement: "spectrum:progression/unlock_gin"
+				criterion: ""
+				id: "605945AEF1D1FD4C"
 				icon: {
 					id: "spectrum:infused_beverage"
 					Count: 1b
@@ -2215,8 +2216,7 @@
 						AlcPercent: 33
 					}
 				}
-				advancement: "spectrum:progression/unlock_gin"
-				criterion: ""
+				title: "Unlock Gin"
 			}]
 		}
 		{
@@ -2224,12 +2224,12 @@
 			y: 5.5d
 			id: "158866FA06C7704E"
 			tasks: [{
-				id: "260F6EE352F64C5A"
 				type: "advancement"
-				title: "Unlock Gleaming Pin"
-				icon: "spectrum:gleaming_pin"
 				advancement: "spectrum:progression/unlock_gleaming_pin"
 				criterion: ""
+				id: "260F6EE352F64C5A"
+				icon: "spectrum:gleaming_pin"
+				title: "Unlock Gleaming Pin"
 			}]
 		}
 		{
@@ -2237,12 +2237,12 @@
 			y: 6.5d
 			id: "0ECBFD727A476887"
 			tasks: [{
-				id: "7A57797B6C399407"
 				type: "advancement"
-				title: "Unlock Glistering Jelly Tea"
-				icon: "spectrum:glistering_jelly_tea"
 				advancement: "spectrum:progression/unlock_glistering_jelly_tea"
 				criterion: ""
+				id: "7A57797B6C399407"
+				icon: "spectrum:glistering_jelly_tea"
+				title: "Unlock Glistering Jelly Tea"
 			}]
 		}
 		{
@@ -2250,12 +2250,12 @@
 			y: 6.5d
 			id: "3890B865F694AB41"
 			tasks: [{
-				id: "73A4F3C9E328CC9E"
 				type: "advancement"
-				title: "Unlock Gloves of Dawn's Grasp"
-				icon: "spectrum:gloves_of_dawns_grasp"
 				advancement: "spectrum:progression/unlock_gloves_of_dawns_grasp"
 				criterion: ""
+				id: "73A4F3C9E328CC9E"
+				icon: "spectrum:gloves_of_dawns_grasp"
+				title: "Unlock Gloves of Dawn's Grasp"
 			}]
 		}
 		{
@@ -2263,12 +2263,12 @@
 			y: 6.5d
 			id: "7BC881C6053B05F2"
 			tasks: [{
-				id: "1B7652DE2B25FD55"
 				type: "advancement"
-				title: "Unlock Glow Vision Helmet"
-				icon: "spectrum:glow_vision_helmet"
 				advancement: "spectrum:progression/unlock_glow_vision_helmet"
 				criterion: ""
+				id: "1B7652DE2B25FD55"
+				icon: "spectrum:glow_vision_helmet"
+				title: "Unlock Glow Vision Helmet"
 			}]
 		}
 		{
@@ -2276,12 +2276,12 @@
 			y: 6.5d
 			id: "0DDBCCB0CCFE1CA7"
 			tasks: [{
-				id: "78BAA688C7491225"
 				type: "advancement"
-				title: "Unlock Greater Potion Pendant"
-				icon: "spectrum:greater_potion_pendant"
 				advancement: "spectrum:progression/unlock_greater_potion_pendant"
 				criterion: ""
+				id: "78BAA688C7491225"
+				icon: "spectrum:greater_potion_pendant"
+				title: "Unlock Greater Potion Pendant"
 			}]
 		}
 		{
@@ -2289,12 +2289,12 @@
 			y: 6.5d
 			id: "6E531535E83FCAD2"
 			tasks: [{
-				id: "3CB268F7EF47EEA4"
 				type: "advancement"
-				title: "Unlock Heartsinger's Reward"
-				icon: "spectrum:heartsingers_reward"
 				advancement: "spectrum:progression/unlock_heartsingers_reward"
 				criterion: ""
+				id: "3CB268F7EF47EEA4"
+				icon: "spectrum:heartsingers_reward"
+				title: "Unlock Heartsinger's Reward"
 			}]
 		}
 		{
@@ -2302,12 +2302,12 @@
 			y: 6.5d
 			id: "7DAFEADC36C43532"
 			tasks: [{
-				id: "76721E5BBCB1BEE2"
 				type: "advancement"
-				title: "Unlock Incandescent Amalgam"
-				icon: "spectrum:incandescent_amalgam"
 				advancement: "spectrum:progression/unlock_incandescent_amalgam"
 				criterion: ""
+				id: "76721E5BBCB1BEE2"
+				icon: "spectrum:incandescent_amalgam"
+				title: "Unlock Incandescent Amalgam"
 			}]
 		}
 		{
@@ -2315,12 +2315,12 @@
 			y: 6.5d
 			id: "062F50B91925C02C"
 			tasks: [{
-				id: "5C03353460B1FE8A"
 				type: "advancement"
-				title: "Unlock Ink Assortment"
-				icon: "spectrum:ink_assortment"
 				advancement: "spectrum:progression/unlock_ink_assortment"
 				criterion: ""
+				id: "5C03353460B1FE8A"
+				icon: "spectrum:ink_assortment"
+				title: "Unlock Ink Assortment"
 			}]
 		}
 		{
@@ -2328,12 +2328,12 @@
 			y: 6.5d
 			id: "0B95AFD3DDFA6809"
 			tasks: [{
-				id: "1A0A9D969C66612D"
 				type: "advancement"
-				title: "Unlock Ink Duct"
-				icon: "spectrum:ink_duct"
 				advancement: "spectrum:progression/unlock_ink_duct"
 				criterion: ""
+				id: "1A0A9D969C66612D"
+				icon: "spectrum:ink_duct"
+				title: "Unlock Ink Duct"
 			}]
 		}
 		{
@@ -2341,12 +2341,12 @@
 			y: 6.5d
 			id: "535FE089B146DA9D"
 			tasks: [{
-				id: "493497C21B2DA1DF"
 				type: "advancement"
-				title: "Unlock Ink Flask"
-				icon: "spectrum:ink_flask"
 				advancement: "spectrum:progression/unlock_ink_flask"
 				criterion: ""
+				id: "493497C21B2DA1DF"
+				icon: "spectrum:ink_flask"
+				title: "Unlock Ink Flask"
 			}]
 		}
 		{
@@ -2354,12 +2354,12 @@
 			y: 6.5d
 			id: "12C109AA604417D6"
 			tasks: [{
-				id: "3682AC7A2F8065C6"
 				type: "advancement"
-				title: "Unlock Inkwell"
-				icon: "spectrum:inkwell"
 				advancement: "spectrum:progression/unlock_inkwell"
 				criterion: ""
+				id: "3682AC7A2F8065C6"
+				icon: "spectrum:inkwell"
+				title: "Unlock Inkwell"
 			}]
 		}
 		{
@@ -2367,12 +2367,12 @@
 			y: 6.5d
 			id: "5E12F0297F3D4139"
 			tasks: [{
-				id: "1574D7D842D4B2F6"
 				type: "advancement"
-				title: "Unlock Item Bowl"
-				icon: "spectrum:item_bowl_basalt"
 				advancement: "spectrum:progression/unlock_item_bowl"
 				criterion: ""
+				id: "1574D7D842D4B2F6"
+				icon: "spectrum:item_bowl_basalt"
+				title: "Unlock Item Bowl"
 			}]
 		}
 		{
@@ -2380,12 +2380,12 @@
 			y: 6.5d
 			id: "45F7E6DD0A68BE7D"
 			tasks: [{
-				id: "491A997E45EC55DE"
 				type: "advancement"
-				title: "Unlock Item Roundel"
-				icon: "spectrum:item_roundel"
 				advancement: "spectrum:progression/unlock_item_roundel"
 				criterion: ""
+				id: "491A997E45EC55DE"
+				icon: "spectrum:item_roundel"
+				title: "Unlock Item Roundel"
 			}]
 		}
 		{
@@ -2393,12 +2393,12 @@
 			y: 6.5d
 			id: "4E4A9243D8CB6773"
 			tasks: [{
-				id: "42EB3A545CC3E04C"
 				type: "advancement"
-				title: "Unlock Jade Wine"
-				icon: "spectrum:jade_wine"
 				advancement: "spectrum:progression/unlock_jade_wine"
 				criterion: ""
+				id: "42EB3A545CC3E04C"
+				icon: "spectrum:jade_wine"
+				title: "Unlock Jade Wine"
 			}]
 		}
 		{
@@ -2406,12 +2406,12 @@
 			y: 6.5d
 			id: "7AB032B6D7D0A61B"
 			tasks: [{
-				id: "1493EA058FC63614"
 				type: "advancement"
-				title: "Unlock Jaramel"
-				icon: "spectrum:jaramel"
 				advancement: "spectrum:progression/unlock_jaramel"
 				criterion: ""
+				id: "1493EA058FC63614"
+				icon: "spectrum:jaramel"
+				title: "Unlock Jaramel"
 			}]
 		}
 		{
@@ -2419,12 +2419,12 @@
 			y: 6.5d
 			id: "3E6E495E9F3A732E"
 			tasks: [{
-				id: "3C87F3E3D49AB4AF"
 				type: "advancement"
-				title: "Unlock Jeopardant"
-				icon: "spectrum:jeopardant"
 				advancement: "spectrum:progression/unlock_jeopardant"
 				criterion: ""
+				id: "3C87F3E3D49AB4AF"
+				icon: "spectrum:jeopardant"
+				title: "Unlock Jeopardant"
 			}]
 		}
 		{
@@ -2432,12 +2432,12 @@
 			y: 6.5d
 			id: "73BCFBED056639D3"
 			tasks: [{
-				id: "6336D2C934CD98B4"
 				type: "advancement"
-				title: "Unlock Knowledge Gem"
-				icon: "spectrum:knowledge_gem"
 				advancement: "spectrum:progression/unlock_knowledge_gem"
 				criterion: ""
+				id: "6336D2C934CD98B4"
+				icon: "spectrum:knowledge_gem"
+				title: "Unlock Knowledge Gem"
 			}]
 		}
 		{
@@ -2445,9 +2445,10 @@
 			y: 7.5d
 			id: "5F49C0FB468B399F"
 			tasks: [{
-				id: "4492B739C756AC9F"
 				type: "advancement"
-				title: "Unlock Lagoon Rod"
+				advancement: "spectrum:progression/unlock_lagoon_rod"
+				criterion: ""
+				id: "4492B739C756AC9F"
 				icon: {
 					id: "spectrum:lagoon_rod"
 					Count: 1b
@@ -2459,8 +2460,7 @@
 						}]
 					}
 				}
-				advancement: "spectrum:progression/unlock_lagoon_rod"
-				criterion: ""
+				title: "Unlock Lagoon Rod"
 			}]
 		}
 		{
@@ -2468,12 +2468,12 @@
 			y: 7.5d
 			id: "2DD23EC1A9581D5A"
 			tasks: [{
-				id: "22BE22DF92208E24"
 				type: "advancement"
-				title: "Unlock Lava Sponge"
-				icon: "spectrum:lava_sponge"
 				advancement: "spectrum:progression/unlock_lava_sponge"
 				criterion: ""
+				id: "22BE22DF92208E24"
+				icon: "spectrum:lava_sponge"
+				title: "Unlock Lava Sponge"
 			}]
 		}
 		{
@@ -2481,12 +2481,12 @@
 			y: 7.5d
 			id: "2BDD29E53268EF5F"
 			tasks: [{
-				id: "7B41D5301D7B6E42"
 				type: "advancement"
-				title: "Unlock Lesser Potion Pendant"
-				icon: "spectrum:lesser_potion_pendant"
 				advancement: "spectrum:progression/unlock_lesser_potion_pendant"
 				criterion: ""
+				id: "7B41D5301D7B6E42"
+				icon: "spectrum:lesser_potion_pendant"
+				title: "Unlock Lesser Potion Pendant"
 			}]
 		}
 		{
@@ -2494,12 +2494,12 @@
 			y: 7.5d
 			id: "2470EDBF2689AFAA"
 			tasks: [{
-				id: "2205A87647F70200"
 				type: "advancement"
-				title: "Unlock Radiance Staff"
-				icon: "spectrum:light_staff"
 				advancement: "spectrum:progression/unlock_light_staff"
 				criterion: ""
+				id: "2205A87647F70200"
+				icon: "spectrum:light_staff"
+				title: "Unlock Radiance Staff"
 			}]
 		}
 		{
@@ -2507,12 +2507,12 @@
 			y: 7.5d
 			id: "222D28F8D0BD3DD4"
 			tasks: [{
-				id: "3DB1E29F425F8E9E"
 				type: "advancement"
-				title: "Unlock Liquid Crystal Bucket"
-				icon: "spectrum:liquid_crystal_bucket"
 				advancement: "spectrum:progression/unlock_liquid_crystal_bucket"
 				criterion: ""
+				id: "3DB1E29F425F8E9E"
+				icon: "spectrum:liquid_crystal_bucket"
+				title: "Unlock Liquid Crystal Bucket"
 			}]
 		}
 		{
@@ -2520,12 +2520,12 @@
 			y: 7.5d
 			id: "257EB6DADD18F8F1"
 			tasks: [{
-				id: "1CD5A9D7085F0797"
 				type: "advancement"
-				title: "Unlock Lucky Roll"
-				icon: "spectrum:lucky_roll"
 				advancement: "spectrum:progression/unlock_lucky_roll"
 				criterion: ""
+				id: "1CD5A9D7085F0797"
+				icon: "spectrum:lucky_roll"
+				title: "Unlock Lucky Roll"
 			}]
 		}
 		{
@@ -2533,12 +2533,12 @@
 			y: 7.5d
 			id: "74622C7DC94EB19E"
 			tasks: [{
-				id: "64CC5E8231F61F20"
 				type: "advancement"
-				title: "Unlock Midnight Aberration"
-				icon: "spectrum:midnight_aberration"
 				advancement: "spectrum:progression/unlock_midnight_aberration"
 				criterion: ""
+				id: "64CC5E8231F61F20"
+				icon: "spectrum:midnight_aberration"
+				title: "Unlock Midnight Aberration"
 			}]
 		}
 		{
@@ -2546,12 +2546,12 @@
 			y: 7.5d
 			id: "13A9CB8023146AE0"
 			tasks: [{
-				id: "3ED1BCBBF81EDE4F"
 				type: "advancement"
-				title: "Unlock Midnight Solution"
-				icon: "spectrum:midnight_solution_bucket"
 				advancement: "spectrum:progression/unlock_midnight_solution"
 				criterion: ""
+				id: "3ED1BCBBF81EDE4F"
+				icon: "spectrum:midnight_solution_bucket"
+				title: "Unlock Midnight Solution"
 			}]
 		}
 		{
@@ -2559,16 +2559,16 @@
 			y: 7.5d
 			id: "47097D823757351C"
 			tasks: [{
-				id: "578D09F261D9388C"
 				type: "advancement"
-				title: "Unlock Mint Beverages"
+				advancement: "spectrum:progression/unlock_mint_beverages"
+				criterion: ""
+				id: "578D09F261D9388C"
 				icon: {
 					id: "spectrum:infused_beverage"
 					Count: 1b
 					tag: { }
 				}
-				advancement: "spectrum:progression/unlock_mint_beverages"
-				criterion: ""
+				title: "Unlock Mint Beverages"
 			}]
 		}
 		{
@@ -2576,9 +2576,10 @@
 			y: 7.5d
 			id: "19FF4E1B355BA825"
 			tasks: [{
-				id: "27F3FFC288BA1648"
 				type: "advancement"
-				title: "Unlock Molten Rod"
+				advancement: "spectrum:progression/unlock_molten_rod"
+				criterion: ""
+				id: "27F3FFC288BA1648"
 				icon: {
 					id: "spectrum:molten_rod"
 					Count: 1b
@@ -2586,8 +2587,7 @@
 						Damage: 0
 					}
 				}
-				advancement: "spectrum:progression/unlock_molten_rod"
-				criterion: ""
+				title: "Unlock Molten Rod"
 			}]
 		}
 		{
@@ -2595,12 +2595,12 @@
 			y: 7.5d
 			id: "41E973C0072887F5"
 			tasks: [{
-				id: "4393938242718B1A"
 				type: "advancement"
-				title: "Unlock Moonshine"
-				icon: "spectrum:moonshine"
 				advancement: "spectrum:progression/unlock_moonshine"
 				criterion: ""
+				id: "4393938242718B1A"
+				icon: "spectrum:moonshine"
+				title: "Unlock Moonshine"
 			}]
 		}
 		{
@@ -2608,12 +2608,12 @@
 			y: 7.5d
 			id: "12BE6513681F980C"
 			tasks: [{
-				id: "6F8D93B679DB74F2"
 				type: "advancement"
-				title: "Unlock Semi-Permeable Moonstone Glass"
-				icon: "spectrum:moonstone_player_only_glass"
 				advancement: "spectrum:progression/unlock_moonstone_player_only_glass"
 				criterion: ""
+				id: "6F8D93B679DB74F2"
+				icon: "spectrum:moonstone_player_only_glass"
+				title: "Unlock Semi-Permeable Moonstone Glass"
 			}]
 		}
 		{
@@ -2621,12 +2621,12 @@
 			y: 7.5d
 			id: "47B92537B3B62653"
 			tasks: [{
-				id: "4B62B460942B736C"
 				type: "advancement"
-				title: "Unlock Mud Bucket"
-				icon: "spectrum:mud_bucket"
 				advancement: "spectrum:progression/unlock_mud_bucket"
 				criterion: ""
+				id: "4B62B460942B736C"
+				icon: "spectrum:mud_bucket"
+				title: "Unlock Mud Bucket"
 			}]
 		}
 		{
@@ -2634,12 +2634,12 @@
 			y: 7.5d
 			id: "34E14CC985ABBB30"
 			tasks: [{
-				id: "15396ECF572A5547"
 				type: "advancement"
-				title: "Unlock Nature's Staff"
-				icon: "spectrum:natures_staff"
 				advancement: "spectrum:progression/unlock_natures_staff"
 				criterion: ""
+				id: "15396ECF572A5547"
+				icon: "spectrum:natures_staff"
+				title: "Unlock Nature's Staff"
 			}]
 		}
 		{
@@ -2647,12 +2647,12 @@
 			y: 7.5d
 			id: "25DF2E686AECF370"
 			tasks: [{
-				id: "6D1B9823506063F0"
 				type: "advancement"
-				title: "Unlock Neat Ring"
-				icon: "spectrum:neat_ring"
 				advancement: "spectrum:progression/unlock_neat_ring"
 				criterion: ""
+				id: "6D1B9823506063F0"
+				icon: "spectrum:neat_ring"
+				title: "Unlock Neat Ring"
 			}]
 		}
 		{
@@ -2660,12 +2660,12 @@
 			y: 7.5d
 			id: "0ADAF1E113D46A4B"
 			tasks: [{
-				id: "33FDC71E07DFF1CE"
 				type: "advancement"
-				title: "Unlock Netherite Ingot Fusion Recipe"
-				icon: "minecraft:netherite_ingot"
 				advancement: "spectrum:progression/unlock_netherite_ingot_fusion_recipe"
 				criterion: ""
+				id: "33FDC71E07DFF1CE"
+				icon: "minecraft:netherite_ingot"
+				title: "Unlock Netherite Ingot Fusion Recipe"
 			}]
 		}
 		{
@@ -2673,12 +2673,12 @@
 			y: 8.5d
 			id: "5F98BB34B7C6A03C"
 			tasks: [{
-				id: "7F926D231961B100"
 				type: "advancement"
-				title: "Unlock Ominous Sapling"
-				icon: "spectrum:ominous_sapling"
 				advancement: "spectrum:progression/unlock_ominous_sapling"
 				criterion: ""
+				id: "7F926D231961B100"
+				icon: "spectrum:ominous_sapling"
+				title: "Unlock Ominous Sapling"
 			}]
 		}
 		{
@@ -2686,12 +2686,12 @@
 			y: 8.5d
 			id: "7DC09AEE1655470E"
 			tasks: [{
-				id: "79A7CD939734B38D"
 				type: "advancement"
-				title: "Unlock Particle Spawner"
-				icon: "spectrum:particle_spawner"
 				advancement: "spectrum:progression/unlock_particle_spawner"
 				criterion: ""
+				id: "79A7CD939734B38D"
+				icon: "spectrum:particle_spawner"
+				title: "Unlock Particle Spawner"
 			}]
 		}
 		{
@@ -2699,12 +2699,12 @@
 			y: 8.5d
 			id: "444EB8843BF736E6"
 			tasks: [{
-				id: "18BF1B6455C37723"
 				type: "advancement"
-				title: "Unlock Pies"
-				icon: "minecraft:pumpkin_pie"
 				advancement: "spectrum:progression/unlock_pies"
 				criterion: ""
+				id: "18BF1B6455C37723"
+				icon: "minecraft:pumpkin_pie"
+				title: "Unlock Pies"
 			}]
 		}
 		{
@@ -2712,12 +2712,12 @@
 			y: 8.5d
 			id: "45C2718BE92D2776"
 			tasks: [{
-				id: "6846250A506D791D"
 				type: "advancement"
-				title: "Unlock Pigment Palette"
-				icon: "spectrum:pigment_palette"
 				advancement: "spectrum:progression/unlock_pigment_palette"
 				criterion: ""
+				id: "6846250A506D791D"
+				icon: "spectrum:pigment_palette"
+				title: "Unlock Pigment Palette"
 			}]
 		}
 		{
@@ -2725,12 +2725,12 @@
 			y: 8.5d
 			id: "2DE5FA8EACB66B42"
 			tasks: [{
-				id: "6E4270128CF951CC"
 				type: "advancement"
-				title: "Unlock Constructor's Staff"
-				icon: "spectrum:placement_staff"
 				advancement: "spectrum:progression/unlock_placement_staff"
 				criterion: ""
+				id: "6E4270128CF951CC"
+				icon: "spectrum:placement_staff"
+				title: "Unlock Constructor's Staff"
 			}]
 		}
 		{
@@ -2738,12 +2738,12 @@
 			y: 8.5d
 			id: "21D0CFB183706A87"
 			tasks: [{
-				id: "2423E3FD3EEE7018"
 				type: "advancement"
-				title: "Unlock Potion Workshop"
-				icon: "spectrum:potion_workshop"
 				advancement: "spectrum:progression/unlock_potion_workshop"
 				criterion: ""
+				id: "2423E3FD3EEE7018"
+				icon: "spectrum:potion_workshop"
+				title: "Unlock Potion Workshop"
 			}]
 		}
 		{
@@ -2751,12 +2751,12 @@
 			y: 8.5d
 			id: "548CDD5B65C9F802"
 			tasks: [{
-				id: "5A80805A63F02FC8"
 				type: "advancement"
-				title: "Unlock Present"
-				icon: "spectrum:present"
 				advancement: "spectrum:progression/unlock_present"
 				criterion: ""
+				id: "5A80805A63F02FC8"
+				icon: "spectrum:present"
+				title: "Unlock Present"
 			}]
 		}
 		{
@@ -2764,12 +2764,12 @@
 			y: 8.5d
 			id: "320F1900BF16F36A"
 			tasks: [{
-				id: "2217A352985F7960"
 				type: "advancement"
-				title: "Unlock Heartbound Chest"
-				icon: "spectrum:private_chest"
 				advancement: "spectrum:progression/unlock_private_chest"
 				criterion: ""
+				id: "2217A352985F7960"
+				icon: "spectrum:private_chest"
+				title: "Unlock Heartbound Chest"
 			}]
 		}
 		{
@@ -2777,12 +2777,12 @@
 			y: 8.5d
 			id: "06009C659A6DAA68"
 			tasks: [{
-				id: "128A20744F4EA912"
 				type: "advancement"
-				title: "Unlock Puff Circlet"
-				icon: "spectrum:puff_circlet"
 				advancement: "spectrum:progression/unlock_puff_circlet"
 				criterion: ""
+				id: "128A20744F4EA912"
+				icon: "spectrum:puff_circlet"
+				title: "Unlock Puff Circlet"
 			}]
 		}
 		{
@@ -2790,9 +2790,10 @@
 			y: 8.5d
 			id: "51A77B8F6D4C2B13"
 			tasks: [{
-				id: "537D3722E50EE1C4"
 				type: "advancement"
-				title: "Unlock Rabbit Poison"
+				advancement: "spectrum:progression/unlock_rabbit_poison"
+				criterion: ""
+				id: "537D3722E50EE1C4"
 				icon: {
 					id: "spectrum:infused_beverage"
 					Count: 1b
@@ -2846,8 +2847,7 @@
 						AlcPercent: 5
 					}
 				}
-				advancement: "spectrum:progression/unlock_rabbit_poison"
-				criterion: ""
+				title: "Unlock Rabbit Poison"
 			}]
 		}
 		{
@@ -2855,12 +2855,12 @@
 			y: 8.5d
 			id: "0E2793F826157B98"
 			tasks: [{
-				id: "6CE4E7F0BEA819F1"
 				type: "advancement"
-				title: "Unlock Radiance Pin"
-				icon: "spectrum:radiance_pin"
 				advancement: "spectrum:progression/unlock_radiance_pin"
 				criterion: ""
+				id: "6CE4E7F0BEA819F1"
+				icon: "spectrum:radiance_pin"
+				title: "Unlock Radiance Pin"
 			}]
 		}
 		{
@@ -2868,12 +2868,12 @@
 			y: 8.5d
 			id: "366545E4140D5C6D"
 			tasks: [{
-				id: "4D49F973612FE318"
 				type: "advancement"
-				title: "Unlock Redstone Calculator"
-				icon: "spectrum:redstone_calculator"
 				advancement: "spectrum:progression/unlock_redstone_calculator"
 				criterion: ""
+				id: "4D49F973612FE318"
+				icon: "spectrum:redstone_calculator"
+				title: "Unlock Redstone Calculator"
 			}]
 		}
 		{
@@ -2881,12 +2881,12 @@
 			y: 8.5d
 			id: "1C54EF3C39750BB0"
 			tasks: [{
-				id: "0917722CC0F258D7"
 				type: "advancement"
-				title: "Unlock Redstone Sand"
-				icon: "spectrum:redstone_sand"
 				advancement: "spectrum:progression/unlock_redstone_sand"
 				criterion: ""
+				id: "0917722CC0F258D7"
+				icon: "spectrum:redstone_sand"
+				title: "Unlock Redstone Sand"
 			}]
 		}
 		{
@@ -2894,12 +2894,12 @@
 			y: 8.5d
 			id: "7160FE9DAB7FC8A4"
 			tasks: [{
-				id: "37CD09BD4F974043"
 				type: "advancement"
-				title: "Unlock Redstone Timer"
-				icon: "spectrum:redstone_timer"
 				advancement: "spectrum:progression/unlock_redstone_timer"
 				criterion: ""
+				id: "37CD09BD4F974043"
+				icon: "spectrum:redstone_timer"
+				title: "Unlock Redstone Timer"
 			}]
 		}
 		{
@@ -2907,12 +2907,12 @@
 			y: 8.5d
 			id: "782CA7A197A8E5BE"
 			tasks: [{
-				id: "70F619545B4DB5B1"
 				type: "advancement"
-				title: "Unlock Reprise"
-				icon: "spectrum:reprise"
 				advancement: "spectrum:progression/unlock_reprise"
 				criterion: ""
+				id: "70F619545B4DB5B1"
+				icon: "spectrum:reprise"
+				title: "Unlock Reprise"
 			}]
 		}
 		{
@@ -2920,12 +2920,12 @@
 			y: 8.5d
 			id: "23219EA1B4B0CDE8"
 			tasks: [{
-				id: "69877BAAF6FD0762"
 				type: "advancement"
-				title: "Unlock FABRICation Chest"
-				icon: "spectrum:restocking_chest"
 				advancement: "spectrum:progression/unlock_restocking_chest"
 				criterion: ""
+				id: "69877BAAF6FD0762"
+				icon: "spectrum:restocking_chest"
+				title: "Unlock FABRICation Chest"
 			}]
 		}
 		{
@@ -2933,12 +2933,12 @@
 			y: 9.5d
 			id: "47AD895C8E856A49"
 			tasks: [{
-				id: "6AA6E2D21C629424"
 				type: "advancement"
-				title: "Unlock Restoration Tea"
-				icon: "spectrum:restoration_tea"
 				advancement: "spectrum:progression/unlock_restoration_tea"
 				criterion: ""
+				id: "6AA6E2D21C629424"
+				icon: "spectrum:restoration_tea"
+				title: "Unlock Restoration Tea"
 			}]
 		}
 		{
@@ -2946,12 +2946,12 @@
 			y: 9.5d
 			id: "288165DCDB64789A"
 			tasks: [{
-				id: "759C8C10C844885D"
 				type: "advancement"
-				title: "Unlock Rock Candy"
-				icon: "spectrum:rock_candy"
 				advancement: "spectrum:progression/unlock_rock_candy"
 				criterion: ""
+				id: "759C8C10C844885D"
+				icon: "spectrum:rock_candy"
+				title: "Unlock Rock Candy"
 			}]
 		}
 		{
@@ -2959,12 +2959,12 @@
 			y: 9.5d
 			id: "0A38B81C9F177637"
 			tasks: [{
-				id: "2DC13A9E43B9239C"
 				type: "advancement"
-				title: "Unlock Seven League Boots"
-				icon: "spectrum:seven_league_boots"
 				advancement: "spectrum:progression/unlock_seven_league_boots"
 				criterion: ""
+				id: "2DC13A9E43B9239C"
+				icon: "spectrum:seven_league_boots"
+				title: "Unlock Seven League Boots"
 			}]
 		}
 		{
@@ -2972,12 +2972,12 @@
 			y: 9.5d
 			id: "519393ABB8559F39"
 			tasks: [{
-				id: "5F8EA8B93FAA3945"
 				type: "advancement"
-				title: "Unlock Shieldgrasp Amulet"
-				icon: "spectrum:shieldgrasp_amulet"
 				advancement: "spectrum:progression/unlock_shieldgrasp_amulet"
 				criterion: ""
+				id: "5F8EA8B93FAA3945"
+				icon: "spectrum:shieldgrasp_amulet"
+				title: "Unlock Shieldgrasp Amulet"
 			}]
 		}
 		{
@@ -2985,12 +2985,12 @@
 			y: 9.5d
 			id: "18EEA27132984F2A"
 			tasks: [{
-				id: "53D84CDA6642DC5C"
 				type: "advancement"
-				title: "Unlock Shimmerstone Lights"
-				icon: "spectrum:basalt_sparklestone_light"
 				advancement: "spectrum:progression/unlock_sparklestone_lights"
 				criterion: ""
+				id: "53D84CDA6642DC5C"
+				icon: "spectrum:basalt_sparklestone_light"
+				title: "Unlock Shimmerstone Lights"
 			}]
 		}
 		{
@@ -2998,12 +2998,12 @@
 			y: 9.5d
 			id: "63DE50F3F2E0E189"
 			tasks: [{
-				id: "47BAD816E1669131"
 				type: "advancement"
-				title: "Unlock Spirit Instiller"
-				icon: "spectrum:spirit_instiller"
 				advancement: "spectrum:progression/unlock_spirit_instiller"
 				criterion: ""
+				id: "47BAD816E1669131"
+				icon: "spectrum:spirit_instiller"
+				title: "Unlock Spirit Instiller"
 			}]
 		}
 		{
@@ -3011,12 +3011,12 @@
 			y: 9.5d
 			id: "0A9E677AD387C5B2"
 			tasks: [{
-				id: "74F7C45F589F3293"
 				type: "advancement"
-				title: "Unlock Star Candy"
-				icon: "spectrum:star_candy"
 				advancement: "spectrum:progression/unlock_star_candy"
 				criterion: ""
+				id: "74F7C45F589F3293"
+				icon: "spectrum:star_candy"
+				title: "Unlock Star Candy"
 			}]
 		}
 		{
@@ -3024,12 +3024,12 @@
 			y: 9.5d
 			id: "5D2F6F6D747CA195"
 			tasks: [{
-				id: "5D5986E3E20E60E0"
 				type: "advancement"
-				title: "Unlock Black Hole Chest"
-				icon: "spectrum:sucking_chest"
 				advancement: "spectrum:progression/unlock_sucking_chest"
 				criterion: ""
+				id: "5D5986E3E20E60E0"
+				icon: "spectrum:sucking_chest"
+				title: "Unlock Black Hole Chest"
 			}]
 		}
 		{
@@ -3037,12 +3037,12 @@
 			y: 9.5d
 			id: "44F2519E20E09578"
 			tasks: [{
-				id: "3310707CF511D78D"
 				type: "advancement"
-				title: "Unlock Suspicious Brew"
-				icon: "spectrum:suspicious_brew"
 				advancement: "spectrum:progression/unlock_suspicious_brew"
 				criterion: ""
+				id: "3310707CF511D78D"
+				icon: "spectrum:suspicious_brew"
+				title: "Unlock Suspicious Brew"
 			}]
 		}
 		{
@@ -3050,12 +3050,12 @@
 			y: 9.5d
 			id: "07E469967B175B13"
 			tasks: [{
-				id: "739EF2D8783C8379"
 				type: "advancement"
-				title: "Unlock Take-Off Belt"
-				icon: "spectrum:take_off_belt"
 				advancement: "spectrum:progression/unlock_take_off_belt"
 				criterion: ""
+				id: "739EF2D8783C8379"
+				icon: "spectrum:take_off_belt"
+				title: "Unlock Take-Off Belt"
 			}]
 		}
 		{
@@ -3063,12 +3063,12 @@
 			y: 9.5d
 			id: "14B5BE711EE666DF"
 			tasks: [{
-				id: "286670E5F062303B"
 				type: "advancement"
-				title: "Unlock Tarts"
-				icon: "spectrum:jaramel_tart"
 				advancement: "spectrum:progression/unlock_tarts"
 				criterion: ""
+				id: "286670E5F062303B"
+				icon: "spectrum:jaramel_tart"
+				title: "Unlock Tarts"
 			}]
 		}
 		{
@@ -3076,12 +3076,12 @@
 			y: 9.5d
 			id: "10F914EE2FBFD5A2"
 			tasks: [{
-				id: "160FA5BDF833CF02"
 				type: "advancement"
-				title: "Unlock Weeping Circlet"
-				icon: "spectrum:tidal_circlet"
 				advancement: "spectrum:progression/unlock_tidal_circlet"
 				criterion: ""
+				id: "160FA5BDF833CF02"
+				icon: "spectrum:tidal_circlet"
+				title: "Unlock Weeping Circlet"
 			}]
 		}
 		{
@@ -3089,12 +3089,12 @@
 			y: 9.5d
 			id: "192712A7BAA31C2A"
 			tasks: [{
-				id: "3936C775DDA3B94C"
 				type: "advancement"
-				title: "Unlock Titration Barrel"
-				icon: "spectrum:titration_barrel"
 				advancement: "spectrum:progression/unlock_titration_barrel"
 				criterion: ""
+				id: "3936C775DDA3B94C"
+				icon: "spectrum:titration_barrel"
+				title: "Unlock Titration Barrel"
 			}]
 		}
 		{
@@ -3102,12 +3102,12 @@
 			y: 9.5d
 			id: "00544378EBA946FF"
 			tasks: [{
-				id: "7537EB12F0B00249"
 				type: "advancement"
-				title: "Unlock Totem Pendant"
-				icon: "spectrum:totem_pendant"
 				advancement: "spectrum:progression/unlock_totem_pendant"
 				criterion: ""
+				id: "7537EB12F0B00249"
+				icon: "spectrum:totem_pendant"
+				title: "Unlock Totem Pendant"
 			}]
 		}
 		{
@@ -3115,12 +3115,12 @@
 			y: 9.5d
 			id: "7F2200B4324198A8"
 			tasks: [{
-				id: "42492C400C6F18F6"
 				type: "advancement"
-				title: "Unlock Trifles"
-				icon: "spectrum:jaramel_trifle"
 				advancement: "spectrum:progression/unlock_trifles"
 				criterion: ""
+				id: "42492C400C6F18F6"
+				icon: "spectrum:jaramel_trifle"
+				title: "Unlock Trifles"
 			}]
 		}
 		{
@@ -3128,12 +3128,12 @@
 			y: 9.5d
 			id: "6F5F476873A45DBB"
 			tasks: [{
-				id: "1FF26C9EBE5A487D"
 				type: "advancement"
-				title: "Unlock Triple Meat Pot Pie"
-				icon: "spectrum:triple_meat_pot_pie"
 				advancement: "spectrum:progression/unlock_triple_meat_pot_pie"
 				criterion: ""
+				id: "1FF26C9EBE5A487D"
+				icon: "spectrum:triple_meat_pot_pie"
+				title: "Unlock Triple Meat Pot Pie"
 			}]
 		}
 		{
@@ -3141,12 +3141,12 @@
 			y: 10.5d
 			id: "683D044353905635"
 			tasks: [{
-				id: "2680E6141705240E"
 				type: "advancement"
-				title: "Unlock Universe Spyhole"
-				icon: "spectrum:universe_spyhole"
 				advancement: "spectrum:progression/unlock_universe_spyhole"
 				criterion: ""
+				id: "2680E6141705240E"
+				icon: "spectrum:universe_spyhole"
+				title: "Unlock Universe Spyhole"
 			}]
 		}
 		{
@@ -3154,12 +3154,12 @@
 			y: 10.5d
 			id: "712496AFBC93E741"
 			tasks: [{
-				id: "34069E1965D3B153"
 				type: "advancement"
-				title: "Unlock Efficiency Slope T2"
-				icon: "spectrum:upgrade_efficiency2"
 				advancement: "spectrum:progression/unlock_upgrade_efficiency2"
 				criterion: ""
+				id: "34069E1965D3B153"
+				icon: "spectrum:upgrade_efficiency2"
+				title: "Unlock Efficiency Slope T2"
 			}]
 		}
 		{
@@ -3167,12 +3167,12 @@
 			y: 10.5d
 			id: "213532433ECED547"
 			tasks: [{
-				id: "5A7B043E6046C7E7"
 				type: "advancement"
-				title: "Unlock Knowledge Focus"
-				icon: "spectrum:upgrade_experience"
 				advancement: "spectrum:progression/unlock_upgrade_experience"
 				criterion: ""
+				id: "5A7B043E6046C7E7"
+				icon: "spectrum:upgrade_experience"
+				title: "Unlock Knowledge Focus"
 			}]
 		}
 		{
@@ -3180,12 +3180,12 @@
 			y: 10.5d
 			id: "6F3B4456D0327B09"
 			tasks: [{
-				id: "47717682E3B66A1A"
 				type: "advancement"
-				title: "Unlock Knowledge Focus T2"
-				icon: "spectrum:upgrade_experience2"
 				advancement: "spectrum:progression/unlock_upgrade_experience2"
 				criterion: ""
+				id: "47717682E3B66A1A"
+				icon: "spectrum:upgrade_experience2"
+				title: "Unlock Knowledge Focus T2"
 			}]
 		}
 		{
@@ -3193,12 +3193,12 @@
 			y: 10.5d
 			id: "354D9DC694EC3DA6"
 			tasks: [{
-				id: "217C206A3E467319"
 				type: "advancement"
-				title: "Unlock Crafting Accelerator T2"
-				icon: "spectrum:upgrade_speed2"
 				advancement: "spectrum:progression/unlock_upgrade_speed2"
 				criterion: ""
+				id: "217C206A3E467319"
+				icon: "spectrum:upgrade_speed2"
+				title: "Unlock Crafting Accelerator T2"
 			}]
 		}
 		{
@@ -3206,12 +3206,12 @@
 			y: 10.5d
 			id: "4198D28DA05A73E2"
 			tasks: [{
-				id: "1E7582B7CF5306F3"
 				type: "advancement"
-				title: "Unlock Crafting Accelerator T3"
-				icon: "spectrum:upgrade_speed3"
 				advancement: "spectrum:progression/unlock_upgrade_speed3"
 				criterion: ""
+				id: "1E7582B7CF5306F3"
+				icon: "spectrum:upgrade_speed3"
+				title: "Unlock Crafting Accelerator T3"
 			}]
 		}
 		{
@@ -3219,12 +3219,12 @@
 			y: 10.5d
 			id: "4C556F3E31A3D285"
 			tasks: [{
-				id: "687DE79212CCD90F"
 				type: "advancement"
-				title: "Unlock Production Surge T2"
-				icon: "spectrum:upgrade_yield2"
 				advancement: "spectrum:progression/unlock_upgrade_yield2"
 				criterion: ""
+				id: "687DE79212CCD90F"
+				icon: "spectrum:upgrade_yield2"
+				title: "Unlock Production Surge T2"
 			}]
 		}
 		{
@@ -3232,16 +3232,16 @@
 			y: 10.5d
 			id: "5A796984A17E4E61"
 			tasks: [{
-				id: "1A1625D64DB97C4E"
 				type: "advancement"
-				title: "Unlock Bottomless Bundle"
+				advancement: "spectrum:progression/unlock_void_bundle"
+				criterion: ""
+				id: "1A1625D64DB97C4E"
 				icon: {
 					id: "spectrum:void_bundle"
 					Count: 1b
 					tag: { }
 				}
-				advancement: "spectrum:progression/unlock_void_bundle"
-				criterion: ""
+				title: "Unlock Bottomless Bundle"
 			}]
 		}
 		{
@@ -3249,12 +3249,12 @@
 			y: 10.5d
 			id: "302ADA4A6DE96546"
 			tasks: [{
-				id: "122C051EBA861091"
 				type: "advancement"
-				title: "Unlock Whispy Circlet"
-				icon: "spectrum:whispy_circlet"
 				advancement: "spectrum:progression/unlock_whispy_circlet"
 				criterion: ""
+				id: "122C051EBA861091"
+				icon: "spectrum:whispy_circlet"
+				title: "Unlock Whispy Circlet"
 			}]
 		}
 		{
@@ -3262,12 +3262,12 @@
 			y: 10.5d
 			id: "7608D23896252119"
 			tasks: [{
-				id: "1BEBECDB8EB20959"
 				type: "advancement"
-				title: "Weather: §eClear§r"
-				icon: "minecraft:sunflower"
 				advancement: "spectrum:progression/weather/weather_clear"
 				criterion: ""
+				id: "1BEBECDB8EB20959"
+				icon: "minecraft:sunflower"
+				title: "Weather: §eClear§r"
 			}]
 		}
 		{
@@ -3275,12 +3275,12 @@
 			y: 10.5d
 			id: "59E70F471B355DE5"
 			tasks: [{
-				id: "458875E04A57A149"
 				type: "advancement"
-				title: "Weather: §eRain§r"
-				icon: "minecraft:water_bucket"
 				advancement: "spectrum:progression/weather/weather_rain"
 				criterion: ""
+				id: "458875E04A57A149"
+				icon: "minecraft:water_bucket"
+				title: "Weather: §eRain§r"
 			}]
 		}
 		{
@@ -3288,12 +3288,12 @@
 			y: 10.5d
 			id: "6955765B4BE2E0A0"
 			tasks: [{
-				id: "22DB3714A786D476"
 				type: "advancement"
-				title: "Weather: §eThunder§r"
-				icon: "spectrum:lightning_stone"
 				advancement: "spectrum:progression/weather/weather_thunder"
 				criterion: ""
+				id: "22DB3714A786D476"
+				icon: "spectrum:lightning_stone"
+				title: "Weather: §eThunder§r"
 			}]
 		}
 		{
@@ -3301,9 +3301,10 @@
 			y: 2.5d
 			id: "3321EA1F416017D3"
 			tasks: [{
-				id: "482C63117A1BF880"
 				type: "advancement"
-				title: "Unlock Resistance Potion"
+				advancement: "spectrum:progression/potions/unlock_resistance_potion"
+				criterion: ""
+				id: "482C63117A1BF880"
 				icon: {
 					id: "minecraft:potion"
 					Count: 1b
@@ -3320,8 +3321,7 @@
 						}]
 					}
 				}
-				advancement: "spectrum:progression/potions/unlock_resistance_potion"
-				criterion: ""
+				title: "Unlock Resistance Potion"
 			}]
 		}
 	]
