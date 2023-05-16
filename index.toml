@@ -14774,8 +14774,8 @@ hash = "9fcaa1b18b580609c015d67317379c73d854ab2b34899163f77f938782ccc893"
 metafile = true
 
 [[files]]
-file = "mods/collective-fabric.pw.toml"
-hash = "28ac4776ccfbfb594e10988bc832c3881d6587eaa5bec65d79802ae6870ecf76"
+file = "mods/collective.pw.toml"
+hash = "dbad1b6a31355794f147f1d899fdd818e3f304461742fc09d042400b8c9c0f91"
 metafile = true
 
 [[files]]
@@ -15524,8 +15524,8 @@ hash = "b4e9564a3b53e008e176341a6e63fcfb33c89eab824fe11c2714d9bc66aa1e32"
 metafile = true
 
 [[files]]
-file = "mods/more-zombie-villagers-fabric.pw.toml"
-hash = "9cc9717685bfd7f39d3941ec95f4418fa8af4e1befcf626b11640f218083ee74"
+file = "mods/more-zombie-villagers.pw.toml"
+hash = "0ca949a5bcf26c18ca79b2a8ed083a055ee6c96489c86f980727491bfad6b329"
 metafile = true
 
 [[files]]
@@ -15679,8 +15679,8 @@ hash = "ce7eec91cd0d4de37f8879e1ace768052e6ada0b1fc832d58fe4f2fc56aa0254"
 metafile = true
 
 [[files]]
-file = "mods/random-bone-meal-flowers-fabric.pw.toml"
-hash = "60aea47e2f741c89c6bc2be4559d99321b129de9c1a2ddc9c3b2986f93067967"
+file = "mods/random-bone-meal-flowers.pw.toml"
+hash = "10d33b643e4fc5e6ab3dc7326ce173427eadb5a9c917cd2f5e25568dc5f72217"
 metafile = true
 
 [[files]]
@@ -15784,8 +15784,8 @@ hash = "fc4100f6a88f4de3f196d673723c6315619c7fea64960a0952b0b85c4c89a620"
 metafile = true
 
 [[files]]
-file = "mods/smaller-nether-portals-fabric.pw.toml"
-hash = "c1c32b12ec2879dea77ce33260e323892d8f011730cdad5a247badc24d0061c4"
+file = "mods/smaller-nether-portals.pw.toml"
+hash = "28b9ece66b7cf76d4699352c725646816dfe31dfd6d5331d578523ae1dcfe6f4"
 metafile = true
 
 [[files]]
@@ -16049,4 +16049,4 @@ hash = "0001f2673dfed35e75ce48336867d0e24d9a34efd35e9fd5cd9fc5c127250e9d"
 
 [[files]]
 file = "sf3_changelog.txt"
-hash = "9bced758f1fbae5e5ef39e45106a295adfdb8f0baefb7cda428ad525b0933bcf"
+hash = "155188ff35d5f7f73c0f0159ac4232308bf47ef1f91fe003435861492a201a50"
