@@ -6,6 +6,8 @@ Fixed:
 Updated:
 * Create Fabric: create-fabric-0.5.0.i-1002+1.18.2.jar -> create-fabric-0.5.0.i-1016+1.18.2.jar
 * collective: collective-fabric-1.18.2-5.45.jar -> collective-1.18.2-6.53.jar
+* Expanded Storage: expandedstorage-8.2.0-beta.3+1.18.2-fabric.jar -> expandedstorage-8.3.2+1.18.2-fabric.jar
 * More Zombie Villagers: morezombievillagers-fabric_1.18.2-2.1.jar -> morezombievillagers-1.18.2-3.3.jar
 * Random Bonemeal Flowers: randombonemealflowers-fabric_1.18.2-3.3.jar -> randombonemealflowers-1.18.2-4.1.jar
 * Smaller Nether Portals: smallernetherportals-fabric_1.18.2-2.5.jar -> smallernetherportals-1.18.2-3.4.jar
+* Traveler's Backpack [Fabric]: travelers-backpack-1.18.2-7.1.25.jar -> travelers-backpack-1.18.2-7.1.26.jar

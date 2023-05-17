@@ -15030,7 +15030,7 @@ metafile = true
 
 [[files]]
 file = "mods/expanded-storage.pw.toml"
-hash = "8982039cd133df184adcb60354f1cddaf40d8ab7e718ca78fbceb99cb71041a9"
+hash = "7e12a74b7f1a0ecda259f93d012b1edbf60772338a80f1c8e96589fba65572d6"
 metafile = true
 
 [[files]]
@@ -15945,7 +15945,7 @@ metafile = true
 
 [[files]]
 file = "mods/travelers-backpack-fabric.pw.toml"
-hash = "e94c573e7cba46130aafa774e796604f3fd12a63a6a73780370a1bb692ad7657"
+hash = "3343138b5a528267259e697ca05cb89e83fd9e8f003a62cbe5de156fb8347778"
 metafile = true
 
 [[files]]
@@ -16049,4 +16049,4 @@ hash = "0001f2673dfed35e75ce48336867d0e24d9a34efd35e9fd5cd9fc5c127250e9d"
 
 [[files]]
 file = "sf3_changelog.txt"
-hash = "155188ff35d5f7f73c0f0159ac4232308bf47ef1f91fe003435861492a201a50"
+hash = "c4306f0afa735e62179ff08eeb76f7a9e9b05a9aeac5b5eeb34e4c6fc4d369b2"
