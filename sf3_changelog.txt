@@ -1,92 +1,15 @@
-SF3 0.6.0 Changelog
+SF3 0.6.1 Changelog
 
-This Update contains a lot of QoL and balancing changes.
-Iris was removed because new versions are not uploaded to CurseForge anymore, install it by your own if you would like to continue using shaders.
+Fixed:
+* Sky Block World Type is now default again
+* You can now join a server without having to join an SP World
+  Please note: It may not always work on the first try
 
-Changes by KonSola5 (many thanks for your great work):
-* New /emergency command, gives an emergency item, has a 5 minute cooldown.
-* Many Questbook edits, including a redesigned Create chapter, corrections and updates for some of the quests, 2 new Endgame Quest Chapters: Spatial Harvesters and Endgame.
-* Added some of the MI Metals as materials for Hephaestus/Tinker's Construct Tools, making them also meltable.
-* Rebalanced Industrial Revolution's ore processing:
-  ° Industrial Smelter is renamed to Industrial Smeltery, it now melts metals into their Hephaestus molten form, at the rate of regular Smeltery by default.
-  ° Condenser is renamed to Ingot Former, now it forms ingots from molten metals.
-  ° Purified Ore Chunks now are made from raw ore instead of ore blocks. The purification -> melting -> ingot forming process allows for getting 2 ingots from 1 raw ore, giving some competition to Modern Industrialization's ore processing.
-  ° For clarification: MI gives 1.5 ingots per raw ore, Hephaestus gives 1.33 ingots per raw ore, new IndRev ore processing can give 2 ingots per raw ore.
-  ° For ore purification you now need to use MI's Sulfuric Acid instead of IndRev one, the IndRev has been disabled.
-  ° 4 new purified ore chunks have been added: Uranium, Nickel, Zinc and Cobalt.
-* 3 Copper + 1 Tin -> 4 Bronze if you use an End Stone Brick Forge.
-* Blacklisted Cardboard Boxes, AE2 Cables and MI machines from Carrier mod carrying.
-* Retextured IndRev's Purified Ore Chunks to better match their ore counterparts.
-* Retextured and renamed AE2Additions items and blocks to be consistent with each other and with AE2.
-* Properly localized Spectrum, FabricaeExNihilo and TechReborn fluids.
-* Given quite a lot of tags to items to add functions:
-  ° Added tool tags to Hephaestus tools for them to be able to be equipped in Inventorio Slots.
-  ° Given mambience sword/tool/bow tags to give non-vanilla swords/tools/bows fancy sound effects.
-  ° Added material tags to some of the MI metals to make them Hephaestus materials.
-* Removed redundant items, fluids and TR Fluid Cells from REI.
-* Record Fragment recipe now accepts any music disc, instead of only disc 13.
-* An ability to recycle Croparia Seeds in the MI Centrifuge, since Croparia one works on its own proprietary energy system and it's super slow. Also gives transparency, what are the odds of getting a fruit from recycling a seed!
-* DML Data Model changes for balance with Simulacrum:
-  ° Basic: 8 -> 16
-  ° Advanced: 16 -> 128
-  ° Superior: 32 -> 256
-  ° Self-Aware: 64 -> 512
-* Changed C:C&A Diamond Grit in Diamond Mesh's recipe to MI Diamond Dust.
-* Changed Netherite Mesh's recipe: now it requires you to cast 3 Netherite Ingots on the Diamond Mesh. This improves the timing of the mesh, because previously it was too late to be useful.
-* Processing ores in Alloy Forge now yields correct ingots!
-* Spectrum's Stratine Ore and Hephaestus' Cobalt Ore are now obtainable using a Gold Drill.
-* Fixed Spectrum's Ancient Ruins are now spawning reliable in the Sky Islands Dimension
-* Added the ability to craft some large table Endgame crafting recipes using large Mechanical Crafting recipes (Crafting ingredients only).
-* Early Game improvements: quest and recipe changes and much more
-* Overhauled the way that the drawer upgrades are crafted
-* Nerfed the output of smelting raw ores in Alloy Forge from 2x to 1.5x.
-* Reduced fuel usage of smelting Grout in Alloy Forge.
-* Added a quest that hints the player how to get Nether Quartz for the Iron Mesh.
-* new Nether star Recipe for DeepMobLearning
-* implemented recipes and meshes for the Create Sifter mod
-
-Changes by MSandro:
-* Expert Mode is now available with the first few yeet_recipes
-* Reworked TechReborn, Industrial Revolution, Botania, Bewitchment and more Quest chapters
-* Fixed Wither broke Wither Proof blocks
-* Added Stone Cutter recipes for all Chisel Blocks to allow automating with MI or AE2
-* ExpandedStorage is now working again with Carrier
-* Raids are now working in Sky Islands Dimension (might need a Dim-Reset to take effect)
-* Fixed many KubeJS Warnings
-* Spatial Harvester Outputs changed (tried to respect to the ore unification)
-* Reworked Extractinator Outputs
-* added CustomSpawns again to fix some broken behaviours
-* switched from Phosphor to Starlight to fix and improve Lightengine
-
-Changes by Itplays (many thanks for your help)
-* added some Expert Mode Recipes and tweaks
-
-Added:
-* Cull Less Leaves
-* Cull Clouds
-* Create Sifter
-* Enhanced Block Entities
-* Nature & Structure Compass
-* Advanced & Gear Reborn
-* ModernFix
-* CustomSpawns
-* Starlight
-
-Removed:
-* Iris Shaders
-* Iris-Flywheel-Compat
-* Space Dimension (might be replaced by Ad Astra in future updates)
-* Wireless Networks (use Powah instead)
-* Simple Void World (not needed)
-* Progressive Bosses (caused some issues)
-* Auto-Clicker Mod
-* SkyGrid
-* Phosphor
-* Refabricated Slabs
-
-Known Issues:
-* Joining Server worlds does not work if you did not join a SP World first
-* Spatial Harvesters are having some problems with TechReborn Energy Cables or other Sources, use e.g. Power Cables instead
-if you find other issues please report them
-
-Updated: all available mod updates
+Updated:
+* Create Fabric: create-fabric-0.5.0.i-1002+1.18.2.jar -> create-fabric-0.5.0.i-1016+1.18.2.jar
+* collective: collective-fabric-1.18.2-5.45.jar -> collective-1.18.2-6.53.jar
+* Expanded Storage: expandedstorage-8.2.0-beta.3+1.18.2-fabric.jar -> expandedstorage-8.3.2+1.18.2-fabric.jar
+* More Zombie Villagers: morezombievillagers-fabric_1.18.2-2.1.jar -> morezombievillagers-1.18.2-3.3.jar
+* Random Bonemeal Flowers: randombonemealflowers-fabric_1.18.2-3.3.jar -> randombonemealflowers-1.18.2-4.1.jar
+* Smaller Nether Portals: smallernetherportals-fabric_1.18.2-2.5.jar -> smallernetherportals-1.18.2-3.4.jar
+* Traveler's Backpack [Fabric]: travelers-backpack-1.18.2-7.1.25.jar -> travelers-backpack-1.18.2-7.1.26.jar
