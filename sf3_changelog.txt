@@ -2,6 +2,8 @@ SF3 0.6.1 Changelog
 
 Fixed:
 * Sky Block World Type is now default again
+* You can now join a server without having to join an SP World
+  Please note: It may not always work on the first try
 
 Updated:
 * Create Fabric: create-fabric-0.5.0.i-1002+1.18.2.jar -> create-fabric-0.5.0.i-1016+1.18.2.jar
