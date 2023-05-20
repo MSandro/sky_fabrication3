@@ -3553,10 +3553,6 @@ file = "kubejs/assets/kubejs/textures/block/end_portal_locked.png"
 hash = "ca6262e97827bdbc98af7d21bf4ca2644906232470e333310a4a64ec4872959a"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/block/example_block.png"
-hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/block/infinity.png"
 hash = "1dd156eb11e6bb50e149f845167f2044c3fee02851e506cf71ac5888d9c54d77"
 
@@ -3569,108 +3565,8 @@ file = "kubejs/assets/kubejs/textures/block/island_marker.png"
 hash = "d7ea5cee601a89873942a5ab4eede25ad6c7829f61491a89eb69023dd70a1074"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/block/machine_bottom_mk1_depleted.png"
-hash = "d630397d15383077126eff9f83300e56d0da14b5fa53db2f7e0a7097c7497169"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/machine_bottom_mk2_depleted.png"
-hash = "a699f7feb13cbc9da82389461c2067100ddc54e008ba44bb793d087f48bcc85e"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/machine_bottom_mk3_depleted.png"
-hash = "fdfac686a19edd0a75c0d37e938f58585b4463ba323f46bb7ef62fd7c8d748bb"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/machine_bottom_mk4_depleted.png"
-hash = "7f9520ccd443b0b71251d41c94cf8316032370fa1878fab7bf1cb9c13c565aec"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/machine_bottom_mk5_depleted.png"
-hash = "6fcf844e4cd66bde87dc3a0087d5ad2b580aa4f3b4f8762a5764c3c47f1e4597"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/machine_top_mk1_depleted.png"
-hash = "fbaa9f6ef0e3402e85e89eaffb9b7de7e558698862201d284c8354fbb1cd1f68"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/machine_top_mk2_depleted.png"
-hash = "3a261a0028b9eaed99b943f75380818b4e348d9cd6aed91d513a8ed9eb55f85f"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/machine_top_mk3_depleted.png"
-hash = "a06365194d53cd78ad68369c4d57d3e23f6aa8457a85ba1a0480434be0139555"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/machine_top_mk4_depleted.png"
-hash = "c7aef4c7f0cec320f0023c37b92aedd09d1e1b64ca5d6fc1f79aa0afbf411cce"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/machine_top_mk5_depleted.png"
-hash = "e0c3ef67cee033c5504a6ca6b1066ac1603d503d09eeebb0f132e2b983d46af2"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/block/neutronium.png"
 hash = "3ff0b97f15d6a21bea104ffc41276cb0ec42bc2216c53b5710e6927b459e0bc3"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk1.png"
-hash = "1ddbcbad0ea30d9cef4019633110bf7be55219400d58f3f80d5fa1538ad4a053"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk1.png.mcmeta"
-hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk1_depleted.png"
-hash = "d570997660a85ff34b2b626082573fbacdeec298ac1b111c20a0af9a58789eb2"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk2.png"
-hash = "fe39086975fe9fefe0ceac5479259d0ce55363ddd019411fb8388b0c30eb7a71"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk2.png.mcmeta"
-hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk2_depleted.png"
-hash = "92724b1cbe10d866d7f2f71f0fe9b5adc9ca7a64614afb2584233466854dcaca"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk3.png"
-hash = "a788596c8774da7a892b0bd7abb6cc1a0c037dbb3f1bf8f4fadae28d6509397e"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk3.png.mcmeta"
-hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk3_depleted.png"
-hash = "c1f9558ebb1fc1b4179b5c0d732a8464941780c7f250ca1ff4ac90d0c363c2a0"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk4.png"
-hash = "7b2127d2e0bfee50c00b1d71ef03a7b84fb2826d76b704586a5b0c0c66360359"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk4.png.mcmeta"
-hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk4_depleted.png"
-hash = "07e5b76c6cf265f8f38a386e435dd57596df36d0d8d6ad227d6a14c61c221efd"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk5.png"
-hash = "447810cfe59eb397713b2b60560c4b85c189bb42dfa31032444342f08f083eb6"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk5.png.mcmeta"
-hash = "6a19bef21d66aac8fdcd8032751057733e321446b304d38f5ee8ba35efe99a1d"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/ore_catalyst_mk5_depleted.png"
-hash = "ce519cfda0420ddca4356ed4b749a48387fb2fc967445949e54735557656ea97"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/oregen_catalyst_mk1.png"
@@ -3686,7 +3582,7 @@ hash = "a0115fce5a2ad01a0344d5fe954d7b0b306fce91a08f6624e495efa3b3bb6fad"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/alloy_forge.png"
-hash = "e56e1bb308af6e5a2c3ffe63758722bd25a955dc5417f70bb42d14d7d494955a"
+hash = "9d92433d5537674f102ab3e3b8ba95e340a1614d4756c399681583f5e0816f45"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/base.png"
@@ -16053,7 +15949,7 @@ metafile = true
 
 [[files]]
 file = "quests_structures/alloy_forge_s.nbt"
-hash = "0001f2673dfed35e75ce48336867d0e24d9a34efd35e9fd5cd9fc5c127250e9d"
+hash = "53bae4016ac9ff06490a530add65fec916f770a5bf0d4dab005feb576ab120d8"
 
 [[files]]
 file = "sf3_changelog.txt"
