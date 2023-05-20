@@ -13917,6 +13917,14 @@ file = "kubejs/data/techreborn/recipes/crafting_table/small_dust/zinc_small_dust
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "kubejs/data/techreborn/recipes/grinder/saw_small_dust_from_slabs.json"
+hash = "33bb8b820575a1c7d7e3fd48d108ee6ce83476f2f6fb7a31d856c89508eff4b6"
+
+[[files]]
+file = "kubejs/data/techreborn/recipes/grinder/saw_small_dust_from_stairs.json"
+hash = "5feefaae00d170d5a701ea7c30e31622ddae70a263e5e7b4718c137651ef142d"
+
+[[files]]
 file = "kubejs/data/techreborn/recipes/industrial_electrolyzer/ruby_dust.json"
 hash = "20fb5c4b26f5c43fc0b686871e72ca79b748a405438ff648f245009a53b5c6ae"
 
