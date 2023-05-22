@@ -1,15 +1,11 @@
-SF3 0.6.1 Changelog
-
-Fixed:
-* Sky Block World Type is now default again
-* You can now join a server without having to join an SP World
-  Please note: It may not always work on the first try
+SF3 0.6.2 Changelog
 
 Updated:
-* Create Fabric: create-fabric-0.5.0.i-1002+1.18.2.jar -> create-fabric-0.5.0.i-1016+1.18.2.jar
-* collective: collective-fabric-1.18.2-5.45.jar -> collective-1.18.2-6.53.jar
-* Expanded Storage: expandedstorage-8.2.0-beta.3+1.18.2-fabric.jar -> expandedstorage-8.3.2+1.18.2-fabric.jar
-* More Zombie Villagers: morezombievillagers-fabric_1.18.2-2.1.jar -> morezombievillagers-1.18.2-3.3.jar
-* Random Bonemeal Flowers: randombonemealflowers-fabric_1.18.2-3.3.jar -> randombonemealflowers-1.18.2-4.1.jar
-* Smaller Nether Portals: smallernetherportals-fabric_1.18.2-2.5.jar -> smallernetherportals-1.18.2-3.4.jar
-* Traveler's Backpack [Fabric]: travelers-backpack-1.18.2-7.1.25.jar -> travelers-backpack-1.18.2-7.1.26.jar
+* Expanded Storage: expandedstorage-8.3.2+1.18.2-fabric.jar -> expandedstorage-8.3.3+1.18.2-fabric.jar
+* Extended Drawers: ExtendedDrawers-1.3.6+mc.1.18.2.jar -> ExtendedDrawers-1.3.7+mc.1.18.2.jar
+* Macaw's Trapdoors: mcw-trapdoors-1.0.9-mc1.18.2fabric.jar -> mcw-trapdoors-1.1.0-mc1.18.2fabric.jar
+* ModernFix: modernfix-mc1.18.2-fabric-2.5.2.jar -> modernfix-mc1.18.2-fabric-2.6.0.jar
+* Pehkui: Pehkui-3.7.3+1.14.4-1.20.jar -> Pehkui-3.7.4+1.14.4-1.20.jar
+* Peripheralium: Peripheralium-0.4.20-1.18.2.jar -> peripheralium-0.4.21-1.18.2.jar
+* Turtlematic: turtlematic-0.5.3.jar -> turtlematic-0.5.4.jar
+* UnlimitedPeripheralWorks: peripheralworks-0.2.4.jar -> peripheralworks-0.2.6.jar

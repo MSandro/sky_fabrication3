@@ -15529,7 +15529,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "a674b3691edb8664f598244fd07d76510a8481b8be3ad9af4428ab14b405307a"
+hash = "4b6236717098f9d51864701f142c02d6d63682576274ecf2fc6ae78aa459f3ec"
 metafile = true
 
 [[files]]
@@ -15874,7 +15874,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "6f020ba0b4978e1fe638748691f72195b3e95aaea4647cd83ef36529c6b63da3"
+hash = "5a4741534e5a187edf141c0269ceb910d1d697bcd474cea699f8afb8c8009bdc"
 metafile = true
 
 [[files]]
@@ -15953,4 +15953,4 @@ hash = "53bae4016ac9ff06490a530add65fec916f770a5bf0d4dab005feb576ab120d8"
 
 [[files]]
 file = "sf3_changelog.txt"
-hash = "db314702069c06a18fb625c423dcad08718408d9b9ca49d55c98ec98ac399e0f"
+hash = "cb6dae88a717387f568a818460d56b7642944f5b0b8d551d31e948eadef18e99"
