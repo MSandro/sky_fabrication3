@@ -13,10 +13,6 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
-file = "config/MythicMountsConfig.json"
-hash = "bd09c57d14a7fe7bb2e3691fbf166cc861b89d5339a099ca363621aaae8bbc21"
-
-[[files]]
 file = "config/SkipTransitions.properties"
 hash = "57aff8e15bfd1a7ad48ef2b985993a3b2d9d0a69139da5402f8730299699bbfc"
 
@@ -14378,6 +14374,11 @@ hash = "9ba46690ca57a051174473b215349909e14945d715b4af3651012126be9895bd"
 metafile = true
 
 [[files]]
+file = "mods/ad-astra.pw.toml"
+hash = "888ac53b89e1a68a99ad3ae74851023ab1668e6aa755d2b552ac1addf1844956"
+metafile = true
+
+[[files]]
 file = "mods/additional-additions.pw.toml"
 hash = "ffc9d369d6da88e6ccb44555e60cc26b97f9a98652533b812653b6fd229de20e"
 metafile = true
@@ -15443,6 +15444,11 @@ hash = "fc6315335e06958860884b6f182b0e878879939f6bbbae2189e2909ccdf3d3e8"
 metafile = true
 
 [[files]]
+file = "mods/mystical-nature.pw.toml"
+hash = "7124fb7209e5e188aeee31edaf49bf91fc5a29475209422b26a1c0455cbb02c0"
+metafile = true
+
+[[files]]
 file = "mods/narratebookforme-fabric.pw.toml"
 hash = "b0c78d38b0664fd9877d0fbcb7b5db3d2b294f198e4c6b0fc1fdd1cf99e616fc"
 metafile = true
@@ -15529,7 +15535,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "a674b3691edb8664f598244fd07d76510a8481b8be3ad9af4428ab14b405307a"
+hash = "4b6236717098f9d51864701f142c02d6d63682576274ecf2fc6ae78aa459f3ec"
 metafile = true
 
 [[files]]
@@ -15874,7 +15880,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "6f020ba0b4978e1fe638748691f72195b3e95aaea4647cd83ef36529c6b63da3"
+hash = "5a4741534e5a187edf141c0269ceb910d1d697bcd474cea699f8afb8c8009bdc"
 metafile = true
 
 [[files]]
@@ -15953,4 +15959,4 @@ hash = "53bae4016ac9ff06490a530add65fec916f770a5bf0d4dab005feb576ab120d8"
 
 [[files]]
 file = "sf3_changelog.txt"
-hash = "db314702069c06a18fb625c423dcad08718408d9b9ca49d55c98ec98ac399e0f"
+hash = "5c592edd790cd580eecef970a50c260cc267030175af98bbc5fae5215d22c47d"
