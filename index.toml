@@ -14439,7 +14439,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "3f0450c2bd26c5185be65c9676dcb5034d3d5341df5cad7ed22a036a22ce9c9f"
+hash = "2fe0a88d56e866dfc2b6301593245ee6ef13fff6db51a7bdf2aeb6735535c73a"
 metafile = true
 
 [[files]]
@@ -15953,4 +15953,4 @@ hash = "53bae4016ac9ff06490a530add65fec916f770a5bf0d4dab005feb576ab120d8"
 
 [[files]]
 file = "sf3_changelog.txt"
-hash = "cb6dae88a717387f568a818460d56b7642944f5b0b8d551d31e948eadef18e99"
+hash = "46192044a4e6c583d7667f466fce65a306e74767c6c954895e2f2b7d0957ac43"

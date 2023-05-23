@@ -1,6 +1,7 @@
 SF3 0.6.2 Changelog
 
 Updated:
+* Applied Energistics 2: appliedenergistics2-fabric-11.7.2.jar -> appliedenergistics2-fabric-11.7.4.jar
 * Expanded Storage: expandedstorage-8.3.2+1.18.2-fabric.jar -> expandedstorage-8.3.3+1.18.2-fabric.jar
 * Extended Drawers: ExtendedDrawers-1.3.6+mc.1.18.2.jar -> ExtendedDrawers-1.3.7+mc.1.18.2.jar
 * Macaw's Trapdoors: mcw-trapdoors-1.0.9-mc1.18.2fabric.jar -> mcw-trapdoors-1.1.0-mc1.18.2fabric.jar
