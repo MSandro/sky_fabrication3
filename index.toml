@@ -13381,6 +13381,22 @@ file = "kubejs/data/modern_industrialization/tags/items/replicator_blacklist.jso
 hash = "d06520de46cb63c4c050f2ab2f0e40d23df87505c5f98b01998143cb061d33d6"
 
 [[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/deepslate_essence_ore.json"
+hash = "5aaa969ad18c504c4d8e6e54cdd0135f728ee82fd34ea06f82ac751cfc846660"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/end_essence_ore.json"
+hash = "c932d3dc32178a95738aa1f98174ebe6de4757bb4949ebf672402269a6f7c8d1"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_ore.json"
+hash = "2c19d37e1d0557587c0d6fd616b19e31e19d13fb3bb533e6b01c444046a6f2a4"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/nether_essence_ore.json"
+hash = "229e69770b288d96967ce555c8cdad721ce032b5427869541b61af40427fbe6f"
+
+[[files]]
 file = "kubejs/data/plantinajar/recipes/plant_jar.json"
 hash = "e77d2f3bc9057e4fe2ca884ceeeeb12045b2bbbfda6e023801c4204b341c76a5"
 
@@ -15876,7 +15892,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "5a4741534e5a187edf141c0269ceb910d1d697bcd474cea699f8afb8c8009bdc"
+hash = "389bd09c5e2ce3cd3f82ac964f55d2384a7cfec2fdcc606dd7b2807263fd103b"
 metafile = true
 
 [[files]]
