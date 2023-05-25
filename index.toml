@@ -2690,7 +2690,7 @@ hash = "2aca1f372c6d27456e1b6ab342c1e7e757ff43ba3fe85afd31ee1da185993276"
 
 [[files]]
 file = "config/spatialharvesters.conf"
-hash = "d6fed1e3927949838041e17be30baf589a033b93b35a34183ccc0d1ca25895a0"
+hash = "1140ff39474b14911cf6775281b532504a52335ee66a775e8d5ad6071b9c0748"
 
 [[files]]
 file = "config/stoneholm.json5"
