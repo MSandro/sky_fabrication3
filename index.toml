@@ -9846,7 +9846,7 @@ hash = "c888d8c7a00431c569e05d98ca704109573ef50d73d35d0a18a0d635a78d7866"
 
 [[files]]
 file = "kubejs/client_scripts/rei_removal_script.js"
-hash = "58ea8910e0bccd857900c6b44bea9459927b7b1587c29033afcaabb9bf463ca2"
+hash = "6e078cb4d6e860ac65f8eab4ec994461cd1234263f0e3fcb2782d34c685561b1"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
@@ -13387,6 +13387,26 @@ hash = "5aaa969ad18c504c4d8e6e54cdd0135f728ee82fd34ea06f82ac751cfc846660"
 [[files]]
 file = "kubejs/data/mysticalcrops/loot_tables/blocks/end_essence_ore.json"
 hash = "c932d3dc32178a95738aa1f98174ebe6de4757bb4949ebf672402269a6f7c8d1"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_crop_tier_1.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_crop_tier_2.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_crop_tier_3.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_crop_tier_4.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_crop_tier_5.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_ore.json"
