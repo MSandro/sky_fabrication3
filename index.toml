@@ -9846,7 +9846,7 @@ hash = "c888d8c7a00431c569e05d98ca704109573ef50d73d35d0a18a0d635a78d7866"
 
 [[files]]
 file = "kubejs/client_scripts/rei_removal_script.js"
-hash = "d810d420921ff36e2a8d19c22db58348d601de0e501e973d4ec9502039f40588"
+hash = "58ea8910e0bccd857900c6b44bea9459927b7b1587c29033afcaabb9bf463ca2"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
@@ -13395,6 +13395,166 @@ hash = "2c19d37e1d0557587c0d6fd616b19e31e19d13fb3bb533e6b01c444046a6f2a4"
 [[files]]
 file = "kubejs/data/mysticalcrops/loot_tables/blocks/nether_essence_ore.json"
 hash = "229e69770b288d96967ce555c8cdad721ce032b5427869541b61af40427fbe6f"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/advance_coal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/advance_coal_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/advance_crystal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/advance_essence.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/advance_essence_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/advance_watering_can.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/basic_coal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/basic_coal_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/basic_crystal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/basic_essence.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/basic_essence_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/basic_watering_can.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/botanical_ritual_table.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/craft_seeds_1.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/craft_seeds_3.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/craft_seeds_4.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/craft_seeds_5.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_fruit_1.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_fruit_2.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_fruit_3.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_fruit_4.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_fruit_5.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_seeds_1.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_seeds_2.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_seeds_3.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_seeds_4.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_seeds_5.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/excellent_essence.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultimate_coal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultimate_coal_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultimate_crystal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultimate_essence.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultimate_essence_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultimate_watering_can.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultra_coal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultra_coal_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultra_crystal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultra_essence_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultra_watering_can.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/uncommon_essence_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/data/plantinajar/recipes/plant_jar.json"
