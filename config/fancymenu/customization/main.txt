@@ -139,7 +139,7 @@ customization {
   y = -10
   scale = 1.0
   alignment = left
-  value = Sky FABRICation 3 v0.6.2
+  value = Sky FABRICation 3 v0.7.0
 }
 
 customization {
