@@ -1,13 +1,13 @@
 name = "Enchanted Vertical Slabs"
-filename = "MC-1.18-enchanted-vertical-slabs-1.6.1.jar"
+filename = "mc1.18-enchanted-vertical-slabs-1.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1ab14ed1b481e9ef4df514cd4bb478a713d37346"
+hash = "c37d33dec6c36df1a2e7019b965dcc8336a2bc7a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4411217
+file-id = 4557493
 project-id = 559148

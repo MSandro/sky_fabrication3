@@ -1,13 +1,13 @@
 name = "Inventorio (Fabric)"
-filename = "inventorio-1.18-fabric-1.9.0.jar"
+filename = "inventorio-1.18-fabric-1.9.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "03e12ac893c12b4ff4ef5561da066a4627561624"
+hash = "bb379f31888ebc4762fd484de6bb7134ca35531b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4533358
+file-id = 4557752
 project-id = 491073

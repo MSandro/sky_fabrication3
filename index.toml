@@ -14574,7 +14574,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "05f5638f82bd94467ef8e5748dcd1aa02d1477dc93ad61ec41c84b5abd8dbcfc"
+hash = "29903f1747d58ec24e78f6a2118a9f132c8c7f67d25d50f3b7a3f1f0c1f1f141"
 metafile = true
 
 [[files]]
@@ -14889,7 +14889,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchanted-vertical-slabs.pw.toml"
-hash = "d73af059c216162c04e22673901a616cf757d4a7501e828e1d155fa16883ccb5"
+hash = "032c17dfcfaed24517da4b6607863a7380a8af514c24f2e6f834c1dba7249471"
 metafile = true
 
 [[files]]
@@ -15209,7 +15209,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventorio.pw.toml"
-hash = "bbedae4ea7f4c4d8ae6feeeb294ab69e71aa7d12766f72a8d82943273b31421a"
+hash = "bb7dc6e8feb528f86f3e43270d3d46d71d00539a831095079161ded6f01ee4d3"
 metafile = true
 
 [[files]]
@@ -15224,7 +15224,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-filters.pw.toml"
-hash = "5446a135421d4f9cc9c1f43fa7fdad58bd0eed4c2291a6f51eb03f1ec8fdc6bd"
+hash = "3fd6c3023e220fe708024d6151ee74f0f86589e75e1214daaf39ddb82d7b9e5e"
 metafile = true
 
 [[files]]
@@ -15529,7 +15529,7 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
-hash = "4b6236717098f9d51864701f142c02d6d63682576274ecf2fc6ae78aa459f3ec"
+hash = "12d732b62d7efa9ef6eba3c04ec2878b3495e36af740f8f062326f94c0aaacd6"
 metafile = true
 
 [[files]]
@@ -15634,7 +15634,7 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.pw.toml"
-hash = "8b643cab7d298ffbdbd67e453b2a3e59af6a8aba150288ace272a23af0f8cccb"
+hash = "b4d127dfcce0da42b0aab1fd526d49df7f067d9df6f20275281e14f61458a0a9"
 metafile = true
 
 [[files]]
@@ -15874,7 +15874,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "5a4741534e5a187edf141c0269ceb910d1d697bcd474cea699f8afb8c8009bdc"
+hash = "389bd09c5e2ce3cd3f82ac964f55d2384a7cfec2fdcc606dd7b2807263fd103b"
 metafile = true
 
 [[files]]
@@ -15953,4 +15953,4 @@ hash = "53bae4016ac9ff06490a530add65fec916f770a5bf0d4dab005feb576ab120d8"
 
 [[files]]
 file = "sf3_changelog.txt"
-hash = "46192044a4e6c583d7667f466fce65a306e74767c6c954895e2f2b7d0957ac43"
+hash = "96bf4cdccb6d434566dcf5b2d10bf5964fb7351dd256ac43cbf636794db18921"
