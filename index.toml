@@ -15570,7 +15570,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-backups-2.pw.toml"
-hash = "c4097f78304946f76eb1bb8ae793d1e0f273fcda995679ad69390319b9fe9493"
+hash = "55fde26a3696dac76f9edd15e2c03abf856c649d341ce9f6c53c0b368dfd042f"
 metafile = true
 
 [[files]]
@@ -16120,7 +16120,7 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.pw.toml"
-hash = "b4d127dfcce0da42b0aab1fd526d49df7f067d9df6f20275281e14f61458a0a9"
+hash = "d0e7f117506c5bb098f086a2d33613b96d976a81152e28cfd24acffbe98b6b59"
 metafile = true
 
 [[files]]
