@@ -6,6 +6,7 @@ Updated:
 * Fabric Loader: 0.14.19 -> 0.14.21
 * Applied Energistics 2: appliedenergistics2-fabric-11.7.2.jar -> appliedenergistics2-fabric-11.7.4.jar
 * Bookshelf: Bookshelf-Fabric-1.18.2-13.2.53.jar -> Bookshelf-Fabric-1.18.2-13.3.56.jar
+* Dark Utilities: DarkUtilities-Fabric-1.18.2-10.1.6.jar -> DarkUtilities-Fabric-1.18.2-10.1.7.jar
 * Enchanted Vertical Slabs: MC-1.18-enchanted-vertical-slabs-1.6.1.jar -> mc1.18-enchanted-vertical-slabs-1.8.jar
 * Expanded Storage: expandedstorage-8.3.2+1.18.2-fabric.jar -> expandedstorage-8.3.3+1.18.2-fabric.jar
 * Extended Drawers: ExtendedDrawers-1.3.6+mc.1.18.2.jar -> ExtendedDrawers-1.3.7+mc.1.18.2.jar

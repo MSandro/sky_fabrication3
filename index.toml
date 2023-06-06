@@ -14804,7 +14804,7 @@ metafile = true
 
 [[files]]
 file = "mods/dark-utilities.pw.toml"
-hash = "862db0d5d24858af89703ac23c63526c55aa963350fa0474256ad6bbb6094c2f"
+hash = "a2e5004a7938fbfa49ae103a3c55ceba511f8aca34768ef066ae4611e069d868"
 metafile = true
 
 [[files]]
@@ -15419,7 +15419,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "50094f778af2ec6415cadd671caa266bb48eb1caf910df54b8e9007b872d5cec"
+hash = "68fabd4f0d2c6b0b3543400387e191d3f442c110134f03cc17d3e6fa07a4e34e"
 metafile = true
 
 [[files]]
