@@ -14679,7 +14679,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "dbad1b6a31355794f147f1d899fdd818e3f304461742fc09d042400b8c9c0f91"
+hash = "62d1a372b1b752dc63409964b5ce8534e13dc3cd58897a24f81295d41595e2eb"
 metafile = true
 
 [[files]]
@@ -14929,7 +14929,7 @@ metafile = true
 
 [[files]]
 file = "mods/essential-commands.pw.toml"
-hash = "ea867fd0fab15d145f7e3449e9a4d64b18851e67a8bd56690ec7d731932e98cf"
+hash = "df22f14e49ba58aeb9b136eb8eefa3b5e9200528ae999fb11453a08c0bfd3f81"
 metafile = true
 
 [[files]]
@@ -15874,7 +15874,7 @@ metafile = true
 
 [[files]]
 file = "mods/unlimitedperipheralworks.pw.toml"
-hash = "389bd09c5e2ce3cd3f82ac964f55d2384a7cfec2fdcc606dd7b2807263fd103b"
+hash = "279275a51ab100fd0c289e4112f7af884aef426c3732d01a555ba2875eea4bae"
 metafile = true
 
 [[files]]
@@ -15953,4 +15953,4 @@ hash = "53bae4016ac9ff06490a530add65fec916f770a5bf0d4dab005feb576ab120d8"
 
 [[files]]
 file = "sf3_changelog.txt"
-hash = "bbc09e461463b7825443fd3cd51349d4a79507849432e88b84133fbf26dc446e"
+hash = "7f600a4bc06d4b22f707ef9ef7dbbaff67086d00775404de30a9722b257e3c14"
