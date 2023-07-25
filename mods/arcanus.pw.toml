@@ -1,6 +1,7 @@
 name = "Arcanus"
 filename = "arcanus-1.29.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

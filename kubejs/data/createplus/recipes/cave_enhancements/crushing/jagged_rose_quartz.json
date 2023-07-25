@@ -1,0 +1,27 @@
+{
+  "fabric:load_conditions": [
+		{
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "ce"
+      ]
+		}
+  ],
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "ce:jagged_rose_quartz"
+    }
+  ],
+  "results": [
+    {
+      "item": "ce:rose_quartz",
+      "count": 5
+    },
+    {
+      "item": "ce:rose_quartz",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 150
+}
