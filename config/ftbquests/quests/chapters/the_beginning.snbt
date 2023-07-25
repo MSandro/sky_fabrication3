@@ -1214,20 +1214,16 @@
 						id: "tconstruct:hand_axe"
 						Count: 1b
 						tag: {
-							tic_multipliers: { }
-							Damage: 0
 							tic_stats: {
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:mining_speed": 2.0f
 								"tconstruct:attack_damage": 6.0f
 								"tconstruct:harvest_tier": "minecraft:wood"
 								"tconstruct:durability": 60.0f
-								"tconstruct:mining_speed": 2.0f
-								"tconstruct:attack_speed": 0.9f
 							}
-							tic_materials: [
-								"tconstruct:wood#bamboo"
-								"tconstruct:wood"
-								"tconstruct:wood"
-							]
+							Damage: 0
+							tic_multipliers: { }
+							tic_broken: 0b
 							tic_modifiers: [
 								{
 									name: "tconstruct:cultivated"
@@ -1246,7 +1242,11 @@
 									level: 1s
 								}
 							]
-							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:wood#bamboo"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
 							tic_persistent_data: {
 								upgrades: 3
 								abilities: 1
@@ -1391,34 +1391,6 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -4.0d
-			subtitle: "Automated Sieving!"
-			description: [
-				"It will automatically sieve items inserted into it."
-				""
-				"Mechanically similar to a Millstone."
-				""
-				"FabricaeExNihilo Meshes won't work here - using Crafting you can switch between FabricaeExNihilo and Create Sifter variants of meshes."
-				""
-				"Please Note: You need some sort of a blacklistable item extraction (like Brass Funnels or Smart Chutes), because without filtering it will extract currently sieved items!"
-				""
-				"A huge advantage of the Sifter is the fact that it will not automatically unequip meshes nor it will spill out items into the world."
-				""
-				"The Sifter can also be Waterlogged to process certain recipes."
-			]
-			dependencies: [
-				"2587A593554DBC4A"
-				"18E391B45D935712"
-			]
-			id: "2EEFE657598AC91C"
-			tasks: [{
-				id: "4BAC6F40786AAF4D"
-				type: "item"
-				item: "createsifter:sifter"
-			}]
-		}
-		{
 			title: "Spores"
 			x: 1.5d
 			y: -2.5d
@@ -1552,19 +1524,19 @@
 					id: "tconstruct:dagger"
 					Count: 1b
 					tag: {
-						tic_multipliers: {
-							"tconstruct:mining_speed": 0.75f
-							"tconstruct:durability": 0.75f
-							"tconstruct:attack_damage": 0.65f
-						}
+						Damage: 0
 						tic_stats: {
+							"tconstruct:attack_speed": 2.0f
+							"tconstruct:mining_speed": 4.125f
 							"tconstruct:attack_damage": 3.7537498f
 							"tconstruct:harvest_tier": "minecraft:iron"
 							"tconstruct:durability": 191.25f
-							"tconstruct:mining_speed": 4.125f
-							"tconstruct:attack_speed": 2.0f
 						}
-						Damage: 0
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.75f
+							"tconstruct:attack_damage": 0.65f
+							"tconstruct:durability": 0.75f
+						}
 						tic_upgrades: [
 							{
 								name: "tconstruct:bane_of_sssss"
@@ -1575,10 +1547,7 @@
 								level: 1s
 							}
 						]
-						tic_materials: [
-							"tconstruct:silver"
-							"tconstruct:flint"
-						]
+						tic_broken: 0b
 						tic_modifiers: [
 							{
 								name: "tconstruct:bane_of_sssss"
@@ -1609,12 +1578,15 @@
 								level: 1s
 							}
 						]
-						tic_broken: 0b
-						display: {
-							Name: "{\"text\":\"Bane of Spiders\",\"italic\":\"false\"}"
-						}
+						tic_materials: [
+							"tconstruct:silver"
+							"tconstruct:flint"
+						]
 						tic_volatile_data: {
 							"tconstruct:duel_wielding": 1b
+						}
+						display: {
+							Name: "{\"text\":\"Bane of Spiders\",\"italic\":\"false\"}"
 						}
 						tic_persistent_data: {
 							upgrades: 2

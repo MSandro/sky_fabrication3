@@ -491,8 +491,8 @@
 					id: "bewitchment:demonic_contract"
 					Count: 1b
 					tag: {
-						Contract: "bewitchment:pestilence"
 						Duration: 168000
+						Contract: "bewitchment:pestilence"
 					}
 				}
 			}]

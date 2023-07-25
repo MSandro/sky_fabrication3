@@ -216,9 +216,6 @@
 						id: "itemfilters:or"
 						Count: 1b
 						tag: {
-							display: {
-								Name: "{\"text\":\"Depot or Basin\"}"
-							}
 							items: [
 								{
 									id: "create:depot"
@@ -229,6 +226,9 @@
 									Count: 1b
 								}
 							]
+							display: {
+								Name: "{\"text\":\"Depot or Basin\"}"
+							}
 						}
 					}
 				}
@@ -289,9 +289,6 @@
 						id: "itemfilters:or"
 						Count: 1b
 						tag: {
-							display: {
-								Name: "{\"text\":\"Other Fluid Maniuplation\"}"
-							}
 							items: [
 								{
 									id: "create:portable_fluid_interface"
@@ -306,6 +303,9 @@
 									Count: 1b
 								}
 							]
+							display: {
+								Name: "{\"text\":\"Other Fluid Maniuplation\"}"
+							}
 						}
 					}
 				}
@@ -692,43 +692,6 @@
 			}]
 			rewards: [{
 				id: "42B7528894D6FAEC"
-				type: "random"
-				exclude_from_claim_all: true
-				table_id: 13756307348121783L
-			}]
-		}
-		{
-			title: "Diving Equipment"
-			x: -5.5d
-			y: 1.5d
-			dependencies: ["3A20A7BE25BB48A0"]
-			id: "1C5C658FD5A5D276"
-			tasks: [
-				{
-					id: "2D6244B4FF1F2EC4"
-					type: "item"
-					item: {
-						id: "create:diving_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "4856CE0CFCFC092C"
-					type: "item"
-					item: {
-						id: "create:diving_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "39942F3BFDC28406"
 				type: "random"
 				exclude_from_claim_all: true
 				table_id: 13756307348121783L
@@ -1880,9 +1843,6 @@
 						id: "itemfilters:or"
 						Count: 1b
 						tag: {
-							display: {
-								Name: "{\"text\":\"Blaze Burner or a passive Heat Source\"}"
-							}
 							items: [
 								{
 									id: "create:blaze_burner"
@@ -1905,6 +1865,9 @@
 									Count: 1b
 								}
 							]
+							display: {
+								Name: "{\"text\":\"Blaze Burner or a passive Heat Source\"}"
+							}
 						}
 					}
 				}
@@ -2008,9 +1971,6 @@
 						id: "itemfilters:or"
 						Count: 1b
 						tag: {
-							display: {
-								Name: "{\"text\":\"Sail-like Blocks\"}"
-							}
 							items: [
 								{
 									id: "create:white_sail"
@@ -2025,6 +1985,9 @@
 									Count: 1b
 								}
 							]
+							display: {
+								Name: "{\"text\":\"Sail-like Blocks\"}"
+							}
 						}
 					}
 					count: 8L

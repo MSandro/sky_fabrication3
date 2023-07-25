@@ -1072,6 +1072,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Craftable with Elematilius Infusor\"}"
+						}
 						items: [
 							{
 								id: "croparia:croparia2"
@@ -1134,9 +1137,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Craftable with Elematilius Infusor\"}"
-						}
 					}
 				}
 			}]
@@ -1230,18 +1230,21 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Craftable with Ritual Tier 1\"}"
+						}
 						items: [
 							{
 								id: "croparia:soul_dagger"
-								Count: 1b
 								tag: {
 									Damage: 0
 								}
+								Count: 1b
 							}
 							{
 								id: "croparia:midas_hand"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "croparia:horn_plenty"
@@ -1253,13 +1256,10 @@
 							}
 							{
 								id: "croparia:magic_rope"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Craftable with Ritual Tier 1\"}"
-						}
 					}
 				}
 			}]
@@ -1295,6 +1295,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Craftable with Ritual Tier 2\"}"
+						}
 						items: [
 							{
 								id: "croparia:accelerator"
@@ -1302,8 +1305,8 @@
 							}
 							{
 								id: "croparia:elemental_time"
-								Count: 1b
 								tag: { }
+								Count: 1b
 							}
 							{
 								id: "croparia:collector"
@@ -1314,9 +1317,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Craftable with Ritual Tier 2\"}"
-						}
 					}
 				}
 			}]
@@ -1344,6 +1344,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Elementals\"}"
+						}
 						items: [
 							{
 								id: "croparia:elemental_water"
@@ -1362,9 +1365,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Elementals\"}"
-						}
 					}
 				}
 			}]
@@ -1400,6 +1400,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Elemental Shards\"}"
+						}
 						items: [
 							{
 								id: "croparia:water_shard"
@@ -1418,9 +1421,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Elemental Shards\"}"
-						}
 					}
 				}
 			}]
@@ -1457,6 +1457,9 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Energy Generators\"}"
+						}
 						items: [
 							{
 								id: "croparia:solar_panel"
@@ -1479,9 +1482,6 @@
 								Count: 1b
 							}
 						]
-						display: {
-							Name: "{\"text\":\"Energy Generators\"}"
-						}
 					}
 				}
 			}]

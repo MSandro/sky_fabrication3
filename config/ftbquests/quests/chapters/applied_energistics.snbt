@@ -863,9 +863,6 @@
 					id: "itemfilters:or"
 					Count: 1b
 					tag: {
-						display: {
-							Name: "{\"text\":\"Any Wireless Terminal\"}"
-						}
 						items: [
 							{
 								id: "ae2:wireless_terminal"
@@ -888,6 +885,9 @@
 								Count: 1b
 							}
 						]
+						display: {
+							Name: "{\"text\":\"Any Wireless Terminal\"}"
+						}
 					}
 				}
 			}]
