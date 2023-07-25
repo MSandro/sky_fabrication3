@@ -1,6 +1,7 @@
 name = "The Extractinator (Fabric)"
 filename = "TheExtractinator-1.0.8.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"

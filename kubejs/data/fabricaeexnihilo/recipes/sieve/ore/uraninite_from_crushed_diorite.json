@@ -1,6 +1,6 @@
 {
   "type": "fabricaeexnihilo:sieve",
-  "result": "create:crushed_zinc_ore",
+  "result": "create:crushed_raw_zinc",
   "input": "fabricaeexnihilo:crushed_andesite",
   "rolls": {
     "fabricaeexnihilo:iron_mesh": [0.05, 0.05],
