@@ -16776,7 +16776,7 @@ hash = "a6a8af75a02d648a894e58039996f85685aa7142b83aa8663fcf30b23b86383d"
 file = "kubejs/data/indrev/recipes/smelter/molten_iron_from_nugget.json"
 hash = "9a519ff26ffe68b94ae307429ea0166aecf4427d8ef6b0e41528e984806576d2"
 
-[[files]]<<<<<<< 0.6.3
+[[files]]
 file = "kubejs/data/indrev/recipes/smelter/molten_iron_from_ore.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -21062,4 +21062,4 @@ hash = "53bae4016ac9ff06490a530add65fec916f770a5bf0d4dab005feb576ab120d8"
 
 [[files]]
 file = "sf3_changelog.txt"
-hash = "5c592edd790cd580eecef970a50c260cc267030175af98bbc5fae5215d22c47d"
+hash = "fe7bf47b2d15bdfc0fae5bda9e2d91b2fce3a173499c6ed54bafcc04aca880c6"
