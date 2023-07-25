@@ -1,42 +1,7 @@
-SF3 0.6.3 Changelog
-
-Mod Updates + Fixed issues related to mods that are no longer available on CurseForge.
-Iris Shaders is included again!
-
-Mod Update Highlight:
-* Create 0.5.1: e.g. new Elevator Pulley, better Contraption Controls, Copycat Panels / Steps, Water Wheel, Mechanical Roller, ...
+SF3 0.7.0 Changelog
 
 Added:
-* Neruina - Ticking Entity Fixer (fixed #100)
-* MyLoot (Instanced loot per player for a better looting experience)
-
-Removed:
-* Public-Gui-Announcement
-* Create Sifter (not compatible with Create 0.5.1)
+* Ad Astra
+* Mystical Nature
 
 Updated:
-* Building Wands: BuildingWands-mc1.18.2-2.6.6-release-fabric.jar -> BuildingWands-mc1.18.2-2.6.7-release-fabric.jar
-* Collective: collective-1.18.2-6.55.jar -> collective-1.18.2-6.65.jar
-* Cosmetica: cosmetica-1.18.2-1.2.4.jar -> cosmetica-1.18.2-1.2.5.jar
-* Create Fabric: create-fabric-0.5.0.i-1016+1.18.2.jar -> create-fabric-0.5.1-b-build.1078+mc1.18.2.jar
-* Drippy Loading Screen [Fabric]: drippyloadingscreen_fabric_2.2.1_MC_1.18.2.jar -> drippyloadingscreen_fabric_2.2.2_MC_1.18.2.jar
-* Essential Commands: essential_commands-0.33.1-mc1.18.2.jar -> essential_commands-0.33.2-mc1.18.2.jar
-* Fabrication: fabrication-3.3.1+1.18.jar -> fabrication-3.3.3+1.18.jar
-* Fabric Language Kotlin: fabric-language-kotlin-1.9.4+kotlin.1.8.21.jar -> fabric-language-kotlin-1.9.6+kotlin.1.8.22.jar
-* Flan (Fabric): flan-1.18.2-1.8.4.1-fabric.jar -> flan-1.18.2-1.8.6-fabric.jar (Server Only)
-* FTB Teams (Fabric): ftb-teams-fabric-1802.2.10-build.96.jar -> ftb-teams-fabric-1802.2.11-build.107.jar
-* Harvest with ease: harvestwithease-1.18.2-6.0.1.2-fabric.jar -> harvestwithease-1.18.2-6.0.1.3-fabric.jar
-* KubeJS Create: kubejs-create-fabric-1802.2.2-build.28.jar -> kubejs-create-fabric-1802.2.4-build.14.jar
-* Macaw's Bridges: mcw-bridges-2.0.7-mc1.18.2fabric.jar -> mcw-bridges-2.1.0-mc1.18.2fabric.jar
-* Macaw's Paths and Pavings: mcw-paths-1.0.2fabric-mc1.18.2.jar -> mcw-paths-1.0.3fabric-mc1.18.2.jar
-* Macaw's Roofs: mcw-roofs-2.2.3-mc1.18.2fabric.jar -> mcw-roofs-2.2.4-mc1.18.2fabric.jar
-* Macaw's Trapdoors: mcw-trapdoors-1.1.0-mc1.18.2fabric.jar -> mcw-trapdoors-1.1.1-mc1.18.2fabric.jar
-* MCPitanLib (Fabric/Forge): mcpitanlibarch-1.6.3-1.18.2-fabric.jar -> mcpitanlibarch-1.7.1-1.18.2-fabric.jar
-* ModernFix: modernfix-mc1.18.2-fabric-2.7.1.jar -> modernfix-fabric-5.2.5+mc1.18.2.jar
-* No Unused Chunks: nounusedchunks-1.3.jar -> nounusedchunks-2.0+1.18.2.jar
-* Pehkui: Pehkui-3.7.5+1.14.4-1.20.jar -> Pehkui-3.7.7+1.14.4-1.20.1.jar
-* Pickable Villagers [Fabric]: pickable_villagers-1.2.4+1.18.2.jar -> pickable_villagers-1.2.5+1.18.2.jar
-* Roughly Enough Items Fabric/Forge (REI): RoughlyEnoughItems-8.3.614.jar -> RoughlyEnoughItems-8.3.631.jar
-* Suggestion Tweaker: suggestion-tweaker-1.18.2-1.4.1-fabric.jar -> suggestion-tweaker-1.18.2-1.4.2-fabric.jar
-* Traveler's Backpack [Fabric]: travelers-backpack-1.18.2-7.1.26.jar -> travelers-backpack-1.18.2-7.1.29.jar
-* Your Options Shall Be Respected (YOSBR): yosbr-0.1.1.jar -> yosbr-0.1.2.jar

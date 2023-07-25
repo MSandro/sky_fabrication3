@@ -1,0 +1,13 @@
+name = "Mystical Nature [Fabric]"
+filename = "mysticalnature-1.8.5-1.18.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "385a88adbf3ff5f44c6bf83fee818f9bd0495f86"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4454649
+project-id = 667727

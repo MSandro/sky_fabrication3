@@ -61,10 +61,55 @@ const DelCompressem = [
   "compress:yarn_ball"
 ]
 
+const DelOldMysticalCropsItems = [
+  "mysticalcrops:advance_coal_block",
+  "mysticalcrops:advance_coal",
+  "mysticalcrops:advance_crystal",
+  "mysticalcrops:advance_essence_block",
+  "mysticalcrops:advance_essence",
+  "mysticalcrops:advance_watering_can",
+  "mysticalcrops:basic_coal_block",
+  "mysticalcrops:basic_coal",
+  "mysticalcrops:basic_crystal",
+  "mysticalcrops:basic_essence_block",
+  "mysticalcrops:basic_essence",
+  "mysticalcrops:basic_watering_can",
+  "mysticalcrops:botanical_ritual_table",
+  "mysticalcrops:craft_seeds_tier_1",
+  "mysticalcrops:craft_seeds_tier_2",
+  "mysticalcrops:craft_seeds_tier_3",
+  "mysticalcrops:craft_seeds_tier_4",
+  "mysticalcrops:craft_seeds_tier_5",
+  "mysticalcrops:essence_fruit_tier_1",
+  "mysticalcrops:essence_fruit_tier_2",
+  "mysticalcrops:essence_fruit_tier_3",
+  "mysticalcrops:essence_fruit_tier_4",
+  "mysticalcrops:essence_fruit_tier_5",
+  "mysticalcrops:essence_seeds_tier_1",
+  "mysticalcrops:essence_seeds_tier_2",
+  "mysticalcrops:essence_seeds_tier_3",
+  "mysticalcrops:essence_seeds_tier_4",
+  "mysticalcrops:essence_seeds_tier_5",
+  "mysticalcrops:ultra_essence",
+  "mysticalcrops:ultimate_coal_block",
+  "mysticalcrops:ultimate_coal",
+  "mysticalcrops:ultimate_crystal",
+  "mysticalcrops:ultimate_essence_block",
+  "mysticalcrops:ultimate_essence",
+  "mysticalcrops:ultimate_watering_can",
+  "mysticalcrops:ultra_coal_block",
+  "mysticalcrops:ultra_coal",
+  "mysticalcrops:ultra_crystal",
+  "mysticalcrops:ultra_essence_block",
+  "mysticalcrops:ultra_watering_can",
+  "mysticalcrops:uncommon_essence_block",
+]
+
 onEvent("rei.hide.items", event => {
-    DelCompressem.forEach(id => event.hide(id));
-    DELETED_ITEMS.forEach(id => event.hide(id));
-    DELETED_ITEMS_CUSTOM.forEach(id => event.hide(id));
+  DelCompressem.forEach(id => event.hide(id));
+  DelOldMysticalCropsItems.forEach(id => event.hide(id));
+  DELETED_ITEMS.forEach(id => event.hide(id));
+  DELETED_ITEMS_CUSTOM.forEach(id => event.hide(id));
 	DELETED_ITEMS_TICPARITY.forEach(id => event.hide(id));
 	DELETED_FLUIDS.forEach(id => event.hide(Item.of('techreborn:cell', `{fluid:"${id}"}`))); // Yeeted cells of deleted and not-existent on Fabric fluids away from REI
 	event.hide(Item.of('techreborn:cell', '{fluid:"tconstruct:potion"}'))

@@ -1,0 +1,59 @@
+{
+  "type": "mysticalcrops:transform",
+  "ingredients": [
+    {
+            "ingredient": {
+        "tag": "c:crystals"
+      }
+    },
+    {
+      "ingredient": {
+      "item": "techreborn:zinc_ingot"
+      }
+    },
+    {
+            "ingredient": {
+        "item": "mysticalcrops:wonderful_essence"
+      }
+    },
+    {
+      "ingredient": {
+      "item": "techreborn:zinc_ingot"
+      }
+    },
+    {
+            "ingredient": {
+        "item": "mysticalcrops:wonderful_essence"
+      }
+    },
+    {
+            "ingredient": {
+        "item": "mysticalcrops:perfect_craft_seeds"
+      }
+    },
+    {
+            "ingredient": {
+        "item": "mysticalcrops:wonderful_essence"
+      }
+    },
+    {
+      "ingredient": {
+      "item": "techreborn:zinc_ingot"
+      }
+    },
+    {
+            "ingredient": {
+        "item": "mysticalcrops:wonderful_essence"
+      }
+    },
+    {
+      "ingredient": {
+      "item": "techreborn:zinc_ingot"
+      }
+    }
+  ],
+  "output": {
+
+    "item": "mysticalcrops:zinc_seeds"
+  }
+}

@@ -13,10 +13,6 @@ file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 
 [[files]]
-file = "config/MythicMountsConfig.json"
-hash = "bd09c57d14a7fe7bb2e3691fbf166cc861b89d5339a099ca363621aaae8bbc21"
-
-[[files]]
 file = "config/SkipTransitions.properties"
 hash = "57aff8e15bfd1a7ad48ef2b985993a3b2d9d0a69139da5402f8730299699bbfc"
 
@@ -130,7 +126,7 @@ hash = "a501696d64a37301b15bc191e8a455e160d5ee063025667bc2b2745be5e6d1e0"
 
 [[files]]
 file = "config/bcc.json"
-hash = "388ffc484bad29cf1bf14dcff535cc207f409fae971f00f3236042dcc70015dd"
+hash = "e72996d2c2706408460278268e54385136b33c8078c3212bceb5d75ee12a0560"
 
 [[files]]
 file = "config/bclib/biomes.json"
@@ -1850,7 +1846,7 @@ hash = "6d3a149813e793e71e03d3c92a90e3431dfe7ee44579759220521a1247c0b500"
 
 [[files]]
 file = "config/fancymenu/customization/main.txt"
-hash = "b4899cdb0aaab0dd3266b2a5fa8daf46066085a74af41e9627e8575ded194cda"
+hash = "2ec8a3074787a84c03eb0790445ac43fe95af17eebf445577f4f24d0e629e877"
 
 [[files]]
 file = "config/fancymenu/customization/pause_menu.txt"
@@ -2694,7 +2690,7 @@ hash = "2aca1f372c6d27456e1b6ab342c1e7e757ff43ba3fe85afd31ee1da185993276"
 
 [[files]]
 file = "config/spatialharvesters.conf"
-hash = "a75acfed5673050deaf166c89bbf846cf34bc53790f7d53530f009b3819f64f9"
+hash = "1140ff39474b14911cf6775281b532504a52335ee66a775e8d5ad6071b9c0748"
 
 [[files]]
 file = "config/stoneholm.json5"
@@ -9850,7 +9846,7 @@ hash = "c888d8c7a00431c569e05d98ca704109573ef50d73d35d0a18a0d635a78d7866"
 
 [[files]]
 file = "kubejs/client_scripts/rei_removal_script.js"
-hash = "d810d420921ff36e2a8d19c22db58348d601de0e501e973d4ec9502039f40588"
+hash = "6e078cb4d6e860ac65f8eab4ec994461cd1234263f0e3fcb2782d34c685561b1"
 
 [[files]]
 file = "kubejs/client_scripts/script.js"
@@ -16780,7 +16776,7 @@ hash = "a6a8af75a02d648a894e58039996f85685aa7142b83aa8663fcf30b23b86383d"
 file = "kubejs/data/indrev/recipes/smelter/molten_iron_from_nugget.json"
 hash = "9a519ff26ffe68b94ae307429ea0166aecf4427d8ef6b0e41528e984806576d2"
 
-[[files]]
+[[files]]<<<<<<< 0.6.3
 file = "kubejs/data/indrev/recipes/smelter/molten_iron_from_ore.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -18009,6 +18005,490 @@ file = "kubejs/data/modern_industrialization/tags/items/replicator_blacklist.jso
 hash = "d06520de46cb63c4c050f2ab2f0e40d23df87505c5f98b01998143cb061d33d6"
 
 [[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/deepslate_essence_ore.json"
+hash = "5aaa969ad18c504c4d8e6e54cdd0135f728ee82fd34ea06f82ac751cfc846660"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/end_essence_ore.json"
+hash = "c932d3dc32178a95738aa1f98174ebe6de4757bb4949ebf672402269a6f7c8d1"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_crop_tier_1.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_crop_tier_2.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_crop_tier_3.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_crop_tier_4.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_crop_tier_5.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/essence_ore.json"
+hash = "2c19d37e1d0557587c0d6fd616b19e31e19d13fb3bb533e6b01c444046a6f2a4"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/loot_tables/blocks/nether_essence_ore.json"
+hash = "229e69770b288d96967ce555c8cdad721ce032b5427869541b61af40427fbe6f"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/advanced_alloy_seed.json"
+hash = "c818197c2874a86b6e5b0f74a90ae250563998722c739cb858181aa9a95ecf9f"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/air_seed.json"
+hash = "aec6d2746a16bbb459856c8e8a40543226a618ccaf8051eae77c85f5d1af0e2b"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/aluminium_seed.json"
+hash = "7d2cd01a29c17a11aa18b44eb30e81504cb451f2087d9fb625a12187bdf5e1bf"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/amethyst_seed.json"
+hash = "a6796d7ec888d4409907ffec8eee6ed2970e7d548f9025e114a55dd48c1fcaf1"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/brass_seed.json"
+hash = "213a8e636ec91ed649e8a36136f181444e74d8fdaf77ad524e67776479185e25"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/bronze_seed.json"
+hash = "5904aa512cd6a0c437f2b782ca7c372d3f9580c6e8de36a7619d4174e995419c"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/calorite_seed.json"
+hash = "a02c47510ead55e4816112f6b2fa3af1d61de8f48686b1f9c214208a1fb0a43a"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/certus_seed.json"
+hash = "fb2607241204e132a5598c888c1afe11f1a8ee829a2680eb57b223717c3b4ce4"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/chicken_seed.json"
+hash = "4cff666d82992e1598e79ee35e438364db717af0de03543b8c3f37dca08722aa"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/chromium_seed.json"
+hash = "51925a608ddbc4c32c331c563a3cf9542232842e72f635c96aeb933d4bd55e6f"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/clay_seed.json"
+hash = "ab04d24fc9be8096cd224794aabcec9d698decb72fe936e30153788254348e09"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/coal_seed.json"
+hash = "fb91e5e514f4724406379fdb8da23968475915c13f6c92ed33f5e6f8772883d8"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/copper_seed.json"
+hash = "b18f22df8fbc93cf45e4ca0f06129d44c4d0f270ae39d717a6531a3df23943a9"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/cow_seed.json"
+hash = "4c40e2369417c817096e7e9e6b12192f1f0cb672678ff11325b261350c2a2820"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/desh_seed.json"
+hash = "d9e1da119744c2724e8002dbe378e2d437afa5ed7ddb7cca8a8b34a8caf81036"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/diamond_seed.json"
+hash = "f57a8992414d77571435ea9bfa980e6e98ba4c983120f95bcb0c4ed4a3112de4"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/dirt_seed.json"
+hash = "7d783959ccc06c07bf82aaa470001ea76344499f30c6bc00eaff5e5c82b8a35e"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/dye_seed.json"
+hash = "f4a4139ba1e3dae8625432e5019a0480e0d6de8b3d47f2badd4a03abd81fc49c"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/electrum_seed.json"
+hash = "0e01d4fd2c5591bde3fa08e175ba052cc0917ced8b7c6c3bd667ec0e6bf68357"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/emerald_seed.json"
+hash = "e2cc0f6f30da5b214848ed57f63ffbc5d318842ce9d924ee9ccdf385d95e73c0"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/end_seed.json"
+hash = "585fdeb530770d60bc6b844eca88cc669e88220c6884d6ec1ddacbe620b6f635"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/ender_seed.json"
+hash = "9c7a7a3e4d9422130fec1b7316be1bf68c29a7040f22633205fcc3ff2ad3882b"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/essence_tier_1_seed.json"
+hash = "a895fed4db806bd557af2a4c338010b8ff6dff09c1a06413aed69c2cce958f3d"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/essence_tier_2_seed.json"
+hash = "9eb20744f14d4a623607ea81dcaf7a09beab5fe26680dbc909100cd107e86878"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/essence_tier_3_seed.json"
+hash = "4123d7635c4eb55f9516f4d7a711ddfa27e604de2ebf284ee90253a56f2e8b1d"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/essence_tier_4_seed.json"
+hash = "8915a991f0726e2e21d8ae02476f52595aaffc2397aae5ffa8925ad7d87daba0"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/essence_tier_5_seed.json"
+hash = "7c81bd4d64f628a74c69651dd3e73ec2eca9bb21054f2e3ff0d20ac4f53bcee4"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/fire_seed.json"
+hash = "44942e427133eda07bdb3b662d8d27a7e9cb72b6e0b6aca2b3260a933c39048e"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/fluix_seed.json"
+hash = "b111412e31b7b47e204665ead55bb09af9efcf2cf08a9b67dc97f03e6765500a"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/glowstone_seed.json"
+hash = "0452abad361e6cc36601367447ed33a8a7a8b3d828ae2652162a555a95d8baac"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/gold_seed.json"
+hash = "7c75d4b53abfe7c4063fae888795d0adc14162175a3c5c54bebe43ad8d59bdd6"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/gravel_seed.json"
+hash = "145f753546ec541a309168413b272194b75aadab94485f1b2e17636678511705"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/invar_seed.json"
+hash = "13f2d544dfdde7f50ceae1932febc34810750fbc03eeb619079cd0ccb6369185"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/iridium_seed.json"
+hash = "7a9283c2e90d06a8f2b05e107dc8c4b474bc839f4f8e5d2584f2d2601a3bebd7"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/iron_seed.json"
+hash = "7585a32765c60c1360e57c94fe4c6ff5746076332fc38e10ec7152c345eae732"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/lapis_seed.json"
+hash = "0697c50609ddab7764427270d92a078dbdde877710e1d8c88cdc057a4ed729c3"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/lead_seed.json"
+hash = "17dc2d45e821b230d8c6ff510c3e9d2a3f21f8bb726781ee2f281f5d73c6d5d6"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/nature_seed.json"
+hash = "b60606b5a5f63c3a10a8cae18bf3df46ec0dcd0bb5b45b7700d4ae6b370e7e1b"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/nether_seed.json"
+hash = "baccad056ed718f5f14eb66321630d7bcbe249b1c23da05ca35cca9503bd0546"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/netherite_seed.json"
+hash = "01c094aa7ce857824b23847e73f13d9f8f1f39d3fcf1adc2574f60fe4231966f"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/nickel_seed.json"
+hash = "1f61bb5520cdb4efa2bdd38f0f22d69638293608035750f4ca0040e3e7e0122a"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/nikolite_seed.json"
+hash = "d14bd0684ed175368c7fca5e6cc36c18e368f4d786ab8fcb9aedcdb8ed988f62"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/obsidian_seed.json"
+hash = "92574907a76b03deec60b38eb94ccdba31e54dec4b216b98deb2bf649bf64edd"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/ostrum_seed.json"
+hash = "1d56750ef96c2fe882d2686d086274a43bfa4ca593ff5a1ad56f8b6fce41d8e5"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/platinum_seed.json"
+hash = "5829cae19fde28fc0bf451a299f4976ac2ce70b770b735d17a59e5c35bd41ca7"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/prismarine_seed.json"
+hash = "dd6290b7028ae6c2260b1dc54ecb38aa2d18ae9a400a954a750965577e357b0f"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/quartz_seed.json"
+hash = "0d8a0deb17f3f11416ec606b1cc950b76aebecf344d166f1befeb06cc7381d48"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/redstone_seed.json"
+hash = "1be05efcd5977e8bcfbb386514db00cca7d07bee804d314764b3b2740a1876af"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/refined_iron_seed.json"
+hash = "540832426a7284c27ba5ee405d823da9de934b4a8520837ade89f702a90a7c73"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/rubber_seed.json"
+hash = "3d7344d1566529a68b2042350fcaca25123f7d85b180623999c29ba78936aa1c"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/sand_seed.json"
+hash = "063bf97a29fcf3be2b8f3991e9fad6b93aa5127fe05fe80ce314e03173e7efc7"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/sheep_seed.json"
+hash = "21230c3320ce2fb3c3c53a5cae7a468c4d19a757508fdac215c170f98bbc918a"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/silver_seed.json"
+hash = "b40c8d60848dac614b09c3f6349d1ce31c7c595a8f61826e42561c8522a59321"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/snow_seed.json"
+hash = "e2e7cbc33554759ee63c2dc27401a8e02cb795eccc5ab69e4d6e9f6c17b8d7c9"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/soul_seed.json"
+hash = "3b3dc71ccae0672657428053ac827218a9c3ac4bb8d56b73b03ee78e61bbf8c8"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/star_seed.json"
+hash = "a885006d4ef13270499d842f429dd38dee8820aaa17a50d4cb45c64e52515619"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/steel_seed.json"
+hash = "9be32a42893129a71e8e1052d16468c6194d9e5403bfaa7f48146308454c3b70"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/stone_seed.json"
+hash = "01c8094bf9833a347ccbbe5bf908e197a558ab0e922dda8d6d13bb2db39077c2"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/tin_seed.json"
+hash = "f9e5ef8e4de5058183ed6a37e1a3719cd83e2792d14b24162e0902d8d9c79d58"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/titanium_seed.json"
+hash = "207052ccb4313f2c6cb897b6bf4dc272a600d4dc61eb1786b664bf2f82ba9b30"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/tungsten_seed.json"
+hash = "926261b614ed5f3d3db929cbf2c6414e67e3f6416c4b79474487ad95cc237b36"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/tungstensteel_seed.json"
+hash = "63d6879e4ea952ccccb9d36ab5215934ea9ff56ce360ed20fe00f7e090c644a7"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/water_seed.json"
+hash = "7254414f60f35f81240b2ca7b23999348a7f7bbfc7cf06d0a1b110fdbca89059"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/wither_seed.json"
+hash = "ae1a41980026f7d0edc1567c06b3a631043a3c7c81be47db4b054ac0e38baec9"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/wood_seed.json"
+hash = "08e4f49c6b7bc8fcb86da3711d7c8f75f28b4fef7a1e870e5eca8e7079588068"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/mi_centrifuge_recycling/zinc_seed.json"
+hash = "5f57380771caa2a3906817ac83a1fae5d6b38455b6dfc727299ad6c9bb41a817"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/advance_coal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/advance_coal_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/advance_crystal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/advance_essence.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/advance_essence_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/advance_watering_can.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/basic_coal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/basic_coal_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/basic_crystal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/basic_essence.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/basic_essence_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/basic_watering_can.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/botanical_ritual_table.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/craft_seeds_1.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/craft_seeds_3.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/craft_seeds_4.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/craft_seeds_5.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_fruit_1.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_fruit_2.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_fruit_3.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_fruit_4.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_fruit_5.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_seeds_1.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_seeds_2.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_seeds_3.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_seeds_4.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/essence_seeds_5.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/excellent_essence.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultimate_coal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultimate_coal_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultimate_crystal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultimate_essence.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultimate_essence_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultimate_watering_can.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultra_coal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultra_coal_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultra_crystal.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultra_essence_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/ultra_watering_can.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/old/uncommon_essence_block.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/seeds/brass_seed2.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/seeds/echo_essence.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/seeds/echo_seed.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/seeds/echoshard.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/seeds/zinc2_seed.json"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/mysticalcrops/recipes/seeds/zinc_seed.json"
+hash = "a28f6fff0801817e51dc565495049d2638e97a7835ee87ceff321c221bae1d34"
+
+[[files]]
 file = "kubejs/data/plantinajar/recipes/plant_jar.json"
 hash = "e77d2f3bc9057e4fe2ca884ceeeeb12045b2bbbfda6e023801c4204b341c76a5"
 
@@ -18989,12 +19469,13 @@ file = "kubejs/startup_scripts/script.js"
 hash = "41137fc5597c4653b0466867b6aaf90e3efbdcbd8f7f8b4fcda51ebe3e380421"
 
 [[files]]
-file = "kubejs/startup_scripts/seeds.js"
-hash = "7c8ad61a191b4a1b508c0337474aed0d86a16c9e2ed7418534f9a506dc1bd298"
-
-[[files]]
 file = "mods/accurate-block-placement.pw.toml"
 hash = "9ba46690ca57a051174473b215349909e14945d715b4af3651012126be9895bd"
+metafile = true
+
+[[files]]
+file = "mods/ad-astra.pw.toml"
+hash = "888ac53b89e1a68a99ad3ae74851023ab1668e6aa755d2b552ac1addf1844956"
 metafile = true
 
 [[files]]
@@ -20062,6 +20543,11 @@ hash = "fc6315335e06958860884b6f182b0e878879939f6bbbae2189e2909ccdf3d3e8"
 metafile = true
 
 [[files]]
+file = "mods/mystical-nature.pw.toml"
+hash = "7124fb7209e5e188aeee31edaf49bf91fc5a29475209422b26a1c0455cbb02c0"
+metafile = true
+
+[[files]]
 file = "mods/narratebookforme-fabric.pw.toml"
 hash = "b0c78d38b0664fd9877d0fbcb7b5db3d2b294f198e4c6b0fc1fdd1cf99e616fc"
 metafile = true
@@ -20576,4 +21062,4 @@ hash = "53bae4016ac9ff06490a530add65fec916f770a5bf0d4dab005feb576ab120d8"
 
 [[files]]
 file = "sf3_changelog.txt"
-hash = "f81dee9ffcfc1e758c519fe9cd9f0a51014e4149300aca4f221718637b7860a7"
+hash = "5c592edd790cd580eecef970a50c260cc267030175af98bbc5fae5215d22c47d"
