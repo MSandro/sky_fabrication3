@@ -1,0 +1,13 @@
+name = "myLoot"
+filename = "myloot-2.1.4-1.18.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "97bd7fcf736096d41d82f51cc9bb56516265653e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3923264
+project-id = 582459

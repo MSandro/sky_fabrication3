@@ -42,14 +42,6 @@ onEvent('item.registry', event => {
   event.create('zinc_purified_ore', 'basic').displayName('Purified Zinc Ore');
   event.create('cobalt_purified_ore', 'basic').displayName('Purified Cobalt Ore');
   event.create('uranium_purified_ore', 'basic').displayName('Purified Uranium Ore');
-  
-  // Create Sifter-compatible Meshes
-  
-  event.create('diamond_mesh','createsifter:mesh').displayName('Diamond Mesh').parentModel("createsifter:block/meshes/custom_mesh").texture("1","createsifter:item/diamond_mesh").texture("0","minecraft:block/oak_planks");
-  event.create('emerald_mesh','createsifter:mesh').displayName('Emerald Mesh').parentModel("createsifter:block/meshes/custom_mesh").texture("1","createsifter:item/emerald_mesh").texture("0","minecraft:block/oak_planks");
-  event.create('netherite_mesh','createsifter:mesh').displayName('Netherite Mesh').parentModel("createsifter:block/meshes/custom_mesh").texture("1","createsifter:item/netherite_mesh").texture("0","minecraft:block/oak_planks");
-  event.create('copper_mesh','createsifter:mesh').displayName('Copper Mesh').parentModel("createsifter:block/meshes/custom_mesh").texture("1","createsifter:item/copper_mesh").texture("0","minecraft:block/oak_planks");
-  event.create('carbon_mesh','createsifter:mesh').displayName('Carbon Mesh').parentModel("createsifter:block/meshes/custom_mesh").texture("1","createsifter:item/carbon_mesh").texture("0","minecraft:block/oak_planks");
 
   event.create('incomplete_logic_processor').displayName('Incomplete Logic Processor').texture("ae2:item/printed_silicon");
   event.create('incomplete_engineering_processor').displayName('Incomplete Engineering Processor').texture("ae2:item/printed_silicon");
